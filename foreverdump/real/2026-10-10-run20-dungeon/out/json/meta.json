@@ -1,0 +1,2309 @@
+{
+ "config": {
+  "cl": {
+   "advanced": true,
+   "damageMeter": true,
+   "maxArgs": 40,
+   "maxEvents": 10000,
+   "maxSessions": 3,
+   "maxString": 200,
+   "redactPlayers": false
+  },
+  "combatProbe": {
+   "dispelSpells": [
+    4987,
+    527,
+    475,
+    2782,
+    8946,
+    51886,
+    77130,
+    88423,
+    115450,
+    2908
+   ],
+   "enabled": true,
+   "maxCells": 4000,
+   "maxRunsPerCapture": 80,
+   "minInterval": 3,
+   "nameplates": 3
+  },
+  "configVersion": 23,
+  "containers": {
+   "enabled": true,
+   "eventSamples": 25,
+   "events": true,
+   "maxRunsPerCapture": 8,
+   "spells": 4
+  },
+  "damageMeter": {
+   "classifyHz": 2,
+   "deepRead": true,
+   "enabled": true,
+   "maxDetails": 40,
+   "maxFights": 20,
+   "maxSources": 200,
+   "maxSpells": 80,
+   "probe": true
+  },
+  "drift": {
+   "absTol": 0.15,
+   "decay": 0.9,
+   "enabled": true,
+   "maxChangelog": 200,
+   "maxItems": 500,
+   "minDisagree": 2.5,
+   "ratio": 0.6,
+   "relTol": 0.1
+  },
+  "dump": {
+   "full": false
+  },
+  "errors": {
+   "captureLocals": true,
+   "enabled": true,
+   "maxBlocked": 500,
+   "maxErrors": 200,
+   "maxLocals": 4000,
+   "maxStack": 4000
+  },
+  "frameBudgetMs": 12,
+  "hsm": {
+   "autoShow": true,
+   "combatSignals": true,
+   "enabled": true,
+   "keepSessions": 4,
+   "maxSignals": 3000,
+   "signals": true,
+   "tooltipCooldownSignal": false,
+   "updateInterval": 0.5,
+   "window": 0.6
+  },
+  "identity": {
+   "auraScan": true,
+   "enabled": true,
+   "minInterval": 0.25,
+   "pollInterval": 1
+  },
+  "knowledge": {
+   "cdLineProbe": true,
+   "enabled": true,
+   "foreign": true,
+   "maxExtra": 60,
+   "maxSpells": 150,
+   "spellsPerTick": 8
+  },
+  "lab": {
+   "auto": true,
+   "poll": false,
+   "pollInterval": 0.5
+  },
+  "learned": {
+   "auraWindow": 1,
+   "enabled": true,
+   "infoInterval": 0.5,
+   "infoPerTick": 6,
+   "maxClasses": 20,
+   "maxNpcs": 800,
+   "maxSpells": 2000
+  },
+  "logs": {
+   "advanced": true,
+   "autoBG": false,
+   "autoReload": true,
+   "bgReminder": true,
+   "callLogging": false,
+   "chat": true,
+   "combat": true,
+   "combatProbe": true,
+   "errors": true,
+   "fullDump": true,
+   "probe": true,
+   "profile": true,
+   "recorder": true,
+   "scriptErrors": true,
+   "sweep": true,
+   "taintLog": 1
+  },
+  "perf": {
+   "enabled": true,
+   "keepSessions": 4,
+   "maxSamples": 720,
+   "sampleInterval": 5
+  },
+  "probe": {
+   "achievements": [
+    6,
+    7
+   ],
+   "currencies": [
+    1,
+    81,
+    1792
+   ],
+   "items": [
+    6948,
+    2589,
+    118,
+    25,
+    2070,
+    159
+   ],
+   "maxAuras": 40,
+   "quests": [
+    783,
+    7,
+    33
+   ],
+   "redactPlayers": true,
+   "spells": [
+    6603,
+    8690,
+    133,
+    2050,
+    1459,
+    78,
+    465,
+    1752
+   ],
+   "units": [
+    "player",
+    "target",
+    "focus",
+    "pet",
+    "mouseover",
+    "party1"
+   ]
+  },
+  "progressEverySec": 2,
+  "record": {
+   "callbackEvents": [
+    "Tooltip.OnShown",
+    "Tooltip.OnHidden",
+    "ActionButton.OnActionChanged",
+    "UIParentPanelManager.ShowUIPanel",
+    "UIParentPanelManager.HideUIPanel"
+   ],
+   "callbacks": false,
+   "maxArgs": 20,
+   "maxEvents": 4000,
+   "maxSessions": 3,
+   "maxString": 300,
+   "perEventPerSec": 5,
+   "redactChat": true
+  },
+  "replay": {
+   "anchorEveryN": 8,
+   "byteBudgetKB": {
+    "diag": 4194304,
+    "lab": 4194304,
+    "release": 512,
+    "test": 10240
+   },
+   "captureLevel": "lab",
+   "level": "release",
+   "ringCaps": {
+    "diag": {
+     "combat": 1000000,
+     "perEventPerSec": 1000,
+     "record": 2000000,
+     "signals": 250000
+    },
+    "lab": {
+     "combat": 1000000,
+     "perEventPerSec": 1000,
+     "record": 2000000,
+     "signals": 250000
+    },
+    "release": {
+     "combat": 10000,
+     "record": 4000,
+     "signals": 3000
+    },
+    "test": {
+     "combat": 85000,
+     "record": 38000,
+     "signals": 6000
+    }
+   },
+   "tapeCap": {
+    "diag": 2000000,
+    "lab": 2000000,
+    "release": 800,
+    "test": 68000
+   },
+   "verifyCap": {
+    "diag": 250000,
+    "lab": 250000,
+    "release": 600,
+    "test": 12000
+   }
+  },
+  "restrictions": {
+   "enabled": true,
+   "maxFlips": 400,
+   "maxMarkers": 600,
+   "maxProbedFlips": 150,
+   "probe": true
+  },
+  "secrets": {
+   "controls": true,
+   "maxCtx": 16,
+   "maxKeys": 4000,
+   "maxLive": 200,
+   "observe": true,
+   "opsPrint": true,
+   "selfErrorLimit": 20,
+   "sweep": true,
+   "sweepInterval": 5,
+   "sweepPerTick": 25
+  },
+  "static": {
+   "auto": false,
+   "loginDelay": 15
+  },
+  "timing": {
+   "enabled": true,
+   "maxSpells": 300,
+   "minSamples": 3
+  },
+  "tokens": {
+   "enabled": true
+  },
+  "tokenscan": {
+   "bailMs": 0.04,
+   "budgetMs": 0.12,
+   "enabled": true,
+   "interval": 0.1,
+   "maxTokensPerSlice": 24
+  },
+  "uiMaxChars": 120000,
+  "verify": {
+   "enabled": true,
+   "maxUnexpected": 200,
+   "ringSize": 600
+  },
+  "worldCapture": {
+   "budgetMs": 0.1,
+   "enabled": true,
+   "heartbeatSec": 5,
+   "interval": 0.2,
+   "maxTokensPerSlice": 12
+  }
+ },
+ "errors": null,
+ "history": [
+  {
+   "build": "70291",
+   "section": "profile",
+   "time": 1791519923,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70291",
+   "section": "profile",
+   "time": 1791519928,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70291",
+   "section": "profile",
+   "time": 1791552432,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70291",
+   "section": "profile",
+   "time": 1791552537,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70291",
+   "section": "profile",
+   "time": 1791552545,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70291",
+   "section": "profile",
+   "time": 1791553662,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70291",
+   "section": "profile",
+   "time": 1791566223,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70291",
+   "section": "profile",
+   "time": 1791566762,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70291",
+   "section": "profile",
+   "time": 1791571345,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70291",
+   "section": "profile",
+   "time": 1791571348,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70291",
+   "section": "profile",
+   "time": 1791571591,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70291",
+   "section": "profile",
+   "time": 1791572702,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70291",
+   "section": "profile",
+   "time": 1791580516,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70291",
+   "section": "profile",
+   "time": 1791581092,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70334",
+   "section": "profile",
+   "time": 1791588516,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70334",
+   "section": "profile",
+   "time": 1791590034,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70334",
+   "section": "profile",
+   "time": 1791600745,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70334",
+   "section": "profile",
+   "time": 1791601810,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70334",
+   "section": "profile",
+   "time": 1791603338,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70334",
+   "section": "profile",
+   "time": 1791603339,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70334",
+   "section": "profile",
+   "time": 1791604293,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70334",
+   "section": "profile",
+   "time": 1791604310,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70334",
+   "section": "profile",
+   "time": 1791604322,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70334",
+   "section": "profile",
+   "time": 1791605592,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70334",
+   "section": "profile",
+   "time": 1791607029,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70334",
+   "section": "profile",
+   "time": 1791607043,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70334",
+   "section": "profile",
+   "time": 1791607049,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70334",
+   "section": "profile",
+   "time": 1791608383,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70334",
+   "section": "profile",
+   "time": 1791608752,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70334",
+   "section": "profile",
+   "time": 1791608953,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70338",
+   "section": "profile",
+   "time": 1791642254,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70338",
+   "section": "profile",
+   "time": 1791643279,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70338",
+   "section": "profile",
+   "time": 1791646693,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70338",
+   "section": "profile",
+   "time": 1791647060,
+   "version": "1.60.1"
+  }
+ ],
+ "meta": {
+  "addonVersion": "2.2.25",
+  "build": "70338",
+  "buildDate": "Oct  9 2026",
+  "date": "2026-10-10 11:44:20",
+  "identity": {
+   "anySecret": false,
+   "chains": {
+    "combat": {
+     "mouseover": {
+      "hostile-npc": {
+       "n": 1,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 1
+        },
+        "UnitClass": {
+         "S": 1
+        },
+        "UnitGUID": {
+         "S": 1
+        },
+        "UnitHealthMax": {
+         "S": 1
+        },
+        "UnitInParty": {
+         "C": 1
+        },
+        "UnitIsFriend": {
+         "C": 1
+        },
+        "UnitIsPlayer": {
+         "C": 1
+        },
+        "UnitIsUnit(player)": {
+         "C": 1
+        },
+        "UnitIsUnit(target)": {
+         "C": 1
+        },
+        "UnitLevel": {
+         "C": 1
+        },
+        "UnitName": {
+         "S": 1
+        },
+        "UnitPowerMax": {
+         "S": 1
+        }
+       }
+      }
+     },
+     "mouseovertarget": {
+      "hostile-npc>friendly-player": {
+       "n": 1,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 1
+        },
+        "UnitClass": {
+         "S": 1
+        },
+        "UnitGUID": {
+         "S": 1
+        },
+        "UnitHealthMax": {
+         "S": 1
+        },
+        "UnitInParty": {
+         "C": 1
+        },
+        "UnitIsFriend": {
+         "C": 1
+        },
+        "UnitIsPlayer": {
+         "C": 1
+        },
+        "UnitIsUnit(player)": {
+         "S": 1
+        },
+        "UnitIsUnit(target)": {
+         "S": 1
+        },
+        "UnitLevel": {
+         "C": 1
+        },
+        "UnitName": {
+         "S": 1
+        },
+        "UnitPowerMax": {
+         "S": 1
+        }
+       }
+      }
+     },
+     "nameplate1": {
+      "hostile-npc": {
+       "n": 18,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 18
+        },
+        "UnitClass": {
+         "S": 18
+        },
+        "UnitGUID": {
+         "S": 18
+        },
+        "UnitHealthMax": {
+         "S": 18
+        },
+        "UnitInParty": {
+         "C": 18
+        },
+        "UnitIsFriend": {
+         "C": 18
+        },
+        "UnitIsPlayer": {
+         "C": 18
+        },
+        "UnitIsUnit(player)": {
+         "C": 18
+        },
+        "UnitIsUnit(target)": {
+         "C": 18
+        },
+        "UnitLevel": {
+         "C": 18
+        },
+        "UnitName": {
+         "S": 18
+        },
+        "UnitPowerMax": {
+         "S": 18
+        }
+       }
+      }
+     },
+     "nameplate10": {
+      "hostile-npc": {
+       "n": 2,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 2
+        },
+        "UnitClass": {
+         "S": 2
+        },
+        "UnitGUID": {
+         "S": 2
+        },
+        "UnitHealthMax": {
+         "S": 2
+        },
+        "UnitInParty": {
+         "C": 2
+        },
+        "UnitIsFriend": {
+         "C": 2
+        },
+        "UnitIsPlayer": {
+         "C": 2
+        },
+        "UnitIsUnit(player)": {
+         "C": 2
+        },
+        "UnitIsUnit(target)": {
+         "C": 2
+        },
+        "UnitLevel": {
+         "C": 2
+        },
+        "UnitName": {
+         "S": 2
+        },
+        "UnitPowerMax": {
+         "S": 2
+        }
+       }
+      }
+     },
+     "nameplate11": {
+      "hostile-npc": {
+       "n": 1,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 1
+        },
+        "UnitClass": {
+         "S": 1
+        },
+        "UnitGUID": {
+         "S": 1
+        },
+        "UnitHealthMax": {
+         "S": 1
+        },
+        "UnitInParty": {
+         "C": 1
+        },
+        "UnitIsFriend": {
+         "C": 1
+        },
+        "UnitIsPlayer": {
+         "C": 1
+        },
+        "UnitIsUnit(player)": {
+         "C": 1
+        },
+        "UnitIsUnit(target)": {
+         "C": 1
+        },
+        "UnitLevel": {
+         "C": 1
+        },
+        "UnitName": {
+         "S": 1
+        },
+        "UnitPowerMax": {
+         "S": 1
+        }
+       }
+      }
+     },
+     "nameplate13": {
+      "hostile-npc": {
+       "n": 1,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 1
+        },
+        "UnitClass": {
+         "S": 1
+        },
+        "UnitGUID": {
+         "S": 1
+        },
+        "UnitHealthMax": {
+         "S": 1
+        },
+        "UnitInParty": {
+         "C": 1
+        },
+        "UnitIsFriend": {
+         "C": 1
+        },
+        "UnitIsPlayer": {
+         "C": 1
+        },
+        "UnitIsUnit(player)": {
+         "C": 1
+        },
+        "UnitIsUnit(target)": {
+         "C": 1
+        },
+        "UnitLevel": {
+         "C": 1
+        },
+        "UnitName": {
+         "S": 1
+        },
+        "UnitPowerMax": {
+         "S": 1
+        }
+       }
+      }
+     },
+     "nameplate2": {
+      "hostile-npc": {
+       "n": 15,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 15
+        },
+        "UnitClass": {
+         "S": 15
+        },
+        "UnitGUID": {
+         "S": 15
+        },
+        "UnitHealthMax": {
+         "S": 15
+        },
+        "UnitInParty": {
+         "C": 15
+        },
+        "UnitIsFriend": {
+         "C": 15
+        },
+        "UnitIsPlayer": {
+         "C": 15
+        },
+        "UnitIsUnit(player)": {
+         "C": 15
+        },
+        "UnitIsUnit(target)": {
+         "C": 15
+        },
+        "UnitLevel": {
+         "C": 15
+        },
+        "UnitName": {
+         "S": 15
+        },
+        "UnitPowerMax": {
+         "S": 15
+        }
+       }
+      }
+     },
+     "nameplate3": {
+      "hostile-npc": {
+       "n": 13,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 13
+        },
+        "UnitClass": {
+         "S": 13
+        },
+        "UnitGUID": {
+         "S": 13
+        },
+        "UnitHealthMax": {
+         "S": 13
+        },
+        "UnitInParty": {
+         "C": 13
+        },
+        "UnitIsFriend": {
+         "C": 13
+        },
+        "UnitIsPlayer": {
+         "C": 13
+        },
+        "UnitIsUnit(player)": {
+         "C": 13
+        },
+        "UnitIsUnit(target)": {
+         "C": 13
+        },
+        "UnitLevel": {
+         "C": 13
+        },
+        "UnitName": {
+         "S": 13
+        },
+        "UnitPowerMax": {
+         "S": 13
+        }
+       }
+      }
+     },
+     "nameplate4": {
+      "hostile-npc": {
+       "n": 8,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 8
+        },
+        "UnitClass": {
+         "S": 8
+        },
+        "UnitGUID": {
+         "S": 8
+        },
+        "UnitHealthMax": {
+         "S": 8
+        },
+        "UnitInParty": {
+         "C": 8
+        },
+        "UnitIsFriend": {
+         "C": 8
+        },
+        "UnitIsPlayer": {
+         "C": 8
+        },
+        "UnitIsUnit(player)": {
+         "C": 8
+        },
+        "UnitIsUnit(target)": {
+         "C": 8
+        },
+        "UnitLevel": {
+         "C": 8
+        },
+        "UnitName": {
+         "S": 8
+        },
+        "UnitPowerMax": {
+         "S": 8
+        }
+       }
+      }
+     },
+     "nameplate5": {
+      "hostile-npc": {
+       "n": 11,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 11
+        },
+        "UnitClass": {
+         "S": 11
+        },
+        "UnitGUID": {
+         "S": 11
+        },
+        "UnitHealthMax": {
+         "S": 11
+        },
+        "UnitInParty": {
+         "C": 11
+        },
+        "UnitIsFriend": {
+         "C": 11
+        },
+        "UnitIsPlayer": {
+         "C": 11
+        },
+        "UnitIsUnit(player)": {
+         "C": 11
+        },
+        "UnitIsUnit(target)": {
+         "C": 11
+        },
+        "UnitLevel": {
+         "C": 11
+        },
+        "UnitName": {
+         "S": 11
+        },
+        "UnitPowerMax": {
+         "S": 11
+        }
+       }
+      }
+     },
+     "nameplate6": {
+      "hostile-npc": {
+       "n": 1,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 1
+        },
+        "UnitClass": {
+         "S": 1
+        },
+        "UnitGUID": {
+         "S": 1
+        },
+        "UnitHealthMax": {
+         "S": 1
+        },
+        "UnitInParty": {
+         "C": 1
+        },
+        "UnitIsFriend": {
+         "C": 1
+        },
+        "UnitIsPlayer": {
+         "C": 1
+        },
+        "UnitIsUnit(player)": {
+         "C": 1
+        },
+        "UnitIsUnit(target)": {
+         "C": 1
+        },
+        "UnitLevel": {
+         "C": 1
+        },
+        "UnitName": {
+         "S": 1
+        },
+        "UnitPowerMax": {
+         "S": 1
+        }
+       }
+      }
+     },
+     "nameplate7": {
+      "hostile-npc": {
+       "n": 6,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 6
+        },
+        "UnitClass": {
+         "S": 6
+        },
+        "UnitGUID": {
+         "S": 6
+        },
+        "UnitHealthMax": {
+         "S": 6
+        },
+        "UnitInParty": {
+         "C": 6
+        },
+        "UnitIsFriend": {
+         "C": 6
+        },
+        "UnitIsPlayer": {
+         "C": 6
+        },
+        "UnitIsUnit(player)": {
+         "C": 6
+        },
+        "UnitIsUnit(target)": {
+         "C": 6
+        },
+        "UnitLevel": {
+         "C": 6
+        },
+        "UnitName": {
+         "S": 6
+        },
+        "UnitPowerMax": {
+         "S": 6
+        }
+       }
+      }
+     },
+     "nameplate8": {
+      "hostile-npc": {
+       "n": 5,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 5
+        },
+        "UnitClass": {
+         "S": 5
+        },
+        "UnitGUID": {
+         "S": 5
+        },
+        "UnitHealthMax": {
+         "S": 5
+        },
+        "UnitInParty": {
+         "C": 5
+        },
+        "UnitIsFriend": {
+         "C": 5
+        },
+        "UnitIsPlayer": {
+         "C": 5
+        },
+        "UnitIsUnit(player)": {
+         "C": 5
+        },
+        "UnitIsUnit(target)": {
+         "C": 5
+        },
+        "UnitLevel": {
+         "C": 5
+        },
+        "UnitName": {
+         "S": 5
+        },
+        "UnitPowerMax": {
+         "S": 5
+        }
+       }
+      }
+     },
+     "nameplate9": {
+      "hostile-npc": {
+       "n": 2,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 2
+        },
+        "UnitClass": {
+         "S": 2
+        },
+        "UnitGUID": {
+         "S": 2
+        },
+        "UnitHealthMax": {
+         "S": 2
+        },
+        "UnitInParty": {
+         "C": 2
+        },
+        "UnitIsFriend": {
+         "C": 2
+        },
+        "UnitIsPlayer": {
+         "C": 2
+        },
+        "UnitIsUnit(player)": {
+         "C": 2
+        },
+        "UnitIsUnit(target)": {
+         "C": 2
+        },
+        "UnitLevel": {
+         "C": 2
+        },
+        "UnitName": {
+         "S": 2
+        },
+        "UnitPowerMax": {
+         "S": 2
+        }
+       }
+      }
+     },
+     "target": {
+      "hostile-npc": {
+       "n": 259,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 259
+        },
+        "UnitClass": {
+         "S": 259
+        },
+        "UnitGUID": {
+         "S": 259
+        },
+        "UnitHealthMax": {
+         "S": 259
+        },
+        "UnitInParty": {
+         "C": 259
+        },
+        "UnitIsFriend": {
+         "C": 259
+        },
+        "UnitIsPlayer": {
+         "C": 259
+        },
+        "UnitIsUnit(player)": {
+         "C": 259
+        },
+        "UnitIsUnit(target)": {
+         "C": 259
+        },
+        "UnitLevel": {
+         "C": 259
+        },
+        "UnitName": {
+         "S": 259
+        },
+        "UnitPowerMax": {
+         "S": 259
+        }
+       }
+      }
+     },
+     "targettarget": {
+      "?>friendly-player": {
+       "n": 2,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 2
+        },
+        "UnitClass": {
+         "S": 2
+        },
+        "UnitGUID": {
+         "S": 2
+        },
+        "UnitHealthMax": {
+         "S": 2
+        },
+        "UnitInParty": {
+         "C": 2
+        },
+        "UnitIsFriend": {
+         "C": 2
+        },
+        "UnitIsPlayer": {
+         "C": 2
+        },
+        "UnitIsUnit(player)": {
+         "S": 2
+        },
+        "UnitIsUnit(target)": {
+         "S": 2
+        },
+        "UnitLevel": {
+         "C": 2
+        },
+        "UnitName": {
+         "S": 2
+        },
+        "UnitPowerMax": {
+         "S": 2
+        }
+       }
+      },
+      "hostile-npc>friendly-npc": {
+       "n": 2,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 2
+        },
+        "UnitClass": {
+         "S": 2
+        },
+        "UnitGUID": {
+         "S": 2
+        },
+        "UnitHealthMax": {
+         "S": 2
+        },
+        "UnitInParty": {
+         "C": 2
+        },
+        "UnitIsFriend": {
+         "C": 2
+        },
+        "UnitIsPlayer": {
+         "C": 2
+        },
+        "UnitIsUnit(player)": {
+         "S": 2
+        },
+        "UnitIsUnit(target)": {
+         "S": 2
+        },
+        "UnitLevel": {
+         "C": 2
+        },
+        "UnitName": {
+         "S": 2
+        },
+        "UnitPowerMax": {
+         "S": 2
+        }
+       }
+      },
+      "hostile-npc>friendly-player": {
+       "n": 255,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 255
+        },
+        "UnitClass": {
+         "S": 255
+        },
+        "UnitGUID": {
+         "S": 255
+        },
+        "UnitHealthMax": {
+         "S": 255
+        },
+        "UnitInParty": {
+         "C": 255
+        },
+        "UnitIsFriend": {
+         "C": 255
+        },
+        "UnitIsPlayer": {
+         "C": 255
+        },
+        "UnitIsUnit(player)": {
+         "S": 255
+        },
+        "UnitIsUnit(target)": {
+         "S": 255
+        },
+        "UnitLevel": {
+         "C": 255
+        },
+        "UnitName": {
+         "S": 255
+        },
+        "UnitPowerMax": {
+         "S": 255
+        }
+       }
+      }
+     },
+     "targettargettarget": {
+      "?>friendly-player>hostile-npc": {
+       "n": 2,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 2
+        },
+        "UnitClass": {
+         "S": 2
+        },
+        "UnitGUID": {
+         "S": 2
+        },
+        "UnitHealthMax": {
+         "S": 2
+        },
+        "UnitInParty": {
+         "C": 2
+        },
+        "UnitIsFriend": {
+         "C": 2
+        },
+        "UnitIsPlayer": {
+         "C": 2
+        },
+        "UnitIsUnit(player)": {
+         "S": 2
+        },
+        "UnitIsUnit(target)": {
+         "S": 2
+        },
+        "UnitLevel": {
+         "C": 2
+        },
+        "UnitName": {
+         "S": 2
+        },
+        "UnitPowerMax": {
+         "S": 2
+        }
+       }
+      },
+      "hostile-npc>friendly-npc>hostile-npc": {
+       "n": 2,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 2
+        },
+        "UnitClass": {
+         "S": 2
+        },
+        "UnitGUID": {
+         "S": 2
+        },
+        "UnitHealthMax": {
+         "S": 2
+        },
+        "UnitInParty": {
+         "C": 2
+        },
+        "UnitIsFriend": {
+         "C": 2
+        },
+        "UnitIsPlayer": {
+         "C": 2
+        },
+        "UnitIsUnit(player)": {
+         "S": 2
+        },
+        "UnitIsUnit(target)": {
+         "S": 2
+        },
+        "UnitLevel": {
+         "C": 2
+        },
+        "UnitName": {
+         "S": 2
+        },
+        "UnitPowerMax": {
+         "S": 2
+        }
+       }
+      },
+      "hostile-npc>friendly-player>hostile-npc": {
+       "n": 255,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 255
+        },
+        "UnitClass": {
+         "S": 255
+        },
+        "UnitGUID": {
+         "S": 255
+        },
+        "UnitHealthMax": {
+         "S": 255
+        },
+        "UnitInParty": {
+         "C": 255
+        },
+        "UnitIsFriend": {
+         "C": 255
+        },
+        "UnitIsPlayer": {
+         "C": 255
+        },
+        "UnitIsUnit(player)": {
+         "S": 255
+        },
+        "UnitIsUnit(target)": {
+         "S": 255
+        },
+        "UnitLevel": {
+         "C": 255
+        },
+        "UnitName": {
+         "S": 255
+        },
+        "UnitPowerMax": {
+         "S": 255
+        }
+       }
+      }
+     }
+    },
+    "restricted": {
+     "mouseover": {
+      "friendly-npc": {
+       "n": 3,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 3
+        },
+        "UnitClass": {
+         "S": 3
+        },
+        "UnitGUID": {
+         "S": 3
+        },
+        "UnitHealthMax": {
+         "S": 3
+        },
+        "UnitInParty": {
+         "C": 3
+        },
+        "UnitIsFriend": {
+         "C": 3
+        },
+        "UnitIsPlayer": {
+         "C": 3
+        },
+        "UnitIsUnit(player)": {
+         "C": 3
+        },
+        "UnitIsUnit(target)": {
+         "C": 3
+        },
+        "UnitLevel": {
+         "C": 3
+        },
+        "UnitName": {
+         "S": 3
+        },
+        "UnitPowerMax": {
+         "S": 3
+        }
+       }
+      },
+      "hostile-npc": {
+       "n": 2,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 2
+        },
+        "UnitClass": {
+         "S": 2
+        },
+        "UnitGUID": {
+         "S": 2
+        },
+        "UnitHealthMax": {
+         "S": 2
+        },
+        "UnitInParty": {
+         "C": 2
+        },
+        "UnitIsFriend": {
+         "C": 2
+        },
+        "UnitIsPlayer": {
+         "C": 2
+        },
+        "UnitIsUnit(player)": {
+         "C": 2
+        },
+        "UnitIsUnit(target)": {
+         "C": 2
+        },
+        "UnitLevel": {
+         "C": 2
+        },
+        "UnitName": {
+         "S": 2
+        },
+        "UnitPowerMax": {
+         "S": 2
+        }
+       }
+      },
+      "me": {
+       "n": 4,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 4
+        },
+        "UnitClass": {
+         "C": 4
+        },
+        "UnitGUID": {
+         "C": 4
+        },
+        "UnitHealthMax": {
+         "C": 4
+        },
+        "UnitInParty": {
+         "C": 4
+        },
+        "UnitIsFriend": {
+         "C": 4
+        },
+        "UnitIsPlayer": {
+         "C": 4
+        },
+        "UnitIsUnit(player)": {
+         "C": 4
+        },
+        "UnitIsUnit(target)": {
+         "C": 4
+        },
+        "UnitLevel": {
+         "C": 4
+        },
+        "UnitName": {
+         "C": 4
+        },
+        "UnitPowerMax": {
+         "C": 4
+        }
+       }
+      }
+     },
+     "nameplate1": {
+      "hostile-npc": {
+       "n": 6,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 6
+        },
+        "UnitClass": {
+         "S": 6
+        },
+        "UnitGUID": {
+         "S": 6
+        },
+        "UnitHealthMax": {
+         "S": 6
+        },
+        "UnitInParty": {
+         "C": 6
+        },
+        "UnitIsFriend": {
+         "C": 6
+        },
+        "UnitIsPlayer": {
+         "C": 6
+        },
+        "UnitIsUnit(player)": {
+         "C": 6
+        },
+        "UnitIsUnit(target)": {
+         "C": 6
+        },
+        "UnitLevel": {
+         "C": 6
+        },
+        "UnitName": {
+         "S": 6
+        },
+        "UnitPowerMax": {
+         "S": 6
+        }
+       }
+      }
+     },
+     "nameplate10": {
+      "hostile-npc": {
+       "n": 3,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 3
+        },
+        "UnitClass": {
+         "S": 3
+        },
+        "UnitGUID": {
+         "S": 3
+        },
+        "UnitHealthMax": {
+         "S": 3
+        },
+        "UnitInParty": {
+         "C": 3
+        },
+        "UnitIsFriend": {
+         "C": 3
+        },
+        "UnitIsPlayer": {
+         "C": 3
+        },
+        "UnitIsUnit(player)": {
+         "C": 3
+        },
+        "UnitIsUnit(target)": {
+         "C": 3
+        },
+        "UnitLevel": {
+         "C": 3
+        },
+        "UnitName": {
+         "S": 3
+        },
+        "UnitPowerMax": {
+         "S": 3
+        }
+       }
+      }
+     },
+     "nameplate11": {
+      "hostile-npc": {
+       "n": 1,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 1
+        },
+        "UnitClass": {
+         "S": 1
+        },
+        "UnitGUID": {
+         "S": 1
+        },
+        "UnitHealthMax": {
+         "S": 1
+        },
+        "UnitInParty": {
+         "C": 1
+        },
+        "UnitIsFriend": {
+         "C": 1
+        },
+        "UnitIsPlayer": {
+         "C": 1
+        },
+        "UnitIsUnit(player)": {
+         "C": 1
+        },
+        "UnitIsUnit(target)": {
+         "C": 1
+        },
+        "UnitLevel": {
+         "C": 1
+        },
+        "UnitName": {
+         "S": 1
+        },
+        "UnitPowerMax": {
+         "S": 1
+        }
+       }
+      }
+     },
+     "nameplate12": {
+      "hostile-npc": {
+       "n": 1,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 1
+        },
+        "UnitClass": {
+         "S": 1
+        },
+        "UnitGUID": {
+         "S": 1
+        },
+        "UnitHealthMax": {
+         "S": 1
+        },
+        "UnitInParty": {
+         "C": 1
+        },
+        "UnitIsFriend": {
+         "C": 1
+        },
+        "UnitIsPlayer": {
+         "C": 1
+        },
+        "UnitIsUnit(player)": {
+         "C": 1
+        },
+        "UnitIsUnit(target)": {
+         "C": 1
+        },
+        "UnitLevel": {
+         "C": 1
+        },
+        "UnitName": {
+         "S": 1
+        },
+        "UnitPowerMax": {
+         "S": 1
+        }
+       }
+      }
+     },
+     "nameplate13": {
+      "hostile-npc": {
+       "n": 1,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 1
+        },
+        "UnitClass": {
+         "S": 1
+        },
+        "UnitGUID": {
+         "S": 1
+        },
+        "UnitHealthMax": {
+         "S": 1
+        },
+        "UnitInParty": {
+         "C": 1
+        },
+        "UnitIsFriend": {
+         "C": 1
+        },
+        "UnitIsPlayer": {
+         "C": 1
+        },
+        "UnitIsUnit(player)": {
+         "C": 1
+        },
+        "UnitIsUnit(target)": {
+         "C": 1
+        },
+        "UnitLevel": {
+         "C": 1
+        },
+        "UnitName": {
+         "S": 1
+        },
+        "UnitPowerMax": {
+         "S": 1
+        }
+       }
+      }
+     },
+     "nameplate2": {
+      "hostile-npc": {
+       "n": 7,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 7
+        },
+        "UnitClass": {
+         "S": 7
+        },
+        "UnitGUID": {
+         "S": 7
+        },
+        "UnitHealthMax": {
+         "S": 7
+        },
+        "UnitInParty": {
+         "C": 7
+        },
+        "UnitIsFriend": {
+         "C": 7
+        },
+        "UnitIsPlayer": {
+         "C": 7
+        },
+        "UnitIsUnit(player)": {
+         "C": 7
+        },
+        "UnitIsUnit(target)": {
+         "C": 7
+        },
+        "UnitLevel": {
+         "C": 7
+        },
+        "UnitName": {
+         "S": 7
+        },
+        "UnitPowerMax": {
+         "S": 7
+        }
+       }
+      }
+     },
+     "nameplate3": {
+      "hostile-npc": {
+       "n": 7,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 7
+        },
+        "UnitClass": {
+         "S": 7
+        },
+        "UnitGUID": {
+         "S": 7
+        },
+        "UnitHealthMax": {
+         "S": 7
+        },
+        "UnitInParty": {
+         "C": 7
+        },
+        "UnitIsFriend": {
+         "C": 7
+        },
+        "UnitIsPlayer": {
+         "C": 7
+        },
+        "UnitIsUnit(player)": {
+         "C": 7
+        },
+        "UnitIsUnit(target)": {
+         "C": 7
+        },
+        "UnitLevel": {
+         "C": 7
+        },
+        "UnitName": {
+         "S": 7
+        },
+        "UnitPowerMax": {
+         "S": 7
+        }
+       }
+      }
+     },
+     "nameplate4": {
+      "hostile-npc": {
+       "n": 3,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 3
+        },
+        "UnitClass": {
+         "S": 3
+        },
+        "UnitGUID": {
+         "S": 3
+        },
+        "UnitHealthMax": {
+         "S": 3
+        },
+        "UnitInParty": {
+         "C": 3
+        },
+        "UnitIsFriend": {
+         "C": 3
+        },
+        "UnitIsPlayer": {
+         "C": 3
+        },
+        "UnitIsUnit(player)": {
+         "C": 3
+        },
+        "UnitIsUnit(target)": {
+         "C": 3
+        },
+        "UnitLevel": {
+         "C": 3
+        },
+        "UnitName": {
+         "S": 3
+        },
+        "UnitPowerMax": {
+         "S": 3
+        }
+       }
+      }
+     },
+     "nameplate5": {
+      "hostile-npc": {
+       "n": 4,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 4
+        },
+        "UnitClass": {
+         "S": 4
+        },
+        "UnitGUID": {
+         "S": 4
+        },
+        "UnitHealthMax": {
+         "S": 4
+        },
+        "UnitInParty": {
+         "C": 4
+        },
+        "UnitIsFriend": {
+         "C": 4
+        },
+        "UnitIsPlayer": {
+         "C": 4
+        },
+        "UnitIsUnit(player)": {
+         "C": 4
+        },
+        "UnitIsUnit(target)": {
+         "C": 4
+        },
+        "UnitLevel": {
+         "C": 4
+        },
+        "UnitName": {
+         "S": 4
+        },
+        "UnitPowerMax": {
+         "S": 4
+        }
+       }
+      }
+     },
+     "nameplate6": {
+      "hostile-npc": {
+       "n": 2,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 2
+        },
+        "UnitClass": {
+         "S": 2
+        },
+        "UnitGUID": {
+         "S": 2
+        },
+        "UnitHealthMax": {
+         "S": 2
+        },
+        "UnitInParty": {
+         "C": 2
+        },
+        "UnitIsFriend": {
+         "C": 2
+        },
+        "UnitIsPlayer": {
+         "C": 2
+        },
+        "UnitIsUnit(player)": {
+         "C": 2
+        },
+        "UnitIsUnit(target)": {
+         "C": 2
+        },
+        "UnitLevel": {
+         "C": 2
+        },
+        "UnitName": {
+         "S": 2
+        },
+        "UnitPowerMax": {
+         "S": 2
+        }
+       }
+      }
+     },
+     "nameplate7": {
+      "hostile-npc": {
+       "n": 4,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 4
+        },
+        "UnitClass": {
+         "S": 4
+        },
+        "UnitGUID": {
+         "S": 4
+        },
+        "UnitHealthMax": {
+         "S": 4
+        },
+        "UnitInParty": {
+         "C": 4
+        },
+        "UnitIsFriend": {
+         "C": 4
+        },
+        "UnitIsPlayer": {
+         "C": 4
+        },
+        "UnitIsUnit(player)": {
+         "C": 4
+        },
+        "UnitIsUnit(target)": {
+         "C": 4
+        },
+        "UnitLevel": {
+         "C": 4
+        },
+        "UnitName": {
+         "S": 4
+        },
+        "UnitPowerMax": {
+         "S": 4
+        }
+       }
+      }
+     },
+     "nameplate8": {
+      "hostile-npc": {
+       "n": 3,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 3
+        },
+        "UnitClass": {
+         "S": 3
+        },
+        "UnitGUID": {
+         "S": 3
+        },
+        "UnitHealthMax": {
+         "S": 3
+        },
+        "UnitInParty": {
+         "C": 3
+        },
+        "UnitIsFriend": {
+         "C": 3
+        },
+        "UnitIsPlayer": {
+         "C": 3
+        },
+        "UnitIsUnit(player)": {
+         "C": 3
+        },
+        "UnitIsUnit(target)": {
+         "C": 3
+        },
+        "UnitLevel": {
+         "C": 3
+        },
+        "UnitName": {
+         "S": 3
+        },
+        "UnitPowerMax": {
+         "S": 3
+        }
+       }
+      }
+     },
+     "nameplate9": {
+      "hostile-npc": {
+       "n": 2,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 2
+        },
+        "UnitClass": {
+         "S": 2
+        },
+        "UnitGUID": {
+         "S": 2
+        },
+        "UnitHealthMax": {
+         "S": 2
+        },
+        "UnitInParty": {
+         "C": 2
+        },
+        "UnitIsFriend": {
+         "C": 2
+        },
+        "UnitIsPlayer": {
+         "C": 2
+        },
+        "UnitIsUnit(player)": {
+         "C": 2
+        },
+        "UnitIsUnit(target)": {
+         "C": 2
+        },
+        "UnitLevel": {
+         "C": 2
+        },
+        "UnitName": {
+         "S": 2
+        },
+        "UnitPowerMax": {
+         "S": 2
+        }
+       }
+      }
+     },
+     "target": {
+      "hostile-npc": {
+       "n": 30,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 30
+        },
+        "UnitClass": {
+         "S": 30
+        },
+        "UnitGUID": {
+         "S": 30
+        },
+        "UnitHealthMax": {
+         "S": 30
+        },
+        "UnitInParty": {
+         "C": 30
+        },
+        "UnitIsFriend": {
+         "C": 30
+        },
+        "UnitIsPlayer": {
+         "C": 30
+        },
+        "UnitIsUnit(player)": {
+         "C": 30
+        },
+        "UnitIsUnit(target)": {
+         "C": 30
+        },
+        "UnitLevel": {
+         "C": 30
+        },
+        "UnitName": {
+         "S": 30
+        },
+        "UnitPowerMax": {
+         "S": 30
+        }
+       }
+      }
+     },
+     "targettarget": {
+      "hostile-npc>friendly-player": {
+       "n": 8,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 8
+        },
+        "UnitClass": {
+         "S": 8
+        },
+        "UnitGUID": {
+         "S": 8
+        },
+        "UnitHealthMax": {
+         "S": 8
+        },
+        "UnitInParty": {
+         "C": 8
+        },
+        "UnitIsFriend": {
+         "C": 8
+        },
+        "UnitIsPlayer": {
+         "C": 8
+        },
+        "UnitIsUnit(player)": {
+         "S": 8
+        },
+        "UnitIsUnit(target)": {
+         "S": 8
+        },
+        "UnitLevel": {
+         "C": 8
+        },
+        "UnitName": {
+         "S": 8
+        },
+        "UnitPowerMax": {
+         "S": 8
+        }
+       }
+      }
+     },
+     "targettargettarget": {
+      "hostile-npc>friendly-player>hostile-npc": {
+       "n": 8,
+       "sig": {
+        "UnitCanAttack": {
+         "C": 8
+        },
+        "UnitClass": {
+         "S": 8
+        },
+        "UnitGUID": {
+         "S": 8
+        },
+        "UnitHealthMax": {
+         "S": 8
+        },
+        "UnitInParty": {
+         "C": 8
+        },
+        "UnitIsFriend": {
+         "C": 8
+        },
+        "UnitIsPlayer": {
+         "C": 8
+        },
+        "UnitIsUnit(player)": {
+         "S": 8
+        },
+        "UnitIsUnit(target)": {
+         "S": 8
+        },
+        "UnitLevel": {
+         "C": 8
+        },
+        "UnitName": {
+         "S": 8
+        },
+        "UnitPowerMax": {
+         "S": 8
+        }
+       }
+      }
+     }
+    }
+   },
+   "classFile": "SHAMAN",
+   "classID": 7,
+   "className": "Shaman",
+   "codes": {
+    "classFile": "C",
+    "classID": "C",
+    "className": "C",
+    "fullName": "C",
+    "fullNameRealm": "C",
+    "guid": "C",
+    "level": "C",
+    "name": "C",
+    "nameRealm": "C",
+    "normalizedRealm": "C",
+    "raceFile": "C",
+    "raceName": "C",
+    "realm": "C",
+    "unitNameWithRealm": "C"
+   },
+   "displayName": "Uglaz Doomaxe",
+   "firstName": "Uglaz",
+   "fullName": "Uglaz",
+   "fullNameRealm": "Doomaxe",
+   "guid": "Player-4618-00EB40D8",
+   "lastName": "Doomaxe",
+   "ledger": {
+    "caps": {
+     "aura": 400,
+     "cast": 64,
+     "fingerprint": 300,
+     "guid": 300,
+     "plate": 40,
+     "token": 64
+    },
+    "counts": {
+     "aura": 7,
+     "cast": 1,
+     "fingerprint": 1,
+     "guid": 1,
+     "token": 1
+    },
+    "stats": {
+     "evicted": 0,
+     "fresh": 3,
+     "invalidated": 10,
+     "live": 0,
+     "miss": 955,
+     "puts": 114,
+     "stale": 4
+    }
+   },
+   "level": 30,
+   "name": "Uglaz",
+   "nameRealm": "Doomaxe",
+   "normalizedRealm": "ClassicBetaPvE",
+   "raceFile": "Orc",
+   "raceName": "Orc",
+   "realm": "Classic Beta PvE",
+   "reason": "capture:on",
+   "res": {
+    "cached": 2,
+    "live": 4,
+    "none": 955
+   },
+   "secret": {},
+   "sid": "cap-20261010113812-98",
+   "time": 1791646693,
+   "unitNameWithRealm": "Uglaz Doomaxe",
+   "v": 1
+  },
+  "inCombat": false,
+  "locale": "enUS",
+  "projectConstants": {
+   "WOW_PROJECT_CAMELOT": 18,
+   "WOW_PROJECT_CLASSIC": 2,
+   "WOW_PROJECT_ID": 18,
+   "WOW_PROJECT_MAINLINE": 1
+  },
+  "projectID": 18,
+  "projectName": "WOW_PROJECT_CAMELOT",
+  "schemaVersion": 3,
+  "scriptsDisallowedForBeta": false,
+  "time": 1791647060,
+  "toc": 16001,
+  "version": "1.60.1"
+ },
+ "schemaVersion": 3
+}

@@ -1,0 +1,187 @@
+{
+ "bigDef": {
+  "dungeon/combat/-": {
+   "10298": "false",
+   "1238640": "false",
+   "1238931": "false",
+   "139": "false",
+   "1430": "false",
+   "14751": "false",
+   "15271": "false",
+   "15473": "false",
+   "16177": "false",
+   "16188": "false",
+   "16257": "false",
+   "17": "false",
+   "17116": "false",
+   "17364": "false",
+   "19746": "false",
+   "20050": "false",
+   "20216": "false",
+   "20375": "false",
+   "2090": "false",
+   "2091": "false",
+   "20915": "false",
+   "27828": "false",
+   "3747": "false",
+   "408255": "false",
+   "408505": "false",
+   "408510": "false",
+   "422621": "false",
+   "437063": "false",
+   "5487": "false",
+   "6065": "false",
+   "6074": "false",
+   "6076": "false",
+   "6788": "false",
+   "7294": "false",
+   "740": "false",
+   "768": "false",
+   "774": "false",
+   "8052": "false",
+   "8056": "false",
+   "8938": "false",
+   "8939": "false",
+   "8940": "false",
+   "905": "false",
+   "done": true
+  },
+  "dungeon/ooc/-": {
+   "10298": "false",
+   "1238640": "false",
+   "1238931": "false",
+   "139": "false",
+   "1430": "false",
+   "14751": "false",
+   "15271": "false",
+   "15473": "false",
+   "16177": "false",
+   "16188": "false",
+   "16257": "false",
+   "17": "false",
+   "17116": "false",
+   "17364": "false",
+   "19746": "false",
+   "20050": "false",
+   "20216": "false",
+   "20375": "false",
+   "2090": "false",
+   "2091": "false",
+   "20915": "false",
+   "27828": "false",
+   "3747": "false",
+   "408255": "false",
+   "408505": "false",
+   "408510": "false",
+   "422621": "false",
+   "437063": "false",
+   "5487": "false",
+   "6065": "false",
+   "6074": "false",
+   "6076": "false",
+   "6788": "false",
+   "7294": "false",
+   "740": "false",
+   "768": "false",
+   "774": "false",
+   "8052": "false",
+   "8056": "false",
+   "8938": "false",
+   "8939": "false",
+   "8940": "false",
+   "905": "false",
+   "done": true
+  }
+ },
+ "caster": {
+  "dungeon/ooc/-": {
+   "C": 68
+  }
+ },
+ "codes": {
+  "dungeon/combat/-": {
+   "N": 23263
+  },
+  "dungeon/ooc/-": {
+   "K": 68,
+   "N": 5393
+  }
+ },
+ "err": {
+  "dungeon/combat/-": {
+   "GetAuraSlots": "GetAuraSlots(): Auras cannot be accessed when secret while tainted by 'ForeverDump'\nLua Taint: ForeverDump"
+  }
+ },
+ "fields": {
+  "dungeon/ooc/-": {
+   "applications": {
+    "C": 68
+   },
+   "auraInstanceID": {
+    "C": 68
+   },
+   "duration": {
+    "C": 68
+   },
+   "expirationTime": {
+    "C": 68
+   },
+   "isFromPlayerOrPlayerPet": {
+    "C": 68
+   },
+   "name": {
+    "C": 68
+   },
+   "sourceUnit": {
+    "C": 68
+   },
+   "spellId": {
+    "C": 68
+   }
+  }
+ },
+ "offset": 1.0,
+ "offsetPairs": 38,
+ "score": {
+  "dungeon/combat/-": {
+   "disagree:A": 3
+  },
+  "dungeon/ooc/-": {
+   "agree:A": 44,
+   "agree:P": 8,
+   "edge": 4,
+   "unresolved": 43
+  }
+ },
+ "slots": {
+  "dungeon/combat/-": {
+   "mouseover": {
+    "held": 20
+   },
+   "player": {
+    "E": 11,
+    "held": 261
+   },
+   "target": {
+    "E": 3,
+    "held": 246
+   }
+  },
+  "dungeon/ooc/-": {
+   "mouseover": {
+    "N/C": 5,
+    "N/N": 1
+   },
+   "player": {
+    "N/C": 63,
+    "N/N": 32
+   },
+   "target": {
+    "N/N": 26
+   }
+  }
+ },
+ "unresolved": {
+  "noname": 43
+ }
+}

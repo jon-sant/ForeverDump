@@ -1,0 +1,1429 @@
+{
+ "addonVersion": "2.2.25",
+ "legacy": [
+  {
+   "addons": {
+    "ForeverDump": {
+     "memKB": [
+      18677.0,
+      40414.0
+     ],
+     "over1": 26,
+     "over10": 1,
+     "over50": 0,
+     "recent": [
+      0.0129,
+      0.0091
+     ],
+     "session": [
+      0.2176,
+      0.1951
+     ]
+    },
+    "KTH": {
+     "memKB": [
+      2365.0,
+      1996.0
+     ],
+     "over1": 0,
+     "over10": 0,
+     "over50": 0,
+     "recent": [
+      0.0078,
+      0.0103
+     ],
+     "session": [
+      0.0171,
+      0.0163
+     ]
+    },
+    "KTH_ForeverDiag": {
+     "memKB": [
+      149.0,
+      101.0
+     ],
+     "over1": 0,
+     "over10": 0,
+     "over50": 0,
+     "recent": [
+      0.004,
+      0.0046
+     ],
+     "session": [
+      0.0124,
+      0.0115
+     ]
+    }
+   },
+   "app": {
+    "CountTimeOver100Ms": [
+     27723,
+     28560
+    ],
+    "CountTimeOver50Ms": [
+     27774,
+     28612
+    ],
+    "PeakTime": [
+     2482.0,
+     2482.0
+    ],
+    "RecentAverageTime": [
+     20.5,
+     20.5
+    ]
+   },
+   "duration": 367.8,
+   "flags": [
+    "ForeverDump memory +21.2 MB during the capture"
+   ]
+  }
+ ],
+ "rule": "<1% of wall time, cost per call flat over the session, bounded tables",
+ "sessions": [
+  {
+   "calls": 39921,
+   "duration": 367.8,
+   "flags": [
+    "WorldCapture.Slice: mean 0.1282 ms per slice > budget 0.10 ms (real client, 1679 slices)",
+    "Derive.DAMAGE_METER_COMBAT_SESSION_UPDATED: cost per call grows 0.0238 -> 0.0538 ms (x2.27) over the session",
+    "size hsm.inferences still growing at the end (0 -> 689)",
+    "size hsm.predictions still growing at the end (0 -> 38)"
+   ],
+   "handlerMs": 3049.561,
+   "handlers": [
+    {
+     "growth": {
+      "first": 0.0449,
+      "grows": false,
+      "last": 0.044,
+      "ratio": 0.98
+     },
+     "key": "Recorder.onEvent",
+     "max": 3.636,
+     "mean": 0.045,
+     "ms": 571.169,
+     "n": 12696,
+     "windows": 25
+    },
+    {
+     "growth": {
+      "first": 0.9397,
+      "grows": false,
+      "last": 0.9419,
+      "ratio": 1.0
+     },
+     "key": "AuraPresence.tick",
+     "max": 2.613,
+     "mean": 0.9636,
+     "ms": 353.637,
+     "n": 367,
+     "windows": 25
+    },
+    {
+     "growth": {
+      "first": 0.1634,
+      "grows": false,
+      "last": 0.229,
+      "ratio": 1.4
+     },
+     "key": "OocFill.step",
+     "max": 2.856,
+     "mean": 0.1972,
+     "ms": 331.1,
+     "n": 1679,
+     "windows": 25
+    },
+    {
+     "growth": {
+      "first": 0.0957,
+      "grows": false,
+      "last": 0.0993,
+      "ratio": 1.04
+     },
+     "key": "TokenScan.Slice",
+     "max": 0.269,
+     "mean": 0.0977,
+     "ms": 328.025,
+     "n": 3356,
+     "windows": 25
+    },
+    {
+     "growth": {
+      "first": 0.1265,
+      "grows": false,
+      "last": 0.1288,
+      "ratio": 1.02
+     },
+     "key": "WorldCapture.Slice",
+     "max": 0.792,
+     "mean": 0.1282,
+     "ms": 215.282,
+     "n": 1679,
+     "windows": 25
+    },
+    {
+     "growth": {
+      "first": 1.6626,
+      "grows": false,
+      "last": 2.0217,
+      "ratio": 1.22
+     },
+     "key": "Derive.tick",
+     "max": 4.519,
+     "mean": 1.725,
+     "ms": 210.448,
+     "n": 122,
+     "windows": 25
+    },
+    {
+     "growth": {
+      "first": 0.1651,
+      "grows": false,
+      "last": 0.1626,
+      "ratio": 0.99
+     },
+     "key": "HSMUI.Step",
+     "max": 1.981,
+     "mean": 0.1722,
+     "ms": 182.198,
+     "n": 1058,
+     "windows": 13
+    },
+    {
+     "growth": {
+      "first": 0.3357,
+      "grows": false,
+      "last": 0.4069,
+      "ratio": 1.21
+     },
+     "key": "Identity.poll",
+     "max": 1.232,
+     "mean": 0.3919,
+     "ms": 103.865,
+     "n": 265,
+     "windows": 23
+    },
+    {
+     "growth": {
+      "first": 0.1019,
+      "grows": false,
+      "last": 0.1359,
+      "ratio": 1.33
+     },
+     "key": "Lab.sample",
+     "max": 0.469,
+     "mean": 0.1051,
+     "ms": 77.155,
+     "n": 734,
+     "windows": 25
+    },
+    {
+     "growth": null,
+     "key": "CombatProbe.Run",
+     "max": 8.819,
+     "mean": 1.5687,
+     "ms": 76.867,
+     "n": 49,
+     "windows": 19
+    },
+    {
+     "growth": {
+      "first": 0.1352,
+      "grows": false,
+      "last": 0.1017,
+      "ratio": 0.75
+     },
+     "key": "Inference.UNIT_COMBAT",
+     "max": 1.06,
+     "mean": 0.1274,
+     "ms": 73.101,
+     "n": 574,
+     "windows": 22
+    },
+    {
+     "growth": {
+      "first": 0.0154,
+      "grows": false,
+      "last": 0.0166,
+      "ratio": 1.08
+     },
+     "key": "Derive.UNIT_POWER_FREQUENT",
+     "max": 0.237,
+     "mean": 0.0144,
+     "ms": 58.705,
+     "n": 4085,
+     "windows": 25
+    },
+    {
+     "growth": {
+      "first": 0.0173,
+      "grows": false,
+      "last": 0.0185,
+      "ratio": 1.07
+     },
+     "key": "CombatLog.onEvent",
+     "max": 0.166,
+     "mean": 0.0184,
+     "ms": 47.362,
+     "n": 2580,
+     "windows": 25
+    },
+    {
+     "growth": null,
+     "key": "Probe.step",
+     "max": 16.014,
+     "mean": 1.4009,
+     "ms": 46.23,
+     "n": 33,
+     "windows": 1
+    },
+    {
+     "growth": {
+      "first": 0.0954,
+      "grows": false,
+      "last": 0.0816,
+      "ratio": 0.85
+     },
+     "key": "DamageMeter.struct",
+     "max": 0.244,
+     "mean": 0.0946,
+     "ms": 38.802,
+     "n": 410,
+     "windows": 23
+    },
+    {
+     "growth": {
+      "first": 0.0929,
+      "grows": false,
+      "last": 0.1055,
+      "ratio": 1.14
+     },
+     "key": "HSM.Census",
+     "max": 0.581,
+     "mean": 0.1015,
+     "ms": 37.239,
+     "n": 367,
+     "windows": 25
+    },
+    {
+     "growth": {
+      "first": 0.0238,
+      "grows": true,
+      "last": 0.0538,
+      "ratio": 2.27
+     },
+     "key": "Derive.DAMAGE_METER_COMBAT_SESSION_UPDATED",
+     "max": 0.499,
+     "mean": 0.0254,
+     "ms": 23.589,
+     "n": 928,
+     "windows": 23
+    },
+    {
+     "growth": {
+      "first": 0.0242,
+      "grows": false,
+      "last": 0.0288,
+      "ratio": 1.19
+     },
+     "key": "DamageMeter.DAMAGE_METER_COMBAT_SESSION_UPDATED",
+     "max": 0.106,
+     "mean": 0.0251,
+     "ms": 23.297,
+     "n": 928,
+     "windows": 23
+    },
+    {
+     "growth": {
+      "first": 0.0969,
+      "grows": false,
+      "last": 0.113,
+      "ratio": 1.17
+     },
+     "key": "Lab.dmSnap",
+     "max": 0.318,
+     "mean": 0.1005,
+     "ms": 21.003,
+     "n": 209,
+     "windows": 23
+    },
+    {
+     "growth": null,
+     "key": "Identity.NAME_PLATE_UNIT_ADDED",
+     "max": 0.308,
+     "mean": 0.1394,
+     "ms": 17.707,
+     "n": 127,
+     "windows": 18
+    },
+    {
+     "growth": {
+      "first": 0.0944,
+      "grows": false,
+      "last": 0.0807,
+      "ratio": 0.85
+     },
+     "key": "Inference.UNIT_AURA",
+     "max": 0.539,
+     "mean": 0.0973,
+     "ms": 15.768,
+     "n": 162,
+     "windows": 23
+    },
+    {
+     "growth": {
+      "first": 0.1297,
+      "grows": false,
+      "last": 0.1116,
+      "ratio": 0.86
+     },
+     "key": "HSM.CDDue",
+     "max": 0.404,
+     "mean": 0.1264,
+     "ms": 12.513,
+     "n": 99,
+     "windows": 22
+    },
+    {
+     "growth": {
+      "first": 0.0247,
+      "grows": false,
+      "last": 0.0354,
+      "ratio": 1.43
+     },
+     "key": "HSM.Tick",
+     "max": 0.103,
+     "mean": 0.03,
+     "ms": 10.993,
+     "n": 367,
+     "windows": 25
+    },
+    {
+     "growth": {
+      "first": 0.0201,
+      "grows": false,
+      "last": 0.0228,
+      "ratio": 1.13
+     },
+     "key": "CombatProbe.UNIT_HEALTH",
+     "max": 0.069,
+     "mean": 0.0209,
+     "ms": 10.939,
+     "n": 524,
+     "windows": 25
+    },
+    {
+     "growth": null,
+     "key": "OocFill.NAME_PLATE_UNIT_ADDED",
+     "max": 0.165,
+     "mean": 0.0846,
+     "ms": 10.741,
+     "n": 127,
+     "windows": 18
+    },
+    {
+     "growth": {
+      "first": 0.0173,
+      "grows": false,
+      "last": 0.0179,
+      "ratio": 1.04
+     },
+     "key": "OocFill.UNIT_COMBAT",
+     "max": 0.088,
+     "mean": 0.0176,
+     "ms": 10.087,
+     "n": 574,
+     "windows": 22
+    },
+    {
+     "growth": {
+      "first": 0.0145,
+      "grows": false,
+      "last": 0.0158,
+      "ratio": 1.09
+     },
+     "key": "Inference.UNIT_HEALTH",
+     "max": 0.054,
+     "mean": 0.0153,
+     "ms": 8.018,
+     "n": 524,
+     "windows": 25
+    },
+    {
+     "growth": {
+      "first": 0.0487,
+      "grows": false,
+      "last": 0.055,
+      "ratio": 1.13
+     },
+     "key": "Inference.SPELL_UPDATE_COOLDOWN",
+     "max": 0.15,
+     "mean": 0.0521,
+     "ms": 7.397,
+     "n": 142,
+     "windows": 23
+    },
+    {
+     "growth": null,
+     "key": "core.ADDON_RESTRICTION_STATE_CHANGED",
+     "max": 1.1,
+     "mean": 0.2605,
+     "ms": 7.294,
+     "n": 28,
+     "windows": 11
+    },
+    {
+     "growth": {
+      "first": 0.0807,
+      "grows": false,
+      "last": 0.0786,
+      "ratio": 0.97
+     },
+     "key": "Inference.UNIT_SPELLCAST_SUCCEEDED",
+     "max": 0.244,
+     "mean": 0.0827,
+     "ms": 6.945,
+     "n": 84,
+     "windows": 22
+    },
+    {
+     "growth": {
+      "first": 0.0112,
+      "grows": false,
+      "last": 0.0099,
+      "ratio": 0.88
+     },
+     "key": "Lab.UNIT_COMBAT",
+     "max": 0.042,
+     "mean": 0.0106,
+     "ms": 6.11,
+     "n": 574,
+     "windows": 22
+    },
+    {
+     "growth": null,
+     "key": "Lab.sweep",
+     "max": 0.345,
+     "mean": 0.1131,
+     "ms": 6.109,
+     "n": 54,
+     "windows": 9
+    },
+    {
+     "growth": {
+      "first": 0.0659,
+      "grows": false,
+      "last": 0.0837,
+      "ratio": 1.27
+     },
+     "key": "Perf.sample",
+     "max": 0.183,
+     "mean": 0.0766,
+     "ms": 5.589,
+     "n": 73,
+     "windows": 25
+    },
+    {
+     "growth": {
+      "first": 0.0343,
+      "grows": false,
+      "last": 0.0286,
+      "ratio": 0.83
+     },
+     "key": "CombatProbe.UNIT_AURA",
+     "max": 0.112,
+     "mean": 0.0343,
+     "ms": 5.558,
+     "n": 162,
+     "windows": 23
+    },
+    {
+     "growth": null,
+     "key": "Identity.UNIT_TARGET",
+     "max": 0.59,
+     "mean": 0.1026,
+     "ms": 5.438,
+     "n": 53,
+     "windows": 18
+    },
+    {
+     "growth": null,
+     "key": "Identity.PLAYER_TARGET_CHANGED",
+     "max": 0.433,
+     "mean": 0.1799,
+     "ms": 5.037,
+     "n": 28,
+     "windows": 17
+    },
+    {
+     "growth": {
+      "first": 0.0103,
+      "grows": false,
+      "last": 0.013,
+      "ratio": 1.26
+     },
+     "key": "Derive.UNIT_POWER_UPDATE",
+     "max": 0.059,
+     "mean": 0.0108,
+     "ms": 4.53,
+     "n": 419,
+     "windows": 25
+    },
+    {
+     "growth": null,
+     "key": "Derive.NAME_PLATE_UNIT_ADDED",
+     "max": 0.07,
+     "mean": 0.0341,
+     "ms": 4.332,
+     "n": 127,
+     "windows": 18
+    },
+    {
+     "growth": {
+      "first": 0.0045,
+      "grows": false,
+      "last": 0.0054,
+      "ratio": 1.21
+     },
+     "key": "Lab.DAMAGE_METER_COMBAT_SESSION_UPDATED",
+     "max": 0.048,
+     "mean": 0.0046,
+     "ms": 4.291,
+     "n": 928,
+     "windows": 23
+    },
+    {
+     "growth": null,
+     "key": "Identity.NAME_PLATE_UNIT_REMOVED",
+     "max": 0.123,
+     "mean": 0.0308,
+     "ms": 3.876,
+     "n": 126,
+     "windows": 18
+    },
+    {
+     "growth": null,
+     "key": "OocFill.UPDATE_MOUSEOVER_UNIT",
+     "max": 0.12,
+     "mean": 0.0525,
+     "ms": 3.783,
+     "n": 72,
+     "windows": 23
+    },
+    {
+     "growth": null,
+     "key": "Identity.PLAYER_REGEN_DISABLED",
+     "max": 0.721,
+     "mean": 0.4947,
+     "ms": 3.463,
+     "n": 7,
+     "windows": 7
+    },
+    {
+     "growth": null,
+     "key": "CombatProbe.UNIT_SPELLCAST_START",
+     "max": 0.852,
+     "mean": 0.0933,
+     "ms": 3.359,
+     "n": 36,
+     "windows": 11
+    },
+    {
+     "growth": {
+      "first": 0.0057,
+      "grows": false,
+      "last": 0.0068,
+      "ratio": 1.19
+     },
+     "key": "Lab.UNIT_HEALTH",
+     "max": 0.018,
+     "mean": 0.0061,
+     "ms": 3.215,
+     "n": 524,
+     "windows": 25
+    },
+    {
+     "growth": null,
+     "key": "Identity.PLAYER_REGEN_ENABLED",
+     "max": 0.582,
+     "mean": 0.4527,
+     "ms": 3.169,
+     "n": 7,
+     "windows": 7
+    },
+    {
+     "growth": null,
+     "key": "Containers.Run",
+     "max": 1.765,
+     "mean": 0.1088,
+     "ms": 3.047,
+     "n": 28,
+     "windows": 11
+    },
+    {
+     "growth": null,
+     "key": "Derive.meterOoc",
+     "max": 0.597,
+     "mean": 0.4196,
+     "ms": 2.937,
+     "n": 7,
+     "windows": 7
+    },
+    {
+     "growth": {
+      "first": 0.0143,
+      "grows": false,
+      "last": 0.0194,
+      "ratio": 1.36
+     },
+     "key": "OocFill.UNIT_AURA",
+     "max": 0.051,
+     "mean": 0.0169,
+     "ms": 2.733,
+     "n": 162,
+     "windows": 23
+    },
+    {
+     "growth": null,
+     "key": "Inference.UNIT_SPELLCAST_FAILED",
+     "max": 0.205,
+     "mean": 0.0751,
+     "ms": 2.705,
+     "n": 36,
+     "windows": 6
+    },
+    {
+     "growth": null,
+     "key": "OocFill.PLAYER_REGEN_ENABLED",
+     "max": 0.632,
+     "mean": 0.3736,
+     "ms": 2.615,
+     "n": 7,
+     "windows": 7
+    },
+    {
+     "growth": {
+      "first": 0.0252,
+      "grows": false,
+      "last": 0.0367,
+      "ratio": 1.46
+     },
+     "key": "CombatProbe.UNIT_SPELLCAST_SUCCEEDED",
+     "max": 0.082,
+     "mean": 0.0294,
+     "ms": 2.47,
+     "n": 84,
+     "windows": 22
+    },
+    {
+     "growth": {
+      "first": 0.0127,
+      "grows": false,
+      "last": 0.0141,
+      "ratio": 1.11
+     },
+     "key": "Lab.UNIT_AURA",
+     "max": 0.034,
+     "mean": 0.0141,
+     "ms": 2.285,
+     "n": 162,
+     "windows": 23
+    },
+    {
+     "growth": {
+      "first": 0.0161,
+      "grows": false,
+      "last": 0.012,
+      "ratio": 0.75
+     },
+     "key": "Lab.UNIT_HEAL_PREDICTION",
+     "max": 0.039,
+     "mean": 0.0159,
+     "ms": 2.244,
+     "n": 141,
+     "windows": 14
+    },
+    {
+     "growth": null,
+     "key": "Inference.UNIT_SPELLCAST_START",
+     "max": 0.231,
+     "mean": 0.0622,
+     "ms": 2.24,
+     "n": 36,
+     "windows": 11
+    },
+    {
+     "growth": {
+      "first": 0.0212,
+      "grows": false,
+      "last": 0.0186,
+      "ratio": 0.88
+     },
+     "key": "Learned.UNIT_SPELLCAST_SUCCEEDED",
+     "max": 0.06,
+     "mean": 0.0195,
+     "ms": 1.641,
+     "n": 84,
+     "windows": 22
+    },
+    {
+     "growth": null,
+     "key": "Derive.UNIT_SPELLCAST_START",
+     "max": 0.139,
+     "mean": 0.0447,
+     "ms": 1.609,
+     "n": 36,
+     "windows": 11
+    },
+    {
+     "growth": null,
+     "key": "core.PLAYER_REGEN_DISABLED",
+     "max": 0.329,
+     "mean": 0.0273,
+     "ms": 1.335,
+     "n": 49,
+     "windows": 7
+    },
+    {
+     "growth": null,
+     "key": "Inference.UNIT_SPELLCAST_STOP",
+     "max": 0.116,
+     "mean": 0.034,
+     "ms": 1.224,
+     "n": 36,
+     "windows": 12
+    },
+    {
+     "growth": null,
+     "key": "Inference.UNIT_SPELLCAST_FAILED_QUIET",
+     "max": 0.233,
+     "mean": 0.0792,
+     "ms": 1.188,
+     "n": 15,
+     "windows": 5
+    },
+    {
+     "growth": null,
+     "key": "OocFill.UNIT_TARGET",
+     "max": 0.095,
+     "mean": 0.0215,
+     "ms": 1.14,
+     "n": 53,
+     "windows": 18
+    },
+    {
+     "growth": null,
+     "key": "OocFill.PLAYER_TARGET_CHANGED",
+     "max": 0.102,
+     "mean": 0.0401,
+     "ms": 1.122,
+     "n": 28,
+     "windows": 17
+    },
+    {
+     "growth": null,
+     "key": "CombatProbe.UNIT_SPELLCAST_STOP",
+     "max": 0.058,
+     "mean": 0.0292,
+     "ms": 1.052,
+     "n": 36,
+     "windows": 12
+    },
+    {
+     "growth": null,
+     "key": "core.PLAYER_REGEN_ENABLED",
+     "max": 0.159,
+     "mean": 0.0398,
+     "ms": 0.837,
+     "n": 21,
+     "windows": 7
+    },
+    {
+     "growth": null,
+     "key": "CombatProbe.UNIT_SPELLCAST_FAILED",
+     "max": 0.055,
+     "mean": 0.0232,
+     "ms": 0.835,
+     "n": 36,
+     "windows": 6
+    },
+    {
+     "growth": null,
+     "key": "TokenScan.NAME_PLATE_UNIT_ADDED",
+     "max": 0.011,
+     "mean": 0.0055,
+     "ms": 0.695,
+     "n": 127,
+     "windows": 18
+    },
+    {
+     "growth": {
+      "first": 0.0065,
+      "grows": false,
+      "last": 0.0087,
+      "ratio": 1.34
+     },
+     "key": "TokenScan.UNIT_SPELLCAST_SUCCEEDED",
+     "max": 0.023,
+     "mean": 0.0072,
+     "ms": 0.609,
+     "n": 84,
+     "windows": 22
+    },
+    {
+     "growth": null,
+     "key": "Inference.PLAYER_TOTEM_UPDATE",
+     "max": 0.121,
+     "mean": 0.0605,
+     "ms": 0.605,
+     "n": 10,
+     "windows": 6
+    },
+    {
+     "growth": null,
+     "key": "OocFill.PLAYER_REGEN_DISABLED",
+     "max": 0.092,
+     "mean": 0.0754,
+     "ms": 0.528,
+     "n": 7,
+     "windows": 7
+    },
+    {
+     "growth": null,
+     "key": "core.PLAYER_IN_COMBAT_CHANGED",
+     "max": 0.122,
+     "mean": 0.0363,
+     "ms": 0.508,
+     "n": 14,
+     "windows": 11
+    },
+    {
+     "growth": null,
+     "key": "Learned.UNIT_SPELLCAST_START",
+     "max": 0.039,
+     "mean": 0.012,
+     "ms": 0.433,
+     "n": 36,
+     "windows": 11
+    },
+    {
+     "growth": null,
+     "key": "TokenScan.UPDATE_MOUSEOVER_UNIT",
+     "max": 0.009,
+     "mean": 0.0058,
+     "ms": 0.418,
+     "n": 72,
+     "windows": 23
+    },
+    {
+     "growth": null,
+     "key": "TokenScan.UNIT_TARGET",
+     "max": 0.023,
+     "mean": 0.0076,
+     "ms": 0.403,
+     "n": 53,
+     "windows": 18
+    },
+    {
+     "growth": null,
+     "key": "Inference.PLAYER_TARGET_CHANGED",
+     "max": 0.028,
+     "mean": 0.0143,
+     "ms": 0.401,
+     "n": 28,
+     "windows": 17
+    },
+    {
+     "growth": null,
+     "key": "CombatProbe.UNIT_SPELLCAST_DELAYED",
+     "max": 0.049,
+     "mean": 0.032,
+     "ms": 0.384,
+     "n": 12,
+     "windows": 5
+    },
+    {
+     "growth": {
+      "first": 0.0042,
+      "grows": false,
+      "last": 0.0044,
+      "ratio": 1.06
+     },
+     "key": "Lab.UNIT_SPELLCAST_SUCCEEDED",
+     "max": 0.011,
+     "mean": 0.0044,
+     "ms": 0.367,
+     "n": 84,
+     "windows": 22
+    },
+    {
+     "growth": null,
+     "key": "Inference.PLAYER_REGEN_DISABLED",
+     "max": 0.072,
+     "mean": 0.0518,
+     "ms": 0.362,
+     "n": 7,
+     "windows": 7
+    },
+    {
+     "growth": null,
+     "key": "Inference.PLAYER_SWING",
+     "max": 0.024,
+     "mean": 0.0112,
+     "ms": 0.337,
+     "n": 30,
+     "windows": 13
+    },
+    {
+     "growth": null,
+     "key": "TokenScan.UNIT_SPELLCAST_START",
+     "max": 0.033,
+     "mean": 0.0089,
+     "ms": 0.32,
+     "n": 36,
+     "windows": 11
+    },
+    {
+     "growth": null,
+     "key": "Learned.UNIT_SPELLCAST_FAILED",
+     "max": 0.013,
+     "mean": 0.0086,
+     "ms": 0.308,
+     "n": 36,
+     "windows": 6
+    },
+    {
+     "growth": null,
+     "key": "Inference.ADDON_RESTRICTION_STATE_CHANGED",
+     "max": 0.043,
+     "mean": 0.0202,
+     "ms": 0.283,
+     "n": 14,
+     "windows": 11
+    },
+    {
+     "growth": null,
+     "key": "TokenScan.PLAYER_REGEN_ENABLED",
+     "max": 0.089,
+     "mean": 0.0382,
+     "ms": 0.267,
+     "n": 7,
+     "windows": 7
+    },
+    {
+     "growth": null,
+     "key": "Lab.PLAYER_REGEN_ENABLED",
+     "max": 0.066,
+     "mean": 0.0379,
+     "ms": 0.265,
+     "n": 7,
+     "windows": 7
+    },
+    {
+     "growth": null,
+     "key": "Learned.UNIT_SPELLCAST_STOP",
+     "max": 0.015,
+     "mean": 0.0073,
+     "ms": 0.263,
+     "n": 36,
+     "windows": 12
+    },
+    {
+     "growth": null,
+     "key": "Inference.PLAYER_REGEN_ENABLED",
+     "max": 0.044,
+     "mean": 0.0331,
+     "ms": 0.232,
+     "n": 7,
+     "windows": 7
+    },
+    {
+     "growth": null,
+     "key": "TokenScan.PLAYER_REGEN_DISABLED",
+     "max": 0.043,
+     "mean": 0.0322,
+     "ms": 0.225,
+     "n": 7,
+     "windows": 7
+    },
+    {
+     "growth": null,
+     "key": "TokenScan.PLAYER_TARGET_CHANGED",
+     "max": 0.01,
+     "mean": 0.0065,
+     "ms": 0.182,
+     "n": 28,
+     "windows": 17
+    },
+    {
+     "growth": null,
+     "key": "Inference.UNIT_SPELLCAST_INTERRUPTED",
+     "max": 0.116,
+     "mean": 0.041,
+     "ms": 0.164,
+     "n": 4,
+     "windows": 2
+    },
+    {
+     "growth": null,
+     "key": "CombatProbe.UNIT_SPELLCAST_INTERRUPTED",
+     "max": 0.067,
+     "mean": 0.0344,
+     "ms": 0.137,
+     "n": 4,
+     "windows": 2
+    },
+    {
+     "growth": null,
+     "key": "DamageMeter.DAMAGE_METER_CURRENT_SESSION_UPDATED",
+     "max": 0.03,
+     "mean": 0.0123,
+     "ms": 0.074,
+     "n": 6,
+     "windows": 6
+    },
+    {
+     "growth": null,
+     "key": "Learned.UNIT_SPELLCAST_INTERRUPTED",
+     "max": 0.039,
+     "mean": 0.0147,
+     "ms": 0.059,
+     "n": 4,
+     "windows": 2
+    },
+    {
+     "growth": null,
+     "key": "Lab.UNIT_DIED",
+     "max": 0.008,
+     "mean": 0.0062,
+     "ms": 0.049,
+     "n": 8,
+     "windows": 8
+    },
+    {
+     "growth": null,
+     "key": "DamageMeter.PLAYER_REGEN_ENABLED",
+     "max": 0.004,
+     "mean": 0.0037,
+     "ms": 0.026,
+     "n": 7,
+     "windows": 7
+    },
+    {
+     "growth": null,
+     "key": "DamageMeter.PLAYER_REGEN_DISABLED",
+     "max": 0.004,
+     "mean": 0.0031,
+     "ms": 0.022,
+     "n": 7,
+     "windows": 7
+    },
+    {
+     "growth": null,
+     "key": "Lab.PLAYER_REGEN_DISABLED",
+     "max": 0.004,
+     "mean": 0.0031,
+     "ms": 0.022,
+     "n": 7,
+     "windows": 7
+    },
+    {
+     "growth": null,
+     "key": "Derive.PLAYER_REGEN_ENABLED",
+     "max": 0.003,
+     "mean": 0.0023,
+     "ms": 0.016,
+     "n": 7,
+     "windows": 7
+    },
+    {
+     "growth": null,
+     "key": "core.ADDON_LOADED",
+     "max": 0.001,
+     "mean": 0.0011,
+     "ms": 0.001,
+     "n": 1,
+     "windows": 1
+    }
+   ],
+   "impactPct": 0.8292,
+   "peakMarks": [
+    {
+     "label": "load:begin",
+     "peak": 7709.417,
+     "t": 1272847.6300000001
+    },
+    {
+     "label": "load:svunpack",
+     "peak": 7709.417,
+     "t": 1272847.6300000001
+    },
+    {
+     "label": "load:initdb",
+     "peak": 7709.417,
+     "t": 1272847.6300000001
+    },
+    {
+     "label": "login:begin",
+     "peak": 7709.417,
+     "t": 1272847.6300000001
+    },
+    {
+     "label": "login:handlers",
+     "peak": 7709.417,
+     "t": 1272847.6300000001
+    },
+    {
+     "label": "capture:begin",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:self-perf monitor",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:replay log (session_hdr + tape)",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:combat probe set",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:unit token survey",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:group-aware token scanner",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:container schema",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:spell knowledge + HSM inference",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:damage meter evidence (C_DamageMeter)",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:identity ledger (token/GUID correlation)",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:live verification loop",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:world-state capture (casts/auras/hp/threat/range/target-of)",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:learned spell / NPC / class DB",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:lab probes (capture level lab)",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:derivation lab (capture level lab)",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:aura presence probe (v2.2.25)",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:ooc fill + unit-token sweep (capture level lab)",
+     "peak": 7709.417,
+     "t": 1274664.491
+    },
+    {
+     "label": "start:HSM window",
+     "peak": 7709.417,
+     "t": 1274664.491
+    }
+   ],
+   "peakSetBy": {
+    "and": "load:begin",
+    "between": "(addon load)",
+    "peak": 7709.417
+   },
+   "sampleStats": {
+    "all": {
+     "first": 0.025,
+     "last": 0.024,
+     "max": 0.067,
+     "median": 0.023,
+     "min": 0.015
+    },
+    "app": {
+     "first": 20.483,
+     "last": 20.483,
+     "max": 123,
+     "median": 20.483,
+     "min": 20.483
+    },
+    "fps": {
+     "first": 48,
+     "last": 48,
+     "max": 48,
+     "median": 48,
+     "min": 12.3
+    },
+    "heapKB": {
+     "first": 456936,
+     "last": 245371,
+     "max": 499303,
+     "median": 282580,
+     "min": 215487
+    },
+    "own": {
+     "first": 0.013,
+     "last": 0.009,
+     "max": 0.036,
+     "median": 0.008,
+     "min": 0.007
+    },
+    "ownPeak": {
+     "first": 7709.417,
+     "last": 7709.417,
+     "max": 7709.417,
+     "median": 7709.417,
+     "min": 7709.417
+    }
+   },
+   "samples": 75,
+   "sid": "cap-20261010113812-98",
+   "sizes": {
+    "hsm.inferences": {
+     "bound": null,
+     "first": 0,
+     "flagged": true,
+     "last": 689,
+     "max": 689,
+     "stillGrowing": true
+    },
+    "hsm.predictions": {
+     "bound": null,
+     "first": 0,
+     "flagged": true,
+     "last": 38,
+     "max": 38,
+     "stillGrowing": true
+    },
+    "hsm.units": {
+     "bound": null,
+     "first": 0,
+     "flagged": false,
+     "last": 2,
+     "max": 2,
+     "stillGrowing": false
+    },
+    "identity.state": {
+     "bound": 80,
+     "first": 0,
+     "flagged": false,
+     "last": 2,
+     "max": 11,
+     "stillGrowing": false
+    },
+    "inference.signals": {
+     "bound": 250000,
+     "first": 2,
+     "flagged": false,
+     "last": 951,
+     "max": 951,
+     "stillGrowing": true
+    },
+    "ledger.aura": {
+     "bound": 500,
+     "first": 0,
+     "flagged": false,
+     "last": 7,
+     "max": 7,
+     "stillGrowing": true
+    },
+    "ledger.cast": {
+     "bound": 80,
+     "first": 0,
+     "flagged": false,
+     "last": 1,
+     "max": 1,
+     "stillGrowing": false
+    },
+    "ledger.fingerprint": {
+     "bound": 375,
+     "first": 0,
+     "flagged": false,
+     "last": 1,
+     "max": 1,
+     "stillGrowing": false
+    },
+    "ledger.guid": {
+     "bound": 375,
+     "first": 1,
+     "flagged": false,
+     "last": 1,
+     "max": 1,
+     "stillGrowing": false
+    },
+    "ledger.plate": {
+     "bound": 50,
+     "first": 0,
+     "flagged": false,
+     "last": 0,
+     "max": 0,
+     "stillGrowing": false
+    },
+    "ledger.token": {
+     "bound": 80,
+     "first": 0,
+     "flagged": false,
+     "last": 1,
+     "max": 1,
+     "stillGrowing": false
+    },
+    "verify.ring": {
+     "bound": 250000,
+     "first": 0,
+     "flagged": false,
+     "last": 1007,
+     "max": 1007,
+     "stillGrowing": true
+    },
+    "verify.unexpected": {
+     "bound": 216,
+     "first": 0,
+     "flagged": false,
+     "last": 6,
+     "max": 6,
+     "stillGrowing": true
+    }
+   },
+   "version": "2.2.25"
+  }
+ ],
+ "source": "perf"
+}
