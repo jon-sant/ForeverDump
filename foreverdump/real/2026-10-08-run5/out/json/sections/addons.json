@@ -1,0 +1,5722 @@
+{
+ "addons": [
+  {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "plusmouse, Borjamacare",
+    "Category": "Auctions",
+    "Group": "Auctionator",
+    "IconTexture": "Interface\\AddOns\\Auctionator\\Images\\Logo",
+    "Version": "340",
+    "X-Website": "https://www.curseforge.com/wow/addons/auctionator"
+   },
+   "name": "Auctionator",
+   "notes": "A lightweight addon that makes it easy and fast to buy, sell and manage auctions",
+   "optionalDeps": [
+    "LibAHTab"
+   ],
+   "reason": "",
+   "security": "INSECURE",
+   "title": "Auctionator"
+  },
+  {
+   "enableState": 0,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Relyk",
+    "Group": "ClassicFishingCompanion",
+    "IconTexture": "Interface\\AddOns\\ClassicFishingCompanion\\Textures\\icon",
+    "Version": "1.2.2"
+   },
+   "name": "ClassicFishingCompanion",
+   "notes": "Track your fishing catches, fish per hour, locations, and statistics. Forever support is for testing on the Forever beta; fixes will follow.",
+   "reason": "DISABLED",
+   "security": "INSECURE",
+   "title": "Classic Fishing Companion (Forever Beta)"
+  },
+  {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Exehn",
+    "Group": "ForeverDungeonJournal",
+    "IconTexture": "Interface\\Icons\\INV_Misc_Book_09",
+    "Version": "1.3.2"
+   },
+   "name": "ForeverDungeonJournal",
+   "notes": "Boss, loot and quest journal for WoW Classic dungeons.",
+   "reason": "",
+   "security": "INSECURE",
+   "title": "Dungeon Journal"
+  },
+  {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Group": "ForeverDump",
+    "IconTexture": "Interface\\Icons\\INV_Misc_Book_09",
+    "Version": "2.2.3"
+   },
+   "name": "ForeverDump",
+   "notes": "Dumps WoW Forever client API, docs, widgets, templates, CVars, fixtures and event recordings to SavedVariables for offline addon development.",
+   "optionalDeps": [
+    "!BugGrabber",
+    "BugSack"
+   ],
+   "reason": "",
+   "security": "INSECURE",
+   "title": "ForeverDump"
+  },
+  {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "silverwind",
+    "Group": "idTip",
+    "IconTexture": "Interface\\ICONS\\Achievement_Reputation_KirinTor",
+    "Version": "12.1.3-wowforever1"
+   },
+   "name": "idTip",
+   "notes": "Adds various IDs to tooltips (WoW Forever port of silverwind's idTip)",
+   "reason": "",
+   "security": "INSECURE",
+   "title": "idTip"
+  },
+  {
+   "deps": [
+    "QuestieDB"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Aero/Logon/Muehe/TheCrux(BreakBB)/Drejjmit/Dyaxler/Cheeq/TechnoHunter/Yttrium/Everyone else",
+    "Category": "Quests",
+    "Group": "Questie",
+    "IconTexture": "Interface\\AddOns\\Questie\\Icons\\questie.png",
+    "Version": "12.0.3"
+   },
+   "name": "Questie",
+   "notes": "A standalone Classic QuestHelper",
+   "optionalDeps": [
+    "Ace3",
+    "CallbackHandler-1.0",
+    "HereBeDragons",
+    "Krowi_WorldMapButtons",
+    "LibDataBroker-1.1",
+    "LibDBIcon-1.0",
+    "LibSharedMedia-3.0",
+    "LibStub",
+    "LibUIDropDownMenu"
+   ],
+   "reason": "",
+   "security": "INSECURE",
+   "title": "Questie|cFF00FF00 v12.0.3|r"
+  },
+  {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Code: Logonz Data: Muehe/TheCrux(BreakBB)/Drejjmit/Dyaxler/Cheeq/TechnoHunter/Yttrium/Everyone else",
+    "Category": "Quests",
+    "Group": "Questie",
+    "IconTexture": "Interface\\AddOns\\QuestieDB\\icons\\QuestieTDB_64x64.png",
+    "Version": "1.0.4"
+   },
+   "name": "QuestieDB",
+   "notes": "The database Questie consumes.",
+   "reason": "",
+   "security": "INSECURE",
+   "title": "QuestieDB"
+  },
+  {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "iceeagle",
+    "Group": "QuestLevelPatch",
+    "IconTexture": "Interface\\AddOns\\QuestLevelPatch\\Artwork\\logo.tga",
+    "Version": "v1.29"
+   },
+   "name": "QuestLevelPatch",
+   "notes": "Adds level within brackets to the quest name. Example: [62] Order Must Be Restored",
+   "reason": "",
+   "security": "INSECURE",
+   "title": "QuestLevelPatch"
+  },
+  {
+   "enableState": 0,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "RestedXP",
+    "Category": "Quests",
+    "Group": "RXPGuides",
+    "Version": "v4.11.11"
+   },
+   "name": "RXPGuides",
+   "notes": "In-game leveling guides",
+   "optionalDeps": [
+    "Questie",
+    "RXPGuides_Themes"
+   ],
+   "reason": "DISABLED",
+   "security": "INSECURE",
+   "title": "RestedXP Guides"
+  },
+  {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Cladhaire, Ludovicus",
+    "Group": "TomTom",
+    "IconTexture": "Interface\\AddOns\\TomTom\\Images\\Modern\\TomTom-Logo.tga",
+    "Version": "v4.3.11-release"
+   },
+   "name": "TomTom",
+   "notes": "Acts as your portable navigation assistant",
+   "optionalDeps": [
+    "HereBeDragons-2.0"
+   ],
+   "reason": "",
+   "security": "INSECURE",
+   "title": "TomTom"
+  },
+  {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "cjber",
+    "Category": "Quality of Life",
+    "Group": "TweaksForever",
+    "IconTexture": "Interface\\AddOns\\TweaksForever\\media\\Icon",
+    "Version": "v0.8.0",
+    "X-Website": "https://github.com/cjber/tweaks-forever"
+   },
+   "name": "TweaksForever",
+   "notes": "Small quality-of-life automations and fixes that extend the default UI, stepping aside where another addon already does the job.",
+   "optionalDeps": [
+    "ShortestPathForever",
+    "QuestieDB",
+    "Questie"
+   ],
+   "reason": "",
+   "security": "INSECURE",
+   "title": "Tweaks Forever"
+  },
+  {
+   "enableState": 0,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "plusmouse, cjber",
+    "Group": "LibAHTab",
+    "IconTexture": "Interface\\AddOns\\TweaksForever\\media\\Icon",
+    "Version": "v0.8.0"
+   },
+   "name": "LibAHTab",
+   "notes": "Keeps Auctionator tabs compatible with native auction house panels.",
+   "optionalDeps": [
+    "LibStub"
+   ],
+   "reason": "DISABLED",
+   "security": "INSECURE",
+   "title": "Tweaks Forever: Auction House compatibility"
+  }
+ ],
+ "blizzard": {
+  "Blizzard_APIDocumentation": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_APIDocumentation",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard API Documentation"
+  },
+  "Blizzard_APIDocumentationGenerated": {
+   "deps": [
+    "Blizzard_APIDocumentation"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_APIDocumentationGenerated",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard API Documentation Generated"
+  },
+  "Blizzard_AccessibilityTemplates": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_AccessibilityTemplates",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_AccessibilityTemplates"
+  },
+  "Blizzard_AccountSaveUI": {
+   "deps": [
+    "Blizzard_GlueXML"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Category": "Character Utils"
+   },
+   "name": "Blizzard_AccountSaveUI",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard_AccountSaveUI"
+  },
+  "Blizzard_AccountStore": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_StaticPopup",
+    "Blizzard_UIParentPanelManager"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_AccountStore",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard_AccountStore"
+  },
+  "Blizzard_AchievementUI": {
+   "deps": [
+    "Blizzard_FrameXMLUtil"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_AchievementUI",
+   "optionalDeps": [
+    "Blizzard_Plunderstorm"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_AchievementUI"
+  },
+  "Blizzard_ActionBar": {
+   "deps": [
+    "Blizzard_StoreUI",
+    "Blizzard_QuickKeybind",
+    "Blizzard_EditMode",
+    "Blizzard_UIPanels_Game",
+    "Blizzard_TextStatusBar",
+    "Blizzard_Flyout",
+    "Blizzard_Colors",
+    "Blizzard_HelpPlate",
+    "Blizzard_MicroMenu",
+    "Blizzard_PingUI",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_ActionBar",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ActionBar"
+  },
+  "Blizzard_ActionBarController": {
+   "deps": [
+    "Blizzard_ActionBar",
+    "Blizzard_OverrideActionBar",
+    "Blizzard_StatusTrackingBar"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_ActionBarController",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ActionBarController"
+  },
+  "Blizzard_ActionStatus": {
+   "deps": [
+    "Blizzard_FrameXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_ActionStatus",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ActionStatus"
+  },
+  "Blizzard_AddFriend": {
+   "deps": [
+    "Blizzard_AccessibilityTemplates"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_AddFriend",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_AddFriend"
+  },
+  "Blizzard_AddOnList": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_AddOnList",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_AddOnList"
+  },
+  "Blizzard_AddOnPerformance": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_AddOnPerformance",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_AddOnPerformance"
+  },
+  "Blizzard_AdventureMap": {
+   "deps": [
+    "Blizzard_GarrisonTemplates",
+    "Blizzard_MapCanvas",
+    "Blizzard_SharedMapDataProviders"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_AdventureMap",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Adventure Map UI"
+  },
+  "Blizzard_AlliedRacesUI": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_AlliedRacesUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_AlliedRacesUI"
+  },
+  "Blizzard_AnimaDiversionUI": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_AnimaDiversionUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Anima Diversion UI"
+  },
+  "Blizzard_AnimatedShine": {
+   "deps": [
+    "Blizzard_SharedXMLGame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_AnimatedShine",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_AnimatedShine"
+  },
+  "Blizzard_ArchaeologyUI": {
+   "deps": [
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_HelpPlate"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_ArchaeologyUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ArchaeologyUI"
+  },
+  "Blizzard_ArdenwealdGardening": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_ArdenwealdGardening",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Ardenweald Gardening"
+  },
+  "Blizzard_ArrowCalloutFrame": {
+   "deps": [
+    "Blizzard_HelpPlate"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_ArrowCalloutFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ArrowCalloutFrame"
+  },
+  "Blizzard_ArtifactUI": {
+   "deps": [
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_ArtifactUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Artifact UI"
+  },
+  "Blizzard_AsyncRequest": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_AsyncRequest",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_AsyncRequest"
+  },
+  "Blizzard_AuctionHouseUI": {
+   "deps": [
+    "Blizzard_Colors",
+    "Blizzard_HelpPlate",
+    "Blizzard_ManagedFrameSystem"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_AuctionHouseUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_AuctionHouseUI"
+  },
+  "Blizzard_AuraContainer": {
+   "deps": [
+    "Blizzard_FrameXMLBase",
+    "Blizzard_ObjectAPI",
+    "Blizzard_PrivateAurasUI",
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_AuraContainer",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_AuraContainer"
+  },
+  "Blizzard_AuthChallengeUI": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_AuthChallengeUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Auth Challenge UI"
+  },
+  "Blizzard_AutoComplete": {
+   "deps": [
+    "Blizzard_Fonts_Shared"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_AutoComplete",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_AutoComplete"
+  },
+  "Blizzard_AutoCompletePopupList": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_AutoCompletePopupList",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Auto Complete Popup List"
+  },
+  "Blizzard_AzeriteEssenceUI": {
+   "deps": [
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_AzeriteEssenceUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Azerite Essence UI"
+  },
+  "Blizzard_AzeriteRespecUI": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_AzeriteRespecUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Azerite Respec UI"
+  },
+  "Blizzard_AzeriteUI": {
+   "deps": [
+    "Blizzard_TransformTree"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_AzeriteUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Azerite UI"
+  },
+  "Blizzard_BNet": {
+   "deps": [
+    "Blizzard_SocialToast",
+    "Blizzard_ChatFrame",
+    "Blizzard_SocialUIShared"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_BNet",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_BNet"
+  },
+  "Blizzard_BarbershopUI": {
+   "deps": [
+    "Blizzard_CharacterCustomize"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_BarbershopUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_BarbershopUI"
+  },
+  "Blizzard_BattlefieldMap": {
+   "deps": [
+    "Blizzard_MapCanvas",
+    "Blizzard_SharedMapDataProviders",
+    "Blizzard_ObjectiveTracker",
+    "Blizzard_ColorPickerFrame"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_BattlefieldMap",
+   "optionalDeps": [
+    "Blizzard_Plunderstorm"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_BattlefieldMap"
+  },
+  "Blizzard_BehavioralMessaging": {
+   "deps": [
+    "Blizzard_GMChatUI"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_BehavioralMessaging",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Behavioral Messaging"
+  },
+  "Blizzard_BlackMarketUI": {
+   "deps": [
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_BlackMarketUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Black Market UI"
+  },
+  "Blizzard_BoostTutorial": {
+   "deps": [
+    "middleclass",
+    "Blizzard_TutorialTemplates",
+    "Blizzard_Dispatcher",
+    "Blizzard_HelpPlate"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_BoostTutorial",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_BoostTutorial"
+  },
+  "Blizzard_BuffFrame": {
+   "deps": [
+    "Blizzard_Minimap",
+    "Blizzard_EditMode",
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_RaidWarning",
+    "Blizzard_UIErrorsFrame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_BuffFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_BuffFrame"
+  },
+  "Blizzard_ButtonPulse": {
+   "deps": [
+    "Blizzard_FrameXMLBase"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_ButtonPulse",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Button Pulse"
+  },
+  "Blizzard_CUFProfiles": {
+   "deps": [
+    "Blizzard_UnitFrame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_CUFProfiles",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_CUFProfiles"
+  },
+  "Blizzard_Calendar": {
+   "deps": [
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_Calendar",
+   "optionalDeps": [
+    "Blizzard_Plunderstorm"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Calendar"
+  },
+  "Blizzard_CatalogShop": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_CatalogShopSharedUtil",
+    "Blizzard_CatalogShopSharedTemplates"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_CatalogShop",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_CatalogShop"
+  },
+  "Blizzard_CatalogShopRefundFlow": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_CatalogShopSharedUtil",
+    "Blizzard_CatalogShopSharedTemplates",
+    "Blizzard_AsyncRequest"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_CatalogShopRefundFlow",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_CatalogShopRefundFlow"
+  },
+  "Blizzard_CatalogShopSharedTemplates": {
+   "deps": [
+    "Blizzard_CatalogShopSharedUtil"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_CatalogShopSharedTemplates",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_CatalogShopSharedTemplates"
+  },
+  "Blizzard_CatalogShopSharedUtil": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_CatalogShopSharedUtil",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_CatalogShopSharedUtil"
+  },
+  "Blizzard_CatalogShopTopUpFlow": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_CatalogShopSharedUtil",
+    "Blizzard_CatalogShopSharedTemplates"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_CatalogShopTopUpFlow",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_CatalogShopTopUpFlow"
+  },
+  "Blizzard_ChallengesUI": {
+   "deps": [
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_ChallengesUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ChallengesUI"
+  },
+  "Blizzard_Channels": {
+   "deps": [
+    "Blizzard_SocialToast"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_Channels",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Channels"
+  },
+  "Blizzard_CharacterCreate": {
+   "deps": [
+    "Blizzard_CharacterCustomize",
+    "Blizzard_GlueXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_CharacterCreate",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_CharacterCreate"
+  },
+  "Blizzard_CharacterCustomize": {
+   "deps": [
+    "Blizzard_CustomizationUI"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_CharacterCustomize",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard_CharacterCustomize"
+  },
+  "Blizzard_CharacterSelectNavBar": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_GameModeSelect",
+    "Blizzard_GlueMenuFrame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_CharacterSelectNavBar",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_CharacterSelectNavBar"
+  },
+  "Blizzard_ChatBubble": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_ChatBubble",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Chat Bubble"
+  },
+  "Blizzard_ChatFrame": {
+   "deps": [
+    "Blizzard_EditMode",
+    "Blizzard_ChatFrameBase",
+    "Blizzard_VoiceToggleButton"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_ChatFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ChatFrame"
+  },
+  "Blizzard_ChatFrameBase": {
+   "deps": [
+    "Blizzard_AutoComplete",
+    "Blizzard_Settings_Shared",
+    "Blizzard_TimerunningUtil",
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_EditMode",
+    "Blizzard_TransmogShared",
+    "Blizzard_GameMenuEsc",
+    "Blizzard_SharedXML",
+    "Blizzard_GamepadSharedUtility"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_ChatFrameBase",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ChatFrameBase"
+  },
+  "Blizzard_ChatFrameUtil": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_ChatFrameUtil",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Chat Frame Util"
+  },
+  "Blizzard_ChromieTimeUI": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_ChromieTimeUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Chromie Time UI"
+  },
+  "Blizzard_ClassMenu": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_ClassMenu",
+   "notes": "Wardrobe, LootJournal",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Class Menu"
+  },
+  "Blizzard_ClassTrial": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_ClassTrialSecure",
+    "Blizzard_Minimap",
+    "Blizzard_StaticPopup_Game"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_ClassTrial",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ClassTrial"
+  },
+  "Blizzard_ClassTrialSecure": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_ClassTrialSecure",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard ClassTrial Secure"
+  },
+  "Blizzard_ClickBindingUI": {
+   "deps": [
+    "Blizzard_HelpPlate"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_ClickBindingUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Click Binding UI"
+  },
+  "Blizzard_ClientSavedVariables": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_ClientSavedVariables",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ClientSavedVariables"
+  },
+  "Blizzard_ClientSceneVisManager": {
+   "deps": [
+    "Blizzard_UIModes"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_ClientSceneVisManager",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ClientSceneVisManager"
+  },
+  "Blizzard_CodeOfConduct": {
+   "deps": [
+    "Blizzard_SharedXMLBase",
+    "Blizzard_ChatFrameBase"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_CodeOfConduct",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Code of Conduct"
+  },
+  "Blizzard_Collections": {
+   "deps": [
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_TransmogShared",
+    "Blizzard_ContentTracking",
+    "Blizzard_ClassMenu",
+    "Blizzard_Flyout",
+    "Blizzard_PagedContent",
+    "Blizzard_Colors",
+    "Blizzard_HelpPlate"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_Collections",
+   "notes": "Collections",
+   "optionalDeps": [
+    "Blizzard_Plunderstorm"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Collections"
+  },
+  "Blizzard_ColorPickerFrame": {
+   "deps": [
+    "Blizzard_FrameXMLBase",
+    "Blizzard_UIPanelTemplates",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_ColorPickerFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ColorPickerFrame"
+  },
+  "Blizzard_Colors": {
+   "deps": [
+    "Blizzard_SharedXMLBase"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_Colors",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Colors"
+  },
+  "Blizzard_CombatAudioAlerts": {
+   "deps": [
+    "Blizzard_SettingsDefinitions_Frame",
+    "Blizzard_UnitFrame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_CombatAudioAlerts",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_CombatAudioAlerts"
+  },
+  "Blizzard_CombatLog": {
+   "deps": [
+    "Blizzard_CombatLogBase",
+    "Blizzard_CombatLogProcessor"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_CombatLog",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_CombatLog"
+  },
+  "Blizzard_CombatLogBase": {
+   "deps": [
+    "Blizzard_SharedXMLBase"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_CombatLogBase",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard_CombatLogBase"
+  },
+  "Blizzard_CombatLogProcessor": {
+   "deps": [
+    "Blizzard_CombatLogBase"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_CombatLogProcessor",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_CombatLogProcessor"
+  },
+  "Blizzard_CombatText": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_CombatText",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard CombatText"
+  },
+  "Blizzard_CommandLineUtil": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_CommandLineUtil",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Command Line Util"
+  },
+  "Blizzard_Commentator": {
+   "deps": [
+    "Blizzard_UIModes",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_Commentator",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Commentator"
+  },
+  "Blizzard_Communities": {
+   "deps": [
+    "Blizzard_GuildControlUI",
+    "Blizzard_HelpPlate",
+    "Blizzard_ChatFrameBase",
+    "Blizzard_ChatFrame",
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_SharedXML",
+    "Blizzard_TimerunningUtil"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_Communities",
+   "optionalDeps": [
+    "Blizzard_Plunderstorm"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Communities"
+  },
+  "Blizzard_CommunitiesSecure": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_CommunitiesSecure",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_CommunitiesSecure"
+  },
+  "Blizzard_CompactRaidFrames": {
+   "deps": [
+    "Blizzard_RaidFrame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_CompactRaidFrames",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_CompactRaidFrames"
+  },
+  "Blizzard_Console": {
+   "deps": [
+    "Blizzard_CommandLineUtil"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_Console",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Developer Console"
+  },
+  "Blizzard_ContentTracking": {
+   "deps": [
+    "Blizzard_FrameXMLBase",
+    "Blizzard_ObjectiveTracker"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_ContentTracking",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ContentTracking"
+  },
+  "Blizzard_Contribution": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_Contribution",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Contribution UI"
+  },
+  "Blizzard_CooldownBroadcaster": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_CooldownBroadcaster",
+   "notes": "This addon is maintained by esports and is used for broadcasting cooldown data to commentator clients for use during MDI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_CooldownBroadcaster"
+  },
+  "Blizzard_CooldownViewer": {
+   "deps": [
+    "Blizzard_EditMode",
+    "Blizzard_ChatFrameBase",
+    "Blizzard_VisualAlerts",
+    "Blizzard_ManagedFrameSystem"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_CooldownViewer",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_CooldownViewer"
+  },
+  "Blizzard_CovenantCallings": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_CovenantCallings",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Covenant Callings"
+  },
+  "Blizzard_CovenantPreviewUI": {
+   "deps": [
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_CovenantPreviewUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Covenant Preview UI"
+  },
+  "Blizzard_CovenantRenown": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_CovenantRenown",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Covenant Renown"
+  },
+  "Blizzard_CovenantSanctum": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_CovenantSanctum",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Covenant Sanctum"
+  },
+  "Blizzard_CovenantToasts": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_CovenantToasts",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Covenant Toasts"
+  },
+  "Blizzard_CustomizationUI": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_CustomizationUI",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard_CustomizationUI"
+  },
+  "Blizzard_DamageMeter": {
+   "deps": [
+    "Blizzard_EditMode"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_DamageMeter",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_DamageMeter"
+  },
+  "Blizzard_DeathRecap": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_DeathRecap",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_DeathRecap"
+  },
+  "Blizzard_DebugTools": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Version": "1.0"
+   },
+   "name": "Blizzard_DebugTools",
+   "notes": "Tools for developing addons",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_DebugTools"
+  },
+  "Blizzard_DebugUtil": {
+   "deps": [
+    "Blizzard_SharedXMLGame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_DebugUtil",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_DebugUtil"
+  },
+  "Blizzard_DeclensionFrame": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_DeclensionFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_DeclensionFrame"
+  },
+  "Blizzard_DelvesCompanionConfiguration": {
+   "deps": [
+    "Blizzard_SharedTalentUI",
+    "Blizzard_PagedContent",
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_DelvesCompanionConfiguration",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_DelvesCompanionConfiguration"
+  },
+  "Blizzard_DelvesDifficultyPicker": {
+   "deps": [
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_DelvesDifficultyPicker",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_DelvesDifficultyPicker"
+  },
+  "Blizzard_DelvesToast": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_DelvesToast",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_DelvesToast"
+  },
+  "Blizzard_Deprecated": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_Deprecated",
+   "notes": "C API functions that are exposed for backwards compatibility. They will be removed once all live versions of the game have been updated to the new APIs. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Deprecated"
+  },
+  "Blizzard_DeprecatedActionBar": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_DeprecatedActionBar",
+   "notes": "C API functions that are exposed for backwards compatibility. They will be removed at the next expansion. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Deprecated Action Bar APIs"
+  },
+  "Blizzard_DeprecatedAuraFilters": {
+   "deps": [
+    "Blizzard_FrameXMLUtil"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_DeprecatedAuraFilters",
+   "notes": "Aura filter API values exposed for backwards compatibility. They will be removed at the next expansion. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Deprecated AuraFilters"
+  },
+  "Blizzard_DeprecatedAutoComplete": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_DeprecatedAutoComplete",
+   "notes": "C API functions that are exposed for backwards compatibility. They will be removed at the next expansion. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Deprecated Auto Complete"
+  },
+  "Blizzard_DeprecatedBattleNet": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_DeprecatedBattleNet",
+   "notes": "C API functions that are exposed for backwards compatibility. They will be removed at the next expansion. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Deprecated Battle.net APIs"
+  },
+  "Blizzard_DeprecatedChatInfo": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_DeprecatedChatInfo",
+   "notes": "C API functions that are exposed for backwards compatibility. They will be removed at the next expansion. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Deprecated Chat Info"
+  },
+  "Blizzard_DeprecatedCombatLog": {
+   "deps": [
+    "Blizzard_CombatLogBase"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_DeprecatedCombatLog",
+   "notes": "C API functions that are exposed for backwards compatibility. They will be removed at the next expansion. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Combat Log Deprecations"
+  },
+  "Blizzard_DeprecatedGuildScript": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_DeprecatedGuildScript",
+   "notes": "C API functions that are exposed for backwards compatibility. They will be removed at the next expansion. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Deprecated Guild Script"
+  },
+  "Blizzard_DeprecatedInstanceEncounter": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_DeprecatedInstanceEncounter",
+   "notes": "C API functions that are exposed for backwards compatibility. They will be removed at the next expansion. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Deprecated Instance Encounter APIs"
+  },
+  "Blizzard_DeprecatedPartyInfo": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_DeprecatedPartyInfo",
+   "notes": "C API functions that are exposed for backwards compatibility. They will be removed at the next expansion. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_DeprecatedPartyInfo"
+  },
+  "Blizzard_DeprecatedRaidWarning": {
+   "deps": [
+    "Blizzard_RaidWarning"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_DeprecatedRaidWarning",
+   "notes": "Functions that are exposed for backwards compatibility. They will be removed at the next expansion. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_DeprecatedRaidWarning"
+  },
+  "Blizzard_DeprecatedSpecialization": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_DeprecatedSpecialization",
+   "notes": "C API functions that are exposed for backwards compatibility. They will be removed at the next expansion. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_DeprecatedSpecialization"
+  },
+  "Blizzard_DeprecatedSpellBook": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_DeprecatedSpellBook",
+   "notes": "C API functions that are exposed for backwards compatibility. They will be removed at the next expansion. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Deprecated Spell Book"
+  },
+  "Blizzard_DeprecatedSpellScript": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_DeprecatedSpellScript",
+   "notes": "C API functions that are exposed for backwards compatibility. They will be removed at the next expansion. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Deprecated Spell Script"
+  },
+  "Blizzard_DeprecatedTransmog": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_DeprecatedTransmog",
+   "notes": "C API functions that are exposed for backwards compatibility. They will be removed at the next expansion. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Deprecated Transmog"
+  },
+  "Blizzard_DeprecatedUnitScript": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_DeprecatedUnitScript",
+   "notes": "C API functions that are exposed for backwards compatibility. They will be removed at the next expansion. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Deprecated Unit Script"
+  },
+  "Blizzard_Deprecated_ArenaUI": {
+   "deps": [
+    "Blizzard_UnitFrame",
+    "Blizzard_DurabilityFrame",
+    "Blizzard_ManagedFrameSystem"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_Deprecated_ArenaUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Deprecated_ArenaUI"
+  },
+  "Blizzard_Dispatcher": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_Dispatcher",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Dispatcher"
+  },
+  "Blizzard_DurabilityFrame": {
+   "deps": [
+    "Blizzard_Minimap",
+    "Blizzard_EditMode",
+    "Blizzard_ManagedFrameSystem"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_DurabilityFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_DurabilityFrame"
+  },
+  "Blizzard_EditMode": {
+   "deps": [
+    "Blizzard_UIPanelTemplates",
+    "Blizzard_HelpPlate",
+    "Blizzard_ManagedFrameSystem",
+    "Blizzard_GameMenuEsc",
+    "Blizzard_UIParentUtil"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_EditMode",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_EditMode"
+  },
+  "Blizzard_EncounterJournal": {
+   "deps": [
+    "Blizzard_ClassMenu",
+    "Blizzard_HelpPlate",
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_EncounterJournal",
+   "optionalDeps": [
+    "Blizzard_Plunderstorm"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_EncounterJournal"
+  },
+  "Blizzard_EncounterTimeline": {
+   "deps": [
+    "Blizzard_EditMode"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_EncounterTimeline",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_EncounterTimeline"
+  },
+  "Blizzard_EncounterWarnings": {
+   "deps": [
+    "Blizzard_EditMode"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_EncounterWarnings",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_EncounterWarnings"
+  },
+  "Blizzard_EndOfMatchUI": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_EndOfMatchUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard End Match UI"
+  },
+  "Blizzard_EnvironmentCleanup": {
+   "deps": [
+    "Blizzard_FrameXML",
+    "Blizzard_ActionBar",
+    "Blizzard_UIPanels_Game",
+    "Blizzard_ScriptErrorsFrame",
+    "Blizzard_UnitFrame",
+    "Blizzard_ChatFrame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_EnvironmentCleanup",
+   "optionalDeps": [
+    "Blizzard_RestrictedAddOnEnvironment"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_EnvironmentCleanup"
+  },
+  "Blizzard_EventTrace": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "IconTexture": "Interface\\ICONS\\inv_misc_note_06",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_EventTrace",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Event Trace"
+  },
+  "Blizzard_ExpansionLandingPage": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_ExpansionLandingPage",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Expansion Landing Page"
+  },
+  "Blizzard_ExpansionTrial": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_ExpansionTrial",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ExpansionTrial"
+  },
+  "Blizzard_FlightMap": {
+   "deps": [
+    "Blizzard_MapCanvas",
+    "Blizzard_SharedMapDataProviders"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_FlightMap",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Flight Map UI"
+  },
+  "Blizzard_Flyout": {
+   "deps": [
+    "Blizzard_SharedXMLBase"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_Flyout",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Flyout"
+  },
+  "Blizzard_Fonts_Shared": {
+   "deps": [
+    "Blizzard_LoadLocale"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_Fonts_Shared",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Fonts_Shared"
+  },
+  "Blizzard_FrameEffects": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_FrameEffects",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_FrameEffects"
+  },
+  "Blizzard_FrameStack": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_FrameStack",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_FrameStack"
+  },
+  "Blizzard_FrameXML": {
+   "deps": [
+    "Blizzard_ObjectAPI",
+    "Blizzard_FrameXMLBase",
+    "Blizzard_UIErrorsFrame",
+    "Blizzard_UIParentPanelManager",
+    "Blizzard_SettingsDefinitions_Frame",
+    "Blizzard_ItemButton",
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_RaidWarning",
+    "Blizzard_UIPanelTemplates",
+    "Blizzard_GameTooltip",
+    "Blizzard_MoneyFrame",
+    "Blizzard_Colors",
+    "Blizzard_TransmogShared",
+    "Blizzard_LFGUtil",
+    "Blizzard_ManagedFrameSystem",
+    "Blizzard_GamepadSoftCursor"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_FrameXML",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_FrameXML"
+  },
+  "Blizzard_FrameXMLBase": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_SharedXMLGame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_FrameXMLBase",
+   "optionalDeps": [
+    "Blizzard_Plunderstorm"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_FrameXMLBase"
+  },
+  "Blizzard_FrameXMLUtil": {
+   "deps": [
+    "Blizzard_SharedXMLGame",
+    "Blizzard_Colors",
+    "Blizzard_StaticPopup"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_FrameXMLUtil",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_FrameXMLUtil"
+  },
+  "Blizzard_FramerateFrame": {
+   "deps": [
+    "Blizzard_ActionBar"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_FramerateFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_FramerateFrame"
+  },
+  "Blizzard_FriendsFrame": {
+   "deps": [
+    "Blizzard_TimerunningUtil",
+    "Blizzard_AddFriend"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_FriendsFrame",
+   "optionalDeps": [
+    "Blizzard_GlueStubs",
+    "Blizzard_ActionBar",
+    "Blizzard_SocialUIShared",
+    "Blizzard_RecentAllies",
+    "Blizzard_UnitPopupShared",
+    "Blizzard_UnitPopup"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_FriendsFrame"
+  },
+  "Blizzard_FullscreenBrowser": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_FullscreenBrowser",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_FullscreenBrowser"
+  },
+  "Blizzard_GMChatUI": {
+   "deps": [
+    "Blizzard_StatusUI"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_GMChatUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GMChatUI"
+  },
+  "Blizzard_Game": {
+   "deps": [
+    "Blizzard_GameMenuEsc",
+    "Blizzard_UIParentUtil"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_Game",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Game"
+  },
+  "Blizzard_GameMenu": {
+   "deps": [
+    "Blizzard_GameTooltip",
+    "Blizzard_StaticPopup",
+    "Blizzard_GameMenuEsc",
+    "Blizzard_GamepadSharedUtility"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_GameMenu",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GameMenu"
+  },
+  "Blizzard_GameMenuEsc": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_GameMenuEsc",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GameMenuEsc"
+  },
+  "Blizzard_GameModeSelect": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_GameModeSelect",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GameModeSelect"
+  },
+  "Blizzard_GameTooltip": {
+   "deps": [
+    "Blizzard_EditMode",
+    "Blizzard_GarrisonBase",
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_GameTooltip",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GameTooltip"
+  },
+  "Blizzard_Gamepad": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_GamepadSmartNavigation",
+    "Blizzard_GamepadSharedUtility",
+    "Blizzard_MicroMenu"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_Gamepad",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Gamepad"
+  },
+  "Blizzard_GamepadActionBars": {
+   "deps": [
+    "Blizzard_GamepadSharedUtility",
+    "Blizzard_Gamepad"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_GamepadActionBars",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GamepadActionBars"
+  },
+  "Blizzard_GamepadSharedUtility": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_StaticPopup",
+    "Blizzard_GamepadSmartNavigation"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_GamepadSharedUtility",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GamepadSharedUtility"
+  },
+  "Blizzard_GamepadSmartNavigation": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_GamepadSmartNavigation",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GamepadSmartNavigation"
+  },
+  "Blizzard_GamepadSoftCursor": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_GamepadSoftCursor",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GamepadSoftCursor"
+  },
+  "Blizzard_GamepadTargeting": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_GamepadSmartNavigation",
+    "Blizzard_GamepadSharedUtility",
+    "Blizzard_Gamepad",
+    "Blizzard_GamepadActionBars"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_GamepadTargeting",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GamepadTargeting"
+  },
+  "Blizzard_GarrisonBase": {
+   "deps": [
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_GarrisonBase",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GarrisonBase"
+  },
+  "Blizzard_GarrisonTemplates": {
+   "deps": [
+    "Blizzard_Colors",
+    "Blizzard_HelpPlate"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_GarrisonTemplates",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Garrison Templates"
+  },
+  "Blizzard_GarrisonUI": {
+   "deps": [
+    "Blizzard_GarrisonBase",
+    "Blizzard_GarrisonTemplates",
+    "Blizzard_AdventureMap",
+    "Blizzard_Colors",
+    "Blizzard_HelpPlate",
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_GarrisonUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GarrisonUI"
+  },
+  "Blizzard_GenericShoppingCart": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_GenericShoppingCart",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Generic Shopping Cart UI"
+  },
+  "Blizzard_GenericTraitUI": {
+   "deps": [
+    "Blizzard_SharedTalentUI"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_GenericTraitUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Generic Trait UI"
+  },
+  "Blizzard_GlobalFXModelScenes": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_GlobalFXModelScenes",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GlobalFXModelScenes"
+  },
+  "Blizzard_GlueCollections": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_PagedContent"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_GlueCollections",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GlueCollections"
+  },
+  "Blizzard_GlueMenuFrame": {
+   "deps": [
+    "Blizzard_GlueXMLBase",
+    "Blizzard_GlueParent",
+    "Blizzard_GamepadSharedUtility"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_GlueMenuFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GlueMenuFrame"
+  },
+  "Blizzard_GlueParent": {
+   "deps": [
+    "Blizzard_GlueXMLBase",
+    "Blizzard_StaticPopup_Glue"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_GlueParent",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GlueParent"
+  },
+  "Blizzard_GlueSavedVariables": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_GlueSavedVariables",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GlueSavedVariables"
+  },
+  "Blizzard_GlueStubs": {
+   "deps": [
+    "Blizzard_GlueXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_GlueStubs",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GlueStubs"
+  },
+  "Blizzard_GlueXML": {
+   "deps": [
+    "Blizzard_StaticPopup_Glue",
+    "Blizzard_LoginWarningDialogs",
+    "Blizzard_TimerunningUtil",
+    "Blizzard_Menu",
+    "Blizzard_MoneyFrame",
+    "Blizzard_MatchmakingQueueDisplay",
+    "Blizzard_GlueCollections",
+    "Blizzard_HelpPlate",
+    "Blizzard_GlueMenuFrame",
+    "Blizzard_CharacterSelectNavBar",
+    "Blizzard_Narration",
+    "Blizzard_GamepadSharedUtility"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_GlueXML",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GlueXML"
+  },
+  "Blizzard_GlueXMLBase": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_ScriptErrorsFrame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_GlueXMLBase",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GlueXMLBase"
+  },
+  "Blizzard_GroupFinder": {
+   "deps": [
+    "Blizzard_GameTooltip",
+    "Blizzard_UIPanelTemplates",
+    "Blizzard_LFGUtil",
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_EditMode",
+    "Blizzard_RaidWarning"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_GroupFinder",
+   "optionalDeps": [
+    "Blizzard_Plunderstorm"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GroupFinder"
+  },
+  "Blizzard_GroupFinder_VanillaStyle": {
+   "deps": [
+    "Blizzard_LFGUtil"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_GroupFinder_VanillaStyle",
+   "notes": "A premade group finder with \"Vanilla flavored\" functionality.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Group Finder (Vanilla Style)"
+  },
+  "Blizzard_GuildBankUI": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_GuildBankUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GuildBankUI"
+  },
+  "Blizzard_GuildControlUI": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_GuildControlUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GuildControlUI"
+  },
+  "Blizzard_GuildRename": {
+   "deps": [
+    "Blizzard_UIPanels_Game"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_GuildRename",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_GuildRename"
+  },
+  "Blizzard_HUDInventoryTemplates": {
+   "deps": [
+    "Blizzard_UIPanels_Game",
+    "Blizzard_ActionBar"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_HUDInventoryTemplates",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_HUDInventoryTemplates"
+  },
+  "Blizzard_HardcoreUI": {
+   "deps": [
+    "Blizzard_StaticPopup_Game"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HardcoreUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_HardcoreUI"
+  },
+  "Blizzard_HelpFrame": {
+   "deps": [
+    "Blizzard_MicroMenu",
+    "Blizzard_ActionBar",
+    "Blizzard_StaticPopup_Game",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HelpFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_HelpFrame"
+  },
+  "Blizzard_HelpPlate": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_HelpPlate",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_HelpPlate"
+  },
+  "Blizzard_HouseEditor": {
+   "deps": [
+    "Blizzard_HousingTemplates",
+    "Blizzard_CustomizationUI",
+    "Blizzard_HousingMarketCart",
+    "Blizzard_CatalogShopSharedTemplates",
+    "Blizzard_HousingControls",
+    "Blizzard_HousingBlueprint",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HouseEditor",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard House Editor"
+  },
+  "Blizzard_HouseList": {
+   "deps": [
+    "Blizzard_HousingTemplates"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HouseList",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard House List"
+  },
+  "Blizzard_HousingBlueprint": {
+   "deps": [
+    "Blizzard_HousingTemplates",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HousingBlueprint",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Housing Blueprint"
+  },
+  "Blizzard_HousingBulletinBoard": {
+   "deps": [
+    "Blizzard_HousingTemplates"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HousingBulletinBoard",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Housing Bulletin Board"
+  },
+  "Blizzard_HousingCharter": {
+   "deps": [
+    "Blizzard_HousingTemplates"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HousingCharter",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Housing Charter"
+  },
+  "Blizzard_HousingControls": {
+   "deps": [
+    "Blizzard_HousingTemplates"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HousingControls",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Housing Decor Controls"
+  },
+  "Blizzard_HousingCornerstone": {
+   "deps": [
+    "Blizzard_HousingTemplates",
+    "Blizzard_MoneyFrame"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HousingCornerstone",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Housing Cornerstone"
+  },
+  "Blizzard_HousingCreateNeighborhood": {
+   "deps": [
+    "Blizzard_HousingTemplates"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HousingCreateNeighborhood",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Housing Create Neighborhood"
+  },
+  "Blizzard_HousingDashboard": {
+   "deps": [
+    "Blizzard_HousingTemplates",
+    "Blizzard_HousingModelPreview",
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_HousingBlueprint"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HousingDashboard",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Housing Dashboard"
+  },
+  "Blizzard_HousingEventHandler": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HousingEventHandler",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Housing Event Handler"
+  },
+  "Blizzard_HousingHouseFinder": {
+   "deps": [
+    "Blizzard_HousingTemplates",
+    "Blizzard_MapCanvas"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HousingHouseFinder",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Housing House Finder"
+  },
+  "Blizzard_HousingHouseSettings": {
+   "deps": [
+    "Blizzard_HousingTemplates"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HousingHouseSettings",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Housing House Settings"
+  },
+  "Blizzard_HousingInspectModeUI": {
+   "deps": [
+    "Blizzard_HouseEditor",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HousingInspectModeUI",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Housing Inspect Mode UI"
+  },
+  "Blizzard_HousingMarketCart": {
+   "deps": [
+    "Blizzard_GenericShoppingCart"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HousingMarketCart",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Housing Market Cart UI"
+  },
+  "Blizzard_HousingModelPreview": {
+   "deps": [
+    "Blizzard_HousingTemplates"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HousingModelPreview",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Housing Model Preview"
+  },
+  "Blizzard_HousingTemplates": {
+   "deps": [
+    "Blizzard_PagedContent"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HousingTemplates",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Housing Templates"
+  },
+  "Blizzard_HousingTutorials": {
+   "deps": [
+    "Blizzard_Tutorials"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HousingTutorials",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Housing Tutorials"
+  },
+  "Blizzard_HybridMinimap": {
+   "deps": [
+    "Blizzard_MapCanvas"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_HybridMinimap",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Hybrid Minimap"
+  },
+  "Blizzard_IME": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_IME",
+   "optionalDeps": [
+    "Blizzard_FrameXML",
+    "Blizzard_GlueXML"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_IME"
+  },
+  "Blizzard_InspectUI": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_InspectUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_InspectUI"
+  },
+  "Blizzard_IslandsPartyPoseUI": {
+   "deps": [
+    "Blizzard_PartyPoseUI",
+    "Blizzard_UIWidgets",
+    "Blizzard_LFGUtil"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_IslandsPartyPoseUI",
+   "notes": "What's better than a party? An island party! (Island End Screen)",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_IslandsPartyPoseUI"
+  },
+  "Blizzard_IslandsQueueUI": {
+   "deps": [
+    "Blizzard_UIWidgets",
+    "Blizzard_HelpPlate"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_IslandsQueueUI",
+   "notes": "All aboard for da' island! (Island Queue Screen)",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_IslandsQueueUI"
+  },
+  "Blizzard_ItemBeltFrame": {
+   "deps": [
+    "Blizzard_UIPanels_Game",
+    "Blizzard_ActionBar",
+    "Blizzard_HUDInventoryTemplates"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_ItemBeltFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ItemBeltFrame"
+  },
+  "Blizzard_ItemButton": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_ItemButton",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ItemButton"
+  },
+  "Blizzard_ItemInteractionUI": {
+   "deps": [
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_ItemInteractionUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Item Interaction UI"
+  },
+  "Blizzard_ItemSocketingUI": {
+   "deps": [
+    "Blizzard_AnimatedShine"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_ItemSocketingUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Item Socketing UI"
+  },
+  "Blizzard_ItemUpgradeUI": {
+   "deps": [
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_ItemUpgradeUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ItemUpgradeUI"
+  },
+  "Blizzard_Kiosk": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_Kiosk",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Kiosk"
+  },
+  "Blizzard_LFGUtil": {
+   "deps": [
+    "Blizzard_SharedXMLGame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_LFGUtil",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_LFGUtil"
+  },
+  "Blizzard_LandingSoulbinds": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_LandingSoulbinds",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Landing Soulbinds"
+  },
+  "Blizzard_LegacyChallengeTracker": {
+   "deps": [
+    "Blizzard_SharedXMLBase"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_LegacyChallengeTracker",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Legacy Challenge Tracker"
+  },
+  "Blizzard_LegacySystem": {
+   "deps": [
+    "Blizzard_SharedTalentUI",
+    "Blizzard_AchievementUI",
+    "Blizzard_ProfessionsTemplates",
+    "Blizzard_LegacyChallengeTracker"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_LegacySystem",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Legacy System"
+  },
+  "Blizzard_LoadLocale": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_LoadLocale",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_LoadLocale"
+  },
+  "Blizzard_LoginWarningDialogs": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_GlueXMLBase",
+    "Blizzard_GlueParent"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_LoginWarningDialogs",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_LoginWarningDialogs"
+  },
+  "Blizzard_MacroUI": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_MacroUI",
+   "optionalDeps": [
+    "Blizzard_Plunderstorm"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_MacroUI"
+  },
+  "Blizzard_MailFrame": {
+   "deps": [
+    "Blizzard_FriendsFrame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_MailFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_MailFrame"
+  },
+  "Blizzard_MainMenuBarBagButtons": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_MainMenuBarBagButtons",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_MainMenuBarBagButtons"
+  },
+  "Blizzard_MajorFactions": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_MajorFactions",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Major Factions UI"
+  },
+  "Blizzard_ManagedFrameSystem": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_ManagedFrameSystem",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ManagedFrameSystem"
+  },
+  "Blizzard_MapCanvas": {
+   "deps": [
+    "Blizzard_SharedXMLBase",
+    "Blizzard_MapCanvasSecureUtil"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_MapCanvas",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard_MapCanvas"
+  },
+  "Blizzard_MapCanvasSecureUtil": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_MapCanvasSecureUtil",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_MapCanvasSecureUtil"
+  },
+  "Blizzard_MatchCelebrationPartyPoseUI": {
+   "deps": [
+    "Blizzard_PartyPoseUI",
+    "Blizzard_LFGUtil",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_MatchCelebrationPartyPoseUI",
+   "notes": "End of match celebration screen",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_MatchCelebrationPartyPoseUI"
+  },
+  "Blizzard_MatchmakingQueueDisplay": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_MatchmakingQueueDisplay",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Matchmaking Queue Display"
+  },
+  "Blizzard_MawBuffs": {
+   "deps": [
+    "Blizzard_UIFrameManager",
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_MawBuffs",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Maw Buffs"
+  },
+  "Blizzard_Menu": {
+   "deps": [
+    "Blizzard_SharedXMLBase"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_Menu",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Menu"
+  },
+  "Blizzard_MicroMenu": {
+   "deps": [
+    "Blizzard_Communities"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_MicroMenu",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_MicroMenu"
+  },
+  "Blizzard_Minimap": {
+   "deps": [
+    "Blizzard_ActionBar",
+    "Blizzard_EditMode",
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_GameTooltip"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_Minimap",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Minimap"
+  },
+  "Blizzard_MirrorTimer": {
+   "deps": [
+    "Blizzard_EditMode"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_MirrorTimer",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_MirrorTimer"
+  },
+  "Blizzard_MoneyFrame": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_MoneyFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_MoneyFrame"
+  },
+  "Blizzard_MoneyReceipt": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_MoneyReceipt",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard UI Money Receipt"
+  },
+  "Blizzard_MovePad": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_MovePad",
+   "notes": "A clickable movement pad",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard MovePad"
+  },
+  "Blizzard_NamePlates": {
+   "deps": [
+    "Blizzard_UIWidgets",
+    "Blizzard_UnitFrame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_NamePlates",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_NamePlates"
+  },
+  "Blizzard_Narration": {
+   "deps": [
+    "Blizzard_SharedXMLBase"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_Narration",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Narration"
+  },
+  "Blizzard_NewPlayerExperience": {
+   "deps": [
+    "middleclass",
+    "Blizzard_TutorialManager",
+    "Blizzard_LFGUtil"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_NewPlayerExperience",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_NewPlayerExperience"
+  },
+  "Blizzard_NewPlayerExperienceGuide": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_NewPlayerExperienceGuide",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard New Player Guide UI"
+  },
+  "Blizzard_Notification": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_Notification",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Saved Sets"
+  },
+  "Blizzard_ObjectAPI": {
+   "deps": [
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_ObjectAPI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ObjectAPI"
+  },
+  "Blizzard_ObjectiveTracker": {
+   "deps": [
+    "Blizzard_MawBuffs",
+    "Blizzard_TieredEntranceTraits",
+    "Blizzard_TransmogShared",
+    "Blizzard_ManagedFrameSystem",
+    "Blizzard_UIWidgets"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_ObjectiveTracker",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ObjectiveTracker"
+  },
+  "Blizzard_ObliterumUI": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_ObliterumUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Obliterum Forge UI"
+  },
+  "Blizzard_OrderHallUI": {
+   "deps": [
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_OrderHallUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Order Hall UI"
+  },
+  "Blizzard_OverrideActionBar": {
+   "deps": [
+    "Blizzard_ActionBar",
+    "Blizzard_UnitFrame",
+    "Blizzard_MicroMenu",
+    "Blizzard_ManagedFrameSystem"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_OverrideActionBar",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_OverrideActionBar"
+  },
+  "Blizzard_POIButton": {
+   "deps": [
+    "Blizzard_FrameXMLBase"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_POIButton",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_POIButton"
+  },
+  "Blizzard_PTRFeedback": {
+   "deps": [
+    "Blizzard_HelpPlate"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_PTRFeedback",
+   "notes": "Tool for gathering issues from PTR",
+   "reason": "",
+   "security": "SECURE",
+   "title": "PTR Issue Reporter"
+  },
+  "Blizzard_PTRFeedbackGlue": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_PTRFeedbackGlue",
+   "notes": "Tool for gathering bugs from PTR",
+   "reason": "",
+   "security": "SECURE",
+   "title": "PTR Bug Reporter Glue"
+  },
+  "Blizzard_PVPMatch": {
+   "deps": [
+    "Blizzard_UIWidgets",
+    "Blizzard_LFGUtil"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_PVPMatch",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_PVPMatch"
+  },
+  "Blizzard_PVPUI": {
+   "deps": [
+    "Blizzard_HelpPlate",
+    "Blizzard_GroupFinder",
+    "Blizzard_MatchmakingQueueDisplay",
+    "Blizzard_FrameXMLUtil"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_PVPUI",
+   "optionalDeps": [
+    "Blizzard_Plunderstorm"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_PVPUI"
+  },
+  "Blizzard_PagedContent": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_PagedContent",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Paged Content"
+  },
+  "Blizzard_PartyPoseUI": {
+   "deps": [
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_PartyPoseUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_PartyPoseUI"
+  },
+  "Blizzard_PerformanceBar": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_PerformanceBar",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_PerformanceBar"
+  },
+  "Blizzard_PerksProgram": {
+   "deps": [
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_PerksProgram",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_PerksProgram"
+  },
+  "Blizzard_PersonalResourceDisplay": {
+   "deps": [
+    "Blizzard_EditMode"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_PersonalResourceDisplay",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_PersonalResourceDisplay"
+  },
+  "Blizzard_PetBattleUI": {
+   "deps": [
+    "Blizzard_Colors",
+    "Blizzard_MicroMenu",
+    "Blizzard_RaidWarning",
+    "Blizzard_UIModes"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_PetBattleUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Pet Battle UI"
+  },
+  "Blizzard_PhotoSharing": {
+   "deps": [
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_PhotoSharing",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Photo Sharing"
+  },
+  "Blizzard_PingUI": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_FrameXMLUtil"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_PingUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_PingUI"
+  },
+  "Blizzard_PlayerChoice": {
+   "deps": [
+    "Blizzard_UIWidgets",
+    "Blizzard_Colors",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_PlayerChoice",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_PlayerChoice"
+  },
+  "Blizzard_PlayerSpells": {
+   "deps": [
+    "Blizzard_SharedTalentUI",
+    "Blizzard_PagedContent",
+    "Blizzard_HelpPlate"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_PlayerSpells",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Player Spells"
+  },
+  "Blizzard_Plunderstorm": {
+   "deps": [
+    "Blizzard_ProjectConstants"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_Plunderstorm",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Plunderstorm"
+  },
+  "Blizzard_PlunderstormBasics": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_PlunderstormBasics",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Plunderstorm Basics"
+  },
+  "Blizzard_PlunderstormPrematchUI": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_PlunderstormPrematchUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Plunderstorm Prematch UI"
+  },
+  "Blizzard_PrintHandler": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_PrintHandler",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_PrintHandler"
+  },
+  "Blizzard_PrivateAurasUI": {
+   "deps": [
+    "Blizzard_SharedXMLGame",
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_GameTooltip",
+    "Blizzard_RaidWarning",
+    "Blizzard_VisualAlerts"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_PrivateAurasUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_PrivateAurasUI"
+  },
+  "Blizzard_Professions": {
+   "deps": [
+    "Blizzard_ProfessionsTemplates",
+    "Blizzard_SharedTalentUI",
+    "Blizzard_Colors",
+    "Blizzard_HelpPlate",
+    "Blizzard_ProfessionsBook",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_Professions",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Professions"
+  },
+  "Blizzard_ProfessionsBook": {
+   "deps": [
+    "Blizzard_HelpPlate",
+    "Blizzard_ProfessionsTemplates"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_ProfessionsBook",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Professions Book"
+  },
+  "Blizzard_ProfessionsCustomerOrders": {
+   "deps": [
+    "Blizzard_ProfessionsTemplates",
+    "Blizzard_AuctionHouseUI"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_ProfessionsCustomerOrders",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Professions Customer Orders"
+  },
+  "Blizzard_ProfessionsTemplates": {
+   "deps": [
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_ProfessionsTemplates",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Professions Templates"
+  },
+  "Blizzard_ProjectConstants": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_ProjectConstants",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Project Constants"
+  },
+  "Blizzard_QuestNavigation": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_QuestNavigation",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Quest Navigation"
+  },
+  "Blizzard_QuestTimer": {
+   "deps": [
+    "Blizzard_GameTooltip",
+    "Blizzard_ManagedFrameSystem"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_QuestTimer",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Quest Timer"
+  },
+  "Blizzard_QueueStatusFrame": {
+   "deps": [
+    "Blizzard_ActionBar",
+    "Blizzard_LFGUtil"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_QueueStatusFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_QueueStatusFrame"
+  },
+  "Blizzard_QuickJoin": {
+   "deps": [
+    "Blizzard_FriendsFrame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_QuickJoin",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_QuickJoin"
+  },
+  "Blizzard_QuickKeybind": {
+   "deps": [
+    "Blizzard_SettingsDefinitions_Frame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_QuickKeybind",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_QuickKeybind"
+  },
+  "Blizzard_RPE_TurnStrafe": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_RPE_TurnStrafe",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard RPE Turn Strafe Keybinds"
+  },
+  "Blizzard_RaidFrame": {
+   "deps": [
+    "Blizzard_SocialUIShared",
+    "Blizzard_UIPanels_Game",
+    "Blizzard_UnitFrame",
+    "Blizzard_FriendsFrame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_RaidFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_RaidFrame"
+  },
+  "Blizzard_RaidUI": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_RaidUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_RaidUI"
+  },
+  "Blizzard_RaidWarning": {
+   "deps": [
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_EditMode"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_RaidWarning",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_RaidWarning"
+  },
+  "Blizzard_RecentAllies": {
+   "deps": [
+    "Blizzard_SocialUIShared"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_RecentAllies",
+   "optionalDeps": [
+    "Blizzard_UnitPopupShared"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_RecentAllies"
+  },
+  "Blizzard_RecruitAFriend": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_RecruitAFriend",
+   "optionalDeps": [
+    "Blizzard_BNet",
+    "Blizzard_FriendsFrame",
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_SocialUIShared",
+    "Blizzard_TransmogShared",
+    "Blizzard_UnitPopup"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_RecruitAFriend"
+  },
+  "Blizzard_RemixArtifactTutorialUI": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_RemixArtifactTutorialUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Remix Artifact Tutorial UI"
+  },
+  "Blizzard_RemixArtifactUI": {
+   "deps": [
+    "Blizzard_ArtifactUI",
+    "Blizzard_SharedTalentUI"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_RemixArtifactUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Remix Artifact UI"
+  },
+  "Blizzard_ReportFrame": {
+   "deps": [
+    "Blizzard_ReportFrameShared",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_ReportFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ReportFrame"
+  },
+  "Blizzard_ReportFrameGlue": {
+   "deps": [
+    "Blizzard_ReportFrameShared"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_ReportFrameGlue",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ReportFrameGlue"
+  },
+  "Blizzard_ReportFrameShared": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_ReportFrameShared",
+   "optionalDeps": [
+    "Blizzard_GlueParent"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ReportFrameShared"
+  },
+  "Blizzard_RestrictedAddOnEnvironment": {
+   "deps": [
+    "Blizzard_FrameXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_RestrictedAddOnEnvironment",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Restricted AddOn Environment"
+  },
+  "Blizzard_RuneforgeUI": {
+   "deps": [
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_RuneforgeUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Runeforge UI"
+  },
+  "Blizzard_SavedSets": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SavedSets",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Saved Sets"
+  },
+  "Blizzard_ScrappingMachineUI": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_ScrappingMachineUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Scraping Machine UI"
+  },
+  "Blizzard_ScriptErrors": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_ScriptErrors",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Script Error"
+  },
+  "Blizzard_ScriptErrorsFrame": {
+   "deps": [
+    "Blizzard_ScriptErrors",
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_ScriptErrorsFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Script Error Frame"
+  },
+  "Blizzard_SecureTransferUI": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SecureTransferUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_SecureTransferUI"
+  },
+  "Blizzard_SelectorUI": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_SelectorUI",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Selector UI"
+  },
+  "Blizzard_Settings": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_Settings",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Settings"
+  },
+  "Blizzard_SettingsDefinitions_Frame": {
+   "deps": [
+    "Blizzard_SettingsDefinitions_Shared",
+    "Blizzard_Colors",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SettingsDefinitions_Frame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_SettingsDefinitions_Frame"
+  },
+  "Blizzard_SettingsDefinitions_Shared": {
+   "deps": [
+    "Blizzard_Settings_Shared",
+    "Blizzard_TextStatusBar",
+    "Blizzard_Colors",
+    "Blizzard_AccessibilityTemplates"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SettingsDefinitions_Shared",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_SettingsDefinitions_Shared"
+  },
+  "Blizzard_Settings_Shared": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_HelpPlate",
+    "Blizzard_StaticPopup_Game",
+    "Blizzard_GamepadSharedUtility"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_Settings_Shared",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Settings_Shared"
+  },
+  "Blizzard_ShakeUtil": {
+   "deps": [
+    "Blizzard_FrameXMLBase"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_ShakeUtil",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ShakeUtil"
+  },
+  "Blizzard_SharedMapDataProviders": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_SharedMapDataProviders",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Shared Map Data Providers"
+  },
+  "Blizzard_SharedTalentUI": {
+   "deps": [
+    "Blizzard_SpellSearch"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SharedTalentUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Shared Talent UI"
+  },
+  "Blizzard_SharedWidgetFrames": {
+   "deps": [
+    "Blizzard_UIWidgets"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SharedWidgetFrames",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_SharedWidgetFrames"
+  },
+  "Blizzard_SharedXML": {
+   "deps": [
+    "Blizzard_ProjectConstants",
+    "Blizzard_Fonts_Shared",
+    "Blizzard_SharedXMLBase",
+    "Blizzard_PrintHandler",
+    "Blizzard_Menu",
+    "Blizzard_Colors",
+    "Blizzard_HelpPlate",
+    "Blizzard_Narration"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SharedXML",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_SharedXML"
+  },
+  "Blizzard_SharedXMLBase": {
+   "deps": [
+    "Blizzard_ScriptErrors"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SharedXMLBase",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_SharedXMLBase"
+  },
+  "Blizzard_SharedXMLGame": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SharedXMLGame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_SharedXMLGame"
+  },
+  "Blizzard_SimpleCheckout": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SimpleCheckout",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_SimpleCheckout"
+  },
+  "Blizzard_SocialToast": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SocialToast",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_SocialToast"
+  },
+  "Blizzard_SocialUI": {
+   "deps": [
+    "Blizzard_SocialUIShared"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SocialUI",
+   "optionalDeps": [
+    "Blizzard_GlueStubs",
+    "Blizzard_FriendsFrame",
+    "Blizzard_RecentAllies",
+    "Blizzard_QuickJoin",
+    "Blizzard_RecruitAFriend",
+    "Blizzard_RaidFrame"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_SocialUI"
+  },
+  "Blizzard_SocialUIShared": {
+   "deps": [
+    "Blizzard_AccessibilityTemplates",
+    "Blizzard_AddFriend"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SocialUIShared",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_SocialUIShared"
+  },
+  "Blizzard_Soulbinds": {
+   "deps": [
+    "Blizzard_Colors",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_Soulbinds",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Soulbinds"
+  },
+  "Blizzard_SpectateFrame": {
+   "deps": [
+    "Blizzard_UIPanels_Game",
+    "Blizzard_UIModes"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_SpectateFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_SpectateFrame"
+  },
+  "Blizzard_SpellDiminishUI": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SpellDiminishUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Spell Diminish UI"
+  },
+  "Blizzard_SpellPickUpIndicator": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_SpellPickUpIndicator",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Spell Pick Up Indicator"
+  },
+  "Blizzard_SpellSearch": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SpellSearch",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Spell Search"
+  },
+  "Blizzard_SplashFrame": {
+   "deps": [
+    "Blizzard_FrameXMLBase",
+    "Blizzard_UIPanelTemplates",
+    "Blizzard_UIPanels_Game",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SplashFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_SplashFrame"
+  },
+  "Blizzard_StableUI": {
+   "deps": [
+    "Blizzard_HelpPlate"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_StableUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Stable UI"
+  },
+  "Blizzard_StaticPopup": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_StaticPopup",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_StaticPopup"
+  },
+  "Blizzard_StaticPopup_Game": {
+   "deps": [
+    "Blizzard_StaticPopup",
+    "Blizzard_ItemButton",
+    "Blizzard_AutoComplete",
+    "Blizzard_MoneyFrame",
+    "Blizzard_AccessibilityTemplates",
+    "Blizzard_GameMenuEsc",
+    "Blizzard_GamepadSharedUtility"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_StaticPopup_Game",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_StaticPopup_Game"
+  },
+  "Blizzard_StaticPopup_Glue": {
+   "deps": [
+    "Blizzard_StaticPopup",
+    "Blizzard_AutoComplete",
+    "Blizzard_AccessibilityTemplates"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_StaticPopup_Glue",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_StaticPopup_Glue"
+  },
+  "Blizzard_Statistics": {
+   "deps": [
+    "Blizzard_UIPanels_Game"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_Statistics",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Statistics"
+  },
+  "Blizzard_StatusTrackingBar": {
+   "deps": [
+    "Blizzard_TextStatusBar"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_StatusTrackingBar",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_StatusTrackingBar"
+  },
+  "Blizzard_StatusTrayManager": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_StatusTrayManager",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_StatusTrayManager"
+  },
+  "Blizzard_StatusUI": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_StatusUI",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard_StatusUI"
+  },
+  "Blizzard_StoreUI": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_GameMenuEsc",
+    "Blizzard_SimpleCheckout",
+    "Blizzard_CatalogShop",
+    "Blizzard_FrameXMLBase"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_StoreUI",
+   "optionalDeps": [
+    "Blizzard_Plunderstorm"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_StoreUI"
+  },
+  "Blizzard_SubscriptionInterstitialUI": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_SubscriptionInterstitialUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Subscription Interstitial UI"
+  },
+  "Blizzard_Subtitles": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Version": "1.0"
+   },
+   "name": "Blizzard_Subtitles",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Subtitles"
+  },
+  "Blizzard_SwingTimer": {
+   "deps": [
+    "Blizzard_EditMode",
+    "Blizzard_ManagedFrameSystem"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_SwingTimer",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_SwingTimer"
+  },
+  "Blizzard_TextStatusBar": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_TextStatusBar",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_TextStatusBar"
+  },
+  "Blizzard_TieredEntranceTraits": {
+   "deps": [
+    "Blizzard_UIFrameManager",
+    "Blizzard_SharedTalentUI"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_TieredEntranceTraits",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Tiered Entrance Traits"
+  },
+  "Blizzard_TimeManager": {
+   "deps": [
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_RaidWarning",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_TimeManager",
+   "optionalDeps": [
+    "Blizzard_Plunderstorm"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_TimeManager"
+  },
+  "Blizzard_TimerunningCharacterCreate": {
+   "deps": [
+    "Blizzard_CharacterCreate",
+    "Blizzard_GlueXML",
+    "Blizzard_TimerunningUtil"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_TimerunningCharacterCreate",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard Timerunning Character Create"
+  },
+  "Blizzard_TimerunningUtil": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_TimerunningUtil",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Timerunning Util"
+  },
+  "Blizzard_TokenUI": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_TokenUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_TokenUI"
+  },
+  "Blizzard_TorghastLevelPicker": {
+   "deps": [
+    "Blizzard_Colors"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_TorghastLevelPicker",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard_TorghastLevelPicker"
+  },
+  "Blizzard_TrainerUI": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_TrainerUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_TrainerUI"
+  },
+  "Blizzard_TransformManipulator": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_TransformManipulator",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard House Editor"
+  },
+  "Blizzard_TransformTree": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_TransformTree",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard_TransformTree"
+  },
+  "Blizzard_Transmog": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_SharedXMLGame",
+    "Blizzard_FrameXMLBase",
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_UIPanelTemplates",
+    "Blizzard_StaticPopup_Game",
+    "Blizzard_TransmogShared",
+    "Blizzard_PagedContent",
+    "Blizzard_GameTooltip",
+    "Blizzard_MoneyFrame",
+    "Blizzard_Menu",
+    "Blizzard_HelpPlate",
+    "Blizzard_FrameEffects"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_Transmog",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Transmog"
+  },
+  "Blizzard_TransmogShared": {
+   "deps": [
+    "Blizzard_StaticPopup_Game",
+    "Blizzard_GameTooltip"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_TransmogShared",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard_TransmogShared"
+  },
+  "Blizzard_TutorialManager": {
+   "deps": [
+    "middleclass",
+    "Blizzard_Dispatcher",
+    "Blizzard_TutorialTemplates",
+    "Blizzard_HelpPlate"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_TutorialManager",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_TutorialManager"
+  },
+  "Blizzard_TutorialTemplates": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": false,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_TutorialTemplates",
+   "reason": "DEMAND_LOADED",
+   "security": "SECURE",
+   "title": "Blizzard_TutorialTemplates"
+  },
+  "Blizzard_Tutorials": {
+   "deps": [
+    "middleclass",
+    "Blizzard_TutorialManager",
+    "Blizzard_UIFrameManager"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_Tutorials",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_Tutorials"
+  },
+  "Blizzard_UIErrorsFrame": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_UIErrorsFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_UIErrorsFrame"
+  },
+  "Blizzard_UIFrameManager": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_UIFrameManager",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_UIFrameManager"
+  },
+  "Blizzard_UIModes": {
+   "deps": [
+    "Blizzard_FrameXMLBase"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_UIModes",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_UIModes"
+  },
+  "Blizzard_UIPanelTemplates": {
+   "deps": [
+    "Blizzard_SharedXMLGame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_UIPanelTemplates",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_UIPanelTemplates"
+  },
+  "Blizzard_UIPanels_Game": {
+   "deps": [
+    "Blizzard_GameTooltip",
+    "Blizzard_UIPanelTemplates",
+    "Blizzard_FrameXML",
+    "Blizzard_EditMode",
+    "Blizzard_POIButton",
+    "Blizzard_MoneyFrame",
+    "Blizzard_AccessibilityTemplates",
+    "Blizzard_Colors",
+    "Blizzard_HelpPlate",
+    "Blizzard_TransmogShared",
+    "Blizzard_StatusTrackingBar",
+    "Blizzard_FrameXMLUtil",
+    "Blizzard_ManagedFrameSystem",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_UIPanels_Game",
+   "optionalDeps": [
+    "Blizzard_GamepadSharedUtility"
+   ],
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_UIPanels_Game"
+  },
+  "Blizzard_UIParent": {
+   "deps": [
+    "Blizzard_SharedXMLBase"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_UIParent",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_UIParent"
+  },
+  "Blizzard_UIParentPanelManager": {
+   "deps": [
+    "Blizzard_ManagedFrameSystem",
+    "Blizzard_GameMenuEsc"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_UIParentPanelManager",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_UIParentPanelManager"
+  },
+  "Blizzard_UIParentUtil": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_UIParentUtil",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_UIParentUtil"
+  },
+  "Blizzard_UIWidgets": {
+   "deps": [
+    "Blizzard_Minimap",
+    "Blizzard_Colors",
+    "Blizzard_LFGUtil",
+    "Blizzard_ManagedFrameSystem"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_UIWidgets",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_UIWidgets"
+  },
+  "Blizzard_UnitFrame": {
+   "deps": [
+    "Blizzard_SettingsDefinitions_Frame",
+    "Blizzard_BuffFrame",
+    "Blizzard_UIPanels_Game",
+    "Blizzard_ActionBar",
+    "Blizzard_TextStatusBar",
+    "Blizzard_SpellDiminishUI",
+    "Blizzard_PingUI",
+    "Blizzard_ColorPickerFrame",
+    "Blizzard_ManagedFrameSystem",
+    "Blizzard_StatusTrayManager"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_UnitFrame",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_UnitFrame"
+  },
+  "Blizzard_UnitPopup": {
+   "deps": [
+    "Blizzard_UnitPopupShared",
+    "Blizzard_SocialUIShared"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_UnitPopup",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_UnitPopup"
+  },
+  "Blizzard_UnitPopupShared": {
+   "deps": [
+    "Blizzard_SharedXML",
+    "Blizzard_Colors",
+    "Blizzard_FrameXMLBase"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_UnitPopupShared",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_UnitPopupShared"
+  },
+  "Blizzard_VisualAlerts": {
+   "deps": [
+    "Blizzard_SharedXMLGame"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_VisualAlerts",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_VisualAlerts"
+  },
+  "Blizzard_VoiceToggleButton": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_VoiceToggleButton",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_VoiceToggleButton"
+  },
+  "Blizzard_WarfrontsPartyPoseUI": {
+   "deps": [
+    "Blizzard_PartyPoseUI"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment",
+    "Version": "1.0"
+   },
+   "name": "Blizzard_WarfrontsPartyPoseUI",
+   "notes": "Okay, maybe not the ideal location for a party.. (Warfronts End Screen)",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_WarfrontsPartyPoseUI"
+  },
+  "Blizzard_WeeklyRewards": {
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_WeeklyRewards",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Weekly Rewards"
+  },
+  "Blizzard_WeeklyRewardsUtil": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_WeeklyRewardsUtil",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard Weekly Rewards Util"
+  },
+  "Blizzard_WorldLootObjectList": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_WorldLootObjectList",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard World Loot Object List"
+  },
+  "Blizzard_WorldMap": {
+   "deps": [
+    "Blizzard_MapCanvas",
+    "Blizzard_SharedMapDataProviders",
+    "Blizzard_HelpPlate"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {
+    "Author": "Blizzard Entertainment"
+   },
+   "name": "Blizzard_WorldMap",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_WorldMap"
+  },
+  "Blizzard_WowSurveyUI": {
+   "deps": [
+    "Blizzard_StatusUI"
+   ],
+   "enableState": 2,
+   "loadOnDemand": true,
+   "loadable": true,
+   "loaded": false,
+   "loadedOrLoading": false,
+   "metadata": {},
+   "name": "Blizzard_WowSurveyUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_WowSurveyUI"
+  },
+  "Blizzard_WowTokenUI": {
+   "deps": [
+    "Blizzard_SharedXML"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_WowTokenUI",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard WoW Token UI"
+  },
+  "Blizzard_ZoneAbility": {
+   "deps": [
+    "Blizzard_UIPanels_Game",
+    "Blizzard_ActionBarController",
+    "Blizzard_ActionBar",
+    "Blizzard_PingUI"
+   ],
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Blizzard_ZoneAbility",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_ZoneAbility"
+  },
+  "Deprecated_PaperDoll": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "Deprecated_PaperDoll",
+   "notes": "C API functions that are exposed for backwards compatibility. They will be removed at the next expansion. Upgrade your code to the new APIs as soon as possible.",
+   "reason": "",
+   "security": "SECURE",
+   "title": "Blizzard_DeprecatedPaperDoll"
+  },
+  "middleclass": {
+   "enableState": 2,
+   "loadable": true,
+   "loaded": true,
+   "loadedOrLoading": true,
+   "metadata": {},
+   "name": "middleclass",
+   "reason": "",
+   "security": "SECURE",
+   "title": "middleclass"
+  }
+ },
+ "compact": true,
+ "counts": {
+  "addons": 12,
+  "blizzardProbed": 348
+ },
+ "loadedThisSession": [
+  "ForeverDump",
+  "ForeverDungeonJournal",
+  "idTip",
+  "QuestieDB",
+  "Questie",
+  "QuestLevelPatch",
+  "TomTom",
+  "TweaksForever",
+  "Blizzard_TimeManager",
+  "Blizzard_CombatLog",
+  "Blizzard_GroupFinder_VanillaStyle",
+  "Blizzard_PlayerSpells",
+  "Blizzard_PlayerChoice",
+  "Blizzard_APIDocumentation",
+  "Blizzard_APIDocumentationGenerated"
+ ],
+ "meta": {
+  "addonVersion": "2.2.3",
+  "build": "70245",
+  "buildDate": "Oct  5 2026",
+  "date": "2026-10-08 00:01:10",
+  "inCombat": false,
+  "locale": "enUS",
+  "projectConstants": {
+   "WOW_PROJECT_CAMELOT": 18,
+   "WOW_PROJECT_CLASSIC": 2,
+   "WOW_PROJECT_ID": 18,
+   "WOW_PROJECT_MAINLINE": 1
+  },
+  "projectID": 18,
+  "projectName": "WOW_PROJECT_CAMELOT",
+  "schemaVersion": 2,
+  "scriptsDisallowedForBeta": false,
+  "time": 1791432070,
+  "toc": 16001,
+  "version": "1.60.1"
+ },
+ "scriptsDisallowedForBeta": false
+}

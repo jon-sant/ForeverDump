@@ -1,0 +1,10 @@
+build:     1.60.1.70245 (toc 16001)
+project:   WOW_PROJECT_ID=18 (WOW_PROJECT_CAMELOT)
+constants: WOW_PROJECT_CAMELOT=18, WOW_PROJECT_CLASSIC=2, WOW_PROJECT_ID=18, WOW_PROJECT_MAINLINE=1
+scriptsDisallowedForBeta: False
+locale:    enUS, dumped 2026-10-08 00:03:52
+sections:  addons, api, cvars, docs, extras, frames, globals, probe, profile, protected, secrets, strings, templates, widgets
+docs:      410 systems
+strings:   27045
+recorder:  1 session(s); combat log: 1 session(s)
+errors:    0 unique, 6 blocked/forbidden/warnings

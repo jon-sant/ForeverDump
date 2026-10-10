@@ -1,0 +1,434 @@
+{
+  "fights": [
+    {
+      "n": 1,
+      "span": [
+        null,
+        null
+      ],
+      "dur": 28.5,
+      "live": {
+        "damage": null,
+        "healing": null,
+        "interrupts": null,
+        "dispels": null,
+        "taken": null
+      },
+      "meter": {
+        "damage": 1324,
+        "healing": 69,
+        "interrupts": 0,
+        "taken": 267,
+        "others": 0,
+        "dispels": null,
+        "dur": 28
+      },
+      "log": {
+        "damage": 1324,
+        "healing": 69,
+        "interrupts": null,
+        "taken": 267,
+        "others": null
+      },
+      "metrics": {
+        "damage": {
+          "live": null,
+          "meter": 1324,
+          "log": 1324,
+          "comparisons": {
+            "live_vs_meter": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "meter_vs_log": {
+              "status": "match",
+              "delta": 0
+            },
+            "live_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            }
+          },
+          "verdict": "match"
+        },
+        "healing": {
+          "live": null,
+          "meter": 69,
+          "log": 69,
+          "comparisons": {
+            "live_vs_meter": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "meter_vs_log": {
+              "status": "match",
+              "delta": 0
+            },
+            "live_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            }
+          },
+          "verdict": "match"
+        },
+        "interrupts": {
+          "live": null,
+          "meter": 0,
+          "log": null,
+          "comparisons": {
+            "live_vs_meter": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "meter_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "live_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            }
+          },
+          "verdict": "unexplained"
+        },
+        "dispels": {
+          "live": null,
+          "meter": null,
+          "log": null,
+          "comparisons": {
+            "live_vs_meter": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "meter_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "live_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            }
+          },
+          "verdict": "unexplained"
+        },
+        "taken": {
+          "live": null,
+          "meter": 267,
+          "log": 267,
+          "comparisons": {
+            "live_vs_meter": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "meter_vs_log": {
+              "status": "match",
+              "delta": 0
+            },
+            "live_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            }
+          },
+          "verdict": "match"
+        }
+      },
+      "units": {},
+      "summary": {
+        "match": 3,
+        "off": 0,
+        "unexplained": 2
+      },
+      "deep": false,
+      "nSources": 0
+    },
+    {
+      "n": 2,
+      "span": [
+        null,
+        null
+      ],
+      "dur": 37.4,
+      "live": {
+        "damage": null,
+        "healing": null,
+        "interrupts": null,
+        "dispels": null,
+        "taken": null
+      },
+      "meter": {
+        "damage": 1213,
+        "healing": 555,
+        "interrupts": 1,
+        "taken": 935,
+        "others": 0,
+        "dispels": null,
+        "dur": 37
+      },
+      "log": {
+        "damage": 1213,
+        "healing": 555,
+        "interrupts": 1,
+        "taken": 935,
+        "others": null
+      },
+      "metrics": {
+        "damage": {
+          "live": null,
+          "meter": 1213,
+          "log": 1213,
+          "comparisons": {
+            "live_vs_meter": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "meter_vs_log": {
+              "status": "match",
+              "delta": 0
+            },
+            "live_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            }
+          },
+          "verdict": "match"
+        },
+        "healing": {
+          "live": null,
+          "meter": 555,
+          "log": 555,
+          "comparisons": {
+            "live_vs_meter": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "meter_vs_log": {
+              "status": "match",
+              "delta": 0
+            },
+            "live_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            }
+          },
+          "verdict": "match"
+        },
+        "interrupts": {
+          "live": null,
+          "meter": 1,
+          "log": 1,
+          "comparisons": {
+            "live_vs_meter": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "meter_vs_log": {
+              "status": "match",
+              "delta": 0
+            },
+            "live_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            }
+          },
+          "verdict": "match"
+        },
+        "dispels": {
+          "live": null,
+          "meter": null,
+          "log": null,
+          "comparisons": {
+            "live_vs_meter": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "meter_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "live_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            }
+          },
+          "verdict": "unexplained"
+        },
+        "taken": {
+          "live": null,
+          "meter": 935,
+          "log": 935,
+          "comparisons": {
+            "live_vs_meter": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "meter_vs_log": {
+              "status": "match",
+              "delta": 0
+            },
+            "live_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            }
+          },
+          "verdict": "match"
+        }
+      },
+      "units": {},
+      "summary": {
+        "match": 4,
+        "off": 0,
+        "unexplained": 1
+      },
+      "deep": false,
+      "nSources": 0
+    },
+    {
+      "n": 3,
+      "span": [
+        null,
+        null
+      ],
+      "dur": 14.4,
+      "live": {
+        "damage": null,
+        "healing": null,
+        "interrupts": null,
+        "dispels": null,
+        "taken": null
+      },
+      "meter": {
+        "damage": 799,
+        "healing": 12,
+        "interrupts": 0,
+        "taken": 221,
+        "others": 0,
+        "dispels": null,
+        "dur": 14
+      },
+      "log": {
+        "damage": 799,
+        "healing": 18,
+        "interrupts": null,
+        "taken": 221,
+        "others": 360
+      },
+      "metrics": {
+        "damage": {
+          "live": null,
+          "meter": 799,
+          "log": 799,
+          "comparisons": {
+            "live_vs_meter": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "meter_vs_log": {
+              "status": "match",
+              "delta": 0
+            },
+            "live_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            }
+          },
+          "verdict": "match"
+        },
+        "healing": {
+          "live": null,
+          "meter": 12,
+          "log": 18,
+          "comparisons": {
+            "live_vs_meter": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "meter_vs_log": {
+              "status": "off",
+              "delta": -6
+            },
+            "live_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            }
+          },
+          "verdict": "off"
+        },
+        "interrupts": {
+          "live": null,
+          "meter": 0,
+          "log": null,
+          "comparisons": {
+            "live_vs_meter": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "meter_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "live_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            }
+          },
+          "verdict": "unexplained"
+        },
+        "dispels": {
+          "live": null,
+          "meter": null,
+          "log": null,
+          "comparisons": {
+            "live_vs_meter": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "meter_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "live_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            }
+          },
+          "verdict": "unexplained"
+        },
+        "taken": {
+          "live": null,
+          "meter": 221,
+          "log": 221,
+          "comparisons": {
+            "live_vs_meter": {
+              "status": "unexplained",
+              "delta": null
+            },
+            "meter_vs_log": {
+              "status": "match",
+              "delta": 0
+            },
+            "live_vs_log": {
+              "status": "unexplained",
+              "delta": null
+            }
+          },
+          "verdict": "match"
+        }
+      },
+      "units": {},
+      "summary": {
+        "match": 2,
+        "off": 1,
+        "unexplained": 2
+      },
+      "deep": false,
+      "nSources": 0
+    }
+  ],
+  "summary": {
+    "fights": 3,
+    "match": 9,
+    "off": 1,
+    "unexplained": 5,
+    "units": 0
+  }
+}

@@ -1,0 +1,1146 @@
+{
+ "attribution": {
+  "after": {
+   "aura-on-me": {
+    "accuracy": 100.0,
+    "attributed": 2,
+    "correct": 2,
+    "coverage": 100.0,
+    "n": 4,
+    "noTruth": 2,
+    "scorable": 2,
+    "truthMine": 2
+   },
+   "aura-on-target": {
+    "accuracy": 100.0,
+    "attributed": 6,
+    "correct": 6,
+    "coverage": 100.0,
+    "n": 36,
+    "noTruth": 30,
+    "scorable": 6,
+    "truthMine": 6
+   },
+   "damage-on-target": {
+    "accuracy": 100.0,
+    "attributed": 41,
+    "correct": 41,
+    "coverage": 100.0,
+    "n": 44,
+    "noTruth": 3,
+    "scorable": 41,
+    "truthMine": 39,
+    "truthOther": 2
+   },
+   "damage-taken": {
+    "accuracy": 100.0,
+    "attributed": 36,
+    "correct": 36,
+    "coverage": 100.0,
+    "n": 36,
+    "scorable": 36,
+    "truthOther": 36
+   },
+   "heal-on-me": {
+    "accuracy": 100.0,
+    "attributed": 54,
+    "correct": 54,
+    "coverage": 100.0,
+    "n": 55,
+    "noTruth": 1,
+    "scorable": 54,
+    "truthMine": 54
+   },
+   "interrupt": {
+    "accuracy": 100.0,
+    "attributed": 1,
+    "correct": 1,
+    "coverage": 100.0,
+    "n": 1,
+    "scorable": 1,
+    "truthMine": 1
+   },
+   "miss-on-target": {
+    "accuracy": 100.0,
+    "attributed": 4,
+    "correct": 4,
+    "coverage": 100.0,
+    "n": 4,
+    "scorable": 4,
+    "truthMine": 4
+   }
+  },
+  "before": {
+   "aura-on-me": {
+    "accuracy": 50.0,
+    "attributed": 1,
+    "correct": 1,
+    "coverage": 50.0,
+    "missedSelf": 1,
+    "n": 4,
+    "noTruth": 2,
+    "scorable": 2,
+    "truthMine": 2
+   },
+   "aura-on-target": {
+    "accuracy": 83.3,
+    "attributed": 5,
+    "correct": 5,
+    "coverage": 83.3,
+    "missedSelf": 1,
+    "n": 36,
+    "noTruth": 30,
+    "scorable": 6,
+    "truthMine": 6
+   },
+   "damage-on-target": {
+    "accuracy": 0.0,
+    "coverage": 0.0,
+    "missedSelf": 39,
+    "n": 44,
+    "noTruth": 3,
+    "scorable": 41,
+    "truthMine": 39,
+    "truthOther": 2
+   },
+   "damage-taken": {
+    "accuracy": 0.0,
+    "attributed": 0,
+    "correct": 0,
+    "coverage": 0.0,
+    "n": 36,
+    "scorable": 36,
+    "truthOther": 36
+   },
+   "heal-on-me": {
+    "accuracy": 0.0,
+    "coverage": 0.0,
+    "missedSelf": 54,
+    "n": 55,
+    "noTruth": 1,
+    "scorable": 54,
+    "truthMine": 54
+   },
+   "interrupt": {
+    "accuracy": 0.0,
+    "coverage": 0.0,
+    "missedSelf": 1,
+    "n": 1,
+    "scorable": 1,
+    "truthMine": 1
+   },
+   "miss-on-target": {
+    "accuracy": 0.0,
+    "coverage": 0.0,
+    "missedSelf": 4,
+    "n": 4,
+    "scorable": 4,
+    "truthMine": 4
+   }
+  }
+ },
+ "build": "1.60.1.70245",
+ "captured": "2026-10-08T00:03:52-04:00",
+ "castModel": {
+  "mae": 0.056,
+  "predicted": 2,
+  "within150ms": 2
+ },
+ "cdTracker": {
+  "casts": 25,
+  "counts": {
+   "consistent": 25
+  },
+  "nyr": {
+   "confirms": 4
+  }
+ },
+ "cooldownFails": {
+  "confirms": 4
+ },
+ "dmEvents": {
+  "0": 80,
+  "1": 80,
+  "10": 80,
+  "2": 66,
+  "3": 66,
+  "5": 2,
+  "7": 52
+ },
+ "dmProbe": [
+  {
+   "api": "C_DamageMeter.IsDamageMeterAvailable",
+   "ctx": "combat",
+   "fields": null,
+   "result": [
+    {
+     "C": 6
+    },
+    {
+     "C": 6
+    }
+   ]
+  },
+  {
+   "api": "C_DamageMeter.GetCombatSessionFromType",
+   "ctx": "combat",
+   "fields": {
+    "combatSources": {
+     "K": 6
+    },
+    "durationSeconds": {
+     "S": 6
+    },
+    "maxAmount": {
+     "S": 6
+    },
+    "totalAmount": {
+     "S": 6
+    }
+   },
+   "result": [
+    {
+     "T": 6
+    }
+   ]
+  },
+  {
+   "api": "C_DamageMeter.IsDamageMeterAvailable",
+   "ctx": "ooc",
+   "fields": null,
+   "result": [
+    {
+     "C": 4
+    },
+    {
+     "C": 4
+    }
+   ]
+  },
+  {
+   "api": "C_DamageMeter.GetCombatSessionFromType",
+   "ctx": "ooc",
+   "fields": {
+    "combatSources": {
+     "K": 4
+    },
+    "durationSeconds": {
+     "C": 4
+    },
+    "maxAmount": {
+     "C": 4
+    },
+    "totalAmount": {
+     "C": 4
+    }
+   },
+   "result": [
+    {
+     "K": 4
+    }
+   ]
+  }
+ ],
+ "dmReconcile": [
+  {
+   "dmDur": 28,
+   "dmEnemy": 1324,
+   "dmHeal": 69,
+   "dmInterrupts": 0,
+   "dmMine": 1324,
+   "dmOthers": 0,
+   "dmTaken": 267,
+   "dur": 28.5,
+   "fight": 1,
+   "logHealEff": 69,
+   "logInterrupts": 0,
+   "logMine": 1324,
+   "logOtherOnTargets": 0,
+   "logTaken": 267,
+   "source": "CombatLog snapshot"
+  },
+  {
+   "dmDur": 37,
+   "dmEnemy": 1213,
+   "dmHeal": 555,
+   "dmInterrupts": 1,
+   "dmMine": 1213,
+   "dmOthers": 0,
+   "dmTaken": 935,
+   "dur": 37.4,
+   "fight": 2,
+   "logHealEff": 555,
+   "logInterrupts": 1,
+   "logMine": 1213,
+   "logOtherOnTargets": 0,
+   "logTaken": 935,
+   "source": "CombatLog snapshot"
+  },
+  {
+   "dmDur": 14,
+   "dmEnemy": 799,
+   "dmHeal": 12,
+   "dmInterrupts": 0,
+   "dmMine": 799,
+   "dmOthers": 0,
+   "dmTaken": 221,
+   "dur": 14.4,
+   "fight": 3,
+   "logHealEff": 18,
+   "logInterrupts": 0,
+   "logMine": 799,
+   "logOtherOnTargets": 360,
+   "logTaken": 221,
+   "source": "CombatLog snapshot"
+  }
+ ],
+ "dmSchema": null,
+ "ledger": {
+  "auraProbes": {
+   "correct": 1,
+   "unknown": 21
+  },
+  "tokenGuid": {
+   "correct": 41,
+   "n": 44,
+   "wrong": 3
+  }
+ },
+ "matrix": [
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "combat",
+   "log": 7,
+   "note": "buff/debuff applied/refreshed",
+   "onToken": 7,
+   "spell": 0,
+   "src": "me",
+   "visible": 7
+  },
+  {
+   "amount": 2,
+   "cat": "aura+",
+   "ctx": "ooc",
+   "log": 2,
+   "note": "buff/debuff applied/refreshed",
+   "onToken": 2,
+   "spell": 2,
+   "src": "me",
+   "visible": 2
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "combat",
+   "log": 3,
+   "note": "buff/debuff applied/refreshed",
+   "onToken": 3,
+   "spell": 0,
+   "src": "my totems/pets",
+   "visible": 3
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "ooc",
+   "log": 1,
+   "note": "buff/debuff applied/refreshed",
+   "onToken": 0,
+   "spell": 0,
+   "src": "hostile NPC",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "combat",
+   "log": 9,
+   "note": "buff/debuff applied/refreshed",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "ooc",
+   "log": 30,
+   "note": "buff/debuff applied/refreshed",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura-",
+   "ctx": "combat",
+   "log": 11,
+   "note": "buff/debuff removed",
+   "onToken": 11,
+   "spell": 0,
+   "src": "me",
+   "visible": 8
+  },
+  {
+   "amount": 2,
+   "cat": "aura-",
+   "ctx": "ooc",
+   "log": 2,
+   "note": "buff/debuff removed",
+   "onToken": 2,
+   "spell": 2,
+   "src": "me",
+   "visible": 2
+  },
+  {
+   "amount": 0,
+   "cat": "aura-",
+   "ctx": "combat",
+   "log": 1,
+   "note": "buff/debuff removed",
+   "onToken": 0,
+   "spell": 0,
+   "src": "my totems/pets",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura-",
+   "ctx": "ooc",
+   "log": 1,
+   "note": "buff/debuff removed",
+   "onToken": 0,
+   "spell": 0,
+   "src": "hostile NPC",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura-",
+   "ctx": "combat",
+   "log": 6,
+   "note": "buff/debuff removed",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura-",
+   "ctx": "ooc",
+   "log": 12,
+   "note": "buff/debuff removed",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-fail",
+   "ctx": "combat",
+   "log": 4,
+   "note": "cast failed (SPELL_CAST_FAILED)",
+   "onToken": 4,
+   "spell": 4,
+   "src": "me",
+   "visible": 4
+  },
+  {
+   "amount": 0,
+   "cat": "cast-start",
+   "ctx": "combat",
+   "log": 3,
+   "note": "cast start (SPELL_CAST_START)",
+   "onToken": 3,
+   "spell": 3,
+   "src": "me",
+   "visible": 3
+  },
+  {
+   "amount": 0,
+   "cat": "cast-start",
+   "ctx": "combat",
+   "log": 7,
+   "note": "cast start (SPELL_CAST_START)",
+   "onToken": 5,
+   "spell": 0,
+   "src": "hostile NPC",
+   "visible": 4
+  },
+  {
+   "amount": 0,
+   "cat": "cast-start",
+   "ctx": "combat",
+   "log": 6,
+   "note": "cast start (SPELL_CAST_START)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-start",
+   "ctx": "ooc",
+   "log": 1,
+   "note": "cast start (SPELL_CAST_START)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "combat",
+   "log": 17,
+   "note": "cast success (SPELL_CAST_SUCCESS)",
+   "onToken": 17,
+   "spell": 17,
+   "src": "me",
+   "visible": 17
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "ooc",
+   "log": 7,
+   "note": "cast success (SPELL_CAST_SUCCESS)",
+   "onToken": 7,
+   "spell": 7,
+   "src": "me",
+   "visible": 7
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "combat",
+   "log": 1,
+   "note": "cast success (SPELL_CAST_SUCCESS)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "my totems/pets",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "combat",
+   "log": 5,
+   "note": "cast success (SPELL_CAST_SUCCESS)",
+   "onToken": 4,
+   "spell": 0,
+   "src": "hostile NPC",
+   "visible": 4
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "combat",
+   "log": 10,
+   "note": "cast success (SPELL_CAST_SUCCESS)",
+   "onToken": 2,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "ooc",
+   "log": 22,
+   "note": "cast success (SPELL_CAST_SUCCESS)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 2,
+   "cat": "crit",
+   "ctx": "combat",
+   "log": 2,
+   "note": "critical hits (damage/heal with critical flag)",
+   "onToken": 2,
+   "spell": 2,
+   "src": "me",
+   "visible": 2
+  },
+  {
+   "amount": 0,
+   "cat": "crit",
+   "ctx": "ooc",
+   "log": 1,
+   "note": "critical hits (damage/heal with critical flag)",
+   "onToken": 1,
+   "spell": 0,
+   "src": "me",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "crit",
+   "ctx": "combat",
+   "log": 4,
+   "note": "critical hits (damage/heal with critical flag)",
+   "onToken": 2,
+   "spell": 0,
+   "src": "my totems/pets",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "crit",
+   "ctx": "ooc",
+   "log": 3,
+   "note": "critical hits (damage/heal with critical flag)",
+   "onToken": 1,
+   "spell": 0,
+   "src": "my totems/pets",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "crit",
+   "ctx": "combat",
+   "log": 2,
+   "note": "critical hits (damage/heal with critical flag)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "crit",
+   "ctx": "ooc",
+   "log": 5,
+   "note": "critical hits (damage/heal with critical flag)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 39,
+   "cat": "damage",
+   "ctx": "combat",
+   "log": 44,
+   "note": "damage amounts (SPELL/SWING/RANGE/PERIODIC_DAMAGE)",
+   "onToken": 44,
+   "spell": 9,
+   "src": "me",
+   "visible": 39
+  },
+  {
+   "amount": 26,
+   "cat": "damage",
+   "ctx": "combat",
+   "log": 28,
+   "note": "damage amounts (SPELL/SWING/RANGE/PERIODIC_DAMAGE)",
+   "onToken": 26,
+   "spell": 0,
+   "src": "hostile NPC",
+   "visible": 26
+  },
+  {
+   "amount": 0,
+   "cat": "damage",
+   "ctx": "ooc",
+   "log": 7,
+   "note": "damage amounts (SPELL/SWING/RANGE/PERIODIC_DAMAGE)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "hostile NPC",
+   "visible": 0
+  },
+  {
+   "amount": 2,
+   "cat": "damage",
+   "ctx": "combat",
+   "log": 7,
+   "note": "damage amounts (SPELL/SWING/RANGE/PERIODIC_DAMAGE)",
+   "onToken": 2,
+   "spell": 0,
+   "src": "another player",
+   "visible": 2
+  },
+  {
+   "amount": 0,
+   "cat": "damage",
+   "ctx": "ooc",
+   "log": 23,
+   "note": "damage amounts (SPELL/SWING/RANGE/PERIODIC_DAMAGE)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "death",
+   "ctx": "combat",
+   "log": 3,
+   "note": "deaths (UNIT_DIED)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "-",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "death",
+   "ctx": "ooc",
+   "log": 2,
+   "note": "deaths (UNIT_DIED)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "-",
+   "visible": 0
+  },
+  {
+   "amount": 1,
+   "cat": "energize",
+   "ctx": "ooc",
+   "log": 1,
+   "note": "mana/power gain (SPELL_ENERGIZE / PERIODIC_ENERGIZE)",
+   "onToken": 1,
+   "spell": 0,
+   "src": "me",
+   "visible": 1
+  },
+  {
+   "amount": 3,
+   "cat": "energize",
+   "ctx": "ooc",
+   "log": 3,
+   "note": "mana/power gain (SPELL_ENERGIZE / PERIODIC_ENERGIZE)",
+   "onToken": 3,
+   "spell": 0,
+   "src": "my totems/pets",
+   "visible": 3
+  },
+  {
+   "amount": 0,
+   "cat": "energize",
+   "ctx": "combat",
+   "log": 3,
+   "note": "mana/power gain (SPELL_ENERGIZE / PERIODIC_ENERGIZE)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "energize",
+   "ctx": "ooc",
+   "log": 21,
+   "note": "mana/power gain (SPELL_ENERGIZE / PERIODIC_ENERGIZE)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 2,
+   "cat": "heal",
+   "ctx": "combat",
+   "log": 2,
+   "note": "heals (SPELL_HEAL / SPELL_PERIODIC_HEAL)",
+   "onToken": 2,
+   "spell": 2,
+   "src": "me",
+   "visible": 2
+  },
+  {
+   "amount": 1,
+   "cat": "heal",
+   "ctx": "ooc",
+   "log": 1,
+   "note": "heals (SPELL_HEAL / SPELL_PERIODIC_HEAL)",
+   "onToken": 1,
+   "spell": 1,
+   "src": "me",
+   "visible": 1
+  },
+  {
+   "amount": 34,
+   "cat": "heal",
+   "ctx": "combat",
+   "log": 74,
+   "note": "heals (SPELL_HEAL / SPELL_PERIODIC_HEAL)",
+   "onToken": 34,
+   "spell": 0,
+   "src": "my totems/pets",
+   "visible": 34
+  },
+  {
+   "amount": 17,
+   "cat": "heal",
+   "ctx": "ooc",
+   "log": 36,
+   "note": "heals (SPELL_HEAL / SPELL_PERIODIC_HEAL)",
+   "onToken": 17,
+   "spell": 0,
+   "src": "my totems/pets",
+   "visible": 17
+  },
+  {
+   "amount": 0,
+   "cat": "heal",
+   "ctx": "combat",
+   "log": 2,
+   "note": "heals (SPELL_HEAL / SPELL_PERIODIC_HEAL)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "heal",
+   "ctx": "ooc",
+   "log": 3,
+   "note": "heals (SPELL_HEAL / SPELL_PERIODIC_HEAL)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "interrupt",
+   "ctx": "combat",
+   "log": 1,
+   "note": "interrupts (SPELL_INTERRUPT)",
+   "onToken": 1,
+   "spell": 0,
+   "src": "me",
+   "visible": 1
+  },
+  {
+   "amount": 4,
+   "cat": "miss",
+   "ctx": "combat",
+   "log": 4,
+   "note": "misses (SWING/SPELL_MISSED, any missType)",
+   "onToken": 4,
+   "spell": 3,
+   "src": "me",
+   "visible": 4
+  },
+  {
+   "amount": 10,
+   "cat": "miss",
+   "ctx": "combat",
+   "log": 10,
+   "note": "misses (SWING/SPELL_MISSED, any missType)",
+   "onToken": 10,
+   "spell": 0,
+   "src": "hostile NPC",
+   "visible": 10
+  },
+  {
+   "amount": 0,
+   "cat": "miss",
+   "ctx": "ooc",
+   "log": 2,
+   "note": "misses (SWING/SPELL_MISSED, any missType)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "hostile NPC",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "miss",
+   "ctx": "combat",
+   "log": 1,
+   "note": "misses (SWING/SPELL_MISSED, any missType)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "miss",
+   "ctx": "ooc",
+   "log": 10,
+   "note": "misses (SWING/SPELL_MISSED, any missType)",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "overkill",
+   "ctx": "combat",
+   "log": 3,
+   "note": "overkill > 0",
+   "onToken": 3,
+   "spell": 0,
+   "src": "me",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "overkill",
+   "ctx": "ooc",
+   "log": 3,
+   "note": "overkill > 0",
+   "onToken": 0,
+   "spell": 0,
+   "src": "another player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "summon",
+   "ctx": "combat",
+   "log": 3,
+   "note": "summons (SPELL_SUMMON: totems)",
+   "onToken": 3,
+   "spell": 3,
+   "src": "me",
+   "visible": 3
+  },
+  {
+   "amount": 0,
+   "cat": "summon",
+   "ctx": "ooc",
+   "log": 3,
+   "note": "summons (SPELL_SUMMON: totems)",
+   "onToken": 3,
+   "spell": 3,
+   "src": "me",
+   "visible": 3
+  }
+ ],
+ "naive": {
+  "accuracy": 95.1,
+  "correct": 39,
+  "falseSelf": 2,
+  "falseSelfAmount": 360,
+  "n": 41
+ },
+ "otherPlayer": {
+  "mineDamageLive": 799,
+  "otherAurasOnTarget": 0,
+  "otherCasts": 5,
+  "otherDamageLive": 360,
+  "otherDamageLog": 360
+ },
+ "otherPlayerLive": [
+  {
+   "action": "WOUND",
+   "amount": 38,
+   "crit": false,
+   "dmEvent": true,
+   "hsm": "mine",
+   "rule": "cast-frame",
+   "school": 4,
+   "t": 1791432211.291,
+   "truth": "me"
+  },
+  {
+   "action": "WOUND",
+   "amount": 123,
+   "crit": false,
+   "dmEvent": true,
+   "hsm": "mine",
+   "rule": "cast-frame",
+   "school": 1,
+   "t": 1791432213.376,
+   "truth": "me"
+  },
+  {
+   "action": "WOUND",
+   "amount": 119,
+   "crit": false,
+   "dmEvent": false,
+   "hsm": "mine",
+   "rule": "swing-lag",
+   "school": 1,
+   "t": 1791432214.001,
+   "truth": "me"
+  },
+  {
+   "action": "WOUND",
+   "amount": 8,
+   "crit": false,
+   "dmEvent": true,
+   "hsm": "mine",
+   "rule": "dm-frame",
+   "school": 4,
+   "t": 1791432214.209,
+   "truth": "me"
+  },
+  {
+   "action": "DODGE",
+   "amount": 0,
+   "crit": false,
+   "dmEvent": false,
+   "hsm": "mine",
+   "rule": "swing-lag",
+   "school": 1,
+   "t": 1791432216.793,
+   "truth": "me"
+  },
+  {
+   "action": "WOUND",
+   "amount": 8,
+   "crit": false,
+   "dmEvent": true,
+   "hsm": "mine",
+   "rule": "dm-frame",
+   "school": 4,
+   "t": 1791432217.293,
+   "truth": "me"
+  },
+  {
+   "action": "WOUND",
+   "amount": 105,
+   "crit": true,
+   "dmEvent": true,
+   "hsm": "mine",
+   "rule": "cast-frame",
+   "school": 16,
+   "t": 1791432217.522,
+   "truth": "me"
+  },
+  {
+   "action": "WOUND",
+   "amount": 177,
+   "crit": false,
+   "dmEvent": false,
+   "hsm": "other",
+   "rule": "elimination",
+   "school": 16,
+   "t": 1791432218.272,
+   "truth": "player"
+  },
+  {
+   "action": "WOUND",
+   "amount": 128,
+   "crit": false,
+   "dmEvent": false,
+   "hsm": "mine",
+   "rule": "swing-lag",
+   "school": 1,
+   "t": 1791432220.168,
+   "truth": "me"
+  },
+  {
+   "action": "WOUND",
+   "amount": 8,
+   "crit": false,
+   "dmEvent": true,
+   "hsm": "mine",
+   "rule": "dm-frame",
+   "school": 4,
+   "t": 1791432220.293,
+   "truth": "me"
+  },
+  {
+   "action": "WOUND",
+   "amount": 183,
+   "crit": false,
+   "dmEvent": false,
+   "hsm": "other",
+   "rule": "elimination",
+   "school": 16,
+   "t": 1791432221.584,
+   "truth": "player"
+  },
+  {
+   "action": "WOUND",
+   "amount": 8,
+   "crit": false,
+   "dmEvent": true,
+   "hsm": "mine",
+   "rule": "dm-frame",
+   "school": 4,
+   "t": 1791432223.209,
+   "truth": "me"
+  },
+  {
+   "action": "WOUND",
+   "amount": 130,
+   "crit": false,
+   "dmEvent": false,
+   "hsm": "mine",
+   "rule": "swing-lag",
+   "school": 1,
+   "t": 1791432224.126,
+   "truth": "me"
+  },
+  {
+   "action": "WOUND",
+   "amount": 124,
+   "crit": false,
+   "dmEvent": true,
+   "hsm": "mine",
+   "rule": "cast-frame",
+   "school": 1,
+   "t": 1791432224.668,
+   "truth": null
+  }
+ ],
+ "overheal": {
+  "exact": 52,
+  "mae": 0.5,
+  "n": 54,
+  "overhealYesNoCorrect": 53
+ },
+ "schema": "foreverdump.coverage/1",
+ "timing": {
+  "damage": {
+   "max": 0.208,
+   "median": -0.001,
+   "min": -0.01,
+   "n": 28
+  },
+  "damage/melee": {
+   "max": 0.979,
+   "median": 0.458,
+   "min": -0.002,
+   "n": 39
+  },
+  "heal": {
+   "max": 0.0,
+   "median": -0.001,
+   "min": -0.005,
+   "n": 54
+  },
+  "miss": {
+   "max": 0.75,
+   "median": 0.334,
+   "min": -0.003,
+   "n": 14
+  }
+ },
+ "verdictCounts": {
+  "aura-expiry|U": 1,
+  "cast-end|U": 1,
+  "cast-end|V": 2,
+  "cooldown|V": 11,
+  "damage-range|U": 1,
+  "damage-range|V": 4,
+  "dm-damage|U": 2,
+  "dm-damage|V": 1,
+  "dm-dispels|U": 3,
+  "dm-healing|C": 1,
+  "dm-healing|V": 2,
+  "dm-interrupts|V": 3,
+  "dm-taken|U": 3,
+  "interrupt-attribution|V": 1
+ }
+}

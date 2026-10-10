@@ -1,0 +1,506 @@
+{
+ "byType": {
+  "Combat": {
+   "activeSec": {
+    "max": 37.354,
+    "min": 14.356,
+    "n": 3,
+    "total": 80.2
+   },
+   "flips": 6,
+   "inCombatAtActivating": {
+    "InCombatLockdown=False": 3
+   },
+   "intervals": [
+    28.461,
+    37.354,
+    14.356
+   ],
+   "states": {
+    "Activating": 3,
+    "Inactive": 3
+   }
+  }
+ },
+ "contexts": {
+  "Combat/none": 6
+ },
+ "counts": {
+  "Combat:Activating": 3,
+  "Combat:Inactive": 3
+ },
+ "dropped": null,
+ "flips": 6,
+ "markers": {
+  "PLAYER_IN_COMBAT_CHANGED": 6,
+  "PLAYER_REGEN_DISABLED": 3,
+  "PLAYER_REGEN_ENABLED": 3
+ },
+ "origin": "v2.2",
+ "perFlip": [
+  {
+   "atToAfter": [
+    [
+     "C_UnitAuras.GetAuraDataByIndex(player,1)",
+     "1",
+     "N",
+     "-"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(player,1)",
+     "call",
+     "-",
+     "E"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(target,1)",
+     "1",
+     "N",
+     "-"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(target,1)",
+     "call",
+     "-",
+     "E"
+    ],
+    [
+     "C_Secrets.ShouldAurasBeSecret",
+     "ret",
+     "False",
+     "True"
+    ],
+    [
+     "C_Secrets.ShouldCooldownsBeSecret",
+     "ret",
+     "False",
+     "True"
+    ]
+   ],
+   "baselineToAfter": [
+    [
+     "C_UnitAuras.GetAuraDataByIndex(player,1)",
+     "1",
+     "N",
+     "-"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(player,1)",
+     "call",
+     "-",
+     "E"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(target,1)",
+     "1",
+     "N",
+     "-"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(target,1)",
+     "call",
+     "-",
+     "E"
+    ],
+    [
+     "GetRaidTargetIndex(target)",
+     "1",
+     "-",
+     "N"
+    ],
+    [
+     "UnitGUID(target)",
+     "1",
+     "-",
+     "C"
+    ],
+    [
+     "UnitHealth(target)",
+     "1",
+     "-",
+     "S"
+    ],
+    [
+     "UnitName(target)",
+     "1",
+     "-",
+     "C"
+    ],
+    [
+     "UnitName(target)",
+     "2",
+     "-",
+     "N"
+    ],
+    [
+     "UnitThreatSituation",
+     "1",
+     "-",
+     "C"
+    ],
+    [
+     "C_Secrets.ShouldAurasBeSecret",
+     "ret",
+     "False",
+     "True"
+    ],
+    [
+     "C_Secrets.ShouldCooldownsBeSecret",
+     "ret",
+     "False",
+     "True"
+    ]
+   ],
+   "epoch": 1791432123,
+   "state": "Activating",
+   "statesAfter": {
+    "ChallengeMode": 0,
+    "Chat": 0,
+    "Combat": 2,
+    "Encounter": 0,
+    "Map": 0,
+    "PvPMatch": 0
+   },
+   "t": 1060096.218,
+   "type": "Combat"
+  },
+  {
+   "atToAfter": [],
+   "baselineToAfter": [],
+   "epoch": 1791432151,
+   "state": "Inactive",
+   "statesAfter": {
+    "ChallengeMode": 0,
+    "Chat": 0,
+    "Combat": 0,
+    "Encounter": 0,
+    "Map": 0,
+    "PvPMatch": 0
+   },
+   "t": 1060124.679,
+   "type": "Combat"
+  },
+  {
+   "atToAfter": [
+    [
+     "C_UnitAuras.GetAuraDataByIndex(player,1)",
+     "1",
+     "N",
+     "-"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(player,1)",
+     "call",
+     "-",
+     "E"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(target,1)",
+     "1",
+     "N",
+     "-"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(target,1)",
+     "call",
+     "-",
+     "E"
+    ],
+    [
+     "C_Secrets.ShouldAurasBeSecret",
+     "ret",
+     "False",
+     "True"
+    ],
+    [
+     "C_Secrets.ShouldCooldownsBeSecret",
+     "ret",
+     "False",
+     "True"
+    ]
+   ],
+   "baselineToAfter": [
+    [
+     "C_UnitAuras.GetAuraDataByIndex(player,1)",
+     "1",
+     "N",
+     "-"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(player,1)",
+     "call",
+     "-",
+     "E"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(target,1)",
+     "1",
+     "N",
+     "-"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(target,1)",
+     "call",
+     "-",
+     "E"
+    ],
+    [
+     "GetRaidTargetIndex(target)",
+     "1",
+     "-",
+     "N"
+    ],
+    [
+     "UnitGUID(target)",
+     "1",
+     "-",
+     "C"
+    ],
+    [
+     "UnitHealth(target)",
+     "1",
+     "-",
+     "S"
+    ],
+    [
+     "UnitName(target)",
+     "1",
+     "-",
+     "C"
+    ],
+    [
+     "UnitName(target)",
+     "2",
+     "-",
+     "N"
+    ],
+    [
+     "UnitThreatSituation",
+     "1",
+     "-",
+     "C"
+    ],
+    [
+     "C_Secrets.ShouldAurasBeSecret",
+     "ret",
+     "False",
+     "True"
+    ],
+    [
+     "C_Secrets.ShouldCooldownsBeSecret",
+     "ret",
+     "False",
+     "True"
+    ]
+   ],
+   "epoch": 1791432162,
+   "state": "Activating",
+   "statesAfter": {
+    "ChallengeMode": 0,
+    "Chat": 0,
+    "Combat": 2,
+    "Encounter": 0,
+    "Map": 0,
+    "PvPMatch": 0
+   },
+   "t": 1060135.991,
+   "type": "Combat"
+  },
+  {
+   "atToAfter": [],
+   "baselineToAfter": [],
+   "epoch": 1791432200,
+   "state": "Inactive",
+   "statesAfter": {
+    "ChallengeMode": 0,
+    "Chat": 0,
+    "Combat": 0,
+    "Encounter": 0,
+    "Map": 0,
+    "PvPMatch": 0
+   },
+   "t": 1060173.345,
+   "type": "Combat"
+  },
+  {
+   "atToAfter": [
+    [
+     "C_UnitAuras.GetAuraDataByIndex(player,1)",
+     "1",
+     "N",
+     "-"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(player,1)",
+     "call",
+     "-",
+     "E"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(target,1)",
+     "1",
+     "N",
+     "-"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(target,1)",
+     "call",
+     "-",
+     "E"
+    ],
+    [
+     "UnitThreatSituation",
+     "1",
+     "N",
+     "C"
+    ],
+    [
+     "C_Secrets.ShouldAurasBeSecret",
+     "ret",
+     "False",
+     "True"
+    ],
+    [
+     "C_Secrets.ShouldCooldownsBeSecret",
+     "ret",
+     "False",
+     "True"
+    ]
+   ],
+   "baselineToAfter": [
+    [
+     "C_UnitAuras.GetAuraDataByIndex(player,1)",
+     "1",
+     "N",
+     "-"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(player,1)",
+     "call",
+     "-",
+     "E"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(target,1)",
+     "1",
+     "N",
+     "-"
+    ],
+    [
+     "C_UnitAuras.GetAuraDataByIndex(target,1)",
+     "call",
+     "-",
+     "E"
+    ],
+    [
+     "GetRaidTargetIndex(target)",
+     "1",
+     "-",
+     "N"
+    ],
+    [
+     "UnitGUID(target)",
+     "1",
+     "-",
+     "C"
+    ],
+    [
+     "UnitHealth(target)",
+     "1",
+     "-",
+     "S"
+    ],
+    [
+     "UnitName(target)",
+     "1",
+     "-",
+     "C"
+    ],
+    [
+     "UnitName(target)",
+     "2",
+     "-",
+     "N"
+    ],
+    [
+     "UnitThreatSituation",
+     "1",
+     "-",
+     "C"
+    ],
+    [
+     "C_Secrets.ShouldAurasBeSecret",
+     "ret",
+     "False",
+     "True"
+    ],
+    [
+     "C_Secrets.ShouldCooldownsBeSecret",
+     "ret",
+     "False",
+     "True"
+    ]
+   ],
+   "epoch": 1791432211,
+   "state": "Activating",
+   "statesAfter": {
+    "ChallengeMode": 0,
+    "Chat": 0,
+    "Combat": 2,
+    "Encounter": 0,
+    "Map": 0,
+    "PvPMatch": 0
+   },
+   "t": 1060184.449,
+   "type": "Combat"
+  },
+  {
+   "atToAfter": [],
+   "baselineToAfter": [],
+   "epoch": 1791432225,
+   "state": "Inactive",
+   "statesAfter": {
+    "ChallengeMode": 0,
+    "Chat": 0,
+    "Combat": 0,
+    "Encounter": 0,
+    "Map": 0,
+    "PvPMatch": 0
+   },
+   "t": 1060198.805,
+   "type": "Combat"
+  }
+ ],
+ "probeDeltas": {
+  "Combat C_Secrets.ShouldAurasBeSecret #ret: False -> True": 3,
+  "Combat C_Secrets.ShouldCooldownsBeSecret #ret: False -> True": 3,
+  "Combat C_UnitAuras.GetAuraDataByIndex(player,1) #1: nil -> -": 3,
+  "Combat C_UnitAuras.GetAuraDataByIndex(player,1) #call: - -> error": 3,
+  "Combat C_UnitAuras.GetAuraDataByIndex(target,1) #1: nil -> -": 3,
+  "Combat C_UnitAuras.GetAuraDataByIndex(target,1) #call: - -> error": 3,
+  "Combat UnitThreatSituation #1: nil -> clear": 1
+ },
+ "sessions": [
+  {
+   "flips": 6,
+   "markers": 12,
+   "sid": "cap-20261008000120-1",
+   "statesAtEnd": {
+    "ChallengeMode": 0,
+    "Chat": 0,
+    "Combat": 0,
+    "Encounter": 0,
+    "Map": 0,
+    "PvPMatch": 0
+   },
+   "statesAtStart": {
+    "ChallengeMode": 0,
+    "Chat": 0,
+    "Combat": 0,
+    "Encounter": 0,
+    "Map": 0,
+    "PvPMatch": 0
+   }
+  }
+ ]
+}

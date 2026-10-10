@@ -1,0 +1,405 @@
+{
+ "accuracy": {
+  "aura-expiry": {
+   "C": 0,
+   "U": 1,
+   "V": 0,
+   "accuracy": 100.0,
+   "confirmed": 1,
+   "coverage": 0.0,
+   "missed": 0,
+   "n": 1,
+   "refuted": 0
+  },
+  "cast-end": {
+   "C": 0,
+   "U": 1,
+   "V": 2,
+   "accuracy": 100.0,
+   "confirmed": 2,
+   "coverage": 66.7,
+   "missed": 0,
+   "n": 3,
+   "refuted": 0
+  },
+  "cooldown": {
+   "C": 0,
+   "U": 0,
+   "V": 11,
+   "accuracy": 100.0,
+   "confirmed": 10,
+   "coverage": 100.0,
+   "missed": 0,
+   "n": 11,
+   "refuted": 0
+  },
+  "damage-range": {
+   "C": 0,
+   "U": 1,
+   "V": 4,
+   "accuracy": 100.0,
+   "confirmed": 5,
+   "coverage": 80.0,
+   "missed": 0,
+   "n": 5,
+   "refuted": 0
+  },
+  "dm-total": {
+   "C": 0,
+   "U": 0,
+   "V": 3,
+   "accuracy": null,
+   "confirmed": 0,
+   "coverage": 100.0,
+   "missed": 0,
+   "n": 3,
+   "refuted": 0
+  },
+  "interrupt-attribution": {
+   "C": 0,
+   "U": 0,
+   "V": 1,
+   "accuracy": 100.0,
+   "confirmed": 1,
+   "coverage": 100.0,
+   "missed": 0,
+   "n": 1,
+   "refuted": 0
+  }
+ },
+ "patch": {
+  "build": "70245",
+  "npcCasts": {
+   "4119": {
+    "castMedian": 3.5,
+    "max": 3.542,
+    "min": 3.437,
+    "n": 3
+   }
+  },
+  "rules": {
+   "swingLag": [
+    0.0,
+    1.079
+   ]
+  },
+  "schema": "foreverdump.knowledgepatch/1",
+  "spells": {
+   "17364": {
+    "minRecast": 11.291
+   },
+   "8042": {
+    "interrupt": true,
+    "lockout": 2
+   },
+   "8044": {
+    "interrupt": true,
+    "lockout": 2
+   },
+   "8045": {
+    "interrupt": true,
+    "lockout": 2
+   },
+   "8046": {
+    "interrupt": true,
+    "lockout": 2,
+    "minRecast": 6.021
+   },
+   "8052": {
+    "auraId": 8052,
+    "minRecast": 16.853
+   },
+   "8177": {
+    "minRecast": 72.936
+   }
+  }
+ },
+ "rows": [
+  {
+   "conf": "observed",
+   "d": 598.063000202179,
+   "kind": "aura-expiry",
+   "source": "replay",
+   "spell": 905,
+   "src": "UNIT_AURA removed (consumable)",
+   "t": 1791432089.646,
+   "truth": "confirmed",
+   "v": "U",
+   "why": "log removal"
+  },
+  {
+   "conf": "medium",
+   "d": 1,
+   "kind": "damage-range",
+   "source": "replay",
+   "spell": 8052,
+   "src": "UNIT_COMBAT",
+   "t": 1791432123.06,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log amount 38"
+  },
+  {
+   "conf": "medium",
+   "d": 5.930999994277954,
+   "kind": "cooldown",
+   "source": "replay",
+   "spell": 8052,
+   "src": "UNIT_SPELLCAST_FAILED",
+   "t": 1791432123.129,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log: Not yet recovered"
+  },
+  {
+   "conf": "high",
+   "d": 10.854000091552734,
+   "kind": "cooldown",
+   "source": "replay",
+   "spell": 8052,
+   "src": "UNIT_SPELLCAST_SUCCEEDED",
+   "t": 1791432139.914,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log recast"
+  },
+  {
+   "conf": "medium",
+   "d": 1,
+   "kind": "damage-range",
+   "source": "replay",
+   "spell": 8052,
+   "src": "UNIT_COMBAT",
+   "t": 1791432139.914,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log amount 38"
+  },
+  {
+   "conf": "high",
+   "d": -105,
+   "kind": "dm-total",
+   "source": "replay",
+   "src": "C_DamageMeter post-combat",
+   "t": 1791432152.021,
+   "truth": "n/a",
+   "v": "V",
+   "why": "post-combat meter vs live sum (see COVERAGE fights table)"
+  },
+  {
+   "conf": "high",
+   "d": 16.918999910354614,
+   "kind": "cooldown",
+   "source": "replay",
+   "spell": 8052,
+   "src": "UNIT_SPELLCAST_SUCCEEDED",
+   "t": 1791432162.833,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log recast"
+  },
+  {
+   "conf": "medium",
+   "d": 5.937000036239624,
+   "kind": "cooldown",
+   "source": "replay",
+   "spell": 8052,
+   "src": "UNIT_SPELLCAST_FAILED",
+   "t": 1791432162.896,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log: Not yet recovered"
+  },
+  {
+   "conf": "low",
+   "d": -0.10500001907348633,
+   "key": "npc:4119",
+   "kind": "cast-end",
+   "source": "replay",
+   "src": "UNIT_SPELLCAST_SUCCEEDED",
+   "t": 1791432172.083,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log NPC cast success"
+  },
+  {
+   "conf": "medium",
+   "d": 0.6659998893737793,
+   "kind": "cooldown",
+   "source": "replay",
+   "spell": 8046,
+   "src": "UNIT_SPELLCAST_FAILED",
+   "t": 1791432176.625,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log: Not yet recovered"
+  },
+  {
+   "conf": "medium",
+   "d": 0.08299994468688965,
+   "kind": "cooldown",
+   "source": "replay",
+   "spell": 8046,
+   "src": "UNIT_SPELLCAST_FAILED_QUIET",
+   "t": 1791432177.208,
+   "truth": "no-truth",
+   "v": "V",
+   "why": ""
+  },
+  {
+   "conf": "high",
+   "d": 0.021000146865844727,
+   "kind": "cooldown",
+   "source": "replay",
+   "spell": 8046,
+   "src": "UNIT_SPELLCAST_SUCCEEDED",
+   "t": 1791432177.312,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log recast"
+  },
+  {
+   "conf": "medium",
+   "d": 5.896000146865845,
+   "kind": "cooldown",
+   "source": "replay",
+   "spell": 8046,
+   "src": "UNIT_SPELLCAST_FAILED",
+   "t": 1791432177.416,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log: Not yet recovered"
+  },
+  {
+   "conf": "low",
+   "d": 0.010499954223632812,
+   "key": "npc:4119",
+   "kind": "cast-end",
+   "source": "replay",
+   "src": "UNIT_SPELLCAST_SUCCEEDED",
+   "t": 1791432178.208,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log NPC cast success"
+  },
+  {
+   "conf": "high",
+   "d": 14.66700005531311,
+   "kind": "cooldown",
+   "source": "replay",
+   "spell": 8046,
+   "src": "UNIT_SPELLCAST_SUCCEEDED",
+   "t": 1791432197.979,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log recast"
+  },
+  {
+   "d": 1.4580001831054688,
+   "key": "npc:4119",
+   "kind": "cast-end",
+   "source": "replay",
+   "src": "UNIT_SPELLCAST_INTERRUPTED",
+   "t": 1791432197.979,
+   "truth": "no-truth",
+   "v": "U",
+   "why": ""
+  },
+  {
+   "conf": "medium",
+   "d": 1.1444444444444444,
+   "kind": "damage-range",
+   "source": "replay",
+   "spell": 8046,
+   "src": "UNIT_COMBAT below range",
+   "t": 1791432197.979,
+   "truth": "confirmed-contradiction",
+   "v": "U",
+   "why": "log amount 103"
+  },
+  {
+   "conf": "high",
+   "kind": "interrupt-attribution",
+   "source": "replay",
+   "spell": 8046,
+   "src": "interrupt-cast+dm",
+   "t": 1791432197.979,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log interrupter me, spell 8046"
+  },
+  {
+   "conf": "high",
+   "d": -125,
+   "kind": "dm-total",
+   "source": "replay",
+   "src": "C_DamageMeter post-combat",
+   "t": 1791432200.687,
+   "truth": "n/a",
+   "v": "V",
+   "why": "post-combat meter vs live sum (see COVERAGE fights table)"
+  },
+  {
+   "conf": "high",
+   "d": 42.45799994468689,
+   "kind": "cooldown",
+   "source": "replay",
+   "spell": 8052,
+   "src": "UNIT_SPELLCAST_SUCCEEDED",
+   "t": 1791432211.291,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log recast"
+  },
+  {
+   "conf": "medium",
+   "d": 1,
+   "kind": "damage-range",
+   "source": "replay",
+   "spell": 8052,
+   "src": "UNIT_COMBAT",
+   "t": 1791432211.291,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log amount 38"
+  },
+  {
+   "conf": "medium",
+   "d": 1.4383561643835616,
+   "kind": "damage-range",
+   "source": "replay",
+   "spell": 8056,
+   "src": "UNIT_COMBAT",
+   "t": 1791432217.522,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log amount 105"
+  },
+  {
+   "conf": "high",
+   "d": 3.2920000553131104,
+   "kind": "cooldown",
+   "source": "replay",
+   "spell": 17364,
+   "src": "UNIT_SPELLCAST_SUCCEEDED",
+   "t": 1791432224.668,
+   "truth": "confirmed",
+   "v": "V",
+   "why": "log recast"
+  },
+  {
+   "conf": "high",
+   "d": 0,
+   "kind": "dm-total",
+   "source": "replay",
+   "src": "C_DamageMeter post-combat",
+   "t": 1791432226.147,
+   "truth": "n/a",
+   "v": "V",
+   "why": "post-combat meter vs live sum (see COVERAGE fights table)"
+  }
+ ],
+ "source": "replay",
+ "unexpected": [],
+ "verdicts": 24
+}

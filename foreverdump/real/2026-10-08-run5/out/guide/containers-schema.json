@@ -1,0 +1,2506 @@
+{
+ "build": "70245",
+ "ctxRuns": {
+  "combat|r0": 1,
+  "ooc": 1
+ },
+ "errors": {
+  "C_UnitAuras.GetAuraDataByIndex": "GetAuraDataByIndex(): Auras cannot be accessed when secret while tainted by 'ForeverDump'\nLua Taint: ForeverDump",
+  "C_UnitAuras.GetAuraSlots": "GetAuraSlots(): Auras cannot be accessed when secret while tainted by 'ForeverDump'\nLua Taint: ForeverDump",
+  "C_UnitAuras.GetUnitAuras": "GetUnitAuras(): Auras cannot be accessed when secret while tainted by 'ForeverDump'\nLua Taint: ForeverDump"
+ },
+ "runs": 2,
+ "schema": {
+  "combat|r0": {
+   "player": {
+    "C_Spell.GetSpellCharges(gcd)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "C_Spell.GetSpellCharges(spell)": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "C_Spell.GetSpellCooldown(gcd)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "C_Spell.GetSpellCooldown(spell)": {
+     "f": {
+      "activeCategory": {
+       "obs": 2,
+       "s": {
+        "S": 2
+       }
+      },
+      "duration": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      },
+      "isActive": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       },
+       "ty": "boolean"
+      },
+      "isEnabled": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       },
+       "ty": "boolean"
+      },
+      "isOnGCD": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       },
+       "ty": "boolean"
+      },
+      "modRate": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      },
+      "startTime": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      },
+      "timeUntilEndOfStartRecovery": {
+       "obs": 2,
+       "s": {
+        "S": 2
+       }
+      }
+     },
+     "fl": {
+      "canaccesstable": {
+       "true": 3
+      },
+      "hasanysecretvalues": {
+       "true": 3
+      },
+      "issecrettable": {
+       "false": 3
+      }
+     },
+     "lenClear": 3,
+     "lenMax": 0,
+     "ncMax": 3,
+     "obs": 3,
+     "s": {
+      "T": 3
+     },
+     "ty": "table"
+    },
+    "C_Spell.GetSpellCooldownDuration(gcd)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "C_Spell.GetSpellCooldownDuration(spell)": {
+     "f": {
+      "GetElapsedDuration()": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      },
+      "GetElapsedPercent()": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      },
+      "GetEndTime()": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      },
+      "GetModRate()": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      },
+      "GetRemainingDuration()": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      },
+      "GetRemainingPercent()": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      },
+      "GetStartTime()": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      },
+      "GetTotalDuration()": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      },
+      "HasSecretValues()": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       },
+       "ty": "boolean"
+      },
+      "IsZero()": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      }
+     },
+     "fl": {
+      "HasSecretValues": {
+       "true": 3
+      }
+     },
+     "ncMax": 1,
+     "obs": 3,
+     "s": {
+      "T": 3
+     },
+     "ty": "userdata"
+    },
+    "C_Spell.GetSpellInfo(gcd)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "C_Spell.GetSpellInfo(spell)": {
+     "f": {
+      "castTime": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       },
+       "ty": "number"
+      },
+      "iconID": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       },
+       "ty": "number"
+      },
+      "maxRange": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       },
+       "ty": "number"
+      },
+      "minRange": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       },
+       "ty": "number"
+      },
+      "name": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       },
+       "ty": "string"
+      },
+      "originalIconID": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       },
+       "ty": "number"
+      },
+      "spellID": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       },
+       "ty": "number"
+      }
+     },
+     "fl": {
+      "canaccesstable": {
+       "true": 3
+      },
+      "hasanysecretvalues": {
+       "false": 3
+      },
+      "issecrettable": {
+       "false": 3
+      }
+     },
+     "lenClear": 3,
+     "lenMax": 0,
+     "ncMax": 7,
+     "obs": 3,
+     "s": {
+      "K": 3
+     },
+     "ty": "table"
+    },
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HARMFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HARMFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraSlots(u,HARMFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraSlots(u,HARMFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraSlots(u,HELPFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraSlots(u,HELPFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetUnitAuras(u,HARMFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetUnitAuras(u,HARMFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetUnitAuras(u,HELPFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetUnitAuras(u,HELPFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "GetTotemInfo(slot)": {
+     "f": {
+      "ret1": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "ret2": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "ret3": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "ret4": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "ret5": {
+       "obs": 4,
+       "s": {
+        "N": 3,
+        "S": 1
+       }
+      },
+      "ret6": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "ret7": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      }
+     },
+     "nMax": 7,
+     "ncMax": 0,
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "UnitCastingDuration(u)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitCastingInfo(u)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitChannelDuration(u)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitChannelInfo(u)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitGUID(u)": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     },
+     "ty": "string"
+    },
+    "UnitHealth(u)": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitHealthMax(u)": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     },
+     "ty": "number"
+    },
+    "UnitName(u)": {
+     "f": {
+      "ret1": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "string"
+      },
+      "ret2": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "string"
+      }
+     },
+     "nMax": 2,
+     "ncMax": 2,
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitPower(u)": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "count:GetAuraDataByIndex-iterate(HARMFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     },
+     "ty": "count"
+    },
+    "count:GetAuraDataByIndex-iterate(HARMFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     },
+     "ty": "count"
+    },
+    "count:GetAuraDataByIndex-iterate(HELPFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     },
+     "ty": "count"
+    },
+    "count:GetAuraDataByIndex-iterate(HELPFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     },
+     "ty": "count"
+    },
+    "event:UNIT_AURA": {
+     "f": {
+      "addedAuras": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "isFullUpdate": {
+       "obs": 11,
+       "s": {
+        "S": 11
+       }
+      },
+      "removedAuraInstanceIDs": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "updatedAuraInstanceIDs": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      }
+     },
+     "fl": {
+      "canaccesstable": {
+       "true": 11
+      },
+      "hasanysecretvalues": {
+       "true": 11
+      },
+      "issecrettable": {
+       "false": 11
+      }
+     },
+     "lenClear": 11,
+     "lenMax": 0,
+     "ncMax": 0,
+     "obs": 11,
+     "s": {
+      "T": 11
+     },
+     "ty": "table"
+    }
+   },
+   "target:hostile-npc": {
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HARMFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HARMFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraSlots(u,HARMFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraSlots(u,HARMFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraSlots(u,HELPFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraSlots(u,HELPFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetUnitAuras(u,HARMFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetUnitAuras(u,HARMFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetUnitAuras(u,HELPFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetUnitAuras(u,HELPFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "UnitCastingDuration(u)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitCastingInfo(u)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitChannelDuration(u)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitChannelInfo(u)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitGUID(u)": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     },
+     "ty": "string"
+    },
+    "UnitHealth(u)": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitHealthMax(u)": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitName(u)": {
+     "f": {
+      "ret1": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "string"
+      },
+      "ret2": {
+       "obs": 1,
+       "s": {
+        "N": 1
+       }
+      }
+     },
+     "nMax": 2,
+     "ncMax": 1,
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitPower(u)": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "count:GetAuraDataByIndex-iterate(HARMFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     },
+     "ty": "count"
+    },
+    "count:GetAuraDataByIndex-iterate(HARMFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     },
+     "ty": "count"
+    },
+    "count:GetAuraDataByIndex-iterate(HELPFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     },
+     "ty": "count"
+    },
+    "count:GetAuraDataByIndex-iterate(HELPFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     },
+     "ty": "count"
+    },
+    "event:UNIT_AURA": {
+     "f": {
+      "addedAuras": {
+       "obs": 6,
+       "s": {
+        "S": 6
+       }
+      },
+      "isFullUpdate": {
+       "obs": 10,
+       "s": {
+        "S": 10
+       }
+      },
+      "removedAuraInstanceIDs": {
+       "obs": 2,
+       "s": {
+        "S": 2
+       }
+      },
+      "updatedAuraInstanceIDs": {
+       "obs": 2,
+       "s": {
+        "S": 2
+       }
+      }
+     },
+     "fl": {
+      "canaccesstable": {
+       "true": 10
+      },
+      "hasanysecretvalues": {
+       "true": 10
+      },
+      "issecrettable": {
+       "false": 10
+      }
+     },
+     "lenClear": 10,
+     "lenMax": 0,
+     "ncMax": 0,
+     "obs": 10,
+     "s": {
+      "T": 10
+     },
+     "ty": "table"
+    }
+   },
+   "targettarget:self": {
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HARMFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HARMFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraSlots(u,HARMFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraSlots(u,HARMFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraSlots(u,HELPFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetAuraSlots(u,HELPFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetUnitAuras(u,HARMFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetUnitAuras(u,HARMFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetUnitAuras(u,HELPFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "C_UnitAuras.GetUnitAuras(u,HELPFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "UnitCastingDuration(u)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitCastingInfo(u)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitChannelDuration(u)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitChannelInfo(u)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitGUID(u)": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     },
+     "ty": "string"
+    },
+    "UnitHealth(u)": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitHealthMax(u)": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     },
+     "ty": "number"
+    },
+    "UnitName(u)": {
+     "f": {
+      "ret1": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "string"
+      },
+      "ret2": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "string"
+      }
+     },
+     "nMax": 2,
+     "ncMax": 2,
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitPower(u)": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "count:GetAuraDataByIndex-iterate(HARMFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     },
+     "ty": "count"
+    },
+    "count:GetAuraDataByIndex-iterate(HARMFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     },
+     "ty": "count"
+    },
+    "count:GetAuraDataByIndex-iterate(HELPFUL)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     },
+     "ty": "count"
+    },
+    "count:GetAuraDataByIndex-iterate(HELPFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     },
+     "ty": "count"
+    }
+   }
+  },
+  "ooc": {
+   "player": {
+    "C_Spell.GetSpellCharges(gcd)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "C_Spell.GetSpellCooldown(gcd)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "C_Spell.GetSpellCooldownDuration(gcd)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "C_Spell.GetSpellInfo(gcd)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "C_UnitAuras.GetAuraApplicationDisplayCount(u,iid)": {
+     "obs": 2,
+     "s": {
+      "C": 2
+     },
+     "ty": "string"
+    },
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HARMFUL)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HARMFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL)": {
+     "f": {
+      "applications": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      },
+      "auraInstanceID": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      },
+      "canActivePlayerDispel": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "canApplyAura": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "dispelName": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "string"
+      },
+      "duration": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      },
+      "expirationTime": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      },
+      "hideOnPartyFrames": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "icon": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      },
+      "isBossAura": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isDPSRoleAura": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isHarmful": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isHealerRoleAura": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isHelpful": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isNameplateOnly": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isRaid": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isStealable": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isTankRoleAura": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "name": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "string"
+      },
+      "nameplateShowAll": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "nameplateShowPersonal": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "points": {
+       "fl": {
+        "canaccesstable": {
+         "true": 1
+        },
+        "issecrettable": {
+         "false": 1
+        }
+       },
+       "lenClear": 1,
+       "lenMax": 0,
+       "ncMax": 0,
+       "obs": 1,
+       "s": {
+        "K": 1
+       },
+       "ty": "table"
+      },
+      "sourceUnit": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "string"
+      },
+      "spellId": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      },
+      "timeMod": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      }
+     },
+     "fl": {
+      "canaccesstable": {
+       "true": 1
+      },
+      "hasanysecretvalues": {
+       "false": 1
+      },
+      "issecrettable": {
+       "false": 1
+      }
+     },
+     "lenClear": 1,
+     "lenMax": 0,
+     "ncMax": 25,
+     "obs": 1,
+     "s": {
+      "K": 1
+     },
+     "ty": "table"
+    },
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL|PLAYER)": {
+     "f": {
+      "applications": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      },
+      "auraInstanceID": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      },
+      "canActivePlayerDispel": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "canApplyAura": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "dispelName": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "string"
+      },
+      "duration": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      },
+      "expirationTime": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      },
+      "hideOnPartyFrames": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "icon": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      },
+      "isBossAura": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isDPSRoleAura": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isHarmful": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isHealerRoleAura": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isHelpful": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isNameplateOnly": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isRaid": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isStealable": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "isTankRoleAura": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "name": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "string"
+      },
+      "nameplateShowAll": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "nameplateShowPersonal": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "boolean"
+      },
+      "points": {
+       "fl": {
+        "canaccesstable": {
+         "true": 1
+        },
+        "issecrettable": {
+         "false": 1
+        }
+       },
+       "lenClear": 1,
+       "lenMax": 0,
+       "ncMax": 0,
+       "obs": 1,
+       "s": {
+        "K": 1
+       },
+       "ty": "table"
+      },
+      "sourceUnit": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "string"
+      },
+      "spellId": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      },
+      "timeMod": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      }
+     },
+     "fl": {
+      "canaccesstable": {
+       "true": 1
+      },
+      "hasanysecretvalues": {
+       "false": 1
+      },
+      "issecrettable": {
+       "false": 1
+      }
+     },
+     "lenClear": 1,
+     "lenMax": 0,
+     "ncMax": 25,
+     "obs": 1,
+     "s": {
+      "K": 1
+     },
+     "ty": "table"
+    },
+    "C_UnitAuras.GetAuraDuration(u,iid)": {
+     "f": {
+      "GetElapsedDuration()": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       },
+       "ty": "number"
+      },
+      "GetElapsedPercent()": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       },
+       "ty": "number"
+      },
+      "GetEndTime()": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       },
+       "ty": "number"
+      },
+      "GetModRate()": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       },
+       "ty": "number"
+      },
+      "GetRemainingDuration()": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       },
+       "ty": "number"
+      },
+      "GetRemainingPercent()": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       },
+       "ty": "number"
+      },
+      "GetStartTime()": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       },
+       "ty": "number"
+      },
+      "GetTotalDuration()": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       },
+       "ty": "number"
+      },
+      "HasSecretValues()": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       },
+       "ty": "boolean"
+      },
+      "IsZero()": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       },
+       "ty": "boolean"
+      }
+     },
+     "fl": {
+      "HasSecretValues": {
+       "false": 2
+      }
+     },
+     "ncMax": 10,
+     "obs": 2,
+     "s": {
+      "K": 2
+     },
+     "ty": "userdata"
+    },
+    "C_UnitAuras.GetAuraSlots(u,HARMFUL)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "C_UnitAuras.GetAuraSlots(u,HARMFUL|PLAYER)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "C_UnitAuras.GetAuraSlots(u,HELPFUL)": {
+     "f": {
+      "ret1": {
+       "obs": 1,
+       "s": {
+        "N": 1
+       }
+      },
+      "ret2": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      },
+      "ret3": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      }
+     },
+     "nMax": 3,
+     "ncMax": 2,
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "C_UnitAuras.GetAuraSlots(u,HELPFUL|PLAYER)": {
+     "f": {
+      "ret1": {
+       "obs": 1,
+       "s": {
+        "N": 1
+       }
+      },
+      "ret2": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "number"
+      }
+     },
+     "nMax": 2,
+     "ncMax": 1,
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "C_UnitAuras.GetUnitAuras(u,HARMFUL)": {
+     "fl": {
+      "canaccesstable": {
+       "true": 1
+      },
+      "issecrettable": {
+       "false": 1
+      }
+     },
+     "lenClear": 1,
+     "lenMax": 0,
+     "ncMax": 0,
+     "obs": 1,
+     "s": {
+      "K": 1
+     },
+     "ty": "table"
+    },
+    "C_UnitAuras.GetUnitAuras(u,HARMFUL|PLAYER)": {
+     "fl": {
+      "canaccesstable": {
+       "true": 1
+      },
+      "issecrettable": {
+       "false": 1
+      }
+     },
+     "lenClear": 1,
+     "lenMax": 0,
+     "ncMax": 0,
+     "obs": 1,
+     "s": {
+      "K": 1
+     },
+     "ty": "table"
+    },
+    "C_UnitAuras.GetUnitAuras(u,HELPFUL)": {
+     "arr": {
+      "f": {
+       "applications": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "number"
+       },
+       "auraInstanceID": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "number"
+       },
+       "canActivePlayerDispel": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "boolean"
+       },
+       "canApplyAura": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "boolean"
+       },
+       "dispelName": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "string"
+       },
+       "duration": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "number"
+       },
+       "expirationTime": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "number"
+       },
+       "hideOnPartyFrames": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "boolean"
+       },
+       "icon": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "number"
+       },
+       "isBossAura": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "boolean"
+       },
+       "isDPSRoleAura": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "boolean"
+       },
+       "isFromPlayerOrPlayerPet": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "boolean"
+       },
+       "isHarmful": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "boolean"
+       },
+       "isHealerRoleAura": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "boolean"
+       },
+       "isHelpful": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "boolean"
+       },
+       "isNameplateOnly": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "boolean"
+       },
+       "isRaid": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "boolean"
+       },
+       "isStealable": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "boolean"
+       },
+       "isTankRoleAura": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "boolean"
+       },
+       "name": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "string"
+       },
+       "nameplateShowAll": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "boolean"
+       },
+       "nameplateShowPersonal": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "boolean"
+       },
+       "points": {
+        "fl": {
+         "canaccesstable": {
+          "true": 2
+         },
+         "issecrettable": {
+          "false": 2
+         }
+        },
+        "lenClear": 2,
+        "lenMax": 0,
+        "ncMax": 0,
+        "obs": 2,
+        "s": {
+         "K": 2
+        },
+        "ty": "table"
+       },
+       "sourceUnit": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "string"
+       },
+       "spellId": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "number"
+       },
+       "timeMod": {
+        "obs": 2,
+        "s": {
+         "C": 2
+        },
+        "ty": "number"
+       }
+      },
+      "obs": 2,
+      "s": {
+       "K": 2
+      }
+     },
+     "fl": {
+      "canaccesstable": {
+       "true": 1
+      },
+      "hasanysecretvalues": {
+       "false": 1
+      },
+      "issecrettable": {
+       "false": 1
+      }
+     },
+     "lenClear": 1,
+     "lenMax": 2,
+     "ncMax": 0,
+     "obs": 1,
+     "s": {
+      "K": 1
+     },
+     "ty": "table"
+    },
+    "C_UnitAuras.GetUnitAuras(u,HELPFUL|PLAYER)": {
+     "arr": {
+      "f": {
+       "applications": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "number"
+       },
+       "auraInstanceID": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "number"
+       },
+       "canActivePlayerDispel": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "boolean"
+       },
+       "canApplyAura": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "boolean"
+       },
+       "dispelName": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "string"
+       },
+       "duration": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "number"
+       },
+       "expirationTime": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "number"
+       },
+       "hideOnPartyFrames": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "boolean"
+       },
+       "icon": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "number"
+       },
+       "isBossAura": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "boolean"
+       },
+       "isDPSRoleAura": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "boolean"
+       },
+       "isFromPlayerOrPlayerPet": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "boolean"
+       },
+       "isHarmful": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "boolean"
+       },
+       "isHealerRoleAura": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "boolean"
+       },
+       "isHelpful": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "boolean"
+       },
+       "isNameplateOnly": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "boolean"
+       },
+       "isRaid": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "boolean"
+       },
+       "isStealable": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "boolean"
+       },
+       "isTankRoleAura": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "boolean"
+       },
+       "name": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "string"
+       },
+       "nameplateShowAll": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "boolean"
+       },
+       "nameplateShowPersonal": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "boolean"
+       },
+       "points": {
+        "fl": {
+         "canaccesstable": {
+          "true": 1
+         },
+         "issecrettable": {
+          "false": 1
+         }
+        },
+        "lenClear": 1,
+        "lenMax": 0,
+        "ncMax": 0,
+        "obs": 1,
+        "s": {
+         "K": 1
+        },
+        "ty": "table"
+       },
+       "sourceUnit": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "string"
+       },
+       "spellId": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "number"
+       },
+       "timeMod": {
+        "obs": 1,
+        "s": {
+         "C": 1
+        },
+        "ty": "number"
+       }
+      },
+      "obs": 1,
+      "s": {
+       "K": 1
+      }
+     },
+     "fl": {
+      "canaccesstable": {
+       "true": 1
+      },
+      "hasanysecretvalues": {
+       "false": 1
+      },
+      "issecrettable": {
+       "false": 1
+      }
+     },
+     "lenClear": 1,
+     "lenMax": 1,
+     "ncMax": 0,
+     "obs": 1,
+     "s": {
+      "K": 1
+     },
+     "ty": "table"
+    },
+    "GetTotemInfo(slot)": {
+     "f": {
+      "ret1": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       },
+       "ty": "boolean"
+      },
+      "ret2": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       },
+       "ty": "string"
+      },
+      "ret3": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       },
+       "ty": "number"
+      },
+      "ret4": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       },
+       "ty": "number"
+      },
+      "ret5": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      },
+      "ret6": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       },
+       "ty": "number"
+      },
+      "ret7": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       },
+       "ty": "number"
+      }
+     },
+     "nMax": 7,
+     "ncMax": 6,
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "UnitCastingDuration(u)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitCastingInfo(u)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitChannelDuration(u)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitChannelInfo(u)": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitGUID(u)": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     },
+     "ty": "string"
+    },
+    "UnitHealth(u)": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitHealthMax(u)": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     },
+     "ty": "number"
+    },
+    "UnitName(u)": {
+     "f": {
+      "ret1": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "string"
+      },
+      "ret2": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       },
+       "ty": "string"
+      }
+     },
+     "nMax": 2,
+     "ncMax": 2,
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitPower(u)": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "count:GetAuraDataByIndex-iterate(HARMFUL)": {
+     "lenClear": 1,
+     "lenMax": 0,
+     "obs": 1,
+     "s": {
+      "C": 1
+     },
+     "ty": "count"
+    },
+    "count:GetAuraDataByIndex-iterate(HARMFUL|PLAYER)": {
+     "lenClear": 1,
+     "lenMax": 0,
+     "obs": 1,
+     "s": {
+      "C": 1
+     },
+     "ty": "count"
+    },
+    "count:GetAuraDataByIndex-iterate(HELPFUL)": {
+     "lenClear": 1,
+     "lenMax": 2,
+     "obs": 1,
+     "s": {
+      "C": 1
+     },
+     "ty": "count"
+    },
+    "count:GetAuraDataByIndex-iterate(HELPFUL|PLAYER)": {
+     "lenClear": 1,
+     "lenMax": 1,
+     "obs": 1,
+     "s": {
+      "C": 1
+     },
+     "ty": "count"
+    },
+    "event:UNIT_AURA": {
+     "f": {
+      "addedAuras": {
+       "arr": {
+        "f": {
+         "applications": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "number"
+         },
+         "auraInstanceID": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "number"
+         },
+         "canActivePlayerDispel": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "boolean"
+         },
+         "canApplyAura": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "boolean"
+         },
+         "dispelName": {
+          "obs": 2,
+          "s": {
+           "C": 2
+          },
+          "ty": "string"
+         },
+         "duration": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "number"
+         },
+         "expirationTime": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "number"
+         },
+         "hideOnPartyFrames": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "boolean"
+         },
+         "icon": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "number"
+         },
+         "isBossAura": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "boolean"
+         },
+         "isDPSRoleAura": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "boolean"
+         },
+         "isFromPlayerOrPlayerPet": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "boolean"
+         },
+         "isHarmful": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "boolean"
+         },
+         "isHealerRoleAura": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "boolean"
+         },
+         "isHelpful": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "boolean"
+         },
+         "isNameplateOnly": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "boolean"
+         },
+         "isRaid": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "boolean"
+         },
+         "isStealable": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "boolean"
+         },
+         "isTankRoleAura": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "boolean"
+         },
+         "name": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "string"
+         },
+         "nameplateShowAll": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "boolean"
+         },
+         "nameplateShowPersonal": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "boolean"
+         },
+         "points": {
+          "fl": {
+           "canaccesstable": {
+            "true": 1
+           },
+           "issecrettable": {
+            "false": 1
+           }
+          },
+          "obs": 6,
+          "s": {
+           "K": 6
+          },
+          "trunc": true,
+          "ty": "table"
+         },
+         "sourceUnit": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "string"
+         },
+         "spellId": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "number"
+         },
+         "timeMod": {
+          "obs": 6,
+          "s": {
+           "C": 6
+          },
+          "ty": "number"
+         }
+        },
+        "obs": 6,
+        "s": {
+         "K": 6
+        }
+       },
+       "fl": {
+        "canaccesstable": {
+         "true": 6
+        },
+        "hasanysecretvalues": {
+         "false": 6
+        },
+        "issecrettable": {
+         "false": 6
+        }
+       },
+       "lenClear": 6,
+       "lenMax": 1,
+       "ncMax": 0,
+       "obs": 6,
+       "s": {
+        "K": 6
+       },
+       "ty": "table"
+      },
+      "isFullUpdate": {
+       "obs": 10,
+       "s": {
+        "C": 10
+       },
+       "ty": "boolean"
+      },
+      "removedAuraInstanceIDs": {
+       "arr": {
+        "obs": 7,
+        "s": {
+         "C": 7
+        }
+       },
+       "fl": {
+        "canaccesstable": {
+         "true": 7
+        },
+        "hasanysecretvalues": {
+         "false": 7
+        },
+        "issecrettable": {
+         "false": 7
+        }
+       },
+       "lenClear": 7,
+       "lenMax": 1,
+       "ncMax": 0,
+       "obs": 7,
+       "s": {
+        "K": 7
+       },
+       "ty": "table"
+      }
+     },
+     "fl": {
+      "canaccesstable": {
+       "true": 10
+      },
+      "hasanysecretvalues": {
+       "false": 10
+      },
+      "issecrettable": {
+       "false": 10
+      }
+     },
+     "lenClear": 10,
+     "lenMax": 0,
+     "ncMax": 1,
+     "obs": 10,
+     "s": {
+      "K": 10
+     },
+     "ty": "table"
+    }
+   }
+  }
+ },
+ "skipped": {},
+ "source": "addon:ForeverDumpLogDB.containers"
+}

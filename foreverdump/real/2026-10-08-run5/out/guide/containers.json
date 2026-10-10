@@ -1,0 +1,715 @@
+{
+ "auraMatrix": [
+  {
+   "ctx": "combat",
+   "event": {
+    "(payload)": {
+     "T": 11
+    },
+    "addedAuras": {
+     "S": 4
+    },
+    "isFullUpdate": {
+     "S": 11
+    },
+    "removedAuraInstanceIDs": {
+     "S": 4
+    },
+    "updatedAuraInstanceIDs": {
+     "S": 4
+    }
+   },
+   "fields": {},
+   "group": "player",
+   "sources": [
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL)"
+   ],
+   "table": {
+    "E": 1
+   },
+   "units": [
+    "player"
+   ]
+  },
+  {
+   "ctx": "combat",
+   "event": {},
+   "fields": {},
+   "group": "self via other token",
+   "sources": [
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL)"
+   ],
+   "table": {
+    "E": 1
+   },
+   "units": [
+    "targettarget:self"
+   ]
+  },
+  {
+   "ctx": "combat",
+   "event": {
+    "(payload)": {
+     "T": 10
+    },
+    "addedAuras": {
+     "S": 6
+    },
+    "isFullUpdate": {
+     "S": 10
+    },
+    "removedAuraInstanceIDs": {
+     "S": 2
+    },
+    "updatedAuraInstanceIDs": {
+     "S": 2
+    }
+   },
+   "fields": {},
+   "group": "target NPC",
+   "sources": [
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL)"
+   ],
+   "table": {
+    "E": 1
+   },
+   "units": [
+    "target:hostile-npc"
+   ]
+  },
+  {
+   "ctx": "ooc",
+   "event": {
+    "(payload)": {
+     "K": 10
+    },
+    "addedAuras": {
+     "K": 6
+    },
+    "isFullUpdate": {
+     "C": 10
+    },
+    "removedAuraInstanceIDs": {
+     "K": 7
+    }
+   },
+   "fields": {
+    "applications": {
+     "C": 1
+    },
+    "auraInstanceID": {
+     "C": 1
+    },
+    "canActivePlayerDispel": {
+     "C": 1
+    },
+    "dispelName": {
+     "C": 1
+    },
+    "duration": {
+     "C": 1
+    },
+    "expirationTime": {
+     "C": 1
+    },
+    "icon": {
+     "C": 1
+    },
+    "isFromPlayerOrPlayerPet": {
+     "C": 1
+    },
+    "isHarmful": {
+     "C": 1
+    },
+    "isHelpful": {
+     "C": 1
+    },
+    "name": {
+     "C": 1
+    },
+    "points": {
+     "K": 1
+    },
+    "sourceUnit": {
+     "C": 1
+    },
+    "spellId": {
+     "C": 1
+    }
+   },
+   "group": "player",
+   "sources": [
+    "C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL)"
+   ],
+   "table": {
+    "K": 1
+   },
+   "units": [
+    "player"
+   ]
+  }
+ ],
+ "build": "70245",
+ "countMatrix": [
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "player",
+   "method": "GetAuraDataByIndex-iterate(HARMFUL)"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "player",
+   "method": "GetAuraDataByIndex-iterate(HARMFUL|PLAYER)"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "player",
+   "method": "GetAuraDataByIndex-iterate(HELPFUL)"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "player",
+   "method": "GetAuraDataByIndex-iterate(HELPFUL|PLAYER)"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "player",
+   "method": "GetAuraSlots returns u,HARMFUL"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "player",
+   "method": "GetAuraSlots returns u,HARMFUL|PLAYER"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "player",
+   "method": "GetAuraSlots returns u,HELPFUL"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "player",
+   "method": "GetAuraSlots returns u,HELPFUL|PLAYER"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "player",
+   "method": "GetUnitAuras HARMFUL"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "player",
+   "method": "GetUnitAuras HARMFUL|PLAYER"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "player",
+   "method": "GetUnitAuras HELPFUL"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "player",
+   "method": "GetUnitAuras HELPFUL|PLAYER"
+  },
+  {
+   "codes": {
+    "S": 4
+   },
+   "ctx": "combat",
+   "group": "player",
+   "method": "UNIT_AURA payload .addedAuras"
+  },
+  {
+   "codes": {
+    "S": 11
+   },
+   "ctx": "combat",
+   "group": "player",
+   "method": "UNIT_AURA payload .isFullUpdate"
+  },
+  {
+   "codes": {
+    "S": 4
+   },
+   "ctx": "combat",
+   "group": "player",
+   "method": "UNIT_AURA payload .removedAuraInstanceIDs"
+  },
+  {
+   "codes": {
+    "S": 4
+   },
+   "ctx": "combat",
+   "group": "player",
+   "method": "UNIT_AURA payload .updatedAuraInstanceIDs"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "self via other token",
+   "method": "GetAuraDataByIndex-iterate(HARMFUL)"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "self via other token",
+   "method": "GetAuraDataByIndex-iterate(HARMFUL|PLAYER)"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "self via other token",
+   "method": "GetAuraDataByIndex-iterate(HELPFUL)"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "self via other token",
+   "method": "GetAuraDataByIndex-iterate(HELPFUL|PLAYER)"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "self via other token",
+   "method": "GetAuraSlots returns u,HARMFUL"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "self via other token",
+   "method": "GetAuraSlots returns u,HARMFUL|PLAYER"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "self via other token",
+   "method": "GetAuraSlots returns u,HELPFUL"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "self via other token",
+   "method": "GetAuraSlots returns u,HELPFUL|PLAYER"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "self via other token",
+   "method": "GetUnitAuras HARMFUL"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "self via other token",
+   "method": "GetUnitAuras HARMFUL|PLAYER"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "self via other token",
+   "method": "GetUnitAuras HELPFUL"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "self via other token",
+   "method": "GetUnitAuras HELPFUL|PLAYER"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "target NPC",
+   "method": "GetAuraDataByIndex-iterate(HARMFUL)"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "target NPC",
+   "method": "GetAuraDataByIndex-iterate(HARMFUL|PLAYER)"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "target NPC",
+   "method": "GetAuraDataByIndex-iterate(HELPFUL)"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "target NPC",
+   "method": "GetAuraDataByIndex-iterate(HELPFUL|PLAYER)"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "target NPC",
+   "method": "GetAuraSlots returns u,HARMFUL"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "target NPC",
+   "method": "GetAuraSlots returns u,HARMFUL|PLAYER"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "target NPC",
+   "method": "GetAuraSlots returns u,HELPFUL"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "target NPC",
+   "method": "GetAuraSlots returns u,HELPFUL|PLAYER"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "target NPC",
+   "method": "GetUnitAuras HARMFUL"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "target NPC",
+   "method": "GetUnitAuras HARMFUL|PLAYER"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "target NPC",
+   "method": "GetUnitAuras HELPFUL"
+  },
+  {
+   "codes": {
+    "E": 1
+   },
+   "ctx": "combat",
+   "group": "target NPC",
+   "method": "GetUnitAuras HELPFUL|PLAYER"
+  },
+  {
+   "codes": {
+    "S": 6
+   },
+   "ctx": "combat",
+   "group": "target NPC",
+   "method": "UNIT_AURA payload .addedAuras"
+  },
+  {
+   "codes": {
+    "S": 10
+   },
+   "ctx": "combat",
+   "group": "target NPC",
+   "method": "UNIT_AURA payload .isFullUpdate"
+  },
+  {
+   "codes": {
+    "S": 2
+   },
+   "ctx": "combat",
+   "group": "target NPC",
+   "method": "UNIT_AURA payload .removedAuraInstanceIDs"
+  },
+  {
+   "codes": {
+    "S": 2
+   },
+   "ctx": "combat",
+   "group": "target NPC",
+   "method": "UNIT_AURA payload .updatedAuraInstanceIDs"
+  },
+  {
+   "codes": {
+    "C": 1
+   },
+   "ctx": "ooc",
+   "group": "player",
+   "method": "GetAuraDataByIndex-iterate(HARMFUL)"
+  },
+  {
+   "codes": {
+    "C": 1
+   },
+   "ctx": "ooc",
+   "group": "player",
+   "method": "GetAuraDataByIndex-iterate(HARMFUL|PLAYER)"
+  },
+  {
+   "codes": {
+    "C": 1
+   },
+   "ctx": "ooc",
+   "group": "player",
+   "method": "GetAuraDataByIndex-iterate(HELPFUL)"
+  },
+  {
+   "codes": {
+    "C": 1
+   },
+   "ctx": "ooc",
+   "group": "player",
+   "method": "GetAuraDataByIndex-iterate(HELPFUL|PLAYER)"
+  },
+  {
+   "codes": {
+    "N": 1
+   },
+   "ctx": "ooc",
+   "group": "player",
+   "method": "GetAuraSlots returns u,HARMFUL"
+  },
+  {
+   "codes": {
+    "N": 1
+   },
+   "ctx": "ooc",
+   "group": "player",
+   "method": "GetAuraSlots returns u,HARMFUL|PLAYER"
+  },
+  {
+   "codes": {
+    "R": 1
+   },
+   "ctx": "ooc",
+   "group": "player",
+   "method": "GetAuraSlots returns u,HELPFUL"
+  },
+  {
+   "codes": {
+    "R": 1
+   },
+   "ctx": "ooc",
+   "group": "player",
+   "method": "GetAuraSlots returns u,HELPFUL|PLAYER"
+  },
+  {
+   "codes": {
+    "K": 1
+   },
+   "ctx": "ooc",
+   "group": "player",
+   "method": "GetUnitAuras HARMFUL"
+  },
+  {
+   "codes": {
+    "K": 1
+   },
+   "ctx": "ooc",
+   "group": "player",
+   "method": "GetUnitAuras HARMFUL|PLAYER"
+  },
+  {
+   "codes": {
+    "K": 1
+   },
+   "ctx": "ooc",
+   "group": "player",
+   "method": "GetUnitAuras HELPFUL"
+  },
+  {
+   "codes": {
+    "K": 1
+   },
+   "ctx": "ooc",
+   "group": "player",
+   "method": "GetUnitAuras HELPFUL|PLAYER"
+  },
+  {
+   "codes": {
+    "K": 6
+   },
+   "ctx": "ooc",
+   "group": "player",
+   "method": "UNIT_AURA payload .addedAuras"
+  },
+  {
+   "codes": {
+    "C": 10
+   },
+   "ctx": "ooc",
+   "group": "player",
+   "method": "UNIT_AURA payload .isFullUpdate"
+  },
+  {
+   "codes": {
+    "K": 7
+   },
+   "ctx": "ooc",
+   "group": "player",
+   "method": "UNIT_AURA payload .removedAuraInstanceIDs"
+  }
+ ],
+ "diff": {
+  "baseSource": "legacy:combatProbe cells + UNIT_AURA payload codes (addon <= 2.2.1, one level deep)",
+  "baseline": "/workspace/foreverdump/fixtures/baselines/70245/containers.json",
+  "changed": [
+   {
+    "key": "ooc|player|event:UNIT_AURA|addedAuras",
+    "now": "K",
+    "was": "N/K"
+   }
+  ],
+  "comparable": false,
+  "curSource": "addon:ForeverDumpLogDB.containers",
+  "gone": 1993,
+  "new": 296
+ },
+ "errors": {
+  "C_UnitAuras.GetAuraDataByIndex": "GetAuraDataByIndex(): Auras cannot be accessed when secret while tainted by 'ForeverDump'\nLua Taint: ForeverDump",
+  "C_UnitAuras.GetAuraSlots": "GetAuraSlots(): Auras cannot be accessed when secret while tainted by 'ForeverDump'\nLua Taint: ForeverDump",
+  "C_UnitAuras.GetUnitAuras": "GetUnitAuras(): Auras cannot be accessed when secret while tainted by 'ForeverDump'\nLua Taint: ForeverDump"
+ },
+ "partial": [
+  {
+   "clearFields": [
+    "isActive",
+    "isEnabled",
+    "isOnGCD"
+   ],
+   "container": "T",
+   "ctx": "combat|r0",
+   "probe": "C_Spell.GetSpellCooldown(spell)",
+   "secretFields": [
+    "activeCategory",
+    "duration",
+    "modRate",
+    "startTime",
+    "timeUntilEndOfStartRecovery"
+   ],
+   "unit": "player"
+  },
+  {
+   "clearFields": [
+    "HasSecretValues()"
+   ],
+   "container": "T",
+   "ctx": "combat|r0",
+   "probe": "C_Spell.GetSpellCooldownDuration(spell)",
+   "secretFields": [
+    "GetElapsedDuration()",
+    "GetElapsedPercent()",
+    "GetEndTime()",
+    "GetModRate()",
+    "GetRemainingDuration()",
+    "GetRemainingPercent()",
+    "GetStartTime()",
+    "GetTotalDuration()",
+    "IsZero()"
+   ],
+   "unit": "player"
+  },
+  {
+   "clearFields": [],
+   "container": "T",
+   "ctx": "combat|r0",
+   "probe": "event:UNIT_AURA",
+   "secretFields": [
+    "addedAuras",
+    "isFullUpdate",
+    "removedAuraInstanceIDs",
+    "updatedAuraInstanceIDs"
+   ],
+   "unit": "player"
+  },
+  {
+   "clearFields": [],
+   "container": "T",
+   "ctx": "combat|r0",
+   "probe": "event:UNIT_AURA",
+   "secretFields": [
+    "addedAuras",
+    "isFullUpdate",
+    "removedAuraInstanceIDs",
+    "updatedAuraInstanceIDs"
+   ],
+   "unit": "target:hostile-npc"
+  }
+ ],
+ "schema": "foreverdump.containers/1",
+ "source": "addon:ForeverDumpLogDB.containers"
+}

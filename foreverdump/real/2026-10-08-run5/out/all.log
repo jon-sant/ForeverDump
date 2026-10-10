@@ -1,0 +1,36 @@
+build:     1.60.1.70245 (toc 16001)
+project:   WOW_PROJECT_ID=18 (WOW_PROJECT_CAMELOT)
+constants: WOW_PROJECT_CAMELOT=18, WOW_PROJECT_CLASSIC=2, WOW_PROJECT_ID=18, WOW_PROJECT_MAINLINE=1
+scriptsDisallowedForBeta: False
+locale:    enUS, dumped 2026-10-08 00:03:52
+sections:  addons, api, cvars, docs, extras, frames, globals, probe, profile, protected, secrets, strings, templates, widgets
+docs:      410 systems
+strings:   27045
+recorder:  1 session(s); combat log: 1 session(s)
+errors:    0 unique, 6 blocked/forbidden/warnings
+wrote json/, luals/, .luacheckrc, mocks/, secrets/ under real/2026-10-08-run5/out
+combat: 75 item(s), 2 detectability context(s); wrote combat.json (guide --combat), combat-matrix.json, COMBAT-SECRETS.md to real/2026-10-08-run5/out/combat
+tokens: 26 famil(ies), scanner matrix 0 row(s), 0 change alert(s); wrote tokens.json, UNIT-TOKENS.md, tokenscan.json, TOKENS.md to real/2026-10-08-run5/out/tokens
+containers: source addon, 2 context(s), 3 unit class(es), 4 partial-secret container(s), vs baseline: 1 state change(s), 296 new, 1993 gone; wrote containers.json (guide --containers), containers-schema.json, CONTAINERS.md to real/2026-10-08-run5/out/containers
+perf: perf, 1 capture(s), 0 flag(s) -> real/2026-10-08-run5/out/perf/PERF.md
+knowledge: 1 build(s), lint {'note': 11, 'info': 4}, cd-line hypothesis NOT proven; wrote knowledge.json + KNOWLEDGE.md to real/2026-10-08-run5/out/knowledge
+drift vs /workspace/foreverdump/fixtures/baselines/70245/baseline.json: build bump False, newly secret 14, newly clear 6, APIs +0/-6 -> real/2026-10-08-run5/out/drift/DRIFT.md
+coverage: 73 matrix row(s), 3 fight(s); damage-on-target attribution after 100.0% (falseSelf 0); wrote coverage.json, coverage-guide.json (guide --coverage), COVERAGE.md to real/2026-10-08-run5/out/coverage
+player Player-4618-00EB40D8 via auto:sv-meta guid (Uglaz Doomaxe)
+inference: addon data True, replay modes clear,secret,secret-pretrained, 31 guide rule row(s); wrote inference.json, INFERENCE.md, hsm.json (guide --hsm), HSM.md to real/2026-10-08-run5/out/inference
+knowledge: 1 build(s), lint {'note': 8, 'info': 4, 'ok': 17}, cd-line hypothesis NOT proven; wrote knowledge.json + KNOWLEDGE.md to real/2026-10-08-run5/out/knowledge
+verify-live: source replay, 24 verdict(s), aura-expiry 100.0%, cast-end 100.0%, cooldown 100.0%, damage-range 100.0%, dm-total None%, interrupt-attribution 100.0%; patch 7 spell(s) 1 npc(s); wrote VERIFY.md, verify.json, knowledge-patch.json, KnowledgePatch.lua to real/2026-10-08-run5/out/verify-live
+player Player-4618-00EB40D8 via auto:sv-meta guid (Uglaz Doomaxe)
+analyze: 626 lead(s) (high 14, medium 14, low 10, info 588); wrote ANALYSIS.md, analysis.json, VERIFY.md, TOKENS.md, knowledge-patch.json, KnowledgePatch.lua, spell-timing/learned-seed .proposed.json to real/2026-10-08-run5/out/analysis
+combat: 75 item(s), 2 detectability context(s); wrote combat.json (guide --combat), combat-matrix.json, COMBAT-SECRETS.md to real/2026-10-08-run5/out/guide
+tokens: 26 famil(ies), scanner matrix 0 row(s), 0 change alert(s); wrote tokens.json, UNIT-TOKENS.md, tokenscan.json, TOKENS.md to real/2026-10-08-run5/out/guide
+containers: source addon, 2 context(s), 3 unit class(es), 4 partial-secret container(s), vs baseline: 1 state change(s), 296 new, 1993 gone; wrote containers.json (guide --containers), containers-schema.json, CONTAINERS.md to real/2026-10-08-run5/out/guide
+player Player-4618-00EB40D8 via auto:sv-meta guid (Uglaz Doomaxe)
+inference: addon data True, replay modes clear,secret,secret-pretrained, 31 guide rule row(s); wrote inference.json, INFERENCE.md, hsm.json (guide --hsm), HSM.md to real/2026-10-08-run5/out/guide
+coverage: 73 matrix row(s), 3 fight(s); damage-on-target attribution after 100.0% (falseSelf 0); wrote coverage.json, coverage-guide.json (guide --coverage), COVERAGE.md to real/2026-10-08-run5/out/guide
+wrote real/2026-10-08-run5/out/guide/SECRETS-GUIDE.html (818745 bytes); 46 sources cited, 0 unknown, 0 warnings
+wrote real/2026-10-08-run5/out/guide/SECRETS-GUIDE.html
+
+real	1m18.837s
+user	1m15.860s
+sys	0m2.851s

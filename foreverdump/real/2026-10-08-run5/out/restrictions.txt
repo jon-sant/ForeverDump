@@ -1,0 +1,25 @@
+{
+ "origin": "v2.2",
+ "flips": 6,
+ "byType": {
+  "Combat": {
+   "flips": 6,
+   "states": {
+    "Activating": 3,
+    "Inactive": 3
+   },
+   "activeSec": {
+    "n": 3,
+    "total": 80.2,
+    "min": 14.356,
+    "max": 37.354
+   }
+  }
+ },
+ "markers": {
+  "PLAYER_REGEN_DISABLED": 3,
+  "PLAYER_IN_COMBAT_CHANGED": 6,
+  "PLAYER_REGEN_ENABLED": 3
+ },
+ "probeDeltas": 7
+}

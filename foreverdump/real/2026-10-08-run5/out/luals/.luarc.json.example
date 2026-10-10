@@ -1,0 +1,6 @@
+{
+  "runtime.version": "Lua 5.1",
+  "workspace.library": ["/workspace/foreverdump/real/2026-10-08-run5/out/luals"],
+  "diagnostics.globals": ["ForeverDumpDB"],
+  "workspace.checkThirdParty": false
+}
