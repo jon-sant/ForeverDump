@@ -1,0 +1,12751 @@
+{
+ "build": "70245",
+ "errors": {
+  "C_UnitAuras.GetAuraDataByIndex": "GetAuraDataByIndex(): Auras cannot be accessed when secret while tainted by 'ForeverDump'\nLua Taint: ForeverDump",
+  "C_UnitAuras.GetAuraDispelTypeColor": "bad argument #3 to '?' (Usage: local dispelTypeColor = C_UnitAuras.GetAuraDispelTypeColor(auraInstance, curve))",
+  "C_UnitAuras.GetAuraSlots": "GetAuraSlots(): Auras cannot be accessed when secret while tainted by 'ForeverDump'\nLua Taint: ForeverDump",
+  "C_UnitAuras.GetUnitAuras": "GetUnitAuras(): Auras cannot be accessed when secret while tainted by 'ForeverDump'\nLua Taint: ForeverDump"
+ },
+ "schema": {
+  "combat": {
+   "focus:self": {
+    "C_Map.GetPlayerMapPosition": {
+     "f": {
+      "Add": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "Clone": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "Cross": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "DivideBy": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "Dot": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "GetLength": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "GetLengthSquared": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "GetXY": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "IsEqualTo": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "IsZero": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "Normalize": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "OnLoad": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "RotateDirection": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "ScaleBy": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "SetXY": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "Subtract": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "x": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "y": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "K": 12
+     }
+    },
+    "C_Spell.IsSpellInRange": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "CanCompareUnitTokens": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "CheckInteractDistance": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "GetRaidTargetIndex": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "GetUnitSpeed": {
+     "f": {
+      "current": {
+       "obs": 12,
+       "s": {
+        "S": 12
+       }
+      },
+      "flight": {
+       "obs": 12,
+       "s": {
+        "S": 12
+       }
+      },
+      "run": {
+       "obs": 12,
+       "s": {
+        "S": 12
+       }
+      },
+      "swim": {
+       "obs": 12,
+       "s": {
+        "S": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "ShouldUnitIdentityBeSecret": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitAffectingCombat": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitCanAttack": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitCastingDuration": {
+     "obs": 4,
+     "s": {
+      "K": 4
+     }
+    },
+    "UnitCastingInfo": {
+     "f": {
+      "10": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "11": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "castID": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "endTimeMS": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "isTradeSkill": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "name": {
+       "obs": 16,
+       "s": {
+        "C": 4,
+        "N": 12
+       }
+      },
+      "notInterruptible": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "spellID": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "startTimeMS": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "text": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "texture": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      }
+     },
+     "obs": 16,
+     "s": {
+      "R": 16
+     },
+     "ty": "returns"
+    },
+    "UnitChannelInfo": {
+     "obs": 16,
+     "s": {
+      "N": 16
+     }
+    },
+    "UnitClass": {
+     "f": {
+      "classFile": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "classID": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "className": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "UnitDetailedThreatSituation": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "UnitExists": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitFullName": {
+     "f": {
+      "name": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "realm": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "UnitGUID": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitGetIncomingHeals": {
+     "obs": 12,
+     "s": {
+      "S": 12
+     }
+    },
+    "UnitGetTotalAbsorbs": {
+     "obs": 12,
+     "s": {
+      "S": 12
+     }
+    },
+    "UnitGetTotalHealAbsorbs": {
+     "obs": 12,
+     "s": {
+      "S": 12
+     }
+    },
+    "UnitHealth": {
+     "obs": 12,
+     "s": {
+      "S": 12
+     }
+    },
+    "UnitHealthMax": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitHealthPercent": {
+     "obs": 12,
+     "s": {
+      "S": 12
+     }
+    },
+    "UnitInRange": {
+     "f": {
+      "checked": {
+       "obs": 12,
+       "s": {
+        "S": 12
+       }
+      },
+      "inRange": {
+       "obs": 12,
+       "s": {
+        "S": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "UnitIsDeadOrGhost": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitIsEnemy": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitIsFriend": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitIsPlayer": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitIsUnit(u,player)": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitLevel": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitName": {
+     "f": {
+      "name": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "realm": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "UnitPosition": {
+     "f": {
+      "mapID": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "x": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "y": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "z": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "UnitPower": {
+     "obs": 12,
+     "s": {
+      "S": 12
+     }
+    },
+    "UnitPowerMax": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitPowerType": {
+     "f": {
+      "3": {
+       "obs": 12,
+       "s": {
+        "N": 12
+       }
+      },
+      "4": {
+       "obs": 12,
+       "s": {
+        "N": 12
+       }
+      },
+      "5": {
+       "obs": 12,
+       "s": {
+        "N": 12
+       }
+      },
+      "powerToken": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "powerType": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "UnitRace": {
+     "f": {
+      "raceFile": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "raceID": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "raceName": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "UnitReaction": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitThreatSituation": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|PLAYER]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL|PLAYER]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|PLAYER]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL|PLAYER]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|PLAYER]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL|PLAYER]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "casting:GetSpellCastSecrecy": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "event:UNIT_AURA": {
+     "f": {
+      "addedAuras": {
+       "obs": 14,
+       "s": {
+        "N": 7,
+        "S": 7
+       }
+      },
+      "isFullUpdate": {
+       "obs": 14,
+       "s": {
+        "S": 14
+       }
+      },
+      "removedAuraInstanceIDs": {
+       "obs": 14,
+       "s": {
+        "N": 9,
+        "S": 5
+       }
+      },
+      "updatedAuraInstanceIDs": {
+       "obs": 14,
+       "s": {
+        "N": 8,
+        "S": 6
+       }
+      }
+     },
+     "obs": 14,
+     "s": {
+      "T": 14
+     }
+    }
+   },
+   "focustarget:hostile-npc": {
+    "event:UNIT_AURA": {
+     "f": {
+      "addedAuras": {
+       "obs": 3,
+       "s": {
+        "N": 1,
+        "S": 2
+       }
+      },
+      "isFullUpdate": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      },
+      "removedAuraInstanceIDs": {
+       "obs": 3,
+       "s": {
+        "N": 2,
+        "S": 1
+       }
+      },
+      "updatedAuraInstanceIDs": {
+       "obs": 3,
+       "s": {
+        "N": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "T": 3
+     }
+    }
+   },
+   "global": {
+    "C_DamageMeter.GetCombatSessionFromType": {
+     "f": {
+      "combatSources": {
+       "obs": 14,
+       "s": {
+        "K": 14
+       }
+      },
+      "durationSeconds": {
+       "obs": 14,
+       "s": {
+        "S": 14
+       }
+      },
+      "maxAmount": {
+       "obs": 14,
+       "s": {
+        "S": 14
+       }
+      },
+      "totalAmount": {
+       "obs": 14,
+       "s": {
+        "S": 14
+       }
+      }
+     },
+     "obs": 14,
+     "s": {
+      "T": 14
+     }
+    },
+    "C_DamageMeter.IsDamageMeterAvailable": {
+     "f": {
+      "ret1": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "ret2": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      }
+     },
+     "obs": 14,
+     "s": {
+      "R": 14
+     },
+     "ty": "returns"
+    }
+   },
+   "mouseover:hostile-npc": {
+    "C_Map.GetPlayerMapPosition": {
+     "obs": 4,
+     "s": {
+      "N": 4
+     }
+    },
+    "C_Spell.IsSpellInRange": {
+     "obs": 4,
+     "s": {
+      "N": 4
+     }
+    },
+    "CanCompareUnitTokens": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "CheckInteractDistance": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "GetRaidTargetIndex": {
+     "obs": 4,
+     "s": {
+      "N": 2,
+      "S": 2
+     }
+    },
+    "GetUnitSpeed": {
+     "f": {
+      "current": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "flight": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "run": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "swim": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      }
+     },
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "ShouldUnitIdentityBeSecret": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitAffectingCombat": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitCanAttack": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitCastingInfo": {
+     "obs": 4,
+     "s": {
+      "N": 4
+     }
+    },
+    "UnitChannelInfo": {
+     "obs": 4,
+     "s": {
+      "N": 4
+     }
+    },
+    "UnitClass": {
+     "f": {
+      "classFile": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "classID": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "className": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      }
+     },
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "UnitDetailedThreatSituation": {
+     "f": {
+      "isTanking": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "rawPct": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "rawThreat": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "scaledPct": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "status": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      }
+     },
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "UnitExists": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitFullName": {
+     "f": {
+      "name": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "realm": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      }
+     },
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "UnitGUID": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitGetIncomingHeals": {
+     "obs": 4,
+     "s": {
+      "N": 4
+     }
+    },
+    "UnitGetTotalAbsorbs": {
+     "obs": 4,
+     "s": {
+      "S": 4
+     }
+    },
+    "UnitGetTotalHealAbsorbs": {
+     "obs": 4,
+     "s": {
+      "S": 4
+     }
+    },
+    "UnitHealth": {
+     "obs": 4,
+     "s": {
+      "S": 4
+     }
+    },
+    "UnitHealthMax": {
+     "obs": 4,
+     "s": {
+      "S": 4
+     }
+    },
+    "UnitHealthPercent": {
+     "obs": 4,
+     "s": {
+      "S": 4
+     }
+    },
+    "UnitInRange": {
+     "f": {
+      "checked": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "inRange": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      }
+     },
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "UnitIsDeadOrGhost": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitIsEnemy": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitIsFriend": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitIsPlayer": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitIsUnit(u,player)": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitLevel": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitName": {
+     "f": {
+      "name": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "realm": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      }
+     },
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "UnitPosition": {
+     "f": {
+      "mapID": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "x": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      },
+      "y": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      },
+      "z": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      }
+     },
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "UnitPower": {
+     "obs": 4,
+     "s": {
+      "S": 4
+     }
+    },
+    "UnitPowerMax": {
+     "obs": 4,
+     "s": {
+      "S": 4
+     }
+    },
+    "UnitPowerType": {
+     "f": {
+      "3": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      },
+      "4": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      },
+      "5": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      },
+      "powerToken": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "powerType": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      }
+     },
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "UnitRace": {
+     "obs": 4,
+     "s": {
+      "N": 4
+     }
+    },
+    "UnitReaction": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitThreatSituation": {
+     "obs": 4,
+     "s": {
+      "S": 4
+     }
+    }
+   },
+   "mouseover:self": {
+    "C_Map.GetPlayerMapPosition": {
+     "f": {
+      "Add": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "Clone": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "Cross": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "DivideBy": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "Dot": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "GetLength": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "GetLengthSquared": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "GetXY": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "IsEqualTo": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "IsZero": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "Normalize": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "OnLoad": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "RotateDirection": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "ScaleBy": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "SetXY": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "Subtract": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "x": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "y": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "K": 1
+     }
+    },
+    "C_Spell.IsSpellInRange": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "CanCompareUnitTokens": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "CheckInteractDistance": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "GetRaidTargetIndex": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "GetUnitSpeed": {
+     "f": {
+      "current": {
+       "obs": 1,
+       "s": {
+        "S": 1
+       }
+      },
+      "flight": {
+       "obs": 1,
+       "s": {
+        "S": 1
+       }
+      },
+      "run": {
+       "obs": 1,
+       "s": {
+        "S": 1
+       }
+      },
+      "swim": {
+       "obs": 1,
+       "s": {
+        "S": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "ShouldUnitIdentityBeSecret": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitAffectingCombat": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitCanAttack": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitCastingInfo": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitChannelInfo": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitClass": {
+     "f": {
+      "classFile": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "classID": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "className": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitDetailedThreatSituation": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitExists": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitFullName": {
+     "f": {
+      "name": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "realm": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitGUID": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitGetIncomingHeals": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitGetTotalAbsorbs": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitGetTotalHealAbsorbs": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitHealth": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitHealthMax": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitHealthPercent": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitInRange": {
+     "f": {
+      "checked": {
+       "obs": 1,
+       "s": {
+        "S": 1
+       }
+      },
+      "inRange": {
+       "obs": 1,
+       "s": {
+        "S": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitIsDeadOrGhost": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitIsEnemy": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitIsFriend": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitIsPlayer": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitIsUnit(u,player)": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitLevel": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitName": {
+     "f": {
+      "name": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "realm": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitPosition": {
+     "f": {
+      "mapID": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "x": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "y": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "z": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitPower": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitPowerMax": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitPowerType": {
+     "f": {
+      "3": {
+       "obs": 1,
+       "s": {
+        "N": 1
+       }
+      },
+      "4": {
+       "obs": 1,
+       "s": {
+        "N": 1
+       }
+      },
+      "5": {
+       "obs": 1,
+       "s": {
+        "N": 1
+       }
+      },
+      "powerToken": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "powerType": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitRace": {
+     "f": {
+      "raceFile": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "raceID": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "raceName": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitReaction": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitThreatSituation": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    }
+   },
+   "nameplate:hostile-npc": {
+    "C_Map.GetPlayerMapPosition": {
+     "obs": 13,
+     "s": {
+      "N": 13
+     }
+    },
+    "C_Spell.IsSpellInRange": {
+     "obs": 13,
+     "s": {
+      "N": 13
+     }
+    },
+    "CanCompareUnitTokens": {
+     "obs": 13,
+     "s": {
+      "C": 13
+     }
+    },
+    "CheckInteractDistance": {
+     "obs": 13,
+     "s": {
+      "C": 13
+     }
+    },
+    "GetRaidTargetIndex": {
+     "obs": 13,
+     "s": {
+      "N": 10,
+      "S": 3
+     }
+    },
+    "GetUnitSpeed": {
+     "f": {
+      "current": {
+       "obs": 13,
+       "s": {
+        "S": 13
+       }
+      },
+      "flight": {
+       "obs": 13,
+       "s": {
+        "S": 13
+       }
+      },
+      "run": {
+       "obs": 13,
+       "s": {
+        "S": 13
+       }
+      },
+      "swim": {
+       "obs": 13,
+       "s": {
+        "S": 13
+       }
+      }
+     },
+     "obs": 13,
+     "s": {
+      "R": 13
+     },
+     "ty": "returns"
+    },
+    "ShouldUnitIdentityBeSecret": {
+     "obs": 13,
+     "s": {
+      "C": 13
+     }
+    },
+    "UnitAffectingCombat": {
+     "obs": 13,
+     "s": {
+      "C": 13
+     }
+    },
+    "UnitCanAttack": {
+     "obs": 13,
+     "s": {
+      "C": 13
+     }
+    },
+    "UnitCastingInfo": {
+     "obs": 13,
+     "s": {
+      "N": 13
+     }
+    },
+    "UnitChannelInfo": {
+     "obs": 13,
+     "s": {
+      "N": 13
+     }
+    },
+    "UnitClass": {
+     "f": {
+      "classFile": {
+       "obs": 13,
+       "s": {
+        "C": 13
+       }
+      },
+      "classID": {
+       "obs": 13,
+       "s": {
+        "C": 13
+       }
+      },
+      "className": {
+       "obs": 13,
+       "s": {
+        "C": 13
+       }
+      }
+     },
+     "obs": 13,
+     "s": {
+      "R": 13
+     },
+     "ty": "returns"
+    },
+    "UnitDetailedThreatSituation": {
+     "f": {
+      "isTanking": {
+       "obs": 13,
+       "s": {
+        "S": 13
+       }
+      },
+      "rawPct": {
+       "obs": 13,
+       "s": {
+        "S": 13
+       }
+      },
+      "rawThreat": {
+       "obs": 13,
+       "s": {
+        "S": 13
+       }
+      },
+      "scaledPct": {
+       "obs": 13,
+       "s": {
+        "S": 13
+       }
+      },
+      "status": {
+       "obs": 13,
+       "s": {
+        "S": 13
+       }
+      }
+     },
+     "obs": 13,
+     "s": {
+      "R": 13
+     },
+     "ty": "returns"
+    },
+    "UnitExists": {
+     "obs": 13,
+     "s": {
+      "C": 13
+     }
+    },
+    "UnitFullName": {
+     "f": {
+      "name": {
+       "obs": 13,
+       "s": {
+        "C": 13
+       }
+      },
+      "realm": {
+       "obs": 13,
+       "s": {
+        "N": 13
+       }
+      }
+     },
+     "obs": 13,
+     "s": {
+      "R": 13
+     },
+     "ty": "returns"
+    },
+    "UnitGUID": {
+     "obs": 13,
+     "s": {
+      "C": 13
+     }
+    },
+    "UnitGetIncomingHeals": {
+     "obs": 13,
+     "s": {
+      "N": 13
+     }
+    },
+    "UnitGetTotalAbsorbs": {
+     "obs": 13,
+     "s": {
+      "S": 13
+     }
+    },
+    "UnitGetTotalHealAbsorbs": {
+     "obs": 13,
+     "s": {
+      "S": 13
+     }
+    },
+    "UnitHealth": {
+     "obs": 13,
+     "s": {
+      "S": 13
+     }
+    },
+    "UnitHealthMax": {
+     "obs": 13,
+     "s": {
+      "S": 13
+     }
+    },
+    "UnitHealthPercent": {
+     "obs": 13,
+     "s": {
+      "S": 13
+     }
+    },
+    "UnitInRange": {
+     "f": {
+      "checked": {
+       "obs": 13,
+       "s": {
+        "S": 13
+       }
+      },
+      "inRange": {
+       "obs": 13,
+       "s": {
+        "S": 13
+       }
+      }
+     },
+     "obs": 13,
+     "s": {
+      "R": 13
+     },
+     "ty": "returns"
+    },
+    "UnitIsDeadOrGhost": {
+     "obs": 13,
+     "s": {
+      "C": 13
+     }
+    },
+    "UnitIsEnemy": {
+     "obs": 13,
+     "s": {
+      "C": 13
+     }
+    },
+    "UnitIsFriend": {
+     "obs": 13,
+     "s": {
+      "C": 13
+     }
+    },
+    "UnitIsPlayer": {
+     "obs": 13,
+     "s": {
+      "C": 13
+     }
+    },
+    "UnitIsUnit(u,player)": {
+     "obs": 13,
+     "s": {
+      "C": 13
+     }
+    },
+    "UnitLevel": {
+     "obs": 13,
+     "s": {
+      "C": 13
+     }
+    },
+    "UnitName": {
+     "f": {
+      "name": {
+       "obs": 13,
+       "s": {
+        "C": 13
+       }
+      },
+      "realm": {
+       "obs": 13,
+       "s": {
+        "N": 13
+       }
+      }
+     },
+     "obs": 13,
+     "s": {
+      "R": 13
+     },
+     "ty": "returns"
+    },
+    "UnitPosition": {
+     "f": {
+      "mapID": {
+       "obs": 13,
+       "s": {
+        "C": 13
+       }
+      },
+      "x": {
+       "obs": 13,
+       "s": {
+        "N": 13
+       }
+      },
+      "y": {
+       "obs": 13,
+       "s": {
+        "N": 13
+       }
+      },
+      "z": {
+       "obs": 13,
+       "s": {
+        "N": 13
+       }
+      }
+     },
+     "obs": 13,
+     "s": {
+      "R": 13
+     },
+     "ty": "returns"
+    },
+    "UnitPower": {
+     "obs": 13,
+     "s": {
+      "S": 13
+     }
+    },
+    "UnitPowerMax": {
+     "obs": 13,
+     "s": {
+      "S": 13
+     }
+    },
+    "UnitPowerType": {
+     "f": {
+      "3": {
+       "obs": 13,
+       "s": {
+        "N": 13
+       }
+      },
+      "4": {
+       "obs": 13,
+       "s": {
+        "N": 13
+       }
+      },
+      "5": {
+       "obs": 13,
+       "s": {
+        "N": 13
+       }
+      },
+      "powerToken": {
+       "obs": 13,
+       "s": {
+        "C": 13
+       }
+      },
+      "powerType": {
+       "obs": 13,
+       "s": {
+        "C": 13
+       }
+      }
+     },
+     "obs": 13,
+     "s": {
+      "R": 13
+     },
+     "ty": "returns"
+    },
+    "UnitRace": {
+     "obs": 13,
+     "s": {
+      "N": 13
+     }
+    },
+    "UnitReaction": {
+     "obs": 13,
+     "s": {
+      "C": 13
+     }
+    },
+    "UnitThreatSituation": {
+     "obs": 13,
+     "s": {
+      "C": 13
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|PLAYER]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL|PLAYER]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|PLAYER]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL|PLAYER]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|PLAYER]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL|PLAYER]": {
+     "obs": 13,
+     "s": {
+      "E": 13
+     }
+    },
+    "event:UNIT_AURA": {
+     "f": {
+      "addedAuras": {
+       "obs": 4,
+       "s": {
+        "N": 2,
+        "S": 2
+       }
+      },
+      "isFullUpdate": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "removedAuraInstanceIDs": {
+       "obs": 4,
+       "s": {
+        "N": 2,
+        "S": 2
+       }
+      },
+      "updatedAuraInstanceIDs": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      }
+     },
+     "obs": 4,
+     "s": {
+      "T": 4
+     }
+    }
+   },
+   "player": {
+    "C_Map.GetPlayerMapPosition": {
+     "f": {
+      "Add": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "Clone": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "Cross": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "DivideBy": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "Dot": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "GetLength": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "GetLengthSquared": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "GetXY": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "IsEqualTo": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "IsZero": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "Normalize": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "OnLoad": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "RotateDirection": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "ScaleBy": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "SetXY": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "Subtract": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "x": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "y": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      }
+     },
+     "obs": 14,
+     "s": {
+      "K": 14
+     }
+    },
+    "C_Spell.IsSpellInRange": {
+     "obs": 14,
+     "s": {
+      "N": 14
+     }
+    },
+    "CanCompareUnitTokens": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "CheckInteractDistance": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "GetPlayerFacing": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "GetRaidTargetIndex": {
+     "obs": 14,
+     "s": {
+      "N": 14
+     }
+    },
+    "GetUnitSpeed": {
+     "f": {
+      "current": {
+       "obs": 14,
+       "s": {
+        "S": 14
+       }
+      },
+      "flight": {
+       "obs": 14,
+       "s": {
+        "S": 14
+       }
+      },
+      "run": {
+       "obs": 14,
+       "s": {
+        "S": 14
+       }
+      },
+      "swim": {
+       "obs": 14,
+       "s": {
+        "S": 14
+       }
+      }
+     },
+     "obs": 14,
+     "s": {
+      "R": 14
+     },
+     "ty": "returns"
+    },
+    "IsFalling": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "IsFlying": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "IsSwimming": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "ShouldUnitIdentityBeSecret": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "UnitAffectingCombat": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "UnitCanAttack": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "UnitCastingInfo": {
+     "obs": 14,
+     "s": {
+      "N": 14
+     }
+    },
+    "UnitChannelInfo": {
+     "obs": 14,
+     "s": {
+      "N": 14
+     }
+    },
+    "UnitClass": {
+     "f": {
+      "classFile": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "classID": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "className": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      }
+     },
+     "obs": 14,
+     "s": {
+      "R": 14
+     },
+     "ty": "returns"
+    },
+    "UnitDetailedThreatSituation": {
+     "obs": 14,
+     "s": {
+      "N": 14
+     }
+    },
+    "UnitExists": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "UnitFullName": {
+     "f": {
+      "name": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "realm": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      }
+     },
+     "obs": 14,
+     "s": {
+      "R": 14
+     },
+     "ty": "returns"
+    },
+    "UnitGUID": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "UnitGetIncomingHeals": {
+     "obs": 14,
+     "s": {
+      "S": 14
+     }
+    },
+    "UnitGetTotalAbsorbs": {
+     "obs": 14,
+     "s": {
+      "S": 14
+     }
+    },
+    "UnitGetTotalHealAbsorbs": {
+     "obs": 14,
+     "s": {
+      "S": 14
+     }
+    },
+    "UnitHealth": {
+     "obs": 14,
+     "s": {
+      "S": 14
+     }
+    },
+    "UnitHealthMax": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "UnitHealthPercent": {
+     "obs": 14,
+     "s": {
+      "S": 14
+     }
+    },
+    "UnitInRange": {
+     "f": {
+      "checked": {
+       "obs": 14,
+       "s": {
+        "S": 14
+       }
+      },
+      "inRange": {
+       "obs": 14,
+       "s": {
+        "S": 14
+       }
+      }
+     },
+     "obs": 14,
+     "s": {
+      "R": 14
+     },
+     "ty": "returns"
+    },
+    "UnitIsDeadOrGhost": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "UnitIsEnemy": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "UnitIsFriend": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "UnitIsPlayer": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "UnitIsUnit(u,player)": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "UnitLevel": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "UnitName": {
+     "f": {
+      "name": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "realm": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      }
+     },
+     "obs": 14,
+     "s": {
+      "R": 14
+     },
+     "ty": "returns"
+    },
+    "UnitPosition": {
+     "f": {
+      "mapID": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "x": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "y": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "z": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      }
+     },
+     "obs": 14,
+     "s": {
+      "R": 14
+     },
+     "ty": "returns"
+    },
+    "UnitPower": {
+     "obs": 14,
+     "s": {
+      "S": 14
+     }
+    },
+    "UnitPowerMax": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "UnitPowerType": {
+     "f": {
+      "3": {
+       "obs": 14,
+       "s": {
+        "N": 14
+       }
+      },
+      "4": {
+       "obs": 14,
+       "s": {
+        "N": 14
+       }
+      },
+      "5": {
+       "obs": 14,
+       "s": {
+        "N": 14
+       }
+      },
+      "powerToken": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "powerType": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      }
+     },
+     "obs": 14,
+     "s": {
+      "R": 14
+     },
+     "ty": "returns"
+    },
+    "UnitRace": {
+     "f": {
+      "raceFile": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "raceID": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      },
+      "raceName": {
+       "obs": 14,
+       "s": {
+        "C": 14
+       }
+      }
+     },
+     "obs": 14,
+     "s": {
+      "R": 14
+     },
+     "ty": "returns"
+    },
+    "UnitReaction": {
+     "obs": 14,
+     "s": {
+      "C": 14
+     }
+    },
+    "UnitThreatSituation": {
+     "obs": 14,
+     "s": {
+      "N": 14
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|PLAYER]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL|PLAYER]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|PLAYER]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL|PLAYER]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|PLAYER]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL|PLAYER]": {
+     "obs": 14,
+     "s": {
+      "E": 14
+     }
+    },
+    "event:UNIT_AURA": {
+     "f": {
+      "addedAuras": {
+       "obs": 25,
+       "s": {
+        "N": 10,
+        "S": 15
+       }
+      },
+      "isFullUpdate": {
+       "obs": 25,
+       "s": {
+        "S": 25
+       }
+      },
+      "removedAuraInstanceIDs": {
+       "obs": 25,
+       "s": {
+        "N": 13,
+        "S": 12
+       }
+      },
+      "updatedAuraInstanceIDs": {
+       "obs": 25,
+       "s": {
+        "N": 19,
+        "S": 6
+       }
+      }
+     },
+     "obs": 25,
+     "s": {
+      "T": 25
+     }
+    }
+   },
+   "softenemy:hostile-npc": {
+    "event:UNIT_AURA": {
+     "f": {
+      "addedAuras": {
+       "obs": 2,
+       "s": {
+        "N": 1,
+        "S": 1
+       }
+      },
+      "isFullUpdate": {
+       "obs": 2,
+       "s": {
+        "S": 2
+       }
+      },
+      "removedAuraInstanceIDs": {
+       "obs": 2,
+       "s": {
+        "N": 1,
+        "S": 1
+       }
+      },
+      "updatedAuraInstanceIDs": {
+       "obs": 2,
+       "s": {
+        "N": 2
+       }
+      }
+     },
+     "obs": 2,
+     "s": {
+      "T": 2
+     }
+    }
+   },
+   "target:hostile-npc": {
+    "C_Map.GetPlayerMapPosition": {
+     "obs": 7,
+     "s": {
+      "N": 7
+     }
+    },
+    "C_Spell.IsSpellInRange": {
+     "obs": 7,
+     "s": {
+      "N": 7
+     }
+    },
+    "CanCompareUnitTokens": {
+     "obs": 7,
+     "s": {
+      "C": 7
+     }
+    },
+    "CheckInteractDistance": {
+     "obs": 7,
+     "s": {
+      "C": 7
+     }
+    },
+    "GetRaidTargetIndex": {
+     "obs": 7,
+     "s": {
+      "N": 6,
+      "S": 1
+     }
+    },
+    "GetUnitSpeed": {
+     "f": {
+      "current": {
+       "obs": 7,
+       "s": {
+        "S": 7
+       }
+      },
+      "flight": {
+       "obs": 7,
+       "s": {
+        "S": 7
+       }
+      },
+      "run": {
+       "obs": 7,
+       "s": {
+        "S": 7
+       }
+      },
+      "swim": {
+       "obs": 7,
+       "s": {
+        "S": 7
+       }
+      }
+     },
+     "obs": 7,
+     "s": {
+      "R": 7
+     },
+     "ty": "returns"
+    },
+    "ShouldUnitIdentityBeSecret": {
+     "obs": 7,
+     "s": {
+      "C": 7
+     }
+    },
+    "UnitAffectingCombat": {
+     "obs": 7,
+     "s": {
+      "C": 7
+     }
+    },
+    "UnitCanAttack": {
+     "obs": 7,
+     "s": {
+      "C": 7
+     }
+    },
+    "UnitCastingInfo": {
+     "obs": 7,
+     "s": {
+      "N": 7
+     }
+    },
+    "UnitChannelInfo": {
+     "obs": 7,
+     "s": {
+      "N": 7
+     }
+    },
+    "UnitClass": {
+     "f": {
+      "classFile": {
+       "obs": 7,
+       "s": {
+        "C": 7
+       }
+      },
+      "classID": {
+       "obs": 7,
+       "s": {
+        "C": 7
+       }
+      },
+      "className": {
+       "obs": 7,
+       "s": {
+        "C": 7
+       }
+      }
+     },
+     "obs": 7,
+     "s": {
+      "R": 7
+     },
+     "ty": "returns"
+    },
+    "UnitDetailedThreatSituation": {
+     "f": {
+      "isTanking": {
+       "obs": 7,
+       "s": {
+        "C": 7
+       }
+      },
+      "rawPct": {
+       "obs": 7,
+       "s": {
+        "C": 7
+       }
+      },
+      "rawThreat": {
+       "obs": 7,
+       "s": {
+        "C": 7
+       }
+      },
+      "scaledPct": {
+       "obs": 7,
+       "s": {
+        "C": 7
+       }
+      },
+      "status": {
+       "obs": 7,
+       "s": {
+        "C": 7
+       }
+      }
+     },
+     "obs": 7,
+     "s": {
+      "R": 7
+     },
+     "ty": "returns"
+    },
+    "UnitExists": {
+     "obs": 7,
+     "s": {
+      "C": 7
+     }
+    },
+    "UnitFullName": {
+     "f": {
+      "name": {
+       "obs": 7,
+       "s": {
+        "C": 7
+       }
+      },
+      "realm": {
+       "obs": 7,
+       "s": {
+        "N": 7
+       }
+      }
+     },
+     "obs": 7,
+     "s": {
+      "R": 7
+     },
+     "ty": "returns"
+    },
+    "UnitGUID": {
+     "obs": 7,
+     "s": {
+      "C": 7
+     }
+    },
+    "UnitGetIncomingHeals": {
+     "obs": 7,
+     "s": {
+      "N": 7
+     }
+    },
+    "UnitGetTotalAbsorbs": {
+     "obs": 7,
+     "s": {
+      "S": 7
+     }
+    },
+    "UnitGetTotalHealAbsorbs": {
+     "obs": 7,
+     "s": {
+      "S": 7
+     }
+    },
+    "UnitHealth": {
+     "obs": 7,
+     "s": {
+      "S": 7
+     }
+    },
+    "UnitHealthMax": {
+     "obs": 7,
+     "s": {
+      "S": 7
+     }
+    },
+    "UnitHealthPercent": {
+     "obs": 7,
+     "s": {
+      "S": 7
+     }
+    },
+    "UnitInRange": {
+     "f": {
+      "checked": {
+       "obs": 7,
+       "s": {
+        "S": 7
+       }
+      },
+      "inRange": {
+       "obs": 7,
+       "s": {
+        "S": 7
+       }
+      }
+     },
+     "obs": 7,
+     "s": {
+      "R": 7
+     },
+     "ty": "returns"
+    },
+    "UnitIsDeadOrGhost": {
+     "obs": 7,
+     "s": {
+      "C": 7
+     }
+    },
+    "UnitIsEnemy": {
+     "obs": 7,
+     "s": {
+      "C": 7
+     }
+    },
+    "UnitIsFriend": {
+     "obs": 7,
+     "s": {
+      "C": 7
+     }
+    },
+    "UnitIsPlayer": {
+     "obs": 7,
+     "s": {
+      "C": 7
+     }
+    },
+    "UnitIsUnit(u,player)": {
+     "obs": 7,
+     "s": {
+      "C": 7
+     }
+    },
+    "UnitLevel": {
+     "obs": 7,
+     "s": {
+      "C": 7
+     }
+    },
+    "UnitName": {
+     "f": {
+      "name": {
+       "obs": 7,
+       "s": {
+        "C": 7
+       }
+      },
+      "realm": {
+       "obs": 7,
+       "s": {
+        "N": 7
+       }
+      }
+     },
+     "obs": 7,
+     "s": {
+      "R": 7
+     },
+     "ty": "returns"
+    },
+    "UnitPosition": {
+     "f": {
+      "mapID": {
+       "obs": 7,
+       "s": {
+        "C": 7
+       }
+      },
+      "x": {
+       "obs": 7,
+       "s": {
+        "N": 7
+       }
+      },
+      "y": {
+       "obs": 7,
+       "s": {
+        "N": 7
+       }
+      },
+      "z": {
+       "obs": 7,
+       "s": {
+        "N": 7
+       }
+      }
+     },
+     "obs": 7,
+     "s": {
+      "R": 7
+     },
+     "ty": "returns"
+    },
+    "UnitPower": {
+     "obs": 7,
+     "s": {
+      "S": 7
+     }
+    },
+    "UnitPowerMax": {
+     "obs": 7,
+     "s": {
+      "S": 7
+     }
+    },
+    "UnitPowerType": {
+     "f": {
+      "3": {
+       "obs": 7,
+       "s": {
+        "N": 7
+       }
+      },
+      "4": {
+       "obs": 7,
+       "s": {
+        "N": 7
+       }
+      },
+      "5": {
+       "obs": 7,
+       "s": {
+        "N": 7
+       }
+      },
+      "powerToken": {
+       "obs": 7,
+       "s": {
+        "C": 7
+       }
+      },
+      "powerType": {
+       "obs": 7,
+       "s": {
+        "C": 7
+       }
+      }
+     },
+     "obs": 7,
+     "s": {
+      "R": 7
+     },
+     "ty": "returns"
+    },
+    "UnitRace": {
+     "obs": 7,
+     "s": {
+      "N": 7
+     }
+    },
+    "UnitReaction": {
+     "obs": 7,
+     "s": {
+      "C": 7
+     }
+    },
+    "UnitThreatSituation": {
+     "obs": 7,
+     "s": {
+      "C": 7
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|PLAYER]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL|PLAYER]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|PLAYER]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL|PLAYER]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|PLAYER]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL|PLAYER]": {
+     "obs": 7,
+     "s": {
+      "E": 7
+     }
+    },
+    "event:UNIT_AURA": {
+     "f": {
+      "addedAuras": {
+       "obs": 3,
+       "s": {
+        "N": 1,
+        "S": 2
+       }
+      },
+      "isFullUpdate": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      },
+      "removedAuraInstanceIDs": {
+       "obs": 3,
+       "s": {
+        "N": 2,
+        "S": 1
+       }
+      },
+      "updatedAuraInstanceIDs": {
+       "obs": 3,
+       "s": {
+        "N": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "T": 3
+     }
+    }
+   },
+   "target:self": {
+    "C_Map.GetPlayerMapPosition": {
+     "f": {
+      "Add": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "Clone": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "Cross": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "DivideBy": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "Dot": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "GetLength": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "GetLengthSquared": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "GetXY": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "IsEqualTo": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "IsZero": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "Normalize": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "OnLoad": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "RotateDirection": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "ScaleBy": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "SetXY": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "Subtract": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "x": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "y": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "K": 1
+     }
+    },
+    "C_Spell.IsSpellInRange": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "CanCompareUnitTokens": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "CheckInteractDistance": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "GetRaidTargetIndex": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "GetUnitSpeed": {
+     "f": {
+      "current": {
+       "obs": 1,
+       "s": {
+        "S": 1
+       }
+      },
+      "flight": {
+       "obs": 1,
+       "s": {
+        "S": 1
+       }
+      },
+      "run": {
+       "obs": 1,
+       "s": {
+        "S": 1
+       }
+      },
+      "swim": {
+       "obs": 1,
+       "s": {
+        "S": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "ShouldUnitIdentityBeSecret": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitAffectingCombat": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitCanAttack": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitCastingDuration": {
+     "obs": 1,
+     "s": {
+      "K": 1
+     }
+    },
+    "UnitCastingInfo": {
+     "f": {
+      "10": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "11": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "castID": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "endTimeMS": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "isTradeSkill": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "name": {
+       "obs": 2,
+       "s": {
+        "C": 1,
+        "N": 1
+       }
+      },
+      "notInterruptible": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "spellID": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "startTimeMS": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "text": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "texture": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 2,
+     "s": {
+      "R": 2
+     },
+     "ty": "returns"
+    },
+    "UnitChannelInfo": {
+     "obs": 2,
+     "s": {
+      "N": 2
+     }
+    },
+    "UnitClass": {
+     "f": {
+      "classFile": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "classID": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "className": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitDetailedThreatSituation": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "UnitExists": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitFullName": {
+     "f": {
+      "name": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "realm": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitGUID": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitGetIncomingHeals": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitGetTotalAbsorbs": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitGetTotalHealAbsorbs": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitHealth": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitHealthMax": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitHealthPercent": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitInRange": {
+     "f": {
+      "checked": {
+       "obs": 1,
+       "s": {
+        "S": 1
+       }
+      },
+      "inRange": {
+       "obs": 1,
+       "s": {
+        "S": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitIsDeadOrGhost": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitIsEnemy": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitIsFriend": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitIsPlayer": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitIsUnit(u,player)": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitLevel": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitName": {
+     "f": {
+      "name": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "realm": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitPosition": {
+     "f": {
+      "mapID": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "x": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "y": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "z": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitPower": {
+     "obs": 1,
+     "s": {
+      "S": 1
+     }
+    },
+    "UnitPowerMax": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitPowerType": {
+     "f": {
+      "3": {
+       "obs": 1,
+       "s": {
+        "N": 1
+       }
+      },
+      "4": {
+       "obs": 1,
+       "s": {
+        "N": 1
+       }
+      },
+      "5": {
+       "obs": 1,
+       "s": {
+        "N": 1
+       }
+      },
+      "powerToken": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "powerType": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitRace": {
+     "f": {
+      "raceFile": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "raceID": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "raceName": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "R": 1
+     },
+     "ty": "returns"
+    },
+    "UnitReaction": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    },
+    "UnitThreatSituation": {
+     "obs": 1,
+     "s": {
+      "N": 1
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|PLAYER]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL|PLAYER]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|PLAYER]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL|PLAYER]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|PLAYER]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL|PLAYER]": {
+     "obs": 1,
+     "s": {
+      "E": 1
+     }
+    },
+    "casting:GetSpellCastSecrecy": {
+     "obs": 1,
+     "s": {
+      "C": 1
+     }
+    }
+   },
+   "targettarget:self": {
+    "C_Map.GetPlayerMapPosition": {
+     "f": {
+      "Add": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "Clone": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "Cross": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "DivideBy": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "Dot": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "GetLength": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "GetLengthSquared": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "GetXY": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "IsEqualTo": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "IsZero": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "Normalize": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "OnLoad": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "RotateDirection": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "ScaleBy": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "SetXY": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "Subtract": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "x": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "y": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      }
+     },
+     "obs": 8,
+     "s": {
+      "K": 8
+     }
+    },
+    "C_Spell.IsSpellInRange": {
+     "obs": 8,
+     "s": {
+      "N": 8
+     }
+    },
+    "CanCompareUnitTokens": {
+     "obs": 8,
+     "s": {
+      "C": 8
+     }
+    },
+    "CheckInteractDistance": {
+     "obs": 8,
+     "s": {
+      "C": 8
+     }
+    },
+    "GetRaidTargetIndex": {
+     "obs": 8,
+     "s": {
+      "N": 8
+     }
+    },
+    "GetUnitSpeed": {
+     "f": {
+      "current": {
+       "obs": 8,
+       "s": {
+        "S": 8
+       }
+      },
+      "flight": {
+       "obs": 8,
+       "s": {
+        "S": 8
+       }
+      },
+      "run": {
+       "obs": 8,
+       "s": {
+        "S": 8
+       }
+      },
+      "swim": {
+       "obs": 8,
+       "s": {
+        "S": 8
+       }
+      }
+     },
+     "obs": 8,
+     "s": {
+      "R": 8
+     },
+     "ty": "returns"
+    },
+    "ShouldUnitIdentityBeSecret": {
+     "obs": 8,
+     "s": {
+      "C": 8
+     }
+    },
+    "UnitAffectingCombat": {
+     "obs": 8,
+     "s": {
+      "C": 8
+     }
+    },
+    "UnitCanAttack": {
+     "obs": 8,
+     "s": {
+      "C": 8
+     }
+    },
+    "UnitCastingInfo": {
+     "obs": 8,
+     "s": {
+      "N": 8
+     }
+    },
+    "UnitChannelInfo": {
+     "obs": 8,
+     "s": {
+      "N": 8
+     }
+    },
+    "UnitClass": {
+     "f": {
+      "classFile": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "classID": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "className": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      }
+     },
+     "obs": 8,
+     "s": {
+      "R": 8
+     },
+     "ty": "returns"
+    },
+    "UnitDetailedThreatSituation": {
+     "obs": 8,
+     "s": {
+      "N": 8
+     }
+    },
+    "UnitExists": {
+     "obs": 8,
+     "s": {
+      "C": 8
+     }
+    },
+    "UnitFullName": {
+     "f": {
+      "name": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "realm": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      }
+     },
+     "obs": 8,
+     "s": {
+      "R": 8
+     },
+     "ty": "returns"
+    },
+    "UnitGUID": {
+     "obs": 8,
+     "s": {
+      "C": 8
+     }
+    },
+    "UnitGetIncomingHeals": {
+     "obs": 8,
+     "s": {
+      "S": 8
+     }
+    },
+    "UnitGetTotalAbsorbs": {
+     "obs": 8,
+     "s": {
+      "S": 8
+     }
+    },
+    "UnitGetTotalHealAbsorbs": {
+     "obs": 8,
+     "s": {
+      "S": 8
+     }
+    },
+    "UnitHealth": {
+     "obs": 8,
+     "s": {
+      "S": 8
+     }
+    },
+    "UnitHealthMax": {
+     "obs": 8,
+     "s": {
+      "C": 8
+     }
+    },
+    "UnitHealthPercent": {
+     "obs": 8,
+     "s": {
+      "S": 8
+     }
+    },
+    "UnitInRange": {
+     "f": {
+      "checked": {
+       "obs": 8,
+       "s": {
+        "S": 8
+       }
+      },
+      "inRange": {
+       "obs": 8,
+       "s": {
+        "S": 8
+       }
+      }
+     },
+     "obs": 8,
+     "s": {
+      "R": 8
+     },
+     "ty": "returns"
+    },
+    "UnitIsDeadOrGhost": {
+     "obs": 8,
+     "s": {
+      "C": 8
+     }
+    },
+    "UnitIsEnemy": {
+     "obs": 8,
+     "s": {
+      "C": 8
+     }
+    },
+    "UnitIsFriend": {
+     "obs": 8,
+     "s": {
+      "C": 8
+     }
+    },
+    "UnitIsPlayer": {
+     "obs": 8,
+     "s": {
+      "C": 8
+     }
+    },
+    "UnitIsUnit(u,player)": {
+     "obs": 8,
+     "s": {
+      "C": 8
+     }
+    },
+    "UnitLevel": {
+     "obs": 8,
+     "s": {
+      "C": 8
+     }
+    },
+    "UnitName": {
+     "f": {
+      "name": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "realm": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      }
+     },
+     "obs": 8,
+     "s": {
+      "R": 8
+     },
+     "ty": "returns"
+    },
+    "UnitPosition": {
+     "f": {
+      "mapID": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "x": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "y": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "z": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      }
+     },
+     "obs": 8,
+     "s": {
+      "R": 8
+     },
+     "ty": "returns"
+    },
+    "UnitPower": {
+     "obs": 8,
+     "s": {
+      "S": 8
+     }
+    },
+    "UnitPowerMax": {
+     "obs": 8,
+     "s": {
+      "C": 8
+     }
+    },
+    "UnitPowerType": {
+     "f": {
+      "3": {
+       "obs": 8,
+       "s": {
+        "N": 8
+       }
+      },
+      "4": {
+       "obs": 8,
+       "s": {
+        "N": 8
+       }
+      },
+      "5": {
+       "obs": 8,
+       "s": {
+        "N": 8
+       }
+      },
+      "powerToken": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "powerType": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      }
+     },
+     "obs": 8,
+     "s": {
+      "R": 8
+     },
+     "ty": "returns"
+    },
+    "UnitRace": {
+     "f": {
+      "raceFile": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "raceID": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      },
+      "raceName": {
+       "obs": 8,
+       "s": {
+        "C": 8
+       }
+      }
+     },
+     "obs": 8,
+     "s": {
+      "R": 8
+     },
+     "ty": "returns"
+    },
+    "UnitReaction": {
+     "obs": 8,
+     "s": {
+      "C": 8
+     }
+    },
+    "UnitThreatSituation": {
+     "obs": 8,
+     "s": {
+      "N": 8
+     }
+    },
+    "event:UNIT_AURA": {
+     "f": {
+      "addedAuras": {
+       "obs": 23,
+       "s": {
+        "N": 9,
+        "S": 14
+       }
+      },
+      "isFullUpdate": {
+       "obs": 23,
+       "s": {
+        "S": 23
+       }
+      },
+      "removedAuraInstanceIDs": {
+       "obs": 23,
+       "s": {
+        "N": 11,
+        "S": 12
+       }
+      },
+      "updatedAuraInstanceIDs": {
+       "obs": 23,
+       "s": {
+        "N": 18,
+        "S": 5
+       }
+      }
+     },
+     "obs": 23,
+     "s": {
+      "T": 23
+     }
+    }
+   }
+  },
+  "ooc": {
+   "focus:self": {
+    "C_Map.GetPlayerMapPosition": {
+     "f": {
+      "Add": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "Clone": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "Cross": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "DivideBy": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "Dot": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "GetLength": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "GetLengthSquared": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "GetXY": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "IsEqualTo": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "IsZero": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "Normalize": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "OnLoad": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "RotateDirection": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "ScaleBy": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "SetXY": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "Subtract": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "x": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "y": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      }
+     },
+     "obs": 6,
+     "s": {
+      "K": 6
+     }
+    },
+    "C_Spell.IsSpellInRange": {
+     "obs": 6,
+     "s": {
+      "N": 6
+     }
+    },
+    "CanCompareUnitTokens": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "CheckInteractDistance": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "GetRaidTargetIndex": {
+     "obs": 6,
+     "s": {
+      "N": 6
+     }
+    },
+    "GetUnitSpeed": {
+     "f": {
+      "current": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "flight": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "run": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "swim": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      }
+     },
+     "obs": 6,
+     "s": {
+      "R": 6
+     },
+     "ty": "returns"
+    },
+    "ShouldUnitIdentityBeSecret": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "UnitAffectingCombat": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "UnitCanAttack": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "UnitCastingDuration": {
+     "obs": 5,
+     "s": {
+      "K": 5
+     }
+    },
+    "UnitCastingInfo": {
+     "f": {
+      "10": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "11": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "castID": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "endTimeMS": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "isTradeSkill": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "name": {
+       "obs": 11,
+       "s": {
+        "C": 5,
+        "N": 6
+       }
+      },
+      "notInterruptible": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "spellID": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "startTimeMS": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "text": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "texture": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      }
+     },
+     "obs": 11,
+     "s": {
+      "R": 11
+     },
+     "ty": "returns"
+    },
+    "UnitChannelInfo": {
+     "obs": 11,
+     "s": {
+      "N": 11
+     }
+    },
+    "UnitClass": {
+     "f": {
+      "classFile": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "classID": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "className": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      }
+     },
+     "obs": 6,
+     "s": {
+      "R": 6
+     },
+     "ty": "returns"
+    },
+    "UnitDetailedThreatSituation": {
+     "obs": 6,
+     "s": {
+      "N": 6
+     }
+    },
+    "UnitExists": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "UnitFullName": {
+     "f": {
+      "name": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "realm": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      }
+     },
+     "obs": 6,
+     "s": {
+      "R": 6
+     },
+     "ty": "returns"
+    },
+    "UnitGUID": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "UnitGetIncomingHeals": {
+     "obs": 6,
+     "s": {
+      "S": 6
+     }
+    },
+    "UnitGetTotalAbsorbs": {
+     "obs": 6,
+     "s": {
+      "S": 6
+     }
+    },
+    "UnitGetTotalHealAbsorbs": {
+     "obs": 6,
+     "s": {
+      "S": 6
+     }
+    },
+    "UnitHealth": {
+     "obs": 6,
+     "s": {
+      "S": 6
+     }
+    },
+    "UnitHealthMax": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "UnitHealthPercent": {
+     "obs": 6,
+     "s": {
+      "S": 6
+     }
+    },
+    "UnitInRange": {
+     "f": {
+      "checked": {
+       "obs": 6,
+       "s": {
+        "S": 6
+       }
+      },
+      "inRange": {
+       "obs": 6,
+       "s": {
+        "S": 6
+       }
+      }
+     },
+     "obs": 6,
+     "s": {
+      "R": 6
+     },
+     "ty": "returns"
+    },
+    "UnitIsDeadOrGhost": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "UnitIsEnemy": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "UnitIsFriend": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "UnitIsPlayer": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "UnitIsUnit(u,player)": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "UnitLevel": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "UnitName": {
+     "f": {
+      "name": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "realm": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      }
+     },
+     "obs": 6,
+     "s": {
+      "R": 6
+     },
+     "ty": "returns"
+    },
+    "UnitPosition": {
+     "f": {
+      "mapID": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "x": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "y": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "z": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      }
+     },
+     "obs": 6,
+     "s": {
+      "R": 6
+     },
+     "ty": "returns"
+    },
+    "UnitPower": {
+     "obs": 6,
+     "s": {
+      "S": 6
+     }
+    },
+    "UnitPowerMax": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "UnitPowerType": {
+     "f": {
+      "3": {
+       "obs": 6,
+       "s": {
+        "N": 6
+       }
+      },
+      "4": {
+       "obs": 6,
+       "s": {
+        "N": 6
+       }
+      },
+      "5": {
+       "obs": 6,
+       "s": {
+        "N": 6
+       }
+      },
+      "powerToken": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "powerType": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      }
+     },
+     "obs": 6,
+     "s": {
+      "R": 6
+     },
+     "ty": "returns"
+    },
+    "UnitRace": {
+     "f": {
+      "raceFile": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "raceID": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "raceName": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      }
+     },
+     "obs": 6,
+     "s": {
+      "R": 6
+     },
+     "ty": "returns"
+    },
+    "UnitReaction": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "UnitThreatSituation": {
+     "obs": 6,
+     "s": {
+      "N": 6
+     }
+    },
+    "aura:GetAuraApplicationDisplayCount[HELPFUL]": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     }
+    },
+    "aura:GetAuraApplicationDisplayCount[HELPFUL|PLAYER]": {
+     "obs": 2,
+     "s": {
+      "C": 2
+     }
+    },
+    "aura:GetAuraDataByAuraInstanceID[HELPFUL]": {
+     "f": {
+      "applications": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "auraInstanceID": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "canActivePlayerDispel": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "canApplyAura": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "dispelName": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "duration": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "expirationTime": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "hideOnPartyFrames": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "icon": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isBossAura": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isDPSRoleAura": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isHarmful": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isHealerRoleAura": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isHelpful": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isNameplateOnly": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isRaid": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isStealable": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isTankRoleAura": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "name": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "nameplateShowAll": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "nameplateShowPersonal": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "points": {
+       "obs": 6,
+       "s": {
+        "K": 6
+       }
+      },
+      "sourceUnit": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "spellId": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "timeMod": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      }
+     },
+     "obs": 6,
+     "s": {
+      "K": 6
+     }
+    },
+    "aura:GetAuraDataByAuraInstanceID[HELPFUL|PLAYER]": {
+     "f": {
+      "applications": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "auraInstanceID": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "canActivePlayerDispel": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "canApplyAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "dispelName": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "duration": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "expirationTime": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "hideOnPartyFrames": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "icon": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isBossAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isDPSRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHarmful": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHealerRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHelpful": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isNameplateOnly": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isRaid": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isStealable": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isTankRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "name": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "nameplateShowAll": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "nameplateShowPersonal": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "points": {
+       "obs": 2,
+       "s": {
+        "K": 2
+       }
+      },
+      "sourceUnit": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "spellId": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "timeMod": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      }
+     },
+     "obs": 2,
+     "s": {
+      "K": 2
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL]": {
+     "obs": 6,
+     "s": {
+      "N": 6
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|PLAYER]": {
+     "obs": 6,
+     "s": {
+      "N": 6
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID]": {
+     "obs": 6,
+     "s": {
+      "N": 6
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 6,
+     "s": {
+      "N": 6
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL]": {
+     "f": {
+      "applications": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "auraInstanceID": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "canActivePlayerDispel": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "canApplyAura": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "dispelName": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "duration": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "expirationTime": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "hideOnPartyFrames": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "icon": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isBossAura": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isDPSRoleAura": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isHarmful": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isHealerRoleAura": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isHelpful": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isNameplateOnly": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isRaid": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isStealable": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isTankRoleAura": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "name": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "nameplateShowAll": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "nameplateShowPersonal": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "points": {
+       "obs": 6,
+       "s": {
+        "K": 6
+       }
+      },
+      "sourceUnit": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "spellId": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "timeMod": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      }
+     },
+     "obs": 6,
+     "s": {
+      "K": 6
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL|PLAYER]": {
+     "f": {
+      "applications": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "auraInstanceID": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "canActivePlayerDispel": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "canApplyAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "dispelName": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "duration": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "expirationTime": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "hideOnPartyFrames": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "icon": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isBossAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isDPSRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHarmful": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHealerRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHelpful": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isNameplateOnly": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isRaid": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isStealable": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isTankRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "name": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "nameplateShowAll": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "nameplateShowPersonal": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "points": {
+       "obs": 2,
+       "s": {
+        "K": 2
+       }
+      },
+      "sourceUnit": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "spellId": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "timeMod": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      }
+     },
+     "obs": 6,
+     "s": {
+      "K": 2,
+      "N": 4
+     }
+    },
+    "aura:GetAuraDataBySlot[HELPFUL]": {
+     "f": {
+      "applications": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "auraInstanceID": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "canActivePlayerDispel": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "canApplyAura": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "dispelName": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "duration": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "expirationTime": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "hideOnPartyFrames": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "icon": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isBossAura": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isDPSRoleAura": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isHarmful": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isHealerRoleAura": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isHelpful": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isNameplateOnly": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isRaid": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isStealable": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "isTankRoleAura": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "name": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "nameplateShowAll": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "nameplateShowPersonal": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "points": {
+       "obs": 6,
+       "s": {
+        "K": 6
+       }
+      },
+      "sourceUnit": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "spellId": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "timeMod": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      }
+     },
+     "obs": 6,
+     "s": {
+      "K": 6
+     }
+    },
+    "aura:GetAuraDataBySlot[HELPFUL|PLAYER]": {
+     "f": {
+      "applications": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "auraInstanceID": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "canActivePlayerDispel": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "canApplyAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "dispelName": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "duration": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "expirationTime": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "hideOnPartyFrames": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "icon": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isBossAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isDPSRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHarmful": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHealerRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHelpful": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isNameplateOnly": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isRaid": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isStealable": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isTankRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "name": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "nameplateShowAll": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "nameplateShowPersonal": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "points": {
+       "obs": 2,
+       "s": {
+        "K": 2
+       }
+      },
+      "sourceUnit": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "spellId": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "timeMod": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      }
+     },
+     "obs": 2,
+     "s": {
+      "K": 2
+     }
+    },
+    "aura:GetAuraDispelTypeColor[HELPFUL]": {
+     "obs": 6,
+     "s": {
+      "E": 6
+     }
+    },
+    "aura:GetAuraDispelTypeColor[HELPFUL|PLAYER]": {
+     "obs": 2,
+     "s": {
+      "E": 2
+     }
+    },
+    "aura:GetAuraDuration[HELPFUL]": {
+     "obs": 6,
+     "s": {
+      "K": 6
+     }
+    },
+    "aura:GetAuraDuration[HELPFUL]#object": {
+     "f": {
+      "GetRemainingDuration()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "GetRemainingPercent()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "GetTotalDuration()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "HasSecretValues()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "IsZero()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "K": 1
+     },
+     "ty": "duration object"
+    },
+    "aura:GetAuraDuration[HELPFUL|PLAYER]": {
+     "obs": 2,
+     "s": {
+      "K": 2
+     }
+    },
+    "aura:GetAuraDuration[HELPFUL|PLAYER]#object": {
+     "f": {
+      "GetRemainingDuration()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "GetRemainingPercent()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "GetTotalDuration()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "HasSecretValues()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "IsZero()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "K": 1
+     },
+     "ty": "duration object"
+    },
+    "aura:GetAuraSlots[HARMFUL]": {
+     "obs": 6,
+     "s": {
+      "N": 6
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|PLAYER]": {
+     "obs": 6,
+     "s": {
+      "N": 6
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID]": {
+     "obs": 6,
+     "s": {
+      "N": 6
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 6,
+     "s": {
+      "N": 6
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL]": {
+     "f": {
+      "ret1": {
+       "obs": 6,
+       "s": {
+        "N": 6
+       }
+      },
+      "ret2": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      },
+      "ret3": {
+       "obs": 6,
+       "s": {
+        "C": 6
+       }
+      }
+     },
+     "obs": 6,
+     "s": {
+      "R": 6
+     },
+     "ty": "returns"
+    },
+    "aura:GetAuraSlots[HELPFUL|PLAYER]": {
+     "f": {
+      "ret1": {
+       "obs": 6,
+       "s": {
+        "N": 6
+       }
+      },
+      "ret2": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      }
+     },
+     "obs": 6,
+     "s": {
+      "R": 6
+     },
+     "ty": "returns"
+    },
+    "aura:GetUnitAuras[HARMFUL]": {
+     "obs": 6,
+     "s": {
+      "K": 6
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|PLAYER]": {
+     "obs": 6,
+     "s": {
+      "K": 6
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID]": {
+     "obs": 6,
+     "s": {
+      "K": 6
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 6,
+     "s": {
+      "K": 6
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL]": {
+     "obs": 6,
+     "s": {
+      "K": 6
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL|PLAYER]": {
+     "obs": 6,
+     "s": {
+      "K": 6
+     }
+    },
+    "casting:GetSpellCastSecrecy": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     }
+    },
+    "count:GetAuraSlots(HARMFUL)": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HARMFUL|PLAYER)": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HARMFUL|RAID)": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HARMFUL|RAID_PLAYER_DISPELLABLE)": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HELPFUL)": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HELPFUL|PLAYER)": {
+     "obs": 6,
+     "s": {
+      "C": 6
+     },
+     "ty": "count"
+    },
+    "event:UNIT_AURA": {
+     "f": {
+      "addedAuras": {
+       "arr": {
+        "f": {
+         "applications": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "auraInstanceID": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "canActivePlayerDispel": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "canApplyAura": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "duration": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "expirationTime": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "hideOnPartyFrames": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "icon": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isBossAura": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isDPSRoleAura": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isFromPlayerOrPlayerPet": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isHarmful": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isHealerRoleAura": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isHelpful": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isNameplateOnly": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isRaid": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isStealable": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isTankRoleAura": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "name": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "nameplateShowAll": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "nameplateShowPersonal": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "points": {
+          "obs": 1,
+          "s": {
+           "K": 1
+          }
+         },
+         "sourceUnit": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "spellId": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "timeMod": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         }
+        },
+        "obs": 1,
+        "s": {
+         "K": 1
+        }
+       },
+       "obs": 3,
+       "s": {
+        "K": 1,
+        "N": 2
+       }
+      },
+      "isFullUpdate": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "removedAuraInstanceIDs": {
+       "obs": 3,
+       "s": {
+        "K": 3
+       }
+      },
+      "updatedAuraInstanceIDs": {
+       "obs": 3,
+       "s": {
+        "N": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "K": 3
+     }
+    }
+   },
+   "global": {
+    "C_DamageMeter.GetCombatSessionFromType": {
+     "f": {
+      "combatSources": {
+       "obs": 12,
+       "s": {
+        "K": 12
+       }
+      },
+      "durationSeconds": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "maxAmount": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "totalAmount": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "K": 12
+     }
+    },
+    "C_DamageMeter.IsDamageMeterAvailable": {
+     "f": {
+      "ret1": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "ret2": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    }
+   },
+   "mouseover:hostile-npc": {
+    "C_Map.GetPlayerMapPosition": {
+     "obs": 4,
+     "s": {
+      "N": 4
+     }
+    },
+    "C_Spell.IsSpellInRange": {
+     "obs": 4,
+     "s": {
+      "N": 4
+     }
+    },
+    "CanCompareUnitTokens": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "CheckInteractDistance": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "GetRaidTargetIndex": {
+     "obs": 4,
+     "s": {
+      "N": 4
+     }
+    },
+    "GetUnitSpeed": {
+     "f": {
+      "current": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "flight": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "run": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "swim": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      }
+     },
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "ShouldUnitIdentityBeSecret": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitAffectingCombat": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitCanAttack": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitCastingInfo": {
+     "obs": 4,
+     "s": {
+      "N": 4
+     }
+    },
+    "UnitChannelInfo": {
+     "obs": 4,
+     "s": {
+      "N": 4
+     }
+    },
+    "UnitClass": {
+     "f": {
+      "classFile": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "classID": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "className": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      }
+     },
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "UnitDetailedThreatSituation": {
+     "obs": 4,
+     "s": {
+      "N": 4
+     }
+    },
+    "UnitExists": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitFullName": {
+     "f": {
+      "name": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "realm": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      }
+     },
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "UnitGUID": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitGetIncomingHeals": {
+     "obs": 4,
+     "s": {
+      "N": 4
+     }
+    },
+    "UnitGetTotalAbsorbs": {
+     "obs": 4,
+     "s": {
+      "S": 4
+     }
+    },
+    "UnitGetTotalHealAbsorbs": {
+     "obs": 4,
+     "s": {
+      "S": 4
+     }
+    },
+    "UnitHealth": {
+     "obs": 4,
+     "s": {
+      "S": 4
+     }
+    },
+    "UnitHealthMax": {
+     "obs": 4,
+     "s": {
+      "S": 4
+     }
+    },
+    "UnitHealthPercent": {
+     "obs": 4,
+     "s": {
+      "S": 4
+     }
+    },
+    "UnitInRange": {
+     "f": {
+      "checked": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      },
+      "inRange": {
+       "obs": 4,
+       "s": {
+        "S": 4
+       }
+      }
+     },
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "UnitIsDeadOrGhost": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitIsEnemy": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitIsFriend": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitIsPlayer": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitIsUnit(u,player)": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitLevel": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitName": {
+     "f": {
+      "name": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "realm": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      }
+     },
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "UnitPosition": {
+     "f": {
+      "mapID": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "x": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      },
+      "y": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      },
+      "z": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      }
+     },
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "UnitPower": {
+     "obs": 4,
+     "s": {
+      "S": 4
+     }
+    },
+    "UnitPowerMax": {
+     "obs": 4,
+     "s": {
+      "S": 4
+     }
+    },
+    "UnitPowerType": {
+     "f": {
+      "3": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      },
+      "4": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      },
+      "5": {
+       "obs": 4,
+       "s": {
+        "N": 4
+       }
+      },
+      "powerToken": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      },
+      "powerType": {
+       "obs": 4,
+       "s": {
+        "C": 4
+       }
+      }
+     },
+     "obs": 4,
+     "s": {
+      "R": 4
+     },
+     "ty": "returns"
+    },
+    "UnitRace": {
+     "obs": 4,
+     "s": {
+      "N": 4
+     }
+    },
+    "UnitReaction": {
+     "obs": 4,
+     "s": {
+      "C": 4
+     }
+    },
+    "UnitThreatSituation": {
+     "obs": 4,
+     "s": {
+      "N": 4
+     }
+    }
+   },
+   "mouseover:self": {
+    "C_Map.GetPlayerMapPosition": {
+     "f": {
+      "Add": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "Clone": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "Cross": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "DivideBy": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "Dot": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "GetLength": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "GetLengthSquared": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "GetXY": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "IsEqualTo": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "IsZero": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "Normalize": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "OnLoad": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "RotateDirection": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "ScaleBy": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "SetXY": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "Subtract": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "x": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "y": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "K": 3
+     }
+    },
+    "C_Spell.IsSpellInRange": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "CanCompareUnitTokens": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "CheckInteractDistance": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "GetRaidTargetIndex": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "GetUnitSpeed": {
+     "f": {
+      "current": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "flight": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "run": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "swim": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "ShouldUnitIdentityBeSecret": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitAffectingCombat": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitCanAttack": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitCastingInfo": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "UnitChannelInfo": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "UnitClass": {
+     "f": {
+      "classFile": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "classID": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "className": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitDetailedThreatSituation": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "UnitExists": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitFullName": {
+     "f": {
+      "name": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "realm": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitGUID": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitGetIncomingHeals": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitGetTotalAbsorbs": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitGetTotalHealAbsorbs": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitHealth": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitHealthMax": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitHealthPercent": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitInRange": {
+     "f": {
+      "checked": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      },
+      "inRange": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitIsDeadOrGhost": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitIsEnemy": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitIsFriend": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitIsPlayer": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitIsUnit(u,player)": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitLevel": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitName": {
+     "f": {
+      "name": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "realm": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitPosition": {
+     "f": {
+      "mapID": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "x": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "y": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "z": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitPower": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitPowerMax": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitPowerType": {
+     "f": {
+      "3": {
+       "obs": 3,
+       "s": {
+        "N": 3
+       }
+      },
+      "4": {
+       "obs": 3,
+       "s": {
+        "N": 3
+       }
+      },
+      "5": {
+       "obs": 3,
+       "s": {
+        "N": 3
+       }
+      },
+      "powerToken": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "powerType": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitRace": {
+     "f": {
+      "raceFile": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "raceID": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "raceName": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitReaction": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitThreatSituation": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    }
+   },
+   "nameplate:hostile-npc": {
+    "C_Map.GetPlayerMapPosition": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "C_Spell.IsSpellInRange": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "CanCompareUnitTokens": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     }
+    },
+    "CheckInteractDistance": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     }
+    },
+    "GetRaidTargetIndex": {
+     "obs": 10,
+     "s": {
+      "N": 8,
+      "S": 2
+     }
+    },
+    "GetUnitSpeed": {
+     "f": {
+      "current": {
+       "obs": 10,
+       "s": {
+        "C": 10
+       }
+      },
+      "flight": {
+       "obs": 10,
+       "s": {
+        "C": 10
+       }
+      },
+      "run": {
+       "obs": 10,
+       "s": {
+        "C": 10
+       }
+      },
+      "swim": {
+       "obs": 10,
+       "s": {
+        "C": 10
+       }
+      }
+     },
+     "obs": 10,
+     "s": {
+      "R": 10
+     },
+     "ty": "returns"
+    },
+    "ShouldUnitIdentityBeSecret": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     }
+    },
+    "UnitAffectingCombat": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     }
+    },
+    "UnitCanAttack": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     }
+    },
+    "UnitCastingInfo": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "UnitChannelInfo": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "UnitClass": {
+     "f": {
+      "classFile": {
+       "obs": 10,
+       "s": {
+        "C": 10
+       }
+      },
+      "classID": {
+       "obs": 10,
+       "s": {
+        "C": 10
+       }
+      },
+      "className": {
+       "obs": 10,
+       "s": {
+        "C": 10
+       }
+      }
+     },
+     "obs": 10,
+     "s": {
+      "R": 10
+     },
+     "ty": "returns"
+    },
+    "UnitDetailedThreatSituation": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "UnitExists": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     }
+    },
+    "UnitFullName": {
+     "f": {
+      "name": {
+       "obs": 10,
+       "s": {
+        "C": 10
+       }
+      },
+      "realm": {
+       "obs": 10,
+       "s": {
+        "N": 10
+       }
+      }
+     },
+     "obs": 10,
+     "s": {
+      "R": 10
+     },
+     "ty": "returns"
+    },
+    "UnitGUID": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     }
+    },
+    "UnitGetIncomingHeals": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "UnitGetTotalAbsorbs": {
+     "obs": 10,
+     "s": {
+      "S": 10
+     }
+    },
+    "UnitGetTotalHealAbsorbs": {
+     "obs": 10,
+     "s": {
+      "S": 10
+     }
+    },
+    "UnitHealth": {
+     "obs": 10,
+     "s": {
+      "S": 10
+     }
+    },
+    "UnitHealthMax": {
+     "obs": 10,
+     "s": {
+      "S": 10
+     }
+    },
+    "UnitHealthPercent": {
+     "obs": 10,
+     "s": {
+      "S": 10
+     }
+    },
+    "UnitInRange": {
+     "f": {
+      "checked": {
+       "obs": 10,
+       "s": {
+        "S": 10
+       }
+      },
+      "inRange": {
+       "obs": 10,
+       "s": {
+        "S": 10
+       }
+      }
+     },
+     "obs": 10,
+     "s": {
+      "R": 10
+     },
+     "ty": "returns"
+    },
+    "UnitIsDeadOrGhost": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     }
+    },
+    "UnitIsEnemy": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     }
+    },
+    "UnitIsFriend": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     }
+    },
+    "UnitIsPlayer": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     }
+    },
+    "UnitIsUnit(u,player)": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     }
+    },
+    "UnitLevel": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     }
+    },
+    "UnitName": {
+     "f": {
+      "name": {
+       "obs": 10,
+       "s": {
+        "C": 10
+       }
+      },
+      "realm": {
+       "obs": 10,
+       "s": {
+        "N": 10
+       }
+      }
+     },
+     "obs": 10,
+     "s": {
+      "R": 10
+     },
+     "ty": "returns"
+    },
+    "UnitPosition": {
+     "f": {
+      "mapID": {
+       "obs": 10,
+       "s": {
+        "C": 10
+       }
+      },
+      "x": {
+       "obs": 10,
+       "s": {
+        "N": 10
+       }
+      },
+      "y": {
+       "obs": 10,
+       "s": {
+        "N": 10
+       }
+      },
+      "z": {
+       "obs": 10,
+       "s": {
+        "N": 10
+       }
+      }
+     },
+     "obs": 10,
+     "s": {
+      "R": 10
+     },
+     "ty": "returns"
+    },
+    "UnitPower": {
+     "obs": 10,
+     "s": {
+      "S": 10
+     }
+    },
+    "UnitPowerMax": {
+     "obs": 10,
+     "s": {
+      "S": 10
+     }
+    },
+    "UnitPowerType": {
+     "f": {
+      "3": {
+       "obs": 10,
+       "s": {
+        "N": 10
+       }
+      },
+      "4": {
+       "obs": 10,
+       "s": {
+        "N": 10
+       }
+      },
+      "5": {
+       "obs": 10,
+       "s": {
+        "N": 10
+       }
+      },
+      "powerToken": {
+       "obs": 10,
+       "s": {
+        "C": 10
+       }
+      },
+      "powerType": {
+       "obs": 10,
+       "s": {
+        "C": 10
+       }
+      }
+     },
+     "obs": 10,
+     "s": {
+      "R": 10
+     },
+     "ty": "returns"
+    },
+    "UnitRace": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "UnitReaction": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     }
+    },
+    "UnitThreatSituation": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL]": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|PLAYER]": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID]": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL]": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL|PLAYER]": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL]": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|PLAYER]": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID]": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL]": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL|PLAYER]": {
+     "obs": 10,
+     "s": {
+      "N": 10
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL]": {
+     "obs": 10,
+     "s": {
+      "K": 10
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|PLAYER]": {
+     "obs": 10,
+     "s": {
+      "K": 10
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID]": {
+     "obs": 10,
+     "s": {
+      "K": 10
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 10,
+     "s": {
+      "K": 10
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL]": {
+     "obs": 10,
+     "s": {
+      "K": 10
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL|PLAYER]": {
+     "obs": 10,
+     "s": {
+      "K": 10
+     }
+    },
+    "count:GetAuraSlots(HARMFUL)": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HARMFUL|PLAYER)": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HARMFUL|RAID)": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HARMFUL|RAID_PLAYER_DISPELLABLE)": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HELPFUL)": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HELPFUL|PLAYER)": {
+     "obs": 10,
+     "s": {
+      "C": 10
+     },
+     "ty": "count"
+    }
+   },
+   "player": {
+    "C_Map.GetPlayerMapPosition": {
+     "f": {
+      "Add": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "Clone": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "Cross": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "DivideBy": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "Dot": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "GetLength": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "GetLengthSquared": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "GetXY": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "IsEqualTo": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "IsZero": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "Normalize": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "OnLoad": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "RotateDirection": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "ScaleBy": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "SetXY": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "Subtract": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "x": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "y": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "K": 12
+     }
+    },
+    "C_Spell.IsSpellInRange": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "CanCompareUnitTokens": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "CheckInteractDistance": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "GetPlayerFacing": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "GetRaidTargetIndex": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "GetUnitSpeed": {
+     "f": {
+      "current": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "flight": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "run": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "swim": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "IsFalling": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "IsFlying": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "IsSwimming": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "ShouldUnitIdentityBeSecret": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitAffectingCombat": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitCanAttack": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitCastingInfo": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "UnitChannelInfo": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "UnitClass": {
+     "f": {
+      "classFile": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "classID": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "className": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "UnitDetailedThreatSituation": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "UnitExists": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitFullName": {
+     "f": {
+      "name": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "realm": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "UnitGUID": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitGetIncomingHeals": {
+     "obs": 12,
+     "s": {
+      "S": 12
+     }
+    },
+    "UnitGetTotalAbsorbs": {
+     "obs": 12,
+     "s": {
+      "S": 12
+     }
+    },
+    "UnitGetTotalHealAbsorbs": {
+     "obs": 12,
+     "s": {
+      "S": 12
+     }
+    },
+    "UnitHealth": {
+     "obs": 12,
+     "s": {
+      "S": 12
+     }
+    },
+    "UnitHealthMax": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitHealthPercent": {
+     "obs": 12,
+     "s": {
+      "S": 12
+     }
+    },
+    "UnitInRange": {
+     "f": {
+      "checked": {
+       "obs": 12,
+       "s": {
+        "S": 12
+       }
+      },
+      "inRange": {
+       "obs": 12,
+       "s": {
+        "S": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "UnitIsDeadOrGhost": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitIsEnemy": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitIsFriend": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitIsPlayer": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitIsUnit(u,player)": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitLevel": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitName": {
+     "f": {
+      "name": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "realm": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "UnitPosition": {
+     "f": {
+      "mapID": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "x": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "y": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "z": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "UnitPower": {
+     "obs": 12,
+     "s": {
+      "S": 12
+     }
+    },
+    "UnitPowerMax": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitPowerType": {
+     "f": {
+      "3": {
+       "obs": 12,
+       "s": {
+        "N": 12
+       }
+      },
+      "4": {
+       "obs": 12,
+       "s": {
+        "N": 12
+       }
+      },
+      "5": {
+       "obs": 12,
+       "s": {
+        "N": 12
+       }
+      },
+      "powerToken": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "powerType": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "UnitRace": {
+     "f": {
+      "raceFile": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "raceID": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "raceName": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "UnitReaction": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "UnitThreatSituation": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "aura:GetAuraApplicationDisplayCount[HELPFUL]": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "aura:GetAuraApplicationDisplayCount[HELPFUL|PLAYER]": {
+     "obs": 2,
+     "s": {
+      "C": 2
+     }
+    },
+    "aura:GetAuraDataByAuraInstanceID[HELPFUL]": {
+     "f": {
+      "applications": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "auraInstanceID": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "canActivePlayerDispel": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "canApplyAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "dispelName": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "duration": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "expirationTime": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "hideOnPartyFrames": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "icon": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isBossAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isDPSRoleAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isHarmful": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isHealerRoleAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isHelpful": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isNameplateOnly": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isRaid": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isStealable": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isTankRoleAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "name": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "nameplateShowAll": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "nameplateShowPersonal": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "points": {
+       "obs": 12,
+       "s": {
+        "K": 12
+       }
+      },
+      "sourceUnit": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "spellId": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "timeMod": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "K": 12
+     }
+    },
+    "aura:GetAuraDataByAuraInstanceID[HELPFUL|PLAYER]": {
+     "f": {
+      "applications": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "auraInstanceID": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "canActivePlayerDispel": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "canApplyAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "dispelName": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "duration": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "expirationTime": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "hideOnPartyFrames": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "icon": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isBossAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isDPSRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHarmful": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHealerRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHelpful": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isNameplateOnly": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isRaid": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isStealable": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isTankRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "name": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "nameplateShowAll": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "nameplateShowPersonal": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "points": {
+       "obs": 2,
+       "s": {
+        "K": 2
+       }
+      },
+      "sourceUnit": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "spellId": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "timeMod": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      }
+     },
+     "obs": 2,
+     "s": {
+      "K": 2
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL]": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|PLAYER]": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID]": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL]": {
+     "f": {
+      "applications": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "auraInstanceID": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "canActivePlayerDispel": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "canApplyAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "dispelName": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "duration": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "expirationTime": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "hideOnPartyFrames": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "icon": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isBossAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isDPSRoleAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isHarmful": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isHealerRoleAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isHelpful": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isNameplateOnly": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isRaid": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isStealable": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isTankRoleAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "name": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "nameplateShowAll": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "nameplateShowPersonal": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "points": {
+       "obs": 12,
+       "s": {
+        "K": 12
+       }
+      },
+      "sourceUnit": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "spellId": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "timeMod": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "K": 12
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL|PLAYER]": {
+     "f": {
+      "applications": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "auraInstanceID": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "canActivePlayerDispel": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "canApplyAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "dispelName": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "duration": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "expirationTime": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "hideOnPartyFrames": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "icon": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isBossAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isDPSRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHarmful": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHealerRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHelpful": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isNameplateOnly": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isRaid": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isStealable": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isTankRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "name": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "nameplateShowAll": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "nameplateShowPersonal": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "points": {
+       "obs": 2,
+       "s": {
+        "K": 2
+       }
+      },
+      "sourceUnit": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "spellId": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "timeMod": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "K": 2,
+      "N": 10
+     }
+    },
+    "aura:GetAuraDataBySlot[HELPFUL]": {
+     "f": {
+      "applications": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "auraInstanceID": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "canActivePlayerDispel": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "canApplyAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "dispelName": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "duration": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "expirationTime": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "hideOnPartyFrames": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "icon": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isBossAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isDPSRoleAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isHarmful": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isHealerRoleAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isHelpful": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isNameplateOnly": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isRaid": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isStealable": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isTankRoleAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "name": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "nameplateShowAll": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "nameplateShowPersonal": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "points": {
+       "obs": 12,
+       "s": {
+        "K": 12
+       }
+      },
+      "sourceUnit": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "spellId": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "timeMod": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "K": 12
+     }
+    },
+    "aura:GetAuraDataBySlot[HELPFUL|PLAYER]": {
+     "f": {
+      "applications": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "auraInstanceID": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "canActivePlayerDispel": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "canApplyAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "dispelName": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "duration": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "expirationTime": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "hideOnPartyFrames": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "icon": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isBossAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isDPSRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHarmful": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHealerRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isHelpful": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isNameplateOnly": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isRaid": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isStealable": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "isTankRoleAura": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "name": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "nameplateShowAll": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "nameplateShowPersonal": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "points": {
+       "obs": 2,
+       "s": {
+        "K": 2
+       }
+      },
+      "sourceUnit": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "spellId": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "timeMod": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      }
+     },
+     "obs": 2,
+     "s": {
+      "K": 2
+     }
+    },
+    "aura:GetAuraDispelTypeColor[HELPFUL]": {
+     "obs": 12,
+     "s": {
+      "E": 12
+     }
+    },
+    "aura:GetAuraDispelTypeColor[HELPFUL|PLAYER]": {
+     "obs": 2,
+     "s": {
+      "E": 2
+     }
+    },
+    "aura:GetAuraDuration[HELPFUL]": {
+     "obs": 12,
+     "s": {
+      "K": 12
+     }
+    },
+    "aura:GetAuraDuration[HELPFUL]#object": {
+     "f": {
+      "GetRemainingDuration()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "GetRemainingPercent()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "GetTotalDuration()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "HasSecretValues()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "IsZero()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "K": 1
+     },
+     "ty": "duration object"
+    },
+    "aura:GetAuraDuration[HELPFUL|PLAYER]": {
+     "obs": 2,
+     "s": {
+      "K": 2
+     }
+    },
+    "aura:GetAuraDuration[HELPFUL|PLAYER]#object": {
+     "f": {
+      "GetRemainingDuration()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "GetRemainingPercent()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "GetTotalDuration()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "HasSecretValues()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "IsZero()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "K": 1
+     },
+     "ty": "duration object"
+    },
+    "aura:GetAuraSlots[HARMFUL]": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|PLAYER]": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID]": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 12,
+     "s": {
+      "N": 12
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL]": {
+     "f": {
+      "ret1": {
+       "obs": 12,
+       "s": {
+        "N": 12
+       }
+      },
+      "ret2": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "ret3": {
+       "obs": 9,
+       "s": {
+        "C": 9
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "aura:GetAuraSlots[HELPFUL|PLAYER]": {
+     "f": {
+      "ret1": {
+       "obs": 12,
+       "s": {
+        "N": 12
+       }
+      },
+      "ret2": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "R": 12
+     },
+     "ty": "returns"
+    },
+    "aura:GetPlayerAuraBySpellID": {
+     "f": {
+      "applications": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "auraInstanceID": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "canActivePlayerDispel": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "canApplyAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "dispelName": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "duration": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "expirationTime": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "hideOnPartyFrames": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "icon": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isBossAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isDPSRoleAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isHarmful": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isHealerRoleAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isHelpful": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isNameplateOnly": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isRaid": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isStealable": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "isTankRoleAura": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "name": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "nameplateShowAll": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "nameplateShowPersonal": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "points": {
+       "obs": 12,
+       "s": {
+        "K": 12
+       }
+      },
+      "sourceUnit": {
+       "obs": 2,
+       "s": {
+        "C": 2
+       }
+      },
+      "spellId": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      },
+      "timeMod": {
+       "obs": 12,
+       "s": {
+        "C": 12
+       }
+      }
+     },
+     "obs": 12,
+     "s": {
+      "K": 12
+     }
+    },
+    "aura:GetSpellAuraSecrecy": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL]": {
+     "obs": 12,
+     "s": {
+      "K": 12
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|PLAYER]": {
+     "obs": 12,
+     "s": {
+      "K": 12
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID]": {
+     "obs": 12,
+     "s": {
+      "K": 12
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 12,
+     "s": {
+      "K": 12
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL]": {
+     "obs": 12,
+     "s": {
+      "K": 12
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL|PLAYER]": {
+     "obs": 12,
+     "s": {
+      "K": 12
+     }
+    },
+    "aura:ShouldSpellAuraBeSecret": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     }
+    },
+    "count:GetAuraSlots(HARMFUL)": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HARMFUL|PLAYER)": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HARMFUL|RAID)": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HARMFUL|RAID_PLAYER_DISPELLABLE)": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HELPFUL)": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HELPFUL|PLAYER)": {
+     "obs": 12,
+     "s": {
+      "C": 12
+     },
+     "ty": "count"
+    },
+    "event:UNIT_AURA": {
+     "f": {
+      "addedAuras": {
+       "arr": {
+        "f": {
+         "applications": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "auraInstanceID": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "canActivePlayerDispel": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "canApplyAura": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "duration": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "expirationTime": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "hideOnPartyFrames": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "icon": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isBossAura": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isDPSRoleAura": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isFromPlayerOrPlayerPet": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isHarmful": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isHealerRoleAura": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isHelpful": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isNameplateOnly": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isRaid": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isStealable": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "isTankRoleAura": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "name": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "nameplateShowAll": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "nameplateShowPersonal": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "points": {
+          "obs": 1,
+          "s": {
+           "K": 1
+          }
+         },
+         "sourceUnit": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "spellId": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         },
+         "timeMod": {
+          "obs": 1,
+          "s": {
+           "C": 1
+          }
+         }
+        },
+        "obs": 1,
+        "s": {
+         "K": 1
+        }
+       },
+       "obs": 3,
+       "s": {
+        "K": 1,
+        "N": 2
+       }
+      },
+      "isFullUpdate": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "removedAuraInstanceIDs": {
+       "obs": 3,
+       "s": {
+        "K": 3
+       }
+      },
+      "updatedAuraInstanceIDs": {
+       "obs": 3,
+       "s": {
+        "N": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "K": 3
+     }
+    }
+   },
+   "target:hostile-npc": {
+    "C_Map.GetPlayerMapPosition": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "C_Spell.IsSpellInRange": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "CanCompareUnitTokens": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     }
+    },
+    "CheckInteractDistance": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     }
+    },
+    "GetRaidTargetIndex": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "GetUnitSpeed": {
+     "f": {
+      "current": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "flight": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "run": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "swim": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      }
+     },
+     "obs": 5,
+     "s": {
+      "R": 5
+     },
+     "ty": "returns"
+    },
+    "ShouldUnitIdentityBeSecret": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     }
+    },
+    "UnitAffectingCombat": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     }
+    },
+    "UnitCanAttack": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     }
+    },
+    "UnitCastingInfo": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "UnitChannelInfo": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "UnitClass": {
+     "f": {
+      "classFile": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "classID": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "className": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      }
+     },
+     "obs": 5,
+     "s": {
+      "R": 5
+     },
+     "ty": "returns"
+    },
+    "UnitDetailedThreatSituation": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "UnitExists": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     }
+    },
+    "UnitFullName": {
+     "f": {
+      "name": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "realm": {
+       "obs": 5,
+       "s": {
+        "N": 5
+       }
+      }
+     },
+     "obs": 5,
+     "s": {
+      "R": 5
+     },
+     "ty": "returns"
+    },
+    "UnitGUID": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     }
+    },
+    "UnitGetIncomingHeals": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "UnitGetTotalAbsorbs": {
+     "obs": 5,
+     "s": {
+      "S": 5
+     }
+    },
+    "UnitGetTotalHealAbsorbs": {
+     "obs": 5,
+     "s": {
+      "S": 5
+     }
+    },
+    "UnitHealth": {
+     "obs": 5,
+     "s": {
+      "S": 5
+     }
+    },
+    "UnitHealthMax": {
+     "obs": 5,
+     "s": {
+      "S": 5
+     }
+    },
+    "UnitHealthPercent": {
+     "obs": 5,
+     "s": {
+      "S": 5
+     }
+    },
+    "UnitInRange": {
+     "f": {
+      "checked": {
+       "obs": 5,
+       "s": {
+        "S": 5
+       }
+      },
+      "inRange": {
+       "obs": 5,
+       "s": {
+        "S": 5
+       }
+      }
+     },
+     "obs": 5,
+     "s": {
+      "R": 5
+     },
+     "ty": "returns"
+    },
+    "UnitIsDeadOrGhost": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     }
+    },
+    "UnitIsEnemy": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     }
+    },
+    "UnitIsFriend": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     }
+    },
+    "UnitIsPlayer": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     }
+    },
+    "UnitIsUnit(u,player)": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     }
+    },
+    "UnitLevel": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     }
+    },
+    "UnitName": {
+     "f": {
+      "name": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "realm": {
+       "obs": 5,
+       "s": {
+        "N": 5
+       }
+      }
+     },
+     "obs": 5,
+     "s": {
+      "R": 5
+     },
+     "ty": "returns"
+    },
+    "UnitPosition": {
+     "f": {
+      "mapID": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "x": {
+       "obs": 5,
+       "s": {
+        "N": 5
+       }
+      },
+      "y": {
+       "obs": 5,
+       "s": {
+        "N": 5
+       }
+      },
+      "z": {
+       "obs": 5,
+       "s": {
+        "N": 5
+       }
+      }
+     },
+     "obs": 5,
+     "s": {
+      "R": 5
+     },
+     "ty": "returns"
+    },
+    "UnitPower": {
+     "obs": 5,
+     "s": {
+      "S": 5
+     }
+    },
+    "UnitPowerMax": {
+     "obs": 5,
+     "s": {
+      "S": 5
+     }
+    },
+    "UnitPowerType": {
+     "f": {
+      "3": {
+       "obs": 5,
+       "s": {
+        "N": 5
+       }
+      },
+      "4": {
+       "obs": 5,
+       "s": {
+        "N": 5
+       }
+      },
+      "5": {
+       "obs": 5,
+       "s": {
+        "N": 5
+       }
+      },
+      "powerToken": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      },
+      "powerType": {
+       "obs": 5,
+       "s": {
+        "C": 5
+       }
+      }
+     },
+     "obs": 5,
+     "s": {
+      "R": 5
+     },
+     "ty": "returns"
+    },
+    "UnitRace": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "UnitReaction": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     }
+    },
+    "UnitThreatSituation": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL]": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|PLAYER]": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID]": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL]": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL|PLAYER]": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL]": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|PLAYER]": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID]": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL]": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL|PLAYER]": {
+     "obs": 5,
+     "s": {
+      "N": 5
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL]": {
+     "obs": 5,
+     "s": {
+      "K": 5
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|PLAYER]": {
+     "obs": 5,
+     "s": {
+      "K": 5
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID]": {
+     "obs": 5,
+     "s": {
+      "K": 5
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 5,
+     "s": {
+      "K": 5
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL]": {
+     "obs": 5,
+     "s": {
+      "K": 5
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL|PLAYER]": {
+     "obs": 5,
+     "s": {
+      "K": 5
+     }
+    },
+    "count:GetAuraSlots(HARMFUL)": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HARMFUL|PLAYER)": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HARMFUL|RAID)": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HARMFUL|RAID_PLAYER_DISPELLABLE)": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HELPFUL)": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HELPFUL|PLAYER)": {
+     "obs": 5,
+     "s": {
+      "C": 5
+     },
+     "ty": "count"
+    }
+   },
+   "target:self": {
+    "C_Map.GetPlayerMapPosition": {
+     "f": {
+      "Add": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "Clone": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "Cross": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "DivideBy": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "Dot": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "GetLength": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "GetLengthSquared": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "GetXY": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "IsEqualTo": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "IsZero": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "Normalize": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "OnLoad": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "RotateDirection": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "ScaleBy": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "SetXY": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "Subtract": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "x": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "y": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "K": 3
+     }
+    },
+    "C_Spell.IsSpellInRange": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "CanCompareUnitTokens": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "CheckInteractDistance": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "GetRaidTargetIndex": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "GetUnitSpeed": {
+     "f": {
+      "current": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "flight": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "run": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "swim": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "ShouldUnitIdentityBeSecret": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitAffectingCombat": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitCanAttack": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitCastingInfo": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "UnitChannelInfo": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "UnitClass": {
+     "f": {
+      "classFile": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "classID": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "className": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitDetailedThreatSituation": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "UnitExists": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitFullName": {
+     "f": {
+      "name": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "realm": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitGUID": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitGetIncomingHeals": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitGetTotalAbsorbs": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitGetTotalHealAbsorbs": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitHealth": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitHealthMax": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitHealthPercent": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitInRange": {
+     "f": {
+      "checked": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      },
+      "inRange": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitIsDeadOrGhost": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitIsEnemy": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitIsFriend": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitIsPlayer": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitIsUnit(u,player)": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitLevel": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitName": {
+     "f": {
+      "name": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "realm": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitPosition": {
+     "f": {
+      "mapID": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "x": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "y": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "z": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitPower": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitPowerMax": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitPowerType": {
+     "f": {
+      "3": {
+       "obs": 3,
+       "s": {
+        "N": 3
+       }
+      },
+      "4": {
+       "obs": 3,
+       "s": {
+        "N": 3
+       }
+      },
+      "5": {
+       "obs": 3,
+       "s": {
+        "N": 3
+       }
+      },
+      "powerToken": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "powerType": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitRace": {
+     "f": {
+      "raceFile": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "raceID": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "raceName": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitReaction": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitThreatSituation": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "aura:GetAuraApplicationDisplayCount[HELPFUL]": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "aura:GetAuraDataByAuraInstanceID[HELPFUL]": {
+     "f": {
+      "applications": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "auraInstanceID": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "canActivePlayerDispel": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "canApplyAura": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "dispelName": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "duration": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "expirationTime": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "hideOnPartyFrames": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "icon": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isBossAura": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isDPSRoleAura": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isHarmful": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isHealerRoleAura": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isHelpful": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isNameplateOnly": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isRaid": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isStealable": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isTankRoleAura": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "name": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "nameplateShowAll": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "nameplateShowPersonal": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "points": {
+       "obs": 3,
+       "s": {
+        "K": 3
+       }
+      },
+      "spellId": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "timeMod": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "K": 3
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL]": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|PLAYER]": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID]": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "aura:GetAuraDataByIndex[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL]": {
+     "f": {
+      "applications": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "auraInstanceID": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "canActivePlayerDispel": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "canApplyAura": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "dispelName": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "duration": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "expirationTime": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "hideOnPartyFrames": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "icon": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isBossAura": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isDPSRoleAura": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isHarmful": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isHealerRoleAura": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isHelpful": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isNameplateOnly": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isRaid": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isStealable": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isTankRoleAura": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "name": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "nameplateShowAll": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "nameplateShowPersonal": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "points": {
+       "obs": 3,
+       "s": {
+        "K": 3
+       }
+      },
+      "spellId": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "timeMod": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "K": 3
+     }
+    },
+    "aura:GetAuraDataByIndex[HELPFUL|PLAYER]": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "aura:GetAuraDataBySlot[HELPFUL]": {
+     "f": {
+      "applications": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "auraInstanceID": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "canActivePlayerDispel": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "canApplyAura": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "dispelName": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "duration": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "expirationTime": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "hideOnPartyFrames": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "icon": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isBossAura": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isDPSRoleAura": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isFromPlayerOrPlayerPet": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isHarmful": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isHealerRoleAura": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isHelpful": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isNameplateOnly": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isRaid": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isStealable": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "isTankRoleAura": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "name": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "nameplateShowAll": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "nameplateShowPersonal": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "points": {
+       "obs": 3,
+       "s": {
+        "K": 3
+       }
+      },
+      "spellId": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "timeMod": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "K": 3
+     }
+    },
+    "aura:GetAuraDispelTypeColor[HELPFUL]": {
+     "obs": 3,
+     "s": {
+      "E": 3
+     }
+    },
+    "aura:GetAuraDuration[HELPFUL]": {
+     "obs": 3,
+     "s": {
+      "K": 3
+     }
+    },
+    "aura:GetAuraDuration[HELPFUL]#object": {
+     "f": {
+      "GetRemainingDuration()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "GetRemainingPercent()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "GetTotalDuration()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "HasSecretValues()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      },
+      "IsZero()": {
+       "obs": 1,
+       "s": {
+        "C": 1
+       }
+      }
+     },
+     "obs": 1,
+     "s": {
+      "K": 1
+     },
+     "ty": "duration object"
+    },
+    "aura:GetAuraSlots[HARMFUL]": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|PLAYER]": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID]": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "aura:GetAuraSlots[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "aura:GetAuraSlots[HELPFUL]": {
+     "f": {
+      "ret1": {
+       "obs": 3,
+       "s": {
+        "N": 3
+       }
+      },
+      "ret2": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "ret3": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "aura:GetAuraSlots[HELPFUL|PLAYER]": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL]": {
+     "obs": 3,
+     "s": {
+      "K": 3
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|PLAYER]": {
+     "obs": 3,
+     "s": {
+      "K": 3
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID]": {
+     "obs": 3,
+     "s": {
+      "K": 3
+     }
+    },
+    "aura:GetUnitAuras[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+     "obs": 3,
+     "s": {
+      "K": 3
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL]": {
+     "obs": 3,
+     "s": {
+      "K": 3
+     }
+    },
+    "aura:GetUnitAuras[HELPFUL|PLAYER]": {
+     "obs": 3,
+     "s": {
+      "K": 3
+     }
+    },
+    "count:GetAuraSlots(HARMFUL)": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HARMFUL|PLAYER)": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HARMFUL|RAID)": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HARMFUL|RAID_PLAYER_DISPELLABLE)": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HELPFUL)": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     },
+     "ty": "count"
+    },
+    "count:GetAuraSlots(HELPFUL|PLAYER)": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     },
+     "ty": "count"
+    }
+   },
+   "targettarget:self": {
+    "C_Map.GetPlayerMapPosition": {
+     "f": {
+      "Add": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "Clone": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "Cross": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "DivideBy": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "Dot": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "GetLength": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "GetLengthSquared": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "GetXY": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "IsEqualTo": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "IsZero": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "Normalize": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "OnLoad": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "RotateDirection": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "ScaleBy": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "SetXY": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "Subtract": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "x": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "y": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "K": 3
+     }
+    },
+    "C_Spell.IsSpellInRange": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "CanCompareUnitTokens": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "CheckInteractDistance": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "GetRaidTargetIndex": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "GetUnitSpeed": {
+     "f": {
+      "current": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "flight": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "run": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "swim": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "ShouldUnitIdentityBeSecret": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitAffectingCombat": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitCanAttack": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitCastingInfo": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "UnitChannelInfo": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "UnitClass": {
+     "f": {
+      "classFile": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "classID": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "className": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitDetailedThreatSituation": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    },
+    "UnitExists": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitFullName": {
+     "f": {
+      "name": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "realm": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitGUID": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitGetIncomingHeals": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitGetTotalAbsorbs": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitGetTotalHealAbsorbs": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitHealth": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitHealthMax": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitHealthPercent": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitInRange": {
+     "f": {
+      "checked": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      },
+      "inRange": {
+       "obs": 3,
+       "s": {
+        "S": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitIsDeadOrGhost": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitIsEnemy": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitIsFriend": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitIsPlayer": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitIsUnit(u,player)": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitLevel": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitName": {
+     "f": {
+      "name": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "realm": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitPosition": {
+     "f": {
+      "mapID": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "x": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "y": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "z": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitPower": {
+     "obs": 3,
+     "s": {
+      "S": 3
+     }
+    },
+    "UnitPowerMax": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitPowerType": {
+     "f": {
+      "3": {
+       "obs": 3,
+       "s": {
+        "N": 3
+       }
+      },
+      "4": {
+       "obs": 3,
+       "s": {
+        "N": 3
+       }
+      },
+      "5": {
+       "obs": 3,
+       "s": {
+        "N": 3
+       }
+      },
+      "powerToken": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "powerType": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitRace": {
+     "f": {
+      "raceFile": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "raceID": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      },
+      "raceName": {
+       "obs": 3,
+       "s": {
+        "C": 3
+       }
+      }
+     },
+     "obs": 3,
+     "s": {
+      "R": 3
+     },
+     "ty": "returns"
+    },
+    "UnitReaction": {
+     "obs": 3,
+     "s": {
+      "C": 3
+     }
+    },
+    "UnitThreatSituation": {
+     "obs": 3,
+     "s": {
+      "N": 3
+     }
+    }
+   }
+  }
+ },
+ "skipped": {},
+ "source": "legacy:combatProbe cells + UNIT_AURA payload codes (addon <= 2.2.1, one level deep)"
+}

@@ -1,0 +1,7481 @@
+{
+ "anchor": {
+  "date": "2026-10-07 22:02:15",
+  "epoch": 1791424935,
+  "epochTick": 1791424936,
+  "gameTime": 1052908.534,
+  "gameTimeTick": 1052909.135,
+  "precise": true,
+  "server": 1791424936,
+  "utcOffset": -14400
+ },
+ "anchorEnd": {
+  "date": "2026-10-07 22:04:11",
+  "epoch": 1791425051,
+  "gameTime": 1053024.418,
+  "server": 1791425052,
+  "utcOffset": -14400
+ },
+ "captureSid": "cap-20261007220215-5",
+ "cleu": {
+  "requested": false
+ },
+ "cleuCounts": {},
+ "cleuTotal": 0,
+ "combatEvents": 209,
+ "config": {
+  "advanced": true,
+  "damageMeter": true,
+  "maxArgs": 40,
+  "maxEvents": 20000,
+  "maxSessions": 3,
+  "maxString": 200,
+  "redactPlayers": false
+ },
+ "context": {
+  "ADDON_RESTRICTION_STATE_CHANGED": 2,
+  "PLAYER_REGEN_DISABLED": 1,
+  "PLAYER_REGEN_ENABLED": 1
+ },
+ "contextTotal": 4,
+ "counts": {
+  "ADDON_RESTRICTION_STATE_CHANGED": 2,
+  "DAMAGE_METER_COMBAT_SESSION_UPDATED": 222,
+  "DAMAGE_METER_CURRENT_SESSION_UPDATED": 1,
+  "PLAYER_REGEN_DISABLED": 1,
+  "PLAYER_REGEN_ENABLED": 1,
+  "PLAYER_SWING": 2,
+  "PLAYER_TARGET_CHANGED": 8,
+  "UNIT_AURA": 22,
+  "UNIT_COMBAT": 171,
+  "UNIT_DIED": 1,
+  "UNIT_HEALTH": 166,
+  "UNIT_SPELLCAST_DELAYED": 2,
+  "UNIT_SPELLCAST_SENT": 16,
+  "UNIT_SPELLCAST_START": 2,
+  "UNIT_SPELLCAST_STOP": 2,
+  "UNIT_SPELLCAST_SUCCEEDED": 16
+ },
+ "damageMeter": [
+  {
+   "available": {
+    "a": [
+     true,
+     ""
+    ],
+    "n": 2
+   },
+   "byType": {
+    "Absorbs": {
+     "combatSources": {},
+     "durationSeconds": 90,
+     "maxAmount": 0,
+     "totalAmount": 0
+    },
+    "AvoidableDamageTaken": {
+     "combatSources": {},
+     "durationSeconds": 90,
+     "maxAmount": 0,
+     "totalAmount": 0
+    },
+    "DamageDone": {
+     "combatSources": [
+      {
+       "amountPerSecond": 4.455555555555556,
+       "classFilename": "SHAMAN",
+       "classification": "",
+       "deathRecapID": 0,
+       "deathTimeSeconds": 0,
+       "isLocalPlayer": true,
+       "name": "Uglaz Doomaxe",
+       "sourceDisplayType": 0,
+       "sourceGUID": "Player-4618-00EB40D8",
+       "specIconID": 626006,
+       "totalAmount": 401
+      }
+     ],
+     "durationSeconds": 90,
+     "maxAmount": 401,
+     "totalAmount": 401
+    },
+    "DamageTaken": {
+     "combatSources": [
+      {
+       "amountPerSecond": 5.311111111111111,
+       "classFilename": "SHAMAN",
+       "classification": "",
+       "deathRecapID": 0,
+       "deathTimeSeconds": 0,
+       "isLocalPlayer": true,
+       "name": "Uglaz Doomaxe",
+       "sourceDisplayType": 0,
+       "sourceGUID": "Player-4618-00EB40D8",
+       "specIconID": 626006,
+       "totalAmount": 478
+      }
+     ],
+     "durationSeconds": 90,
+     "maxAmount": 478,
+     "totalAmount": 478
+    },
+    "Deaths": {
+     "combatSources": {},
+     "durationSeconds": 90,
+     "maxAmount": 0,
+     "totalAmount": 0
+    },
+    "Dispels": {
+     "combatSources": {},
+     "durationSeconds": 90,
+     "maxAmount": 0,
+     "totalAmount": 0
+    },
+    "Dps": {
+     "combatSources": [
+      {
+       "amountPerSecond": 4.455555555555556,
+       "classFilename": "SHAMAN",
+       "classification": "",
+       "deathRecapID": 0,
+       "deathTimeSeconds": 0,
+       "isLocalPlayer": true,
+       "name": "Uglaz Doomaxe",
+       "sourceDisplayType": 0,
+       "sourceGUID": "Player-4618-00EB40D8",
+       "specIconID": 626006,
+       "totalAmount": 401
+      }
+     ],
+     "durationSeconds": 90,
+     "maxAmount": 401,
+     "totalAmount": 401
+    },
+    "EnemyDamageTaken": {
+     "combatSources": [
+      {
+       "amountPerSecond": 4.455555555555556,
+       "classFilename": "",
+       "classification": "normal",
+       "deathRecapID": 0,
+       "deathTimeSeconds": 0,
+       "isLocalPlayer": false,
+       "name": "Savannah Huntress",
+       "sourceCreatureID": 3415,
+       "sourceDisplayType": 0,
+       "totalAmount": 401
+      }
+     ],
+     "durationSeconds": 90,
+     "maxAmount": 401,
+     "totalAmount": 401
+    },
+    "HealingDone": {
+     "combatSources": [
+      {
+       "amountPerSecond": 4.155555555555556,
+       "classFilename": "SHAMAN",
+       "classification": "",
+       "deathRecapID": 0,
+       "deathTimeSeconds": 0,
+       "isLocalPlayer": true,
+       "name": "Uglaz Doomaxe",
+       "sourceDisplayType": 0,
+       "sourceGUID": "Player-4618-00EB40D8",
+       "specIconID": 626006,
+       "totalAmount": 374
+      }
+     ],
+     "durationSeconds": 90,
+     "maxAmount": 374,
+     "totalAmount": 374
+    },
+    "Hps": {
+     "combatSources": [
+      {
+       "amountPerSecond": 4.155555555555556,
+       "classFilename": "SHAMAN",
+       "classification": "",
+       "deathRecapID": 0,
+       "deathTimeSeconds": 0,
+       "isLocalPlayer": true,
+       "name": "Uglaz Doomaxe",
+       "sourceDisplayType": 0,
+       "sourceGUID": "Player-4618-00EB40D8",
+       "specIconID": 626006,
+       "totalAmount": 374
+      }
+     ],
+     "durationSeconds": 90,
+     "maxAmount": 374,
+     "totalAmount": 374
+    },
+    "Interrupts": {
+     "combatSources": {},
+     "durationSeconds": 90,
+     "maxAmount": 0,
+     "totalAmount": 0
+    }
+   },
+   "duration": {
+    "a": [
+     90
+    ],
+    "n": 1
+   },
+   "gameTime": 1053015.27,
+   "inCombat": false,
+   "reason": "PLAYER_REGEN_ENABLED",
+   "sessions": {
+    "a": [
+     [
+      {
+       "durationSeconds": 1,
+       "name": "Elder Mottled Boar",
+       "sessionID": 1
+      },
+      {
+       "durationSeconds": 15,
+       "name": "Greater Plainstrider",
+       "sessionID": 2
+      },
+      {
+       "durationSeconds": 229,
+       "name": "Greater Plainstrider",
+       "sessionID": 3
+      },
+      {
+       "durationSeconds": 79,
+       "name": "Greater Plainstrider",
+       "sessionID": 4
+      },
+      {
+       "durationSeconds": 3,
+       "name": "Savannah Huntress",
+       "sessionID": 5
+      },
+      {
+       "durationSeconds": 1,
+       "name": "Savannah Huntress",
+       "sessionID": 6
+      },
+      {
+       "durationSeconds": 12,
+       "name": "Savannah Highmane",
+       "sessionID": 7
+      },
+      {
+       "durationSeconds": 16,
+       "name": "Savannah Huntress",
+       "sessionID": 8
+      },
+      {
+       "durationSeconds": 126,
+       "name": "Savannah Huntress",
+       "sessionID": 9
+      },
+      {
+       "durationSeconds": 34,
+       "name": "Savannah Huntress",
+       "sessionID": 10
+      },
+      {
+       "durationSeconds": 6,
+       "name": "Savannah Huntress",
+       "sessionID": 11
+      },
+      {
+       "durationSeconds": 126,
+       "name": "Savannah Highmane",
+       "sessionID": 12
+      },
+      {
+       "durationSeconds": 47,
+       "name": "Savannah Huntress",
+       "sessionID": 13
+      },
+      {
+       "durationSeconds": 90,
+       "name": "Savannah Huntress",
+       "sessionID": 14
+      }
+     ]
+    ],
+    "n": 1
+   },
+   "time": 1791425042
+  },
+  {
+   "available": {
+    "a": [
+     true,
+     ""
+    ],
+    "n": 2
+   },
+   "byType": {
+    "Absorbs": {
+     "combatSources": {},
+     "durationSeconds": 89,
+     "maxAmount": 0,
+     "totalAmount": 0
+    },
+    "AvoidableDamageTaken": {
+     "combatSources": {},
+     "durationSeconds": 89,
+     "maxAmount": 0,
+     "totalAmount": 0
+    },
+    "DamageDone": {
+     "combatSources": [
+      {
+       "amountPerSecond": 4.50561797752809,
+       "classFilename": "SHAMAN",
+       "classification": "",
+       "deathRecapID": 0,
+       "deathTimeSeconds": 0,
+       "isLocalPlayer": true,
+       "name": "Uglaz Doomaxe",
+       "sourceDisplayType": 0,
+       "sourceGUID": "Player-4618-00EB40D8",
+       "specIconID": 626006,
+       "totalAmount": 401
+      }
+     ],
+     "durationSeconds": 89,
+     "maxAmount": 401,
+     "totalAmount": 401
+    },
+    "DamageTaken": {
+     "combatSources": [
+      {
+       "amountPerSecond": 5.370786516853933,
+       "classFilename": "SHAMAN",
+       "classification": "",
+       "deathRecapID": 0,
+       "deathTimeSeconds": 0,
+       "isLocalPlayer": true,
+       "name": "Uglaz Doomaxe",
+       "sourceDisplayType": 0,
+       "sourceGUID": "Player-4618-00EB40D8",
+       "specIconID": 626006,
+       "totalAmount": 478
+      }
+     ],
+     "durationSeconds": 89,
+     "maxAmount": 478,
+     "totalAmount": 478
+    },
+    "Deaths": {
+     "combatSources": {},
+     "durationSeconds": 89,
+     "maxAmount": 0,
+     "totalAmount": 0
+    },
+    "Dispels": {
+     "combatSources": {},
+     "durationSeconds": 89,
+     "maxAmount": 0,
+     "totalAmount": 0
+    },
+    "Dps": {
+     "combatSources": [
+      {
+       "amountPerSecond": 4.50561797752809,
+       "classFilename": "SHAMAN",
+       "classification": "",
+       "deathRecapID": 0,
+       "deathTimeSeconds": 0,
+       "isLocalPlayer": true,
+       "name": "Uglaz Doomaxe",
+       "sourceDisplayType": 0,
+       "sourceGUID": "Player-4618-00EB40D8",
+       "specIconID": 626006,
+       "totalAmount": 401
+      }
+     ],
+     "durationSeconds": 89,
+     "maxAmount": 401,
+     "totalAmount": 401
+    },
+    "EnemyDamageTaken": {
+     "combatSources": [
+      {
+       "amountPerSecond": 4.50561797752809,
+       "classFilename": "",
+       "classification": "normal",
+       "deathRecapID": 0,
+       "deathTimeSeconds": 0,
+       "isLocalPlayer": false,
+       "name": "Savannah Huntress",
+       "sourceCreatureID": 3415,
+       "sourceDisplayType": 0,
+       "totalAmount": 401
+      }
+     ],
+     "durationSeconds": 89,
+     "maxAmount": 401,
+     "totalAmount": 401
+    },
+    "HealingDone": {
+     "combatSources": [
+      {
+       "amountPerSecond": 4.337078651685394,
+       "classFilename": "SHAMAN",
+       "classification": "",
+       "deathRecapID": 0,
+       "deathTimeSeconds": 0,
+       "isLocalPlayer": true,
+       "name": "Uglaz Doomaxe",
+       "sourceDisplayType": 0,
+       "sourceGUID": "Player-4618-00EB40D8",
+       "specIconID": 626006,
+       "totalAmount": 386
+      }
+     ],
+     "durationSeconds": 89,
+     "maxAmount": 386,
+     "totalAmount": 386
+    },
+    "Hps": {
+     "combatSources": [
+      {
+       "amountPerSecond": 4.337078651685394,
+       "classFilename": "SHAMAN",
+       "classification": "",
+       "deathRecapID": 0,
+       "deathTimeSeconds": 0,
+       "isLocalPlayer": true,
+       "name": "Uglaz Doomaxe",
+       "sourceDisplayType": 0,
+       "sourceGUID": "Player-4618-00EB40D8",
+       "specIconID": 626006,
+       "totalAmount": 386
+      }
+     ],
+     "durationSeconds": 89,
+     "maxAmount": 386,
+     "totalAmount": 386
+    },
+    "Interrupts": {
+     "combatSources": {},
+     "durationSeconds": 89,
+     "maxAmount": 0,
+     "totalAmount": 0
+    }
+   },
+   "duration": {
+    "a": [
+     89
+    ],
+    "n": 1
+   },
+   "gameTime": 1053024.418,
+   "inCombat": false,
+   "reason": "stop",
+   "sessions": {
+    "a": [
+     [
+      {
+       "durationSeconds": 1,
+       "name": "Elder Mottled Boar",
+       "sessionID": 1
+      },
+      {
+       "durationSeconds": 15,
+       "name": "Greater Plainstrider",
+       "sessionID": 2
+      },
+      {
+       "durationSeconds": 229,
+       "name": "Greater Plainstrider",
+       "sessionID": 3
+      },
+      {
+       "durationSeconds": 79,
+       "name": "Greater Plainstrider",
+       "sessionID": 4
+      },
+      {
+       "durationSeconds": 3,
+       "name": "Savannah Huntress",
+       "sessionID": 5
+      },
+      {
+       "durationSeconds": 1,
+       "name": "Savannah Huntress",
+       "sessionID": 6
+      },
+      {
+       "durationSeconds": 12,
+       "name": "Savannah Highmane",
+       "sessionID": 7
+      },
+      {
+       "durationSeconds": 16,
+       "name": "Savannah Huntress",
+       "sessionID": 8
+      },
+      {
+       "durationSeconds": 126,
+       "name": "Savannah Huntress",
+       "sessionID": 9
+      },
+      {
+       "durationSeconds": 34,
+       "name": "Savannah Huntress",
+       "sessionID": 10
+      },
+      {
+       "durationSeconds": 6,
+       "name": "Savannah Huntress",
+       "sessionID": 11
+      },
+      {
+       "durationSeconds": 126,
+       "name": "Savannah Highmane",
+       "sessionID": 12
+      },
+      {
+       "durationSeconds": 47,
+       "name": "Savannah Huntress",
+       "sessionID": 13
+      },
+      {
+       "durationSeconds": 89,
+       "name": "Savannah Huntress",
+       "sessionID": 14
+      }
+     ]
+    ],
+    "n": 1
+   },
+   "time": 1791425051
+  }
+ ],
+ "endedBy": "off",
+ "events": [
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052909.091
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052911.022
+  },
+  {
+   "a": {},
+   "e": "PLAYER_TARGET_CHANGED",
+   "n": 0,
+   "t": 1052912.376
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052913.126
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052915.085
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052917.168
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052919.189
+  },
+  {
+   "a": {},
+   "e": "PLAYER_TARGET_CHANGED",
+   "n": 0,
+   "t": 1052920.626
+  },
+  {
+   "a": {},
+   "e": "PLAYER_TARGET_CHANGED",
+   "n": 0,
+   "t": 1052920.647
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052921.21
+  },
+  {
+   "a": {},
+   "e": "PLAYER_TARGET_CHANGED",
+   "n": 0,
+   "t": 1052923.21
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052923.21
+  },
+  {
+   "a": [
+    3.300000190734863,
+    0
+   ],
+   "e": "PLAYER_SWING",
+   "n": 2,
+   "range": {
+    "MainHand": "<nil>",
+    "OffHand": "<nil>",
+    "Ranged": "<nil>"
+   },
+   "t": 1052924.856
+  },
+  {
+   "a": {},
+   "ctx": true,
+   "e": "PLAYER_REGEN_DISABLED",
+   "epoch": 1791424951,
+   "n": 0,
+   "restricted": true,
+   "restrictions": {
+    "ChallengeMode": 0,
+    "Chat": 0,
+    "Combat": 0,
+    "Encounter": 0,
+    "Map": 0,
+    "PvPMatch": 0
+   },
+   "t": 1052924.856
+  },
+  {
+   "a": [
+    0,
+    1
+   ],
+   "ctx": true,
+   "e": "ADDON_RESTRICTION_STATE_CHANGED",
+   "epoch": 1791424951,
+   "n": 2,
+   "t": 1052924.856
+  },
+  {
+   "a": [
+    "player",
+    {
+     "addedAuras": "<secrettable>",
+     "isFullUpdate": "<secret>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052924.856
+  },
+  {
+   "a": [
+    "targettarget",
+    {
+     "addedAuras": "<secrettable>",
+     "isFullUpdate": "<secret>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052924.856
+  },
+  {
+   "a": [
+    0,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052924.856
+  },
+  {
+   "a": [
+    1,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052924.856
+  },
+  {
+   "a": [
+    0,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052924.856
+  },
+  {
+   "a": [
+    1,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052924.856
+  },
+  {
+   "a": [
+    10,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052924.856
+  },
+  {
+   "a": [
+    10,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052924.856
+  },
+  {
+   "a": {},
+   "c": true,
+   "e": "DAMAGE_METER_CURRENT_SESSION_UPDATED",
+   "n": 0,
+   "t": 1052924.856
+  },
+  {
+   "a": [
+    "nameplate1"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052924.856
+  },
+  {
+   "a": [
+    "target"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052924.856
+  },
+  {
+   "a": [
+    "player",
+    "MISS",
+    "",
+    0,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052925.275
+  },
+  {
+   "a": [
+    "targettarget",
+    "MISS",
+    "",
+    0,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052925.275
+  },
+  {
+   "a": [
+    "nameplate1",
+    "WOUND",
+    "CRITICAL",
+    259,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052925.317
+  },
+  {
+   "a": [
+    "target",
+    "WOUND",
+    "CRITICAL",
+    259,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052925.317
+  },
+  {
+   "a": {},
+   "c": true,
+   "e": "PLAYER_TARGET_CHANGED",
+   "n": 0,
+   "t": 1052925.463
+  },
+  {
+   "a": {},
+   "c": true,
+   "e": "PLAYER_TARGET_CHANGED",
+   "n": 0,
+   "t": 1052926.39
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052926.39
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052926.39
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052926.39
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052926.39
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052927.151
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052927.151
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052927.897
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052927.897
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052927.897
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052927.897
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052928.647
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052928.647
+  },
+  {
+   "a": [
+    "player",
+    "MISS",
+    "",
+    0,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052930.064
+  },
+  {
+   "a": [
+    "targettarget",
+    "MISS",
+    "",
+    0,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052930.064
+  },
+  {
+   "a": [
+    "player",
+    "<nil>",
+    "Cast-3-6782-1-545-8177-0008C6F9BE",
+    8177
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SENT",
+   "n": 4,
+   "t": 1052930.522
+  },
+  {
+   "a": [
+    "targettarget",
+    "<nil>",
+    "Cast-3-6782-1-545-8177-0008C6F9BE",
+    8177
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SENT",
+   "n": 4,
+   "t": 1052930.522
+  },
+  {
+   "a": [
+    "player",
+    "Cast-3-6782-1-545-8177-0008C6F9BE",
+    8177,
+    "<nil>"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SUCCEEDED",
+   "n": 4,
+   "t": 1052930.522
+  },
+  {
+   "a": [
+    "targettarget",
+    "Cast-3-6782-1-545-8177-0008C6F9BE",
+    8177,
+    "<nil>"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SUCCEEDED",
+   "n": 4,
+   "t": 1052930.522
+  },
+  {
+   "a": [
+    "player",
+    {
+     "addedAuras": "<secrettable>",
+     "isFullUpdate": "<secret>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052930.522
+  },
+  {
+   "a": [
+    "targettarget",
+    {
+     "addedAuras": "<secrettable>",
+     "isFullUpdate": "<secret>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052930.522
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052930.893
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052930.893
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052930.893
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052930.893
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052931.654
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052931.654
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052932.405
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052932.405
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052932.405
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052932.405
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052933.178
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052933.178
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052933.915
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052933.915
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052933.915
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052933.915
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052934.666
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052934.666
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052935.38
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052935.38
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052935.38
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052935.38
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052935.827
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052935.827
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052936.915
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052936.915
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052936.915
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052936.915
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052937.344
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052937.344
+  },
+  {
+   "a": [
+    "player",
+    "<nil>",
+    "Cast-3-6782-1-545-8160-000E46F9C5",
+    8160
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SENT",
+   "n": 4,
+   "t": 1052937.631
+  },
+  {
+   "a": [
+    "targettarget",
+    "<nil>",
+    "Cast-3-6782-1-545-8160-000E46F9C5",
+    8160
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SENT",
+   "n": 4,
+   "t": 1052937.631
+  },
+  {
+   "a": [
+    "player",
+    "Cast-3-6782-1-545-8160-000E46F9C5",
+    8160,
+    "<nil>"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SUCCEEDED",
+   "n": 4,
+   "t": 1052937.631
+  },
+  {
+   "a": [
+    "targettarget",
+    "Cast-3-6782-1-545-8160-000E46F9C5",
+    8160,
+    "<nil>"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SUCCEEDED",
+   "n": 4,
+   "t": 1052937.631
+  },
+  {
+   "a": [
+    "player",
+    {
+     "addedAuras": "<secrettable>",
+     "isFullUpdate": "<secret>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052937.631
+  },
+  {
+   "a": [
+    "targettarget",
+    {
+     "addedAuras": "<secrettable>",
+     "isFullUpdate": "<secret>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052937.631
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052938.429
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052938.429
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052938.429
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052938.429
+  },
+  {
+   "a": [
+    "player",
+    "Savannah Huntress",
+    "Cast-3-6782-1-545-370-0002C6F9C7",
+    370
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SENT",
+   "n": 4,
+   "t": 1052938.979
+  },
+  {
+   "a": [
+    "targettarget",
+    "Savannah Huntress",
+    "Cast-3-6782-1-545-370-0002C6F9C7",
+    370
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SENT",
+   "n": 4,
+   "t": 1052938.979
+  },
+  {
+   "a": [
+    "player",
+    "Cast-3-6782-1-545-370-0002C6F9C7",
+    370,
+    "<nil>"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SUCCEEDED",
+   "n": 4,
+   "t": 1052938.979
+  },
+  {
+   "a": [
+    "targettarget",
+    "Cast-3-6782-1-545-370-0002C6F9C7",
+    370,
+    "<nil>"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SUCCEEDED",
+   "n": 4,
+   "t": 1052938.979
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052939.212
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052939.212
+  },
+  {
+   "a": [
+    "player",
+    {
+     "isFullUpdate": "<secret>",
+     "removedAuraInstanceIDs": "<secrettable>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052939.911
+  },
+  {
+   "a": [
+    "targettarget",
+    {
+     "isFullUpdate": "<secret>",
+     "removedAuraInstanceIDs": "<secrettable>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052939.911
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052939.911
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052939.911
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052939.911
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052939.911
+  },
+  {
+   "a": [
+    "player",
+    {
+     "addedAuras": "<secrettable>",
+     "isFullUpdate": "<secret>",
+     "removedAuraInstanceIDs": "<secrettable>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052940.523
+  },
+  {
+   "a": [
+    "targettarget",
+    {
+     "addedAuras": "<secrettable>",
+     "isFullUpdate": "<secret>",
+     "removedAuraInstanceIDs": "<secrettable>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052940.523
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052940.706
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052940.706
+  },
+  {
+   "a": [
+    "player",
+    "MISS",
+    "",
+    0,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052941.795
+  },
+  {
+   "a": [
+    "targettarget",
+    "MISS",
+    "",
+    0,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052941.795
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052942.896
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052942.896
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052942.896
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052942.896
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052943.664
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052943.664
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052944.425
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052944.425
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052944.425
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052944.425
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052945.172
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052945.172
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052945.891
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052945.891
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052945.891
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052945.891
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052946.652
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052946.652
+  },
+  {
+   "a": [
+    "player",
+    "MISS",
+    "",
+    0,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052948.218
+  },
+  {
+   "a": [
+    "targettarget",
+    "MISS",
+    "",
+    0,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052948.218
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052948.942
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052948.942
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052948.942
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052948.942
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052949.357
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052949.357
+  },
+  {
+   "a": [
+    "player",
+    {
+     "addedAuras": "<secrettable>",
+     "isFullUpdate": "<secret>",
+     "removedAuraInstanceIDs": "<secrettable>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052950.571
+  },
+  {
+   "a": [
+    "targettarget",
+    {
+     "addedAuras": "<secrettable>",
+     "isFullUpdate": "<secret>",
+     "removedAuraInstanceIDs": "<secrettable>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052950.571
+  },
+  {
+   "a": [
+    "player",
+    "Savannah Huntress",
+    "Cast-3-6782-1-545-370-000A46F9D2",
+    370
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SENT",
+   "n": 4,
+   "t": 1052950.732
+  },
+  {
+   "a": [
+    "targettarget",
+    "Savannah Huntress",
+    "Cast-3-6782-1-545-370-000A46F9D2",
+    370
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SENT",
+   "n": 4,
+   "t": 1052950.732
+  },
+  {
+   "a": [
+    "player",
+    "Cast-3-6782-1-545-370-000A46F9D2",
+    370,
+    "<nil>"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SUCCEEDED",
+   "n": 4,
+   "t": 1052950.732
+  },
+  {
+   "a": [
+    "targettarget",
+    "Cast-3-6782-1-545-370-000A46F9D2",
+    370,
+    "<nil>"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SUCCEEDED",
+   "n": 4,
+   "t": 1052950.732
+  },
+  {
+   "a": [
+    "player",
+    "MISS",
+    "",
+    0,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052951.203
+  },
+  {
+   "a": [
+    "targettarget",
+    "MISS",
+    "",
+    0,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052951.203
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052951.978
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052951.978
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052951.978
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052951.978
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052952.682
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052952.682
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052953.481
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052953.481
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052953.481
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052953.481
+  },
+  {
+   "a": [
+    "player",
+    "Savannah Huntress",
+    "Cast-3-6782-1-545-370-000746F9D6",
+    370
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SENT",
+   "n": 4,
+   "t": 1052954.146
+  },
+  {
+   "a": [
+    "targettarget",
+    "Savannah Huntress",
+    "Cast-3-6782-1-545-370-000746F9D6",
+    370
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SENT",
+   "n": 4,
+   "t": 1052954.146
+  },
+  {
+   "a": [
+    "player",
+    "Cast-3-6782-1-545-370-000746F9D6",
+    370,
+    "<nil>"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SUCCEEDED",
+   "n": 4,
+   "t": 1052954.146
+  },
+  {
+   "a": [
+    "targettarget",
+    "Cast-3-6782-1-545-370-000746F9D6",
+    370,
+    "<nil>"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SUCCEEDED",
+   "n": 4,
+   "t": 1052954.146
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052954.187
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052954.187
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052954.976
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052954.976
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052954.976
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052954.976
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052955.396
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052955.396
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052956.427
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052956.427
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052956.427
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052956.427
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052956.86
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052956.86
+  },
+  {
+   "a": [
+    "player",
+    "MISS",
+    "",
+    0,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052958.397
+  },
+  {
+   "a": [
+    "targettarget",
+    "MISS",
+    "",
+    0,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052958.397
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052959.529
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052959.529
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052959.529
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052959.529
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052959.938
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052959.938
+  },
+  {
+   "a": [
+    "player",
+    {
+     "addedAuras": "<secrettable>",
+     "isFullUpdate": "<secret>",
+     "removedAuraInstanceIDs": "<secrettable>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052960.555
+  },
+  {
+   "a": [
+    "targettarget",
+    {
+     "addedAuras": "<secrettable>",
+     "isFullUpdate": "<secret>",
+     "removedAuraInstanceIDs": "<secrettable>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052960.555
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052960.989
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052960.989
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052960.989
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052960.989
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052961.404
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052961.404
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052962.491
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052962.491
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052962.491
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052962.491
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052963.24
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052963.24
+  },
+  {
+   "a": [
+    "player",
+    "<nil>",
+    "Cast-3-6782-1-545-6375-0013C6F9DF",
+    6375
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SENT",
+   "n": 4,
+   "t": 1052963.682
+  },
+  {
+   "a": [
+    "targettarget",
+    "<nil>",
+    "Cast-3-6782-1-545-6375-0013C6F9DF",
+    6375
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SENT",
+   "n": 4,
+   "t": 1052963.682
+  },
+  {
+   "a": [
+    "player",
+    "Cast-3-6782-1-545-6375-0013C6F9DF",
+    6375,
+    "<nil>"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SUCCEEDED",
+   "n": 4,
+   "t": 1052963.682
+  },
+  {
+   "a": [
+    "targettarget",
+    "Cast-3-6782-1-545-6375-0013C6F9DF",
+    6375,
+    "<nil>"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SUCCEEDED",
+   "n": 4,
+   "t": 1052963.682
+  },
+  {
+   "a": [
+    "player",
+    {
+     "addedAuras": "<secrettable>",
+     "isFullUpdate": "<secret>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052963.682
+  },
+  {
+   "a": [
+    "targettarget",
+    {
+     "addedAuras": "<secrettable>",
+     "isFullUpdate": "<secret>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052963.682
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052964.005
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052964.005
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052964.005
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052964.005
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052964.423
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052964.423
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052965.502
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052965.502
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052965.502
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052965.502
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052965.817
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052965.817
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052965.817
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052965.817
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052965.817
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052965.817
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052965.817
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052965.817
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052965.922
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052965.922
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052966.947
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052966.947
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052966.947
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052966.947
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052967.706
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052967.706
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052967.747
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052967.747
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052967.747
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052967.747
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052967.747
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052967.747
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052967.747
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052967.747
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052968.508
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052968.508
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052968.508
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052968.508
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052968.852
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052968.852
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "CRITICAL",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052969.787
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "CRITICAL",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052969.787
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052969.787
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052969.787
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052969.787
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052969.787
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052969.787
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052969.787
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052970.008
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052970.008
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052970.008
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052970.008
+  },
+  {
+   "a": [
+    "player",
+    {
+     "addedAuras": "<secrettable>",
+     "isFullUpdate": "<secret>",
+     "removedAuraInstanceIDs": "<secrettable>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052970.587
+  },
+  {
+   "a": [
+    "targettarget",
+    {
+     "addedAuras": "<secrettable>",
+     "isFullUpdate": "<secret>",
+     "removedAuraInstanceIDs": "<secrettable>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052970.587
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052970.805
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052970.805
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052971.463
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052971.463
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052971.526
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052971.526
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052971.744
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052971.744
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052971.744
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052971.744
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052971.744
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052971.744
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052971.744
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052971.744
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052971.806
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052971.806
+  },
+  {
+   "a": [
+    "player",
+    "<nil>",
+    "Cast-3-6782-1-545-6391-000AC6F9E8",
+    6391
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SENT",
+   "n": 4,
+   "t": 1052972.56
+  },
+  {
+   "a": [
+    "targettarget",
+    "<nil>",
+    "Cast-3-6782-1-545-6391-000AC6F9E8",
+    6391
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SENT",
+   "n": 4,
+   "t": 1052972.56
+  },
+  {
+   "a": [
+    "player",
+    "Cast-3-6782-1-545-6391-000AC6F9E8",
+    6391,
+    "<nil>"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SUCCEEDED",
+   "n": 4,
+   "t": 1052972.56
+  },
+  {
+   "a": [
+    "targettarget",
+    "Cast-3-6782-1-545-6391-000AC6F9E8",
+    6391,
+    "<nil>"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SUCCEEDED",
+   "n": 4,
+   "t": 1052972.56
+  },
+  {
+   "a": [
+    "player",
+    {
+     "isFullUpdate": "<secret>",
+     "removedAuraInstanceIDs": "<secrettable>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052972.56
+  },
+  {
+   "a": [
+    "targettarget",
+    {
+     "isFullUpdate": "<secret>",
+     "removedAuraInstanceIDs": "<secrettable>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052972.56
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052973.017
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052973.017
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052973.017
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052973.017
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052973.434
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052973.434
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052973.826
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052973.826
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052973.826
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052973.826
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052973.826
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052973.826
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052973.826
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052973.826
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052974.507
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052974.507
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052974.507
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052974.507
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052974.941
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052974.941
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052975.756
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052975.756
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052975.756
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052975.756
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052975.756
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052975.756
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052975.756
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052975.756
+  },
+  {
+   "a": [
+    "player",
+    {
+     "isFullUpdate": "<secret>",
+     "removedAuraInstanceIDs": "<secrettable>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052975.9
+  },
+  {
+   "a": [
+    "targettarget",
+    {
+     "isFullUpdate": "<secret>",
+     "removedAuraInstanceIDs": "<secrettable>"
+    }
+   ],
+   "c": true,
+   "e": "UNIT_AURA",
+   "n": 2,
+   "t": 1052975.9
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052976.109
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052976.109
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052976.109
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052976.109
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052976.524
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052976.524
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052977.442
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052977.442
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052977.442
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052977.442
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052977.772
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052977.772
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052977.772
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052977.772
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052977.772
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052977.772
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052977.772
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052977.772
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052977.856
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052977.856
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052979.016
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052979.016
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052979.057
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052979.057
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052979.669
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052979.669
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052979.855
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052979.855
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052979.855
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052979.855
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052979.855
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052979.855
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052979.855
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052979.855
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052980.523
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052980.523
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052980.523
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052980.523
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    8,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052981.16
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    8,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052981.16
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052981.806
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052981.806
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052981.806
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052981.806
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052981.806
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052981.806
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052981.806
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052981.806
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052982.071
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052982.071
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052982.071
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052982.071
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    8,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052982.707
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    8,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052982.707
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052983.514
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052983.734
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052983.734
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052983.734
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052983.734
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052983.734
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052983.734
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    7,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052983.867
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052985.162
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    7,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052985.561
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052985.686
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052985.686
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052985.686
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052985.686
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052985.686
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052985.686
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052986.616
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    8,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052987.221
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052987.839
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052987.839
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052987.839
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052987.839
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052987.839
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052987.839
+  },
+  {
+   "a": [
+    "player",
+    "DODGE",
+    "",
+    0,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052988.695
+  },
+  {
+   "a": [
+    "targettarget",
+    "DODGE",
+    "",
+    0,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052988.695
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052989.563
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052989.563
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052989.563
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052989.563
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052989.749
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052989.749
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052989.749
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052989.749
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052989.749
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052989.749
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052989.749
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052989.749
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052989.996
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052989.996
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052991.179
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052991.179
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052991.179
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052991.179
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    8,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052991.608
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    8,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052991.608
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052991.818
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052991.818
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052991.818
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052991.818
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052991.818
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052991.818
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052991.818
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052991.818
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052992.651
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052992.651
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052992.651
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052992.651
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052993.296
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052993.296
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052993.737
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052993.737
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052993.737
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052993.737
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052993.737
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052993.737
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052993.737
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052993.737
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052994.117
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052994.117
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052994.117
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052994.117
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052994.533
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052994.533
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052995.602
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052995.602
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052995.602
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052995.602
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052995.791
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052995.791
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052995.791
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052995.791
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052995.791
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052995.791
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052995.791
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052995.791
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    8,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052996.019
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    8,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052996.019
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052997.068
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052997.068
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052997.068
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052997.068
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052997.485
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052997.485
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052997.735
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052997.735
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052997.735
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052997.735
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052997.735
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052997.735
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052997.735
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052997.735
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052998.592
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052998.592
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052998.592
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052998.592
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052999.008
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052999.008
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052999.761
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1052999.761
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052999.761
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052999.761
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052999.761
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1052999.761
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052999.761
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1052999.761
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053000.01
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053000.01
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053000.01
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053000.01
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053000.435
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053000.435
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053001.644
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053001.644
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053001.644
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053001.644
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053001.854
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053001.854
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053001.854
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053001.854
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053001.854
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053001.854
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053001.854
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053001.854
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053002.292
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053002.292
+  },
+  {
+   "a": [
+    "player",
+    "Uglaz Doomaxe",
+    "Cast-3-6782-1-545-8008-000146FA07",
+    8008
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SENT",
+   "n": 4,
+   "t": 1053002.893
+  },
+  {
+   "a": [
+    "targettarget",
+    "Uglaz Doomaxe",
+    "Cast-3-6782-1-545-8008-000146FA07",
+    8008
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SENT",
+   "n": 4,
+   "t": 1053002.893
+  },
+  {
+   "a": [
+    "player",
+    "Cast-3-6782-1-545-8008-000146FA07",
+    8008,
+    "CastBar-E8E12DA368187959"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_START",
+   "n": 4,
+   "t": 1053002.893
+  },
+  {
+   "a": [
+    "targettarget",
+    "Cast-3-6782-1-545-8008-000146FA07",
+    8008,
+    "CastBar-DB717B9084BAD8D9"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_START",
+   "n": 4,
+   "t": 1053002.893
+  },
+  {
+   "a": [
+    "player",
+    "Cast-3-6782-1-545-8008-000146FA07",
+    8008,
+    "CastBar-E8E12DA368187959"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_DELAYED",
+   "n": 4,
+   "t": 1053003.114
+  },
+  {
+   "a": [
+    "targettarget",
+    "Cast-3-6782-1-545-8008-000146FA07",
+    8008,
+    "CastBar-DB717B9084BAD8D9"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_DELAYED",
+   "n": 4,
+   "t": 1053003.114
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053003.114
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053003.114
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053003.114
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053003.114
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    8,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053003.513
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    8,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053003.513
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053003.741
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053003.741
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053003.741
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053003.741
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053003.741
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053003.741
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053003.741
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053003.741
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    221,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053004.611
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    221,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053004.611
+  },
+  {
+   "a": [
+    "player",
+    "Cast-3-6782-1-545-8008-000146FA07",
+    8008,
+    "CastBar-E8E12DA368187959"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SUCCEEDED",
+   "n": 4,
+   "t": 1053004.611
+  },
+  {
+   "a": [
+    "targettarget",
+    "Cast-3-6782-1-545-8008-000146FA07",
+    8008,
+    "CastBar-DB717B9084BAD8D9"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_SUCCEEDED",
+   "n": 4,
+   "t": 1053004.611
+  },
+  {
+   "a": [
+    "player",
+    "Cast-3-6782-1-545-8008-000146FA07",
+    8008,
+    "CastBar-E8E12DA368187959"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_STOP",
+   "n": 4,
+   "t": 1053004.611
+  },
+  {
+   "a": [
+    "targettarget",
+    "Cast-3-6782-1-545-8008-000146FA07",
+    8008,
+    "CastBar-DB717B9084BAD8D9"
+   ],
+   "c": true,
+   "e": "UNIT_SPELLCAST_STOP",
+   "n": 4,
+   "t": 1053004.611
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053004.611
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053004.611
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053004.611
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053004.611
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053004.611
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053004.611
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053004.611
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053004.611
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053005.027
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053005.027
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053005.817
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053005.817
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053005.817
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053005.817
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053005.817
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053005.817
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053005.817
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053005.817
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053006.036
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053006.036
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053006.036
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053006.036
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    8,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053006.335
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    8,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053006.335
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053007.791
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053007.791
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053007.791
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053007.791
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053007.791
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053007.791
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053007.791
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053007.791
+  },
+  {
+   "a": [
+    "player",
+    "MISS",
+    "",
+    0,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053008.425
+  },
+  {
+   "a": [
+    "targettarget",
+    "MISS",
+    "",
+    0,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053008.425
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053009.193
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053009.193
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053009.193
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053009.193
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053009.889
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053009.889
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053009.889
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053009.889
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053009.889
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053009.889
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053009.889
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053009.889
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053009.889
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    10,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053009.889
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053010.671
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053010.671
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053010.671
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053010.671
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    8,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053011.443
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    8,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053011.443
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053011.823
+  },
+  {
+   "a": [
+    "targettarget",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053011.823
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053011.823
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053011.823
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053011.823
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053011.823
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053011.823
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053011.823
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053012.204
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053012.204
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053012.204
+  },
+  {
+   "a": [
+    "targettarget"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053012.204
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053012.883
+  },
+  {
+   "a": [
+    "targettarget",
+    "WOUND",
+    "",
+    9,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053012.883
+  },
+  {
+   "a": {},
+   "c": true,
+   "e": "PLAYER_TARGET_CHANGED",
+   "n": 0,
+   "t": 1053013.509
+  },
+  {
+   "a": [
+    3.300000190734863,
+    0
+   ],
+   "c": true,
+   "e": "PLAYER_SWING",
+   "n": 2,
+   "range": {
+    "MainHand": "<nil>",
+    "OffHand": "<nil>",
+    "Ranged": "<nil>"
+   },
+   "t": 1053013.72
+  },
+  {
+   "a": [
+    "Creature-0-6782-1-545-3415-000046F46E"
+   ],
+   "c": true,
+   "e": "UNIT_DIED",
+   "n": 1,
+   "t": 1053013.72
+  },
+  {
+   "a": {},
+   "c": true,
+   "e": "PLAYER_TARGET_CHANGED",
+   "n": 0,
+   "t": 1053013.72
+  },
+  {
+   "a": [
+    7,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053013.72
+  },
+  {
+   "a": [
+    7,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053013.72
+  },
+  {
+   "a": [
+    0,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053013.72
+  },
+  {
+   "a": [
+    1,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053013.72
+  },
+  {
+   "a": [
+    0,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053013.72
+  },
+  {
+   "a": [
+    1,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053013.72
+  },
+  {
+   "a": [
+    10,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053013.72
+  },
+  {
+   "a": [
+    10,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053013.72
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053013.72
+  },
+  {
+   "a": [
+    "nameplate1"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053013.72
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053013.741
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053013.741
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053013.741
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053013.741
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "c": true,
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053013.741
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "c": true,
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053013.741
+  },
+  {
+   "a": [
+    "player",
+    "WOUND",
+    "",
+    11,
+    1
+   ],
+   "c": true,
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053014.601
+  },
+  {
+   "a": [
+    0,
+    0
+   ],
+   "ctx": true,
+   "e": "ADDON_RESTRICTION_STATE_CHANGED",
+   "epoch": 1791425041,
+   "n": 2,
+   "t": 1053014.768
+  },
+  {
+   "a": {},
+   "ctx": true,
+   "e": "PLAYER_REGEN_ENABLED",
+   "epoch": 1791425041,
+   "n": 0,
+   "restricted": true,
+   "restrictions": {
+    "ChallengeMode": 0,
+    "Chat": 0,
+    "Combat": 0,
+    "Encounter": 0,
+    "Map": 0,
+    "PvPMatch": 0
+   },
+   "t": 1053014.768
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053015.82
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053015.82
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053015.82
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053015.82
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053015.82
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053015.82
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053016.445
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053017.726
+  },
+  {
+   "a": [
+    2,
+    14
+   ],
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053017.726
+  },
+  {
+   "a": [
+    3,
+    14
+   ],
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053017.726
+  },
+  {
+   "a": [
+    2,
+    0
+   ],
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053017.726
+  },
+  {
+   "a": [
+    3,
+    0
+   ],
+   "e": "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+   "n": 2,
+   "t": 1053017.726
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053017.726
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053018.369
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053019.756
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053019.756
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053020.395
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053021.798
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053021.798
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053022.554
+  },
+  {
+   "a": [
+    "player",
+    "HEAL",
+    "",
+    6,
+    1
+   ],
+   "e": "UNIT_COMBAT",
+   "n": 5,
+   "t": 1053023.796
+  },
+  {
+   "a": [
+    "player"
+   ],
+   "e": "UNIT_HEALTH",
+   "n": 1,
+   "t": 1053023.796
+  }
+ ],
+ "fileLogging": {
+  "requested": false
+ },
+ "instanceAtStart": {
+  "difficultyID": 0,
+  "difficultyName": "",
+  "dynamicDifficulty": 0,
+  "instanceGroupSize": 0,
+  "instanceID": 1,
+  "instanceType": "none",
+  "isDynamic": false,
+  "lfgDungeonID": "<nil>",
+  "maxPlayers": 0,
+  "name": "Kalimdor"
+ },
+ "kept": 635,
+ "kind": "combat",
+ "meta": {
+  "addonVersion": "2.2.1",
+  "build": "70245",
+  "buildDate": "Oct  5 2026",
+  "date": "2026-10-07 22:02:15",
+  "inCombat": false,
+  "locale": "enUS",
+  "projectConstants": {
+   "WOW_PROJECT_CAMELOT": 18,
+   "WOW_PROJECT_CLASSIC": 2,
+   "WOW_PROJECT_ID": 18,
+   "WOW_PROJECT_MAINLINE": 1
+  },
+  "projectID": 18,
+  "projectName": "WOW_PROJECT_CAMELOT",
+  "schemaVersion": 2,
+  "scriptsDisallowedForBeta": false,
+  "time": 1791424935,
+  "toc": 16001,
+  "version": "1.60.1"
+ },
+ "notAvailable": {},
+ "overwritten": 0,
+ "playerGUID": "Player-4618-00EB40D8",
+ "registerFailed": {},
+ "registered": [
+  "UNIT_COMBAT",
+  "PLAYER_SWING",
+  "PLAYER_SWING_RANGE_UPDATE",
+  "COMBAT_TEXT_UPDATE",
+  "DAMAGE_METER_COMBAT_SESSION_UPDATED",
+  "DAMAGE_METER_CURRENT_SESSION_UPDATED",
+  "DAMAGE_METER_RESET",
+  "UNIT_HEALTH",
+  "UNIT_MAXHEALTH",
+  "UNIT_ABSORB_AMOUNT_CHANGED",
+  "UNIT_AURA",
+  "UNIT_DIED",
+  "PLAYER_TARGET_CHANGED",
+  "ENCOUNTER_START",
+  "ENCOUNTER_END",
+  "PLAYER_REGEN_DISABLED",
+  "PLAYER_REGEN_ENABLED",
+  "ZONE_CHANGED_NEW_AREA",
+  "PLAYER_ENTERING_WORLD",
+  "CHALLENGE_MODE_START",
+  "CHALLENGE_MODE_COMPLETED",
+  "PLAYER_DEAD",
+  "INSTANCE_ENCOUNTER_ENGAGE_UNIT",
+  "ADDON_RESTRICTION_STATE_CHANGED",
+  "COMBAT_LOG_ENTRIES_CLEARED",
+  "UNIT_SPELLCAST_CHANNEL_START",
+  "UNIT_SPELLCAST_CHANNEL_STOP",
+  "UNIT_SPELLCAST_CHANNEL_UPDATE",
+  "UNIT_SPELLCAST_DELAYED",
+  "UNIT_SPELLCAST_EMPOWER_START",
+  "UNIT_SPELLCAST_EMPOWER_STOP",
+  "UNIT_SPELLCAST_EMPOWER_UPDATE",
+  "UNIT_SPELLCAST_FAILED",
+  "UNIT_SPELLCAST_FAILED_QUIET",
+  "UNIT_SPELLCAST_INTERRUPTED",
+  "UNIT_SPELLCAST_INTERRUPTIBLE",
+  "UNIT_SPELLCAST_NOT_INTERRUPTIBLE",
+  "UNIT_SPELLCAST_RETICLE_CLEAR",
+  "UNIT_SPELLCAST_RETICLE_TARGET",
+  "UNIT_SPELLCAST_SENT",
+  "UNIT_SPELLCAST_START",
+  "UNIT_SPELLCAST_STOP",
+  "UNIT_SPELLCAST_SUCCEEDED"
+ ],
+ "restrictedAtStart": true,
+ "restrictedAtStop": true,
+ "restrictionsAtStart": {
+  "ChallengeMode": 0,
+  "Chat": 0,
+  "Combat": 0,
+  "Encounter": 0,
+  "Map": 0,
+  "PvPMatch": 0
+ },
+ "restrictionsAtStop": {
+  "ChallengeMode": 0,
+  "Chat": 0,
+  "Combat": 0,
+  "Encounter": 0,
+  "Map": 0,
+  "PvPMatch": 0
+ },
+ "secretEntries": 0,
+ "sid": "cl-20261007220215-7",
+ "startEpoch": 1791424935,
+ "startTime": 1052908.534,
+ "stopEpoch": 1791425051,
+ "stopTime": 1053024.418,
+ "total": 635,
+ "utcOffsetSec": -14400
+}

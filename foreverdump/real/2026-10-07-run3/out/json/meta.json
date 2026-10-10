@@ -1,0 +1,322 @@
+{
+ "config": {
+  "cl": {
+   "advanced": true,
+   "damageMeter": true,
+   "maxArgs": 40,
+   "maxEvents": 20000,
+   "maxSessions": 3,
+   "maxString": 200,
+   "redactPlayers": false
+  },
+  "combatProbe": {
+   "dispelSpells": [
+    4987,
+    527,
+    475,
+    2782,
+    8946,
+    51886,
+    77130,
+    88423,
+    115450,
+    2908
+   ],
+   "enabled": true,
+   "maxCells": 4000,
+   "maxRunsPerCapture": 80,
+   "minInterval": 3,
+   "nameplates": 3
+  },
+  "configVersion": 22,
+  "dump": {
+   "full": false
+  },
+  "errors": {
+   "captureLocals": true,
+   "enabled": true,
+   "maxBlocked": 500,
+   "maxErrors": 200,
+   "maxLocals": 4000,
+   "maxStack": 4000
+  },
+  "frameBudgetMs": 12,
+  "hsm": {
+   "autoShow": true,
+   "enabled": true,
+   "maxSignals": 3000,
+   "signals": true,
+   "updateInterval": 0.2,
+   "window": 0.6
+  },
+  "knowledge": {
+   "enabled": true,
+   "maxSpells": 150,
+   "spellsPerTick": 8
+  },
+  "lab": {
+   "auto": true,
+   "poll": false,
+   "pollInterval": 0.5
+  },
+  "logs": {
+   "advanced": true,
+   "autoReload": true,
+   "callLogging": false,
+   "chat": true,
+   "combat": true,
+   "combatProbe": true,
+   "errors": true,
+   "fullDump": true,
+   "probe": true,
+   "profile": true,
+   "recorder": true,
+   "scriptErrors": true,
+   "sweep": true,
+   "taintLog": 1
+  },
+  "probe": {
+   "achievements": [
+    6,
+    7
+   ],
+   "currencies": [
+    1,
+    81,
+    1792
+   ],
+   "items": [
+    6948,
+    2589,
+    118,
+    25,
+    2070,
+    159
+   ],
+   "maxAuras": 40,
+   "quests": [
+    783,
+    7,
+    33
+   ],
+   "redactPlayers": true,
+   "spells": [
+    6603,
+    8690,
+    133,
+    2050,
+    1459,
+    78,
+    465,
+    1752
+   ],
+   "units": [
+    "player",
+    "target",
+    "focus",
+    "pet",
+    "mouseover",
+    "party1"
+   ]
+  },
+  "progressEverySec": 2,
+  "record": {
+   "callbackEvents": [
+    "Tooltip.OnShown",
+    "Tooltip.OnHidden",
+    "ActionButton.OnActionChanged",
+    "UIParentPanelManager.ShowUIPanel",
+    "UIParentPanelManager.HideUIPanel"
+   ],
+   "callbacks": false,
+   "maxArgs": 20,
+   "maxEvents": 5000,
+   "maxSessions": 3,
+   "maxString": 300,
+   "perEventPerSec": 5,
+   "redactChat": true
+  },
+  "restrictions": {
+   "enabled": true,
+   "maxFlips": 400,
+   "maxMarkers": 600,
+   "maxProbedFlips": 150,
+   "probe": true
+  },
+  "secrets": {
+   "controls": true,
+   "maxCtx": 16,
+   "maxKeys": 4000,
+   "maxLive": 200,
+   "observe": true,
+   "opsPrint": true,
+   "selfErrorLimit": 20,
+   "sweep": true,
+   "sweepInterval": 5,
+   "sweepPerTick": 25
+  },
+  "tokens": {
+   "enabled": true
+  },
+  "uiMaxChars": 120000
+ },
+ "errors": null,
+ "history": [
+  {
+   "build": "70245",
+   "section": "docs",
+   "time": 1791424569,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "api",
+   "time": 1791424569,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "globals",
+   "time": 1791424569,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "strings",
+   "time": 1791424570,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "widgets",
+   "time": 1791424570,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "templates",
+   "time": 1791424570,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "frames",
+   "time": 1791424570,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "addons",
+   "time": 1791424570,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "cvars",
+   "time": 1791424570,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "protected",
+   "time": 1791424570,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "secrets",
+   "time": 1791424571,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "extras",
+   "time": 1791424571,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "profile",
+   "time": 1791424582,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "profile",
+   "time": 1791424927,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "profile",
+   "time": 1791424935,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "profile",
+   "time": 1791425051,
+   "version": "1.60.1"
+  }
+ ],
+ "meta": {
+  "addonVersion": "2.2.1",
+  "build": "70245",
+  "buildDate": "Oct  5 2026",
+  "date": "2026-10-07 22:04:12",
+  "identity": {
+   "anySecret": false,
+   "classFile": "SHAMAN",
+   "classID": 7,
+   "className": "Shaman",
+   "codes": {
+    "classFile": "C",
+    "classID": "C",
+    "className": "C",
+    "fullName": "C",
+    "fullNameRealm": "C",
+    "guid": "C",
+    "level": "C",
+    "name": "C",
+    "nameRealm": "C",
+    "normalizedRealm": "C",
+    "raceFile": "C",
+    "raceName": "C",
+    "realm": "C",
+    "unitNameWithRealm": "C"
+   },
+   "firstName": "Uglaz",
+   "fullName": "Uglaz",
+   "fullNameRealm": "Doomaxe",
+   "guid": "Player-4618-00EB40D8",
+   "level": 30,
+   "name": "Uglaz",
+   "nameRealm": "Doomaxe",
+   "normalizedRealm": "ClassicBetaPvE",
+   "raceFile": "Orc",
+   "raceName": "Orc",
+   "realm": "Classic Beta PvE",
+   "reason": "capture:on",
+   "secret": {},
+   "time": 1791424935,
+   "unitNameWithRealm": "Uglaz Doomaxe",
+   "v": 1
+  },
+  "inCombat": false,
+  "locale": "enUS",
+  "projectConstants": {
+   "WOW_PROJECT_CAMELOT": 18,
+   "WOW_PROJECT_CLASSIC": 2,
+   "WOW_PROJECT_ID": 18,
+   "WOW_PROJECT_MAINLINE": 1
+  },
+  "projectID": 18,
+  "projectName": "WOW_PROJECT_CAMELOT",
+  "schemaVersion": 2,
+  "scriptsDisallowedForBeta": false,
+  "time": 1791425052,
+  "toc": 16001,
+  "version": "1.60.1"
+ },
+ "schemaVersion": 2
+}

@@ -1,0 +1,44 @@
+{
+ "statusCounts": {
+  "UNOBSERVED": 10038,
+  "CONFIRMED": 396,
+  "INCONCLUSIVE": 70,
+  "UNDOCUMENTED-SECRET": 1,
+  "CONTRADICTED": 1
+ },
+ "legacyVerifier": {
+  "UNOBSERVED": 9368,
+  "CONFIRMED": 392,
+  "UNDOCUMENTED-SECRET": 6,
+  "CONTRADICTED": 1
+ },
+ "coverage": {
+  "all": {
+   "positions": 10487,
+   "observed": 449,
+   "percent": 4.28
+  },
+  "expectedSecretOrNever": {
+   "positions": 1591,
+   "observed": 256,
+   "percent": 16.09
+  },
+  "alwaysSecret": {
+   "positions": 45,
+   "observed": 18,
+   "percent": 40.0
+  },
+  "conditional": {
+   "positions": 707,
+   "observed": 210,
+   "percent": 29.7
+  },
+  "structFields": {
+   "positions": 19,
+   "observed": 19,
+   "percent": 100.0
+  }
+ },
+ "liveContradictions": 3
+}
+wrote verify.json + VERIFY.md to real/2026-10-07-run3/out/verify

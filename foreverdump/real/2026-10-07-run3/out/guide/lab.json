@@ -1,0 +1,3157 @@
+{
+ "controls": [
+  {
+   "controls": {
+    "checks": [
+     {
+      "expected": true,
+      "name": "issecretvalue(secretwrap(1))",
+      "note": "secretwrap is nil",
+      "observed": true,
+      "pass": true
+     },
+     {
+      "expected": true,
+      "name": "issecretvalue(UnitHealth('player'))",
+      "note": "SecretReturns: unconditional",
+      "observed": true,
+      "pass": true
+     },
+     {
+      "expected": false,
+      "name": "issecretvalue(1)",
+      "observed": false,
+      "pass": true
+     },
+     {
+      "expected": false,
+      "name": "issecretvalue(UnitHealthMax('player'))",
+      "note": "player max health is not restricted",
+      "pass": false
+     },
+     {
+      "name": "issecretvalue(UnitPower('player'))",
+      "note": "SecretWhenUnitPowerRestricted (observed always secret in run 2)",
+      "observed": true,
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(61304) (GCD, research: whitelisted)",
+      "note": "expected from research notes",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": false,
+      "name": "GetSpellCooldownDuration(61304):HasSecretValues()",
+      "note": "expected from research notes",
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(8690) (research: whitelisted since 12.0.1)",
+      "note": "run 2 SV observed 2 for 8690",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(20608) (research: whitelisted since 12.0.1)",
+      "note": "run 2 SV observed 2 for 8690",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": 2,
+      "name": "GetSpellCooldownSecrecy(1752)",
+      "note": "class spell: contextual",
+      "observed": 2,
+      "pass": true
+     }
+    ],
+    "cooldowns": {
+     "1752": {
+      "durationState": "K",
+      "durationType": "userdata",
+      "secrecy": 2
+     },
+     "20608": {
+      "durationState": "K",
+      "durationType": "userdata",
+      "secrecy": 2
+     },
+     "61304": {
+      "durationState": "N",
+      "durationType": "nil",
+      "secrecy": 2
+     },
+     "8690": {
+      "durationState": "K",
+      "durationType": "userdata",
+      "secrecy": 2
+     }
+    },
+    "primitives": {
+     "canaccessallvalues": true,
+     "canaccesssecrets": true,
+     "canaccesstable": true,
+     "canaccessvalue": true,
+     "dropsecretaccess": true,
+     "forceinsecure": true,
+     "hasanysecretvalues": true,
+     "issecrettable": true,
+     "issecretvalue": true,
+     "issecure": true,
+     "mapvalues": true,
+     "scrub": true,
+     "scrubsecretvalues": true,
+     "secretunwrap": false,
+     "secretwrap": true,
+     "securecallfunction": true
+    },
+    "project": {
+     "camelot": 18,
+     "id": 18,
+     "mainline": 1
+    },
+    "secretwrap": {
+     "isSecret": true,
+     "isSecretString": true,
+     "ok": true,
+     "okString": true,
+     "present": true
+    }
+   },
+   "ctx": "ooc",
+   "epoch": 1791424582,
+   "execution": "addon",
+   "ops": {
+    "UnitHealth(player)": {
+     "arith": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:154: attempt to perform arithmetic on local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "compare": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:155: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "concat": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "equal": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:156: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "format": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "print": {
+      "ok": true
+     },
+     "setText": {
+      "getTextOk": true,
+      "getTextSecret": true,
+      "ok": true
+     },
+     "state": "S",
+     "statusBar": {
+      "getValueSecret": true,
+      "ok": true
+     },
+     "tableKey": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:160: attempted to perform indexed assignment on a table that cannot be indexed with secret keys",
+      "ok": false
+     },
+     "tostring": {
+      "ok": true,
+      "resultSecret": true,
+      "tonumberNil": true,
+      "tonumberOk": true
+     },
+     "truthy": {
+      "ok": true
+     },
+     "type": "number"
+    },
+    "UnitHealthMax(player)": {
+     "arith": {
+      "ok": true
+     },
+     "compare": {
+      "ok": true
+     },
+     "concat": {
+      "numericString": false,
+      "ok": true
+     },
+     "equal": {
+      "ok": true
+     },
+     "format": {
+      "numericString": true,
+      "ok": true
+     },
+     "print": {
+      "ok": true
+     },
+     "setText": {
+      "err": "FontString:SetText(): Font not set\nLua Taint: ForeverDump",
+      "ok": false
+     },
+     "state": "C",
+     "statusBar": {
+      "ok": true
+     },
+     "tableKey": {
+      "ok": true
+     },
+     "tostring": {
+      "numericString": true,
+      "ok": true
+     },
+     "truthy": {
+      "ok": true
+     },
+     "type": "number"
+    },
+    "UnitPower(player)": {
+     "arith": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:154: attempt to perform arithmetic on local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "compare": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:155: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "concat": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "equal": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:156: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "format": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "print": {
+      "ok": true
+     },
+     "setText": {
+      "err": "FontString:SetText(): Font not set\nLua Taint: ForeverDump",
+      "ok": false
+     },
+     "state": "S",
+     "statusBar": {
+      "getValueSecret": true,
+      "ok": true
+     },
+     "tableKey": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:160: attempted to perform indexed assignment on a table that cannot be indexed with secret keys",
+      "ok": false
+     },
+     "tostring": {
+      "ok": true,
+      "resultSecret": true,
+      "tonumberNil": true,
+      "tonumberOk": true
+     },
+     "truthy": {
+      "ok": true
+     },
+     "type": "number"
+    },
+    "secretwrap(1)": {
+     "arith": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:154: attempt to perform arithmetic on local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "compare": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:155: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "concat": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "equal": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:156: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "format": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "print": {
+      "ok": true
+     },
+     "setText": {
+      "err": "FontString:SetText(): Font not set\nLua Taint: ForeverDump",
+      "ok": false
+     },
+     "state": "S",
+     "statusBar": {
+      "getValueSecret": true,
+      "ok": true
+     },
+     "tableKey": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:160: attempted to perform indexed assignment on a table that cannot be indexed with secret keys",
+      "ok": false
+     },
+     "tostring": {
+      "ok": true,
+      "resultSecret": true,
+      "tonumberNil": true,
+      "tonumberOk": true
+     },
+     "truthy": {
+      "ok": true
+     },
+     "type": "number"
+    }
+   },
+   "reason": "capture:on",
+   "server": 1791424583,
+   "sid": "cap-20261007215622-1",
+   "t": 1052555.557,
+   "vector": {
+    "active": {
+     "ChallengeMode": false,
+     "Chat": false,
+     "Combat": false,
+     "Encounter": false,
+     "Map": false,
+     "PvPMatch": false
+    },
+    "addonChatRestricted": true,
+    "affecting": false,
+    "combat": false,
+    "combatLogRestricted": true,
+    "encounterInProgress": false,
+    "forced": {
+     "addonChallengeModeRestrictionsForced": "0",
+     "addonChatRestrictionsForced": "0",
+     "addonCombatRestrictionsForced": "0",
+     "addonEncounterRestrictionsForced": "0",
+     "addonMapRestrictionsForced": "0",
+     "addonPvPMatchRestrictionsForced": "0"
+    },
+    "hasSecretRestrictions": true,
+    "instanceType": "none",
+    "mapID": 1413,
+    "should": {
+     "auras": false,
+     "cooldowns": false,
+     "healthMaxTarget": true,
+     "identityTarget": false,
+     "powerPlayer": true,
+     "unitStats": false
+    },
+    "states": {
+     "ChallengeMode": 0,
+     "Chat": 0,
+     "Combat": 0,
+     "Encounter": 0,
+     "Map": 0,
+     "PvPMatch": 0
+    },
+    "taintLog": "1",
+    "taintLogObjectSecrets": "0"
+   }
+  },
+  {
+   "controls": {
+    "checks": [
+     {
+      "expected": true,
+      "name": "issecretvalue(secretwrap(1))",
+      "note": "secretwrap is nil",
+      "observed": true,
+      "pass": true
+     },
+     {
+      "expected": true,
+      "name": "issecretvalue(UnitHealth('player'))",
+      "note": "SecretReturns: unconditional",
+      "observed": true,
+      "pass": true
+     },
+     {
+      "expected": false,
+      "name": "issecretvalue(1)",
+      "observed": false,
+      "pass": true
+     },
+     {
+      "expected": false,
+      "name": "issecretvalue(UnitHealthMax('player'))",
+      "note": "player max health is not restricted",
+      "pass": false
+     },
+     {
+      "name": "issecretvalue(UnitPower('player'))",
+      "note": "SecretWhenUnitPowerRestricted (observed always secret in run 2)",
+      "observed": true,
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(61304) (GCD, research: whitelisted)",
+      "note": "expected from research notes",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": false,
+      "name": "GetSpellCooldownDuration(61304):HasSecretValues()",
+      "note": "expected from research notes",
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(8690) (research: whitelisted since 12.0.1)",
+      "note": "run 2 SV observed 2 for 8690",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(20608) (research: whitelisted since 12.0.1)",
+      "note": "run 2 SV observed 2 for 8690",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": 2,
+      "name": "GetSpellCooldownSecrecy(1752)",
+      "note": "class spell: contextual",
+      "observed": 2,
+      "pass": true
+     }
+    ],
+    "cooldowns": {
+     "1752": {
+      "durationState": "T",
+      "durationType": "userdata",
+      "hasSecretValues": true,
+      "secrecy": 2,
+      "shouldBeSecret": true
+     },
+     "20608": {
+      "durationState": "T",
+      "durationType": "userdata",
+      "hasSecretValues": true,
+      "secrecy": 2,
+      "shouldBeSecret": true
+     },
+     "61304": {
+      "durationState": "N",
+      "durationType": "nil",
+      "secrecy": 2,
+      "shouldBeSecret": true
+     },
+     "8690": {
+      "durationState": "T",
+      "durationType": "userdata",
+      "hasSecretValues": true,
+      "secrecy": 2,
+      "shouldBeSecret": true
+     }
+    },
+    "primitives": {
+     "canaccessallvalues": true,
+     "canaccesssecrets": true,
+     "canaccesstable": true,
+     "canaccessvalue": true,
+     "dropsecretaccess": true,
+     "forceinsecure": true,
+     "hasanysecretvalues": true,
+     "issecrettable": true,
+     "issecretvalue": true,
+     "issecure": true,
+     "mapvalues": true,
+     "scrub": true,
+     "scrubsecretvalues": true,
+     "secretunwrap": false,
+     "secretwrap": true,
+     "securecallfunction": true
+    },
+    "project": {
+     "camelot": 18,
+     "id": 18,
+     "mainline": 1
+    },
+    "secretwrap": {
+     "isSecret": true,
+     "isSecretString": true,
+     "ok": true,
+     "okString": true,
+     "present": true
+    }
+   },
+   "ctx": "combat",
+   "epoch": 1791424636,
+   "execution": "addon",
+   "ops": {
+    "UnitHealth(player)": {
+     "arith": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:154: attempt to perform arithmetic on local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "compare": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:155: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "concat": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "equal": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:156: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "format": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "print": {
+      "ok": true
+     },
+     "setText": {
+      "err": "FontString:SetText(): Font not set\nLua Taint: ForeverDump",
+      "ok": false
+     },
+     "state": "S",
+     "statusBar": {
+      "getValueSecret": true,
+      "ok": true
+     },
+     "tableKey": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:160: attempted to perform indexed assignment on a table that cannot be indexed with secret keys",
+      "ok": false
+     },
+     "tostring": {
+      "ok": true,
+      "resultSecret": true,
+      "tonumberNil": true,
+      "tonumberOk": true
+     },
+     "truthy": {
+      "ok": true
+     },
+     "type": "number"
+    },
+    "UnitHealthMax(player)": {
+     "arith": {
+      "ok": true
+     },
+     "compare": {
+      "ok": true
+     },
+     "concat": {
+      "numericString": false,
+      "ok": true
+     },
+     "equal": {
+      "ok": true
+     },
+     "format": {
+      "numericString": true,
+      "ok": true
+     },
+     "print": {
+      "ok": true
+     },
+     "setText": {
+      "err": "FontString:SetText(): Font not set\nLua Taint: ForeverDump",
+      "ok": false
+     },
+     "state": "C",
+     "statusBar": {
+      "ok": true
+     },
+     "tableKey": {
+      "ok": true
+     },
+     "tostring": {
+      "numericString": true,
+      "ok": true
+     },
+     "truthy": {
+      "ok": true
+     },
+     "type": "number"
+    },
+    "UnitPower(player)": {
+     "arith": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:154: attempt to perform arithmetic on local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "compare": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:155: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "concat": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "equal": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:156: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "format": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "print": {
+      "ok": true
+     },
+     "setText": {
+      "err": "FontString:SetText(): Font not set\nLua Taint: ForeverDump",
+      "ok": false
+     },
+     "state": "S",
+     "statusBar": {
+      "getValueSecret": true,
+      "ok": true
+     },
+     "tableKey": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:160: attempted to perform indexed assignment on a table that cannot be indexed with secret keys",
+      "ok": false
+     },
+     "tostring": {
+      "ok": true,
+      "resultSecret": true,
+      "tonumberNil": true,
+      "tonumberOk": true
+     },
+     "truthy": {
+      "ok": true
+     },
+     "type": "number"
+    },
+    "secretwrap(1)": {
+     "arith": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:154: attempt to perform arithmetic on local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "compare": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:155: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "concat": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "equal": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:156: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "format": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "print": {
+      "ok": true
+     },
+     "setText": {
+      "err": "FontString:SetText(): Font not set\nLua Taint: ForeverDump",
+      "ok": false
+     },
+     "state": "S",
+     "statusBar": {
+      "getValueSecret": true,
+      "ok": true
+     },
+     "tableKey": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:160: attempted to perform indexed assignment on a table that cannot be indexed with secret keys",
+      "ok": false
+     },
+     "tostring": {
+      "ok": true,
+      "resultSecret": true,
+      "tonumberNil": true,
+      "tonumberOk": true
+     },
+     "truthy": {
+      "ok": true
+     },
+     "type": "number"
+    }
+   },
+   "reason": "combat",
+   "server": 1791424637,
+   "sid": "cap-20261007215622-1",
+   "t": 1052609.359,
+   "vector": {
+    "active": {
+     "ChallengeMode": false,
+     "Chat": false,
+     "Combat": true,
+     "Encounter": false,
+     "Map": false,
+     "PvPMatch": false
+    },
+    "addonChatRestricted": true,
+    "affecting": true,
+    "combat": true,
+    "combatLogRestricted": true,
+    "encounterInProgress": false,
+    "forced": {
+     "addonChallengeModeRestrictionsForced": "0",
+     "addonChatRestrictionsForced": "0",
+     "addonCombatRestrictionsForced": "0",
+     "addonEncounterRestrictionsForced": "0",
+     "addonMapRestrictionsForced": "0",
+     "addonPvPMatchRestrictionsForced": "0"
+    },
+    "hasSecretRestrictions": true,
+    "instanceType": "none",
+    "mapID": 1413,
+    "should": {
+     "auras": true,
+     "cooldowns": true,
+     "healthMaxTarget": true,
+     "identityTarget": false,
+     "powerPlayer": true,
+     "unitStats": true
+    },
+    "states": {
+     "ChallengeMode": 0,
+     "Chat": 0,
+     "Combat": 2,
+     "Encounter": 0,
+     "Map": 0,
+     "PvPMatch": 0
+    },
+    "taintLog": "1",
+    "taintLogObjectSecrets": "0"
+   }
+  },
+  {
+   "controls": {
+    "checks": [
+     {
+      "expected": true,
+      "name": "issecretvalue(secretwrap(1))",
+      "note": "secretwrap is nil",
+      "observed": true,
+      "pass": true
+     },
+     {
+      "expected": true,
+      "name": "issecretvalue(UnitHealth('player'))",
+      "note": "SecretReturns: unconditional",
+      "observed": true,
+      "pass": true
+     },
+     {
+      "expected": false,
+      "name": "issecretvalue(1)",
+      "observed": false,
+      "pass": true
+     },
+     {
+      "expected": false,
+      "name": "issecretvalue(UnitHealthMax('player'))",
+      "note": "player max health is not restricted",
+      "pass": false
+     },
+     {
+      "name": "issecretvalue(UnitPower('player'))",
+      "note": "SecretWhenUnitPowerRestricted (observed always secret in run 2)",
+      "observed": true,
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(61304) (GCD, research: whitelisted)",
+      "note": "expected from research notes",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": false,
+      "name": "GetSpellCooldownDuration(61304):HasSecretValues()",
+      "note": "expected from research notes",
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(8690) (research: whitelisted since 12.0.1)",
+      "note": "run 2 SV observed 2 for 8690",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(20608) (research: whitelisted since 12.0.1)",
+      "note": "run 2 SV observed 2 for 8690",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": 2,
+      "name": "GetSpellCooldownSecrecy(1752)",
+      "note": "class spell: contextual",
+      "observed": 2,
+      "pass": true
+     }
+    ],
+    "cooldowns": {
+     "1752": {
+      "durationState": "K",
+      "durationType": "userdata",
+      "secrecy": 2
+     },
+     "20608": {
+      "durationState": "K",
+      "durationType": "userdata",
+      "secrecy": 2
+     },
+     "61304": {
+      "durationState": "N",
+      "durationType": "nil",
+      "secrecy": 2
+     },
+     "8690": {
+      "durationState": "K",
+      "durationType": "userdata",
+      "secrecy": 2
+     }
+    },
+    "primitives": {
+     "canaccessallvalues": true,
+     "canaccesssecrets": true,
+     "canaccesstable": true,
+     "canaccessvalue": true,
+     "dropsecretaccess": true,
+     "forceinsecure": true,
+     "hasanysecretvalues": true,
+     "issecrettable": true,
+     "issecretvalue": true,
+     "issecure": true,
+     "mapvalues": true,
+     "scrub": true,
+     "scrubsecretvalues": true,
+     "secretunwrap": false,
+     "secretwrap": true,
+     "securecallfunction": true
+    },
+    "project": {
+     "camelot": 18,
+     "id": 18,
+     "mainline": 1
+    },
+    "secretwrap": {
+     "isSecret": true,
+     "isSecretString": true,
+     "ok": true,
+     "okString": true,
+     "present": true
+    }
+   },
+   "ctx": "ooc",
+   "epoch": 1791424926,
+   "execution": "addon",
+   "reason": "capture:off",
+   "server": 1791424927,
+   "sid": "cap-20261007215622-1",
+   "t": 1052900.003,
+   "vector": {
+    "active": {
+     "ChallengeMode": false,
+     "Chat": false,
+     "Combat": false,
+     "Encounter": false,
+     "Map": false,
+     "PvPMatch": false
+    },
+    "addonChatRestricted": true,
+    "affecting": false,
+    "combat": false,
+    "combatLogRestricted": true,
+    "encounterInProgress": false,
+    "forced": {
+     "addonChallengeModeRestrictionsForced": "0",
+     "addonChatRestrictionsForced": "0",
+     "addonCombatRestrictionsForced": "0",
+     "addonEncounterRestrictionsForced": "0",
+     "addonMapRestrictionsForced": "0",
+     "addonPvPMatchRestrictionsForced": "0"
+    },
+    "hasSecretRestrictions": true,
+    "instanceType": "none",
+    "mapID": 1413,
+    "should": {
+     "auras": false,
+     "cooldowns": false,
+     "healthMaxTarget": true,
+     "identityTarget": false,
+     "powerPlayer": true,
+     "unitStats": false
+    },
+    "states": {
+     "ChallengeMode": 0,
+     "Chat": 0,
+     "Combat": 0,
+     "Encounter": 0,
+     "Map": 0,
+     "PvPMatch": 0
+    },
+    "taintLog": "0",
+    "taintLogObjectSecrets": "0"
+   }
+  },
+  {
+   "controls": {
+    "checks": [
+     {
+      "expected": true,
+      "name": "issecretvalue(secretwrap(1))",
+      "note": "secretwrap is nil",
+      "observed": true,
+      "pass": true
+     },
+     {
+      "expected": true,
+      "name": "issecretvalue(UnitHealth('player'))",
+      "note": "SecretReturns: unconditional",
+      "observed": true,
+      "pass": true
+     },
+     {
+      "expected": false,
+      "name": "issecretvalue(1)",
+      "observed": false,
+      "pass": true
+     },
+     {
+      "expected": false,
+      "name": "issecretvalue(UnitHealthMax('player'))",
+      "note": "player max health is not restricted",
+      "pass": false
+     },
+     {
+      "name": "issecretvalue(UnitPower('player'))",
+      "note": "SecretWhenUnitPowerRestricted (observed always secret in run 2)",
+      "observed": true,
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(61304) (GCD, research: whitelisted)",
+      "note": "expected from research notes",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": false,
+      "name": "GetSpellCooldownDuration(61304):HasSecretValues()",
+      "note": "expected from research notes",
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(8690) (research: whitelisted since 12.0.1)",
+      "note": "run 2 SV observed 2 for 8690",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(20608) (research: whitelisted since 12.0.1)",
+      "note": "run 2 SV observed 2 for 8690",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": 2,
+      "name": "GetSpellCooldownSecrecy(1752)",
+      "note": "class spell: contextual",
+      "observed": 2,
+      "pass": true
+     }
+    ],
+    "cooldowns": {
+     "1752": {
+      "durationState": "K",
+      "durationType": "userdata",
+      "secrecy": 2
+     },
+     "20608": {
+      "durationState": "K",
+      "durationType": "userdata",
+      "secrecy": 2
+     },
+     "61304": {
+      "durationState": "N",
+      "durationType": "nil",
+      "secrecy": 2
+     },
+     "8690": {
+      "durationState": "K",
+      "durationType": "userdata",
+      "secrecy": 2
+     }
+    },
+    "primitives": {
+     "canaccessallvalues": true,
+     "canaccesssecrets": true,
+     "canaccesstable": true,
+     "canaccessvalue": true,
+     "dropsecretaccess": true,
+     "forceinsecure": true,
+     "hasanysecretvalues": true,
+     "issecrettable": true,
+     "issecretvalue": true,
+     "issecure": true,
+     "mapvalues": true,
+     "scrub": true,
+     "scrubsecretvalues": true,
+     "secretunwrap": false,
+     "secretwrap": true,
+     "securecallfunction": true
+    },
+    "project": {
+     "camelot": 18,
+     "id": 18,
+     "mainline": 1
+    },
+    "secretwrap": {
+     "isSecret": true,
+     "isSecretString": true,
+     "ok": true,
+     "okString": true,
+     "present": true
+    }
+   },
+   "ctx": "ooc",
+   "epoch": 1791424935,
+   "execution": "addon",
+   "ops": {
+    "UnitHealth(player)": {
+     "arith": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:154: attempt to perform arithmetic on local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "compare": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:155: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "concat": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "equal": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:156: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "format": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "print": {
+      "ok": true
+     },
+     "setText": {
+      "getTextOk": true,
+      "getTextSecret": true,
+      "ok": true
+     },
+     "state": "S",
+     "statusBar": {
+      "getValueSecret": true,
+      "ok": true
+     },
+     "tableKey": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:160: attempted to perform indexed assignment on a table that cannot be indexed with secret keys",
+      "ok": false
+     },
+     "tostring": {
+      "ok": true,
+      "resultSecret": true,
+      "tonumberNil": true,
+      "tonumberOk": true
+     },
+     "truthy": {
+      "ok": true
+     },
+     "type": "number"
+    },
+    "UnitHealthMax(player)": {
+     "arith": {
+      "ok": true
+     },
+     "compare": {
+      "ok": true
+     },
+     "concat": {
+      "numericString": false,
+      "ok": true
+     },
+     "equal": {
+      "ok": true
+     },
+     "format": {
+      "numericString": true,
+      "ok": true
+     },
+     "print": {
+      "ok": true
+     },
+     "setText": {
+      "err": "FontString:SetText(): Font not set\nLua Taint: ForeverDump",
+      "ok": false
+     },
+     "state": "C",
+     "statusBar": {
+      "ok": true
+     },
+     "tableKey": {
+      "ok": true
+     },
+     "tostring": {
+      "numericString": true,
+      "ok": true
+     },
+     "truthy": {
+      "ok": true
+     },
+     "type": "number"
+    },
+    "UnitPower(player)": {
+     "arith": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:154: attempt to perform arithmetic on local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "compare": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:155: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "concat": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "equal": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:156: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "format": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "print": {
+      "ok": true
+     },
+     "setText": {
+      "err": "FontString:SetText(): Font not set\nLua Taint: ForeverDump",
+      "ok": false
+     },
+     "state": "S",
+     "statusBar": {
+      "getValueSecret": true,
+      "ok": true
+     },
+     "tableKey": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:160: attempted to perform indexed assignment on a table that cannot be indexed with secret keys",
+      "ok": false
+     },
+     "tostring": {
+      "ok": true,
+      "resultSecret": true,
+      "tonumberNil": true,
+      "tonumberOk": true
+     },
+     "truthy": {
+      "ok": true
+     },
+     "type": "number"
+    },
+    "secretwrap(1)": {
+     "arith": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:154: attempt to perform arithmetic on local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "compare": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:155: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "concat": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "equal": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:156: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "format": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "print": {
+      "ok": true
+     },
+     "setText": {
+      "err": "FontString:SetText(): Font not set\nLua Taint: ForeverDump",
+      "ok": false
+     },
+     "state": "S",
+     "statusBar": {
+      "getValueSecret": true,
+      "ok": true
+     },
+     "tableKey": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:160: attempted to perform indexed assignment on a table that cannot be indexed with secret keys",
+      "ok": false
+     },
+     "tostring": {
+      "ok": true,
+      "resultSecret": true,
+      "tonumberNil": true,
+      "tonumberOk": true
+     },
+     "truthy": {
+      "ok": true
+     },
+     "type": "number"
+    }
+   },
+   "reason": "capture:on",
+   "server": 1791424936,
+   "sid": "cap-20261007220215-5",
+   "t": 1052908.534,
+   "vector": {
+    "active": {
+     "ChallengeMode": false,
+     "Chat": false,
+     "Combat": false,
+     "Encounter": false,
+     "Map": false,
+     "PvPMatch": false
+    },
+    "addonChatRestricted": true,
+    "affecting": false,
+    "combat": false,
+    "combatLogRestricted": true,
+    "encounterInProgress": false,
+    "forced": {
+     "addonChallengeModeRestrictionsForced": "0",
+     "addonChatRestrictionsForced": "0",
+     "addonCombatRestrictionsForced": "0",
+     "addonEncounterRestrictionsForced": "0",
+     "addonMapRestrictionsForced": "0",
+     "addonPvPMatchRestrictionsForced": "0"
+    },
+    "hasSecretRestrictions": true,
+    "instanceType": "none",
+    "mapID": 1413,
+    "should": {
+     "auras": false,
+     "cooldowns": false,
+     "healthMaxTarget": true,
+     "identityTarget": false,
+     "powerPlayer": true,
+     "unitStats": false
+    },
+    "states": {
+     "ChallengeMode": 0,
+     "Chat": 0,
+     "Combat": 0,
+     "Encounter": 0,
+     "Map": 0,
+     "PvPMatch": 0
+    },
+    "taintLog": "1",
+    "taintLogObjectSecrets": "0"
+   }
+  },
+  {
+   "controls": {
+    "checks": [
+     {
+      "expected": true,
+      "name": "issecretvalue(secretwrap(1))",
+      "note": "secretwrap is nil",
+      "observed": true,
+      "pass": true
+     },
+     {
+      "expected": true,
+      "name": "issecretvalue(UnitHealth('player'))",
+      "note": "SecretReturns: unconditional",
+      "observed": true,
+      "pass": true
+     },
+     {
+      "expected": false,
+      "name": "issecretvalue(1)",
+      "observed": false,
+      "pass": true
+     },
+     {
+      "expected": false,
+      "name": "issecretvalue(UnitHealthMax('player'))",
+      "note": "player max health is not restricted",
+      "pass": false
+     },
+     {
+      "name": "issecretvalue(UnitPower('player'))",
+      "note": "SecretWhenUnitPowerRestricted (observed always secret in run 2)",
+      "observed": true,
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(61304) (GCD, research: whitelisted)",
+      "note": "expected from research notes",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": false,
+      "name": "GetSpellCooldownDuration(61304):HasSecretValues()",
+      "note": "expected from research notes",
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(8690) (research: whitelisted since 12.0.1)",
+      "note": "run 2 SV observed 2 for 8690",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(20608) (research: whitelisted since 12.0.1)",
+      "note": "run 2 SV observed 2 for 8690",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": 2,
+      "name": "GetSpellCooldownSecrecy(1752)",
+      "note": "class spell: contextual",
+      "observed": 2,
+      "pass": true
+     }
+    ],
+    "cooldowns": {
+     "1752": {
+      "durationState": "T",
+      "durationType": "userdata",
+      "hasSecretValues": true,
+      "secrecy": 2,
+      "shouldBeSecret": true
+     },
+     "20608": {
+      "durationState": "T",
+      "durationType": "userdata",
+      "hasSecretValues": true,
+      "secrecy": 2,
+      "shouldBeSecret": true
+     },
+     "61304": {
+      "durationState": "N",
+      "durationType": "nil",
+      "secrecy": 2,
+      "shouldBeSecret": true
+     },
+     "8690": {
+      "durationState": "T",
+      "durationType": "userdata",
+      "hasSecretValues": true,
+      "secrecy": 2,
+      "shouldBeSecret": true
+     }
+    },
+    "primitives": {
+     "canaccessallvalues": true,
+     "canaccesssecrets": true,
+     "canaccesstable": true,
+     "canaccessvalue": true,
+     "dropsecretaccess": true,
+     "forceinsecure": true,
+     "hasanysecretvalues": true,
+     "issecrettable": true,
+     "issecretvalue": true,
+     "issecure": true,
+     "mapvalues": true,
+     "scrub": true,
+     "scrubsecretvalues": true,
+     "secretunwrap": false,
+     "secretwrap": true,
+     "securecallfunction": true
+    },
+    "project": {
+     "camelot": 18,
+     "id": 18,
+     "mainline": 1
+    },
+    "secretwrap": {
+     "isSecret": true,
+     "isSecretString": true,
+     "ok": true,
+     "okString": true,
+     "present": true
+    }
+   },
+   "ctx": "combat",
+   "epoch": 1791424952,
+   "execution": "addon",
+   "ops": {
+    "UnitHealth(player)": {
+     "arith": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:154: attempt to perform arithmetic on local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "compare": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:155: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "concat": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "equal": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:156: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "format": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "print": {
+      "ok": true
+     },
+     "setText": {
+      "err": "FontString:SetText(): Font not set\nLua Taint: ForeverDump",
+      "ok": false
+     },
+     "state": "S",
+     "statusBar": {
+      "getValueSecret": true,
+      "ok": true
+     },
+     "tableKey": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:160: attempted to perform indexed assignment on a table that cannot be indexed with secret keys",
+      "ok": false
+     },
+     "tostring": {
+      "ok": true,
+      "resultSecret": true,
+      "tonumberNil": true,
+      "tonumberOk": true
+     },
+     "truthy": {
+      "ok": true
+     },
+     "type": "number"
+    },
+    "UnitHealthMax(player)": {
+     "arith": {
+      "ok": true
+     },
+     "compare": {
+      "ok": true
+     },
+     "concat": {
+      "numericString": false,
+      "ok": true
+     },
+     "equal": {
+      "ok": true
+     },
+     "format": {
+      "numericString": true,
+      "ok": true
+     },
+     "print": {
+      "ok": true
+     },
+     "setText": {
+      "err": "FontString:SetText(): Font not set\nLua Taint: ForeverDump",
+      "ok": false
+     },
+     "state": "C",
+     "statusBar": {
+      "ok": true
+     },
+     "tableKey": {
+      "ok": true
+     },
+     "tostring": {
+      "numericString": true,
+      "ok": true
+     },
+     "truthy": {
+      "ok": true
+     },
+     "type": "number"
+    },
+    "UnitPower(player)": {
+     "arith": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:154: attempt to perform arithmetic on local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "compare": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:155: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "concat": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "equal": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:156: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "format": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "print": {
+      "ok": true
+     },
+     "setText": {
+      "err": "FontString:SetText(): Font not set\nLua Taint: ForeverDump",
+      "ok": false
+     },
+     "state": "S",
+     "statusBar": {
+      "getValueSecret": true,
+      "ok": true
+     },
+     "tableKey": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:160: attempted to perform indexed assignment on a table that cannot be indexed with secret keys",
+      "ok": false
+     },
+     "tostring": {
+      "ok": true,
+      "resultSecret": true,
+      "tonumberNil": true,
+      "tonumberOk": true
+     },
+     "truthy": {
+      "ok": true
+     },
+     "type": "number"
+    },
+    "secretwrap(1)": {
+     "arith": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:154: attempt to perform arithmetic on local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "compare": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:155: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "concat": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "equal": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:156: attempt to compare local 'v' (a secret number value, while execution tainted by 'ForeverDump')",
+      "ok": false
+     },
+     "format": {
+      "ok": true,
+      "resultSecret": true
+     },
+     "print": {
+      "ok": true
+     },
+     "setText": {
+      "err": "FontString:SetText(): Font not set\nLua Taint: ForeverDump",
+      "ok": false
+     },
+     "state": "S",
+     "statusBar": {
+      "getValueSecret": true,
+      "ok": true
+     },
+     "tableKey": {
+      "err": "Interface/AddOns/ForeverDump/Controls.lua:160: attempted to perform indexed assignment on a table that cannot be indexed with secret keys",
+      "ok": false
+     },
+     "tostring": {
+      "ok": true,
+      "resultSecret": true,
+      "tonumberNil": true,
+      "tonumberOk": true
+     },
+     "truthy": {
+      "ok": true
+     },
+     "type": "number"
+    }
+   },
+   "reason": "combat",
+   "server": 1791424953,
+   "sid": "cap-20261007220215-5",
+   "t": 1052925.358,
+   "vector": {
+    "active": {
+     "ChallengeMode": false,
+     "Chat": false,
+     "Combat": true,
+     "Encounter": false,
+     "Map": false,
+     "PvPMatch": false
+    },
+    "addonChatRestricted": true,
+    "affecting": true,
+    "combat": true,
+    "combatLogRestricted": true,
+    "encounterInProgress": false,
+    "forced": {
+     "addonChallengeModeRestrictionsForced": "0",
+     "addonChatRestrictionsForced": "0",
+     "addonCombatRestrictionsForced": "0",
+     "addonEncounterRestrictionsForced": "0",
+     "addonMapRestrictionsForced": "0",
+     "addonPvPMatchRestrictionsForced": "0"
+    },
+    "hasSecretRestrictions": true,
+    "instanceType": "none",
+    "mapID": 1413,
+    "should": {
+     "auras": true,
+     "cooldowns": true,
+     "healthMaxTarget": true,
+     "identityTarget": false,
+     "powerPlayer": true,
+     "unitStats": true
+    },
+    "states": {
+     "ChallengeMode": 0,
+     "Chat": 0,
+     "Combat": 2,
+     "Encounter": 0,
+     "Map": 0,
+     "PvPMatch": 0
+    },
+    "taintLog": "1",
+    "taintLogObjectSecrets": "0"
+   }
+  },
+  {
+   "controls": {
+    "checks": [
+     {
+      "expected": true,
+      "name": "issecretvalue(secretwrap(1))",
+      "note": "secretwrap is nil",
+      "observed": true,
+      "pass": true
+     },
+     {
+      "expected": true,
+      "name": "issecretvalue(UnitHealth('player'))",
+      "note": "SecretReturns: unconditional",
+      "observed": true,
+      "pass": true
+     },
+     {
+      "expected": false,
+      "name": "issecretvalue(1)",
+      "observed": false,
+      "pass": true
+     },
+     {
+      "expected": false,
+      "name": "issecretvalue(UnitHealthMax('player'))",
+      "note": "player max health is not restricted",
+      "pass": false
+     },
+     {
+      "name": "issecretvalue(UnitPower('player'))",
+      "note": "SecretWhenUnitPowerRestricted (observed always secret in run 2)",
+      "observed": true,
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(61304) (GCD, research: whitelisted)",
+      "note": "expected from research notes",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": false,
+      "name": "GetSpellCooldownDuration(61304):HasSecretValues()",
+      "note": "expected from research notes",
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(8690) (research: whitelisted since 12.0.1)",
+      "note": "run 2 SV observed 2 for 8690",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": 0,
+      "name": "GetSpellCooldownSecrecy(20608) (research: whitelisted since 12.0.1)",
+      "note": "run 2 SV observed 2 for 8690",
+      "observed": 2,
+      "pass": false
+     },
+     {
+      "expected": 2,
+      "name": "GetSpellCooldownSecrecy(1752)",
+      "note": "class spell: contextual",
+      "observed": 2,
+      "pass": true
+     }
+    ],
+    "cooldowns": {
+     "1752": {
+      "durationState": "K",
+      "durationType": "userdata",
+      "secrecy": 2
+     },
+     "20608": {
+      "durationState": "K",
+      "durationType": "userdata",
+      "secrecy": 2
+     },
+     "61304": {
+      "durationState": "N",
+      "durationType": "nil",
+      "secrecy": 2
+     },
+     "8690": {
+      "durationState": "K",
+      "durationType": "userdata",
+      "secrecy": 2
+     }
+    },
+    "primitives": {
+     "canaccessallvalues": true,
+     "canaccesssecrets": true,
+     "canaccesstable": true,
+     "canaccessvalue": true,
+     "dropsecretaccess": true,
+     "forceinsecure": true,
+     "hasanysecretvalues": true,
+     "issecrettable": true,
+     "issecretvalue": true,
+     "issecure": true,
+     "mapvalues": true,
+     "scrub": true,
+     "scrubsecretvalues": true,
+     "secretunwrap": false,
+     "secretwrap": true,
+     "securecallfunction": true
+    },
+    "project": {
+     "camelot": 18,
+     "id": 18,
+     "mainline": 1
+    },
+    "secretwrap": {
+     "isSecret": true,
+     "isSecretString": true,
+     "ok": true,
+     "okString": true,
+     "present": true
+    }
+   },
+   "ctx": "ooc",
+   "epoch": 1791425051,
+   "execution": "addon",
+   "reason": "capture:off",
+   "server": 1791425052,
+   "sid": "cap-20261007220215-5",
+   "t": 1053024.418,
+   "vector": {
+    "active": {
+     "ChallengeMode": false,
+     "Chat": false,
+     "Combat": false,
+     "Encounter": false,
+     "Map": false,
+     "PvPMatch": false
+    },
+    "addonChatRestricted": true,
+    "affecting": false,
+    "combat": false,
+    "combatLogRestricted": true,
+    "encounterInProgress": false,
+    "forced": {
+     "addonChallengeModeRestrictionsForced": "0",
+     "addonChatRestrictionsForced": "0",
+     "addonCombatRestrictionsForced": "0",
+     "addonEncounterRestrictionsForced": "0",
+     "addonMapRestrictionsForced": "0",
+     "addonPvPMatchRestrictionsForced": "0"
+    },
+    "hasSecretRestrictions": true,
+    "instanceType": "none",
+    "mapID": 1413,
+    "should": {
+     "auras": false,
+     "cooldowns": false,
+     "healthMaxTarget": true,
+     "identityTarget": false,
+     "powerPlayer": true,
+     "unitStats": false
+    },
+    "states": {
+     "ChallengeMode": 0,
+     "Chat": 0,
+     "Combat": 0,
+     "Encounter": 0,
+     "Map": 0,
+     "PvPMatch": 0
+    },
+    "taintLog": "0",
+    "taintLogObjectSecrets": "0"
+   }
+  }
+ ],
+ "lab": [
+  {
+   "ctx": "ooc",
+   "epoch": 1791424582,
+   "execution": "addon",
+   "items": [
+    {
+     "approach": "StatusBar:SetMinMaxValues(0, UnitHealthMax) + SetValue(UnitHealth)",
+     "available": true,
+     "getValueState": "S",
+     "group": "widget",
+     "id": "statusbar",
+     "ok": true,
+     "outputSecret": true,
+     "setMinMax": true,
+     "setValue": true
+    },
+    {
+     "approach": "FontString:SetText(secret) then GetText / GetStringWidth",
+     "available": true,
+     "getTextState": "S",
+     "group": "widget",
+     "id": "fontstring-settext",
+     "ok": true,
+     "outputSecret": true,
+     "set": true,
+     "stringWidthState": "S"
+    },
+    {
+     "approach": "FontString:SetFormattedText('%d', secret) then GetText",
+     "available": true,
+     "getTextState": "N",
+     "group": "widget",
+     "id": "fontstring-formatted",
+     "ok": true,
+     "set": false,
+     "setErr": "FontString:SetFormattedText(): Font not set"
+    },
+    {
+     "approach": "Cooldown:SetCooldownFromDurationObject(C_Spell.GetSpellCooldownDuration(61304))",
+     "available": true,
+     "durationState": "N",
+     "getCooldownTimesState": "C",
+     "group": "widget",
+     "id": "cooldown-duration",
+     "ok": true,
+     "set": false,
+     "setErr": "bad argument #2 to '?' (Usage: self:SetCooldownFromDurationObject(duration [, clearIfZero]))"
+    },
+    {
+     "approach": "Texture:SetAlpha(curve(UnitHealthPercent)) then GetAlpha (boundary: is the readback secret)",
+     "available": true,
+     "getAlphaState": "S",
+     "group": "widget",
+     "id": "texture-readbacks",
+     "ok": true,
+     "outputSecret": true,
+     "percentState": "S",
+     "setAlpha": true,
+     "textureHasSecretValues": false
+    },
+    {
+     "approach": "UnitHealthPercent('player') (no curve)",
+     "available": true,
+     "group": "engine",
+     "id": "healthpercent",
+     "ok": true,
+     "outputSecret": true,
+     "state": "S"
+    },
+    {
+     "approach": "UnitHealthPercent('player', true, numberCurve)",
+     "available": true,
+     "group": "engine",
+     "id": "healthpercent-curve",
+     "ok": true,
+     "outputSecret": true,
+     "state": "S"
+    },
+    {
+     "approach": "LuaCurveObject:Evaluate(clear x) / Evaluate(secret x)",
+     "available": true,
+     "clearInputState": "C",
+     "curveHasSecretValues": false,
+     "group": "engine",
+     "id": "curve-evaluate",
+     "ok": true,
+     "secretInputErr": "bad argument #2 to '?' (Usage: local y = self:Evaluate(x). Secret values are only allowed during untainted execution for this argument.)",
+     "secretInputState": "E"
+    },
+    {
+     "approach": "C_CurveUtil.CreateColorCurve + UnitHealthPercent(player, true, colorCurve)",
+     "available": true,
+     "group": "engine",
+     "id": "colorcurve",
+     "ok": true,
+     "outputSecret": true,
+     "state": "T"
+    },
+    {
+     "GetRemainingDuration": "C",
+     "GetRemainingPercent": "C",
+     "GetTotalDuration": "C",
+     "HasExpired": "C",
+     "HasSecretValues": "C",
+     "IsZero": "C",
+     "approach": "C_Spell.GetSpellCooldownDuration(1752): GetRemainingDuration / IsZero / HasSecretValues",
+     "available": true,
+     "durationState": "K",
+     "group": "engine",
+     "id": "duration-methods",
+     "ok": true
+    },
+    {
+     "approach": "UnitIsUnit('player','player') / C_Secrets.CanCompareUnitTokens('player','target')",
+     "available": true,
+     "canCompare": true,
+     "canCompareState": "C",
+     "group": "engine",
+     "id": "compare-units",
+     "ok": true,
+     "unitIsUnitState": "C"
+    },
+    {
+     "approach": "UnitHealthMax(player)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitHealthMax",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitPowerMax(player)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitPowerMax",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitIsDeadOrGhost(player)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitIsDeadOrGhost",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitAffectingCombat(player)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitAffectingCombat",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitThreatSituation(player,target)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitThreatSituation",
+     "ok": true,
+     "outputSecret": false,
+     "states": "N"
+    },
+    {
+     "approach": "UnitDetailedThreatSituation(player,target)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitDetailedThreatSituation",
+     "ok": true,
+     "outputSecret": false,
+     "states": ""
+    },
+    {
+     "absent": [
+      "GetSpellBaseCooldown (undocumented in 70245)"
+     ],
+     "approach": "GetSpellBaseCooldown(1752)",
+     "available": false,
+     "group": "neighbour",
+     "id": "GetSpellBaseCooldown"
+    },
+    {
+     "approach": "C_DamageMeter.IsDamageMeterAvailable()",
+     "available": true,
+     "group": "neighbour",
+     "id": "C_DamageMeter.IsDamageMeterAvailable",
+     "ok": true,
+     "outputSecret": false,
+     "states": "CC"
+    },
+    {
+     "approach": "C_DamageMeter.GetSessionDurationSeconds(1)",
+     "available": true,
+     "group": "neighbour",
+     "id": "C_DamageMeter.GetSessionDurationSeconds",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "C_DamageMeter.GetCombatSessionFromType(0,0)",
+     "available": true,
+     "fields": "combatSources=K durationSeconds=C maxAmount=C totalAmount=C",
+     "group": "neighbour",
+     "id": "C_DamageMeter.GetCombatSessionFromType",
+     "ok": true,
+     "outputSecret": false,
+     "states": "K"
+    },
+    {
+     "approach": "C_Spell.GetSpellCooldown(1752) NeverSecret fields (isEnabled/isActive/isOnGCD)",
+     "available": true,
+     "duration": "C",
+     "group": "neighbour",
+     "id": "cooldown-neverSecret",
+     "isActive": "C",
+     "isEnabled": "C",
+     "ok": true,
+     "outputSecret": false,
+     "startTime": "C"
+    },
+    {
+     "approach": "s = tostring(UnitHealth('player')); string ops on s",
+     "available": true,
+     "group": "boundary",
+     "id": "secret-string",
+     "ok": true,
+     "ops": {
+      "byte": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:240: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "concat": {
+       "ok": true,
+       "resultState": "S"
+      },
+      "eq": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:241: attempt to compare upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "find": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:243: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "format": {
+       "ok": true,
+       "resultState": "S"
+      },
+      "gsub": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:243: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "hash": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:239: attempt to get length of upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "len": {
+       "err": "attempt to perform string conversion on a secret string value (execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "lt": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:241: attempt to compare upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "sub": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:240: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "tonumber": {
+       "ok": true,
+       "resultState": "N"
+      },
+      "upper": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:244: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      }
+     },
+     "tostringOk": true,
+     "tostringState": "S"
+    }
+   ],
+   "reason": "capture:on",
+   "server": 1791424583,
+   "sid": "cap-20261007215622-1",
+   "t": 1052555.557,
+   "vector": {
+    "active": {
+     "ChallengeMode": false,
+     "Chat": false,
+     "Combat": false,
+     "Encounter": false,
+     "Map": false,
+     "PvPMatch": false
+    },
+    "addonChatRestricted": true,
+    "affecting": false,
+    "combat": false,
+    "combatLogRestricted": true,
+    "encounterInProgress": false,
+    "forced": {
+     "addonChallengeModeRestrictionsForced": "0",
+     "addonChatRestrictionsForced": "0",
+     "addonCombatRestrictionsForced": "0",
+     "addonEncounterRestrictionsForced": "0",
+     "addonMapRestrictionsForced": "0",
+     "addonPvPMatchRestrictionsForced": "0"
+    },
+    "hasSecretRestrictions": true,
+    "instanceType": "none",
+    "mapID": 1413,
+    "should": {
+     "auras": false,
+     "cooldowns": false,
+     "healthMaxTarget": true,
+     "identityTarget": false,
+     "powerPlayer": true,
+     "unitStats": false
+    },
+    "states": {
+     "ChallengeMode": 0,
+     "Chat": 0,
+     "Combat": 0,
+     "Encounter": 0,
+     "Map": 0,
+     "PvPMatch": 0
+    },
+    "taintLog": "1",
+    "taintLogObjectSecrets": "0"
+   }
+  },
+  {
+   "ctx": "combat",
+   "epoch": 1791424636,
+   "execution": "addon",
+   "items": [
+    {
+     "approach": "StatusBar:SetMinMaxValues(0, UnitHealthMax) + SetValue(UnitHealth)",
+     "available": true,
+     "getValueState": "S",
+     "group": "widget",
+     "id": "statusbar",
+     "ok": true,
+     "outputSecret": true,
+     "setMinMax": true,
+     "setValue": true
+    },
+    {
+     "approach": "FontString:SetText(secret) then GetText / GetStringWidth",
+     "available": true,
+     "getTextState": "N",
+     "group": "widget",
+     "id": "fontstring-settext",
+     "ok": true,
+     "set": false,
+     "setErr": "FontString:SetText(): Font not set\nLua Taint: ForeverDump",
+     "stringWidthState": "S"
+    },
+    {
+     "approach": "FontString:SetFormattedText('%d', secret) then GetText",
+     "available": true,
+     "getTextState": "N",
+     "group": "widget",
+     "id": "fontstring-formatted",
+     "ok": true,
+     "set": false,
+     "setErr": "FontString:SetFormattedText(): Font not set"
+    },
+    {
+     "approach": "Cooldown:SetCooldownFromDurationObject(C_Spell.GetSpellCooldownDuration(61304))",
+     "available": true,
+     "durationState": "N",
+     "getCooldownTimesState": "C",
+     "group": "widget",
+     "id": "cooldown-duration",
+     "ok": true,
+     "set": false,
+     "setErr": "bad argument #2 to '?' (Usage: self:SetCooldownFromDurationObject(duration [, clearIfZero]))"
+    },
+    {
+     "approach": "Texture:SetAlpha(curve(UnitHealthPercent)) then GetAlpha (boundary: is the readback secret)",
+     "available": true,
+     "getAlphaState": "S",
+     "group": "widget",
+     "id": "texture-readbacks",
+     "ok": true,
+     "outputSecret": true,
+     "percentState": "S",
+     "setAlpha": true,
+     "textureHasSecretValues": false
+    },
+    {
+     "approach": "UnitHealthPercent('player') (no curve)",
+     "available": true,
+     "group": "engine",
+     "id": "healthpercent",
+     "ok": true,
+     "outputSecret": true,
+     "state": "S"
+    },
+    {
+     "approach": "UnitHealthPercent('player', true, numberCurve)",
+     "available": true,
+     "group": "engine",
+     "id": "healthpercent-curve",
+     "ok": true,
+     "outputSecret": true,
+     "state": "S"
+    },
+    {
+     "approach": "LuaCurveObject:Evaluate(clear x) / Evaluate(secret x)",
+     "available": true,
+     "clearInputState": "C",
+     "curveHasSecretValues": false,
+     "group": "engine",
+     "id": "curve-evaluate",
+     "ok": true,
+     "secretInputErr": "bad argument #2 to '?' (Usage: local y = self:Evaluate(x). Secret values are only allowed during untainted execution for this argument.)",
+     "secretInputState": "E"
+    },
+    {
+     "approach": "C_CurveUtil.CreateColorCurve + UnitHealthPercent(player, true, colorCurve)",
+     "available": true,
+     "group": "engine",
+     "id": "colorcurve",
+     "ok": true,
+     "outputSecret": true,
+     "state": "T"
+    },
+    {
+     "GetRemainingDuration": "S",
+     "GetRemainingPercent": "S",
+     "GetTotalDuration": "S",
+     "HasExpired": "S",
+     "HasSecretValues": "C",
+     "IsZero": "S",
+     "approach": "C_Spell.GetSpellCooldownDuration(1752): GetRemainingDuration / IsZero / HasSecretValues",
+     "available": true,
+     "durationState": "T",
+     "group": "engine",
+     "id": "duration-methods",
+     "ok": true
+    },
+    {
+     "approach": "UnitIsUnit('player','player') / C_Secrets.CanCompareUnitTokens('player','target')",
+     "available": true,
+     "canCompare": true,
+     "canCompareState": "C",
+     "group": "engine",
+     "id": "compare-units",
+     "ok": true,
+     "unitIsUnitState": "C"
+    },
+    {
+     "approach": "UnitHealthMax(player)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitHealthMax",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitPowerMax(player)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitPowerMax",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitIsDeadOrGhost(player)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitIsDeadOrGhost",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitAffectingCombat(player)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitAffectingCombat",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitThreatSituation(player,target)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitThreatSituation",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitDetailedThreatSituation(player,target)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitDetailedThreatSituation",
+     "ok": true,
+     "outputSecret": false,
+     "states": "CCCCC"
+    },
+    {
+     "absent": [
+      "GetSpellBaseCooldown (undocumented in 70245)"
+     ],
+     "approach": "GetSpellBaseCooldown(1752)",
+     "available": false,
+     "group": "neighbour",
+     "id": "GetSpellBaseCooldown"
+    },
+    {
+     "approach": "C_DamageMeter.IsDamageMeterAvailable()",
+     "available": true,
+     "group": "neighbour",
+     "id": "C_DamageMeter.IsDamageMeterAvailable",
+     "ok": true,
+     "outputSecret": false,
+     "states": "CC"
+    },
+    {
+     "approach": "C_DamageMeter.GetSessionDurationSeconds(1)",
+     "available": true,
+     "group": "neighbour",
+     "id": "C_DamageMeter.GetSessionDurationSeconds",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "C_DamageMeter.GetCombatSessionFromType(0,0)",
+     "available": true,
+     "fields": "combatSources=K durationSeconds=S maxAmount=S totalAmount=S",
+     "group": "neighbour",
+     "id": "C_DamageMeter.GetCombatSessionFromType",
+     "ok": true,
+     "outputSecret": true,
+     "states": "T"
+    },
+    {
+     "approach": "C_Spell.GetSpellCooldown(1752) NeverSecret fields (isEnabled/isActive/isOnGCD)",
+     "available": true,
+     "duration": "S",
+     "group": "neighbour",
+     "id": "cooldown-neverSecret",
+     "isActive": "C",
+     "isEnabled": "C",
+     "isOnGCD": "C",
+     "ok": true,
+     "outputSecret": true,
+     "startTime": "S"
+    },
+    {
+     "approach": "s = tostring(UnitHealth('player')); string ops on s",
+     "available": true,
+     "group": "boundary",
+     "id": "secret-string",
+     "ok": true,
+     "ops": {
+      "byte": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:240: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "concat": {
+       "ok": true,
+       "resultState": "S"
+      },
+      "eq": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:241: attempt to compare upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "find": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:243: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "format": {
+       "ok": true,
+       "resultState": "S"
+      },
+      "gsub": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:243: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "hash": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:239: attempt to get length of upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "len": {
+       "err": "attempt to perform string conversion on a secret string value (execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "lt": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:241: attempt to compare upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "sub": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:240: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "tonumber": {
+       "ok": true,
+       "resultState": "N"
+      },
+      "upper": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:244: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      }
+     },
+     "tostringOk": true,
+     "tostringState": "S"
+    }
+   ],
+   "reason": "combat",
+   "server": 1791424637,
+   "sid": "cap-20261007215622-1",
+   "t": 1052609.862,
+   "vector": {
+    "active": {
+     "ChallengeMode": false,
+     "Chat": false,
+     "Combat": true,
+     "Encounter": false,
+     "Map": false,
+     "PvPMatch": false
+    },
+    "addonChatRestricted": true,
+    "affecting": true,
+    "combat": true,
+    "combatLogRestricted": true,
+    "encounterInProgress": false,
+    "forced": {
+     "addonChallengeModeRestrictionsForced": "0",
+     "addonChatRestrictionsForced": "0",
+     "addonCombatRestrictionsForced": "0",
+     "addonEncounterRestrictionsForced": "0",
+     "addonMapRestrictionsForced": "0",
+     "addonPvPMatchRestrictionsForced": "0"
+    },
+    "hasSecretRestrictions": true,
+    "instanceType": "none",
+    "mapID": 1413,
+    "should": {
+     "auras": true,
+     "cooldowns": true,
+     "healthMaxTarget": true,
+     "identityTarget": false,
+     "powerPlayer": true,
+     "unitStats": true
+    },
+    "states": {
+     "ChallengeMode": 0,
+     "Chat": 0,
+     "Combat": 2,
+     "Encounter": 0,
+     "Map": 0,
+     "PvPMatch": 0
+    },
+    "taintLog": "1",
+    "taintLogObjectSecrets": "0"
+   }
+  },
+  {
+   "ctx": "ooc",
+   "epoch": 1791424935,
+   "execution": "addon",
+   "items": [
+    {
+     "approach": "StatusBar:SetMinMaxValues(0, UnitHealthMax) + SetValue(UnitHealth)",
+     "available": true,
+     "getValueState": "S",
+     "group": "widget",
+     "id": "statusbar",
+     "ok": true,
+     "outputSecret": true,
+     "setMinMax": true,
+     "setValue": true
+    },
+    {
+     "approach": "FontString:SetText(secret) then GetText / GetStringWidth",
+     "available": true,
+     "getTextState": "S",
+     "group": "widget",
+     "id": "fontstring-settext",
+     "ok": true,
+     "outputSecret": true,
+     "set": true,
+     "stringWidthState": "S"
+    },
+    {
+     "approach": "FontString:SetFormattedText('%d', secret) then GetText",
+     "available": true,
+     "getTextState": "N",
+     "group": "widget",
+     "id": "fontstring-formatted",
+     "ok": true,
+     "set": false,
+     "setErr": "FontString:SetFormattedText(): Font not set"
+    },
+    {
+     "approach": "Cooldown:SetCooldownFromDurationObject(C_Spell.GetSpellCooldownDuration(61304))",
+     "available": true,
+     "durationState": "N",
+     "getCooldownTimesState": "C",
+     "group": "widget",
+     "id": "cooldown-duration",
+     "ok": true,
+     "set": false,
+     "setErr": "bad argument #2 to '?' (Usage: self:SetCooldownFromDurationObject(duration [, clearIfZero]))"
+    },
+    {
+     "approach": "Texture:SetAlpha(curve(UnitHealthPercent)) then GetAlpha (boundary: is the readback secret)",
+     "available": true,
+     "getAlphaState": "S",
+     "group": "widget",
+     "id": "texture-readbacks",
+     "ok": true,
+     "outputSecret": true,
+     "percentState": "S",
+     "setAlpha": true,
+     "textureHasSecretValues": false
+    },
+    {
+     "approach": "UnitHealthPercent('player') (no curve)",
+     "available": true,
+     "group": "engine",
+     "id": "healthpercent",
+     "ok": true,
+     "outputSecret": true,
+     "state": "S"
+    },
+    {
+     "approach": "UnitHealthPercent('player', true, numberCurve)",
+     "available": true,
+     "group": "engine",
+     "id": "healthpercent-curve",
+     "ok": true,
+     "outputSecret": true,
+     "state": "S"
+    },
+    {
+     "approach": "LuaCurveObject:Evaluate(clear x) / Evaluate(secret x)",
+     "available": true,
+     "clearInputState": "C",
+     "curveHasSecretValues": false,
+     "group": "engine",
+     "id": "curve-evaluate",
+     "ok": true,
+     "secretInputErr": "bad argument #2 to '?' (Usage: local y = self:Evaluate(x). Secret values are only allowed during untainted execution for this argument.)",
+     "secretInputState": "E"
+    },
+    {
+     "approach": "C_CurveUtil.CreateColorCurve + UnitHealthPercent(player, true, colorCurve)",
+     "available": true,
+     "group": "engine",
+     "id": "colorcurve",
+     "ok": true,
+     "outputSecret": true,
+     "state": "T"
+    },
+    {
+     "GetRemainingDuration": "C",
+     "GetRemainingPercent": "C",
+     "GetTotalDuration": "C",
+     "HasExpired": "C",
+     "HasSecretValues": "C",
+     "IsZero": "C",
+     "approach": "C_Spell.GetSpellCooldownDuration(1752): GetRemainingDuration / IsZero / HasSecretValues",
+     "available": true,
+     "durationState": "K",
+     "group": "engine",
+     "id": "duration-methods",
+     "ok": true
+    },
+    {
+     "approach": "UnitIsUnit('player','player') / C_Secrets.CanCompareUnitTokens('player','target')",
+     "available": true,
+     "canCompare": true,
+     "canCompareState": "C",
+     "group": "engine",
+     "id": "compare-units",
+     "ok": true,
+     "unitIsUnitState": "C"
+    },
+    {
+     "approach": "UnitHealthMax(player)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitHealthMax",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitPowerMax(player)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitPowerMax",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitIsDeadOrGhost(player)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitIsDeadOrGhost",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitAffectingCombat(player)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitAffectingCombat",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitThreatSituation(player,target)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitThreatSituation",
+     "ok": true,
+     "outputSecret": false,
+     "states": "N"
+    },
+    {
+     "approach": "UnitDetailedThreatSituation(player,target)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitDetailedThreatSituation",
+     "ok": true,
+     "outputSecret": false,
+     "states": ""
+    },
+    {
+     "absent": [
+      "GetSpellBaseCooldown (undocumented in 70245)"
+     ],
+     "approach": "GetSpellBaseCooldown(1752)",
+     "available": false,
+     "group": "neighbour",
+     "id": "GetSpellBaseCooldown"
+    },
+    {
+     "approach": "C_DamageMeter.IsDamageMeterAvailable()",
+     "available": true,
+     "group": "neighbour",
+     "id": "C_DamageMeter.IsDamageMeterAvailable",
+     "ok": true,
+     "outputSecret": false,
+     "states": "CC"
+    },
+    {
+     "approach": "C_DamageMeter.GetSessionDurationSeconds(1)",
+     "available": true,
+     "group": "neighbour",
+     "id": "C_DamageMeter.GetSessionDurationSeconds",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "C_DamageMeter.GetCombatSessionFromType(0,0)",
+     "available": true,
+     "fields": "combatSources=K durationSeconds=C maxAmount=C totalAmount=C",
+     "group": "neighbour",
+     "id": "C_DamageMeter.GetCombatSessionFromType",
+     "ok": true,
+     "outputSecret": false,
+     "states": "K"
+    },
+    {
+     "approach": "C_Spell.GetSpellCooldown(1752) NeverSecret fields (isEnabled/isActive/isOnGCD)",
+     "available": true,
+     "duration": "C",
+     "group": "neighbour",
+     "id": "cooldown-neverSecret",
+     "isActive": "C",
+     "isEnabled": "C",
+     "ok": true,
+     "outputSecret": false,
+     "startTime": "C"
+    },
+    {
+     "approach": "s = tostring(UnitHealth('player')); string ops on s",
+     "available": true,
+     "group": "boundary",
+     "id": "secret-string",
+     "ok": true,
+     "ops": {
+      "byte": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:240: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "concat": {
+       "ok": true,
+       "resultState": "S"
+      },
+      "eq": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:241: attempt to compare upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "find": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:243: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "format": {
+       "ok": true,
+       "resultState": "S"
+      },
+      "gsub": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:243: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "hash": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:239: attempt to get length of upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "len": {
+       "err": "attempt to perform string conversion on a secret string value (execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "lt": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:241: attempt to compare upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "sub": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:240: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "tonumber": {
+       "ok": true,
+       "resultState": "N"
+      },
+      "upper": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:244: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      }
+     },
+     "tostringOk": true,
+     "tostringState": "S"
+    }
+   ],
+   "reason": "capture:on",
+   "server": 1791424936,
+   "sid": "cap-20261007220215-5",
+   "t": 1052908.534,
+   "vector": {
+    "active": {
+     "ChallengeMode": false,
+     "Chat": false,
+     "Combat": false,
+     "Encounter": false,
+     "Map": false,
+     "PvPMatch": false
+    },
+    "addonChatRestricted": true,
+    "affecting": false,
+    "combat": false,
+    "combatLogRestricted": true,
+    "encounterInProgress": false,
+    "forced": {
+     "addonChallengeModeRestrictionsForced": "0",
+     "addonChatRestrictionsForced": "0",
+     "addonCombatRestrictionsForced": "0",
+     "addonEncounterRestrictionsForced": "0",
+     "addonMapRestrictionsForced": "0",
+     "addonPvPMatchRestrictionsForced": "0"
+    },
+    "hasSecretRestrictions": true,
+    "instanceType": "none",
+    "mapID": 1413,
+    "should": {
+     "auras": false,
+     "cooldowns": false,
+     "healthMaxTarget": true,
+     "identityTarget": false,
+     "powerPlayer": true,
+     "unitStats": false
+    },
+    "states": {
+     "ChallengeMode": 0,
+     "Chat": 0,
+     "Combat": 0,
+     "Encounter": 0,
+     "Map": 0,
+     "PvPMatch": 0
+    },
+    "taintLog": "1",
+    "taintLogObjectSecrets": "0"
+   }
+  },
+  {
+   "ctx": "combat",
+   "epoch": 1791424952,
+   "execution": "addon",
+   "items": [
+    {
+     "approach": "StatusBar:SetMinMaxValues(0, UnitHealthMax) + SetValue(UnitHealth)",
+     "available": true,
+     "getValueState": "S",
+     "group": "widget",
+     "id": "statusbar",
+     "ok": true,
+     "outputSecret": true,
+     "setMinMax": true,
+     "setValue": true
+    },
+    {
+     "approach": "FontString:SetText(secret) then GetText / GetStringWidth",
+     "available": true,
+     "getTextState": "N",
+     "group": "widget",
+     "id": "fontstring-settext",
+     "ok": true,
+     "set": false,
+     "setErr": "FontString:SetText(): Font not set\nLua Taint: ForeverDump",
+     "stringWidthState": "S"
+    },
+    {
+     "approach": "FontString:SetFormattedText('%d', secret) then GetText",
+     "available": true,
+     "getTextState": "N",
+     "group": "widget",
+     "id": "fontstring-formatted",
+     "ok": true,
+     "set": false,
+     "setErr": "FontString:SetFormattedText(): Font not set"
+    },
+    {
+     "approach": "Cooldown:SetCooldownFromDurationObject(C_Spell.GetSpellCooldownDuration(61304))",
+     "available": true,
+     "durationState": "N",
+     "getCooldownTimesState": "C",
+     "group": "widget",
+     "id": "cooldown-duration",
+     "ok": true,
+     "set": false,
+     "setErr": "bad argument #2 to '?' (Usage: self:SetCooldownFromDurationObject(duration [, clearIfZero]))"
+    },
+    {
+     "approach": "Texture:SetAlpha(curve(UnitHealthPercent)) then GetAlpha (boundary: is the readback secret)",
+     "available": true,
+     "getAlphaState": "S",
+     "group": "widget",
+     "id": "texture-readbacks",
+     "ok": true,
+     "outputSecret": true,
+     "percentState": "S",
+     "setAlpha": true,
+     "textureHasSecretValues": false
+    },
+    {
+     "approach": "UnitHealthPercent('player') (no curve)",
+     "available": true,
+     "group": "engine",
+     "id": "healthpercent",
+     "ok": true,
+     "outputSecret": true,
+     "state": "S"
+    },
+    {
+     "approach": "UnitHealthPercent('player', true, numberCurve)",
+     "available": true,
+     "group": "engine",
+     "id": "healthpercent-curve",
+     "ok": true,
+     "outputSecret": true,
+     "state": "S"
+    },
+    {
+     "approach": "LuaCurveObject:Evaluate(clear x) / Evaluate(secret x)",
+     "available": true,
+     "clearInputState": "C",
+     "curveHasSecretValues": false,
+     "group": "engine",
+     "id": "curve-evaluate",
+     "ok": true,
+     "secretInputErr": "bad argument #2 to '?' (Usage: local y = self:Evaluate(x). Secret values are only allowed during untainted execution for this argument.)",
+     "secretInputState": "E"
+    },
+    {
+     "approach": "C_CurveUtil.CreateColorCurve + UnitHealthPercent(player, true, colorCurve)",
+     "available": true,
+     "group": "engine",
+     "id": "colorcurve",
+     "ok": true,
+     "outputSecret": true,
+     "state": "T"
+    },
+    {
+     "GetRemainingDuration": "S",
+     "GetRemainingPercent": "S",
+     "GetTotalDuration": "S",
+     "HasExpired": "S",
+     "HasSecretValues": "C",
+     "IsZero": "S",
+     "approach": "C_Spell.GetSpellCooldownDuration(1752): GetRemainingDuration / IsZero / HasSecretValues",
+     "available": true,
+     "durationState": "T",
+     "group": "engine",
+     "id": "duration-methods",
+     "ok": true
+    },
+    {
+     "approach": "UnitIsUnit('player','player') / C_Secrets.CanCompareUnitTokens('player','target')",
+     "available": true,
+     "canCompare": true,
+     "canCompareState": "C",
+     "group": "engine",
+     "id": "compare-units",
+     "ok": true,
+     "unitIsUnitState": "C"
+    },
+    {
+     "approach": "UnitHealthMax(player)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitHealthMax",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitPowerMax(player)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitPowerMax",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitIsDeadOrGhost(player)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitIsDeadOrGhost",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitAffectingCombat(player)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitAffectingCombat",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "UnitThreatSituation(player,target)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitThreatSituation",
+     "ok": true,
+     "outputSecret": false,
+     "states": "N"
+    },
+    {
+     "approach": "UnitDetailedThreatSituation(player,target)",
+     "available": true,
+     "group": "neighbour",
+     "id": "UnitDetailedThreatSituation",
+     "ok": true,
+     "outputSecret": false,
+     "states": ""
+    },
+    {
+     "absent": [
+      "GetSpellBaseCooldown (undocumented in 70245)"
+     ],
+     "approach": "GetSpellBaseCooldown(1752)",
+     "available": false,
+     "group": "neighbour",
+     "id": "GetSpellBaseCooldown"
+    },
+    {
+     "approach": "C_DamageMeter.IsDamageMeterAvailable()",
+     "available": true,
+     "group": "neighbour",
+     "id": "C_DamageMeter.IsDamageMeterAvailable",
+     "ok": true,
+     "outputSecret": false,
+     "states": "CC"
+    },
+    {
+     "approach": "C_DamageMeter.GetSessionDurationSeconds(1)",
+     "available": true,
+     "group": "neighbour",
+     "id": "C_DamageMeter.GetSessionDurationSeconds",
+     "ok": true,
+     "outputSecret": false,
+     "states": "C"
+    },
+    {
+     "approach": "C_DamageMeter.GetCombatSessionFromType(0,0)",
+     "available": true,
+     "fields": "combatSources=K durationSeconds=S maxAmount=S totalAmount=S",
+     "group": "neighbour",
+     "id": "C_DamageMeter.GetCombatSessionFromType",
+     "ok": true,
+     "outputSecret": true,
+     "states": "T"
+    },
+    {
+     "approach": "C_Spell.GetSpellCooldown(1752) NeverSecret fields (isEnabled/isActive/isOnGCD)",
+     "available": true,
+     "duration": "S",
+     "group": "neighbour",
+     "id": "cooldown-neverSecret",
+     "isActive": "C",
+     "isEnabled": "C",
+     "ok": true,
+     "outputSecret": true,
+     "startTime": "S"
+    },
+    {
+     "approach": "s = tostring(UnitHealth('player')); string ops on s",
+     "available": true,
+     "group": "boundary",
+     "id": "secret-string",
+     "ok": true,
+     "ops": {
+      "byte": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:240: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "concat": {
+       "ok": true,
+       "resultState": "S"
+      },
+      "eq": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:241: attempt to compare upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "find": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:243: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "format": {
+       "ok": true,
+       "resultState": "S"
+      },
+      "gsub": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:243: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "hash": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:239: attempt to get length of upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "len": {
+       "err": "attempt to perform string conversion on a secret string value (execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "lt": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:241: attempt to compare upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "sub": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:240: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      },
+      "tonumber": {
+       "ok": true,
+       "resultState": "N"
+      },
+      "upper": {
+       "err": "Interface/AddOns/ForeverDump/Lab.lua:244: attempt to index upvalue 's' (a secret string value, while execution tainted by 'ForeverDump')",
+       "ok": false
+      }
+     },
+     "tostringOk": true,
+     "tostringState": "S"
+    }
+   ],
+   "reason": "combat",
+   "server": 1791424953,
+   "sid": "cap-20261007220215-5",
+   "t": 1052925.858,
+   "vector": {
+    "active": {
+     "ChallengeMode": false,
+     "Chat": false,
+     "Combat": true,
+     "Encounter": false,
+     "Map": false,
+     "PvPMatch": false
+    },
+    "addonChatRestricted": true,
+    "affecting": true,
+    "combat": true,
+    "combatLogRestricted": true,
+    "encounterInProgress": false,
+    "forced": {
+     "addonChallengeModeRestrictionsForced": "0",
+     "addonChatRestrictionsForced": "0",
+     "addonCombatRestrictionsForced": "0",
+     "addonEncounterRestrictionsForced": "0",
+     "addonMapRestrictionsForced": "0",
+     "addonPvPMatchRestrictionsForced": "0"
+    },
+    "hasSecretRestrictions": true,
+    "instanceType": "none",
+    "mapID": 1413,
+    "should": {
+     "auras": true,
+     "cooldowns": true,
+     "healthMaxTarget": true,
+     "identityTarget": false,
+     "powerPlayer": true,
+     "unitStats": true
+    },
+    "states": {
+     "ChallengeMode": 0,
+     "Chat": 0,
+     "Combat": 2,
+     "Encounter": 0,
+     "Map": 0,
+     "PvPMatch": 0
+    },
+    "taintLog": "1",
+    "taintLogObjectSecrets": "0"
+   }
+  }
+ ]
+}

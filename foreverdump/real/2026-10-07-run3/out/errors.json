@@ -1,0 +1,863 @@
+{
+ "blocked": [
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791424635,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1052608.85,
+   "inCombat": false,
+   "restrictions": "Combat",
+   "server": 1791424636,
+   "sid": "cap-20261007215622-1",
+   "t": 1052608.85,
+   "taintLog": "1",
+   "time": 1791424635
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424636,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052609.862,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424637,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052609.862,
+   "taintLog": "1",
+   "time": 1791424636
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424636,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052609.862,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424637,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052609.862,
+   "taintLog": "1",
+   "time": 1791424636
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424636,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052609.862,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424637,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052609.862,
+   "taintLog": "1",
+   "time": 1791424636
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424664,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052638.115,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424665,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052638.115,
+   "taintLog": "1",
+   "time": 1791424664
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424664,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052638.115,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424665,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052638.115,
+   "taintLog": "1",
+   "time": 1791424664
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424664,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052638.115,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424665,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052638.115,
+   "taintLog": "1",
+   "time": 1791424664
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424669,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052643.092,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424670,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052643.092,
+   "taintLog": "1",
+   "time": 1791424669
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424669,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052643.092,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424670,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052643.092,
+   "taintLog": "1",
+   "time": 1791424669
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791424670,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1052643.358,
+   "inCombat": false,
+   "restrictions": "none",
+   "server": 1791424671,
+   "sid": "cap-20261007215622-1",
+   "t": 1052643.358,
+   "taintLog": "1",
+   "time": 1791424670
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791424690,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1052663.251,
+   "inCombat": false,
+   "restrictions": "Combat",
+   "server": 1791424691,
+   "sid": "cap-20261007215622-1",
+   "t": 1052663.251,
+   "taintLog": "1",
+   "time": 1791424690
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424695,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052668.885,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424696,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052668.885,
+   "taintLog": "1",
+   "time": 1791424695
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424695,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052668.885,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424696,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052668.885,
+   "taintLog": "1",
+   "time": 1791424695
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791424696,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1052669.344,
+   "inCombat": false,
+   "restrictions": "none",
+   "server": 1791424697,
+   "sid": "cap-20261007215622-1",
+   "t": 1052669.344,
+   "taintLog": "1",
+   "time": 1791424696
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791424702,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1052675.444,
+   "inCombat": false,
+   "restrictions": "Combat",
+   "server": 1791424703,
+   "sid": "cap-20261007215622-1",
+   "t": 1052675.444,
+   "taintLog": "1",
+   "time": 1791424702
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424704,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052677.188,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424705,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052677.188,
+   "taintLog": "1",
+   "time": 1791424704
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424704,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052677.188,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424705,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052677.188,
+   "taintLog": "1",
+   "time": 1791424704
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424704,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052677.188,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424705,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052677.188,
+   "taintLog": "1",
+   "time": 1791424704
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424713,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052686.874,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424714,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052686.874,
+   "taintLog": "1",
+   "time": 1791424713
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424713,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052686.874,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424714,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052686.874,
+   "taintLog": "1",
+   "time": 1791424713
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424713,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052686.874,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424714,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052686.874,
+   "taintLog": "1",
+   "time": 1791424713
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424713,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052686.874,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424714,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052686.874,
+   "taintLog": "1",
+   "time": 1791424713
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424713,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052686.874,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424714,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052686.874,
+   "taintLog": "1",
+   "time": 1791424713
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424827,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052800.572,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424828,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052800.572,
+   "taintLog": "1",
+   "time": 1791424827
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424827,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052800.572,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424828,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052800.572,
+   "taintLog": "1",
+   "time": 1791424827
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791424828,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1052801.447,
+   "inCombat": false,
+   "restrictions": "none",
+   "server": 1791424829,
+   "sid": "cap-20261007215622-1",
+   "t": 1052801.447,
+   "taintLog": "1",
+   "time": 1791424828
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791424873,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1052846.731,
+   "inCombat": false,
+   "restrictions": "Combat",
+   "server": 1791424874,
+   "sid": "cap-20261007215622-1",
+   "t": 1052846.731,
+   "taintLog": "1",
+   "time": 1791424873
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424873,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052846.837,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424874,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052846.837,
+   "taintLog": "1",
+   "time": 1791424873
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424873,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052846.837,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424874,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052846.837,
+   "taintLog": "1",
+   "time": 1791424873
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791424875,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1052848.337,
+   "inCombat": false,
+   "restrictions": "none",
+   "server": 1791424876,
+   "sid": "cap-20261007215622-1",
+   "t": 1052848.337,
+   "taintLog": "1",
+   "time": 1791424875
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791424877,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1052850.462,
+   "inCombat": false,
+   "restrictions": "Combat",
+   "server": 1791424878,
+   "sid": "cap-20261007215622-1",
+   "t": 1052850.462,
+   "taintLog": "1",
+   "time": 1791424877
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424877,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052850.503,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424878,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052850.503,
+   "taintLog": "1",
+   "time": 1791424877
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424877,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052850.503,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424878,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052850.503,
+   "taintLog": "1",
+   "time": 1791424877
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424877,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052850.503,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424878,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052850.503,
+   "taintLog": "1",
+   "time": 1791424877
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424901,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052874.607,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424902,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052874.607,
+   "taintLog": "1",
+   "time": 1791424901
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424901,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052874.607,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424902,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052874.607,
+   "taintLog": "1",
+   "time": 1791424901
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424901,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052874.607,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424902,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052874.607,
+   "taintLog": "1",
+   "time": 1791424901
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424917,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052890.441,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424918,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052890.441,
+   "taintLog": "1",
+   "time": 1791424917
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424917,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052890.441,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424918,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052890.441,
+   "taintLog": "1",
+   "time": 1791424917
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424917,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052890.441,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424918,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052890.441,
+   "taintLog": "1",
+   "time": 1791424917
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424920,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052893.899,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424921,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052893.899,
+   "taintLog": "1",
+   "time": 1791424920
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424920,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052893.899,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424921,
+   "sid": "cap-20261007215622-1",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052893.899,
+   "taintLog": "1",
+   "time": 1791424920
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791424921,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1052894.503,
+   "inCombat": false,
+   "restrictions": "none",
+   "server": 1791424922,
+   "sid": "cap-20261007215622-1",
+   "t": 1052894.503,
+   "taintLog": "1",
+   "time": 1791424921
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791424951,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1052924.856,
+   "inCombat": false,
+   "restrictions": "Combat",
+   "server": 1791424952,
+   "sid": "cap-20261007220215-5",
+   "t": 1052924.856,
+   "taintLog": "1",
+   "time": 1791424951
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424951,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052924.963,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424952,
+   "sid": "cap-20261007220215-5",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052924.963,
+   "taintLog": "1",
+   "time": 1791424951
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791424951,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1052924.963,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791424952,
+   "sid": "cap-20261007220215-5",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1052924.963,
+   "taintLog": "1",
+   "time": 1791424951
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791425040,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1053013.72,
+   "inCombat": true,
+   "restrictions": "Combat",
+   "server": 1791425041,
+   "sid": "cap-20261007220215-5",
+   "stack": "[C]: in function 'pcall'\n[tail call]: ?\n[C]: in function 'pcall'",
+   "t": 1053013.72,
+   "taintLog": "1",
+   "time": 1791425040
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791425041,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1053014.768,
+   "inCombat": false,
+   "restrictions": "none",
+   "server": 1791425042,
+   "sid": "cap-20261007220215-5",
+   "t": 1053014.768,
+   "taintLog": "1",
+   "time": 1791425041
+  }
+ ],
+ "errors": [],
+ "perAddon": {
+  "ForeverDump": [
+   0,
+   36
+  ]
+ }
+}

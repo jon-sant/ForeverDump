@@ -1,0 +1,15 @@
+build:     1.60.1.70245 (toc 16001)
+project:   WOW_PROJECT_ID=18 (WOW_PROJECT_CAMELOT)
+constants: WOW_PROJECT_CAMELOT=18, WOW_PROJECT_CLASSIC=2, WOW_PROJECT_ID=18, WOW_PROJECT_MAINLINE=1
+scriptsDisallowedForBeta: False
+locale:    enUS, dumped 2026-10-07 22:04:12
+sections:  addons, api, cvars, docs, extras, frames, globals, probe, profile, protected, secrets, strings, templates, widgets
+docs:      410 systems
+strings:   27044
+recorder:  2 session(s); combat log: 2 session(s)
+errors:    0 unique, 48 blocked/forbidden/warnings
+wrote json/, luals/, .luacheckrc, mocks/, secrets/ under real/2026-10-07-run3/out
+combat: 74 item(s), 2 detectability context(s); wrote combat.json (guide --combat), combat-matrix.json, COMBAT-SECRETS.md to real/2026-10-07-run3/out/combat
+tokens: 26 famil(ies); wrote tokens.json + UNIT-TOKENS.md to real/2026-10-07-run3/out/tokens
+containers: source legacy, 2 context(s), 11 unit class(es), 8 partial-secret container(s), vs baseline: 0 state change(s), 0 new, 0 gone; wrote containers.json (guide --containers), containers-schema.json, CONTAINERS.md to real/2026-10-07-run3/out/containers
+drift vs /workspace/foreverdump/fixtures/baselines/70245/baseline.json: build bump False, newly secret 4, newly clear 8, APIs +0/-12 -> real/2026-10-07-run3/out/drift/DRIFT.md

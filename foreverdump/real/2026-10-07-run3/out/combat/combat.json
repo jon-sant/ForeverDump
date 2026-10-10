@@ -1,0 +1,1163 @@
+{
+ "build": "1.60.1.70245",
+ "captured": "2026-10-07T22:04:12-04:00",
+ "items": {
+  "aura.buffs": {
+   "nameplate": {
+    "ooc": {
+     "api": "aura:GetAuraDataByIndex[HELPFUL]",
+     "code": "N",
+     "n": 10
+    }
+   },
+   "player": {
+    "ooc": {
+     "api": "aura:GetAuraDataByIndex[HELPFUL]",
+     "code": "X",
+     "n": 12
+    }
+   },
+   "target_hostile_npc": {
+    "ooc": {
+     "api": "aura:GetAuraDataByIndex[HELPFUL]",
+     "code": "N",
+     "n": 5
+    }
+   }
+  },
+  "aura.debuffs": {
+   "nameplate": {
+    "ooc": {
+     "api": "aura:GetAuraDataByIndex[HARMFUL]",
+     "code": "N",
+     "n": 10
+    }
+   },
+   "player": {
+    "ooc": {
+     "api": "aura:GetAuraDataByIndex[HARMFUL]",
+     "code": "N",
+     "n": 12
+    }
+   },
+   "target_hostile_npc": {
+    "ooc": {
+     "api": "aura:GetAuraDataByIndex[HARMFUL]",
+     "code": "N",
+     "n": 5
+    }
+   }
+  },
+  "cast.info": {
+   "nameplate": {
+    "combat": {
+     "api": "UnitCastingInfo",
+     "code": "N",
+     "n": 13
+    },
+    "ooc": {
+     "api": "UnitCastingInfo",
+     "code": "N",
+     "n": 10
+    }
+   },
+   "player": {
+    "combat": {
+     "api": "UnitCastingInfo",
+     "code": "C",
+     "n": 16
+    },
+    "ooc": {
+     "api": "UnitCastingInfo",
+     "code": "N",
+     "n": 12
+    }
+   },
+   "target_hostile_npc": {
+    "combat": {
+     "api": "UnitCastingInfo",
+     "code": "N",
+     "n": 7
+    },
+    "ooc": {
+     "api": "UnitCastingInfo",
+     "code": "N",
+     "n": 5
+    }
+   }
+  },
+  "cast.timeLeft": {
+   "player": {
+    "combat": {
+     "api": "endTimeMS - GetTime()*1000",
+     "code": "C",
+     "n": 1,
+     "note": "duration object K (HasSecretValues C)"
+    },
+    "ooc": {
+     "api": "endTimeMS - GetTime()*1000",
+     "code": "C",
+     "n": 1,
+     "note": "duration object K (HasSecretValues C)"
+    }
+   }
+  },
+  "damageMeter": {
+   "any": {
+    "combat": {
+     "api": "C_DamageMeter.GetCombatSessionFromType",
+     "code": "S",
+     "n": 14
+    },
+    "ooc": {
+     "api": "C_DamageMeter.GetCombatSessionFromType",
+     "code": "X",
+     "n": 12
+    }
+   }
+  },
+  "det.aura.mine": {
+   "any": {
+    "combat": {
+     "code": "S",
+     "n": 14,
+     "note": "player: aura APIs error"
+    },
+    "ooc": {
+     "code": "C",
+     "n": 12,
+     "note": "player: GetAuraSlots counts readable"
+    }
+   }
+  },
+  "det.aura.present.other": {
+   "any": {
+    "combat": {
+     "code": "S",
+     "n": 13,
+     "note": "nameplate:hostile-npc: aura APIs error"
+    },
+    "ooc": {
+     "code": "C",
+     "n": 10,
+     "note": "nameplate:hostile-npc: GetAuraSlots counts readable"
+    }
+   }
+  },
+  "det.aura.present.self": {
+   "any": {
+    "combat": {
+     "code": "S",
+     "n": 14,
+     "note": "player: aura APIs error"
+    },
+    "ooc": {
+     "code": "C",
+     "n": 12,
+     "note": "player: GetAuraSlots counts readable"
+    }
+   }
+  },
+  "det.aura.stacks": {
+   "any": {
+    "ooc": {
+     "code": "C",
+     "n": 12,
+     "note": "player: applications=C duration=C durObj=K"
+    }
+   }
+  },
+  "det.cast.other": {
+   "any": {
+    "combat": {
+     "code": "C",
+     "n": 13,
+     "note": "nameplate:hostile-npc: idle (nil return is readable)"
+    },
+    "ooc": {
+     "code": "C",
+     "n": 10,
+     "note": "nameplate:hostile-npc: idle (nil return is readable)"
+    }
+   }
+  },
+  "det.cast.self": {
+   "any": {
+    "combat": {
+     "code": "C",
+     "n": 16,
+     "note": "focus:self: idle (nil return is readable)"
+    },
+    "ooc": {
+     "code": "C",
+     "n": 12,
+     "note": "player: idle (nil return is readable)"
+    }
+   }
+  },
+  "health.absorbs": {
+   "nameplate": {
+    "combat": {
+     "api": "UnitGetTotalAbsorbs",
+     "code": "S",
+     "n": 13
+    },
+    "ooc": {
+     "api": "UnitGetTotalAbsorbs",
+     "code": "S",
+     "n": 10
+    }
+   },
+   "player": {
+    "combat": {
+     "api": "UnitGetTotalAbsorbs",
+     "code": "S",
+     "n": 14
+    },
+    "ooc": {
+     "api": "UnitGetTotalAbsorbs",
+     "code": "S",
+     "n": 12
+    }
+   },
+   "target_hostile_npc": {
+    "combat": {
+     "api": "UnitGetTotalAbsorbs",
+     "code": "S",
+     "n": 7
+    },
+    "ooc": {
+     "api": "UnitGetTotalAbsorbs",
+     "code": "S",
+     "n": 5
+    }
+   }
+  },
+  "health.current": {
+   "nameplate": {
+    "combat": {
+     "api": "UnitHealth",
+     "code": "S",
+     "n": 13
+    },
+    "ooc": {
+     "api": "UnitHealth",
+     "code": "S",
+     "n": 10
+    }
+   },
+   "player": {
+    "combat": {
+     "api": "UnitHealth",
+     "code": "S",
+     "n": 14
+    },
+    "ooc": {
+     "api": "UnitHealth",
+     "code": "S",
+     "n": 12
+    }
+   },
+   "target_hostile_npc": {
+    "combat": {
+     "api": "UnitHealth",
+     "code": "S",
+     "n": 7
+    },
+    "ooc": {
+     "api": "UnitHealth",
+     "code": "S",
+     "n": 5
+    }
+   }
+  },
+  "health.incomingHeals": {
+   "nameplate": {
+    "combat": {
+     "api": "UnitGetIncomingHeals",
+     "code": "N",
+     "n": 13
+    },
+    "ooc": {
+     "api": "UnitGetIncomingHeals",
+     "code": "N",
+     "n": 10
+    }
+   },
+   "player": {
+    "combat": {
+     "api": "UnitGetIncomingHeals",
+     "code": "S",
+     "n": 14
+    },
+    "ooc": {
+     "api": "UnitGetIncomingHeals",
+     "code": "S",
+     "n": 12
+    }
+   },
+   "target_hostile_npc": {
+    "combat": {
+     "api": "UnitGetIncomingHeals",
+     "code": "N",
+     "n": 7
+    },
+    "ooc": {
+     "api": "UnitGetIncomingHeals",
+     "code": "N",
+     "n": 5
+    }
+   }
+  },
+  "health.max": {
+   "nameplate": {
+    "combat": {
+     "api": "UnitHealthMax",
+     "code": "S",
+     "n": 13
+    },
+    "ooc": {
+     "api": "UnitHealthMax",
+     "code": "S",
+     "n": 10
+    }
+   },
+   "player": {
+    "combat": {
+     "api": "UnitHealthMax",
+     "code": "C",
+     "n": 14
+    },
+    "ooc": {
+     "api": "UnitHealthMax",
+     "code": "C",
+     "n": 12
+    }
+   },
+   "target_hostile_npc": {
+    "combat": {
+     "api": "UnitHealthMax",
+     "code": "S",
+     "n": 7
+    },
+    "ooc": {
+     "api": "UnitHealthMax",
+     "code": "S",
+     "n": 5
+    }
+   }
+  },
+  "health.percent": {
+   "nameplate": {
+    "combat": {
+     "api": "UnitHealthPercent",
+     "code": "S",
+     "n": 13
+    },
+    "ooc": {
+     "api": "UnitHealthPercent",
+     "code": "S",
+     "n": 10
+    }
+   },
+   "player": {
+    "combat": {
+     "api": "UnitHealthPercent",
+     "code": "S",
+     "n": 14
+    },
+    "ooc": {
+     "api": "UnitHealthPercent",
+     "code": "S",
+     "n": 12
+    }
+   },
+   "target_hostile_npc": {
+    "combat": {
+     "api": "UnitHealthPercent",
+     "code": "S",
+     "n": 7
+    },
+    "ooc": {
+     "api": "UnitHealthPercent",
+     "code": "S",
+     "n": 5
+    }
+   }
+  },
+  "movement.speed": {
+   "nameplate": {
+    "combat": {
+     "api": "GetUnitSpeed",
+     "code": "S",
+     "n": 13
+    },
+    "ooc": {
+     "api": "GetUnitSpeed",
+     "code": "C",
+     "n": 10
+    }
+   },
+   "player": {
+    "combat": {
+     "api": "GetUnitSpeed",
+     "code": "S",
+     "n": 14
+    },
+    "ooc": {
+     "api": "GetUnitSpeed",
+     "code": "C",
+     "n": 12
+    }
+   },
+   "target_hostile_npc": {
+    "combat": {
+     "api": "GetUnitSpeed",
+     "code": "S",
+     "n": 7
+    },
+    "ooc": {
+     "api": "GetUnitSpeed",
+     "code": "C",
+     "n": 5
+    }
+   }
+  },
+  "raidMarker": {
+   "nameplate": {
+    "combat": {
+     "api": "GetRaidTargetIndex",
+     "code": "N?",
+     "n": 13
+    },
+    "ooc": {
+     "api": "GetRaidTargetIndex",
+     "code": "N?",
+     "n": 10
+    }
+   },
+   "player": {
+    "combat": {
+     "api": "GetRaidTargetIndex",
+     "code": "N",
+     "n": 14
+    },
+    "ooc": {
+     "api": "GetRaidTargetIndex",
+     "code": "N",
+     "n": 12
+    }
+   },
+   "target_hostile_npc": {
+    "combat": {
+     "api": "GetRaidTargetIndex",
+     "code": "N?",
+     "n": 7
+    },
+    "ooc": {
+     "api": "GetRaidTargetIndex",
+     "code": "N",
+     "n": 5
+    }
+   }
+  },
+  "range": {
+   "nameplate": {
+    "combat": {
+     "api": "UnitInRange",
+     "code": "S",
+     "n": 13
+    },
+    "ooc": {
+     "api": "UnitInRange",
+     "code": "S",
+     "n": 10
+    }
+   },
+   "player": {
+    "combat": {
+     "api": "UnitInRange",
+     "code": "S",
+     "n": 14
+    },
+    "ooc": {
+     "api": "UnitInRange",
+     "code": "S",
+     "n": 12
+    }
+   },
+   "target_hostile_npc": {
+    "combat": {
+     "api": "UnitInRange",
+     "code": "S",
+     "n": 7
+    },
+    "ooc": {
+     "api": "UnitInRange",
+     "code": "S",
+     "n": 5
+    }
+   }
+  },
+  "threat": {
+   "nameplate": {
+    "combat": {
+     "api": "UnitThreatSituation",
+     "code": "C",
+     "n": 13
+    },
+    "ooc": {
+     "api": "UnitThreatSituation",
+     "code": "N",
+     "n": 10
+    }
+   },
+   "player": {
+    "combat": {
+     "api": "UnitThreatSituation",
+     "code": "N",
+     "n": 14
+    },
+    "ooc": {
+     "api": "UnitThreatSituation",
+     "code": "N",
+     "n": 12
+    }
+   },
+   "target_hostile_npc": {
+    "combat": {
+     "api": "UnitThreatSituation",
+     "code": "C",
+     "n": 7
+    },
+    "ooc": {
+     "api": "UnitThreatSituation",
+     "code": "N",
+     "n": 5
+    }
+   }
+  },
+  "unit.name": {
+   "nameplate": {
+    "combat": {
+     "api": "UnitName",
+     "code": "C",
+     "n": 13
+    },
+    "ooc": {
+     "api": "UnitName",
+     "code": "C",
+     "n": 10
+    }
+   },
+   "player": {
+    "combat": {
+     "api": "UnitName",
+     "code": "C",
+     "n": 14
+    },
+    "ooc": {
+     "api": "UnitName",
+     "code": "C",
+     "n": 12
+    }
+   },
+   "target_hostile_npc": {
+    "combat": {
+     "api": "UnitName",
+     "code": "C",
+     "n": 7
+    },
+    "ooc": {
+     "api": "UnitName",
+     "code": "C",
+     "n": 5
+    }
+   }
+  }
+ },
+ "observations": [
+  {
+   "api": "CanCompareUnitTokens",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.CanCompareUnitTokens",
+   "n": 13,
+   "unit": "nameplate"
+  },
+  {
+   "api": "CanCompareUnitTokens",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.CanCompareUnitTokens",
+   "n": 10,
+   "unit": "nameplate"
+  },
+  {
+   "api": "CanCompareUnitTokens",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.CanCompareUnitTokens",
+   "n": 14,
+   "unit": "player"
+  },
+  {
+   "api": "CanCompareUnitTokens",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.CanCompareUnitTokens",
+   "n": 12,
+   "unit": "player"
+  },
+  {
+   "api": "CanCompareUnitTokens",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.CanCompareUnitTokens",
+   "n": 7,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "CanCompareUnitTokens",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.CanCompareUnitTokens",
+   "n": 5,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "ShouldUnitIdentityBeSecret",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.ShouldUnitIdentityBeSecret",
+   "n": 13,
+   "unit": "nameplate"
+  },
+  {
+   "api": "ShouldUnitIdentityBeSecret",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.ShouldUnitIdentityBeSecret",
+   "n": 10,
+   "unit": "nameplate"
+  },
+  {
+   "api": "ShouldUnitIdentityBeSecret",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.ShouldUnitIdentityBeSecret",
+   "n": 14,
+   "unit": "player"
+  },
+  {
+   "api": "ShouldUnitIdentityBeSecret",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.ShouldUnitIdentityBeSecret",
+   "n": 12,
+   "unit": "player"
+  },
+  {
+   "api": "ShouldUnitIdentityBeSecret",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.ShouldUnitIdentityBeSecret",
+   "n": 7,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "ShouldUnitIdentityBeSecret",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.ShouldUnitIdentityBeSecret",
+   "n": 5,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitAffectingCombat",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.UnitAffectingCombat",
+   "n": 13,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitAffectingCombat",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.UnitAffectingCombat",
+   "n": 10,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitAffectingCombat",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.UnitAffectingCombat",
+   "n": 14,
+   "unit": "player"
+  },
+  {
+   "api": "UnitAffectingCombat",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.UnitAffectingCombat",
+   "n": 12,
+   "unit": "player"
+  },
+  {
+   "api": "UnitAffectingCombat",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.UnitAffectingCombat",
+   "n": 7,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitAffectingCombat",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.UnitAffectingCombat",
+   "n": 5,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitCastingDuration",
+   "code": "X",
+   "context": "combat",
+   "item": "probe.UnitCastingDuration",
+   "n": 4,
+   "unit": "player"
+  },
+  {
+   "api": "UnitCastingDuration",
+   "code": "X",
+   "context": "ooc",
+   "item": "probe.UnitCastingDuration",
+   "n": 5,
+   "unit": "player"
+  },
+  {
+   "api": "UnitChannelInfo",
+   "code": "N",
+   "context": "combat",
+   "item": "probe.UnitChannelInfo",
+   "n": 13,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitChannelInfo",
+   "code": "N",
+   "context": "ooc",
+   "item": "probe.UnitChannelInfo",
+   "n": 10,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitChannelInfo",
+   "code": "N",
+   "context": "combat",
+   "item": "probe.UnitChannelInfo",
+   "n": 16,
+   "unit": "player"
+  },
+  {
+   "api": "UnitChannelInfo",
+   "code": "N",
+   "context": "ooc",
+   "item": "probe.UnitChannelInfo",
+   "n": 12,
+   "unit": "player"
+  },
+  {
+   "api": "UnitChannelInfo",
+   "code": "N",
+   "context": "combat",
+   "item": "probe.UnitChannelInfo",
+   "n": 7,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitChannelInfo",
+   "code": "N",
+   "context": "ooc",
+   "item": "probe.UnitChannelInfo",
+   "n": 5,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitDetailedThreatSituation",
+   "code": "S",
+   "context": "combat",
+   "item": "probe.UnitDetailedThreatSituation",
+   "n": 13,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitDetailedThreatSituation",
+   "code": "N",
+   "context": "ooc",
+   "item": "probe.UnitDetailedThreatSituation",
+   "n": 10,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitDetailedThreatSituation",
+   "code": "N",
+   "context": "combat",
+   "item": "probe.UnitDetailedThreatSituation",
+   "n": 14,
+   "unit": "player"
+  },
+  {
+   "api": "UnitDetailedThreatSituation",
+   "code": "N",
+   "context": "ooc",
+   "item": "probe.UnitDetailedThreatSituation",
+   "n": 12,
+   "unit": "player"
+  },
+  {
+   "api": "UnitDetailedThreatSituation",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.UnitDetailedThreatSituation",
+   "n": 7,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitDetailedThreatSituation",
+   "code": "N",
+   "context": "ooc",
+   "item": "probe.UnitDetailedThreatSituation",
+   "n": 5,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitGUID",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.UnitGUID",
+   "n": 13,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitGUID",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.UnitGUID",
+   "n": 10,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitGUID",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.UnitGUID",
+   "n": 14,
+   "unit": "player"
+  },
+  {
+   "api": "UnitGUID",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.UnitGUID",
+   "n": 12,
+   "unit": "player"
+  },
+  {
+   "api": "UnitGUID",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.UnitGUID",
+   "n": 7,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitGUID",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.UnitGUID",
+   "n": 5,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitIsDeadOrGhost",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.UnitIsDeadOrGhost",
+   "n": 13,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitIsDeadOrGhost",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.UnitIsDeadOrGhost",
+   "n": 10,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitIsDeadOrGhost",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.UnitIsDeadOrGhost",
+   "n": 14,
+   "unit": "player"
+  },
+  {
+   "api": "UnitIsDeadOrGhost",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.UnitIsDeadOrGhost",
+   "n": 12,
+   "unit": "player"
+  },
+  {
+   "api": "UnitIsDeadOrGhost",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.UnitIsDeadOrGhost",
+   "n": 7,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitIsDeadOrGhost",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.UnitIsDeadOrGhost",
+   "n": 5,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitIsUnit(u,player)",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.UnitIsUnit(u,player)",
+   "n": 13,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitIsUnit(u,player)",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.UnitIsUnit(u,player)",
+   "n": 10,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitIsUnit(u,player)",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.UnitIsUnit(u,player)",
+   "n": 14,
+   "unit": "player"
+  },
+  {
+   "api": "UnitIsUnit(u,player)",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.UnitIsUnit(u,player)",
+   "n": 12,
+   "unit": "player"
+  },
+  {
+   "api": "UnitIsUnit(u,player)",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.UnitIsUnit(u,player)",
+   "n": 7,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitIsUnit(u,player)",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.UnitIsUnit(u,player)",
+   "n": 5,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitPosition",
+   "code": "N",
+   "context": "combat",
+   "item": "probe.UnitPosition",
+   "n": 13,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitPosition",
+   "code": "N",
+   "context": "ooc",
+   "item": "probe.UnitPosition",
+   "n": 10,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitPosition",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.UnitPosition",
+   "n": 14,
+   "unit": "player"
+  },
+  {
+   "api": "UnitPosition",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.UnitPosition",
+   "n": 12,
+   "unit": "player"
+  },
+  {
+   "api": "UnitPosition",
+   "code": "N",
+   "context": "combat",
+   "item": "probe.UnitPosition",
+   "n": 7,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitPosition",
+   "code": "N",
+   "context": "ooc",
+   "item": "probe.UnitPosition",
+   "n": 5,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitPower",
+   "code": "S",
+   "context": "combat",
+   "item": "probe.UnitPower",
+   "n": 13,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitPower",
+   "code": "S",
+   "context": "ooc",
+   "item": "probe.UnitPower",
+   "n": 10,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitPower",
+   "code": "S",
+   "context": "combat",
+   "item": "probe.UnitPower",
+   "n": 14,
+   "unit": "player"
+  },
+  {
+   "api": "UnitPower",
+   "code": "S",
+   "context": "ooc",
+   "item": "probe.UnitPower",
+   "n": 12,
+   "unit": "player"
+  },
+  {
+   "api": "UnitPower",
+   "code": "S",
+   "context": "combat",
+   "item": "probe.UnitPower",
+   "n": 7,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitPower",
+   "code": "S",
+   "context": "ooc",
+   "item": "probe.UnitPower",
+   "n": 5,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitPowerMax",
+   "code": "S",
+   "context": "combat",
+   "item": "probe.UnitPowerMax",
+   "n": 13,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitPowerMax",
+   "code": "S",
+   "context": "ooc",
+   "item": "probe.UnitPowerMax",
+   "n": 10,
+   "unit": "nameplate"
+  },
+  {
+   "api": "UnitPowerMax",
+   "code": "C",
+   "context": "combat",
+   "item": "probe.UnitPowerMax",
+   "n": 14,
+   "unit": "player"
+  },
+  {
+   "api": "UnitPowerMax",
+   "code": "C",
+   "context": "ooc",
+   "item": "probe.UnitPowerMax",
+   "n": 12,
+   "unit": "player"
+  },
+  {
+   "api": "UnitPowerMax",
+   "code": "S",
+   "context": "combat",
+   "item": "probe.UnitPowerMax",
+   "n": 7,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitPowerMax",
+   "code": "S",
+   "context": "ooc",
+   "item": "probe.UnitPowerMax",
+   "n": 5,
+   "unit": "target_hostile_npc"
+  },
+  {
+   "api": "UnitGUID",
+   "code": "C",
+   "context": "combat",
+   "item": "unitToken.nameplate.identity",
+   "n": 2,
+   "note": "ooc: 1/40 resolved; combat: 2/40 resolved",
+   "unit": "any"
+  },
+  {
+   "api": "UnitGUID",
+   "code": "C",
+   "context": "ooc",
+   "item": "unitToken.nameplate.identity",
+   "n": 1,
+   "note": "ooc: 1/40 resolved; combat: 2/40 resolved",
+   "unit": "any"
+  },
+  {
+   "api": "UnitGUID",
+   "code": "C",
+   "context": "combat",
+   "item": "unitToken.player.identity",
+   "n": 1,
+   "note": "ooc: 1/1 resolved; combat: 1/1 resolved",
+   "unit": "any"
+  },
+  {
+   "api": "UnitGUID",
+   "code": "C",
+   "context": "ooc",
+   "item": "unitToken.player.identity",
+   "n": 1,
+   "note": "ooc: 1/1 resolved; combat: 1/1 resolved",
+   "unit": "any"
+  }
+ ],
+ "schema": "foreverdump.combat/1",
+ "source": "ForeverDump CombatProbe/Tokens"
+}

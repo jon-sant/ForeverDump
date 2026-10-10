@@ -1,0 +1,23 @@
+player Player-4618-00EB40D8 via auto:sv-meta guid (Uglaz)
+{
+ "bySource": {
+  "file-cl": 1868,
+  "addon-event": 6289,
+  "addon-anchor": 4,
+  "addon-cl": 2430,
+  "addon-contradiction": 3,
+  "addon-restriction": 12,
+  "addon-context": 25,
+  "addon-blocked": 36,
+  "addon-probe": 3
+ },
+ "matches": {
+  "exact": 72,
+  "unmatched": 888,
+  "time+amount": 258,
+  "time-only:amount-differs": 124
+ },
+ "segments": 6,
+ "player": "Player-4618-00EB40D8"
+}
+wrote timeline.jsonl + TIMELINE.md to real/2026-10-07-run3/out/xref

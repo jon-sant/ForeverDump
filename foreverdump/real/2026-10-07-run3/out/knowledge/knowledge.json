@@ -1,0 +1,1490 @@
+{
+ "70245": {
+  "fields": {
+   "IsSpellHarmful": {
+    "combat": {
+     "C": 14,
+     "N": 62
+    },
+    "ooc": {
+     "C": 14,
+     "N": 62
+    }
+   },
+   "IsSpellHelpful": {
+    "combat": {
+     "C": 21,
+     "N": 55
+    },
+    "ooc": {
+     "C": 21,
+     "N": 55
+    }
+   },
+   "baseCooldown": {
+    "combat": {
+     "C": 76
+    },
+    "ooc": {
+     "C": 76
+    }
+   },
+   "baseGCD": {
+    "combat": {
+     "C": 76
+    },
+    "ooc": {
+     "C": 76
+    }
+   },
+   "charges": {
+    "combat": {
+     "N": 76
+    },
+    "ooc": {
+     "N": 76
+    }
+   },
+   "description": {
+    "combat": {
+     "C": 76
+    },
+    "ooc": {
+     "C": 76
+    }
+   },
+   "info.castTime": {
+    "combat": {
+     "C": 76
+    },
+    "ooc": {
+     "C": 76
+    }
+   },
+   "info.iconID": {
+    "combat": {
+     "C": 76
+    },
+    "ooc": {
+     "C": 76
+    }
+   },
+   "info.maxRange": {
+    "combat": {
+     "C": 76
+    },
+    "ooc": {
+     "C": 76
+    }
+   },
+   "info.minRange": {
+    "combat": {
+     "C": 76
+    },
+    "ooc": {
+     "C": 76
+    }
+   },
+   "info.name": {
+    "combat": {
+     "C": 76
+    },
+    "ooc": {
+     "C": 76
+    }
+   },
+   "powerCost": {
+    "combat": {
+     "K": 63,
+     "N": 13
+    },
+    "ooc": {
+     "K": 63,
+     "N": 13
+    }
+   },
+   "powerCost.cost": {
+    "ooc": {
+     "C": 63
+    }
+   },
+   "secrecy.GetSpellAuraSecrecy": {
+    "combat": {
+     "C": 76
+    },
+    "ooc": {
+     "C": 76
+    }
+   },
+   "secrecy.GetSpellCastSecrecy": {
+    "combat": {
+     "C": 76
+    },
+    "ooc": {
+     "C": 76
+    }
+   },
+   "secrecy.GetSpellCooldownSecrecy": {
+    "combat": {
+     "C": 76
+    },
+    "ooc": {
+     "C": 76
+    }
+   },
+   "secrecy.ShouldSpellAuraBeSecret": {
+    "combat": {
+     "C": 76
+    },
+    "ooc": {
+     "N": 76
+    }
+   },
+   "tooltip": {
+    "combat": {
+     "K": 76
+    },
+    "ooc": {
+     "K": 76
+    }
+   }
+  },
+  "listed": 76,
+  "player": {
+   "class": "SHAMAN",
+   "classID": 7,
+   "className": "Shaman",
+   "level": 30,
+   "race": "Orc",
+   "role": "DAMAGER",
+   "specID": 1489,
+   "specIndex": 1,
+   "specName": "Shaman"
+  },
+  "spells": {
+   "10399": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Rockbiter Weapon",
+    "parsed": {
+     "auraDuration": 3600
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "10595": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Nature Resistance Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 5,
+     "amountMin": 5,
+     "auraDuration": 300
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "107": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Block",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "1238640": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Ghost Wolf",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "1293657": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Languages",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "1293712": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Armor Proficiency",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "1299026": {
+    "baseCooldown": 180000,
+    "castTime": 0,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Shatter Curse",
+    "parsed": {
+     "auraDuration": 8
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "17364": {
+    "baseCooldown": 8000,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Stormstrike",
+    "parsed": {
+     "auraDuration": 12
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "2008": {
+    "baseCooldown": 0,
+    "castTime": 10000,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 30,
+    "name": "Ancestral Spirit",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 120,
+     "amountMin": 120
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "20572": {
+    "baseCooldown": 120000,
+    "castTime": 0,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Blood Fury",
+    "parsed": {
+     "auraDuration": 15
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "20573": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Hardiness",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "20574": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Axe Specialization",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "20608": {
+    "baseCooldown": 3600000,
+    "castTime": 0,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Reincarnation",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "2484": {
+    "baseCooldown": 15000,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Earthbind Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 45,
+     "amountMin": 45,
+     "auraDuration": 45
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "2870": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 30,
+    "name": "Cure Disease",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "324": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Lightning Shield",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 13,
+     "amountMin": 13,
+     "auraDuration": 600
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "325": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Lightning Shield",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 24,
+     "amountMin": 24,
+     "auraDuration": 600
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "331": {
+    "baseCooldown": 0,
+    "castTime": 1500,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 40,
+    "name": "Healing Wave",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 47,
+     "amountMin": 36
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "332": {
+    "baseCooldown": 0,
+    "castTime": 2000,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 40,
+    "name": "Healing Wave",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 83,
+     "amountMin": 69
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "3599": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Searing Totem",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 11,
+     "amountMin": 9,
+     "auraDuration": 30,
+     "school": "Fire"
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "36936": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Totemic Recall",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "370": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 30,
+    "name": "Purge",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "403": {
+    "baseCooldown": 0,
+    "castTime": 1500,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 30,
+    "name": "Lightning Bolt",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 17,
+     "amountMin": 15,
+     "school": "Nature"
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "408341": {
+    "baseCooldown": 10000,
+    "castTime": 0,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 30,
+    "name": "Fire Nova",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 62,
+     "amountMin": 53,
+     "school": "fire"
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "408342": {
+    "baseCooldown": 10000,
+    "castTime": 0,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 30,
+    "name": "Fire Nova",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 124,
+     "amountMin": 110,
+     "school": "fire"
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "437009": {
+    "baseCooldown": 60000,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 30,
+    "name": "Totemic Projection",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "526": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 30,
+    "name": "Cure Poison",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "529": {
+    "baseCooldown": 0,
+    "castTime": 2000,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 30,
+    "name": "Lightning Bolt",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 34,
+     "amountMin": 29,
+     "school": "Nature"
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "5394": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Healing Stream Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 5,
+     "amountMin": 5,
+     "auraDuration": 300
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "546": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 30,
+    "name": "Water Walking",
+    "parsed": {
+     "auraDuration": 600
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "547": {
+    "baseCooldown": 0,
+    "castTime": 2500,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 40,
+    "name": "Healing Wave",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 151,
+     "amountMin": 126
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "548": {
+    "baseCooldown": 0,
+    "castTime": 2500,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 30,
+    "name": "Lightning Bolt",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 52,
+     "amountMin": 44,
+     "school": "Nature"
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "556": {
+    "baseCooldown": 900000,
+    "castTime": 10000,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Astral Recall",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "5675": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Mana Spring Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 5,
+     "amountMin": 5,
+     "auraDuration": 300
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "5730": {
+    "baseCooldown": 30000,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Stoneclaw Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 15,
+     "amountMin": 15,
+     "auraDuration": 15
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "6363": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Searing Totem",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 17,
+     "amountMin": 13,
+     "auraDuration": 35,
+     "school": "Fire"
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "6364": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Searing Totem",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 25,
+     "amountMin": 19,
+     "auraDuration": 40,
+     "school": "Fire"
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "6375": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Healing Stream Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 5,
+     "amountMin": 5,
+     "auraDuration": 300
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "6390": {
+    "baseCooldown": 30000,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Stoneclaw Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 15,
+     "amountMin": 15,
+     "auraDuration": 15
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "6391": {
+    "baseCooldown": 30000,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Stoneclaw Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 15,
+     "amountMin": 15,
+     "auraDuration": 15
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "6603": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Attack",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "66842": {
+    "baseCooldown": 0,
+    "castTime": 3000,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Call of the Elements",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "66843": {
+    "baseCooldown": 0,
+    "castTime": 3000,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Call of the Ancestors",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8004": {
+    "baseCooldown": 0,
+    "castTime": 1500,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 40,
+    "name": "Lesser Healing Wave",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 173,
+     "amountMin": 150
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8008": {
+    "baseCooldown": 0,
+    "castTime": 1500,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 40,
+    "name": "Lesser Healing Wave",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 243,
+     "amountMin": 214
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8017": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Rockbiter Weapon",
+    "parsed": {
+     "auraDuration": 3600
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8018": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Rockbiter Weapon",
+    "parsed": {
+     "auraDuration": 3600
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8019": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Rockbiter Weapon",
+    "parsed": {
+     "auraDuration": 3600
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8024": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Flametongue Weapon",
+    "parsed": {
+     "auraDuration": 3600
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8027": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Flametongue Weapon",
+    "parsed": {
+     "auraDuration": 3600
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8030": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Flametongue Weapon",
+    "parsed": {
+     "auraDuration": 3600
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8033": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Frostbrand Weapon",
+    "parsed": {
+     "auraDuration": 8
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8042": {
+    "baseCooldown": 6000,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 20,
+    "name": "Earth Shock",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 22,
+     "amountMin": 19,
+     "auraDuration": 2,
+     "school": "Nature"
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8044": {
+    "baseCooldown": 6000,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 20,
+    "name": "Earth Shock",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 38,
+     "amountMin": 35,
+     "auraDuration": 2,
+     "school": "Nature"
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8045": {
+    "baseCooldown": 6000,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 20,
+    "name": "Earth Shock",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 56,
+     "amountMin": 51,
+     "auraDuration": 2,
+     "school": "Nature"
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8046": {
+    "baseCooldown": 6000,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 20,
+    "name": "Earth Shock",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 90,
+     "amountMin": 83,
+     "auraDuration": 2,
+     "school": "Nature"
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8050": {
+    "baseCooldown": 6000,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 20,
+    "name": "Flame Shock",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 24,
+     "amountMin": 24,
+     "auraDuration": 12,
+     "overTime": 12
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8052": {
+    "baseCooldown": 6000,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 20,
+    "name": "Flame Shock",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 38,
+     "amountMin": 38,
+     "auraDuration": 12,
+     "overTime": 12
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8053": {
+    "baseCooldown": 6000,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 20,
+    "name": "Flame Shock",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 45,
+     "amountMin": 45,
+     "auraDuration": 12,
+     "overTime": 12
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8056": {
+    "baseCooldown": 6000,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 20,
+    "name": "Frost Shock",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 73,
+     "amountMin": 68,
+     "auraDuration": 8,
+     "school": "Frost"
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8071": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Stoneskin Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 30,
+     "amountMin": 30,
+     "auraDuration": 300
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8075": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Strength of Earth Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 30,
+     "amountMin": 30,
+     "auraDuration": 300
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "81": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Dodge",
+    "parsed": null,
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8143": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Tremor Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 30,
+     "amountMin": 30,
+     "auraDuration": 300
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8154": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Stoneskin Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 30,
+     "amountMin": 30,
+     "auraDuration": 300
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8155": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Stoneskin Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 30,
+     "amountMin": 30,
+     "auraDuration": 300
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8160": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Strength of Earth Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 30,
+     "amountMin": 30,
+     "auraDuration": 300
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8166": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Poison Cleansing Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 1,
+     "amountMin": 1,
+     "auraDuration": 300
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8177": {
+    "baseCooldown": 15000,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Grounding Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 10,
+     "amountMin": 10,
+     "auraDuration": 45
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8181": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Frost Resistance Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 5,
+     "amountMin": 5,
+     "auraDuration": 300
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8184": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Fire Resistance Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 5,
+     "amountMin": 5,
+     "auraDuration": 300
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8227": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Flametongue Totem",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 30,
+     "amountMin": 30
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "8232": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Windfury Weapon",
+    "parsed": {
+     "auraDuration": 3600
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "905": {
+    "baseCooldown": 0,
+    "castTime": 0,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 0,
+    "name": "Lightning Shield",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 40,
+     "amountMin": 40,
+     "auraDuration": 600
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "913": {
+    "baseCooldown": 0,
+    "castTime": 3000,
+    "helpful": true,
+    "learned": null,
+    "maxRange": 40,
+    "name": "Healing Wave",
+    "parsed": {
+     "amountKind": "heal",
+     "amountMax": 289,
+     "amountMin": 246
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   },
+   "915": {
+    "baseCooldown": 0,
+    "castTime": 2500,
+    "helpful": null,
+    "learned": null,
+    "maxRange": 30,
+    "name": "Lightning Bolt",
+    "parsed": {
+     "amountKind": "damage",
+     "amountMax": 63,
+     "amountMin": 55,
+     "school": "Nature"
+    },
+    "secrecy": {
+     "GetSpellAuraSecrecy": 2,
+     "GetSpellCastSecrecy": 2,
+     "GetSpellCooldownSecrecy": 2
+    }
+   }
+  }
+ }
+}
