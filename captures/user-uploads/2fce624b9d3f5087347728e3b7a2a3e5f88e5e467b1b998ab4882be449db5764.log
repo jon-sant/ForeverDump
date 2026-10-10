@@ -1,0 +1,2221 @@
+10/7 19:48:53.945  [N][BleepTokenManager] Constructing BLEEP token manager
+10/7 19:48:53.945  [N][Connection] Client connection initialized
+10/7 19:49:00.353  [N][Connection] Battle.net services startup requested hasFrontInterface="false" hasBackInterface="false"
+10/7 19:49:00.999  [N][Console] Linear: 1. 0- disabled (live), 1- linear
+10/7 19:49:00.999  [N][Console] Multithreaded rendering enabled.
+10/7 19:49:00.999  [N][Console] Multithreaded BeginDraw enabled.
+10/7 19:49:00.999  [N][Console] Multithread shadows changed to 1.
+10/7 19:49:00.999  [N][Console] Multithreaded prepass enabled.
+10/7 19:49:00.999  [N][Console] Multithreaded opaque pass enabled.
+10/7 19:49:00.999  [N][Console] Multithreaded opaque pass enabled.
+10/7 19:49:00.999  [N][Console] Multithreaded alpha M2 pass enabled.
+10/7 19:49:00.999  [N][Console] Multithreaded opaque WMO pass enabled.
+10/7 19:49:00.999  [N][Console] Multithreaded terrain pass enabled.
+10/7 19:49:00.999  [N][Console] Multithreaded volumetric fog enabled.
+10/7 19:49:00.999  [N][Console] Multithreaded Refraction Pass enabled.
+10/7 19:49:00.999  [N][Console] Multithreaded miscellaneous passes enabled.
+10/7 19:49:00.999  [N][Console] Multithreaded decal passes disabled.
+10/7 19:49:00.999  [N][Console] Multithreaded outline passes enabled.
+10/7 19:49:00.999  [N][Console] Multithreaded lightshaft passes enabled.
+10/7 19:49:00.999  [W][Console] Use trigger on BeginDrawComplete enabled.
+10/7 19:49:00.999  [N][Console] Multithreaded alpha pass enabled.
+10/7 19:49:00.999  [N][Console] Multithreaded daynight update enabled.
+10/7 19:49:00.999  [N][Console] Water detail changed to 2
+10/7 19:49:00.999  [N][Console] Ripple detail changed to 1
+10/7 19:49:00.999  [N][Console] Reflection mode changed to 2
+10/7 19:49:00.999  [N][Console] Reflection downscale changed to 0
+10/7 19:49:00.999  [N][Console] Sunshafts quality changed to 0
+10/7 19:49:00.999  [N][Console] Refraction mode changed to 0
+10/7 19:49:00.999  [N][Console] Volume fog enabled.
+10/7 19:49:00.999  [N][Console] Particulate volumes enabled.
+10/7 19:49:00.999  [N][Console] Projected textures enabled.
+10/7 19:49:00.999  [N][Console] Shadow mode changed to 1 - 1 band dynamic shadows on units, 1024
+10/7 19:49:00.999  [N][Console] Shadow texture size changed to 1024.
+10/7 19:49:00.999  [N][Console] Soft shadows changed to 0.
+10/7 19:49:00.999  [N][Console] Shadow cascade blending changed to 0
+10/7 19:49:00.999  [N][Console] Number of shadow cascades changed to 1
+10/7 19:49:00.999  [N][Console] Shadow RT mode changed to 0 (Disabled)
+10/7 19:49:00.999  [N][Console] maxLightCount must be in range 0 to 32.
+10/7 19:49:00.999  [N][Console] CVar 'maxLightCount' failed validation for its initial value.
+10/7 19:49:00.999  [N][Console] Clustered shading enabled.
+10/7 19:49:00.999  [N][Console] Not forcing clustered shading.
+10/7 19:49:00.999  [N][Console] SSAO mode set to 0
+10/7 19:49:00.999  [N][Console] Depth Based Opacity Enabled
+10/7 19:49:00.999  [N][Console] SkyCloudLOD set to 0
+10/7 19:49:00.999  [N][Console] Texture filtering mode updated.
+10/7 19:49:00.999  [N][Console] Terrain mip level changed to 0.
+10/7 19:49:00.999  [N][Console] Outline mode changed to 1
+10/7 19:49:00.999  [N][Console] Physics interaction level changed to 1
+10/7 19:49:00.999  [N][Console] Render scale changed to 1
+10/7 19:49:00.999  [N][Console] Resample quality changed to 3
+10/7 19:49:00.999  [N][Console] MSAA disabled
+10/7 19:49:00.999  [N][Console] MSAA for alpha-test enabled.
+10/7 19:49:00.999  [N][Console] VALAR mode changed to 2
+10/7 19:49:00.999  [N][Console] lodObjectSizeScale cannot be changed.
+10/7 19:49:00.999  [N][Console] Volume fog enabled.
+10/7 19:49:00.999  [N][Console] dynamicLod enabled
+10/7 19:49:00.999  [N][Console] World preload object sort enabled.
+10/7 19:49:00.999  [N][Console] World load object sort enabled.
+10/7 19:49:00.999  [N][Console] World preload non critical enabled.
+10/7 19:49:00.999  [N][Console] World preload high res textures enabled.
+10/7 19:49:01.046  [N][Console] FFX: Color Blind Test Mode Disabled
+10/7 19:49:01.118  [N][Console] CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.
+10/7 19:49:01.118  [N][Console] CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.
+10/7 19:49:01.118  [N][Console] CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.
+10/7 19:49:01.118  [N][Console] CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.
+10/7 19:49:01.249  [N][Console] GamePad input enabled.
+10/7 19:49:01.249  [N][Console] ChromaEffects disabled
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Global capacity for Font changed to 3000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Global capacity for Font changed to 3000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Global capacity for FontString changed to 50000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Global capacity for FontString changed to 50000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Addon capacity for Texture changed to 40000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Addon capacity for Texture changed to 40000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Global capacity for Frame changed to 100000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Global capacity for Frame changed to 100000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Addon capacity for AnimGroup changed to 2000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Addon capacity for AnimGroup changed to 2000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Addon capacity for Animation changed to 5000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Addon capacity for Animation changed to 5000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Enabled = false
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Enabled = false
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Addon capacity for FontString changed to 5000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Addon capacity for FontString changed to 5000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Global capacity for Texture changed to 400000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Global capacity for Texture changed to 400000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Global capacity for Animation changed to 50000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Global capacity for Animation changed to 50000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Global capacity for AnimGroup changed to 20000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Global capacity for AnimGroup changed to 20000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Addon capacity for Font changed to 300
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Addon capacity for Font changed to 300
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Global capacity for Timer changed to 500
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Global capacity for Timer changed to 500
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Addon capacity for Timer changed to 500
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Addon capacity for Timer changed to 500
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Addon capacity for Frame changed to 10000
+10/7 19:49:01.249  [N][Lua] LimitedLuaResources: Addon capacity for Frame changed to 10000
+10/7 19:49:01.249  [N][Glues] Startup()
+10/7 19:49:01.276  [N][Glues] Resume()
+10/7 19:49:02.049  [N][Lua] Screen invalid. Changing from="none" to="login"
+10/7 19:49:02.049  [N][Lua] Switching to screen="AccountLogin" (from "none")
+10/7 19:49:02.049  [N][Lua] From EnsureValidScreen
+10/7 19:49:02.066  [W][BnetOverlay] Overlay is disabled.  Only internal builds and public China builds have it.
+10/7 19:49:03.977  [N][Connection] Glue login started loginType="(enum)1" launcherPortal="test.actual.battle.net" loginPortal="test.actual.battle.net:1119"
+10/7 19:49:03.977  [N][Connection] Glue login state reset requested
+10/7 19:49:03.977  [N][Connection] Battle.net login session initialization requested
+10/7 19:49:03.977  [N][Connection] Battle.net logon requested host="test.actual.battle.net" port="1119"
+10/7 19:49:04.172  [N][Connection] Battle.net login waiting for server response
+10/7 19:49:04.172  [D][Connection] Launcher login game account supplied gameAccount=""
+10/7 19:49:04.633  [N][Connection] Battle.net front connected connectionId="1" title_id="5730135" platform="Wn64" locale="enUS" usedToken="true"
+10/7 19:49:04.633  [N][Connection] Battle.net login waiting for server response
+10/7 19:49:04.736  [N][Connection] Battle.net logon queue update received position="1" estimatedQueueExitTime="1791416946"
+10/7 19:49:04.736  [N][Connection] Battle.net logon response received result="ERROR_OK (0)"
+10/7 19:49:04.986  [N][Connection] Battle.net logon completed result="ERROR_OK (0)" numGameAccounts="1"
+10/7 19:49:04.986  [N][Connection] Battle.net login waiting for server response
+10/7 19:49:05.090  [N][Connection] Battle.net account service response received responseType="BNetInfo" responseTypeValue="1" code="ERROR_OK (0)"
+10/7 19:49:05.090  [N][Connection] Battle.net account service response received responseType="BNetRestriction" responseTypeValue="2" code="ERROR_OK (0)"
+10/7 19:49:05.111  [N][Connection] Battle.net auth token response received code="ERROR_OK (0)" gotCredentials="true"
+10/7 19:49:05.111  [N][Connection] Battle.net account service response received responseType="GameInfo" responseTypeValue="4" code="ERROR_OK (0)"
+10/7 19:49:05.111  [N][Connection] Battle.net account service game info received responseType="GameInfo" responseTypeValue="4" code="ERROR_OK (0)" name="WoW1" numGameAccounts="1" numGameAccountNames="0"
+10/7 19:49:05.111  [D][Connection] Battle.net game account names loaded gameAccountNames="1"
+10/7 19:49:05.152  [N][Connection] Battle.net account service response received responseType="GameRestriction" responseTypeValue="8" code="ERROR_OK (0)"
+10/7 19:49:05.152  [D][Connection] Battle.net game account restrictions loaded loaded="1"
+10/7 19:49:05.152  [D][Connection] Battle.net required account state loaded; completing login
+10/7 19:49:05.152  [N][Connection] Battle.net complete login requested hasGameAccount="true"
+10/7 19:49:05.152  [N][Connection] Game account list not saved because accountName CVar is empty
+10/7 19:49:05.152  [N][Connection] Battle.net logon completed in glue
+10/7 19:49:05.152  [N][Connection] Reconnect token saved creationTime="1791416945" expirationTime="1791431345"
+10/7 19:49:05.152  [N][Connection] Character selection waiting for account item collection data collectionListType="7"
+10/7 19:49:05.152  [N][Connection] Battle.net login waiting for realm list
+10/7 19:49:05.152  [N][Connection] Battle.net realm list ticket requested
+10/7 19:49:05.694  [D][BleepPinger] Sending pings to individual proxy proxyID="bleep-proxy-ec04-eqml2.network.cloud.blizzard.net"
+10/7 19:49:05.694  [D][BleepPinger] Opening socket for proxy proxyID="bleep-proxy-ec04-eqml2.network.cloud.blizzard.net" address="137.221.82.103"
+10/7 19:49:05.694  [D][BleepPinger] Sending pings to individual proxy proxyID="bleep-proxy-ec04-eqny5.network.cloud.blizzard.net"
+10/7 19:49:05.694  [D][BleepPinger] Opening socket for proxy proxyID="bleep-proxy-ec04-eqny5.network.cloud.blizzard.net" address="137.221.111.103"
+10/7 19:49:05.695  [D][BleepPinger] Sending pings to individual proxy proxyID="bleep-proxy-ec04-eqse2.network.cloud.blizzard.net"
+10/7 19:49:05.695  [D][BleepPinger] Opening socket for proxy proxyID="bleep-proxy-ec04-eqse2.network.cloud.blizzard.net" address="137.221.73.103"
+10/7 19:49:05.695  [D][BleepPinger] Sending pings to individual proxy proxyID="bleep-proxy-ec05-eqla1.network.cloud.blizzard.net"
+10/7 19:49:05.695  [D][BleepPinger] Opening socket for proxy proxyID="bleep-proxy-ec05-eqla1.network.cloud.blizzard.net" address="137.221.68.105"
+10/7 19:49:05.840  [N][BleepPinger] All pings from all pongs received
+10/7 19:49:06.444  [N][Connection] Battle.net realm list ticket received code="ERROR_OK (0)" realmListRequestToken="0" isCurrentToken="true" hasTicket="true"
+10/7 19:49:06.444  [N][Connection] Battle.net login waiting for realm list
+10/7 19:49:06.569  [N][Connection] Battle.net subregion list received code="ERROR_OK (0)" realmListRequestToken="0" isCurrentToken="true" subRegionCount="5"
+10/7 19:49:06.569  [N][Connection] Battle.net last played character requests sent numSubRegions="5" selectedSubRegion="70-1-70"
+10/7 19:49:07.111  [N][Connection] Battle.net last played character received code="ERROR_OK (0)" subRegion="70-1-70" lastPlayedTime="1791416916" realmListRequestToken="0" isCurrentToken="true" contentSetIDFilter="-1" numRegions="5" selectedSubRegion="70-1-70" numRegionsWithData="0" realmPermissions="512" licensesCount="1" realmEntry="{"wowRealmAddress":1174470658,"useBleepChance":0.0,"cfgTimezonesID":1,"populationState":2,"cfgCategoriesID":26,"version":{"versionMajor":1,"versionBuild":70100,"versionMinor":60,"versionRevision":1},"cfgRealmsID":4618,"gameServiceRegionId":98,"flags":0,"name":"Classic Beta PvE","cfgConfigsID":1,"cfgContentSetID":137,"cfgLanguagesID":1,"superDistrictID":2}"
+10/7 19:49:07.111  [N][Connection] Battle.net realm list ready in glue
+10/7 19:49:07.111  [N][Connection] Battle.net most recent character found; joining realm lastPlayedRegion="70-1-70" realmAddress="1174470658" lastActiveTime="1791416916"
+10/7 19:49:07.111  [N][Connection] Battle.net realm join requested subRegion="70-1-70" realmAddress="70-1-2"
+10/7 19:49:07.590  [N][Connection] Battle.net realm join response received code="ERROR_OK (0)" joinToken="1" isLatestJoinToken="true" hasJoinData="true"
+10/7 19:49:07.590  [N][Connection] Realm connection change requested
+10/7 19:49:07.590  [N][Connection] Realm connection requested realmAddress="70-1-2"
+10/7 19:49:07.590  [N][Connection] Opening game realm connection realmAddress="70-1-2" connection="000001730c6c79a0" protocol="(enum)0" directAddressCount="12" bleepProxyCount="0"
+10/7 19:49:07.590  [N][Connection] Opening network connection connectionIndex="(enum)0" connection="000001730c6c79a0" protocol="(enum)0" directAddressCount="12" bleepProxyCount="0"
+10/7 19:49:07.643  [D][Connection] Reliable transport connected connection="000001730c6c79a0" newConnection="0000000000000000" protocol="(enum)0" peerAddr="66.40.176.26"
+10/7 19:49:07.652  [N][Connection] Realm connection connected realmAddress="70-1-2"
+10/7 19:49:07.652  [N][Connection] Client connected
+10/7 19:49:09.049  [N][Connection] Authentication response received result="0" hasSuccessInfo="true" hasWaitInfo="false"
+10/7 19:49:09.049  [N][Connection] Realm authentication completed result="ERROR_OK (0)"
+10/7 19:49:09.049  [N][Connection] Character list request sent fastLogin="false"
+10/7 19:49:09.060  [N][Console] CVar 'encounterTimelineHighlightDuration' failed validation for its initial value.
+10/7 19:49:09.060  [N][Console] CVar 'encounterTimelineIconographyHiddenMask' failed validation for its initial value.
+10/7 19:49:09.060  [N][Console] CVar 'encounterTimelineIconographyEnabled' failed validation for its initial value.
+10/7 19:49:09.060  [N][Console] CVar 'encounterTimelineHideForOtherRoles' failed validation for its initial value.
+10/7 19:49:09.060  [N][Console] CVar 'encounterTimelineHideQueuedCountdowns' failed validation for its initial value.
+10/7 19:49:09.060  [N][Console] CVar 'encounterTimelineHideLongCountdowns' failed validation for its initial value.
+10/7 19:49:09.060  [N][Console] CVar 'encounterTimelineEnabled' failed validation for its initial value.
+10/7 19:49:09.060  [N][Lua] Screen invalid. Changing from="login" to="charselect"
+10/7 19:49:09.078  [N][Lua] Switching to screen="CharacterSelect" (from "login")
+10/7 19:49:09.078  [N][Connection] Character list request sent fastLogin="false"
+10/7 19:49:09.078  [N][Lua] From EnsureValidScreen
+10/7 19:49:09.078  [N][Connection] Battle.net connected to realm; disconnecting from front
+10/7 19:49:09.078  [N][Connection] Battle.net front disconnecting connectionId="1"
+10/7 19:49:09.078  [N][Connection] Battle.net authentication server disconnect started
+10/7 19:49:09.089  [N][Connection] Glue feature system status received
+10/7 19:49:09.089  [N][Lua] LimitedLuaResources: Addon capacity for Timer changed to 500
+10/7 19:49:09.089  [N][Lua] LimitedLuaResources: Global capacity for AnimGroup changed to 20000
+10/7 19:49:09.089  [N][Lua] LimitedLuaResources: Addon capacity for Animation changed to 5000
+10/7 19:49:09.089  [N][Lua] LimitedLuaResources: Addon capacity for AnimGroup changed to 2000
+10/7 19:49:09.089  [N][Lua] LimitedLuaResources: Addon capacity for Texture changed to 40000
+10/7 19:49:09.089  [N][Lua] LimitedLuaResources: Global capacity for Texture changed to 400000
+10/7 19:49:09.089  [N][Lua] LimitedLuaResources: Global capacity for Timer changed to 500
+10/7 19:49:09.089  [N][Lua] LimitedLuaResources: Addon capacity for FontString changed to 5000
+10/7 19:49:09.089  [N][Lua] LimitedLuaResources: Addon capacity for Font changed to 300
+10/7 19:49:09.089  [N][Lua] LimitedLuaResources: Enabled = false
+10/7 19:49:09.089  [N][Lua] LimitedLuaResources: Global capacity for FontString changed to 50000
+10/7 19:49:09.089  [N][Lua] LimitedLuaResources: Global capacity for Animation changed to 50000
+10/7 19:49:09.089  [N][Lua] LimitedLuaResources: Global capacity for Frame changed to 100000
+10/7 19:49:09.089  [N][Lua] LimitedLuaResources: Addon capacity for Frame changed to 10000
+10/7 19:49:09.089  [N][Lua] LimitedLuaResources: Global capacity for Font changed to 3000
+10/7 19:49:09.104  [N][Connection] Glue feature system status received
+10/7 19:49:09.139  [N][Connection] Character list response received success="true" isRegionwideData="true" isDeletedCharacters="false" characterCount="2" hadPendingResult="false"
+10/7 19:49:09.139  [N][Connection] Character list update waiting on startup prerequisites waitingForHotfixesReady="false" tactEncryptionConnectedReady="false" tactKeyPendingPatchesReady="true" sectionLoadsReady="true" preloadAccountSettingsDataReady="true"
+10/7 19:49:09.149  [N][Connection] Account item collection data received for character selection collectionListType="7" itemCount="0" wasWaiting="true"
+10/7 19:49:09.279  [N][Connection] Initial hotfixes applied
+10/7 19:49:09.292  [N][Connection] Character list response received success="true" isRegionwideData="true" isDeletedCharacters="false" characterCount="2" hadPendingResult="true"
+10/7 19:49:09.292  [N][Connection] Battle.net front disconnected connectionId="1" reason="ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)"
+10/7 19:49:09.292  [N][Connection] Battle.net authentication server disconnected
+10/7 19:49:09.339  [N][Connection] Account item collection data received for character selection collectionListType="7" itemCount="0" wasWaiting="false"
+10/7 19:49:09.651  [N][Connection] Character selection updating character list success="true" isRegionwideData="true" isDeletedCharacters="false" count="2"
+10/7 19:49:24.557  [N][Glues] Suspend()
+10/7 19:49:24.557  [N][Lua] LimitedLuaResources: Reset Timer
+10/7 19:49:29.177  [N][Connection] Connecting to sourceRealmAddress="70-1-2" connection="0000017350873340" serial="17" protocol="(enum)0"
+10/7 19:49:29.177  [N][Connection] Opening network connection connectionIndex="(enum)3" connection="0000017350873340" protocol="(enum)0" directAddressCount="1" bleepProxyCount="0"
+10/7 19:49:29.220  [D][Connection] Reliable transport connected connection="0000017350873340" newConnection="0000000000000000" protocol="(enum)0" peerAddr="66.40.177.10"
+10/7 19:49:29.220  [D][Connection] Non-primary connection connected connectionIndex="(enum)3"
+10/7 19:49:29.354  [N][Connection] Resuming communications connectionIndex="(enum)3"
+10/7 19:49:29.650  [N][Console] Proficiency in item class 4 set to 0x0000000200
+10/7 19:49:29.650  [N][Console] Proficiency in item class 4 set to 0x0000000221
+10/7 19:49:29.650  [N][Console] Proficiency in item class 2 set to 0x0000004000
+10/7 19:49:29.650  [N][Console] Proficiency in item class 4 set to 0x0000000225
+10/7 19:49:29.650  [N][Console] Proficiency in item class 2 set to 0x0000004010
+10/7 19:49:29.650  [N][Console] Proficiency in item class 4 set to 0x0000000265
+10/7 19:49:29.650  [N][Console] Proficiency in item class 2 set to 0x0000004030
+10/7 19:49:29.650  [N][Console] Proficiency in item class 4 set to 0x0000000267
+10/7 19:49:29.650  [N][Console] Proficiency in item class 2 set to 0x0000104030
+10/7 19:49:29.650  [N][Console] Proficiency in item class 2 set to 0x0000104430
+10/7 19:49:29.650  [N][Console] Proficiency in item class 2 set to 0x000010c430
+10/7 19:49:29.650  [N][Console] Proficiency in item class 2 set to 0x000010c430
+10/7 19:49:29.650  [N][Console] Proficiency in item class 4 set to 0x0000000267
+10/7 19:49:29.650  [N][Console] Weather changed to 0, intensity 0.000000
+
+10/7 19:49:29.650  [N][Console] Time set to 10/7/2026 (Wed) 16:49
+10/7 19:49:29.650  [N][Console] Gamespeed set from 0.017 to 0.017
+10/7 19:49:30.624  [N][Connection] Connecting to sourceRealmAddress="70-1-2" connection="000001738159d190" serial="43" protocol="(enum)0"
+10/7 19:49:30.624  [N][Connection] Opening network connection connectionIndex="(enum)3" connection="000001738159d190" protocol="(enum)0" directAddressCount="1" bleepProxyCount="0"
+10/7 19:49:30.677  [D][Connection] Reliable transport connected connection="000001738159d190" newConnection="0000000000000000" protocol="(enum)0" peerAddr="66.40.177.183"
+10/7 19:49:30.677  [D][Connection] Non-primary connection connected connectionIndex="(enum)3"
+10/7 19:49:30.862  [N][Connection] Resuming communications connectionIndex="(enum)3"
+10/7 19:49:30.862  [N][Connection] Killing connection connection="0000017350873340" state="(enum)6"
+10/7 19:49:30.878  [D][Connection] Reliable transport disconnected connection="0000017350873340" peerAddr="66.40.177.10" reasonErrorCode="0" reasonStatus="0"
+10/7 19:49:30.920  [N][Console] Weather changed to 0, intensity 0.000000
+
+10/7 19:51:11.030  [E][Lua] Unable to create frame type: MapScene
+10/7 19:51:11.030  [E][Lua] Unknown frame type: VectorGraphics
+10/7 19:51:11.030  [E][Lua] Unable to create frame type: ModelFFX
+10/7 19:52:48.614  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:1503: in function 'UpdateMicroButton'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:159: in function <...zzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua:126>
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:1900: in function 'UpdateMicroButton'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:192: in function 'UpdateMicroButtons'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:1466: in function <...zzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua:1459>
+
+10/7 19:52:48.621  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'LayoutContents'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua]:147: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.lua]:82: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua]:70: in function <...zzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua:62>
+[tail call]: ?
+[Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua]:341: in function <Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua:340>
+
+10/7 19:52:50.954  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:50.954  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:51.621  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:51.621  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:52:51.621  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:51.912  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:51.912  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:52.121  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:52.121  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:52.308  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:52.308  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:52.516  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:52.516  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:53.371  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:53.371  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:53.829  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:53.829  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:54.328  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:54.328  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:56.371  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:52:56.371  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:12.551  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:12.551  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:15.229  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:15.229  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:53:15.229  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:17.042  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:17.042  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:19.728  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:19.728  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:26.613  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:26.613  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:53:26.613  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:27.540  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:27.540  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:27.999  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:27.999  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:53:27.999  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:28.451  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:28.451  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:53:28.451  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:35.401  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:35.401  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:53:35.401  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:35.992  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:35.992  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:36.367  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:36.367  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:53:36.367  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:37.286  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:37.286  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:53:37.286  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:38.265  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:38.265  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:53:38.265  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:41.369  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:41.369  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:53:41.369  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:42.265  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:42.265  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:44.828  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:44.828  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:45.411  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:45.411  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:48.015  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:48.015  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:53:48.015  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:48.619  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:48.619  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:53:48.619  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:49.161  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:49.161  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:53:49.161  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:49.911  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:49.911  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:53:49.911  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:52.536  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:52.536  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:53:52.536  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:53.536  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:53.536  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:54.327  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:53:54.327  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:53:54.327  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:01.504  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:01.504  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:54:01.504  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:02.055  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:02.055  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:09.279  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:09.279  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:126: in function <...ddOns/Blizzard_Game/Mainline/EventImplementation.lua:117>
+[Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:148: in function 'HandleGlobalMouseEvent'
+[Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:48: in function 'handler'
+[Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+
+10/7 19:54:09.279  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:11.767  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:11.767  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:12.100  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:908: in function 'BroadcastHideUIPanelEvent'
+[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:926: in function <...UIParentPanelManager/Shared/UIParentPanelManager.lua:905>
+[C]: in function 'HideUIPanel'
+[Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua]:189: in function <...izzard_SharedXML/Mainline/SharedUIPanelTemplates.lua:188>
+
+10/7 19:54:13.142  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:13.142  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:15.582  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:16.039  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:18.038  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:279: in function 'OnHide'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:405: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:404>
+[C]: ?
+[C]: ?
+
+10/7 19:54:22.788  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:22.788  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:23.935  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:23.976  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:24.561  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:24.850  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:24.850  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:24.955  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:54:25.017  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:25.038  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:54:25.227  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:25.350  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:25.350  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:26.496  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:26.496  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:27.371  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:27.371  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:27.789  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:27.808  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:54:28.997  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:279: in function 'OnHide'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:405: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:404>
+[C]: ?
+[C]: ?
+
+10/7 19:54:29.644  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:29.706  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:29.746  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:29.746  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:29.852  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:29.914  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:29.914  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:29.914  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:54:29.935  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:54:29.935  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:54:30.413  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:30.413  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:30.539  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:30.539  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:54:30.559  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:54:30.934  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:30.934  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:31.060  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:31.832  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:32.100  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:32.100  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:32.247  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:54:32.310  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:32.330  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:54:32.936  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:34.290  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:34.935  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:36.538  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:36.538  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:36.934  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:279: in function 'OnHide'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:405: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:404>
+[C]: ?
+[C]: ?
+
+10/7 19:54:38.143  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:38.143  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:38.226  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:54:39.059  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:39.059  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:42.496  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:42.496  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:42.772  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:566: in function 'UpdateAction'
+[Interface/AddOns/Blizzard_GamepadActionBars/ActionBarButton.lua]:901: in function 'UpdateAction'
+[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1111: in function 'OnActionBarSlotChanged'
+[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:983: in function 'OnEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/ActionBarButton.lua]:973: in function 'OnEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/ActionBarButton.lua]:1053: in function 'OnEvent'
+[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:233: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:230>
+
+10/7 19:54:47.517  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:47.517  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:53.350  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:53.350  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:54:57.684  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/ExpBarOverrides.lua]:54: in function 'ExhaustionToolTipText'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua]:87: in function <.../AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua:72>
+
+10/7 19:54:57.768  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:566: in function 'UpdateAction'
+[Interface/AddOns/Blizzard_GamepadActionBars/ActionBarButton.lua]:901: in function 'UpdateAction'
+[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1111: in function 'OnActionBarSlotChanged'
+[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:983: in function 'OnEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/ActionBarButton.lua]:973: in function 'OnEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/ActionBarButton.lua]:1053: in function 'OnEvent'
+[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:233: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:230>
+
+10/7 19:55:07.454  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:07.454  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:10.475  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:10.475  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:12.080  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:12.080  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:12.184  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:55:13.621  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/ExpBarOverrides.lua]:54: in function 'ExhaustionToolTipText'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua]:87: in function <.../AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua:72>
+
+10/7 19:55:14.580  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:442: in function 'EvaluateTooltipVisibility'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:446: in function <...zzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua:445>
+[C]: ?
+
+10/7 19:55:14.664  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:442: in function 'EvaluateTooltipVisibility'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:446: in function <...zzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua:445>
+[C]: ?
+
+10/7 19:55:14.747  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/ExpBarOverrides.lua]:54: in function 'ExhaustionToolTipText'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua]:87: in function <.../AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua:72>
+
+10/7 19:55:17.184  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:17.184  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:17.350  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua]:1146: in function <Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua:1140>
+
+10/7 19:55:18.101  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/ExpBarOverrides.lua]:54: in function 'ExhaustionToolTipText'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua]:87: in function <.../AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua:72>
+
+10/7 19:55:18.705  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:18.705  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:18.997  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/ExpBarOverrides.lua]:54: in function 'ExhaustionToolTipText'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua]:87: in function <.../AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua:72>
+
+10/7 19:55:19.747  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/ExpBarOverrides.lua]:54: in function 'ExhaustionToolTipText'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua]:87: in function <.../AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua:72>
+
+10/7 19:55:20.205  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/ExpBarOverrides.lua]:54: in function 'ExhaustionToolTipText'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua]:87: in function <.../AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua:72>
+
+10/7 19:55:21.163  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:21.163  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:21.975  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:21.975  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:21.975  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:21.975  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:24.850  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:24.850  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:25.330  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:25.330  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:32.934  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:32.934  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:34.061  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:34.225  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:34.225  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:34.247  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:34.372  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:55:34.392  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:34.414  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:55:34.519  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:34.748  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:34.934  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:34.934  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:35.772  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:36.209  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:36.417  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:36.670  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:36.843  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:36.863  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:36.863  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:1503: in function 'UpdateMicroButton'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:159: in function <...zzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua:126>
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:1900: in function 'UpdateMicroButton'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:192: in function 'UpdateMicroButtons'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:1466: in function <...zzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua:1459>
+
+10/7 19:55:36.884  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:55:36.884  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'LayoutContents'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua]:147: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.lua]:82: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua]:70: in function <...zzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua:62>
+[tail call]: ?
+[Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua]:341: in function <Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua:340>
+
+10/7 19:55:36.906  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:37.030  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:1503: in function 'UpdateMicroButton'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:159: in function <...zzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua:126>
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:1900: in function 'UpdateMicroButton'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:192: in function 'UpdateMicroButtons'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:1466: in function <...zzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua:1459>
+
+10/7 19:55:37.051  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'LayoutContents'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua]:147: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.lua]:82: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua]:70: in function <...zzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua:62>
+[tail call]: ?
+[Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua]:341: in function <Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua:340>
+
+10/7 19:55:37.571  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:37.571  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:38.905  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:279: in function 'OnHide'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:405: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:404>
+[C]: ?
+[C]: ?
+
+10/7 19:55:42.676  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:42.762  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:43.196  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/ExpBarOverrides.lua]:54: in function 'ExhaustionToolTipText'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua]:87: in function <.../AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua:72>
+
+10/7 19:55:47.218  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua]:398: in function <...s/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:397>
+[C]: in function 'SetFocus'
+[Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameUtil.lua]:533: in function 'ActivateChat'
+[Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameUtil.lua]:474: in function 'OpenChat'
+[OPENCHATSLASH]:1: in function <[string "OPENCHATSLASH"]:1>
+
+10/7 19:55:47.718  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua]:406: in function <...s/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:405>
+[C]: in function 'ClearFocus'
+[Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua]:571: in function 'Deactivate'
+[Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameUtil.lua]:554: in function 'DeactivateChat'
+[Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua]:556: in function 'ClearChat'
+[Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua]:277: in function 'ParseText'
+[Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua]:292: in function 'SendText'
+[Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua]:417: in function 'SendMessage'
+[Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua]:446: in function <...s/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:442>
+
+10/7 19:55:51.800  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:55:51.800  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:05.696  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:05.696  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:30.166  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:30.166  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:32.217  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:32.217  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:50.515  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:50.515  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:50.670  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:56:50.732  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:50.732  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:50.753  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:56:50.753  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:56:51.255  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:51.273  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:56:53.818  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:53.818  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:55.448  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:55.465  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:56:55.713  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:56.547  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:56.547  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:58.444  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:58.671  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:58.671  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:56:58.841  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:56:59.528  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:01.380  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:01.380  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:02.838  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:279: in function 'OnHide'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:405: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:404>
+[C]: ?
+[C]: ?
+
+10/7 19:57:04.505  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/ExpBarOverrides.lua]:54: in function 'ExhaustionToolTipText'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua]:87: in function <.../AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua:72>
+
+10/7 19:57:06.026  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:08.838  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:08.838  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:09.345  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:09.359  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:09.375  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:57:09.375  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'LayoutContents'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua]:147: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.lua]:93: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua]:70: in function <...zzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua:62>
+[tail call]: ?
+[Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua]:341: in function <Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua:340>
+
+10/7 19:57:09.436  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:12.082  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:12.082  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:13.874  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:13.874  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:14.354  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:14.500  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:14.521  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:14.686  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:14.686  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:14.792  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:14.832  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:57:14.854  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:14.878  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:14.980  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:16.126  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:18.125  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:279: in function 'OnHide'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:405: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:404>
+[C]: ?
+[C]: ?
+
+10/7 19:57:19.021  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:19.021  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:19.041  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:57:19.936  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:21.521  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/ExpBarOverrides.lua]:54: in function 'ExhaustionToolTipText'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua]:87: in function <.../AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua:72>
+
+10/7 19:57:23.042  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/ExpBarOverrides.lua]:54: in function 'ExhaustionToolTipText'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua]:87: in function <.../AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua:72>
+
+10/7 19:57:23.938  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:442: in function 'EvaluateTooltipVisibility'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:446: in function <...zzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua:445>
+[C]: ?
+
+10/7 19:57:24.230  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:442: in function 'EvaluateTooltipVisibility'
+[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:446: in function <...zzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua:445>
+[C]: ?
+
+10/7 19:57:24.708  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:24.708  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:25.490  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'SetText'
+[Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBook.lua]:7: in function <...ProfessionsBook/Camelot/Blizzard_ProfessionsBook.lua:3>
+
+10/7 19:57:26.496  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:26.496  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:27.871  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:27.871  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:28.954  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:28.954  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:30.246  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'SetText'
+[Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua]:416: in function <...izzard_SharedXML/Mainline/SharedUIPanelTemplates.lua:406>
+
+10/7 19:57:30.288  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'SetText'
+[Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua]:416: in function <...izzard_SharedXML/Mainline/SharedUIPanelTemplates.lua:406>
+
+10/7 19:57:30.872  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'SetText'
+[Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua]:416: in function <...izzard_SharedXML/Mainline/SharedUIPanelTemplates.lua:406>
+
+10/7 19:57:31.309  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:31.309  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:31.475  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.lua]:77: in function <...lizzard_ProfessionsBook/Blizzard_ProfessionsBook.lua:73>
+[C]: in function 'Hide'
+[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:480: in function 'SetUIPanel'
+[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:589: in function 'HideUIPanelImplementation'
+[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:530: in function 'HideUIPanel'
+[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:133: in function <...UIParentPanelManager/Shared/UIParentPanelManager.lua:124>
+[C]: in function 'SetAttribute'
+[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:933: in function <...UIParentPanelManager/Shared/UIParentPanelManager.lua:905>
+[C]: in function 'HideUIPanel'
+[Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.lua]:565: in function <...s/Blizzard_Professions/Blizzard_ProfessionsFrame.lua:558>
+[tail call]: ?
+
+10/7 19:57:35.843  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemTemplates.lua]:139: in function <...rd_SharedXML/Shared/TabSystem/TabSystemTemplates.lua:126>
+
+10/7 19:57:35.906  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemTemplates.lua]:139: in function <...rd_SharedXML/Shared/TabSystem/TabSystemTemplates.lua:126>
+
+10/7 19:57:36.302  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemTemplates.lua]:139: in function <...rd_SharedXML/Shared/TabSystem/TabSystemTemplates.lua:126>
+
+10/7 19:57:36.593  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:36.593  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:37.763  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.lua]:91: in function <...d_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.lua:89>
+[C]: ?
+[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:210: in function <...e/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua:209>
+[C]: ?
+[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:213: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua]:575: in function 'DisplayViewsForCurrentPage'
+[Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua]:332: in function 'OnPageChanged'
+[Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.lua]:58: in function 'SetCurrentPage'
+[Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.lua]:65: in function 'NextPage'
+[Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.lua]:106: in function 'OnMouseWheel'
+[Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua]:312: in function <...Blizzard_PagedContent/Blizzard_PagedContentFrame.lua:311>
+[C]: ?
+
+10/7 19:57:39.304  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:39.304  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:40.907  [E][Lua] Lua Error: ...e/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.lua:340: attempt to perform arithmetic on local 'silverWidth' (a secret number value, while execution tainted by 'TweaksForever')
+[C]: ?
+[Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.lua]:340: in function 'MoneyFrame_Update'
+[Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua]:652: in function 'SetTooltipMoney'
+[Interface/AddOns/TweaksForever/UI/Spellbook.lua]:402: in function <Interface/AddOns/TweaksForever/UI/Spellbook.lua:392>
+[C]: ?
+
+10/7 19:57:41.831  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:41.831  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:44.122  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:44.122  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:45.643  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:45.643  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:46.894  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:46.894  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:47.476  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:50.084  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:50.332  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:50.852  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/ExpBarOverrides.lua]:54: in function 'ExhaustionToolTipText'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua]:87: in function <.../AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua:72>
+
+10/7 19:57:51.123  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:275: in function 'OnShow'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:390: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:380>
+[C]: ?
+[C]: ?
+[C]: in function 'Show'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/ExpBarOverrides.lua]:54: in function 'ExhaustionToolTipText'
+[Interface/AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua]:87: in function <.../AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua:72>
+
+10/7 19:57:51.768  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:51.768  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:52.165  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:52.357  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:52.372  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:52.372  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:52.372  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'LayoutContents'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua]:147: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.lua]:93: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua]:70: in function <...zzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua:62>
+[tail call]: ?
+[Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua]:341: in function <Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua:340>
+
+10/7 19:57:52.415  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:52.771  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:52.934  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:52.934  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:52.999  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:53.028  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:53.028  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:57:53.539  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:53.539  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:53.644  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:53.872  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:53.872  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:53.894  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:54.188  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:55.873  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:279: in function 'OnHide'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:405: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:404>
+[C]: ?
+[C]: ?
+
+10/7 19:57:55.979  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:56.039  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:56.039  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:56.186  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:57.501  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:57.519  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:57:57.997  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:58.164  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:279: in function 'OnHide'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:405: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:404>
+[C]: ?
+[C]: ?
+
+10/7 19:57:58.186  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:58.226  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:58.226  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:58.352  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:57:58.457  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:58.559  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:58.559  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:58.874  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:58.976  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:58.976  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:59.480  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:59.519  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:59.519  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:57:59.541  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:00.247  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:00.938  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:00.957  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:58:00.981  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:00.997  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:58:00.997  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:58:01.040  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:01.060  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:58:01.518  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:279: in function 'OnHide'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:405: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:404>
+[C]: ?
+[C]: ?
+
+10/7 19:58:01.623  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:01.876  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:01.976  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:01.977  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:02.831  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:02.831  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:02.831  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:03.249  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:04.810  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua]:279: in function 'OnHide'
+[Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:405: in function <...AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua:404>
+[C]: ?
+[C]: ?
+
+10/7 19:58:06.207  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:06.226  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:58:06.893  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:07.625  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:07.976  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:07.976  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:08.143  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:58:08.561  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:08.625  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:08.647  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:09.788  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:09.788  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:10.021  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:10.027  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:10.043  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.lua]:256: in function <...ns/Blizzard_GamepadActionBars/MainActionBarFrame.lua:237>
+[tail call]: ?
+
+10/7 19:58:10.333  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:10.333  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
+10/7 19:58:11.313  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'TriggerEvent'
+[Interface/AddOns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua]:11: in function <...ns/Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:10>
+
