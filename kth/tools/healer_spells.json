@@ -1,0 +1,2206 @@
+{
+ "runs": [
+  "2026-10-07-run2",
+  "2026-10-07-run3",
+  "2026-10-07-run4",
+  "2026-10-07",
+  "2026-10-08-run5",
+  "2026-10-08-run6",
+  "2026-10-08-run6b",
+  "2026-10-08-run7",
+  "2026-10-08-run8-bg",
+  "2026-10-08-run9-bg",
+  "2026-10-09-run10-bg",
+  "2026-10-09-run11-bg",
+  "2026-10-09-run12-bg",
+  "2026-10-09-run13-bg",
+  "2026-10-09-run14-bg",
+  "2026-10-09-run15-bg",
+  "2026-10-09-run16-bg",
+  "2026-10-10-run17-bg",
+  "2026-10-10-run18-bg"
+ ],
+ "spells": [
+  {
+   "spellID": 18562,
+   "name": "Swiftmend",
+   "healerCasters": 10,
+   "healerCasts": 260,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 1,
+   "unknownCasts": 12,
+   "talentOrRune": true,
+   "classes": [
+    "DRUID"
+   ],
+   "dps": [],
+   "keep": true
+  },
+  {
+   "spellID": 1311605,
+   "name": "Holy Shock",
+   "healerCasters": 5,
+   "healerCasts": 25,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": true,
+   "classes": [
+    "PALADIN"
+   ],
+   "dps": [],
+   "keep": true
+  },
+  {
+   "spellID": 402289,
+   "name": "Penance",
+   "healerCasters": 17,
+   "healerCasts": 1386,
+   "dpsCasters": 1,
+   "dpsCasts": 4,
+   "unknownCasters": 6,
+   "unknownCasts": 86,
+   "talentOrRune": true,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [
+    [
+     "Severn-ClassicBetaPvP2-",
+     0.107,
+     "2026-10-09-run15-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 15290,
+   "name": "Vampiric Embrace",
+   "healerCasters": 2,
+   "healerCasts": 84,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 6074,
+   "name": "Renew",
+   "healerCasters": 1,
+   "healerCasts": 47,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 3,
+   "unknownCasts": 8,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 5186,
+   "name": "Healing Touch",
+   "healerCasters": 4,
+   "healerCasts": 30,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 17,
+   "name": "Power Word: Shield",
+   "healerCasters": 1,
+   "healerCasts": 20,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 8938,
+   "name": "Regrowth",
+   "healerCasters": 1,
+   "healerCasts": 18,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 1058,
+   "name": "Rejuvenation",
+   "healerCasters": 1,
+   "healerCasts": 14,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 3,
+   "unknownCasts": 8,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 5188,
+   "name": "Healing Touch",
+   "healerCasters": 4,
+   "healerCasts": 10,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 1277372,
+   "name": "Divine Grace",
+   "healerCasters": 4,
+   "healerCasts": 10,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 2055,
+   "name": "Heal",
+   "healerCasters": 1,
+   "healerCasts": 8,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 3,
+   "unknownCasts": 6,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 20167,
+   "name": "Seal of Light",
+   "healerCasters": 1,
+   "healerCasts": 7,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "PALADIN"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 596,
+   "name": "Prayer of Healing",
+   "healerCasters": 1,
+   "healerCasts": 6,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 5185,
+   "name": "Healing Touch",
+   "healerCasters": 1,
+   "healerCasts": 6,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 5187,
+   "name": "Healing Touch",
+   "healerCasters": 1,
+   "healerCasts": 6,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 431624,
+   "name": "Divine Aegis",
+   "healerCasters": 1,
+   "healerCasts": 4,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 1,
+   "unknownCasts": 1,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 1277457,
+   "name": "Contingency Plan",
+   "healerCasters": 2,
+   "healerCasts": 3,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 1277464,
+   "name": "Contingency Plan",
+   "healerCasters": 2,
+   "healerCasts": 3,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 1430,
+   "name": "Rejuvenation",
+   "healerCasters": 1,
+   "healerCasts": 2,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 6,
+   "unknownCasts": 9,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 2061,
+   "name": "Flash Heal",
+   "healerCasters": 1,
+   "healerCasts": 2,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 647,
+   "name": "Holy Light",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 7,
+   "unknownCasts": 14,
+   "talentOrRune": false,
+   "classes": [
+    "PALADIN"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 2090,
+   "name": "Rejuvenation",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 5,
+   "unknownCasts": 10,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 547,
+   "name": "Healing Wave",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 6,
+   "unknownCasts": 67,
+   "talentOrRune": false,
+   "classes": [
+    "SHAMAN"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 139,
+   "name": "Renew",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 5,
+   "unknownCasts": 14,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 6075,
+   "name": "Renew",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 3,
+   "unknownCasts": 6,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 592,
+   "name": "Power Word: Shield",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 4,
+   "unknownCasts": 11,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 2050,
+   "name": "Lesser Heal",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 0,
+   "dpsCasts": 0,
+   "unknownCasters": 1,
+   "unknownCasts": 12,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [],
+   "keep": false
+  },
+  {
+   "spellID": 6065,
+   "name": "Power Word: Shield",
+   "healerCasters": 18,
+   "healerCasts": 1268,
+   "dpsCasters": 8,
+   "dpsCasts": 211,
+   "unknownCasters": 3,
+   "unknownCasts": 62,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [
+    [
+     "Dryconx-ClassicBetaPvP-",
+     0.119,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Dryconx-ClassicBetaPvP-",
+     0.119,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Kietaka-ClassicBetaPvP-",
+     0.034,
+     "2026-10-09-run11-bg"
+    ],
+    [
+     "\ub098\ub8e8\ud1a0-ClassicBetaPvP-",
+     0.124,
+     "2026-10-09-run11-bg"
+    ],
+    [
+     "Vilem-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run12-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 2091,
+   "name": "Rejuvenation",
+   "healerCasters": 16,
+   "healerCasts": 1204,
+   "dpsCasters": 23,
+   "dpsCasts": 313,
+   "unknownCasters": 5,
+   "unknownCasts": 79,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID"
+   ],
+   "dps": [
+    [
+     "Humperdoo-ClassicBetaPvP2-",
+     0.284,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Rigged-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Humperdoo-ClassicBetaPvP2-",
+     0.284,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Rigged-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Mokojumbie-ClassicBetaPvP2-",
+     0.076,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 6076,
+   "name": "Renew",
+   "healerCasters": 22,
+   "healerCasts": 914,
+   "dpsCasters": 10,
+   "dpsCasts": 111,
+   "unknownCasters": 8,
+   "unknownCasts": 75,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [
+    [
+     "Dryconx-ClassicBetaPvP-",
+     0.119,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Bog-ClassicBetaPvP-",
+     0.046,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Dryconx-ClassicBetaPvP-",
+     0.119,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Bog-ClassicBetaPvP-",
+     0.046,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Kietaka-ClassicBetaPvP-",
+     0.034,
+     "2026-10-09-run11-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 8940,
+   "name": "Regrowth",
+   "healerCasters": 16,
+   "healerCasts": 596,
+   "dpsCasters": 22,
+   "dpsCasts": 356,
+   "unknownCasters": 5,
+   "unknownCasts": 21,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID"
+   ],
+   "dps": [
+    [
+     "Rigged-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Humperdoo-ClassicBetaPvP2-",
+     0.284,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Rigged-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Humperdoo-ClassicBetaPvP2-",
+     0.284,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Stormx-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 9472,
+   "name": "Flash Heal",
+   "healerCasters": 18,
+   "healerCasts": 465,
+   "dpsCasters": 3,
+   "dpsCasts": 8,
+   "unknownCasters": 1,
+   "unknownCasts": 14,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [
+    [
+     "Bog-ClassicBetaPvP-",
+     0.046,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Bog-ClassicBetaPvP-",
+     0.046,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Lu-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run15-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 19939,
+   "name": "Flash of Light",
+   "healerCasters": 7,
+   "healerCasts": 379,
+   "dpsCasters": 15,
+   "dpsCasts": 152,
+   "unknownCasters": 2,
+   "unknownCasts": 8,
+   "talentOrRune": false,
+   "classes": [
+    "PALADIN"
+   ],
+   "dps": [
+    [
+     "Eviereina-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Bobbyblaster-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Eviereina-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Bobbyblaster-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Hassle-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 1042,
+   "name": "Holy Light",
+   "healerCasters": 7,
+   "healerCasts": 234,
+   "dpsCasters": 30,
+   "dpsCasts": 352,
+   "unknownCasters": 1,
+   "unknownCasts": 12,
+   "talentOrRune": false,
+   "classes": [
+    "PALADIN"
+   ],
+   "dps": [
+    [
+     "Golden-ClassicBetaPvP-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Adrani-ClassicBetaPvP-",
+     0.074,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Eviereina-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Golden-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Adrani-ClassicBetaPvP-",
+     0.074,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 6063,
+   "name": "Heal",
+   "healerCasters": 13,
+   "healerCasts": 112,
+   "dpsCasters": 5,
+   "dpsCasts": 16,
+   "unknownCasters": 1,
+   "unknownCasts": 6,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [
+    [
+     "Dryconx-ClassicBetaPvP-",
+     0.119,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Bog-ClassicBetaPvP-",
+     0.046,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Dryconx-ClassicBetaPvP-",
+     0.119,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Bog-ClassicBetaPvP-",
+     0.046,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "\ub098\ub8e8\ud1a0-ClassicBetaPvP-",
+     0.124,
+     "2026-10-09-run11-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 8008,
+   "name": "Lesser Healing Wave",
+   "healerCasters": 2,
+   "healerCasts": 90,
+   "dpsCasters": 51,
+   "dpsCasts": 750,
+   "unknownCasters": 5,
+   "unknownCasts": 22,
+   "talentOrRune": false,
+   "classes": [
+    "SHAMAN"
+   ],
+   "dps": [
+    [
+     "Uglaz-ClassicBetaPvE-",
+     0.0,
+     "2026-10-07-run2"
+    ],
+    [
+     "Uglaz-ClassicBetaPvE-",
+     0.0,
+     "2026-10-07-run3"
+    ],
+    [
+     "Uglaz-ClassicBetaPvE-",
+     0.0,
+     "2026-10-07-run4"
+    ],
+    [
+     "Uglaz-ClassicBetaPvE-",
+     0.0,
+     "2026-10-08-run5"
+    ],
+    [
+     "Uglaz-ClassicBetaPvE-",
+     0.088,
+     "2026-10-08-run9-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 5189,
+   "name": "Healing Touch",
+   "healerCasters": 13,
+   "healerCasts": 88,
+   "dpsCasters": 14,
+   "dpsCasts": 54,
+   "unknownCasters": 6,
+   "unknownCasts": 14,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID"
+   ],
+   "dps": [
+    [
+     "Finkle-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-08-run6b"
+    ],
+    [
+     "Finkle-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-08-run7"
+    ],
+    [
+     "Finkle-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-08-run8-bg"
+    ],
+    [
+     "Finkle-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Finkle-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 3747,
+   "name": "Power Word: Shield",
+   "healerCasters": 4,
+   "healerCasts": 76,
+   "dpsCasters": 2,
+   "dpsCasts": 78,
+   "unknownCasters": 9,
+   "unknownCasts": 22,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [
+    [
+     "Bog-ClassicBetaPvP-",
+     0.046,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Bog-ClassicBetaPvP-",
+     0.046,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 1310927,
+   "name": "Light's Fury",
+   "healerCasters": 5,
+   "healerCasts": 65,
+   "dpsCasters": 9,
+   "dpsCasts": 314,
+   "unknownCasters": 7,
+   "unknownCasts": 10,
+   "talentOrRune": false,
+   "classes": [
+    "PALADIN"
+   ],
+   "dps": [
+    [
+     "Pvandj-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-08-run6b"
+    ],
+    [
+     "Pvandj-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-08-run7"
+    ],
+    [
+     "Pvandj-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-08-run8-bg"
+    ],
+    [
+     "Pvandj-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Bobbyblaster-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 2053,
+   "name": "Lesser Heal",
+   "healerCasters": 6,
+   "healerCasts": 60,
+   "dpsCasters": 2,
+   "dpsCasts": 8,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [
+    [
+     "Dryconx-ClassicBetaPvP-",
+     0.119,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Dryconx-ClassicBetaPvP-",
+     0.119,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 1316048,
+   "name": "Transformative Cocoon",
+   "healerCasters": 11,
+   "healerCasts": 20,
+   "dpsCasters": 47,
+   "dpsCasts": 72,
+   "unknownCasters": 6,
+   "unknownCasts": 6,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID",
+    "HUNTER",
+    "MAGE",
+    "PALADIN",
+    "PRIEST",
+    "ROGUE",
+    "SHAMAN",
+    "WARLOCK",
+    "WARRIOR"
+   ],
+   "dps": [
+    [
+     "Golden-ClassicBetaPvP-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Lazi-ClassicBetaPvP-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Slix-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Bufu-ClassicBetaPvP-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Super-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 441,
+   "name": "Healing Potion",
+   "healerCasters": 6,
+   "healerCasts": 18,
+   "dpsCasters": 32,
+   "dpsCasts": 110,
+   "unknownCasters": 2,
+   "unknownCasts": 4,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID",
+    "HUNTER",
+    "MAGE",
+    "PALADIN",
+    "PRIEST",
+    "ROGUE",
+    "SHAMAN",
+    "WARLOCK"
+   ],
+   "dps": [
+    [
+     "Slix-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Bufu-ClassicBetaPvP-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Eviereina-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Slix-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Bufu-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 939,
+   "name": "Healing Wave",
+   "healerCasters": 1,
+   "healerCasts": 14,
+   "dpsCasters": 22,
+   "dpsCasts": 142,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "SHAMAN"
+   ],
+   "dps": [
+    [
+     "Kajean-ClassicBetaPvE-",
+     0.027,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Thorgrimm-ClassicBetaPvP-",
+     0.083,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Anivar-ClassicBetaPvP2-",
+     0.008,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Kajean-ClassicBetaPvE-",
+     0.027,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Thorgrimm-ClassicBetaPvP-",
+     0.083,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 774,
+   "name": "Rejuvenation",
+   "healerCasters": 1,
+   "healerCasts": 11,
+   "dpsCasters": 1,
+   "dpsCasts": 2,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID"
+   ],
+   "dps": [
+    [
+     "Joff-ClassicBetaPvP-",
+     0.124,
+     "2026-10-10-run18-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 2024,
+   "name": "Healing Potion",
+   "healerCasters": 2,
+   "healerCasts": 10,
+   "dpsCasters": 29,
+   "dpsCasts": 134,
+   "unknownCasters": 1,
+   "unknownCasts": 2,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID",
+    "HUNTER",
+    "MAGE",
+    "PALADIN",
+    "PRIEST",
+    "ROGUE",
+    "SHAMAN",
+    "WARLOCK",
+    "WARRIOR"
+   ],
+   "dps": [
+    [
+     "Kajean-ClassicBetaPvE-",
+     0.027,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Kajean-ClassicBetaPvE-",
+     0.027,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Blade-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Kelayz-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Sarum-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 20267,
+   "name": "Judgement of Light",
+   "healerCasters": 1,
+   "healerCasts": 9,
+   "dpsCasters": 2,
+   "dpsCasts": 6,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "PALADIN",
+    "SHAMAN"
+   ],
+   "dps": [
+    [
+     "Just-ClassicBetaPvP-",
+     0.0,
+     "2026-10-10-run17-bg"
+    ],
+    [
+     "Soulless-ClassicBetaPvP-",
+     0.0,
+     "2026-10-10-run17-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 1311015,
+   "name": "Templar's Bulwark",
+   "healerCasters": 1,
+   "healerCasts": 2,
+   "dpsCasters": 3,
+   "dpsCasts": 18,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "PALADIN"
+   ],
+   "dps": [
+    [
+     "Bobbyblaster-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Bobbyblaster-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Tristan-ClassicBetaPvP2-",
+     0.243,
+     "2026-10-10-run17-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 1309725,
+   "name": "Healing Potion",
+   "healerCasters": 2,
+   "healerCasts": 2,
+   "dpsCasters": 35,
+   "dpsCasts": 37,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID",
+    "HUNTER",
+    "MAGE",
+    "PALADIN",
+    "ROGUE",
+    "SHAMAN",
+    "WARLOCK",
+    "WARRIOR"
+   ],
+   "dps": [
+    [
+     "Lazi-ClassicBetaPvP-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Golden-ClassicBetaPvP-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Lazi-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Golden-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Hassle-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 440,
+   "name": "Healing Potion",
+   "healerCasters": 1,
+   "healerCasts": 2,
+   "dpsCasters": 1,
+   "dpsCasts": 2,
+   "unknownCasters": 1,
+   "unknownCasts": 2,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID",
+    "ROGUE",
+    "SHAMAN"
+   ],
+   "dps": [
+    [
+     "\ub77c\uba74-ClassicBetaPvE2-",
+     0.075,
+     "2026-10-10-run18-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 913,
+   "name": "Healing Wave",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 2,
+   "dpsCasts": 4,
+   "unknownCasters": 1,
+   "unknownCasts": 2,
+   "talentOrRune": false,
+   "classes": [
+    "SHAMAN"
+   ],
+   "dps": [
+    [
+     "Haris-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run12-bg"
+    ],
+    [
+     "Haris-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run13-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 1261483,
+   "name": "Thrill of Adventure",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 12,
+   "dpsCasts": 52,
+   "unknownCasters": 30,
+   "unknownCasts": 45,
+   "talentOrRune": false,
+   "classes": [
+    "HUNTER",
+    "PALADIN",
+    "SHAMAN",
+    "WARLOCK",
+    "WARRIOR"
+   ],
+   "dps": [
+    [
+     "Mink-ClassicBetaPvE-",
+     0.0,
+     "2026-10-08-run6b"
+    ],
+    [
+     "Pieter-ClassicBetaPvE-",
+     0.0,
+     "2026-10-08-run6b"
+    ],
+    [
+     "Mink-ClassicBetaPvE-",
+     0.0,
+     "2026-10-08-run7"
+    ],
+    [
+     "Pieter-ClassicBetaPvE-",
+     0.0,
+     "2026-10-08-run7"
+    ],
+    [
+     "Mink-ClassicBetaPvE-",
+     0.0,
+     "2026-10-08-run8-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 8939,
+   "name": "Regrowth",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 5,
+   "dpsCasts": 15,
+   "unknownCasters": 3,
+   "unknownCasts": 15,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID"
+   ],
+   "dps": [
+    [
+     "Thats-ClassicBetaPvE-",
+     0.0,
+     "2026-10-08-run6b"
+    ],
+    [
+     "Thats-ClassicBetaPvE-",
+     0.0,
+     "2026-10-08-run7"
+    ],
+    [
+     "Thats-ClassicBetaPvE-",
+     0.0,
+     "2026-10-08-run8-bg"
+    ],
+    [
+     "Thats-ClassicBetaPvE-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Thats-ClassicBetaPvE-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 402927,
+   "name": "Victory Rush",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 22,
+   "dpsCasts": 108,
+   "unknownCasters": 11,
+   "unknownCasts": 22,
+   "talentOrRune": false,
+   "classes": [
+    "WARRIOR"
+   ],
+   "dps": [
+    [
+     "John-ClassicBetaPvP-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Amish-ClassicBetaPvP-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "John-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Amish-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Blade-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 8004,
+   "name": "Lesser Healing Wave",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 9,
+   "dpsCasts": 66,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "SHAMAN"
+   ],
+   "dps": [
+    [
+     "Jimmy-ClassicBetaPvE2-",
+     0.049,
+     "2026-10-08-run6b"
+    ],
+    [
+     "Jimmy-ClassicBetaPvE2-",
+     0.048,
+     "2026-10-08-run7"
+    ],
+    [
+     "Jimmy-ClassicBetaPvE2-",
+     0.048,
+     "2026-10-08-run8-bg"
+    ],
+    [
+     "Jimmy-ClassicBetaPvE2-",
+     0.048,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Anivar-ClassicBetaPvP2-",
+     0.008,
+     "2026-10-08-run9-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 1243028,
+   "name": "Demonic Energies",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 5,
+   "dpsCasts": 457,
+   "unknownCasters": 8,
+   "unknownCasts": 170,
+   "talentOrRune": false,
+   "classes": [
+    "WARLOCK"
+   ],
+   "dps": [
+    [
+     "Morpsemon-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Heavy-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run11-bg"
+    ],
+    [
+     "Excidium-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run14-bg"
+    ],
+    [
+     "Welfareguy-ClassicBetaPvP-",
+     0.0,
+     "2026-10-10-run17-bg"
+    ],
+    [
+     "Brackfriday-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-10-run17-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 16488,
+   "name": "Blood Craze",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 8,
+   "dpsCasts": 62,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "WARRIOR"
+   ],
+   "dps": [
+    [
+     "\u4e0d\u5b58\u5728\u7684-ClassicBetaPvP-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Flexhit-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "\u4e0d\u5b58\u5728\u7684-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Flexhit-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Camron-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 6263,
+   "name": "Lesser Healthstone",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 27,
+   "dpsCasts": 80,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "WARLOCK"
+   ],
+   "dps": [
+    [
+     "Super-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Bufu-ClassicBetaPvP-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Lazi-ClassicBetaPvP-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Doug-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Bandiago-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 7927,
+   "name": "First Aid",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 10,
+   "dpsCasts": 22,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "HUNTER",
+    "ROGUE",
+    "SHAMAN",
+    "WARRIOR"
+   ],
+   "dps": [
+    [
+     "Bobby-ClassicBetaPvP-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Amish-ClassicBetaPvP-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Bobby-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Amish-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Blade-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 1026,
+   "name": "Holy Light",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 4,
+   "dpsCasts": 62,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "PALADIN"
+   ],
+   "dps": [
+    [
+     "Bobbyblaster-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Bobbyblaster-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Bobby-ClassicBetaPvP-",
+     0.0,
+     "2026-10-10-run17-bg"
+    ],
+    [
+     "Scoop-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-10-run17-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 1248759,
+   "name": "Recovery",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 7,
+   "dpsCasts": 41,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "DRUID",
+    "HUNTER",
+    "ROGUE",
+    "WARRIOR"
+   ],
+   "dps": [
+    [
+     "Flexhit-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Humperdoo-ClassicBetaPvP2-",
+     0.284,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Flexhit-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Humperdoo-ClassicBetaPvP2-",
+     0.284,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Jimmy-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run11-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 3661,
+   "name": "Mend Pet",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 12,
+   "dpsCasts": 28,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "HUNTER"
+   ],
+   "dps": [
+    [
+     "Timberwulfe-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Slix-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Timberwulfe-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Slix-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Shot-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run11-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 19238,
+   "name": "Desperate Prayer",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 3,
+   "dpsCasts": 10,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "PRIEST"
+   ],
+   "dps": [
+    [
+     "Dryconx-ClassicBetaPvP-",
+     0.119,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Dryconx-ClassicBetaPvP-",
+     0.119,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Kietaka-ClassicBetaPvP-",
+     0.034,
+     "2026-10-09-run11-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 6262,
+   "name": "Minor Healthstone",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 2,
+   "dpsCasts": 8,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "WARLOCK"
+   ],
+   "dps": [
+    [
+     "Lazi-ClassicBetaPvP-",
+     0.0,
+     "2026-10-08-run9-bg"
+    ],
+    [
+     "Lazi-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 13234,
+   "name": "Harm Prevention Belt",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 1,
+   "dpsCasts": 2,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "HUNTER"
+   ],
+   "dps": [
+    [
+     "Kelayz-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 7926,
+   "name": "First Aid",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 10,
+   "dpsCasts": 26,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "HUNTER",
+    "MAGE",
+    "ROGUE",
+    "WARLOCK",
+    "WARRIOR"
+   ],
+   "dps": [
+    [
+     "Sjz-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Camron-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Elf-ClassicBetaPvE2-",
+     0.0,
+     "2026-10-09-run11-bg"
+    ],
+    [
+     "Morty-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run11-bg"
+    ],
+    [
+     "Bildo-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run12-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 3268,
+   "name": "First Aid",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 6,
+   "dpsCasts": 24,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "MAGE",
+    "PALADIN",
+    "WARLOCK",
+    "WARRIOR"
+   ],
+   "dps": [
+    [
+     "Ohmy-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Peter-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Coeliac-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Migel-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run11-bg"
+    ],
+    [
+     "Tobog-ClassicBetaPvP-",
+     0.028,
+     "2026-10-09-run11-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 18805,
+   "name": "Recombobulate",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 2,
+   "dpsCasts": 4,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "HUNTER",
+    "WARRIOR"
+   ],
+   "dps": [
+    [
+     "Kelayz-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ],
+    [
+     "Uli-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run13-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 543,
+   "name": "Fire Ward",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 1,
+   "dpsCasts": 2,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "MAGE"
+   ],
+   "dps": [
+    [
+     "Sjz-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 3267,
+   "name": "First Aid",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 1,
+   "dpsCasts": 2,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "WARLOCK"
+   ],
+   "dps": [
+    [
+     "Morpsemon-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run10-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 7233,
+   "name": "Fire Protection",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 1,
+   "dpsCasts": 4,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "WARLOCK"
+   ],
+   "dps": [
+    [
+     "Chur-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run11-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 8457,
+   "name": "Fire Ward",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 2,
+   "dpsCasts": 4,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "MAGE"
+   ],
+   "dps": [
+    [
+     "Littlescary-ClassicBetaPvP-",
+     0.0,
+     "2026-10-09-run13-bg"
+    ],
+    [
+     "Od-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-10-run18-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 3111,
+   "name": "Mend Pet",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 1,
+   "dpsCasts": 2,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "HUNTER"
+   ],
+   "dps": [
+    [
+     "Jaspir-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run16-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 1159,
+   "name": "First Aid",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 1,
+   "dpsCasts": 2,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "WARLOCK"
+   ],
+   "dps": [
+    [
+     "Picklerick-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-09-run16-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 6143,
+   "name": "Frost Ward",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 1,
+   "dpsCasts": 4,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "MAGE"
+   ],
+   "dps": [
+    [
+     "Od-ClassicBetaPvP2-",
+     0.0,
+     "2026-10-10-run18-bg"
+    ]
+   ],
+   "keep": false
+  },
+  {
+   "spellID": 3698,
+   "name": "Health Funnel",
+   "healerCasters": 0,
+   "healerCasts": 0,
+   "dpsCasters": 1,
+   "dpsCasts": 6,
+   "unknownCasters": 0,
+   "unknownCasts": 0,
+   "talentOrRune": false,
+   "classes": [
+    "WARLOCK"
+   ],
+   "dps": [
+    [
+     "Luvgames-ClassicBetaPvP-",
+     0.027,
+     "2026-10-10-run18-bg"
+    ]
+   ],
+   "keep": false
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+## Interface: 16001
+## Title: K.T.H. Forever Diagnostics
+## Notes: Read-only probe for testing unmodified K.T.H. on WoW Forever. Logs only to its own frame and SavedVariables (never Blizzard chat). /kthfd
+## Author: Forever port tooling
+## Version: 1.0.0
+## OptionalDeps: KTH
+## SavedVariables: KTHForeverDiagDB
+
+Diag.lua

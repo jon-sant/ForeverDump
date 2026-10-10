@@ -1,0 +1,1427 @@
+diff -ruN '--exclude=.git' original/KTH/Announcer.lua port/KTH/Announcer.lua
+--- original/KTH/Announcer.lua	2026-04-10 22:51:34.000000000 -0400
++++ port/KTH/Announcer.lua	2026-10-10 01:08:46.673359123 -0400
+@@ -28,6 +28,24 @@
+ local HHTD = T.HHTD;
+ local L = HHTD.Localized_Text;
+ 
++-- [Forever] F3: UnitClass is secret on hostile mouseover/target (ForeverDump runs 16-18) and HHTD:GetClassHexColor
++-- keys a table with the class (secret or nil key = error). Use the clear class, else the scoreboard class of the
++-- resolved record, else K.T.H.'s red.
++local function ForeverClassHex(unit, healerProfile)
++    local cls;
++    if T.FS then
++        local ok, _, c = pcall(UnitClass, unit);
++        cls = ok and T.FS.str(c) or nil;
++        if not cls and healerProfile and HHTD.MN_RosterClass then
++            cls = HHTD.MN_RosterClass(false, T.FS.str(healerProfile.name));
++        end
++    else
++        cls = select(2, UnitClass(unit));
++    end
++    if cls and RAID_CLASS_COLORS and RAID_CLASS_COLORS[cls] then return HHTD:GetClassHexColor(cls); end
++    return "FFFF0000";
++end
++
+ -- Create module
+ HHTD.Announcer = HHTD:NewModule("Announcer", "AceConsole-3.0");
+ local Announcer = HHTD.Announcer;
+@@ -275,7 +293,7 @@
+             (L["IS_A_HEALER"]):format(
+                 HHTD:ColorText(
+                 healerProfile.name,
+-                HHTD:GetClassHexColor(  select(2, UnitClass("mouseover")) )
++                ForeverClassHex("mouseover", healerProfile) -- [Forever] F3 (was GetClassHexColor(select(2, UnitClass("mouseover"))))
+                 ),
+             "|r"
+             )
+@@ -297,12 +315,11 @@
+     --self:Debug(INFO, "AuctionWindowOpen.ogg played");
+ 
+     local sex = UnitSex("target");
++    if T.FS then sex = T.FS.num(sex); end -- [Forever] F3: UnitSex on hostile target not probed -> secret-safe
+ 
+     local what = (sex == 1 and L["YOU_GOT_IT"] or sex == 2 and L["YOU_GOT_HIM"] or L["YOU_GOT_HER"]);
+ 
+-    local localizedUnitClass, unitClass = UnitClass("target");
+-
+-    local subjectColor = HHTD:GetClassHexColor(unitClass);
++    local subjectColor = ForeverClassHex("target", healerProfile); -- [Forever] F3 (was GetClassHexColor(select(2, UnitClass("target"))))
+ 
+     self:Announce(what:format("|c" .. subjectColor));
+ 
+diff -ruN '--exclude=.git' original/KTH/Core.lua port/KTH/Core.lua
+--- original/KTH/Core.lua	2026-04-11 02:57:38.000000000 -0400
++++ port/KTH/Core.lua	2026-10-10 01:14:34.285472280 -0400
+@@ -113,6 +113,12 @@
+ local HHTD_C = HHTD.Constants;
+ HHTD_C.WOWC = WOW_PROJECT_ID ~= WOW_PROJECT_MAINLINE
+ HHTD_C.MN = tocversion >= 120000
++-- [Forever] D2: WoW Forever (toc 16001, WOW_PROJECT_ID 18) has Midnight-style secrets. Baseline diag: MN=false sent K.T.H.
++-- down the classic branch, whose RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED") raised ADDON_ACTION_FORBIDDEN
++-- (AceEvent30Frame:RegisterEvent) and the "blocked from an action only available to the Blizzard UI" popup;
++-- CombatLogGetCurrentEventInfo and C_CombatLogInternal are both absent. So Forever takes the Midnight path.
++HHTD_C.FOREVER = T.FS and T.FS.IS_FOREVER or false
++if HHTD_C.FOREVER then HHTD_C.MN = true end
+ 
+ -- === DebugLog routing helper ===
+ -- All diagnostic output from Core.lua goes here instead of HHTD:Print().
+@@ -937,7 +943,13 @@
+ 
+         self.db = LibStub("AceDB-3.0"):New("HHTD_SavedVariables", DEFAULT__CONFIGURATION);
+ 
+-        LibStub("AceConfig-3.0"):RegisterOptionsTable(tostring(self), self.GetOptions, {"hhtd", "H.H.T.D."});
++        if HHTD_C.FOREVER then
++            -- [Forever] D3: AceConfigCmd answers /hhtd by printing into DEFAULT_CHAT_FRAME; open the options window instead
++            LibStub("AceConfig-3.0"):RegisterOptionsTable(tostring(self), self.GetOptions);
++            self:RegisterChatCommand('hhtd', function() LibStub("AceConfigDialog-3.0"):Open(tostring(self)) end, true);
++        else
++            LibStub("AceConfig-3.0"):RegisterOptionsTable(tostring(self), self.GetOptions, {"hhtd", "H.H.T.D."});
++        end
+         --LibStub("AceConfigDialog-3.0"):AddToBlizOptions(tostring(self));
+         self:RegisterChatCommand('hhtdg', function() LibStub("AceConfigDialog-3.0"):Open(tostring(self)) end, true);
+         self:RegisterChatCommand('hhtddiag', function()
+@@ -1157,26 +1169,36 @@
+ 
+         local unitFirstName, unitRealm = UnitName(unit);
+ 
+-        if canaccessvalue(unitGuid) and HHTD.Registry_by_GUID[isFriend][unitGuid] then
++        -- [Forever] F3: enemy mouseover/target GUIDs are secret (ForeverDump runs 16-18) -> resolve the unit by its
++        -- exact scoreboard name to K.T.H.'s record (or the nameplate verdict); see ForeverEvidence.lua
++        local healerRecord = canaccessvalue(unitGuid) and HHTD.Registry_by_GUID[isFriend][unitGuid] or nil;
++        if not canaccessvalue(unitGuid) and HHTD_C.FOREVER and HHTD.MN_ResolveEnemyUnit then
++            local okR, g, rec = pcall(HHTD.MN_ResolveEnemyUnit, unit);
++            if okR and g then unitGuid, healerRecord = g, rec; end
++        end
++
++        if canaccessvalue(unitGuid) and healerRecord then
+ 
+             -- remove dead units
+-            if UnitIsDead(unit) then
+-                self:Reap(unitGuid, isFriend, true);
++            local okD, isDead = pcall(UnitIsDead, unit); -- [Forever] F3: secret-safe truth test
++            if okD and canaccessvalue(isDead) and isDead then
++                if HHTD.Registry_by_GUID[isFriend][unitGuid] then self:Reap(unitGuid, isFriend, true); end
+                 return;
+             end
+ 
+             if LastDetectedGUID == unitGuid and unit == "target" then
+-                self:SendMessage("HHTD_TARGET_LOCKED", isFriend, HHTD.Registry_by_GUID[isFriend][unitGuid]);
++                self:SendMessage("HHTD_TARGET_LOCKED", isFriend, healerRecord); -- [Forever] F3: resolved record
+                 --self:Debug(INFO, "LastDetectedGUID == unitGuid and unit == \"target\""); -- XXX
+ 
+                 return;
+             end
+ 
+             -- Has the unit healed recently?
+-            if not UnitIsUnit("mouseover", "target") and unit == "mouseover" then
++            local okU, sameUnit = pcall(UnitIsUnit, "mouseover", "target"); -- [Forever] F3: secret-safe
++            if okU and canaccessvalue(sameUnit) and not sameUnit and unit == "mouseover" then
+                 -- Is this sitill true?
+ 
+-                self:SendMessage("HHTD_HEALER_MOUSE_OVER", isFriend, HHTD.Registry_by_GUID[isFriend][unitGuid]);
++                self:SendMessage("HHTD_HEALER_MOUSE_OVER", isFriend, healerRecord); -- [Forever] F3: resolved record
+                 --self:Debug(INFO, "HHTD_HEALER_UNDER_MOUSE"); -- XXX
+                 LastDetectedGUID = unitGuid;
+             end
+@@ -1590,6 +1612,9 @@
+ 
+ 
+ 
++    -- [Forever] D7: heal evidence (ForeverEvidence.lua) registers confirmed healers through the same pipeline
++    HHTD._MN_RegisterHealer = function(...) return RegisterHealer(...) end
++
+     -- === Midnight Scoreboard-based Healer Detection === {{{
+     -- In 12.0, CLEU is gone and enemy spellIDs are secret in BGs.
+     -- The scoreboard provides spec/role data for all BG participants.
+@@ -1613,12 +1638,15 @@
+         if numScores == 0 then return end
+ 
+         local playerFaction = HHTD_C.PLAYER_FACTION;
++        -- [Forever] D5: roster of every row (first name + side -> class) for the nameplate class join
++        if HHTD.MN_RosterSweep then pcall(HHTD.MN_RosterSweep); end
+         local scannedCount = 0;
+         local healersFound = 0;
+ 
+         for i = 1, numScores do
+             local scoreData = nil;
+             local scoreName, scoreGUID, scoreClassToken, scoreTalentSpec, scoreFaction, scoreRoleAssigned;
++            local scoreHealingDone, scoreDamageDone; -- [Forever] D6
+ 
+             -- Try C_PvP.GetScoreInfo first (newer API with roleAssigned)
+             if C_PvP and C_PvP.GetScoreInfo then
+@@ -1630,6 +1658,8 @@
+                     scoreTalentSpec = scoreData.talentSpec;
+                     scoreFaction = scoreData.faction;
+                     scoreRoleAssigned = scoreData.roleAssigned;
++                    scoreHealingDone = scoreData.healingDone; -- [Forever] D6
++                    scoreDamageDone = scoreData.damageDone;
+                 else
+                     scoreData = nil; -- secret or nil
+                 end
+@@ -1661,8 +1691,9 @@
+                 -- Method 1 (preferred): Check talentSpec against CLASS_SPEC_TO_ROLE
+                 -- This is the most reliable method since it checks the actual spec name
+                 -- against the role table built from GetSpecializationInfoForClassID.
+-                if scoreTalentSpec and scoreClassToken
+-                    and canaccessvalue(scoreTalentSpec) and canaccessvalue(scoreClassToken)
++                -- [Forever] D4: canaccessvalue before the truth test (talentSpec is secret prep/ooc/combat per the diag)
++                if canaccessvalue(scoreTalentSpec) and canaccessvalue(scoreClassToken)
++                    and scoreTalentSpec and scoreClassToken
+                     and HHTD_C.CLASS_SPEC_TO_ROLE[scoreClassToken] then
+                     specChecked = true;
+                     if HHTD_C.CLASS_SPEC_TO_ROLE[scoreClassToken][scoreTalentSpec] == "HEALER" then
+@@ -1672,14 +1703,22 @@
+ 
+                 -- Method 2 (fallback): Check roleAssigned only if spec data wasn't available
+                 -- roleAssigned can be unreliable in BGs (e.g. Guardian Druids showing role 2)
+-                if not specChecked and scoreRoleAssigned and canaccessvalue(scoreRoleAssigned) and scoreRoleAssigned == 2 then
++                if not specChecked and canaccessvalue(scoreRoleAssigned) and scoreRoleAssigned and scoreRoleAssigned == 2 then -- [Forever] D4 order
+                     isHealer = true;
+                 end
+ 
++                -- [Forever] D6: the WOWC spec->role table is empty and roleAssigned is secret in-match, so the scoreboard
++                -- never names a healer. healingDone/damageDone are clear post-match (diag: 60/60): a player who healed at
++                -- least as much as they damaged is a healer.
++                if HHTD_C.FOREVER and not isHealer and (not HHTD.MN_InBG or HHTD.MN_InBG()) then -- [Forever] F7: BG only
++                    local h, d = T.FS.num(scoreHealingDone), T.FS.num(scoreDamageDone);
++                    if h and d and h > 0 and h >= d then isHealer = true; end
++                end
++
+                 if isHealer then
+                     -- Determine if friendly or hostile
+                     -- faction: 0 = Horde, 1 = Alliance
+-                    if scoreFaction and canaccessvalue(scoreFaction) then
++                    if canaccessvalue(scoreFaction) and scoreFaction then -- [Forever] D4 order
+                         if playerFaction == "Horde" then
+                             isFriend = (scoreFaction == 0);
+                         elseif playerFaction == "Alliance" then
+@@ -1689,7 +1728,7 @@
+ 
+                     -- Generate a pseudo-GUID if we don't have one
+                     local guid = scoreGUID;
+-                    if not guid or not canaccessvalue(guid) then
++                    if not canaccessvalue(guid) or not guid then -- [Forever] D4 order (guid secret in-match)
+                         guid = "Scoreboard-" .. scoreName;
+                     end
+ 
+@@ -1712,6 +1751,8 @@
+                     -- This is the definitive healer list that MidnightNameplates reads.
+                     -- Stores healers by Name, GUID, and ClassSpec for maximum matching flexibility.
+                     local shortName = scoreName:match("^([^-]+)") or scoreName;
++                    -- [Forever] D5: plates give "First", the scoreboard "First Surname": key on the first word when unique
++                    if HHTD_C.FOREVER and HHTD.MN_ShortKey then shortName = HHTD.MN_ShortKey(scoreName); end
+                     if not HHTD.MN_HealersByName[shortName] then
+                         local healerRecord = {
+                             isFriend = isFriend,
+@@ -1719,7 +1760,7 @@
+                             fullName = scoreName,
+                             classToken = scoreClassToken,
+                             talentSpec = scoreTalentSpec,
+-                            guid = (scoreGUID and canaccessvalue(scoreGUID)) and scoreGUID or nil,
++                            guid = (canaccessvalue(scoreGUID) and scoreGUID) and scoreGUID or nil, -- [Forever] D4 order
+                         };
+                         HHTD.MN_HealersByName[shortName] = healerRecord;
+ 
+@@ -1729,8 +1770,8 @@
+                         end
+ 
+                         -- Also index by ClassToken:TalentSpec for class-based matching
+-                        if scoreClassToken and canaccessvalue(scoreClassToken)
+-                            and scoreTalentSpec and canaccessvalue(scoreTalentSpec) then
++                        if canaccessvalue(scoreClassToken) and scoreClassToken -- [Forever] D4 order
++                            and canaccessvalue(scoreTalentSpec) and scoreTalentSpec then
+                             local classSpecKey = scoreClassToken .. ":" .. scoreTalentSpec;
+                             if not HHTD.MN_HealersByClassSpec[classSpecKey] then
+                                 HHTD.MN_HealersByClassSpec[classSpecKey] = {};
+@@ -2130,7 +2171,7 @@
+      local function HandleSpellcastHealer(self, unitTarget, spellID)
+          if not HHTD_C.MN then return end -- only needed in Midnight
+          MN_Diag.spellcastFired = MN_Diag.spellcastFired + 1;
+-         if not unitTarget or not spellID then return end
++         if type(unitTarget) == "nil" or type(spellID) == "nil" then return end -- [Forever] D4: no truth test on a secret spellID
+ 
+          if not canaccessvalue(spellID) then
+              MN_Diag.spellcastSecretID = MN_Diag.spellcastSecretID + 1;
+@@ -2147,13 +2188,13 @@
+          end
+ 
+          local guid = UnitGUID(unitTarget);
+-         if not guid or not canaccessvalue(guid) then
++         if not canaccessvalue(guid) or not guid then -- [Forever] D4 order
+              MN_Diag.spellcastSecretGUID = MN_Diag.spellcastSecretGUID + 1;
+              return
+          end
+ 
+          local sourceName = UnitName(unitTarget);
+-         if not sourceName or not canaccessvalue(sourceName) then
++         if not canaccessvalue(sourceName) or not sourceName then -- [Forever] D4 order
+              MN_Diag.spellcastSecretGUID = MN_Diag.spellcastSecretGUID + 1;
+              return
+          end
+diff -ruN '--exclude=.git' original/KTH/ForeverChat.lua port/KTH/ForeverChat.lua
+--- original/KTH/ForeverChat.lua	1969-12-31 19:00:00.000000000 -0500
++++ port/KTH/ForeverChat.lua	2026-10-10 09:49:46.254666000 -0400
+@@ -0,0 +1,102 @@
++-- [Forever] K.T.H. Forever port - ForeverChat.lua (new file, port helper; not part of the original K.T.H.)
++-- K.T.H. prints through AceConsole (HHTD:Print -> DEFAULT_CHAT_FRAME). On Forever, addon writes into Blizzard chat
++-- frames can taint ChatFrame1 and break BattlegroundChatFilters, so every K.T.H. Print/Printf goes to K.T.H.'s own
++-- message frame instead. Nothing else about the messages changes. /kthlog shows/hides the frame.
++-- K.T.H. is (c) John Wellesz (H.H.T.D.) and Scone (K.T.H.), All Rights Reserved; private port, no redistribution.
++local ADDON_NAME, T = ...;
++local HHTD = T.HHTD;
++if not (T.FS and T.FS.IS_FOREVER) then return; end
++
++local f;
++local function Frame()
++    if f then return f; end
++    f = CreateFrame("ScrollingMessageFrame", "KTH_ForeverMessageFrame", UIParent);
++    f:SetSize(420, 110);
++    f:SetPoint("TOPLEFT", UIParent, "TOPLEFT", 20, -180);
++    pcall(f.SetFontObject, f, _G.GameFontHighlightSmall or _G.ChatFontNormal);
++    f:SetJustifyH("LEFT");
++    f:SetFading(true);
++    f:SetFadeDuration(3);
++    f:SetTimeVisible(20);
++    f:SetMaxLines(200);
++    f:SetMovable(true);
++    f:EnableMouse(false);
++    return f;
++end
++
++local tostring, select, type, format = tostring, select, type, string.format;
++
++local function Print(self, ...)
++    local first = ...;
++    local n, start = select("#", ...), 1;
++    if type(first) == "table" and first.AddMessage then start = 2; end -- an explicit chat frame is ignored too
++    local parts = {};
++    for i = start, n do parts[#parts + 1] = tostring((select(i, ...))); end
++    Frame():AddMessage("|cff33ff99K.T.H.|r: " .. table.concat(parts, " "));
++end
++
++local function Printf(self, ...)
++    local first = ...;
++    if type(first) == "table" and first.AddMessage then return Print(self, format(select(2, ...))); end
++    return Print(self, format(...));
++end
++
++HHTD.Print, HHTD.Printf = Print, Printf;
++for _, module in HHTD:IterateModules() do
++    module.Print, module.Printf = Print, Printf;
++    if module.IterateModules then
++        for _, sub in module:IterateModules() do sub.Print, sub.Printf = Print, Printf; end
++    end
++end
++if HHTD.MODULE_PROTOTYPE then HHTD.MODULE_PROTOTYPE.Print, HHTD.MODULE_PROTOTYPE.Printf = Print, Printf; end
++
++HHTD.ForeverMessageFrame = Frame;
++SLASH_KTHLOG1 = "/kthlog";
++SlashCmdList["KTHLOG"] = function()
++    local fr = Frame();
++    if fr:IsShown() then fr:Hide(); else fr:Show(); end
++end
++
++-- [Forever] F4 (diagnostic only, no behaviour change): /kthsound plays K.T.H.'s five alert sounds and writes each call's
++-- willPlay result to K.T.H.'s own frame. The sound-kit IDs (8959/8174/8960, nameplate alert) and file IDs
++-- (567458/567482, mouseover/target announcer) are not in ForeverDump's static data, so whether Forever ships them is
++-- unmeasured; this measures it in game. Results are also kept in HHTD.ForeverSoundTest.
++SLASH_KTHSOUND1 = "/kthsound";
++SlashCmdList["KTHSOUND"] = function()
++    local res = {};
++    HHTD.ForeverSoundTest = res;
++    local tests = {
++        { "PlaySound", 8959, "nameplate alert raidwarn" }, { "PlaySound", 8174, "nameplate alert pvpflag" },
++        { "PlaySound", 8960, "nameplate alert readychk" }, { "PlaySoundFile", 567458, "mouseover announcer" },
++        { "PlaySoundFile", 567482, "target-lock announcer" },
++    };
++    Frame():Show();
++    for i, t in ipairs(tests) do C_Timer.After((i - 1) * 2, function() -- one sound every 2 s
++        local fn = _G[t[1]];
++        local ok, willPlay = false, "missing";
++        if type(fn) == "function" then ok, willPlay = pcall(fn, t[2], "Master"); end
++        local wp = (T.FS and T.FS.bool(willPlay));
++        res[i] = { api = t[1], id = t[2], what = t[3], ok = ok, willPlay = wp, raw = tostring(T.FS and T.FS.clear(willPlay)) };
++        Print(HHTD, ("%s(%d) [%s]: ok=%s willPlay=%s"):format(t[1], t[2], t[3], tostring(ok), tostring(wp == nil and res[i].raw or wp)));
++    end) end
++end
++
++-- [Forever] forever.7 (diagnostic only): /kthdebug on|off|clear|(none = status). Controls the meter/verdict debug log
++-- kept in K.T.H.'s SavedVariables (ForeverEvidence.lua: every meter read + every claim/revoke, last 5 sessions).
++SLASH_KTHDEBUG1 = "/kthdebug";
++SlashCmdList["KTHDEBUG"] = function(msg)
++    local g = HHTD.db and HHTD.db.global;
++    if type(g) ~= "table" then return; end
++    msg = type(msg) == "string" and msg:lower() or "";
++    if msg == "off" then g.ForeverDebugOff = true;
++    elseif msg == "on" then g.ForeverDebugOff = nil;
++    elseif msg == "clear" then g.ForeverDebug = nil; end
++    local root = g.ForeverDebug;
++    local n, reads = 0, 0;
++    if type(root) == "table" and type(root.sessions) == "table" then
++        n = #root.sessions;
++        for _, s in ipairs(root.sessions) do reads = reads + #(s.meter or {}); end
++    end
++    Frame():Show();
++    Print(HHTD, ("debug log %s: %d session(s), %d meter read(s)"):format(g.ForeverDebugOff and "OFF" or "ON", n, reads));
++end
+diff -ruN '--exclude=.git' original/KTH/ForeverEvidence.lua port/KTH/ForeverEvidence.lua
+--- original/KTH/ForeverEvidence.lua	1969-12-31 19:00:00.000000000 -0500
++++ port/KTH/ForeverEvidence.lua	2026-10-10 10:01:10.792542255 -0400
+@@ -0,0 +1,747 @@
++-- [Forever] K.T.H. Forever port - ForeverEvidence.lua (new file, port helper; not part of the original K.T.H.)
++--
++-- Why this exists (measured in the baseline BG diag, 2026-10-10, see FOREVER-PORT.md):
++--   * enemy nameplate UnitClass is secret (750/750 reads, ooc + combat) -> K.T.H.'s class conditions need the class
++--     from somewhere else: the scoreboard (C_PvP.GetScoreInfo name/classToken/faction are clear in every phase);
++--   * enemy plate UnitName is clear but first-name-only ("Aerie") while the scoreboard says "Aerie Dunleary" ->
++--     join on first word + side, never when that first name is not unique;
++--   * [forever.3] D5b: UnitName's 2nd return ("realm") is the scoreboard surname: "Aerie","Dunleary" (ForeverDump runs
++--     17+18: 59/59 name-realm == scoreboard "First Surname"; realm clear on nameplate/mouseover/target/raid
++--     hostile-player). So the join is exact on name.." "..realm + side; the first-name join (with the duplicate guard)
++--     is only the fallback when no realm is returned;
++--   * talentSpec/roleAssigned are secret during the match (clear only post-match) and the WOWC spec->role table is
++--     empty -> the scoreboard names no healer during the match;
++--   * nameplate/party/raid spellIDs are secret (nameplate 20/20) -> K.T.H.'s SPELL confirmation never fires.
++-- Substitute for the last two: heal evidence. All events of one client frame share one GetTime(); a cast
++-- (UNIT_SPELLCAST_SUCCEEDED) by exactly one identified player in a frame plus a UNIT_COMBAT "HEAL" on another player of
++-- the same side in that frame = one heal-on-other link. Enough links (and mostly heals, not damage) confirm that
++-- specific player as a healer, the same way SpellcastConfirmed does in K.T.H. Only clear values are used
++-- (UnitName, UnitCanAttack, UnitIsPlayer, UnitPowerType, the UNIT_COMBAT action string); amounts are never read.
++-- No division anywhere (shares are cross-multiplied).
++-- [forever.5] User decision: "having mana does not make one a healer" (resto, feral and balance druids all show MANA).
++-- The healer verdict is healing OUTPUT: a player is a healer when the majority of their observed output is healing,
++-- or their healing is far above the group's. Class is only a can-heal prerequisite. Sources (all clear reads):
++--   * actions: the frame-joined heal/damage links above (+ clear healer-only spellIDs where readable, open world);
++--   * amounts: C_DamageMeter Current session, HealingDone vs DamageDone (measured, FD runs 16-18: amounts clear out
++--     of combat and secret in combat; friendly rows carry clear names; enemy rows carry a secret name/GUID but a
++--     clear class -> joined to the scoreboard only when that class is unique on the enemy team, else class-level);
++-- with hysteresis (on at >= 60 percent, off only below 35 percent with more evidence) and minimum evidence (unknown until
++-- then). Thresholds tuned on real runs 16-18 (FOREVER-PORT.md, forever.5).
++-- K.T.H. is (c) John Wellesz (H.H.T.D.) and Scone (K.T.H.), All Rights Reserved; private port, no redistribution.
++local ADDON_NAME, T = ...;
++local HHTD = T.HHTD;
++local FS = T.FS;
++if not (FS and FS.IS_FOREVER) then return; end
++
++local GetTime, pairs, ipairs, type, pcall = GetTime, pairs, ipairs, type, pcall;
++local str, num, bool, firstWord = FS.str, FS.num, FS.bool, FS.firstWord;
++
++local E = {};
++HHTD.ForeverEvidence = E;
++
++local inBG = false;       -- battleground: the only context with the measured scoreboard (D5/D5b/D6 apply here only)
++local active = false;     -- [Forever] F7: heal-evidence engine on (BG, arena, open world; party/raid only with K.T.H.'s Pve option)
++local zoneKey = nil;      -- kind + instance id; any change = new roster/evidence
++local zoneKind = "none";
++function HHTD.MN_InBG() return inBG; end
++function HHTD.MN_ZoneKind() return zoneKind; end
++
++E.HEALER_CLASS = { PRIEST = true, PALADIN = true, SHAMAN = true, DRUID = true, MONK = true, EVOKER = true }; -- can-heal prerequisite only
++-- [forever.5] actions: on at healPct with healMin links (unknownHealMin if class unknown); off below offPct with >= offMin links.
++-- meter: on when heal >= dmMin and (heal share >= dmSharePct or heal >= dmMedianX x group median); off when heal+damage
++-- >= dmOffMin and share < dmOffPct (and not above dmMedianX x median).
++E.CFG = { healMin = 2, healPct = 60, unknownHealMin = 3, offPct = 35, offMin = 6,
++          dmMin = 1000, dmSharePct = 60, dmMedianX = 6, dmOffPct = 35, dmOffMin = 2000,
++          grpSharePct = 63, weakLinkMin = 1, teamMax = 3 };
++-- [forever.6] several enemies of one class (rows indistinguishable: secret names):
++--   all healers  : >= n heal rows, summed heal >= dmMin x n, class heal share (sum heal / sum heal+damage) >= grpSharePct
++--                  (runs 16-18: every all-healer class group >= 0.664, every other group <= 0.592; FOREVER-PORT.md)
++--   none healers : >= n damage rows, each >= dmOffMin, and no heal row that could reach dmSharePct even paired with
++--                  the smallest damage row
++--   otherwise    : "possible" when some heal row >= dmMin could reach dmSharePct; then a player of that class with
++--                  >= weakLinkMin heal links and no damage link is marked while fewer than teamMax enemies are claimed
++--                  (run 17 Gorrotar; teamMax: <= 3 enemy healers in every logged BG, runs 10-18)
++
++local R, roster, firstCount, byFull = {}, {}, {}, {};
++E.R, E.roster, E.byFull = R, roster, byFull;
++E.stats = {};
++
++local function key(isFriend, first) return (isFriend and "F:" or "E:") .. first; end
++
++function E.reset()
++    for k in pairs(R) do R[k] = nil; end
++    for k in pairs(roster) do roster[k] = nil; end
++    for k in pairs(firstCount) do firstCount[k] = nil; end
++    for k in pairs(byFull) do byFull[k] = nil; end
++    E.stats = { joinFrames = 0, joinAmbig = 0, healLinks = 0, dmgLinks = 0, contradictions = 0, meterReads = 0, revokes = 0 };
++    E.dmClass = {}; -- [forever.5] class-level meter vote for enemy classes with more than one player
++end
++E.reset();
++
++---------------------------------------------------------------------------------------------------- roster
++-- full: clear scoreboard name ("First Surname"), classToken clear, isFriend boolean
++function E.rosterAdd(full, classToken, isFriend)
++    local first = firstWord(full);
++    if not first or type(isFriend) ~= "boolean" then return; end
++    local k = key(isFriend, first);
++    local ro = roster[k];
++    if not ro then
++        roster[k] = { full = full, class = classToken, isFriend = isFriend, first = first };
++        firstCount[first] = (firstCount[first] or 0) + 1;
++    elseif ro.full ~= full then
++        ro.ambiguous = true; -- duplicate guard: two players of one side share this first name -> never joined
++    elseif classToken and not ro.class then
++        ro.class = classToken;
++    end
++    -- [Forever] D5b: exact entry by full scoreboard name
++    local kf = key(isFriend, full);
++    local rf = byFull[kf];
++    if not rf then
++        byFull[kf] = { full = full, class = classToken, isFriend = isFriend, first = first };
++    elseif classToken and not rf.class then
++        rf.class = classToken;
++    end
++    local r = R[k];
++    if r then E.evaluate(r, GetTime()); end
++    r = R[kf];
++    if r then E.evaluate(r, GetTime()); end
++end
++
++-- who: a full scoreboard name ("First Surname", exact) or a bare first name (unique-only join)
++local function rosterRec(isFriend, who)
++    if not who then return nil; end
++    if who:find(" ", 1, true) then return byFull[key(isFriend, who)]; end
++    local ro = roster[key(isFriend, who)];
++    if ro and not ro.ambiguous then return ro; end
++end
++E.rosterRec = rosterRec;
++
++-- [Forever] D5b: the join key of a unit from UnitName's two (clear) returns: "First Surname" when a realm/surname is
++-- returned, else the bare first word. Secret or missing name -> nil.
++function HHTD.MN_UnitWho(name, realm)
++    local first = firstWord(name);
++    if not first then return nil; end
++    realm = str(realm);
++    if realm and realm ~= "" then return first .. " " .. realm; end
++    return first;
++end
++
++-- class token for a (side, plate first name), nil if unknown or ambiguous
++function HHTD.MN_RosterClass(isFriend, first) local ro = rosterRec(isFriend, first); return ro and ro.class or nil; end
++function HHTD.MN_RosterFull(isFriend, first)  local ro = rosterRec(isFriend, first); return ro and ro.full or nil; end
++
++-- Key for HHTD.MN_HealersByName: the first word when it is unique among ALL scoreboard rows (K.T.H.'s friendly
++-- nameplate lookup is by plate name, which is first-name-only on Forever), else the full scoreboard name (no join).
++function HHTD.MN_ShortKey(full)
++    local first = firstWord(full);
++    if first and firstCount[first] == 1 and (rosterRec(true, first) or rosterRec(false, first)) then
++        return first;
++    end
++    return full:match("^([^-]+)") or full;
++end
++
++-- Reads every scoreboard row (name, classToken, faction: clear in every BG phase per the diag).
++function HHTD.MN_RosterSweep()
++    if not inBG then return; end -- [Forever] F7: scoreboard join in battlegrounds only
++    if not (C_PvP and C_PvP.GetScoreInfo) then return; end
++    local n = num(GetNumBattlefieldScores and GetNumBattlefieldScores()) or 0;
++    local pf = HHTD.Constants.PLAYER_FACTION;
++    for i = 1, n do
++        local ok, info = pcall(C_PvP.GetScoreInfo, i);
++        if ok and type(info) == "table" and FS.clear(info) then
++            local name, cls, fac = str(info.name), str(info.classToken), num(info.faction);
++            if name and fac then
++                local isFriend = (pf == "Horde" and fac == 0) or (pf == "Alliance" and fac == 1) or false;
++                E.rosterAdd(name, cls, isFriend);
++                -- [forever.7] talentSpec: secret in prep/gates/combat, clear post-match (FD run 18, KTH diags)
++                local kind = E.specKindFromName(cls, info.talentSpec);
++                if kind then E.setSpec(isFriend, name, kind, "scoreboard spec " .. tostring(str(info.talentSpec))); end
++            end
++        end
++    end
++end
++
++-- [Forever] F3: mouseover/target hostile-player UnitGUID is secret (ForeverDump runs 16-18, every phase), so
++-- HHTD:TestUnit's GUID registry lookup never matches an enemy and HHTD_HEALER_MOUSE_OVER / HHTD_TARGET_LOCKED (and
++-- their sounds) never fire. UnitName (both returns) and UnitCanAttack are clear on those tokens (same captures).
++-- Resolve the enemy unit to K.T.H.'s own registry record by its exact scoreboard name; if K.T.H. has no record but its
++-- nameplate rule marks the unit (the icon the user sees), hand back a record for that unit so the announcer reacts
++-- to the same healers the nameplates show. Enemies only: friendly GUIDs are clear and keep the original path.
++local plateRecords = {};
++function HHTD.MN_ResolveEnemyUnit(unit)
++    local okA, canAttack = pcall(UnitCanAttack, "player", unit);
++    if not (okA and bool(canAttack)) then return nil; end
++    local okN, name, realm = pcall(UnitName, unit);
++    local who = okN and HHTD.MN_UnitWho(name, realm) or nil;
++    if not who then return nil; end
++    local full = HHTD.MN_RosterFull(false, who) or (who:find(" ", 1, true) and who) or nil;
++    local reg = HHTD.Registry_by_Name and HHTD.Registry_by_Name[false];
++    local rec = reg and full and reg[full] or nil;
++    if rec and rec.guid then return rec.guid, rec; end
++    if HHTD.MN_CheckUnitIsHealer then
++        local ok, isHealer = pcall(HHTD.MN_CheckUnitIsHealer, unit);
++        if ok and isHealer == true then
++            local g = "Plate-E-" .. (full or who);
++            local pr = plateRecords[g];
++            if not pr then pr = { guid = g, name = full or who, isFriend = false }; plateRecords[g] = pr; end
++            return g, pr;
++        end
++    end
++    return nil;
++end
++
++---------------------------------------------------------------------------------------------------- engine
++local function get(isFriend, first)
++    local k = key(isFriend, first);
++    local r = R[k];
++    if not r then
++        r = { key = k, isFriend = isFriend, first = first, heal = 0, dmg = 0, casts = 0 };
++        R[k] = r;
++    end
++    return r;
++end
++E.get = get;
++
++local function notify(r)
++    if r.claim ~= "HEALER" or r.notified then return; end
++    r.notified = true;
++    local full = HHTD.MN_RosterFull(r.isFriend, r.first) or r.first;
++    r.regGuid = "Scoreboard-" .. full;
++    if HHTD._MN_RegisterHealer and HHTD.db then
++        pcall(HHTD._MN_RegisterHealer, GetTime(), r.isFriend, r.regGuid, full, true,
++            "heal evidence", false, 0, HHTD.db.global, true);
++    end
++    if HHTD.MN_OnEvidence then HHTD.MN_OnEvidence(); end
++    if E.onClaim then pcall(E.onClaim, r); end
++    pcall(E.debugVerdict, r, "on");
++end
++
++-- [forever.5] hysteresis: a claim is withdrawn only on clear contrary evidence (see CFG); K.T.H.'s registry record goes too
++local function revoke(r, t, why)
++    r.claim, r.notified, r.offT, r.offWhy = nil, nil, t, why;
++    r.offs = (r.offs or 0) + 1; E.stats.revokes = E.stats.revokes + 1;
++    pcall(E.debugVerdict, r, "off");
++    if r.regGuid and HHTD.Reap then pcall(HHTD.Reap, HHTD, r.regGuid, r.isFriend, true); end
++    if HHTD.MN_OnEvidence then HHTD.MN_OnEvidence(); end
++end
++
++-- +1 healer, -1 not a healer, 0 not enough evidence (actions: heal links vs damage links, plus clear heal spells)
++local function actVote(r, cls)
++    local cfg = E.CFG;
++    local n = r.heal + r.dmg;
++    if r.heal >= (cls and cfg.healMin or cfg.unknownHealMin) and r.heal * 100 >= cfg.healPct * n then return 1; end
++    if n >= cfg.offMin and r.heal * 100 < cfg.offPct * n then return -1; end
++    return 0;
++end
++E.actVote = actVote;
++
++function E.evaluate(r, t)
++    local cfg = E.CFG;
++    local ro = rosterRec(r.isFriend, r.first);
++    local cls = ro and ro.class or nil;
++    if cls and not E.HEALER_CLASS[cls] then
++        if r.heal >= cfg.healMin and not r.contradicted then
++            r.contradicted = true; E.stats.contradictions = E.stats.contradictions + 1;
++        end
++        if r.claim then revoke(r, t, "class cannot heal"); end
++        return;
++    end
++    local a = actVote(r, cls);
++    local d = r.dmVote or 0;
++    if d == 0 and cls and not r.isFriend then
++        local cv = E.dmClass[cls];
++        if cv and cv.n > 1 then d = cv.v; end
++    end
++    -- measured amounts outrank link counts: a decisive meter vote decides; links decide only while the meter has none
++    -- (run 17: two friendly DPS with 2-6 coincidental heal links and a meter heal share of 9-18 percent)
++    local v = (d ~= 0) and d or a;
++    local weak = false;
++    -- [forever.7] spec layer (authoritative when readable): a readable healer spec, or a cast of a verified healer-only
++    -- spell (which sets the spec for this name for the rest of the match), marks at once and overrides every heuristic;
++    -- a readable non-healer spec (arena/inspect/scoreboard spec ID or name, never a self-chosen group role) unmarks.
++    -- Absence of a spec or of healer-only casts never counts against anyone (low-level healers lack the talents/runes).
++    if r.spec == "HEALER" then v = 1; elseif r.spec == "DPS" then v = -1; end
++    if v == 0 and cls and not r.isFriend then
++        local cv = E.dmClass[cls];
++        if cv and cv.n > 1 and cv.v == 0 and cv.possible and r.heal >= cfg.weakLinkMin and r.dmg == 0
++            and E.teamClaims(false) < cfg.teamMax then
++            v, weak = 1, true;
++        end
++    end
++    local on = (v == 1);
++    if not r.claim and on then
++        r.claim, r.claimT = "HEALER", t;
++        r.firstClaimT = r.firstClaimT or t;
++        r.why = (r.spec == "HEALER") and ("spec " .. tostring(r.specWhy)) or weak and ("meter-possible " .. tostring(cls) .. " + heal-links " .. r.heal .. "/" .. (r.heal + r.dmg)) or (d == 1) and ("meter " .. tostring(r.dmVote and r.dmWhy or ("class " .. tostring(cls)))) or ("heal-links " .. r.heal .. "/" .. (r.heal + r.dmg));
++        notify(r);
++    elseif r.claim and v == -1 then
++        revoke(r, t, (r.spec == "DPS") and ("spec " .. tostring(r.specWhy)) or (d == -1) and ("meter " .. tostring(r.dmWhy)) or ("heal-links " .. r.heal .. "/" .. (r.heal + r.dmg)));
++    end
++end
++
++-- [forever.6] claimed healers on one side
++function E.teamClaims(isFriend)
++    local c = 0;
++    for _, x in pairs(R) do if x.claim == "HEALER" and x.isFriend == isFriend then c = c + 1; end end
++    return c;
++end
++
++-- one client frame: casters (key -> rec), heals / wounds = lists of target recs
++function E.join(t, casters, nCasters, heals, wounds)
++    if nCasters == 0 then return; end
++    E.stats.joinFrames = E.stats.joinFrames + 1;
++    if nCasters > 1 then E.stats.joinAmbig = E.stats.joinAmbig + 1; return; end
++    local c;
++    for _, r in pairs(casters) do c = r; end
++    c.casts = c.casts + 1;
++    local healed, hurt = false, false;
++    for _, tr in ipairs(heals) do if tr ~= c and tr.isFriend == c.isFriend then healed = true; end end
++    for _, tr in ipairs(wounds) do if tr.isFriend ~= c.isFriend then hurt = true; end end
++    if healed then c.heal = c.heal + 1; c.healT1 = c.healT1 or t; E.stats.healLinks = E.stats.healLinks + 1; end
++    if hurt then c.dmg = c.dmg + 1; E.stats.dmgLinks = E.stats.dmgLinks + 1; end
++    if healed or hurt then E.evaluate(c, t); end
++end
++
++-- nameplate check: is this (side, plate first name) confirmed by heal evidence?
++function HHTD.MN_EvidenceConfirmed(isFriend, first)
++    if not first then return false; end
++    local r = R[key(isFriend, first)];
++    if not r and first:find(" ", 1, true) then
++        -- [forever.5] plate gave "First Surname" but the evidence was keyed by the bare first name (no realm returned
++        -- at that time): same player only when that first name is unique on this side
++        local f1 = firstWord(first); local ro = f1 and roster[key(isFriend, f1)];
++        if ro and not ro.ambiguous and ro.full == first then r = R[key(isFriend, f1)]; end
++    elseif not r then
++        -- bare first name on the plate, evidence keyed by the full name (meter rows, raid tokens): unique first name only
++        local ro = rosterRec(isFriend, first);
++        if ro and ro.full then r = R[key(isFriend, ro.full)]; end
++    end
++    return (r and r.claim == "HEALER" and not (roster[r.key] and roster[r.key].ambiguous)) and true or false; -- byFull keys are never ambiguous
++end
++
++---------------------------------------------------------------------------------------------------- driver
++local identCache, identT = {}, -1;
++
++local function call(f, ...)
++    if type(f) ~= "function" then return; end
++    local ok, a, b = pcall(f, ...);
++    if ok then return a, b; end
++end
++
++local function ident(tok)
++    tok = str(tok);
++    if not tok then return nil; end
++    local t = GetTime();
++    if t ~= identT then identT = t; for k in pairs(identCache) do identCache[k] = nil; end end
++    local c = identCache[tok];
++    if c ~= nil then return c or nil; end
++    local rec = false;
++    if bool(call(UnitIsPlayer, tok)) and not bool(call(UnitIsUnit, tok, "player")) then
++        local first = HHTD.MN_UnitWho(call(UnitName, tok)); -- [Forever] D5b: "First Surname" when the realm is returned
++        local enemy = bool(call(UnitCanAttack, "player", tok));
++        if first and enemy ~= nil then rec = get(not enemy, first); end
++    end
++    identCache[tok] = rec;
++    return rec or nil;
++end
++E.ident = ident;
++
++local B = { t = nil, casters = {}, n = 0, heals = {}, wounds = {} };
++local function flush()
++    if B.t and B.n > 0 then E.join(B.t, B.casters, B.n, B.heals, B.wounds); end
++    B.t = nil; B.n = 0;
++    for k in pairs(B.casters) do B.casters[k] = nil; end
++    for i = #B.heals, 1, -1 do B.heals[i] = nil; end
++    for i = #B.wounds, 1, -1 do B.wounds[i] = nil; end
++end
++E.flush = flush;
++local function bucket()
++    local t = GetTime();
++    if B.t ~= t then flush(); B.t = t; end
++    return t;
++end
++
++function E.onCast(tok)
++    if not active then return; end
++    local rec = ident(tok);
++    if not rec then return; end
++    bucket();
++    if not B.casters[rec.key] then B.casters[rec.key] = rec; B.n = B.n + 1; end
++end
++
++function E.onCombat(tok, action)
++    if not active then return; end
++    action = str(action);
++    if action ~= "HEAL" and action ~= "WOUND" then return; end
++    local rec = ident(tok);
++    if not rec then return; end
++    bucket();
++    local L = (action == "HEAL") and B.heals or B.wounds;
++    for _, r in ipairs(L) do if r == rec then return; end end
++    L[#L + 1] = rec;
++end
++
++-- [forever.5] a clear healer-only spellID cast by this unit (open world / PvE, where spellIDs read clear; nameplate
++-- spellIDs are secret in BGs): one heal action toward the verdict, no longer a mark on its own
++function E.onHealSpell(tok)
++    if not active then return; end
++    local rec = ident(tok);
++    if not rec then return; end
++    rec.heal = rec.heal + 1; rec.spellHeals = (rec.spellHeals or 0) + 1;
++    E.evaluate(rec, GetTime());
++end
++
++-- [forever.8] healer-only spells = the USER'S authoritative list (domain knowledge), one spec per spell:
++--   Discipline priest: Penance, Power Infusion | Holy priest: Prayer of Mending | Holy paladin: Light's Vigil |
++--   Restoration druid: Wild Growth | Restoration shaman: Riptide.
++-- IDs: every Forever 1.60.1 SpellName row with that exact name (FD DB2 build 1.60.1.70245 == wago.tools 1.60.1.70245;
++-- ranks confirmed on wowhead.com/forever), minus rows that are not the ability: the SoD rune-learning spells
++-- ("Gain the X ability": 402844, 402832, 409810, 409954) and Riptide 22419 ("Disarmed", an NPC spell sharing the name).
++-- Seen in the combat logs of runs 1-18: only Penance 402284 (damage) / 402289 (heal), as SPELL_CAST_SUCCESS; the
++-- other five spells were never cast in our captures. Known disagreement: Penance was cast by Severn (run 15, log heal
++-- share 0.107, 19 casts), whom our log label calls DPS; the user accepts Penance (likely a Discipline priest dealing damage).
++-- Swiftmend and Holy Shock are no longer instant flags (user); they stay ordinary heal evidence via the retail lookup.
++-- Live use needs a clear spellID: in every FD capture (runs 6-18) other units' UNIT_SPELLCAST spellIDs were secret.
++E.HEALER_ONLY_SPELLS = {};
++do
++    local L = {
++        { "Penance", "Discipline", 402174, 402261, 402277, 402284, 402289, 1240720, 1240721, 1240723, 1240724, 1240727,
++          1240730, 1240732, 1240733, 1240734, 1240736, 1316991, 1316992, 1316993, 1316994, 1316995 },
++        { "Power Infusion", "Discipline", 10060 },
++        { "Prayer of Mending", "Holy", 41637, 401859, 401863, 401877, 401880, 401882, 1240826, 1240827, 1240848, 1240849,
++          1240918, 1240919, 1313379, 1313381 },
++        { "Light's Vigil", "Holy", 1310909, 1310910, 1310911, 1310912, 1310914, 1311590, 1311591, 1311592, 1311593,
++          1311594, 1311595, 1311596, 1311597, 1311598, 1311599, 1311601, 1311806 },
++        { "Wild Growth", "Restoration", 408120, 1238214, 1238215 },
++        { "Riptide", "Restoration", 405168, 405194, 405321, 405324, 408521, 1239242, 1239243 },
++    };
++    for _, e in ipairs(L) do
++        for i = 3, #e do E.HEALER_ONLY_SPELLS[e[i]] = e[1]; end
++    end
++    E.HEALER_ONLY_SPEC = { ["Penance"] = "Discipline", ["Power Infusion"] = "Discipline", ["Prayer of Mending"] = "Holy",
++        ["Light's Vigil"] = "Holy", ["Wild Growth"] = "Restoration", ["Riptide"] = "Restoration" };
++end
++function E.onHealerOnlySpell(tok, spellID)
++    if not active then return; end
++    local rec = ident(tok);
++    if not rec then return; end
++    rec.specSpell = rec.specSpell or E.HEALER_ONLY_SPELLS[spellID] or tostring(spellID);
++    rec.specSpellT = rec.specSpellT or GetTime();
++    E.setSpec(rec.isFriend, rec.first, "HEALER", "healer-only spell " .. rec.specSpell
++        .. " (" .. tostring(E.HEALER_ONLY_SPEC[rec.specSpell] or "?") .. ")");
++end
++
++-- [forever.7] spec shortcut. kind = "HEALER" | "DPS"; who = exact "First Surname" when known (else unique first name).
++-- Healer specs: Discipline / Holy priest, Holy paladin, Restoration druid, Restoration shaman.
++E.HEALER_SPEC_ID = { [256] = true, [257] = true, [65] = true, [105] = true, [264] = true };
++E.HEALER_SPEC_NAME = { PRIEST = { Discipline = true, Holy = true }, PALADIN = { Holy = true },
++                       DRUID = { Restoration = true }, SHAMAN = { Restoration = true } };
++function E.setSpec(isFriend, who, kind, src)
++    if type(who) ~= "string" or (kind ~= "HEALER" and kind ~= "DPS") then return; end
++    local r = get(isFriend, who);
++    if r.spec == "HEALER" and kind ~= "HEALER" and r.specWhy and r.specWhy:find("healer-only spell", 1, true) then
++        return; -- an observed healer-only cast is proof; keep it for the match
++    end
++    if r.spec ~= kind then r.spec, r.specWhy, r.specT = kind, src, GetTime(); E.evaluate(r, GetTime()); end
++end
++-- spec ID (arena opponent spec, inspect) -> kind; role from GetSpecializationInfoByID when the client provides it
++function E.specKindFromID(id)
++    id = num(id);
++    if not id or id <= 0 then return nil; end
++    local f = GetSpecializationInfoByID;
++    if type(f) == "function" then
++        local ok, _, _, _, _, role = pcall(f, id);
++        role = ok and str(role) or nil;
++        if role == "HEALER" then return "HEALER"; elseif role == "DAMAGER" or role == "TANK" then return "DPS"; end
++    end
++    return E.HEALER_SPEC_ID[id] and "HEALER" or nil; -- unknown non-healer IDs are not treated as DPS
++end
++-- scoreboard talentSpec (measured clear only post-match) -> kind
++function E.specKindFromName(cls, spec)
++    spec = str(spec);
++    if not spec or spec == "" or not cls then return nil; end
++    local h = E.HEALER_SPEC_NAME[cls];
++    if h and h[spec] then return "HEALER"; end
++    return "DPS";
++end
++-- arena opponents: GetArenaOpponentSpec(i) (no arena capture yet: every value is read through the clear guard)
++function E.readArenaSpecs()
++    if not active or zoneKind ~= "arena" then return; end
++    local n = num(call(GetNumArenaOpponentSpecs)) or 0;
++    for i = 1, math.min(n, 5) do
++        local kind = E.specKindFromID(call(GetArenaOpponentSpec, i));
++        local who = kind and HHTD.MN_UnitWho(call(UnitName, "arena" .. i)) or nil;
++        if who then E.setSpec(false, who, kind, "arena opponent spec"); end
++    end
++end
++-- friendly group: UnitGroupRolesAssigned == "HEALER" (positive only: a role is chosen in the queue, not a spec)
++function E.readGroupRoles()
++    if not active then return; end
++    local raid = bool(call(IsInRaid));
++    local n = num(call(GetNumGroupMembers)) or 0;
++    for i = 1, math.min(n, 40) do
++        local u = raid and ("raid" .. i) or ("party" .. i);
++        if not raid and i > 4 then break; end
++        if not bool(call(UnitIsUnit, u, "player")) then
++            local role = str(call(UnitGroupRolesAssigned, u));
++            if role == "HEALER" then
++                local who = HHTD.MN_UnitWho(call(UnitName, u));
++                if who then E.setSpec(true, who, "HEALER", "group role"); end
++            end
++        end
++    end
++end
++
++---------------------------------------------------------------------------------------------------- meter
++-- [forever.5] C_DamageMeter, Current session, HealingDone vs DamageDone. Measured in FD runs 16-18 (FOREVER-PORT.md):
++-- out of combat totalAmount/classFilename/sourceDisplayType are clear, friendly name/GUID clear, enemy name/GUID secret;
++-- in combat the amounts are secret (documented SecretWhenInCombat). Read on PLAYER_REGEN_ENABLED, as FD did.
++local function meterRows(D, cur, ty)
++    if ty == nil then return nil; end
++    local ok, s = pcall(D.GetCombatSessionFromType, cur, ty);
++    if not ok or type(s) ~= "table" then return nil; end
++    local list = {};
++    local okR = pcall(function()
++        local src = s.combatSources;
++        if type(src) ~= "table" then return; end
++        for i = 1, 80 do
++            local row = src[i];
++            if type(row) ~= "table" then break; end
++            local amt = num(row.totalAmount);
++            if amt then
++                list[#list + 1] = { amt = amt, name = str(row.name), cls = str(row.classFilename),
++                    dt = num(row.sourceDisplayType), me = bool(row.isLocalPlayer) };
++            end
++        end
++    end);
++    if not okR then return nil; end
++    return list;
++end
++
++local function meterVote(r, h, d, med, t)
++    local cfg = E.CFG;
++    local hi = med > 0 and h >= cfg.dmMedianX * med;
++    local v;
++    if h >= cfg.dmMin and (h * 100 >= cfg.dmSharePct * (h + d) or hi) then v = 1;
++    elseif (h + d) >= cfg.dmOffMin and h * 100 < cfg.dmOffPct * (h + d) and not hi then v = -1; end
++    r.dmH, r.dmD, r.dmMed = h, d, med;
++    if v then r.dmVote, r.dmT, r.dmWhy = v, t, "heal " .. h .. " dmg " .. d .. " median " .. med; end
++    E.evaluate(r, t);
++end
++
++-- [forever.7] debug collection (SavedVariables HHTD_SavedVariables -> global.ForeverDebug): EVERY meter read with its
++-- raw clear rows (class, sourceDisplayType, amount, friendly name; enemy names are secret and are not readable), and
++-- every claim / revoke with its reason. Gives future backtests every read K.T.H. made (the ForeverDump ring kept only
++-- 21 per BG). Bounded: last 5 sessions, 400 reads and 400 verdict changes each. /kthdebug off|on|clear.
++local dbg;
++local function debugRoot()
++    local g = HHTD.db and HHTD.db.global;
++    if type(g) ~= "table" or g.ForeverDebugOff then return nil; end
++    g.ForeverDebug = type(g.ForeverDebug) == "table" and g.ForeverDebug or { sessions = {} };
++    return g.ForeverDebug;
++end
++function E.debugSession(kind)
++    local root = debugRoot();
++    if not root then dbg = nil; return; end
++    dbg = { start = (time and time()) or 0, gt = GetTime(), zone = kind, meter = {}, verdicts = {} };
++    table.insert(root.sessions, dbg);
++    while #root.sessions > 5 do table.remove(root.sessions, 1); end
++end
++function E.debugMeter(t, H, Dm)
++    if not dbg or #dbg.meter >= 400 then return; end
++    local function pack(L)
++        local out = {};
++        for _, x in ipairs(L) do out[#out + 1] = { c = x.cls, d = x.dt, a = x.amt, n = x.name, me = x.me or nil }; end
++        return out;
++    end
++    dbg.meter[#dbg.meter + 1] = { t = t, h = pack(H), dm = pack(Dm) };
++end
++function E.debugVerdict(r, what)
++    if not dbg or #dbg.verdicts >= 400 then return; end
++    dbg.verdicts[#dbg.verdicts + 1] = { t = GetTime(), k = r.key, v = what, why = (what == "on") and r.why or r.offWhy,
++        heal = r.heal, dmg = r.dmg, casts = r.casts };
++end
++
++function E.readMeter()
++    if not active then return; end
++    local D, EN = C_DamageMeter, Enum;
++    local MT = EN and EN.DamageMeterType;
++    local ST = EN and EN.DamageMeterSessionType;
++    if not (type(D) == "table" and type(D.GetCombatSessionFromType) == "function" and type(MT) == "table") then return; end
++    local cur = (type(ST) == "table" and num(ST.Current)) or 1; -- ForeverDump reads the same session
++    local H, Dm = meterRows(D, cur, MT.HealingDone), meterRows(D, cur, MT.DamageDone);
++    if not (H and Dm) or #H == 0 then return; end
++    local t = GetTime();
++    E.stats.meterReads = E.stats.meterReads + 1;
++    pcall(E.debugMeter, t, H, Dm);
++    local hs = {};
++    for _, x in ipairs(H) do hs[#hs + 1] = x.amt; end
++    table.sort(hs);
++    local m = #hs;
++    local med = (m % 2 == 1) and hs[(m + 1) / 2] or (hs[m / 2] + hs[m / 2 + 1]) / 2;
++    -- friendly rows: clear name ("First Surname"); enemy rows: secret name, clear class, sourceDisplayType ~= 1
++    local fH, fD, eH, eD = {}, {}, {}, {};
++    local function add(x, F, Ecl)
++        if x.me or not x.cls then return; end
++        if x.name then F[x.name] = (F[x.name] or 0) + x.amt;
++        elseif x.dt ~= 1 then local l = Ecl[x.cls] or {}; Ecl[x.cls] = l; l[#l + 1] = x.amt; end
++    end
++    for _, x in ipairs(H) do add(x, fH, eH); end
++    for _, x in ipairs(Dm) do add(x, fD, eD); end
++    for name, h in pairs(fH) do if firstWord(name) then meterVote(get(true, name), h, fD[name] or 0, med, t); end end
++    for name, d in pairs(fD) do if not fH[name] and firstWord(name) then meterVote(get(true, name), 0, d, med, t); end end
++    if not inBG then return; end -- enemy rows can only be joined through the BG scoreboard (class)
++    local byClass = {};
++    for _, ro in pairs(byFull) do
++        if not ro.isFriend and ro.class then local l = byClass[ro.class] or {}; byClass[ro.class] = l; l[#l + 1] = ro; end
++    end
++    local cfg = E.CFG;
++    for cls, players in pairs(byClass) do
++        local hl, dl = eH[cls] or {}, eD[cls] or {};
++        local n = #players;
++        if n == 1 then
++            if (#hl > 0 or #dl > 0) and #hl <= 1 and #dl <= 1 then meterVote(get(false, players[1].full), hl[1] or 0, dl[1] or 0, med, t); end
++        else
++            -- several enemies of this class: the rows cannot be told apart (secret names). forever.5 rules (every row far
++            -- above the group median / every one did real damage and none healed much) plus the forever.6 class-share rules.
++            local q = 0;
++            local sh, sd, dmin = 0, 0, nil;
++            for _, d in ipairs(dl) do sd = sd + d; if not dmin or d < dmin then dmin = d; end end
++            if #dl < n then dmin = 0; end -- some player may have no damage row
++            local possible = false;
++            for _, h in ipairs(hl) do
++                sh = sh + h;
++                if h >= cfg.dmMin and med > 0 and h >= cfg.dmMedianX * med then q = q + 1; end
++                if h >= cfg.dmMin and h * 100 >= cfg.dmSharePct * (h + (dmin or 0)) then possible = true; end
++            end
++            local v;
++            if q >= n or (#hl >= n and sh >= cfg.dmMin * n and sh * 100 >= cfg.grpSharePct * (sh + sd)) then v = 1;
++            elseif #dl >= n and not possible and dmin >= cfg.dmOffMin then
++                v = -1; -- every player of the class did >= dmOffMin damage and no heal row can reach dmSharePct
++            end
++            if v == nil and possible then v = 0; end
++            if v then
++                local prev = E.dmClass[cls];
++                -- hysteresis: an ambiguous read never clears an earlier decisive class vote
++                if v ~= 0 or not (prev and prev.v ~= 0) then
++                    E.dmClass[cls] = { v = v, n = n, t = t, possible = possible, share = (sh + sd) > 0 and sh / (sh + sd) or nil };
++                end
++            end
++            for _, ro in ipairs(players) do E.evaluate(get(false, ro.full), t); end
++        end
++    end
++end
++
++-- [Forever] F7 (user directive: the port must also work in arena, world, party, dungeons, raids):
++--   * the scoreboard join (roster, D5/D5b) and D6 apply in battlegrounds only (the only measured scoreboard; in arenas
++--     GetScoreInfo().faction is the team, not Horde/Alliance, and no arena capture exists yet);
++--   * everywhere else the original K.T.H. paths run unchanged (UnitClass when it is clear), and heal evidence (D7) is
++--     the fallback when it is not: arena, open world (world PvP, no scoreboard), and party/raid instances when K.T.H.'s
++--     own Pve option is on (K.T.H. ignores PvE healers otherwise);
++--   * roster and evidence are reset whenever the zone (kind + instance id) changes.
++function E.updateZone()
++    local inInst, kind = call(IsInInstance);
++    kind = (bool(inInst) and str(kind)) or "none";
++    local okI, _, _, _, _, _, _, _, id = pcall(GetInstanceInfo); -- 8th return: instanceID
++    id = okI and num(id) or 0;
++    local was = (zoneKind == "pvp" or zoneKind == "arena");
++    inBG = (kind == "pvp");
++    zoneKind = kind;
++    local pve = HHTD.db and HHTD.db.global and HHTD.db.global.Pve;
++    active = inBG or kind == "arena" or kind == "none" or ((kind == "party" or kind == "raid" or kind == "scenario") and pve and true or false);
++    local zk = kind .. ":" .. tostring(id);
++    if zk ~= zoneKey then
++        local first = (zoneKey == nil);
++        zoneKey = zk;
++        if not first then E.reset(); flush(); end
++        if active then pcall(E.debugSession, kind); end -- [forever.7] one debug session per zone
++    end
++    if (inBG or kind == "arena") and not was then
++        E.reset(); flush();
++        -- [Forever] F5: K.T.H. never clears its scoreboard healer list; with D6 (post-match healers) the previous BG's
++        -- healers would carry into this one (CLASS+SCORE would mark every enemy of their classes). New BG -> new list.
++        for _, t in ipairs({ HHTD.MN_HealersByName, HHTD.MN_HealersByGUID, HHTD.MN_HealersByClassSpec }) do
++            for k in pairs(t) do t[k] = nil; end
++        end
++        if HHTD.MN_HealerCount then HHTD.MN_HealerCount.enemy, HHTD.MN_HealerCount.friendly = 0, 0; end
++        if HHTD.MN_OnEvidence then HHTD.MN_OnEvidence(); end
++    end
++end
++function E.setInBG(v) inBG = v and true or false; active = inBG; zoneKind = inBG and "pvp" or "none"; end -- replay harness
++function E.setZone(kind) zoneKind = kind; inBG = (kind == "pvp"); active = true; end -- mock tests
++
++local frame = CreateFrame("Frame");
++frame:SetScript("OnEvent", function(_, event, a1, a2)
++    if event == "UNIT_SPELLCAST_SUCCEEDED" then E.onCast(a1);
++    elseif event == "UNIT_COMBAT" then E.onCombat(a1, a2);
++    elseif event == "PLAYER_REGEN_ENABLED" then pcall(E.readMeter); -- [forever.5]
++    elseif event == "GROUP_ROSTER_UPDATE" or event == "PLAYER_ROLES_ASSIGNED" then pcall(E.readGroupRoles); -- [forever.7]
++    elseif event == "ARENA_PREP_OPPONENT_SPECIALIZATIONS" or event == "ARENA_OPPONENT_UPDATE" then pcall(E.readArenaSpecs);
++    else E.updateZone(); pcall(E.readGroupRoles); end
++end);
++-- none of these is restricted on Forever (the diag and ForeverDump register them without ADDON_ACTION_FORBIDDEN)
++frame:RegisterEvent("UNIT_SPELLCAST_SUCCEEDED");
++frame:RegisterEvent("UNIT_COMBAT");
++frame:RegisterEvent("PLAYER_ENTERING_WORLD");
++frame:RegisterEvent("ZONE_CHANGED_NEW_AREA");
++frame:RegisterEvent("PLAYER_REGEN_ENABLED"); -- [forever.5] meter read (FD registered it in the same BGs)
++-- [forever.7] spec sources; FD saw GROUP_ROSTER_UPDATE / PLAYER_ROLES_ASSIGNED / ARENA_OPPONENT_UPDATE fire on Forever
++-- (run 18); ARENA_PREP_OPPONENT_SPECIALIZATIONS was never captured (no arena run), so it is registered under pcall.
++for _, ev in ipairs({ "GROUP_ROSTER_UPDATE", "PLAYER_ROLES_ASSIGNED", "ARENA_OPPONENT_UPDATE", "ARENA_PREP_OPPONENT_SPECIALIZATIONS" }) do
++    pcall(frame.RegisterEvent, frame, ev);
++end
++E.frame = frame;
++
++---------------------------------------------------------------------------------------------------- F6 plate log
++-- [Forever] F6 (diagnostic only, no behaviour change): the forever.2 report "the nameplate icon sometimes shows,
++-- sometimes not" could not be settled from the diag (no per-plate verdict was logged). In a BG, every 2 s, record each
++-- enemy plate's verdict when it CHANGES for that player: {t, who, verdict, method, powerToken, roster class, icon
++-- shown}. Kept in K.T.H.'s own SavedVariables (HHTD_SavedVariables.global.ForeverPlateLog, last 800 changes).
++local lastVerdict = {};
++local function plateLogTick()
++    if not active or not (HHTD.db and HHTD.db.global and HHTD.MN_CheckUnitIsHealer) then return; end
++    local log = HHTD.db.global.ForeverPlateLog;
++    if type(log) ~= "table" then log = {}; HHTD.db.global.ForeverPlateLog = log; end
++    local now = GetTime();
++    if HHTD.MN_OnEvidence then HHTD.MN_OnEvidence(); end -- run K.T.H.'s own plate scan first so 'icon' is current
++    -- F7 data for the next decision: arena readability is not captured yet. Once per arena and arenaN token, record
++    -- whether name/realm/class/spec read clear ("C"), secret ("S") or nil ("N") - and the clear values.
++    if zoneKind == "arena" then
++        log.arena = log.arena or {};
++        for i = 1, 5 do
++            local tok = "arena" .. i;
++            local k = zoneKey .. ":" .. tok;
++            if not log.arena[k] and bool(call(UnitExists, tok)) then
++                local function st(v) if v == nil then return "N"; end return FS.clear(v) ~= nil and "C" or "S"; end
++                local okN, n, r = pcall(UnitName, tok);
++                local okC, _, c = pcall(UnitClass, tok);
++                local okS, spec = pcall(GetArenaOpponentSpec or function() end, i);
++                local okG, g = pcall(UnitGUID, tok);
++                log.arena[k] = { t = now, name = okN and st(n) or "E", realm = okN and st(r) or "E", class = okC and st(c) or "E",
++                    spec = okS and st(spec) or "E", guid = okG and st(g) or "E",
++                    vName = str(n), vRealm = str(r), vClass = str(c), vSpec = num(spec) };
++            end
++        end
++    end
++    for i = 1, 40 do
++        local tok = "nameplate" .. i;
++        if bool(call(UnitExists, tok)) and bool(call(UnitIsPlayer, tok)) and bool(call(UnitCanAttack, "player", tok)) then
++            local who = HHTD.MN_UnitWho(call(UnitName, tok));
++            if who then
++                local ok, isHealer, _, method = pcall(HHTD.MN_CheckUnitIsHealer, tok);
++                local v = (ok and isHealer == true) and (method or "?") or (ok and "no" or "err");
++                if lastVerdict[who] ~= v then
++                    lastVerdict[who] = v;
++                    local _, ptok = call(UnitPowerType, tok);
++                    local plate = C_NamePlate and C_NamePlate.GetNamePlateForUnit and call(C_NamePlate.GetNamePlateForUnit, tok);
++                    local lvl = num(call(UnitLevel, tok)); -- [forever.7] level as context (FD: UnitLevel clear on hostile plates)
++                    log[#log + 1] = { t = now, who = who, v = v, pwr = str(ptok), cls = HHTD.MN_RosterClass(false, who), lvl = lvl,
++                        icon = HHTD.MN_PlateIconShown and HHTD.MN_PlateIconShown(plate) or false, tok = tok };
++                    while #log > 800 do table.remove(log, 1); end
++                end
++            end
++        end
++    end
++end
++E.plateLogTick = plateLogTick;
++if C_Timer and C_Timer.NewTicker then C_Timer.NewTicker(2, function() pcall(plateLogTick); end); end
+diff -ruN '--exclude=.git' original/KTH/ForeverSafe.lua port/KTH/ForeverSafe.lua
+--- original/KTH/ForeverSafe.lua	1969-12-31 19:00:00.000000000 -0500
++++ port/KTH/ForeverSafe.lua	2026-10-10 00:17:22.090638691 -0400
+@@ -0,0 +1,41 @@
++-- [Forever] K.T.H. Forever port - ForeverSafe.lua (new file, port helper; not part of the original K.T.H.)
++-- Secret-value helpers. A raw value is only passed to type()/canaccessvalue() before it is proven clear;
++-- nothing is truth-tested, compared, concatenated, keyed or measured until then.
++-- K.T.H. is (c) John Wellesz (H.H.T.D.) and Scone (K.T.H.), All Rights Reserved; private port, no redistribution.
++local ADDON_NAME, T = ...;
++
++local FS = {};
++T.FS = FS;
++
++local type, pcall = type, pcall;
++local canaccessvalue = _G.canaccessvalue;
++local issecretvalue  = _G.issecretvalue;
++
++-- WoW Forever 1.60.1 (measured in the baseline diag: WOW_PROJECT_ID 18, toc 16001, canaccessvalue present)
++local tocversion = select(4, GetBuildInfo());
++FS.IS_FOREVER = (_G.WOW_PROJECT_ID == 18) or (type(canaccessvalue) == "function" and tocversion < 120000);
++
++function FS.clear(v)
++    if type(v) == "nil" then return nil; end
++    if issecretvalue then
++        local ok, s = pcall(issecretvalue, v);
++        if not ok or s then return nil; end
++    end
++    if canaccessvalue then
++        local ok, a = pcall(canaccessvalue, v);
++        if not ok or not a then return nil; end
++    end
++    return v;
++end
++local clear = FS.clear;
++
++function FS.str(v)  v = clear(v); if type(v) == "string"  then return v; end end
++function FS.num(v)  v = clear(v); if type(v) == "number"  then return v; end end
++function FS.bool(v) v = clear(v); if type(v) == "boolean" then return v; end end
++
++-- "Aerie Dunleary" (scoreboard) / "Aerie-Realm" / "Aerie" (plate) -> "Aerie"
++function FS.firstWord(s)
++    s = FS.str(s);
++    if not s then return nil; end
++    return s:match("^([^%s%-]+)");
++end
+diff -ruN '--exclude=.git' original/KTH/KTH.toc port/KTH/KTH.toc
+--- original/KTH/KTH.toc	2026-04-11 02:06:45.000000000 -0400
++++ port/KTH/KTH.toc	2026-10-10 10:50:28.692685855 -0400
+@@ -1,14 +1,15 @@
+-## Interface: 120000, 120001
++## Interface: 16001
+ ## X-Max-Interface: 120001
+ ## X-Min-Interface: 11508
+ ## X-Mid-Interface: 50503
+ 
+-## Title: K.T.H. |cff888888(Kill The Healer)|r
++## Title: K.T.H. |cff888888(Kill The Healer)|r Forever
+ 
+ ## Notes: Identifies healers in PvP battlegrounds and marks their nameplates with a visible indicator. Uses scoreboard-based healer detection and Class+PowerType nameplate matching, designed for WoW 12.0 (Midnight) where enemy names and GUIDs are secret values. Built on the H.H.T.D. framework by John Wellesz.
+ 
+ ## Author: John Wellesz (original H.H.T.D.), Scone (Midnight adaptation)
+-## Version: 1.0.0-kth
++## Version: 1.0.0-kth-forever.9b
++## X-Forever-Port: private port of K.T.H. 1.0.0-kth to WoW Forever 1.60.1 (toc 16001); every change is listed in FOREVER-PORT.md
+ 
+ ## LoadManagers: AddonLoader
+ 
+@@ -31,6 +32,7 @@
+ embeds.xml
+ 
+ Localization.lua
++ForeverSafe.lua
+ Core.lua
+ utils.lua
+ 
+@@ -42,3 +44,6 @@
+ GraphicalReporter.lua
+ 
+ Announcer.lua
++
++ForeverEvidence.lua
++ForeverChat.lua
+diff -ruN '--exclude=.git' original/KTH/KTH_Options.lua port/KTH/KTH_Options.lua
+--- original/KTH/KTH_Options.lua	2026-04-11 02:03:43.000000000 -0400
++++ port/KTH/KTH_Options.lua	2026-10-10 10:51:07.340594190 -0400
+@@ -33,6 +33,8 @@
+ -- ICON PRESETS (must mirror MidnightNameplates.lua exactly)
+ -- ============================================================
+ local ICON_PRESETS = {
++    hhtd     = { label = "HHTD healer icons (default)" }, -- [Forever] forever.9b: mirrors MidnightNameplates.lua
++    hhtdmin  = { label = "HHTD minimal" },
+     cross    = { path = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_7", label = "Cross (X)" },
+     skull    = { path = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_8", label = "Skull" },
+     star     = { path = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_1", label = "Star" },
+@@ -102,8 +104,8 @@
+     if type(_G.KTH_NameplateSettings) ~= "table" then
+         _G.KTH_NameplateSettings = {
+             offsetY       = 10,
+-            friendIcon    = "cross",
+-            enemyIcon     = "cross",
++            friendIcon    = "hhtd",
++            enemyIcon     = "hhtd",
+             friendColor   = { r = 0.2, g = 1.0, b = 0.2, a = 1.0 },
+             enemyColor    = { r = 1.0, g = 0.2, b = 0.2, a = 1.0 },
+             indicatorSize = 36,
+diff -ruN '--exclude=.git' original/KTH/Libs/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua port/KTH/Libs/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+--- original/KTH/Libs/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua	2026-03-23 16:19:34.000000000 -0400
++++ port/KTH/Libs/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua	2026-10-10 01:04:23.281762826 -0400
+@@ -10,6 +10,11 @@
+ 
+ -- WoW APIs
+ local PlaySound = PlaySound
++-- [Forever] F1: the global SetDesaturation() helper does not exist on Forever (user error CheckBox.lua:130 from /kthg;
++-- absent from ForeverDump's static global list, 10970 names). Texture:SetDesaturated exists there: same visual result.
++local SetDesaturation = SetDesaturation or function(texture, desaturation)
++	if texture and texture.SetDesaturated then texture:SetDesaturated(desaturation and true or false) end
++end
+ local CreateFrame, UIParent = CreateFrame, UIParent
+ 
+ --[[-----------------------------------------------------------------------------
+diff -ruN '--exclude=.git' original/KTH/MidnightNameplates.lua port/KTH/MidnightNameplates.lua
+--- original/KTH/MidnightNameplates.lua	2026-04-11 02:57:19.000000000 -0400
++++ port/KTH/MidnightNameplates.lua	2026-10-10 10:26:13.847533664 -0400
+@@ -72,6 +72,10 @@
+     ["EVOKER"]  = true,  -- Pres/Dev/Aug all show Mana (0)
+ };
+ 
++-- [Forever] forever.5 (user decision): on Forever resto, feral and balance druids and DPS priests all show MANA, and
++-- "having mana does not make one a healer". On Forever these class tables are only a can-heal prerequisite; the
++-- verdict is healing output (ForeverEvidence.lua). Off Forever K.T.H.'s original rule below is unchanged.
++
+ -- Union of both sets for quick "can this class heal?" check
+ local HEALER_CAPABLE_CLASSES = {};
+ for k in pairs(UNAMBIGUOUS_HEALER_CLASSES) do HEALER_CAPABLE_CLASSES[k] = true; end
+@@ -82,8 +86,8 @@
+ -- ============================================================
+ local DEFAULT_SETTINGS = {
+     offsetY         = 10,
+-    friendIcon      = "cross",
+-    enemyIcon       = "cross",
++    friendIcon      = "hhtd",
++    enemyIcon       = "hhtd",
+     friendColor     = { r = 0.2, g = 1.0, b = 0.2, a = 1.0 },
+     enemyColor      = { r = 1.0, g = 0.2, b = 0.2, a = 1.0 },
+     indicatorSize   = 36,
+@@ -106,6 +110,8 @@
+ };
+ 
+ local ICON_PRESETS = {
++    hhtd     = { nph = "default", label = "HHTD healer icons (default)" }, -- [Forever] forever.9: NamePlateHooker.lua sprites
++    hhtdmin  = { nph = "minimal", label = "HHTD minimal" },
+     cross    = { path = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_7", label = "Cross (X)" },
+     skull    = { path = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_8", label = "Skull" },
+     star     = { path = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_1", label = "Star" },
+@@ -418,11 +424,21 @@
+         end
+     end
+ 
+-    local preset = ICON_PRESETS[presetKey] or ICON_PRESETS.cross;
++    local preset = ICON_PRESETS[presetKey] or ICON_PRESETS.hhtd;
++    local NPH = HHTD.Name_Plate_Hooker;
+ 
+     if indicator.texture then
+-        indicator.texture:SetTexture(preset.path);
+-        indicator.texture:SetVertexColor(r, g, b, a);
++        if preset.nph and NPH and NPH.Marker_Textures and NPH.ICONS_COORDS then
++            -- [Forever] forever.9: H.H.T.D.'s sprite + its own [isFriend][class] cell (false = class not known)
++            local cls = (type(classToken) == "string" and canaccessvalue(classToken) and NPH.ICONS_COORDS[isFriend and true or false][classToken]) and classToken or false;
++            indicator.texture:SetTexture(NPH.Marker_Textures[preset.nph][1]);
++            indicator.texture:SetTexCoord(unpack(NPH.ICONS_COORDS[isFriend and true or false][cls]));
++            indicator.texture:SetVertexColor(1, 1, 1, a);
++        else
++            indicator.texture:SetTexture(preset.path or "Interface\\TargetingFrame\\UI-RaidTargetingIcon_7");
++            indicator.texture:SetTexCoord(0, 1, 0, 1);
++            indicator.texture:SetVertexColor(r, g, b, a);
++        end
+     end
+     if indicator.glow then
+         if SETTINGS.showGlow then
+@@ -483,7 +499,7 @@
+ local function CheckUnitIsHealer(unitToken)
+     local okA, canAttack = pcall(UnitCanAttack, "player", unitToken);
+     if not okA then return false, false, nil; end
+-    if canAttack and not canaccessvalue(canAttack) then return false, false, nil; end
++    if not canaccessvalue(canAttack) and canAttack ~= nil then return false, false, nil; end -- [Forever] D4 order
+     local isEnemy = canAttack or false;
+ 
+     -- ---------- FRIENDLY: match by name ----------
+@@ -494,9 +510,13 @@
+             friendClassToken = nil;
+         end
+ 
+-        local okN, unitName = pcall(UnitName, unitToken);
++        local okN, unitName, unitRealm = pcall(UnitName, unitToken);
+         if okN and unitName and canaccessvalue(unitName) then
+             local shortName = unitName:match("^([^%-]+)") or unitName;
++            -- [Forever] D7 / forever.5: the healing-output verdict for this specific friendly player
++            if HHTD_C.FOREVER and HHTD.MN_EvidenceConfirmed and HHTD.MN_EvidenceConfirmed(true, HHTD.MN_UnitWho(unitName, unitRealm)) then
++                return true, true, "HEAL", friendClassToken;
++            end
+             local byName = HHTD.MN_HealersByName;
+             if byName then
+                 if byName[shortName] and byName[shortName].isFriend then
+@@ -515,6 +535,19 @@
+ 
+     -- ---------- ENEMY: Class-based identification ----------
+     local okC, _, classToken = pcall(UnitClass, unitToken);
++    if HHTD_C.FOREVER then
++        -- [Forever] forever.5 (user decision): the verdict is this player's healing output, not class + mana.
++        -- D5/D5b: enemy plate UnitClass is secret in BGs (diag 750/750); UnitName's 2 returns are clear and give the
++        -- exact scoreboard "First Surname". Class (clear UnitClass, else the scoreboard) is only a can-heal prerequisite.
++        local okN, unitName, unitRealm = pcall(UnitName, unitToken);
++        local who = okN and HHTD.MN_UnitWho(unitName, unitRealm) or nil;
++        if not (okC and canaccessvalue(classToken) and type(classToken) == "string") then
++            classToken = HHTD.MN_RosterClass and HHTD.MN_RosterClass(false, who) or nil;
++        end
++        if classToken and not HEALER_CAPABLE_CLASSES[classToken] then return false, false, nil, classToken; end
++        if HHTD.MN_EvidenceConfirmed and HHTD.MN_EvidenceConfirmed(false, who) then return true, false, "HEAL", classToken; end
++        return false, false, nil, classToken;
++    end
+     if not okC or not classToken or not canaccessvalue(classToken) then
+         return false, false, nil;
+     end
+@@ -651,7 +684,7 @@
+     RebuildEnemyHealerClassCache();
+ 
+     local foundPlates, foundPlayers, matchedHealers, scanErrors = 0, 0, 0, 0;
+-    local methods = { NAME = 0, ["CLASS+PWR"] = 0, CLASS = 0, SPELL = 0, ["CLASS+SCORE"] = 0 };
++    local methods = { NAME = 0, ["CLASS+PWR"] = 0, CLASS = 0, SPELL = 0, ["CLASS+SCORE"] = 0, HEAL = 0 }; -- [Forever] HEAL
+     local matchedThisTick = {};
+ 
+     for i = 1, MAX_NAMEPLATES do
+@@ -733,23 +766,39 @@
+         saved.alertColor = DeepCopyTable(DEFAULT_SETTINGS.alertColor);
+     end
+     SETTINGS = saved;
+-    if not ICON_PRESETS[SETTINGS.friendIcon] then SETTINGS.friendIcon = "cross"; end
+-    if not ICON_PRESETS[SETTINGS.enemyIcon]  then SETTINGS.enemyIcon  = "cross"; end
++    if not SETTINGS.hhtdIcons then -- [Forever] forever.9: the old default "cross" becomes the HHTD icon once
++        SETTINGS.hhtdIcons = true;
++        if SETTINGS.friendIcon == "cross" then SETTINGS.friendIcon = "hhtd"; end
++        if SETTINGS.enemyIcon == "cross" then SETTINGS.enemyIcon = "hhtd"; end
++    end
++    if not ICON_PRESETS[SETTINGS.friendIcon] then SETTINGS.friendIcon = "hhtd"; end
++    if not ICON_PRESETS[SETTINGS.enemyIcon]  then SETTINGS.enemyIcon  = "hhtd"; end
+ end
+ 
+ -- ============================================================
+ -- SPELLCAST HANDLER (for ambiguous class confirmation)
+ -- ============================================================
+ local function HandleNameplateSpellcast(unitToken, spellID)
+-    if not unitToken or not spellID then return; end
++    if type(unitToken) ~= "string" or type(spellID) == "nil" then return; end -- [Forever] D4: no truth test on a secret spellID
+     -- Only process nameplate units
+     if not unitToken:match("^nameplate%d+$") then return; end
+     -- Check if spellID is accessible (may be secret for enemies in Midnight)
+     if not canaccessvalue(spellID) then return; end
++    -- [Forever] forever.8: user's healer-only spell list (Forever IDs) -> immediate mark, positive-only
++    if HHTD_C.FOREVER and HHTD.ForeverEvidence and HHTD.ForeverEvidence.HEALER_ONLY_SPELLS
++        and HHTD.ForeverEvidence.HEALER_ONLY_SPELLS[spellID] then
++        HHTD.ForeverEvidence.onHealerOnlySpell(unitToken, spellID);
++        return;
++    end
+     -- Check if it's a healer-specific spell
+     if not (HHTD_C.Healers_Only_Spells_ByID_Lookup and HHTD_C.Healers_Only_Spells_ByID_Lookup[spellID]) then
+         return;
+     end
++    -- [Forever] forever.5: one healer-only spell is one heal action toward the healing-output verdict, not a mark
++    if HHTD_C.FOREVER and HHTD.ForeverEvidence and HHTD.ForeverEvidence.onHealSpell then
++        HHTD.ForeverEvidence.onHealSpell(unitToken);
++        return;
++    end
+     -- Confirm this nameplate as a healer
+     if not SpellcastConfirmed[unitToken] then
+         SpellcastConfirmed[unitToken] = GetTime();
+@@ -812,6 +861,7 @@
+ 
+     elseif event == "UNIT_SPELLCAST_SUCCEEDED" or event == "UNIT_SPELLCAST_START" then
+         local unitToken, _, spellID = ...;
++        if HHTD_C.FOREVER and event == "UNIT_SPELLCAST_START" then return; end -- [Forever] forever.5: one action per cast
+         pcall(HandleNameplateSpellcast, unitToken, spellID);
+ 
+     elseif event == "PLAYER_ENTERING_WORLD" then
+@@ -848,6 +898,14 @@
+     end
+ end)
+ 
++-- [Forever] test hook (no behavior): lets tests/replay_score.lua ask K.T.H.'s own nameplate verdict
++HHTD.MN_CheckUnitIsHealer = CheckUnitIsHealer;
++HHTD.MN_ApplyIndicatorStyle = ApplyIndicatorStyle; -- [Forever] forever.9 (tests)
++
++-- [Forever] D7: immediate rescan when heal evidence confirms a healer
++HHTD.MN_OnEvidence = function() pcall(ScanAllNameplates); end
++HHTD.MN_PlateIconShown = function(plate) local ind = plate and PlateIndicators[plate]; return (ind and ind:IsShown()) and true or false; end -- [Forever] F6 log
++
+ -- Status for auto-diag
+ HHTD.MNP_GetStatus = function()
+     local scCount = 0;
+diff -ruN '--exclude=.git' original/KTH/NamePlateHooker.lua port/KTH/NamePlateHooker.lua
+--- original/KTH/NamePlateHooker.lua	2026-04-11 03:09:45.000000000 -0400
++++ port/KTH/NamePlateHooker.lua	2026-10-10 10:25:55.724107606 -0400
+@@ -676,6 +676,7 @@
+             ["EVOKER"]  = getIconCoords(1,3), --1,3
+         }
+     };
++    NPH.Marker_Textures, NPH.ICONS_COORDS = Marker_Textures, ICONS_COORDS; -- [Forever] forever.9: shared with MidnightNameplates.lua
+ 
+     local function AdjustTexCoord(t) -- MUL
+ 

@@ -1,0 +1,529 @@
+{{apichanges|prev=12.1.0|12.1.5|next=12.1.7}}
+{{#description2:12.1.5 (69952) Sep 21 2026}}
+
+==Resources==
+* TOC: <code>120105</code>
+* Official patch notes: [https://us.forums.blizzard.com/en/wow/t/midnight-1215-ptr-development-notes/2344395 Midnight: 12.1.5 PTR Development Notes]
+* Diffs: [https://github.com/Gethe/wow-ui-source/compare/12.1.0..12.1.5 wow-ui-source], [https://github.com/Ketho/BlizzardInterfaceResources/compare/12.1.0...12.1.5 BlizzardInterfaceResources]
+
+==Blue posts==
+{{Bluepost
+|poster=Linxy
+|date=Sep 3, 2026
+|link=https://us.forums.blizzard.com/en/wow/t/midnight-1215-ptr-development-notes/2344395#p-29981946-user-interface-and-accessibility-11
+|title=Midnight: 12.1.5 PTR Development Notes
+|body='''USER INTERFACE AND ACCESSIBILITY'''
+* Added player coordinates below the minimap, an option to disable it, and an option for displaying map coordinates as integers or decimals.
+* Adding an option to display “ants” (an animated dash border) around raid frames when there’s something the player can dispel on the unit.
+* Added an option to make the raid frame dispel overlay animate with a pulsing alpha effect.
+* Pinging a macro now shows information from #showtooltip in the ping alert.
+}}
+
+{{Bluepost
+|poster=Linxy
+|date=Sep 15, 2026
+|link=https://us.forums.blizzard.com/en/wow/t/midnight-1215-ptr-development-notes/2344395/4#p-30066038-user-interface-and-accessibility-3
+|title=Midnight: 12.1.5 PTR Development Notes
+|body='''USER INTERFACE AND ACCESSIBILITY'''
+* Added a new setting called “Pulse Your Health” under the Combat Audio Alerts section of the Audio Assist settings. This setting allows the player to specify a health percentage below which a looping sound will be played. The sound gets progressively more aggressive as their health gets lower.
+}}
+
+{{Bluepost
+|poster=Linxy
+|date=Sep 29, 2026
+|link=https://us.forums.blizzard.com/en/wow/t/midnight-1215-ptr-development-notes/2344395/6#p-30257176-user-interface-and-accessibility-3
+|title=Midnight: 12.1.5 PTR Development Notes
+|body='''USER INTERFACE AND ACCESSIBILITY'''
+* Preview settings on the Trading Post UI, such as “Combat Animation”, will now remember the player’s choice when swapping between items.
+}}
+
+===2026-09-03===
+[https://discord.com/channels/327414731654692866/1545113129736871966 {{apisummary.title|Midnight 12.1.5 PTR Changes 1}}] (Build 69594)
+{{apisummary.header|Coming in 12.1.5 PTR 1}}
+
+{{apisummary.heading|Aura Pandemic Animations}}
+* [[INTRINSIC_AuraButton|CustomAuraButton]] now supports Pandemic-triggered animations via new APIs.
+** Three Pandemic triggers are supported: '''Enter''' and '''Active''' (both triggered when entering Pandemic), and '''Leave''' (triggered when leaving Pandemic).
+*** '''Enter''' is intended for one-shot animations, while Active is intended for looping animations.
+** Each trigger type has a set of APIs for adding and removing individual animation groups, or clearing all animation groups for that trigger.
+** Two new [[Secret_Values#Forbidden_aspects|forbidden aspects]] were added to support this:
+*** <code>QueryAnimationProgress</code>: prevents querying the progress of an animation or whether it is running.
+*** <code>AddAnimations</code>: prevents animations from being added or reparented.
+** Animations used by Pandemic triggers also gain the existing <code>ChangeAnimationTarget</code> forbidden aspect.
+<syntaxhighlight lang="lua">
+local glow = auraButton:CreateTexture(nil, "OVERLAY");
+glow:SetColorTexture(1, 0, 0);
+glow:SetAllPoints(auraButton);
+
+local animGroup = glow:CreateAnimationGroup();
+animGroup:SetLooping("BOUNCE");
+
+local animAlpha = animGroup:CreateAnimation("Alpha");
+animAlpha:SetFromAlpha(0);
+animAlpha:SetToAlpha(1);
+animAlpha:SetDuration(0.5);
+
+auraButton:AddPandemicActiveAnimation(animGroup);
+</syntaxhighlight>
+
+{{apisummary.heading|Aura Containers}}
+* <code>CustomAuraButton</code> now supports showing the aura's caster in a fontstring via the new {{api|t=w|AuraButton_SetCasterName|SetCasterName}} API.
+* {{api|t=w|AuraButton_AddDispelTypeTexture|AddDispelTypeTexture}} and {{api|t=w|AuraButton_AddPandemicRegion|AddPandemicRegion}} no longer return an index. The corresponding {{api|t=w|AuraButton_RemoveDispelTypeTexture|RemoveDispelTypeTexture}} and {{api|t=w|AuraButton_RemovePandemicRegion|RemovePandemicRegion}} APIs now take a region reference instead of an index.
+* <code>AddDispelTypeTexture</code> and <code>AddPandemicRegion</code> now raise an error if the same region is added multiple times.
+* Aura tooltips now support displaying the aura's caster, colorized by reaction or class color. This functionality is controlled by the new {{apitooltip|type=cvar|name=tooltipShowAuraCasterNames|default=0|scope=Account|cat=4|desc=Show caster unit names in tooltips for unit auras.}} CVar.
+* New [[INTRINSIC_AuraContainer|CustomAuraContainer]] APIs allow individual items to be '''disabled''' via {{api|t=w|AuraContainer_SetAuraGroupEnabled|SetAuraGroupEnabled}}, {{api|t=w|AuraContainer_SetAuraSlotEnabled|SetAuraSlotEnabled}}, and {{api|t=w|AuraContainer_SetItemEnchantmentEnabled|SetItemEnchantmentEnabled}}.
+* <code>CustomAuraButton</code> now supports a <code>minApplications</code> option in {{api|t=w|AuraButton_SetApplicationBar|SetApplicationBar}}, which prevents the application bar from being shown unless the number of applications exceeds the specified value.
+* A new {{api|t=w|AuraContainer_SetEditModePreviewEnabled|SetEditModePreviewEnabled}} API has been added to <code>CustomAuraContainer</code> to control whether preview auras are shown while the player is in Edit Mode.
+* <code>CustomAuraContainer</code> now correctly refreshes in response to {{api|t=e|UNIT_FLAGS}} and {{api|t=e|UNIT_FACTION}} events.
+
+{{apisummary.heading|AddOn Security}}
+* The {{api|t=w|Cooldown_SetCooldown|SetCooldown}} and {{api|t=w|Cooldown_Clear|Clear}} cooldown APIs can no longer be called from tainted code when the cooldown frame itself is protected.
+* Castbar IDs are now '''unique per unit token''', preventing addons from using them to compare units.
+** '''Note:''' Unit token casing matters when querying castbar IDs; a {{api|UnitCastingInfo}} query for {{api.inline|"PLAYER"}} returns a different castbar ID than one for {{api.inline|"player"}}. Events always use '''lowercase unit tokens'''.
+
+{{apisummary.heading|Script Object APIs}}
+* A new {{api|t=sc|TimedSignalMap}} script object has been added for scheduling a '''single callback''' which is invoked with '''user-defined keys''' at specified times.
+** Keys can be dynamically '''rescheduled without requiring cancellation''', unlike timer objects, making <code>TimedSignalMap</code> useful as a lower-level scheduling primitive.
+** The {{tlygo|TimerUtil.CreateTimedSignalCallbackMap|CreateTimedSignalCallbackMap}} API (in <code>TimerUtil</code>) is a convenience wrapper that generates keys and associates each key with a callback.
+* A new {{api|CreateFrameWithOptions}} API has been added, which takes a table with named options as its only parameter.
+** The options currently supported mirror those accepted by {{api|CreateFrame}}: <code>frameType</code> (required), <code>name</code>, <code>parent</code>, <code>inherits</code> (as an ''array'' of template names), <code>id</code>, and <code>hidden</code> (new; hides the frame by default).
+* Added a new <code>roundLayoutToNearestPixel</code> XML attribute and {{api|t=w|ScriptRegion_SetRoundLayoutToNearestPixel|SetRoundLayoutToNearestPixel}} API to all Regions. When enabled, layout changes are automatically '''rounded to the nearest pixel'''.
+** These provide a '''native-code replacement''' for the Lua <code>PixelUtil</code> functions; {{tlygo|PixelUtil.SetRoundLayoutToNearestPixelRecursively}} can be used to apply the setting to a region and all its children.
+
+{{apisummary.heading|Lua Utility Functions}}
+* A suite of math, string, and table utility functions has been added. Some were previously implemented in Lua and have now been moved to native code; aliases for the existing names have been retained to prevent addon breakage.
+** Math functions: {{api|math.clamp}}, {{api|math.saturate}}, {{api|math.round}}, {{api|math.lerp}}, {{api|math.normalize}}, {{api|math.sign}}, {{api|math.remap}}, {{api|math.wrap}}, {{api|math.isfinite}}, {{api|math.isnan}}, and {{api|math.isinf}}.
+** String functions: {{api|string.contains}}, {{api|string.ltrim}}, {{api|string.rtrim}}, {{api|string.startswith}}, and {{api|string.endswith}}.
+** Table functions: {{api|table.isempty}}, {{api|table.contains}}, {{api|table.indexof}}, {{api|table.removeunordered}}, {{api|table.removevalue}}, {{api|table.keys}}, and {{api|table.values}}.
+
+{{apisummary.heading|Deprecations}}
+* The following deprecated addons have been removed. Update your code to no longer use the deprecated APIs they contained:
+** [https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedCurrencyScript/Deprecated_CurrencyScript.lua Blizzard_DeprecatedCurrencyScript]
+** [https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedGlue/Deprecated_Glue.lua Blizzard_DeprecatedGlue]
+** [https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua Blizzard_DeprecatedItemScript]
+** [https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedItemSocketInfo/Deprecated_ItemSocketInfo.lua Blizzard_DeprecatedItemSocketInfo]
+** [https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedLFG/Deprecated_LFG.lua Blizzard_DeprecatedLFG]
+** [https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedPetInfo/Deprecated_PetInfo.lua Blizzard_DeprecatedPetInfo]
+** [https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedPvpScript/Deprecated_PvpScript.lua Blizzard_DeprecatedPvpScript]
+** [https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedSoundScript/Deprecated_SoundScript.lua Blizzard_DeprecatedSoundScript]
+** [https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedTradeInfo/Deprecated_TradeInfo.lua Blizzard_DeprecatedTradeInfo]
+** [https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedWorldElapsedTimerTypes/Deprecated_WorldElapsedTimerTypes.lua Blizzard_DeprecatedWorldElapsedTimerTypes]
+
+{{apisummary.heading|Miscellaneous}}
+* A new {{apisystem|WeatherScript|C_Weather}} namespace blows in, providing access to current weather conditions and an event when they change.
+* A new {{apisystem|Intl|C_Intl}} namespace provides functions for working with Unicode and internationalization.
+* The spell ID line shown in spell tooltips via the {{apitooltip|type=cvar|name=tooltipShowAuraSpellIDs|default=0|cat=4|desc=Show spell IDs in tooltips for unit auras.}} CVar is now correctly localized, and no longer uses the same color as spell description text.
+* Mythic+ enemy forces lines in tooltips now use a distinct line type: <code>Enum.TooltipDataLineType.UnitCriteriaProgress</code>.
+* Pinging a macro containing a <code>#showtooltip</code> line now pings the corresponding spell.
+* Fixed an issue that could prevent duration objects from rendering for long-duration auras in some cases.
+* Fixed a performance issue with the {{api|EnumerateFrames}} API.
+* Fixed an issue where calling {{api|t=w|Frame_Hide|Hide}} directly on a panel, rather than {{tlygo|HideUIPanel}}, could prevent the Game Menu from being shown.
+----
+
+
+===2026-09-16===
+[https://discord.com/channels/327414731654692866/1549542072816635984 {{apisummary.title|Midnight 12.1.5 PTR Changes 2}}] (Build 69848)
+{{apisummary.header|Coming in 12.1.5 PTR 2}}
+
+{{apisummary.heading|Aura Containers}}
+* Fixed an issue where using <code>includeSpellIDs</code> to show only specific never-secret auras, such as Sated, could also allow unrelated auras through.
+* Fixed an issue where the <code>ProcessAura</code> policy did not correctly filter out auras that returned <code>ProcessAuraType.None</code>.
+* {{api|t=i|AuraButton|CustomAuraButton}} now supports two additional animation triggers.
+** '''Shown''' animations play the first time an aura becomes visible on the button, and stop when the aura is no longer shown, using {{tlygo|CustomAuraButtonSharedMixin:AddAuraShownAnimation|AddAuraShownAnimation}}.
+** '''Assigned''' animations play whenever a new aura is assigned to the button, independent of visibility, using {{tlygo|CustomAuraButtonSharedMixin:AddAuraAssignedAnimation|AddAuraAssignedAnimation}}.
+* <code>CustomAuraButton</code> animations now apply [[secret aspects]] for <code>VertexColor</code> and <code>TexCoords</code> to target objects.
+
+{{apisummary.heading|AddOn Security}}
+* The <code>sourceGUID</code> field returned by Damage Meter APIs is now secret when the unit's identity is secret.
+* Added a new [https://github.com/Gethe/wow-ui-source/blob/12.1.5/Interface/AddOns/Blizzard_UnitFrame/Shared/UnitFrameUtil.lua UnitFrameUtil] Lua library, focused on providing addon-safe APIs for unit frame addons to set textures based on now-secret APIs.
+** The first new API is [https://github.com/Gethe/wow-ui-source/blob/12.1.5/Interface/AddOns/Blizzard_UnitFrame/Shared/UnitFrameUtil.lua#L145 UpdateUnitPvPIndicator], with more APIs coming in future PTR builds.
+* [[C_Intl]] functions now accept '''secret string arguments from tainted code'''.
+** The {{api|C_Intl.Transliterate}} API does not allow <code>Null</code> or <code>Remove</code> transliterators for secret text from tainted code.
+* The {{api|C_Intl.FindStringMatches}} and {{api|C_Intl.FindBreaks}} APIs now return '''1-based indices'''.
+* Fixed a bug where RaidWarning frames could retain secret aspects on their fontstrings after being returned to the pool.
+* Addons now get an '''additional one-frame window''' to adjust the hitbox of an enemy nameplate if a {{api|t=e|UNIT_CLASSIFICATION_CHANGED}} event arrives after the nameplate was already created.
+
+{{apisummary.heading|Miscellaneous}}
+* A new optional <code>throttleSeconds</code> parameter was added to the {{api|C_UnitAuras.AddAuraSound}} API, allowing addons to specify '''how often the sound should be allowed to play'''.
+* Fixed an issue that could cause some APIs, like tostring and dumpobject, to crash when passed secret objects.
+* Chat tabs no longer use {{tlygo|UIFrameFlash}} for their flash animations, hopefully '''reducing chat tab taint issues''' caused by unrelated systems.
+* {{api|C_ClassColor.GetClassColor}} now accepts an '''optional tint color''', which is multiplied by the class color before it is returned.
+* {{api|GetPlayerInfoByGUID}} now also returns the unit's level, if known.
+* The following CVars, removed in Midnight, have been restored: {{apitooltip|type=cvar|name=nameplateMotionSpeed|default=0.025000|cat=4|desc=Controls the rate at which nameplate animates into their target locations [0.0-1.0]}}, {{apitooltip|type=cvar|name=nameplateBottomInset|default=0.100000|cat=4|desc=The inset from the bottom (in screen percent) that nameplates are clamped to.}}, and {{apitooltip|type=cvar|name=nameplateTopInset|default=0.080000|cat=4|desc=The inset from the top (in screen percent) that nameplates are clamped to.}}.
+* {{api|t=o|RadialProgress}} animations can now be created from XML.
+* Fixed a texture masking bug affecting frames using more than one mask texture with different wrap modes.
+* Fixed a bug that could cause the right-click unit menu to incorrectly show battle-pet options for a distant player. This is '''pending a hotfix to 12.1.0''' as well.
+----
+
+
+===2026-09-22===
+[https://discord.com/channels/327414731654692866/1552068745374081104 {{apisummary.title|Midnight 12.1.5 PTR Changes 3}}] (Build 69952)
+{{apisummary.header|Coming in 12.1.5 PTR 3}}
+
+{{apisummary.heading|Addon Security}}
+* The {{api|GetArenaOpponentSpec}} API now returns secrets.
+* <code>UnitFrameUtil</code> library introduced in the last PTR build has been expanded with APIs for raid role icons and arena opponent specs. It has also been moved to shared code, making it available in Classic.
+** New APIs [https://github.com/Gethe/wow-ui-source/blob/12.1.5/Interface/AddOns/Blizzard_UnitFrame/Shared/UnitFrameUtil.lua#L343 GetArenaOpponentSpecDisplayInfo], [https://github.com/Gethe/wow-ui-source/blob/12.1.5/Interface/AddOns/Blizzard_UnitFrame/Shared/UnitFrameUtil.lua#L357 UpdateArenaOpponentSpecDisplay], and [https://github.com/Gethe/wow-ui-source/blob/12.1.5/Interface/AddOns/Blizzard_UnitFrame/Shared/UnitFrameUtil.lua#L406 UpdateArenaOpponentSpecDisplayName] give addons secret-safe access to an arena opponent's spec name, class name, spec icon, role icon, and class-color bar tint.
+** New APIs [https://github.com/Gethe/wow-ui-source/blob/12.1.5/Interface/AddOns/Blizzard_UnitFrame/Shared/UnitFrameUtil.lua#L248 GetUnitRoleIconDisplayInfo] and [https://github.com/Gethe/wow-ui-source/blob/12.1.5/Interface/AddOns/Blizzard_UnitFrame/Shared/UnitFrameUtil.lua#L262 UpdateUnitFrameRoleIcon] let addons set up raid role icons (including vehicle and main tank/assist icons) for raid members even when their identities are secret.
+** All <code>UnitFrameUtil</code> display APIs now accept an optional <code>textureMap</code> table so addons can override the default textures/atlases used.
+* Added {{api|C_UnitAuras.GetRefreshCarryOverDuration}}, a secret-aware API returning how much of an aura's remaining duration would carry over on refresh. {{tlygo|AuraContainerUtil.GetPandemicWindow}} now uses this internally, fixing incorrect pandemic-window timing for auras that can extend past the normal refresh cap (e.g. [[Lifebloom]] + [[Tranquility]]).
+----
+
+
+===2026-09-29===
+[https://discord.com/channels/327414731654692866/1554549117261324472 {{apisummary.title|Midnight 12.1.5 PTR Changes 4}}] (Build 70077)
+{{apisummary.header|Coming in 12.1.5 PTR 4}}
+
+{{apisummary.heading|Addon Security}}
+* {{api|C_UnitAuras.AddAuraSound}} now limits any sound it plays to 5 seconds and rejects throttleSeconds values greater than 5 seconds.
+
+{{apisummary.heading|Miscellaneous}}
+* {{api|C_Intl.GetSortKey}} no longer returns nil when passed an empty string and <code>Enum.CollationStrength.Primary</code>.
+
+==Consolidated changes==
+: <font color="pink">12.1.0 (69587)</font> &rarr; <font color="lightgreen">12.1.5 (69952)</font> Sep 21 2026
+
+===Global API===
+{| class="wikitable" style="min-width: 600px"
+|- class="mw-customtoggle-global-c"
+! style="width: 50%" | <font color="lightgreen">Added</font> <small>(82)</small>
+! style="width: 50%" | <font color="pink">Removed</font> <small>(4)</small>
+|- class="mw-collapsible" id="mw-customcollapsible-global-c"
+| valign="top" | <div style="margin-left:-1.5em">
+: {{api|t=a|C_ActionBar.IsMacroActionWithShowTooltip}}
+: {{api|t=a|C_AuraContainerUtil.ProcessCustomAuraButtonCasterNameOptions}}
+: {{api|t=a|C_Intl.CompareStrings}}
+: {{api|t=a|C_Intl.CreateLocaleContext}}
+: {{api|t=a|C_Intl.FindBreaks}}
+: {{api|t=a|C_Intl.FindStringMatches}}
+: {{api|t=a|C_Intl.FoldCase}}
+: {{api|t=a|C_Intl.FormatCurrency}}
+: {{api|t=a|C_Intl.FormatDateTime}}
+: {{api|t=a|C_Intl.FormatDate}}
+: {{api|t=a|C_Intl.FormatNumber}}
+: {{api|t=a|C_Intl.FormatTime}}
+: {{api|t=a|C_Intl.GetCharacterProperties}}
+: {{api|t=a|C_Intl.GetCurrencyFractionDigits}}
+: {{api|t=a|C_Intl.GetCurrencyName}}
+: {{api|t=a|C_Intl.GetCurrentLocale}}
+: {{api|t=a|C_Intl.GetDisplayName}}
+: {{api|t=a|C_Intl.GetSortKey}}
+: {{api|t=a|C_Intl.IsNormalized}}
+: {{api|t=a|C_Intl.Length}}
+: {{api|t=a|C_Intl.Normalize}}
+: {{api|t=a|C_Intl.ParseCurrency}}
+: {{api|t=a|C_Intl.ParseNumber}}
+: {{api|t=a|C_Intl.SelectPlural}}
+: {{api|t=a|C_Intl.ToLower}}
+: {{api|t=a|C_Intl.ToTitle}}
+: {{api|t=a|C_Intl.ToUpper}}
+: {{api|t=a|C_Intl.TransformLocale}}
+: {{api|t=a|C_Intl.Transliterate}}
+: {{api|t=a|C_LFGInfo.GetActiveLFGDungeonName}}
+: {{api|t=a|C_PvP.GetRandomTrainingGroundArenaRewards}}
+: {{api|t=a|C_PvP.GetRandomTrainingGroundBGRewards}}
+: {{api|t=a|C_PvP.HasRandomTrainingGroundArenaWinToday}}
+: {{api|t=a|C_PvP.HasRandomTrainingGroundBGWinToday}}
+: {{api|t=a|C_PvP.IsTrainingGroundsArena}}
+: {{api|t=a|C_PvP.IsTrainingGroundsBG}}
+: {{api|t=a|C_PvP.JoinRandomTrainingGroundBG}}
+: {{api|t=a|C_Timer.NewTimedSignalMap}}
+: {{api|t=a|C_UnitAuras.GetAuraCasterGUID}}
+: {{api|t=a|C_UnitAuras.GetRefreshCarryOverDuration}} 🆕
+: {{api|t=a|C_Weather.GetCurrentWeather}}
+: {{api|t=a|Clamp}}
+: {{api|t=a|CountTable}}
+: {{api|t=a|CreateFrameWithOptions}}
+: {{api|t=a|GetKeysArray}}
+: {{api|t=a|GetScriptBucketThrottleLimits}}
+: {{api|t=a|GetTextureMetatable}}
+: {{api|t=a|GetValuesArray}}
+: {{api|t=a|Lerp}}
+: {{api|t=a|RoundToSignificantDigits}}
+: {{api|t=a|Round}}
+: {{api|t=a|Saturate}}
+: {{api|t=a|Sign}}
+: {{api|t=a|TableIsEmpty}}
+: {{api|t=a|math.clamp}}
+: {{api|t=a|math.isfinite}}
+: {{api|t=a|math.isinf}}
+: {{api|t=a|math.isnan}}
+: {{api|t=a|math.lerp}}
+: {{api|t=a|math.normalize}}
+: {{api|t=a|math.remap}}
+: {{api|t=a|math.round}}
+: {{api|t=a|math.saturate}}
+: {{api|t=a|math.sign}}
+: {{api|t=a|math.wrap}}
+: {{api|t=a|string.contains}}
+: {{api|t=a|string.endswith}}
+: {{api|t=a|string.ltrim}}
+: {{api|t=a|string.rtrim}}
+: {{api|t=a|string.startswith}}
+: {{api|t=a|tContains}}
+: {{api|t=a|tDeleteItem}}
+: {{api|t=a|tIndexOf}}
+: {{api|t=a|tUnorderedRemove}}
+: {{api|t=a|table.contains}}
+: {{api|t=a|table.getcountinfo}}
+: {{api|t=a|table.indexof}}
+: {{api|t=a|table.isempty}}
+: {{api|t=a|table.keys}}
+: {{api|t=a|table.removeunordered}}
+: {{api|t=a|table.removevalue}}
+: {{api|t=a|table.values}}
+</div>
+| valign="top" | <div style="margin-left:-1.5em">
+: {{api|t=a|C_PvP.GetRandomTrainingGroundRewards}}
+: {{api|t=a|C_PvP.HasRandomTrainingGroundWinToday}}
+: {{api|t=a|C_PvP.JoinRandomTrainingGroundBattleground}}
+: {{api|t=a|C_TableUtil.FindIndexedMismatch}}
+</div>
+|}
+
+===FrameXML===
+{| class="wikitable" style="min-width: 600px"
+|- class="mw-customtoggle-framexml"
+! style="width: 50%" | <font color="lightgreen">Added</font> <small>(29)</small>
+! style="width: 50%" | <font color="pink">Removed</font> <small>(15)</small>
+|- class="mw-collapsible" id="mw-customcollapsible-framexml"
+| valign="top" | <div style="margin-left:-1.5em">
+: {{tlygo|ChatFrameUtil.GetTabAlphas}}
+: {{tlygo|ChatFrameUtil.IsTabAlerting}}
+: {{tlygo|ChatFrameUtil.SetTabAlerting}}
+: {{tlygo|ChatFrameUtil.SetTabAlphas}}
+: {{tlygo|ChatFrameUtil.StartFlash}}
+: {{tlygo|ChatFrameUtil.StartSyncedFlash}}
+: {{tlygo|ChatFrameUtil.StopFlash}}
+: {{tlygo|CombatAudioAlertUtil.EnumeratePulseHealthPercentInfo}}
+: {{tlygo|CombatAudioAlertUtil.GetCurrentPulseHealthPercentInfo}}
+: {{tlygo|CombatAudioAlertUtil.GetPulseHealthPercentInfo}}
+: {{tlygo|CombatAudioAlertUtil.GetPulseHealthSoundKit}}
+: {{tlygo|CombatAudioAlertUtil.SetPulseHealthSoundKit}}
+: {{tlygo|CompactUnitFrame_GetOptionDispelIndicatorAnimatedBorder}}
+: {{tlygo|GenericTraitUtil.GetKnownTreeIDs}}
+: {{tlygo|GetTimeSinceLastQuestProgress}}
+: {{tlygo|HousingFramesUtil.MoveLayoutCameraFloor}}
+: {{tlygo|MarchingAnts_CreateAsChildOf}}
+: {{tlygo|MarchingAnts_CreateForTarget}}
+: {{tlygo|MarchingAnts_Create}}
+: {{tlygo|PixelUtil.SetRoundLayoutToNearestPixelRecursively}}
+: {{tlygo|QuestMapLog_GetStoryTooltip}}
+: {{tlygo|TimerUtil.CreateTimedSignalCallbackMap}}
+: {{tlygo|UnitFrameUtil.GetArenaOpponentSpecDisplayInfo}}
+: {{tlygo|UnitFrameUtil.GetUnitPvPIndicatorDisplayInfo}}
+: {{tlygo|UnitFrameUtil.GetUnitRoleIconDisplayInfo}}
+: {{tlygo|UnitFrameUtil.UpdateArenaOpponentSpecDisplayName}}
+: {{tlygo|UnitFrameUtil.UpdateArenaOpponentSpecDisplay}}
+: {{tlygo|UnitFrameUtil.UpdateUnitFrameRoleIcon}}
+: {{tlygo|UnitFrameUtil.UpdateUnitPvPIndicator}}
+</div>
+| valign="top" | <div style="margin-left:-1.5em">
+: {{tlygo|build=12.1.0|Clamp}}
+: {{tlygo|build=12.1.0|CountTable}}
+: {{tlygo|build=12.1.0|GetKeysArray}}
+: {{tlygo|build=12.1.0|GetValuesArray}}
+: {{tlygo|build=12.1.0|Lerp}}
+: {{tlygo|build=12.1.0|RoundToSignificantDigits}}
+: {{tlygo|build=12.1.0|Round}}
+: {{tlygo|build=12.1.0|Saturate}}
+: {{tlygo|build=12.1.0|Sign}}
+: {{tlygo|build=12.1.0|StringContains}}
+: {{tlygo|build=12.1.0|TableIsEmpty}}
+: {{tlygo|build=12.1.0|tContains}}
+: {{tlygo|build=12.1.0|tDeleteItem}}
+: {{tlygo|build=12.1.0|tIndexOf}}
+: {{tlygo|build=12.1.0|tUnorderedRemove}}
+</div>
+|}
+
+===ScriptObjects===
+{| class="wikitable" style="min-width: 600px"
+|- class="mw-customtoggle-scriptobject"
+! style="width: 50%" | <font color="lightgreen">Added</font> <small>(30)</small>
+! style="width: 50%" | <font color="pink">Removed</font> <small>(0)</small>
+|- class="mw-collapsible" id="mw-customcollapsible-scriptobject"
+| valign="top" | <div style="margin-left:-1.5em">
+: {{api|t=w|LocaleContext:CompareStrings}}
+: {{api|t=w|LocaleContext:FindBreaks}}
+: {{api|t=w|LocaleContext:FindStringMatches}}
+: {{api|t=w|LocaleContext:FoldCase}}
+: {{api|t=w|LocaleContext:FormatCurrency}}
+: {{api|t=w|LocaleContext:FormatDate}}
+: {{api|t=w|LocaleContext:FormatDateTime}}
+: {{api|t=w|LocaleContext:FormatNumber}}
+: {{api|t=w|LocaleContext:FormatTime}}
+: {{api|t=w|LocaleContext:GetCurrencyName}}
+: {{api|t=w|LocaleContext:GetDisplayName}}
+: {{api|t=w|LocaleContext:GetLocale}}
+: {{api|t=w|LocaleContext:GetSortKey}}
+: {{api|t=w|LocaleContext:Length}}
+: {{api|t=w|LocaleContext:ParseCurrency}}
+: {{api|t=w|LocaleContext:ParseNumber}}
+: {{api|t=w|LocaleContext:SelectPlural}}
+: {{api|t=w|LocaleContext:SetLocale}}
+: {{api|t=w|LocaleContext:ToLower}}
+: {{api|t=w|LocaleContext:ToTitle}}
+: {{api|t=w|LocaleContext:ToUpper}}
+: {{api|t=w|LocaleContext:TransformLocale}}
+: {{api|t=w|TimedSignalMap:CancelAllSignals}}
+: {{api|t=w|TimedSignalMap:CancelSignal}}
+: {{api|t=w|TimedSignalMap:GetNextSignal}}
+: {{api|t=w|TimedSignalMap:GetSignalCount}}
+: {{api|t=w|TimedSignalMap:GetSignalTime}}
+: {{api|t=w|TimedSignalMap:HasSignal}}
+: {{api|t=w|TimedSignalMap:SignalAfter}}
+: {{api|t=w|TimedSignalMap:SignalAt}}
+</div>
+| valign="top" | <div style="margin-left:-1.5em">
+</div>
+|}
+
+===Widgets===
+{| class="wikitable" style="min-width: 600px"
+|- class="mw-customtoggle-widgets"
+! style="width: 50%" | <font color="lightgreen">Added</font> <small>(2)</small>
+! style="width: 50%" | <font color="pink">Removed</font> <small>(0)</small>
+|- class="mw-collapsible" id="mw-customcollapsible-widgets"
+| valign="top" | <div style="margin-left:-1.5em">
+: {{api|t=w|ScriptRegion:GetRoundLayoutToNearestPixel}}
+: {{api|t=w|ScriptRegion:SetRoundLayoutToNearestPixel}}
+</div>
+| valign="top" | <div style="margin-left:-1.5em">
+</div>
+|}
+
+===Events===
+{| class="wikitable" style="min-width: 600px"
+|- class="mw-customtoggle-events"
+! style="width: 50%" | <font color="lightgreen">Added</font> <small>(1)</small>
+! style="width: 50%" | <font color="pink">Removed</font> <small>(0)</small>
+|- class="mw-collapsible" id="mw-customcollapsible-events"
+| valign="top" | <div style="margin-left:-1.5em">
+: {{api|t=e|WEATHER_CHANGED}}
+</div>
+| valign="top" | <div style="margin-left:-1.5em">
+</div>
+|}
+
+===CVars===
+{| class="wikitable" style="min-width: 600px"
+|- class="mw-customtoggle-cvars"
+! style="width: 50%" | <font color="lightgreen">Added</font> <small>(12)</small>
+! style="width: 50%" | <font color="pink">Removed</font> <small>(0)</small>
+|- class="mw-collapsible" id="mw-customcollapsible-cvars"
+| valign="top" | <div style="margin-left:-1.5em">
+: ''{{apitooltip|type=command|name=dumpSmallAlloc|cat=4}}''
+: {{apitooltip|type=cvar|name=CAAPulsePlayerHealthPercent|default=0|scope=Account|cat=4|desc=Play a looping pulse sound once the player's health is below X percent. The pulse gets faster as health drops}}
+: {{apitooltip|type=cvar|name=CAAPulsePlayerHealthVolume|default=100|scope=Account|cat=4|desc=Volume of the player health pulse combat audio alert (0 to 100)}}
+: {{apitooltip|type=cvar|name=coordsByTenths|default=1|scope=Account|cat=4|desc=Show coordinates by tenths}}
+: {{apitooltip|type=cvar|name=maximumConnectionAttempts|default=2|cat=6|desc=Maximum number of times to try to connect to a server using QUIC before doing TCP}}
+: {{apitooltip|type=cvar|name=minimapShowPlayerCoords|default=1|scope=Account|cat=4|desc=Show player coordinates on the minimap}}
+: {{apitooltip|type=cvar|name=nameplateBottomInset|default=0.100000|cat=4|desc=The inset from the bottom (in screen percent) that nameplates are clamped to.}}
+: {{apitooltip|type=cvar|name=nameplateMotionSpeed|default=0.025000|cat=4|desc=Controls the rate at which nameplate animates into their target locations [0.0-1.0]}}
+: {{apitooltip|type=cvar|name=nameplateTopInset|default=0.080000|cat=4|desc=The inset from the top (in screen percent) that nameplates are clamped to.}}
+: {{apitooltip|type=cvar|name=raidFramesDispelIndicatorAnimatedBorder|default=0|scope=Character|cat=4|desc=When showing dispel indicators, display an animated border}}
+: {{apitooltip|type=cvar|name=tooltipShowAuraCasterNames|default=0|scope=Account|cat=4|desc=Show caster unit names in tooltips for unit auras.}}
+: {{apitooltip|type=cvar|name=winePlatformTTS|default=0|cat=4|desc=Use Windows TTS on Wine. Disabled by default as it can cause crashes.}} 🆕
+</div>
+| valign="top" | <div style="margin-left:-1.5em">
+</div>
+|}
+
+==Deprecated API==
+{{ambox|border=red|image=[[File:Spell_holy_borrowedtime.png|32px|link=]]|style=margin-left: 2em;|type=The following deprecation fallbacks have been removed.|info=''Please upgrade to the updated APIs as soon as possible.''}}
+
+{| class=darktable
+|
+'''[https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedCurrencyScript/Deprecated_CurrencyScript.lua Deprecated_CurrencyScript.lua]'''
+* {{api|GetCoinIcon}} = {{api|C_CurrencyInfo.GetCoinIcon}}
+* {{api|GetCoinText}} = {{api|C_CurrencyInfo.GetCoinText}}
+* {{api|GetCoinTextureString}} = {{api|C_CurrencyInfo.GetCoinTextureString}}
+
+'''[https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedGlue/Deprecated_Glue.lua Blizzard_DeprecatedGlue]'''
+* {{api|IsOnGlueScreen}} = {{api|C_Glue.IsOnGlueScreen}}
+
+'''[https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua Blizzard_DeprecatedItemScript]'''
+* {{api|GetItemQualityColor}} = {{api|C_Item.GetItemQualityColor}}
+* {{api|GetItemInfoInstant}} = {{api|C_Item.GetItemInfoInstant}}
+* {{api|GetItemSetInfo}} = {{api|C_Item.GetItemSetInfo}}
+* {{api|GetItemChildInfo}} = {{api|C_Item.GetItemChildInfo}}
+* {{api|DoesItemContainSpec}} = {{api|C_Item.DoesItemContainSpec}}
+* {{api|GetItemGem}} = {{api|C_Item.GetItemGem}}
+* {{api|GetItemCreationContext}} = {{api|C_Item.GetItemCreationContext}}
+* {{api|GetItemIcon}} = {{api|C_Item.GetItemIconByID}}
+* {{api|GetItemFamily}} = {{api|C_Item.GetItemFamily}}
+* {{api|GetItemSpell}} = {{api|C_Item.GetItemSpell}}
+* {{api|IsArtifactPowerItem}} = {{api|C_Item.IsArtifactPowerItem}}
+* {{api|IsCurrentItem}} = {{api|C_Item.IsCurrentItem}}
+* {{api|IsUsableItem}} = {{api|C_Item.IsUsableItem}}
+* {{api|IsHelpfulItem}} = {{api|C_Item.IsHelpfulItem}}
+* {{api|IsHarmfulItem}} = {{api|C_Item.IsHarmfulItem}}
+* {{api|IsConsumableItem}} = {{api|C_Item.IsConsumableItem}}
+* {{api|IsEquippableItem}} = {{api|C_Item.IsEquippableItem}}
+* {{api|IsEquippedItem}} = {{api|C_Item.IsEquippedItem}}
+* {{api|IsEquippedItemType}} = {{api|C_Item.IsEquippedItemType}}
+* {{api|ItemHasRange}} = {{api|C_Item.ItemHasRange}}
+* {{api|IsItemInRange}} = {{api|C_Item.IsItemInRange}}
+* {{api|GetItemClassInfo}} = {{api|C_Item.GetItemClassInfo}}
+* {{api|GetItemInventorySlotInfo}} = {{api|C_Item.GetItemInventorySlotInfo}}
+* {{api|BindEnchant}} = {{api|C_Item.BindEnchant}}
+* {{api|ActionBindsItem}} = {{api|C_Item.ActionBindsItem}}
+* {{api|ReplaceEnchant}} = {{api|C_Item.ReplaceEnchant}}
+* {{api|ReplaceTradeEnchant}} = {{api|C_Item.ReplaceTradeEnchant}}
+* {{api|ConfirmBindOnUse}} = {{api|C_Item.ConfirmBindOnUse}}
+* {{api|ConfirmOnUse}} = {{api|C_Item.ConfirmOnUse}}
+* {{api|ConfirmNoRefundOnUse}} = {{api|C_Item.ConfirmNoRefundOnUse}}
+* {{api|DropItemOnUnit}} = {{api|C_Item.DropItemOnUnit}}
+* {{api|EndBoundTradeable}} = {{api|C_Item.EndBoundTradeable}}
+* {{api|EndRefund}} = {{api|C_Item.EndRefund}}
+* {{api|GetItemInfo}} = {{api|C_Item.GetItemInfo}}
+* {{api|GetDetailedItemLevelInfo}} = {{api|C_Item.GetDetailedItemLevelInfo}}
+* {{api|GetItemSpecInfo}} = {{api|C_Item.GetItemSpecInfo}}
+* {{api|GetItemUniqueness}} = {{api|C_Item.GetItemUniqueness}}
+* {{api|GetItemCount}} = {{api|C_Item.GetItemCount}}
+* {{api|PickupItem}} = {{api|C_Item.PickupItem}}
+* {{api|GetItemSubClassInfo}} = {{api|C_Item.GetItemSubClassInfo}}
+* {{api|UseItemByName}} = {{api|C_Item.UseItemByName}}
+* {{api|EquipItemByName}} = {{api|C_Item.EquipItemByName}}
+* {{api|ReplaceTradeskillEnchant}} = {{api|C_Item.ReplaceTradeskillEnchant}}
+* {{api|GetItemCooldown}} = {{api|C_Item.GetItemCooldown}}
+* {{api|IsCorruptedItem}} = {{api|C_Item.IsCorruptedItem}}
+* {{api|IsCosmeticItem}} = {{api|C_Item.IsCosmeticItem}}
+* {{api|IsDressableItem}} = {{api|C_Item.IsDressableItem}}
+	
+'''[https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedItemSocketInfo/Deprecated_ItemSocketInfo.lua Blizzard_DeprecatedItemSocketInfo]'''
+* {{api|CloseSocketInfo}} = {{api|C_ItemSocketInfo.CloseSocketInfo}}
+* {{api|GetSocketItemInfo}} = {{api|C_ItemSocketInfo.GetSocketItemInfo}}
+* {{api|GetNumSockets}} = {{api|C_ItemSocketInfo.GetNumSockets}}
+* {{api|GetExistingSocketInfo}} = {{api|C_ItemSocketInfo.GetExistingSocketInfo}}
+* {{api|GetExistingSocketLink}} = {{api|C_ItemSocketInfo.GetExistingSocketLink}}
+* {{api|GetNewSocketInfo}} = {{api|C_ItemSocketInfo.GetNewSocketInfo}}
+* {{api|GetNewSocketLink}} = {{api|C_ItemSocketInfo.GetNewSocketLink}}
+* {{api|ClickSocketButton}} = {{api|C_ItemSocketInfo.ClickSocketButton}}
+* {{api|AcceptSockets}} = {{api|C_ItemSocketInfo.AcceptSockets}}
+* {{api|GetSocketTypes}} = {{api|C_ItemSocketInfo.GetSocketTypes}}
+* {{api|GetSocketItemRefundable}} = {{api|C_ItemSocketInfo.GetSocketItemRefundable}}
+* {{api|GetSocketItemBoundTradeable}} = {{api|C_ItemSocketInfo.GetSocketItemBoundTradeable}}
+* {{api|HasBoundGemProposed}} = {{api|C_ItemSocketInfo.HasBoundGemProposed}}
+
+'''[https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedLFG/Deprecated_LFG.lua Blizzard_DeprecatedLFG]'''
+* {{api|C_LFGInfo.IsPremadeGroupEnabled}} = {{api|C_LFGList.IsPremadeGroupFinderEnabled}}
+* {{api|C_LFGList.GetSearchResultMemberInfo}} = {{api|C_LFGList.GetSearchResultPlayerInfo}}
+
+'''[https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedPetInfo/Deprecated_PetInfo.lua Blizzard_DeprecatedPetInfo]'''
+* {{api|PetAssistMode}} = {{api|C_PetInfo.PetAssistMode}}
+* {{api|GetPetTalentTree}} = {{api|C_PetInfo.GetPetTalentTree}}
+
+'''[https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedPvpScript/Deprecated_PvpScript.lua Blizzard_DeprecatedPvpScript]'''
+* {{api|IsSubZonePVPPOI}} = {{api|C_PvP.IsSubZonePVPPOI}}
+* {{api|GetZonePVPInfo}} = {{api|C_PvP.GetZonePVPInfo}}
+* {{api|TogglePVP}} = {{api|C_PvP.TogglePVP}}
+* {{api|SetPVP}} = {{api|C_PvP.SetPVP}}
+
+'''[https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedSoundScript/Deprecated_SoundScript.lua Blizzard_DeprecatedSoundScript]'''
+* {{api|PlayVocalErrorSoundID}} = {{api|C_Sound.PlayVocalErrorSound}}
+
+'''[https://github.com/Gethe/wow-ui-source/blob/12.1.0/Interface/AddOns/Blizzard_DeprecatedTradeInfo/Deprecated_TradeInfo.lua Blizzard_DeprecatedTradeInfo]'''
+* {{api|PickupTradeMoney}} = {{api|C_TradeInfo.PickupTradeMoney}}
+|}

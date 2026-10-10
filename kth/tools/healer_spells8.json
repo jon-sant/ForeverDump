@@ -1,0 +1,960 @@
+{
+ "runs": [
+  "2026-10-07-run2",
+  "2026-10-07-run3",
+  "2026-10-07-run4",
+  "2026-10-07",
+  "2026-10-08-run5",
+  "2026-10-08-run6",
+  "2026-10-08-run6b",
+  "2026-10-08-run7",
+  "2026-10-08-run8-bg",
+  "2026-10-08-run9-bg",
+  "2026-10-09-run10-bg",
+  "2026-10-09-run11-bg",
+  "2026-10-09-run12-bg",
+  "2026-10-09-run13-bg",
+  "2026-10-09-run14-bg",
+  "2026-10-09-run15-bg",
+  "2026-10-09-run16-bg",
+  "2026-10-10-run17-bg",
+  "2026-10-10-run18-bg"
+ ],
+ "spells": [
+  {
+   "name": "Penance",
+   "spec": "Discipline priest",
+   "userList": true,
+   "db2Ids": [
+    402174,
+    402261,
+    402277,
+    402284,
+    402289,
+    402844,
+    1240720,
+    1240721,
+    1240723,
+    1240724,
+    1240727,
+    1240730,
+    1240732,
+    1240733,
+    1240734,
+    1240736,
+    1316991,
+    1316992,
+    1316993,
+    1316994,
+    1316995
+   ],
+   "refdataIds": [
+    402284,
+    402289
+   ],
+   "logIds": {
+    "402284": {
+     "SPELL_CAST_SUCCESS": 100,
+     "SPELL_DAMAGE": 85,
+     "SPELL_MISSED": 8,
+     "SPELL_ABSORBED": 4
+    },
+    "402289": {
+     "SPELL_HEAL": 734,
+     "SPELL_CAST_SUCCESS": 742
+    }
+   },
+   "healers": [
+    {
+     "name": "Barry-ClassicBetaPvE-",
+     "run": "2026-10-09-run10-bg",
+     "cls": "PRIEST",
+     "share": 0.785,
+     "out": 19490,
+     "v": "H",
+     "casts": 51,
+     "events": 101,
+     "ids": [
+      402284,
+      402289
+     ]
+    },
+    {
+     "name": "Stiggy-ClassicBetaPvP2-",
+     "run": "2026-10-09-run10-bg",
+     "cls": "PRIEST",
+     "share": 0.683,
+     "out": 26348,
+     "v": "H",
+     "casts": 49,
+     "events": 95,
+     "ids": [
+      402284,
+      402289
+     ]
+    },
+    {
+     "name": "Darthnik-ClassicBetaPvP-",
+     "run": "2026-10-09-run10-bg",
+     "cls": "PRIEST",
+     "share": 0.878,
+     "out": 21909,
+     "v": "H",
+     "casts": 82,
+     "events": 163,
+     "ids": [
+      402284,
+      402289
+     ]
+    },
+    {
+     "name": "Aeddi-ClassicBetaPvE2-",
+     "run": "2026-10-09-run11-bg",
+     "cls": "PRIEST",
+     "share": 0.864,
+     "out": 17689,
+     "v": "H",
+     "casts": 48,
+     "events": 94,
+     "ids": [
+      402284,
+      402289
+     ]
+    },
+    {
+     "name": "Arphe-ClassicBetaPvE2-",
+     "run": "2026-10-09-run11-bg",
+     "cls": "PRIEST",
+     "share": 0.565,
+     "out": 9797,
+     "v": "H",
+     "casts": 16,
+     "events": 32,
+     "ids": [
+      402289
+     ]
+    },
+    {
+     "name": "Swig-ClassicBetaPvP-",
+     "run": "2026-10-09-run14-bg",
+     "cls": "PRIEST",
+     "share": 0.762,
+     "out": 9133,
+     "v": "H",
+     "casts": 31,
+     "events": 60,
+     "ids": [
+      402284,
+      402289
+     ]
+    },
+    {
+     "name": "Anger-ClassicBetaPvP2-",
+     "run": "2026-10-09-run14-bg",
+     "cls": "PRIEST",
+     "share": 0.851,
+     "out": 10636,
+     "v": "H",
+     "casts": 17,
+     "events": 34,
+     "ids": [
+      402289
+     ]
+    },
+    {
+     "name": "Clinic-ClassicBetaPvP2-",
+     "run": "2026-10-09-run15-bg",
+     "cls": "PRIEST",
+     "share": 0.959,
+     "out": 12125,
+     "v": "H",
+     "casts": 51,
+     "events": 101,
+     "ids": [
+      402284,
+      402289
+     ]
+    },
+    {
+     "name": "Albus-ClassicBetaPvP-",
+     "run": "2026-10-09-run15-bg",
+     "cls": "PRIEST",
+     "share": 0.65,
+     "out": 9023,
+     "v": "H",
+     "casts": 37,
+     "events": 73,
+     "ids": [
+      402289
+     ]
+    },
+    {
+     "name": "Rabbit-ClassicBetaPvE-",
+     "run": "2026-10-09-run16-bg",
+     "cls": "PRIEST",
+     "share": 0.942,
+     "out": 39337,
+     "v": "H",
+     "casts": 59,
+     "events": 116,
+     "ids": [
+      402284,
+      402289
+     ]
+    },
+    {
+     "name": "Frobby-ClassicBetaPvP2-",
+     "run": "2026-10-09-run16-bg",
+     "cls": "PRIEST",
+     "share": 0.82,
+     "out": 20527,
+     "v": "H",
+     "casts": 63,
+     "events": 121,
+     "ids": [
+      402284,
+      402289
+     ]
+    },
+    {
+     "name": "Bleep-ClassicBetaPvP2-",
+     "run": "2026-10-09-run16-bg",
+     "cls": "PRIEST",
+     "share": 0.816,
+     "out": 18621,
+     "v": "H",
+     "casts": 18,
+     "events": 34,
+     "ids": [
+      402284,
+      402289
+     ]
+    },
+    {
+     "name": "Aerie-ClassicBetaPvP-",
+     "run": "2026-10-10-run17-bg",
+     "cls": "PRIEST",
+     "share": 0.989,
+     "out": 30739,
+     "v": "H",
+     "casts": 66,
+     "events": 131,
+     "ids": [
+      402289
+     ]
+    },
+    {
+     "name": "Brocky-ClassicBetaPvE2-",
+     "run": "2026-10-10-run17-bg",
+     "cls": "PRIEST",
+     "share": 0.852,
+     "out": 26796,
+     "v": "H",
+     "casts": 72,
+     "events": 143,
+     "ids": [
+      402284,
+      402289
+     ]
+    },
+    {
+     "name": "Hyllina-ClassicBetaPvE2-",
+     "run": "2026-10-10-run18-bg",
+     "cls": "PRIEST",
+     "share": 0.844,
+     "out": 24949,
+     "v": "H",
+     "casts": 48,
+     "events": 96,
+     "ids": [
+      402289
+     ]
+    },
+    {
+     "name": "Ank-ClassicBetaPvP2-",
+     "run": "2026-10-10-run18-bg",
+     "cls": "PRIEST",
+     "share": 0.86,
+     "out": 14607,
+     "v": "H",
+     "casts": 57,
+     "events": 114,
+     "ids": [
+      402284,
+      402289
+     ]
+    },
+    {
+     "name": "Karen-ClassicBetaPvP-",
+     "run": "2026-10-10-run18-bg",
+     "cls": "PRIEST",
+     "share": 0.822,
+     "out": 25483,
+     "v": "H",
+     "casts": 13,
+     "events": 26,
+     "ids": [
+      402289
+     ]
+    }
+   ],
+   "dps": [
+    {
+     "name": "Severn-ClassicBetaPvP2-",
+     "run": "2026-10-09-run15-bg",
+     "cls": "PRIEST",
+     "share": 0.107,
+     "out": 7092,
+     "v": "D",
+     "casts": 19,
+     "events": 37,
+     "ids": [
+      402284,
+      402289
+     ]
+    }
+   ],
+   "unknown": [
+    {
+     "name": "Wheat-ClassicBetaPvE-",
+     "run": "2026-10-08-run8-bg",
+     "cls": "PRIEST",
+     "share": 0.0,
+     "out": 0,
+     "v": "U",
+     "casts": 9,
+     "events": 18,
+     "ids": [
+      402289
+     ]
+    },
+    {
+     "name": "Wheat-ClassicBetaPvE-",
+     "run": "2026-10-08-run9-bg",
+     "cls": "PRIEST",
+     "share": 0.0,
+     "out": 0,
+     "v": "U",
+     "casts": 9,
+     "events": 18,
+     "ids": [
+      402289
+     ]
+    },
+    {
+     "name": "Wheat-ClassicBetaPvE-",
+     "run": "2026-10-09-run10-bg",
+     "cls": "PRIEST",
+     "share": 0.0,
+     "out": 0,
+     "v": "U",
+     "casts": 9,
+     "events": 18,
+     "ids": [
+      402289
+     ]
+    },
+    {
+     "name": "Pretty-ClassicBetaPvP-",
+     "run": "2026-10-09-run11-bg",
+     "cls": "PRIEST",
+     "share": 0.0,
+     "out": 1194,
+     "v": "U",
+     "casts": 2,
+     "events": 4,
+     "ids": [
+      402284
+     ]
+    },
+    {
+     "name": "Milkshake-ClassicBetaPvE-",
+     "run": "2026-10-09-run15-bg",
+     "cls": "PRIEST",
+     "share": 1.0,
+     "out": 146,
+     "v": "U",
+     "casts": 7,
+     "events": 14,
+     "ids": [
+      402289
+     ]
+    },
+    {
+     "name": "Shartkillero-ClassicBetaPvE-",
+     "run": "2026-10-09-run15-bg",
+     "cls": "PRIEST",
+     "share": 0.0,
+     "out": 0,
+     "v": "U",
+     "casts": 6,
+     "events": 12,
+     "ids": [
+      402289
+     ]
+    },
+    {
+     "name": "Jalond-ClassicBetaPvE2-",
+     "run": "2026-10-09-run15-bg",
+     "cls": "PRIEST",
+     "share": 1.0,
+     "out": 607,
+     "v": "U",
+     "casts": 3,
+     "events": 6,
+     "ids": [
+      402289
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Power Infusion",
+   "spec": "Discipline priest",
+   "userList": true,
+   "db2Ids": [
+    10060
+   ],
+   "refdataIds": [],
+   "logIds": {},
+   "healers": [],
+   "dps": [],
+   "unknown": []
+  },
+  {
+   "name": "Prayer of Mending",
+   "spec": "Holy priest",
+   "userList": true,
+   "db2Ids": [
+    41637,
+    401859,
+    401863,
+    401877,
+    401880,
+    401882,
+    402832,
+    1240826,
+    1240827,
+    1240848,
+    1240849,
+    1240918,
+    1240919,
+    1313379,
+    1313381
+   ],
+   "refdataIds": [],
+   "logIds": {},
+   "healers": [],
+   "dps": [],
+   "unknown": []
+  },
+  {
+   "name": "Light's Vigil",
+   "spec": "Holy paladin",
+   "userList": true,
+   "db2Ids": [
+    1310909,
+    1310910,
+    1310911,
+    1310912,
+    1310914,
+    1311590,
+    1311591,
+    1311592,
+    1311593,
+    1311594,
+    1311595,
+    1311596,
+    1311597,
+    1311598,
+    1311599,
+    1311601,
+    1311806
+   ],
+   "refdataIds": [],
+   "logIds": {},
+   "healers": [],
+   "dps": [],
+   "unknown": []
+  },
+  {
+   "name": "Wild Growth",
+   "spec": "Restoration druid",
+   "userList": true,
+   "db2Ids": [
+    408120,
+    409810,
+    1238214,
+    1238215
+   ],
+   "refdataIds": [],
+   "logIds": {},
+   "healers": [],
+   "dps": [],
+   "unknown": []
+  },
+  {
+   "name": "Riptide",
+   "spec": "Restoration shaman",
+   "userList": true,
+   "db2Ids": [
+    22419,
+    405168,
+    405194,
+    405321,
+    405324,
+    408521,
+    409954,
+    1239242,
+    1239243
+   ],
+   "refdataIds": [],
+   "logIds": {},
+   "healers": [],
+   "dps": [],
+   "unknown": []
+  },
+  {
+   "name": "Swiftmend",
+   "spec": "removed (user: not a guaranteed healer)",
+   "userList": false,
+   "db2Ids": [
+    18562
+   ],
+   "refdataIds": [
+    18562
+   ],
+   "logIds": {
+    "18562": {
+     "SPELL_CAST_SUCCESS": 136,
+     "SPELL_HEAL": 136
+    }
+   },
+   "healers": [
+    {
+     "name": "Vinithian-ClassicBetaPvP-",
+     "run": "2026-10-08-run9-bg",
+     "cls": "DRUID",
+     "share": 0.875,
+     "out": 28819,
+     "v": "H",
+     "casts": 6,
+     "events": 12,
+     "ids": [
+      18562
+     ]
+    },
+    {
+     "name": "Gonjareya-ClassicBetaPvP-",
+     "run": "2026-10-08-run9-bg",
+     "cls": "DRUID",
+     "share": 0.868,
+     "out": 29794,
+     "v": "H",
+     "casts": 18,
+     "events": 36,
+     "ids": [
+      18562
+     ]
+    },
+    {
+     "name": "Predatory-ClassicBetaPvP-",
+     "run": "2026-10-08-run9-bg",
+     "cls": "DRUID",
+     "share": 0.827,
+     "out": 41147,
+     "v": "H",
+     "casts": 23,
+     "events": 46,
+     "ids": [
+      18562
+     ]
+    },
+    {
+     "name": "Vinithian-ClassicBetaPvP-",
+     "run": "2026-10-09-run10-bg",
+     "cls": "DRUID",
+     "share": 0.875,
+     "out": 28819,
+     "v": "H",
+     "casts": 6,
+     "events": 12,
+     "ids": [
+      18562
+     ]
+    },
+    {
+     "name": "Gonjareya-ClassicBetaPvP-",
+     "run": "2026-10-09-run10-bg",
+     "cls": "DRUID",
+     "share": 0.868,
+     "out": 29794,
+     "v": "H",
+     "casts": 18,
+     "events": 36,
+     "ids": [
+      18562
+     ]
+    },
+    {
+     "name": "Predatory-ClassicBetaPvP-",
+     "run": "2026-10-09-run10-bg",
+     "cls": "DRUID",
+     "share": 0.827,
+     "out": 41147,
+     "v": "H",
+     "casts": 23,
+     "events": 46,
+     "ids": [
+      18562
+     ]
+    },
+    {
+     "name": "Shakter-ClassicBetaPvP-",
+     "run": "2026-10-09-run15-bg",
+     "cls": "DRUID",
+     "share": 0.979,
+     "out": 28348,
+     "v": "H",
+     "casts": 7,
+     "events": 14,
+     "ids": [
+      18562
+     ]
+    },
+    {
+     "name": "Invictusap-ClassicBetaPvP2-",
+     "run": "2026-10-09-run16-bg",
+     "cls": "DRUID",
+     "share": 0.982,
+     "out": 42292,
+     "v": "H",
+     "casts": 6,
+     "events": 12,
+     "ids": [
+      18562
+     ]
+    },
+    {
+     "name": "Remus-ClassicBetaPvP-",
+     "run": "2026-10-10-run17-bg",
+     "cls": "DRUID",
+     "share": 0.964,
+     "out": 21398,
+     "v": "H",
+     "casts": 9,
+     "events": 18,
+     "ids": [
+      18562
+     ]
+    },
+    {
+     "name": "Clam-ClassicBetaPvP2-",
+     "run": "2026-10-10-run18-bg",
+     "cls": "DRUID",
+     "share": 0.928,
+     "out": 34909,
+     "v": "H",
+     "casts": 14,
+     "events": 28,
+     "ids": [
+      18562
+     ]
+    }
+   ],
+   "dps": [],
+   "unknown": [
+    {
+     "name": "Kwee-ClassicBetaPvE2-",
+     "run": "2026-10-09-run10-bg",
+     "cls": "DRUID",
+     "share": 0.533,
+     "out": 10339,
+     "v": "U",
+     "casts": 6,
+     "events": 12,
+     "ids": [
+      18562
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Holy Shock",
+   "spec": "removed (not on user list)",
+   "userList": false,
+   "db2Ids": [
+    20473,
+    20929,
+    20930,
+    25902,
+    25903,
+    25911,
+    25912,
+    25913,
+    25914,
+    444894,
+    1311604,
+    1311605,
+    1311606
+   ],
+   "refdataIds": [
+    1311604,
+    1311605,
+    1311606
+   ],
+   "logIds": {
+    "1311604": {
+     "SPELL_DAMAGE": 49,
+     "SPELL_ABSORBED": 3,
+     "SPELL_MISSED": 1
+    },
+    "1311605": {
+     "SPELL_HEAL": 25
+    },
+    "1311606": {
+     "SPELL_CAST_SUCCESS": 77
+    }
+   },
+   "healers": [
+    {
+     "name": "Jepprey-ClassicBetaPvP2-",
+     "run": "2026-10-08-run9-bg",
+     "cls": "PALADIN",
+     "share": 0.686,
+     "out": 23132,
+     "v": "H",
+     "casts": 15,
+     "events": 29,
+     "ids": [
+      1311604,
+      1311605,
+      1311606
+     ]
+    },
+    {
+     "name": "Jepprey-ClassicBetaPvP2-",
+     "run": "2026-10-09-run10-bg",
+     "cls": "PALADIN",
+     "share": 0.686,
+     "out": 23132,
+     "v": "H",
+     "casts": 15,
+     "events": 29,
+     "ids": [
+      1311604,
+      1311605,
+      1311606
+     ]
+    },
+    {
+     "name": "Reckoning-ClassicBetaPvP-",
+     "run": "2026-10-09-run12-bg",
+     "cls": "PALADIN",
+     "share": 0.737,
+     "out": 6472,
+     "v": "H",
+     "casts": 8,
+     "events": 16,
+     "ids": [
+      1311604,
+      1311605,
+      1311606
+     ]
+    },
+    {
+     "name": "Reckoning-ClassicBetaPvP-",
+     "run": "2026-10-09-run13-bg",
+     "cls": "PALADIN",
+     "share": 0.737,
+     "out": 6472,
+     "v": "H",
+     "casts": 8,
+     "events": 16,
+     "ids": [
+      1311604,
+      1311605,
+      1311606
+     ]
+    },
+    {
+     "name": "Torstol-ClassicBetaPvE-",
+     "run": "2026-10-09-run16-bg",
+     "cls": "PALADIN",
+     "share": 0.856,
+     "out": 25811,
+     "v": "H",
+     "casts": 9,
+     "events": 17,
+     "ids": [
+      1311604,
+      1311605,
+      1311606
+     ]
+    }
+   ],
+   "dps": [
+    {
+     "name": "Ayorick-ClassicBetaPvP-",
+     "run": "2026-10-09-run12-bg",
+     "cls": "PALADIN",
+     "share": 0.061,
+     "out": 9358,
+     "v": "D",
+     "casts": 11,
+     "events": 22,
+     "ids": [
+      1311604,
+      1311606
+     ]
+    },
+    {
+     "name": "Ayorick-ClassicBetaPvP-",
+     "run": "2026-10-09-run13-bg",
+     "cls": "PALADIN",
+     "share": 0.061,
+     "out": 9358,
+     "v": "D",
+     "casts": 11,
+     "events": 22,
+     "ids": [
+      1311604,
+      1311606
+     ]
+    }
+   ],
+   "unknown": []
+  }
+ ],
+ "firstCast": {
+  "2026-10-08-run8-bg|Wheat-ClassicBetaPvE-": {
+   "Penance": "10/8/2026 19:39:01.062-4"
+  },
+  "2026-10-08-run9-bg|Wheat-ClassicBetaPvE-": {
+   "Penance": "10/8/2026 19:39:01.062-4"
+  },
+  "2026-10-08-run9-bg|Vinithian-ClassicBetaPvP-": {
+   "Swiftmend": "10/8/2026 22:11:41.352-4"
+  },
+  "2026-10-08-run9-bg|Gonjareya-ClassicBetaPvP-": {
+   "Swiftmend": "10/8/2026 22:11:48.852-4"
+  },
+  "2026-10-08-run9-bg|Predatory-ClassicBetaPvP-": {
+   "Swiftmend": "10/8/2026 22:12:00.791-4"
+  },
+  "2026-10-08-run9-bg|Jepprey-ClassicBetaPvP2-": {
+   "Holy Shock": "10/8/2026 22:14:58.979-4"
+  },
+  "2026-10-09-run10-bg|Wheat-ClassicBetaPvE-": {
+   "Penance": "10/8/2026 19:39:01.062-4"
+  },
+  "2026-10-09-run10-bg|Vinithian-ClassicBetaPvP-": {
+   "Swiftmend": "10/8/2026 22:11:41.352-4"
+  },
+  "2026-10-09-run10-bg|Gonjareya-ClassicBetaPvP-": {
+   "Swiftmend": "10/8/2026 22:11:48.852-4"
+  },
+  "2026-10-09-run10-bg|Predatory-ClassicBetaPvP-": {
+   "Swiftmend": "10/8/2026 22:12:00.791-4"
+  },
+  "2026-10-09-run10-bg|Jepprey-ClassicBetaPvP2-": {
+   "Holy Shock": "10/8/2026 22:14:58.979-4"
+  },
+  "2026-10-09-run10-bg|Barry-ClassicBetaPvE-": {
+   "Penance": "10/8/2026 23:58:16.045-4"
+  },
+  "2026-10-09-run10-bg|Stiggy-ClassicBetaPvP2-": {
+   "Penance": "10/8/2026 23:58:30.422-4"
+  },
+  "2026-10-09-run10-bg|Darthnik-ClassicBetaPvP-": {
+   "Penance": "10/8/2026 23:58:42.280-4"
+  },
+  "2026-10-09-run10-bg|Kwee-ClassicBetaPvE2-": {
+   "Swiftmend": "10/8/2026 23:59:53.291-4"
+  },
+  "2026-10-09-run11-bg|Aeddi-ClassicBetaPvE2-": {
+   "Penance": "10/9/2026 09:28:03.691-4"
+  },
+  "2026-10-09-run11-bg|Arphe-ClassicBetaPvE2-": {
+   "Penance": "10/9/2026 09:30:05.936-4"
+  },
+  "2026-10-09-run11-bg|Pretty-ClassicBetaPvP-": {
+   "Penance": "10/9/2026 09:44:29.449-4"
+  },
+  "2026-10-09-run12-bg|Ayorick-ClassicBetaPvP-": {
+   "Holy Shock": "10/9/2026 13:19:44.565-4"
+  },
+  "2026-10-09-run12-bg|Reckoning-ClassicBetaPvP-": {
+   "Holy Shock": "10/9/2026 13:20:40.463-4"
+  },
+  "2026-10-09-run13-bg|Ayorick-ClassicBetaPvP-": {
+   "Holy Shock": "10/9/2026 13:19:44.565-4"
+  },
+  "2026-10-09-run13-bg|Reckoning-ClassicBetaPvP-": {
+   "Holy Shock": "10/9/2026 13:20:40.463-4"
+  },
+  "2026-10-09-run14-bg|Swig-ClassicBetaPvP-": {
+   "Penance": "10/9/2026 17:18:04.662-4"
+  },
+  "2026-10-09-run14-bg|Anger-ClassicBetaPvP2-": {
+   "Penance": "10/9/2026 17:18:14.371-4"
+  },
+  "2026-10-09-run15-bg|Clinic-ClassicBetaPvP2-": {
+   "Penance": "10/9/2026 19:29:36.761-4"
+  },
+  "2026-10-09-run15-bg|Albus-ClassicBetaPvP-": {
+   "Penance": "10/9/2026 19:29:59.434-4"
+  },
+  "2026-10-09-run15-bg|Shakter-ClassicBetaPvP-": {
+   "Swiftmend": "10/9/2026 19:30:02.435-4"
+  },
+  "2026-10-09-run15-bg|Severn-ClassicBetaPvP2-": {
+   "Penance": "10/9/2026 19:30:09.095-4"
+  },
+  "2026-10-09-run15-bg|Milkshake-ClassicBetaPvE-": {
+   "Penance": "10/9/2026 19:40:52.139-4"
+  },
+  "2026-10-09-run15-bg|Shartkillero-ClassicBetaPvE-": {
+   "Penance": "10/9/2026 19:49:06.311-4"
+  },
+  "2026-10-09-run15-bg|Jalond-ClassicBetaPvE2-": {
+   "Penance": "10/9/2026 19:49:36.704-4"
+  },
+  "2026-10-09-run16-bg|Rabbit-ClassicBetaPvE-": {
+   "Penance": "10/9/2026 22:54:35.126-4"
+  },
+  "2026-10-09-run16-bg|Frobby-ClassicBetaPvP2-": {
+   "Penance": "10/9/2026 22:54:38.606-4"
+  },
+  "2026-10-09-run16-bg|Invictusap-ClassicBetaPvP2-": {
+   "Swiftmend": "10/9/2026 22:55:40.128-4"
+  },
+  "2026-10-09-run16-bg|Torstol-ClassicBetaPvE-": {
+   "Holy Shock": "10/9/2026 22:55:44.252-4"
+  },
+  "2026-10-09-run16-bg|Bleep-ClassicBetaPvP2-": {
+   "Penance": "10/9/2026 22:56:37.088-4"
+  },
+  "2026-10-10-run17-bg|Remus-ClassicBetaPvP-": {
+   "Swiftmend": "10/9/2026 23:53:21.511-4"
+  },
+  "2026-10-10-run17-bg|Aerie-ClassicBetaPvP-": {
+   "Penance": "10/9/2026 23:53:26.406-4"
+  },
+  "2026-10-10-run17-bg|Brocky-ClassicBetaPvE2-": {
+   "Penance": "10/9/2026 23:53:28.260-4"
+  },
+  "2026-10-10-run18-bg|Hyllina-ClassicBetaPvE2-": {
+   "Penance": "10/10/2026 00:39:52.860-4"
+  },
+  "2026-10-10-run18-bg|Clam-ClassicBetaPvP2-": {
+   "Swiftmend": "10/10/2026 00:40:50.720-4"
+  },
+  "2026-10-10-run18-bg|Ank-ClassicBetaPvP2-": {
+   "Penance": "10/10/2026 00:42:01.231-4"
+  },
+  "2026-10-10-run18-bg|Karen-ClassicBetaPvP-": {
+   "Penance": "10/10/2026 00:42:16.363-4"
+  }
+ }
+}

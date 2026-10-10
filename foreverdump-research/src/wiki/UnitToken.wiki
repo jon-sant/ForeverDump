@@ -1,0 +1,101 @@
+{{wowapitype}} {{tocright}}
+{{about|the [[World of Warcraft API]]|units in Warcraft RTS games|Unit (RTS)}}
+A '''unit token''' (or '''unitId'''<ref>{{Ref web|author=Zootfizzle|url=http://forums.worldofwarcraft.com/thread.html?topicId=15443405133&pageNo=3&sid=1#53|title=Re: 3.1 API changes (and clarifications)|date=2010|archiveurl=https://urbad.net/blue/us/15443405133-31_API_Changes_and_clarifications#53}}</ref>) identifies a unit by their relationship to the player as a target, party member, pet, or other such role.  Several [[API]] functions accept UnitToken as an argument for whom the action applies, though some functions only accept a subset of possible values. Unit tokens are case insensitive.
+
+==Base Values==
+
+; <code>"arena''N''"</code> : Opposing arena member with index ''N'' (1,2,3,4 or 5).
+
+; <code>"boss''N''"</code> : The active bosses of the current encounter if available ''N'' (1,2,3...,8).
+
+; <code>"focus"</code> : The current player's focus target as selected by the /focus command.
+
+; <code>"mouseover"</code> : The unit which the mouse is currently (or was most recently) hovering over.
+
+; <code>"none"</code>: A valid unit token that always refers to no unit. [[API_UnitName|UnitName]] will return "Unknown, nil" for this UnitToken. Use to force a macro to not auto self-cast ([[Making_a_macro#.5Btarget.3Dunit.5D|/cast [target=none] Healing Wave]]).
+
+; <code>"party''N''"</code> : The ''N''th party member excluding the player (1,2,3 or 4).
+
+; <code>"partypet''N''"</code> : The pet of the ''N''th party member (N is 1,2,3, or 4).
+
+; <code>"pet"</code> : The current player's pet.
+
+; <code>"player"</code> : The current player.
+
+; <code>"raid''N''"</code> : The raid member with [[raidIndex]] ''N'' (1,2,3,...,40).
+
+; <code>"raidpet''N''"</code> : The pet of the raid member with [[raidIndex]] ''N'' (1,2,3,...,40)
+
+; <code>"target"</code> : The currently targeted unit. May be overridden in macros by unit specified as a value of respective Secure Button attribute.
+
+; <code>"vehicle"</code> : The current player's vehicle.
+
+; <code>"nameplate''N''""</code> : The ''N''th nameplate (1,2,3,...,40). Cannot be targeted by spells or commands such as /target nameplate1 or /cast [target=nameplate1] Healing Wave.
+
+; <code>"spectated''<T><N>''"</code> : The ''N''th spectated unit (1,2,3,...,15) for either ''T''eam "a" or "b", such as "spectatedb2" for the second unit on team B. Only present in commentator mode.
+
+; <code>"spectatedpet''<T><N>''"</code> : The pet of the ''N''th spectated unit (1,2,3,...,15) for either ''T''eam "a" or "b", such as "spectatedpetb2" for the second units' pet on team B. Only present in commentator mode.
+
+==Soft Targeting==
+
+{{Df-section}}
+
+Soft targets are additional units that are automatically selected through an in-world unit scan. These exist separately from the standard "target" unit, which is referred to as a locked target.
+
+; <code>"anyenemy"</code> : Resolves to either the "target" unit or "softenemy" target, with "target" being higher priority.
+; <code>"anyfriend"</code> : Resolves to either the "target" unit or "softfriend" target, with "target" being higher priority.
+; <code>"anyinteract"</code> : Resolves to either the "target" unit or "softinteract" target, with "target" being higher priority.
+; <code>"anyleftinteract"</code> : Behaves the same as "anyinteract".
+; <code>"softenemy"</code> : The current soft target that is hostile towards the player.
+; <code>"softfriend"</code> : The current soft target that is friendly towards the player.
+; <code>"softinteract"</code> : The current soft target that can be interacted with. This may be an NPC such as a questgiver or merchant, or a game object like a mailbox or a gathering node.
+
+==Others==
+The following units also appear in some very specific places (Vendor interactions, for example) or functions.
+
+; <code>"npc"</code> : The NPC with which the player is currently interacting. You '''must''' be interacting with the NPC for this to work (e.g. the quest, flight path, merchant, gossip, or bank frame is open).
+
+; <code>"questnpc"</code> : The quest giver NPC with which the player is currently interacting. In most cases this will be identical to the "npc" unit.
+
+; <code>player name</code> : As returned by [[API_UnitName|UnitName]], [[API_GetGuildRosterInfo|GetGuildRosterInfo]], [[API_GetFriendInfo|GetFriendInfo]], [[API COMBAT LOG EVENT|COMBAT LOG EVENT]], etc. This must be spelled exactly and will be invalid if the named player is not a part of your party or raid. As with all other unit tokens, it is not case sensitive.
+
+==Target of unit==
+
+Append the suffix <code>target</code> to any UnitToken to refer its target (e.g. <code>"pettarget"</code> is the target of your pet).  This appending can be repeated indefinitely (e.g. <code>"playertargettarget"</code>), though you will observe an attendant performance hit if you overdo it, as the game engine has to jump from target to target.
+
+If you are using a party or raid member's name as a unit, you need to use hyphens to separate the target chain (e.g. <code>"Cogwheel-target-target"</code>).
+
+==Examples==
+
+; <code>"raid7target"</code> : Refers to the 7th raid member's target.
+
+; <code>"party1targettarget"</code> : Refers to the first party member (not the player, but the first person in the player's party frames)'s target's target.
+
+; <code>"targettargetpettarget"</code> : Refers to the player's target's target's pet's target. Will refer to the player's target if the player's target and the player's pet are both targeting the player.
+
+; <code>"mouseoverpettarget"</code> : Refers the unit being moused over's pet's target.
+
+; <code>"playertarget"</code> : The same as simply using "target". Using "playertarget" is not as efficient as simply using "target".
+
+; <code>"Cogwheel"</code> : Refers to Cogwheel if he is in the player's party/raid.
+
+; <code>"Cogwheel-target"</code> : Refers to Cogwheel's target if he is in the player's party/raid.
+
+; <code>"Cogwheel-pet-target"</code> : Refers to Cogwheel's pet's target if he is in the player's party/raid.
+
+==Details==
+* Many of the functions which take a UnitToken only provide useful results for a subset of ID's. Other functions will only provide information for friendly targets (or those upon which a power is active).
+* Some functions return different values if the unit is close enough to be 'visible' to your client (not necessarily in line of sight), as can be determined with {{api|UnitIsVisible(unit)}}.
+
+==Patch changes==
+* {{Patch 10.0.0|note=Added ''anyenemy'', ''anyfriend'', ''anyinteract'', ''softenemy'', ''softfriend'', and ''softinteract''.}}
+* {{Patch 7.0.3|note=Added ''nameplateN''.}}
+* {{Patch 3.3.0|note=Added ''bossN''.}}
+* {{Patch 2.0.0|note=Added ''focus''.}}
+* {{Patch 1.5.0|note=Added ''partypetN'' and ''raidpetN''.}}
+
+==Used by==
+{{:API_types/UnitToken}}
+
+==References==
+{{reflist}}

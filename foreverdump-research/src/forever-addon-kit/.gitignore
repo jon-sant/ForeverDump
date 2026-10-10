@@ -1,0 +1,11 @@
+# personal state never goes in the repo
+addons/ForeverCompat/seeds/*.lua
+data/*
+!data/forever_api.json
+sv-backups/
+*.log
+*.lock
+tools/sv_watch.hold
+__pycache__/
+*.pyc
+.claude/

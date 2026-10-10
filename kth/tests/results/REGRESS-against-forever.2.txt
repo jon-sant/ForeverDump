@@ -1,0 +1,30 @@
+R1 FAIL
+errors:	3
+  ...f2/Libs/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua:130: attempt to call global 'SetDesaturation' (a nil value)
+  ...f2/Libs/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua:130: attempt to call global 'SetDesaturation' (a nil value)
+  ...f2/Libs/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua:130: attempt to call global 'SetDesaturation' (a nil value)
+blizzChat lines:	0
+diag frame lines:	0
+restricted registrations:	0
+undefined global reads:	26	ACCEPTx1 AceGUIEditBoxInsertLinkx1 AceGUIMultiLineEditBoxInsertLinkx1 CANCELx1 CLOSEx2 ChatEdit_InsertLinkx2 ChatFrameUtilx2 CloseSpecialWindowsx1 DLAPIx10 GAME_LOCALEx10 GetCVarBoolx1 GetCVarx1 GetMouseFocusx1 GetTexCoordsForRolex2 HHTD_SavedVariablesx1 KTH_NameplateSettingsx1 LibStubx1 PlaySoundFilex1 PlaySoundx1 SetDesaturationx3 SetRaidTargetIconTexturex1 TargetFrameTextureFrameRaidTargetIconx1 __diagLinesx2 __inInstancex1 __instTypex1 __numScoresx1
+R2 FAIL marks [] errors 0
+R3 FAIL mouse-over on the healer plays the announcer sound, clicking it plays the target-lock sound: {'alerted': 0, 'verdictTrue': 0, 'hovers': 10, 'alertedNoVerdict': 0, 'missed': 0}
+R4/R5 FAIL 2026-10-09-run16-bg.lua mo {'alerted': 0, 'verdictTrue': 95, 'hovers': 858, 'onTarget': 35, 'alertedNoVerdict': 0, 'missed': 60} platelog {'healerNoIcon': 0, 'changes': 0, 'iconNoHealer': 0} errors 0
+R4/R5 FAIL 2026-10-10-run17-bg.lua mo {'alerted': 0, 'verdictTrue': 83, 'hovers': 730, 'onTarget': 39, 'alertedNoVerdict': 0, 'missed': 44} platelog {'healerNoIcon': 0, 'changes': 0, 'iconNoHealer': 0} errors 0
+R4/R5 FAIL 2026-10-10-run18-bg.lua mo {'alerted': 0, 'verdictTrue': 154, 'hovers': 709, 'onTarget': 34, 'alertedNoVerdict': 0, 'missed': 120} platelog {'healerNoIcon': 0, 'changes': 0, 'iconNoHealer': 0} errors 0
+R7 FAIL arena enemyClass=secret marks 5 ['CLASS+PWR'] roster 29 errors 0 mo {'alerted': 0, 'verdictTrue': 154, 'hovers': 709, 'onTarget': 34, 'alertedNoVerdict': 0, 'missed': 120}
+R7 FAIL arena enemyClass=clear marks 5 ['CLASS+PWR'] roster 29 errors 0 mo {'alerted': 0, 'verdictTrue': 154, 'hovers': 709, 'onTarget': 34, 'alertedNoVerdict': 0, 'missed': 120}
+R7 ok none enemyClass=secret marks 0 [] roster 0 errors 0 mo {'alerted': 0, 'verdictTrue': 0, 'hovers': 709, 'alertedNoVerdict': 0, 'missed': 0}
+R7 FAIL none enemyClass=clear marks 5 ['CLASS+PWR'] roster 0 errors 0 mo {'alerted': 0, 'verdictTrue': 154, 'hovers': 709, 'onTarget': 34, 'alertedNoVerdict': 0, 'missed': 120}
+R7 ok party enemyClass=secret marks 0 [] roster 0 errors 0 mo {'alerted': 0, 'verdictTrue': 0, 'hovers': 709, 'alertedNoVerdict': 0, 'missed': 0}
+R7 FAIL party enemyClass=clear marks 5 ['CLASS+PWR'] roster 0 errors 0 mo {'alerted': 0, 'verdictTrue': 154, 'hovers': 709, 'onTarget': 34, 'alertedNoVerdict': 0, 'missed': 120}
+R7 ok party with Pve off: evidence records 0
+R8 2026-10-09-run10-bg: board-less (no full names, no classes)
+R8 2026-10-09-run11-bg: board-less (no full names, no classes)
+R8 2026-10-09-run12-bg: board-less (no full names, no classes)
+R8 2026-10-09-run13-bg: board-less (no full names, no classes)
+R8 2026-10-09-run16-bg: real board, 31/31 names backed by the SV
+R8 2026-10-10-run17-bg: real board, 30/30 names backed by the SV
+R8 2026-10-10-run18-bg: real board, 29/29 names backed by the SV
+R8 ok
+R6 ok 58 non-listed globals, all reviewed

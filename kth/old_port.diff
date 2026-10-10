@@ -1,0 +1,478 @@
+diff --git a/KTH/Announcer.lua b/KTH/Announcer.lua
+index 2d51dc0..c9a27a6 100644
+--- a/KTH/Announcer.lua
++++ b/KTH/Announcer.lua
+@@ -275,7 +275,7 @@ function Announcer:HHTD_HEALER_MOUSE_OVER(selfevent, isFriend, healerProfile)
+             (L["IS_A_HEALER"]):format(
+                 HHTD:ColorText(
+                 healerProfile.name,
+-                HHTD:GetClassHexColor(  select(2, UnitClass("mouseover")) )
++                HHTD:GetClassHexColor(  T.FS.str(select(2, UnitClass("mouseover"))) or HHTD.MN_RosterClass and HHTD.MN_RosterClass(isFriend, healerProfile.name) or "UNKNOWN" ) -- [Forever] class may be secret
+                 ),
+             "|r"
+             )
+@@ -296,11 +296,12 @@ function Announcer:HHTD_TARGET_LOCKED (selfevent, isFriend, healerProfile)
+     self:PlaySoundFile(567482);
+     --self:Debug(INFO, "AuctionWindowOpen.ogg played");
+ 
+-    local sex = UnitSex("target");
++    local sex = T.FS.num(UnitSex("target")); -- [Forever] never compare a secret
+ 
+     local what = (sex == 1 and L["YOU_GOT_IT"] or sex == 2 and L["YOU_GOT_HIM"] or L["YOU_GOT_HER"]);
+ 
+     local localizedUnitClass, unitClass = UnitClass("target");
++    unitClass = T.FS.str(unitClass) or (HHTD.MN_RosterClass and HHTD.MN_RosterClass(isFriend, healerProfile.name)) or "UNKNOWN"; -- [Forever]
+ 
+     local subjectColor = HHTD:GetClassHexColor(unitClass);
+ 
+@@ -323,7 +324,8 @@ function Announcer:HHTD_HEALER_UNDER_ATTACK (selfevent, sourceName, sourceGUID,
+     local message = HHTD:ColorText("KTH: ", '88555555') .. (L["HEALER_UNDER_ATTACK"]):format(HHTD:ColorText(HHTD:MakePlayerName(destName), 'FF00DD00'), HHTD:ColorText(HHTD:MakePlayerName(sourceName), 'FFDD0000'));
+ 
+     if config.HUDWarning then
+-        RaidNotice_AddMessage( RaidWarningFrame, message, ChatTypeInfo["RAID_WARNING"] );
++        -- [Forever] HUD warning goes to K.T.H.'s own frame, not RaidWarningFrame
++        HHTD:ForeverHUD(message);
+     end
+ 
+     if config.ChatWarning then
+diff --git a/KTH/Core.lua b/KTH/Core.lua
+index a5a3a14..6570dc5 100644
+--- a/KTH/Core.lua
++++ b/KTH/Core.lua
+@@ -112,7 +112,11 @@ local L = HHTD.Localized_Text;
+ HHTD.Constants = {};
+ local HHTD_C = HHTD.Constants;
+ HHTD_C.WOWC = WOW_PROJECT_ID ~= WOW_PROJECT_MAINLINE
+-HHTD_C.MN = tocversion >= 120000
++-- [Forever] WoW Forever (1.60.1, toc 16001, WOW_PROJECT_ID 18 CAMELOT) has Midnight-style secret values, so it must take
++-- the Midnight code path even though its toc is < 120000 (otherwise KTH falls back to the classic CLEU path, and Forever
++-- has no CombatLogGetCurrentEventInfo / C_CombatLogInternal getter).
++HHTD_C.FOREVER = T.FS.IS_FOREVER
++HHTD_C.MN = tocversion >= 120000 or HHTD_C.FOREVER
+ 
+ -- === DebugLog routing helper ===
+ -- All diagnostic output from Core.lua goes here instead of HHTD:Print().
+@@ -184,7 +188,8 @@ do
+     local classInfo, classTag, userSpecNum, specID, specName, role
+     local foundClass = 0;
+     local classID = 0;
+-    while foundClass < MAX_CLASSES do -- in WOWC class ids are not continuous
++    -- [Forever] MAX_CLASSES is unverified on Forever (9 classes): bound the id walk so it can never spin forever
++    while foundClass < (MAX_CLASSES or 9) and classID < 64 do -- in WOWC class ids are not continuous
+         classID = classID + 1;
+         classInfo = C_CreatureInfo.GetClassInfo(classID)
+ 
+@@ -937,7 +942,14 @@ do
+ 
+         self.db = LibStub("AceDB-3.0"):New("HHTD_SavedVariables", DEFAULT__CONFIGURATION);
+ 
+-        LibStub("AceConfig-3.0"):RegisterOptionsTable(tostring(self), self.GetOptions, {"hhtd", "H.H.T.D."});
++        if HHTD_C.FOREVER then
++            -- [Forever] AceConfigCmd answers /hhtd by printing into DEFAULT_CHAT_FRAME (taints ChatFrame1 on Forever):
++            -- register the options table without chat commands and make /hhtd open the options window instead.
++            LibStub("AceConfig-3.0"):RegisterOptionsTable(tostring(self), self.GetOptions);
++            self:RegisterChatCommand('hhtd', function() LibStub("AceConfigDialog-3.0"):Open(tostring(self)) end, true);
++        else
++            LibStub("AceConfig-3.0"):RegisterOptionsTable(tostring(self), self.GetOptions, {"hhtd", "H.H.T.D."});
++        end
+         --LibStub("AceConfigDialog-3.0"):AddToBlizOptions(tostring(self));
+         self:RegisterChatCommand('hhtdg', function() LibStub("AceConfigDialog-3.0"):Open(tostring(self)) end, true);
+         self:RegisterChatCommand('hhtddiag', function()
+@@ -1121,7 +1133,8 @@ HHTD.ProtectDamageThreshold = math.huge;
+ local UnitHealthMax = _G.UnitHealthMax;
+ function HHTD:UpdateHealThresholds()
+ 
+-    local PlayerMaxH = UnitHealthMax('player')
++    local PlayerMaxH = T.FS.num(UnitHealthMax('player')) -- [Forever] never do arithmetic on a secret
++    if not PlayerMaxH then return end
+ 
+     self.HealThreshold          = math.ceil(self.db.global.HMHAP  * PlayerMaxH);
+     self.ProtectDamageThreshold = math.ceil(self.db.global.PHMDAP * PlayerMaxH);
+@@ -1146,21 +1159,31 @@ do
+         end
+ 
+         local unitGuid = UnitGUID(unit);
+-        local isFriend = UnitIsFriend(unit, 'player')==1 and true or false;
++        -- [Forever] compare only a readable boolean (original semantics kept: modern UnitIsFriend returns a boolean)
++        local isFriend = T.FS.bool(UnitIsFriend(unit, 'player'))==1 and true or false;
+ 
+         --self:Debug(INFO, "HHTD:TestUnit()", unitGuid, isFriend);
+ 
+-        if not unitGuid then
++        if type(unitGuid) == "nil" then -- [Forever] no truth test on a possibly secret value
+             --self:Debug(WARNING, "No unit GUID");
+             return;
+         end
+ 
+         local unitFirstName, unitRealm = UnitName(unit);
+ 
++        -- [Forever] GUIDs of BG players are secret: fall back to the (clear) name -> pseudo-GUID used by the scoreboard
++        -- and heal-evidence registrations
++        if not canaccessvalue(unitGuid) then
++            local shortName = T.FS.firstWord(unitFirstName);
++            local rec = shortName and HHTD.Registry_by_Name[isFriend][shortName];
++            unitGuid = rec and rec.guid or nil;
++            if not unitGuid then return; end
++        end
++
+         if canaccessvalue(unitGuid) and HHTD.Registry_by_GUID[isFriend][unitGuid] then
+ 
+             -- remove dead units
+-            if UnitIsDead(unit) then
++            if T.FS.bool(UnitIsDead(unit)) then
+                 self:Reap(unitGuid, isFriend, true);
+                 return;
+             end
+@@ -1173,7 +1196,7 @@ do
+             end
+ 
+             -- Has the unit healed recently?
+-            if not UnitIsUnit("mouseover", "target") and unit == "mouseover" then
++            if not T.FS.bool(UnitIsUnit("mouseover", "target")) and unit == "mouseover" then
+                 -- Is this sitill true?
+ 
+                 self:SendMessage("HHTD_HEALER_MOUSE_OVER", isFriend, HHTD.Registry_by_GUID[isFriend][unitGuid]);
+@@ -1435,6 +1458,8 @@ do
+ 
+             if sourceName then
+                 name = isHuman and str_match(sourceName, "^[^-]+") or sourceName; -- Remove the server's name (plates don't include it)
++                -- [Forever] the scoreboard gives "First Surname" while UnitName gives "First": key on the first word
++                if HHTD_C.FOREVER and isHuman then name = T.FS.firstWord(sourceName) or name; end
+             else
+                 -- XXX fatal error out
+                 HHTD:Debug(WARNING, "RegisterHealer(): sourceName is missing and healer is new", guid);
+@@ -1590,6 +1615,9 @@ do
+ 
+ 
+ 
++    -- [Forever] the heal-evidence module (ForeverEvidence.lua) registers healers through the same pipeline
++    HHTD._MN_RegisterHealer = function(...) return RegisterHealer(...) end
++
+     -- === Midnight Scoreboard-based Healer Detection === {{{
+     -- In 12.0, CLEU is gone and enemy spellIDs are secret in BGs.
+     -- The scoreboard provides spec/role data for all BG participants.
+@@ -1619,17 +1647,24 @@ do
+         for i = 1, numScores do
+             local scoreData = nil;
+             local scoreName, scoreGUID, scoreClassToken, scoreTalentSpec, scoreFaction, scoreRoleAssigned;
++            local scoreHealingDone, scoreDamageDone; -- [Forever]
+ 
+             -- Try C_PvP.GetScoreInfo first (newer API with roleAssigned)
+             if C_PvP and C_PvP.GetScoreInfo then
+                 scoreData = C_PvP.GetScoreInfo(i);
+-                if scoreData and canaccessvalue(scoreData) then
+-                    scoreName = scoreData.name;
+-                    scoreGUID = scoreData.guid;
+-                    scoreClassToken = scoreData.classToken;
+-                    scoreTalentSpec = scoreData.talentSpec;
+-                    scoreFaction = scoreData.faction;
+-                    scoreRoleAssigned = scoreData.roleAssigned;
++                -- [Forever] in combat GetScoreInfo returns a secret table (captures: run16 1140/1140 combat rows 'T');
++                -- indexing it errors, so only read it when the table itself is readable (post-match / some ooc sweeps)
++                if T.FS.tbl(scoreData) then
++                    scoreName = T.FS.field(scoreData, "name");
++                    scoreGUID = T.FS.field(scoreData, "guid");
++                    scoreClassToken = T.FS.field(scoreData, "classToken");
++                    scoreTalentSpec = T.FS.field(scoreData, "talentSpec");
++                    scoreFaction = T.FS.field(scoreData, "faction");
++                    scoreRoleAssigned = T.FS.field(scoreData, "roleAssigned");
++                    -- [Forever] substitute for the (empty on WOWC) spec->role table: readable healing vs damage done
++                    scoreHealingDone = T.FS.field(scoreData, "healingDone");
++                    scoreDamageDone = T.FS.field(scoreData, "damageDone");
++                    if not scoreName then scoreData = nil; end
+                 else
+                     scoreData = nil; -- secret or nil
+                 end
+@@ -1638,7 +1673,19 @@ do
+             -- Fall back to GetBattlefieldScore (legacy, may not have secret restrictions)
+             if not scoreData and GetBattlefieldScore then
+                 local name, _, _, _, _, _, faction, _, classToken, _, _, _, _, _, _, talentSpec = GetBattlefieldScore(i);
+-                if name and canaccessvalue(name) then
++                if HHTD_C.FOREVER then
++                    -- [Forever] classic-era row layout: name(1) KB HK deaths honor faction(6) rank(7) race(8)
++                    -- class(9, LOCALIZED) classToken(10) damage healing. Captures (run15/16): 1, 6-9 clear; 2-5, 10-12
++                    -- secret in combat. So faction is position 6 (7 is rank) and the class token comes from the
++                    -- localized class name.
++                    local row = { pcall(GetBattlefieldScore, i) };
++                    name = row[1] and row[2] or nil;
++                    faction = row[1] and T.FS.num(row[7]) or nil;
++                    classToken = row[1] and (T.FS.str(row[11]) or HHTD.MN_ClassFromLocalized(row[10])) or nil;
++                    talentSpec = nil;
++                end
++                -- [Forever] type()/canaccessvalue before any truth test
++                if T.FS.str(name) then
+                     scoreName = name;
+                     scoreClassToken = classToken;
+                     scoreTalentSpec = talentSpec;
+@@ -1653,6 +1700,12 @@ do
+             else
+                 scannedCount = scannedCount + 1;
+ 
++                -- [Forever] remember EVERY row's class by first name + side: enemy nameplate UnitClass is secret in
++                -- Forever BGs, the scoreboard class token (position 9) is not. MidnightNameplates joins on it.
++                if HHTD_C.FOREVER and HHTD.MN_RosterAdd then
++                    HHTD.MN_RosterAdd(scoreName, T.FS.str(scoreClassToken), T.FS.num(scoreFaction), playerFaction);
++                end
++
+                 -- Check if this player has a healer spec
+                 local isHealer = false;
+                 local isFriend = false;
+@@ -1672,14 +1725,25 @@ do
+ 
+                 -- Method 2 (fallback): Check roleAssigned only if spec data wasn't available
+                 -- roleAssigned can be unreliable in BGs (e.g. Guardian Druids showing role 2)
+-                if not specChecked and scoreRoleAssigned and canaccessvalue(scoreRoleAssigned) and scoreRoleAssigned == 2 then
++                if not specChecked and T.FS.num(scoreRoleAssigned) and scoreRoleAssigned == 2 then
+                     isHealer = true;
+                 end
+ 
++                -- [Forever] Method 3: no spec->role table on WOWC and no roleAssigned field; when the row is readable,
++                -- a player who healed at least as much as they damaged is a healer (the WOWC spec table is empty, so
++                -- specChecked can be true without any role answer)
++                if HHTD_C.FOREVER and not isHealer then
++                    local h, d = T.FS.num(scoreHealingDone), T.FS.num(scoreDamageDone);
++                    if h and d and h > 0 and h >= d then isHealer = true; end
++                end
++
+                 if isHealer then
+                     -- Determine if friendly or hostile
+                     -- faction: 0 = Horde, 1 = Alliance
+-                    if scoreFaction and canaccessvalue(scoreFaction) then
++                    if HHTD_C.FOREVER and T.FS.num(scoreFaction) and HHTD.MN_MyTeam and HHTD.MN_MyTeam() then
++                        -- [Forever] team id from GetBattlefieldArenaFaction (falls back to the player's faction)
++                        isFriend = (scoreFaction == HHTD.MN_MyTeam());
++                    elseif scoreFaction and canaccessvalue(scoreFaction) then
+                         if playerFaction == "Horde" then
+                             isFriend = (scoreFaction == 0);
+                         elseif playerFaction == "Alliance" then
+@@ -1712,6 +1776,7 @@ do
+                     -- This is the definitive healer list that MidnightNameplates reads.
+                     -- Stores healers by Name, GUID, and ClassSpec for maximum matching flexibility.
+                     local shortName = scoreName:match("^([^-]+)") or scoreName;
++                    if HHTD_C.FOREVER then shortName = T.FS.firstWord(scoreName) or shortName; end -- [Forever] "First Surname"
+                     if not HHTD.MN_HealersByName[shortName] then
+                         local healerRecord = {
+                             isFriend = isFriend,
+@@ -2130,7 +2195,8 @@ do
+      local function HandleSpellcastHealer(self, unitTarget, spellID)
+          if not HHTD_C.MN then return end -- only needed in Midnight
+          MN_Diag.spellcastFired = MN_Diag.spellcastFired + 1;
+-         if not unitTarget or not spellID then return end
++         -- [Forever] type() first: a truth test on a secret value raises an error on Forever
++         if type(unitTarget) == "nil" or type(spellID) == "nil" then return end
+ 
+          if not canaccessvalue(spellID) then
+              MN_Diag.spellcastSecretID = MN_Diag.spellcastSecretID + 1;
+@@ -2147,25 +2213,25 @@ do
+          end
+ 
+          local guid = UnitGUID(unitTarget);
+-         if not guid or not canaccessvalue(guid) then
++         if type(guid) == "nil" or not canaccessvalue(guid) then
+              MN_Diag.spellcastSecretGUID = MN_Diag.spellcastSecretGUID + 1;
+              return
+          end
+ 
+          local sourceName = UnitName(unitTarget);
+-         if not sourceName or not canaccessvalue(sourceName) then
++         if type(sourceName) == "nil" or not canaccessvalue(sourceName) then
+              MN_Diag.spellcastSecretGUID = MN_Diag.spellcastSecretGUID + 1;
+              return
+          end
+ 
+-         local isHuman = UnitIsPlayer(unitTarget);
+-         local isFriend = UnitIsFriend(unitTarget, "player") or false;
++         local isHuman = T.FS.bool(UnitIsPlayer(unitTarget));
++         local isFriend = T.FS.bool(UnitIsFriend(unitTarget, "player")) or false;
+ 
+          -- Skip NPCs if PvE mode is disabled
+          if not isHuman and not self.db.global.Pve then return end
+ 
+          local spellName = GetSpellName(spellID);
+-         if not spellName or not canaccessvalue(spellName) then
++         if type(spellName) == "nil" or not canaccessvalue(spellName) then
+              spellName = "Unknown Heal #" .. tostring(spellID);
+          end
+ 
+diff --git a/KTH/KTH.toc b/KTH/KTH.toc
+index 49f33e0..45bdec7 100644
+--- a/KTH/KTH.toc
++++ b/KTH/KTH.toc
+@@ -1,14 +1,15 @@
+-## Interface: 120000, 120001
++## Interface: 16001
+ ## X-Max-Interface: 120001
+ ## X-Min-Interface: 11508
+ ## X-Mid-Interface: 50503
+ 
+-## Title: K.T.H. |cff888888(Kill The Healer)|r
++## Title: K.T.H. |cff888888(Kill The Healer)|r Forever
+ 
+ ## Notes: Identifies healers in PvP battlegrounds and marks their nameplates with a visible indicator. Uses scoreboard-based healer detection and Class+PowerType nameplate matching, designed for WoW 12.0 (Midnight) where enemy names and GUIDs are secret values. Built on the H.H.T.D. framework by John Wellesz.
+ 
+ ## Author: John Wellesz (original H.H.T.D.), Scone (Midnight adaptation)
+-## Version: 1.0.0-kth
++## Version: 1.0.0-kth-forever.1
++## X-Forever-Port: WoW Forever 1.60.1 (build 70334, toc 16001, WOW_PROJECT_ID 18). Interface detected from ForeverDump captures (env.interface=16001). Private port of K.T.H. 1.0.0-kth; see FOREVER-PORT.md for every change.
+ 
+ ## LoadManagers: AddonLoader
+ 
+@@ -31,8 +32,11 @@
+ embeds.xml
+ 
+ Localization.lua
++ForeverSafe.lua
+ Core.lua
+ utils.lua
++ForeverChat.lua
++ForeverEvidence.lua
+ 
+ NamePlateHooker.lua
+ MidnightNameplates.lua
+diff --git a/KTH/KTH_Options.lua b/KTH/KTH_Options.lua
+index 9ae308b..a2cc9d6 100644
+--- a/KTH/KTH_Options.lua
++++ b/KTH/KTH_Options.lua
+@@ -590,7 +590,8 @@ local AceConfigDialog = LibStub("AceConfigDialog-3.0");
+ local KTH_OPTIONS_NAME = "KTH_Nameplates";
+ 
+ AceConfig:RegisterOptionsTable(KTH_OPTIONS_NAME, GetKTHOptions);
+-AceConfigDialog:AddToBlizOptions(KTH_OPTIONS_NAME, "K.T.H. Nameplates");
++-- [Forever] Settings / InterfaceOptions availability is unverified on Forever: never let a missing panel API break loading
++pcall(AceConfigDialog.AddToBlizOptions, AceConfigDialog, KTH_OPTIONS_NAME, "K.T.H. Nameplates");
+ 
+ -- Slash command to open the GUI directly
+ SLASH_KTHG1 = "/kthg";
+diff --git a/KTH/MidnightNameplates.lua b/KTH/MidnightNameplates.lua
+index b0702fc..805b088 100644
+--- a/KTH/MidnightNameplates.lua
++++ b/KTH/MidnightNameplates.lua
+@@ -72,6 +72,14 @@ local AMBIGUOUS_MANA_CLASSES = {
+     ["EVOKER"]  = true,  -- Pres/Dev/Aug all show Mana (0)
+ };
+ 
++-- [Forever] Classic-era power types: Shadow priests and Balance druids use MANA, Ret/Prot paladins and Enh/Ele shamans
++-- use MANA, there is no Insanity / Astral Power. Mana therefore never identifies a healer spec on Forever, so every
++-- healer-capable class is ambiguous there (the non-mana check still drops druids in cat/bear form).
++if HHTD_C.FOREVER then
++    for k in pairs(UNAMBIGUOUS_HEALER_CLASSES) do AMBIGUOUS_MANA_CLASSES[k] = true; end
++    UNAMBIGUOUS_HEALER_CLASSES = {};
++end
++
+ -- Union of both sets for quick "can this class heal?" check
+ local HEALER_CAPABLE_CLASSES = {};
+ for k in pairs(UNAMBIGUOUS_HEALER_CLASSES) do HEALER_CAPABLE_CLASSES[k] = true; end
+@@ -483,20 +491,29 @@ end
+ local function CheckUnitIsHealer(unitToken)
+     local okA, canAttack = pcall(UnitCanAttack, "player", unitToken);
+     if not okA then return false, false, nil; end
+-    if canAttack and not canaccessvalue(canAttack) then return false, false, nil; end
++    -- [Forever] canaccessvalue BEFORE the truth test (a truth test on a secret boolean errors on Forever)
++    if type(canAttack) ~= "nil" and not canaccessvalue(canAttack) then return false, false, nil; end
+     local isEnemy = canAttack or false;
+ 
+     -- ---------- FRIENDLY: match by name ----------
+     if not isEnemy then
+         -- Get class for per-class indicator overrides (always accessible for friendlies)
+         local okFC, _, friendClassToken = pcall(UnitClass, unitToken);
+-        if not (okFC and friendClassToken and canaccessvalue(friendClassToken)) then
++        if not (okFC and T.FS.str(friendClassToken)) then
+             friendClassToken = nil;
+         end
+ 
+         local okN, unitName = pcall(UnitName, unitToken);
+-        if okN and unitName and canaccessvalue(unitName) then
++        if okN and T.FS.str(unitName) then
+             local shortName = unitName:match("^([^%-]+)") or unitName;
++            -- [Forever] class from the scoreboard roster when UnitClass is secret
++            if HHTD_C.FOREVER and not friendClassToken then
++                friendClassToken = HHTD.MN_RosterClass and HHTD.MN_RosterClass(true, shortName) or nil;
++            end
++            -- [Forever] heal evidence (frame-joined UNIT_COMBAT HEAL on a teammate) stands in for the scoreboard spec
++            if HHTD_C.FOREVER and HHTD.MN_EvidenceConfirmed and HHTD.MN_EvidenceConfirmed(true, shortName) then
++                return true, true, "HEAL", friendClassToken;
++            end
+             local byName = HHTD.MN_HealersByName;
+             if byName then
+                 if byName[shortName] and byName[shortName].isFriend then
+@@ -515,7 +532,22 @@ local function CheckUnitIsHealer(unitToken)
+ 
+     -- ---------- ENEMY: Class-based identification ----------
+     local okC, _, classToken = pcall(UnitClass, unitToken);
+-    if not okC or not classToken or not canaccessvalue(classToken) then
++    local enemyShortName = nil;
++    if HHTD_C.FOREVER then
++        -- [Forever] enemy plate UnitClass is secret in BGs (captures run10-16); UnitName is clear. Take the class from
++        -- the scoreboard roster (first name + team join). Unknown class = provisional: only heal evidence can mark it.
++        local okN, unitName = pcall(UnitName, unitToken);
++        enemyShortName = okN and T.FS.firstWord(unitName) or nil;
++        if not (okC and T.FS.str(classToken)) then
++            classToken = enemyShortName and HHTD.MN_RosterClass and HHTD.MN_RosterClass(false, enemyShortName) or nil;
++        end
++        if not classToken then
++            if enemyShortName and HHTD.MN_EvidenceConfirmed and HHTD.MN_EvidenceConfirmed(false, enemyShortName) then
++                return true, false, "HEAL", nil;
++            end
++            return false, false, nil;
++        end
++    elseif not okC or not classToken or not canaccessvalue(classToken) then
+         return false, false, nil;
+     end
+ 
+@@ -547,6 +579,13 @@ local function CheckUnitIsHealer(unitToken)
+         return true, false, "SPELL", classToken;
+     end
+ 
++    -- [Forever] Check 1b: enemy spellIDs are secret on Forever (nameplate casts 52/52 secret in captures), so the
++    -- spell check almost never fires; heal evidence (this player's cast + a HEAL on one of their teammates in the same
++    -- frame, repeated) confirms this specific player instead.
++    if HHTD_C.FOREVER and enemyShortName and HHTD.MN_EvidenceConfirmed and HHTD.MN_EvidenceConfirmed(false, enemyShortName) then
++        return true, false, "HEAL", classToken;
++    end
++
+     -- Check 2: Scoreboard class-level confirmation
+     -- If the scoreboard says the enemy team has at least one healer of this class,
+     -- mark all matching nameplates.  This may produce false positives if there are
+@@ -651,7 +690,7 @@ local function ScanAllNameplates()
+     RebuildEnemyHealerClassCache();
+ 
+     local foundPlates, foundPlayers, matchedHealers, scanErrors = 0, 0, 0, 0;
+-    local methods = { NAME = 0, ["CLASS+PWR"] = 0, CLASS = 0, SPELL = 0, ["CLASS+SCORE"] = 0 };
++    local methods = { NAME = 0, ["CLASS+PWR"] = 0, CLASS = 0, SPELL = 0, ["CLASS+SCORE"] = 0, HEAL = 0 };
+     local matchedThisTick = {};
+ 
+     for i = 1, MAX_NAMEPLATES do
+@@ -741,7 +780,8 @@ end
+ -- SPELLCAST HANDLER (for ambiguous class confirmation)
+ -- ============================================================
+ local function HandleNameplateSpellcast(unitToken, spellID)
+-    if not unitToken or not spellID then return; end
++    -- [Forever] type() first: no truth test on a possibly secret spellID
++    if type(unitToken) ~= "string" or type(spellID) == "nil" then return; end
+     -- Only process nameplate units
+     if not unitToken:match("^nameplate%d+$") then return; end
+     -- Check if spellID is accessible (may be secret for enemies in Midnight)
+@@ -848,6 +888,9 @@ C_Timer.After(3, function()
+     end
+ end)
+ 
++-- [Forever] immediate rescan when heal evidence confirms a healer
++HHTD.MN_OnEvidence = function() pcall(ScanAllNameplates); end
++
+ -- Status for auto-diag
+ HHTD.MNP_GetStatus = function()
+     local scCount = 0;
+diff --git a/KTH/utils.lua b/KTH/utils.lua
+index 71ca03c..8c31570 100644
+--- a/KTH/utils.lua
++++ b/KTH/utils.lua
+@@ -123,7 +123,8 @@ end -- }}}
+ -- }}}
+ 
+ function HHTD:Error(message)
+-    UIErrorsFrame:AddMessage("KTH: " .. message, 1, 0, 0, 1, UIERRORS_HOLD_TIME);
++    -- [Forever] no writes to Blizzard frames (UIErrorsFrame/chat): K.T.H.'s own message frame only
++    if HHTD.ForeverHUD then HHTD:ForeverHUD("KTH: " .. tostring(message)); else UIErrorsFrame:AddMessage("KTH: " .. message, 1, 0, 0, 1, UIERRORS_HOLD_TIME); end
+     self:Print(HHTD:ColorText(message, 'FFFF3030'));
+     return message;
+ end

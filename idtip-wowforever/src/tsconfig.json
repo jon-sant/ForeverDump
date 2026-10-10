@@ -1,0 +1,11 @@
+{
+  "extends": "typescript-config-silverwind",
+  "exclude": [
+    "**/dist/**",
+  ],
+  "compilerOptions": {
+    "types": [
+      "node",
+    ],
+  },
+}

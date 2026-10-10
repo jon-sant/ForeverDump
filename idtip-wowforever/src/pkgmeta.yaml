@@ -1,0 +1,14 @@
+manual-changelog: CHANGELOG.txt
+ignore:
+  - "*.js"
+  - "*.json"
+  - "*.md"
+  - "*.png"
+  - "*.sh"
+  - "*.ts"
+  - "*.txt"
+  - "*.yaml"
+  - CHANGELOG.txt
+  - LICENSE
+  - Makefile
+  - idTip_test.lua

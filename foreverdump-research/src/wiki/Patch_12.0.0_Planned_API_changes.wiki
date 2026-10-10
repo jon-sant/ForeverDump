@@ -1,0 +1,1419 @@
+This '''Planned API changes''' article collects interviews, news articles and official communication from Blizzard as relayed on the WowUIDev discord server and elsewhere regarding the [[Patch 12.0.0/API changes|addon apocalypse]] in {{g|midnight}}.
+
+==April 30, WoWCast interview==
+{{#ev:youtube|-hqJ210XWeU}}
+
+==May 22, PC Gamer interview==
+* https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-game-director-details-which-combat-add-ons-are-safe-and-which-will-be-eliminated-in-the-coming-purge
+
+==June 3, [https://discord.com/channels/327414731654692866/1379574033724608542 Clarifications on Planned Changes]==
+Hello to the members of the WoWUIDev Discord server from the WoW Team at Blizzard!
+
+First of all, thank you all for your feedback so far about the upcoming addon changes. We've been reading it all and discussing it internally, and we'll continue to do so. Also, a special thanks to the mods for setting up the addon-restrictions-feedback channel. Consolidating your most important feedback about this project in one place not only makes reading the feedback easier for us but also reduces the likelihood that the feedback will get lost amongst other chat.
+
+Reading through your feedback so far it is clear that there's a lot of confusion about the timing, goals and nature of these changes. While our communication on these changes so far has been intended more for the press and general player base, we also understand that it would greatly benefit you as addon developers to have a little more clarity. We also hope this clarity better informs your feedback going forward. Please understand that this project is in heavy development right now, so we won't be able to give specific technical details just yet (exactly which things will be locked down, etc). We'll be releasing this more detailed information in the future though, well before this project goes live, so stay tuned for those details in the coming months.
+
+* Although we haven't finalized a target release date for these changes, what we can say is that we'll be giving many months of advance notice before we flip the switch. We want to allow addon devs as much time as possible to test the changes, report issues and provide feedback. We will be announcing the landing place for these changes well ahead of time and taking steps to maximize the amount of hands-on feedback from addon developers before the changes go live.
+
+* Addons provide a huge amount of value to our players, and we have no intention of banning them or anything like that. We are aiming to cause the least amount of collateral damage possible to addons when these changes go live. We know there will be some unintended fallout for addons that are not directly targeted by these changes, but we will be actively taking steps to minimize that damage as much as possible. Your feedback here is vital, since you obviously know best which APIs you currently use and for what purpose.
+
+* Likewise, we aim to minimize the impact on accessibility addons as much as possible. Functionality in this space which is no longer possible after these changes are things we will aim to incorporate into our base game.
+
+* We have seen speculation that we are primarily targeting RWF guilds with these changes. While it is true that Mythic raiding has become increasingly reliant on addons, that is not the primary goal of this project. We are embarking on this project with the aim of leveling the playing field and making the game more approachable for all players. Currently, addons are able to analyze and "solve" combat and coordination mechanics perfectly, and faster than would be possible for an unassisted human player. While many players will naturally seek out any advantage, this also means that players who don't use these addons are at a huge disadvantage. Many players end up feeling excluded from competitive content unless they install, set up, and maintain a number of addons. This is a significant barrier to entry, and we have heard growing feedback over the years from players who resent feeling like they need addons to play the game properly. This project is about doing everything we can to shrink that gap, by building up the baseline functionality of the default UI, while also reining in the "optimal problem-solving" capabilities of the addon API.
+
+* We will also be making substantial changes to how we design our combat and encounters to accompany these addon changes. Removing the ability for addons to "solve" most encounter mechanics means that we can also take a different approach to the design of our encounters going forward. The same goes for certain class mechanics. The goal is to make our class mechanics more approachable and easier to understand without addon solutions. If everything goes to plan, WoW will remain challenging, but the nature of that challenge will be less about managing subtleties of class mechanics and more about collaborating with allies and interacting with encounters.
+
+* There are a number of significant additions and updates to our UI that will go along with these changes. We have already announced that we will be adding a built-in damage meter and making improvements to our nameplates, but that is by no means the extent of our planned changes. The goal is for our base UI to provide players with a good portion of the most important combat information addons currently provide. Most of this functionality will ship at the same time as these addon restrictions, if not sooner. Furthermore, this is an ongoing process: we intend to keep this line of communication open after the restrictions are put in place, and we will continue to listen, iterate, and improve our offerings in subsequent patches.
+
+==October 1, [https://discord.com/channels/327414731654692866/1422999311410790541 Midnight Public Alpha Addon API Changes]==
+Hello again to the members of the WoWUIDev Discord server from the WoW Team at 
+Blizzard! Midnight Public Alpha begins tomorrow, and so we wanted to give you all an 
+update on what to expect in Alpha in terms of addon APIs.
+
+First, let's get the big questions out of the way:
+* The addon API changes we have been talking about for the past several months are coming in Midnight and they will be active in Public Alpha from day 1. 
+* We will be granting Alpha access to addon developers to help provide us with feedback on these API changes. The list of addon devs maintained by the WoWUIDev mods will be our primary source for these invites. Please check with the server mods if you aren't sure if you're on the list or for consideration to be added.
+* Unlike in past expansions, we will have addons enabled throughout Midnight's Alpha and Beta phases.
+* We do expect heavy iteration on these systems throughout Alpha and Beta and will do our best to pass along updates on changes as they go out.
+
+OK, now let's dig into the actual addon API changes coming in Midnight (after this very important Disclaimer).
+
+{| class="darktable"
+|
+;{{text|blizz|Disclaimer}}
+
+Everything you read below is subject to change, and while we are confident that the core 
+systems described are close to what will ship with Midnight, the details can and will change 
+as needed.
+
+;{{text|blizz|Overall Focus & Goals}}
+
+The overall goal of these API changes is to limit addons' ability to perform complex logic 
+based off combat information, and thus optimally solve problems that would otherwise 
+require player thought and coordination. But a secondary goal (almost as important) is to 
+still allow addons to customize the look and feel of the UI (including combat-related UIs). 
+So, while most combat-related APIs have been affected in some way, we have leaned away 
+from restricting APIs entirely or moving more of our UIs into the secure environment where 
+they wouldn't be accessible to addons at all. Instead, we are utilizing a new piece of 
+technology we call Secret Values.
+
+;{{text|blizz|New WoW Lua Construct: Secret Values}}
+
+The easiest way to think of [[Patch_12.0.0/API changes#Secret values|Secret Values]] (Secrets) is that they are like black boxes, which 
+contain a Lua value of any type (number, string, boolean, etc) inside them. Insecure 
+(tainted) Lua code can receive Secrets from our APIs and pass those Secrets into certain 
+APIs, but it cannot actually see the value that is inside of that box. Attempting to compare a 
+Secret with another value (Secret or not) will result in a Lua error, as will attempting to 
+perform arithmetic on one. Untainted Lua code has no such restrictions and can operate 
+on Secret Values pretty much exactly like non-Secrets. APIs that return Secrets are called 
+out in the Lua API docs, and you can also test if a value is Secret by calling the 
+issecretvalue API.
+
+;{{text|blizz|Passing Secret Values into Script Object APIs}}
+
+As mentioned above, tainted code is allowed to pass Secret Values into certain APIs. This 
+includes our script object APIs, but passing a Secret into a script object API will result in the 
+object being marked Secret. What does it mean for an object to be marked Secret? In the 
+very simplest sense, it means that some of its APIs will begin returning Secret Values, while 
+others will become inaccessible to tainted code.
+
+A simple example of this is the SetTexture API. Let's say one of our APIs returns a Secret 
+Value containing a fileID for a spell icon. Addons are allowed to pass that Secret fileID into 
+a Texture's SetTexture API, but doing so will result in GetTexture now returning a Secret 
+when called. You can test if an object has been marked Secret by calling the 
+HasSecretValues API.
+
+;{{text|blizz|Secret Aspects}}
+
+You may have noticed that we said an object flagged as Secret will return Secret Values 
+from "some of its APIs" instead of "all of its APIs". One of the reasons for that is a script 
+object construct called [[Patch_12.0.0/API_changes#Secret_aspects|Secret Aspects]] (Aspects). You can think of a Secret Aspect as a 
+collection of related APIs on that object. Passing a Secret into any of the APIs tagged with a 
+Secret Aspect will cause the object to be marked with that Secret Aspect, causing all APIs 
+tagged with that Aspect to return Secret Values.
+
+A simple example are the APIs that set and query the shown state of a script object 
+(SetShown, IsShown, IsVisible). All 3 of these APIs are tagged as part of the Shown 
+Secret Aspect. So, if you pass a Secret Value into SetShown, the object will be marked with 
+the Shown Secret Aspect, causing IsShown and IsVisible to return Secret Values.
+
+There are a number of different Secret Aspects, and they do not share state with each 
+other. So, an object that been marked with the Shown Secret Aspect will not return Secrets 
+from APIs that are tagged with the Alpha Secret Aspect. APIs and objects can be tagged 
+with more than 1 Secret Aspect. Note that an object being marked with a Secret Aspect will 
+not cause it to be marked as Secret overall (and vice versa). You can test if an object has 
+been marked with a Secret Aspect by calling the HasSecretAspect API.
+
+;{{text|blizz|Secret Anchors}}
+
+When a script object is marked as Secret, it is also marked as having Secret Anchors. When 
+an object has Secret Anchors, its anchor & position APIs are no longer accessible to tainted 
+code. Unlike other APIs affected by the object being Secret, Secret Anchors will propagate 
+to other frames that are anchored to this object. So, if frame B is anchored to frame A, and 
+frame A is marked as having Secret Anchors, frame B will also have Secret Anchors. The 
+Secret Anchor state propagates down the entire anchor chain but does not propagate up 
+the chain (if frame A has Secret Anchors and is anchored to frame Z, frame Z won't inherit 
+those Secret Anchors). You can test if an object has been marked as having Secret Anchors 
+by calling the IsAnchoringSecret API.
+
+;{{text|blizz|Removing Secrets from an Object}}
+
+The Secret state and Secret Aspects marked on an object can be cleared by calling the 
+SetToDefaults API. Doing so will remove all Secret state (including Aspects) from the 
+object and return the object to its default state (as if it had just been created).
+
+;{{text|blizz|Conditional Secrets}}
+
+Some APIs only return Secrets under certain conditions. These APIs are marked with 
+special Secret Predicate tags, indicating which conditions they return Secrets under (e.g. 
+SecretWhenInCombat). These predicates can also apply to event payloads.
+
+;{{text|blizz|Lua API Documentation}}
+
+Secret related information has been added to our Lua API documentation files. Every API 
+that can return a Secret is marked as such in the documentation, as is any API that is not 
+allowed to receive Secrets. If an API belongs to a Secret Aspect that is also shown, as are 
+Secret Predicates. Overall, we have tried to expose as much information as possible about 
+how our APIs interact with Secrets and will continue to add more as we fine tune things. 
+
+;{{text|blizz|Changes to Combat Log, Chat, and Addon Communication}}
+
+Secret Values are not the only changes coming in Midnight. [[COMBAT_LOG_EVENT|Combat Log Events]] are no 
+longer available to addons, and messages in the Combat Log chat tab have been converted 
+to [[UI_escape_sequences#Kstrings|KStrings]] to prevent addons from parsing the information inside them.
+
+There are also some new rules that apply to communication while the player is in an 
+instance. While in an instance, chat messages will be sent to Lua as Secret Values, and 
+addons are not allowed to send communications to other players (either through addon 
+comms or regular chat).
+
+;{{text|blizz|We Want Your Feedback!}}
+
+As we mentioned at the beginning of this post, we are granting addon devs access to Alpha 
+and Beta, and addons will be enabled throughout both testing phases. This is to allow you 
+as much time as possible to test out the changes, make necessary adjustments to your 
+addons and pass along issues and feedback to us.
+
+We understand that these changes will have a large impact on how WoW addons are 
+developed, and that losing previously available addon functionality is likely to be frustrating 
+for some of you. We would encourage you to keep an open mind and hop on Alpha to start 
+testing things out. We hope that most addons (including combat addons) will still be able 
+to provide players with useful functionality, even if it is in a different manner than before. 
+We want to hear your feedback! Feedback and bugs should be added to the #addon-
+restrictions-feedback channel, which we will be monitoring regularly.
+|}
+
+One final note: For the beginning of Alpha, we have taken a very stringent approach in 
+terms of which APIs are permitted to receive Secret Values from tainted code. This is 
+intentional but also shouldn't be viewed as set in stone. The Secret Value system provides 
+us a lot of flexibility to adjust which situations each individual API can and cannot accept 
+Secrets. We will be evaluating every single API throughout Alpha & Beta and making 
+adjustments as we identify addon needs. Your feedback will be vital in guiding exactly 
+which adjustments need to be made. Thanks, and see you on Alpha!
+
+==October 11, [https://discord.com/channels/327414731654692866/1426652212200996874 Upcoming Restriction Changes (Week 3 and later)]==
+Hello again from Blizzard! Below you will find a list of changes we are making to addon restriction APIs in the coming weeks.
+
+Please note that these changes are not the entirety of the changes we are planning on making. This list only contains changes we have already made or which we have committed to making over the next couple alpha releases. We are actively evaluating all of your feedback and will continue to address issues throughout Alpha & Beta.
+
+Keep that feedback coming it's hugely helpful!
+
+<details>
+<summary><font color="#ecbc2a"><big>Coming in Alpha 3 (ETA 10/15)</big></font></summary>
+
+;{{text|blizz|Addon communications and chat access}}
+: The ability to send addon messages and read chat is currently restricted entirely while inside an instance. This has been relaxed to only apply when any of the following are true:
+* A mythic keystone run has started and not yet completed.
+* A PvP match has started and not yet completed.
+* An instance encounter is in progress.
+;{{text|blizz|Cooldown access}}
+: Cooldown access is currently always secret. This has been relaxed to only return secrets when any of the following is true:
+* A mythic keystone run has started and not yet completed.
+* A PvP match has started and not yet completed.
+* An instance encounter is in progress.
+* The player is in combat
+;{{text|blizz|Aura access}}
+: Aura access is currently secret while in combat. This has been slightly tightened to share the same updated restrictions as cooldowns.
+: Additionally, aura APIs that return a single aura from a spell ID or name have been restricted and are no longer callable while aura access is secret.
+;{{text|blizz|Unit resource access}}
+:New {{api|UnitHealthPercent}}, {{api|UnitHealthMissing}}, {{api|UnitPowerPercent}} & {{api|UnitPowerMissing}} APIs have been added (returning secret values). 
+;{{text|blizz|String formatting}}
+: Tainted code will now be allowed to call the following functions with secrets (resulting in secret strings):
+* {{api|string.format}}
+* {{api|string.concat}}
+* {{api|string.join}}
+: Additionally, the Lua concatenation operator has been relaxed and will allow tainted code to concatenate numbers and strings.
+;{{text|blizz|GetRestrictedActionStatus}}
+: A new global {{api|GetRestrictedActionStatus}} API has been added to query whether or not a restriction "type" (eg. secret cooldowns) is actively being enforced.
+;{{text|blizz|Tooltips}}
+: Resolved an issue where tooltips could fail to display if the previously shown tooltip was set up by tainted code.
+</details>
+
+==October 17, [https://discord.com/channels/327414731654692866/1428927889692430336 Upcoming Restriction Changes (Week 4 and later)]==
+
+Blizzard again! Below you will find a list of changes we are making to addon restriction APIs in the coming weeks. 
+
+Same notes as last time: These are not the entirety of the changes we are planning, just the ones already committed to for the next couple of Alpha releases.
+
+<details>
+<summary><font color="#ecbc2a"><big>Coming in Alpha 4 (ETA 10/22)</big></font></summary>
+
+;{{text|blizz|Secret structured tables}}
+: APIs that return structured tables as secrets no longer make the entire table secret * just the values inside.
+:* This doesn't apply to events or APIs that return vectors of data (specific cases where this is problematic are being evaluated).
+;{{text|blizz|Text to Speech}}
+: The {{api|C_VoiceChat.SpeakText}} can now be called with secrets.
+;{{text|blizz|Spells}}
+: Numerous spell APIs ({{api|C_Spell.IsSpellImportant|IsSpellImportant}}, {{api|C_Spell.IsSpellHarmful|IsSpellHarmful}}, {{api|C_Spell.IsSpellInRange|IsSpellInRange}}, etc) can now be called with secrets.
+: [[Struct_SpellCooldownInfo|SpellCooldownInfo]] now contains an end time value.
+: Added a new GetAuraDurationRemainingByAuraInstanceID API.
+;{{text|blizz|Textures}}
+: {{api|t=w|TextureBase:SetRotation|SetRotation}} can now be called with secrets (this applies a new Rotation Secret Aspect).
+: {{api|t=w|TextureBase:SetSpriteSheetCell|SetSpriteSheetCell}} now only accepts secret cell values up to 256. Yeah, we saw that clever scheming going on 😉
+;{{text|blizz|Curve objects}}
+: Added a new "[[ScriptObject Curve|curve]]" Lua object type that will allow various addon functionality with secrets that is not currently possible (see the health bar colors section below for the first use of it).
+;{{text|blizz|Health bar colors}}
+: Addons can now control the color of health bars using a [[ScriptObject ColorCurve|color curve]] to specify which percentages to set each color at.
+;{{text|blizz|Debug tools}}
+: <code>/dump</code> will now print the contents of secret values to the chat frame.
+;{{text|blizz|Documentation}}
+: Auto-generated documentation for events now includes information on security restrictions for registrations and availability of use with the {{api|RegisterEventCallback}} API.
+</details>
+
+<details>
+<summary><font color="#ecbc2a"><big>Coming soon (Alpha 5 and beyond)</big></font></summary>
+
+;{{text|blizz|String formatting}}
+: Various numeric formatting APIs - including {{tlygo|branch=beta|AbbreviateNumbers}} - will be made callable with secrets by tainted code (returned strings will inherit secret state).
+;{{text|blizz|Unit identity access}}
+: Access to creature unit names, GUIDs, and IDs will be made secret while in an instance and no longer be based off combat state.
+;{{text|blizz|Gossips}}
+: We are removing the interactive action requirement on various [[:Category:API_systems/GossipInfo|C_GossipInfo]] APIs.
+;{{text|blizz|Factions}}
+: We are adding a new {{api|t=e|FACTION_STANDING_CHANGED}} event which passes down a non-secret faction ID and updated standing amount.
+;{{text|blizz|Secret mixins}}
+: APIs that return mixins (e.g. [[ColorMixin|Color]], [[Vector2DMixin|Vector2]]) will no longer make the entire table secret - just the values inside.
+;{{text|blizz|Textures}}
+: {{api|t=w|TextureBase:SetTexture|SetTexture}} will no longer accept secret strings.
+;{{text|blizz|Action bars}}
+: We are moving various global ActionBar APIs into [[:Category:API_systems/ActionBar|C_ActionBar]].
+;{{text|blizz|Raid target API}}
+: {{api|SetRaidTarget}} will be made usable via [[SecureActionButtonTemplate]].
+;{{text|blizz|Action buttons}}
+: We will be making various improvements to action button APIs, including (but not limited to) {{tlygo|branch=beta|ActionButton_UpdateCooldown}}.
+;{{text|blizz|Aura tracking}}
+: We will be making various improvements to aura APIs, including (but not limited to) allowing aura vectors to be non-secret (but contain secrets) so they can be iterated.
+;{{text|blizz|Unit power}}
+: We will be making improvements to addon capability using unit power APIs ({{api|UnitPowerDisplayMod}}, etc).
+: {{api|UnitHealthMax}} and {{api|UnitPowerMax}} will no longer return secrets for player units.
+;{{text|blizz|Spellcasts}}
+: {{api|t=e|UNIT_SPELLCAST}} will be adjusted to allow the player's own spellcasts to be non-secret when outside combat.
+;{{text|blizz|Unit death}}
+: We will be adding an event that gets sent down when a unit dies. The GUID payload will be secret in the same cases cooldowns & auras are secret.
+</details>
+
+==October 23, How Midnight’s Upcoming Game Changes Will Impact Combat Addons==
+* https://worldofwarcraft.blizzard.com/en-us/news/24244638/how-midnights-upcoming-game-changes-will-impact-combat-addons
+
+==October 27, [https://discord.com/channels/327414731654692866/1432523094672670821 Upcoming Restriction Changes (Week 5 and later)]==
+Blizzard again! Below you will find a list of changes we are making to addon restriction APIs in the coming weeks. 
+
+These are not the entirety of the changes we are planning, just the ones already committed to for the next couple Alpha releases.
+
+Note that Alpha 4 had more changes than expected, and Alpha 5 has fewer due to build timing (Alpha 4 ended up being built later than expected)
+
+<details>
+<summary>{{text|#ecbc2a|<big>Things that snuck into Alpha 4 (released 10/22)</big>}}</summary>
+
+;{{text|blizz|Secret Mixins}}
+:APIs that return [[mixin]]s (e.g. {{api|ColorMixin|Color|t=t}}, {{api|Vector2DMixin|Vector2|t=t}}) no longer make the entire table secret - just the values inside.
+;{{text|blizz|Faction}}
+:Added a new {{api|FACTION_STANDING_CHANGED|t=e}} event which passes down a non-secret faction ID.
+;{{text|blizz|Gossips}}
+:Removed the interactive action requirement on various C_GossipInfo APIs.
+;{{text|blizz|Textures}}
+:{{api|t=a|TextureBase:SetTexture|SetTexture}} no longer accepts secret strings (but still accepts secret numbers)
+;{{text|blizz|Action Bars}}
+:We moved various global ActionBar APIs into C_ActionBar. 
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Coming in Alpha 5 (ETA 10/29)</big>}}</summary>
+;{{text|blizz|Status bars}}
+:Fixed an issue that caused {{api|t=a|StatusBar:GetStatusBarTexture|GetStatusBarTexture}} to return a secret in some cases.
+
+{{text|#ecbc2a|<big>Coming in Alpha 6 (ETA 11/5)</big>}}
+;{{text|blizz|Unit identity access}}
+:Access to creature unit names, [[GUID]]s, and IDs are secret while in an instance (and are no longer affected by combat state).
+;{{text|blizz|Unit power}}
+:{{api|UnitHealthMax|t=a}} and {{api|UnitPowerMax|t=a}} will no longer return secrets for player units.
+;{{text|blizz|Spellcasts}}
+:We are relaxing restrictions around {{api|UNIT_SPELLCAST|t=e}} so the player's own spellcasts will no longer be secret (even in combat).
+;{{text|blizz|Misc changes.}}
+*Comparing two possibly-secret values of different types will no longer error and will produce a non-secret false.
+*Comparing two possibly-secret nil values will no longer error and will produce a non-secret true.
+*<if x then> can now effectively be used as an equivalent to <if type(x) ~= "nil"> for secret values.
+*Converting secret Lua strings to numbers is no longer permitted via the {{api|tonumber|t=a}} API or any C API that would otherwise accept a number.
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Coming soon</big>}}</summary>
+
+;{{text|blizz|String formatting}}
+:Various numeric formatting APIs - including {{api|AbbreviateNumbers|t=a}} - will be made callable with secrets by tainted code (returned strings will inherit secret state).
+;{{text|blizz|Raid target API}}
+:{{api|SetRaidTarget|t=a}} will be made usable via [[SecureActionButtonTemplate]].
+;{{text|blizz|Action buttons}}
+:We will be making various improvements to action button APIs, including (but not limited to) ActionButton_UpdateCooldown.
+;{{text|blizz|Aura tracking}}
+:We will be making various improvements to aura APIs, including (but not limited to) allowing aura vectors to be non-secret (but contain secrets) so they can be iterated.
+;{{text|blizz|Unit death}}
+:We will be adding an event that gets sent down when a unit dies. The GUID payload will be secret in the same cases cooldowns & auras are secret.
+;{{text|blizz|Unit power}}
+:We will be relaxing restrictions around {{api|UnitPower|t=a}} so the player's secondary resources are no longer secret (primary resources will remain secret).
+</details>
+
+==November 4, [https://discord.com/channels/327414731654692866/1435309770860134419 Upcoming Restriction Changes (Week 6 and later)]==
+Blizzard again! Below you will find a list of changes we are making to addon restriction APIs in the coming weeks. 
+
+These are not the entirety of the changes we are planning, just the ones already committed to for the next couple Alpha/Beta releases.
+[[Category:API patch changes]]
+
+<details>
+<summary>{{text|#ecbc2a|<big>Coming in Alpha 6 (ETA 11/5)</big>}}</summary>
+
+;{{text|blizz|Unit identity access}}
+:Access to creature unit names, [[GUID]]s, and IDs are secret while in an instance (and are no longer affected by combat state).
+;{{text|blizz|Unit power}}
+:{{api|UnitHealthMax}} and {{api|UnitPowerMax}} no longer return secrets for player units.
+;{{text|blizz|Spell casts}}
+:We have relaxed restrictions around spellcast APIs so the player's own spellcasts will no longer be secret (even in combat). Units controlled by the player (including pets) are also included.
+;{{text|blizz|Miscellaneous changes}}
+*Equality comparing two possibly-secret values of different types will no longer error and will produce a non-secret false.
+*Equality comparing two possibly-secret nil values will no longer error and will produce a non-secret true.
+*<<code>if x then</code>> can now effectively be used as an equivalent to <<code>if type(x) ~= "nil"</code>> for secret values.
+*Converting secret Lua strings to numbers is no longer permitted via the {{api|tonumber}} API or any C API that would otherwise accept a number.
+;{{text|blizz|String formatting}}
+:{{api|AbbreviateNumbers}} and {{api|AbbreviateLargeNumbers}} have been moved to C++ and are now callable with secrets by tainted code (returned strings inherit secret state).
+;{{text|blizz|Auras}}
+*The vectors returned by {{api|C_UnitAuras.GetUnitAuras|GetUnitAuras}} and the {{api|t=e|UNIT_AURA}} event are no longer secret (but their contents are).
+*AuraInstanceIDs are no longer secret.
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Coming soon</big>}}</summary>
+
+;{{text|blizz|Secrets in Saved Variables}}
+:[[Saving variables between game sessions|Saved variables]] will no longer be allowed to contain secrets.
+;{{text|blizz|Forced interface matching for 12.0.0}}
+:Mainline addons that don't have an [[TOC format|interface version]] of 120000 or higher ''will not be allowed to load in 12.0.0'' builds at all (with no player override).
+;{{text|blizz|Smooth status bars}}
+:We will be adding native support for status bars to smoothly transition between values.
+;{{text|blizz|Timer status bars}}
+:We will be adding support for timer status bars that automatically update on their own based on the current time.
+;{{text|blizz|Secret color text}}
+:We will be adding a way to wrap text in secret colors.
+;{{text|blizz|Raid target API}}
+:{{api|SetRaidTarget}} will be made usable via [[SecureActionButtonTemplate|SABT]].
+;{{text|blizz|Action buttons}}
+:We will be making various improvements to action button APIs, including (but not limited to) ActionButton_UpdateCooldown.
+;{{text|blizz|Unit death}}
+:We will be adding an event that gets sent down when a unit dies. The [[GUID]] payload will be secret in the same cases cooldowns & auras are secret.
+;{{text|blizz|Unit power}}
+:We will be relaxing restrictions around {{api|UnitPower}} so the player's secondary resources are no longer secret (primary resources will remain secret). This includes Stagger 🙂
+;{{text|blizz|Boolean secrets}}
+:We will be addressing various pain-points with Boolean secrets (by adding APIs that accept them in safe ways).
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Under consideration</big>}}</summary>
+;{{text|blizz|Custom Unit Frame Pain Points}}
+:We are looking at ways to improve the ability for addons to re-create [[Unit Frame|unit frames]] from scratch, including (but not limited to) the possibility of adding a unit health bar template that includes all of the various pieces needed by unit frame health bars (absorb bars, predicted heals, etc).
+;{{text|blizz|Aura Filtering Improvements}}
+:We are looking at ways to improve aura filtering.
+;{{text|blizz|SecureAuraHeaderTemplate}}
+:We are looking at ways to improve [[SecureAuraHeaderTemplate]] and make it more useful for addons.
+</details>
+
+==November 5, DBM/BW interview with Ion Hazzikostas==
+{{#ev:youtube|SgyuJWIQw14|Boss mod addon authors talked to Ion Hazzikostas about Midnight + Healing addons update}}
+
+{{bluepost|poster=Ion Hazzikostas|date=2025-11-05|body=
+<details>
+<summary>Quoted text</summary>
+A lot of this sounds positive. The only thing I heard that made me recoil a bit was hearing Ion's take on audible countdowns to enemy spells.
+
+So, we're aloud to have a visual timer for the ability, but hearing a countdown instead of seeing it is me being a fuckin noob according to him. Fair enough I guess, but I'd also like to see him heal some of these bosses at an 18 and time his ramp down to the second, consistently, every time the ability is coming up.
+
+Granted, I don't wanna argue in bad faith, ramping will likely be a little less important with so many healing amps being removed (a direction I support), I guess I just don't see how there's anything wrong with hearing a countdown as opposed to seeing it, and I kinda resent the sentiment that hearing a countdown is "automating" my gameplay. Timing things down to the second can be the difference between failure or success in this game, and I've got plenty to look at and react to in game as it is.
+
+Perhaps they're sincere in that gameplay across the board will change to support their vision for addon restriction, but frankly, what I'm hearing is blizzard taking on a large responsibility to design their gameplay to support this hardline direction and honestly, I doubt they have the time or staff to devote to that season after season. I hope I'm wrong about that.
+
+Despite everything, I'm excited to play midnight and I'm glad we're making big changes. I'd rather stumble on big changes than continue down the road we were on. 
+</details>
+
+Hi, I just wanted to clarify my comments on this point.
+
+We for sure could have been clearer on our philosophical goals here, which have been spread across multiple interviews and videos over the past year. We're working on a blog that can be a single source of truth there. The overarching goal of the changes in Midnight is to level the playing field and do what we can to make it so that while addons can still thoroughly personalize your experience, they aren't giving you an objective competitive advantage over people using the base UI. In pursuit of that goal, we've made changes to the addon API, to our base UI, and to how we design our combat and encounters.
+
+So in this context, it's not that we view a spoken countdown as a form of automation or as inherently problematic; rather, we feel that it would be inappropriate to allow only addon users to have that functionality. We also have concerns that giving addons access to exactly how many seconds remain before a specific spell is going to fire could open the door to creative problem-solving solutions.
+
+Our focus is on designing our Midnight encounters to have both clear telegraphs ahead of time, and sufficient time to react (more time than we would have provided in a world where we knew the majority of players doing organized content were using addons to ensure they were ready for every major ability). If it turns out that we're unable to hit that mark, we're definitely open to adding an audio countdown solution to help, but we'd want it to be available in the base UI rather than requiring an addon.
+|link=https://www.reddit.com/r/wow/comments/1op6acz/comment/nnap3ga/}}
+
+==November 11: [https://discord.com/channels/327414731654692866/1437889756460744735 Upcoming Restriction Changes (Beta 1 and later)]==
+
+Blizzard again! Below you will find a list of changes we are making to addon restriction APIs in the coming weeks. 
+
+These are not the entirety of the changes we are planning, just the ones already committed to for the next few Beta releases.
+
+<details>
+<summary>{{text|#ecbc2a|<big>Coming in Beta 1</big>}}</summary>
+;{{text|blizz|Spells & Auras}}
+:We have added a means by which we can mark particular spellcasts and auras as never being secret.
+:APIs that return information about spellcasts or auras will still operate as they did before but these particular spells/auras will be sent to Lua as non-secret values.
+:We will be evaluating which spellcasts & auras we want to flag over the next few weeks, but likely early candidates include Profession and [[Skyriding|Dragonriding]] spells.
+;{{text|blizz|Secrets in Saved Variables}}
+:[[Saving variables between game sessions|Saved variables]] are no longer allowed to contain secrets.
+:Serialization of secret values in saved variables will result in them being replaced with nil values. A comment will also be present.
+;{{text|blizz|Unit Identity APIs}}
+:{{api|UnitIsUnit}} no longer works when either [[UnitId|unit]] is secret.
+:Unit APIs that operate on unit tokens will now check the secrecy of units all the way along target chains, and be disallowed if any of them are secret (e.g. <code>{{api|UnitName("boss1target")}} == UnitName("raid2")</code> will now fail due to boss1 being secret).
+;{{text|blizz|Secret Anchoring}}
+:Calling any API with secrets that applies a Text aspect to fontstrings now marks anchoring as being secret.
+:All other anchoring and measurement related APIs now returns secrets instead of erroring when called from tainted code if anchoring is secret.
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Coming soon</big>}}</summary>
+;{{text|blizz|Raid Target API}}
+:{{api|SetRaidTarget}} will be made usable via [[SecureActionButtonTemplate|SABT]].
+;{{text|blizz|Action Buttons}}
+:We will be making various improvements to action button APIs, including (but not limited to) ActionButton_UpdateCooldown.
+;{{text|blizz|Unit Death}}
+:We will be adding an event that gets sent down when a unit dies. The [[GUID]] payload will be secret in the same cases cooldowns & auras are secret.
+;{{text|blizz|Unit Power}}
+:We will be relaxing restrictions around {{api|UnitPower}} so the player's secondary resources are no longer secret (primary resources will remain secret). This includes Stagger 🙂
+;{{text|blizz|Forced interface matching for 12.0.0}}
+:Mainline addons that don't have an [[TOC format|interface version]] of <code>120000</code> or higher will not be allowed to load in 12.0.0 builds at all (with no player override).
+;{{text|blizz|Boolean secrets}}
+:We will be addressing various pain-points with Boolean secrets (by adding APIs that accept them in safe ways).
+;{{text|blizz|Smooth Status Bars}}
+:We will be adding native support for status bars to smoothly transition between values.
+;{{text|blizz|Timer Status Bars}}
+:We will be adding support for timer status bars that automatically update on their own based on the current time.
+;{{text|blizz|Secret Color Text}}
+:We will be adding a way to wrap text in secret colors.
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Under consideration</big>}}</summary>
+;{{text|blizz|Custom Unit Frame Pain Points}}
+:We are looking at ways to improve the ability for addons to re-create [[Unit Frame|unit frames]] from scratch, including (but not limited to) the possibility of adding a unit health bar template that includes all of the various pieces needed by unit frame health bars (absorb bars, predicted heals, etc).
+;{{text|blizz|Aura Filtering Improvements}}
+:We are looking at ways to improve aura filtering.
+;{{text|blizz|SecureAuraHeaderTemplate}}
+:We are looking at ways to improve [[SecureAuraHeaderTemplate]] and make it more useful for addons.
+</details>
+
+==November 13: [https://discord.com/channels/327414731654692866/1438595756083904614 Midnight Public Beta Update]==
+In addition to this post on the WoWUIDev discord, Blizzard made a public news post: [https://worldofwarcraft.blizzard.com/en-us/news/24246290 Combat Philosophy and Addon Disarmament in Midnight]
+
+Hello again from the World of Warcraft UI Engineering team! As the Alpha phase of Midnight 
+comes to a close and Beta begins, we would like to take a moment to hit the pause button, 
+answer some of your most common questions, and reflect on the process so far.
+
+But first, we would like to thank you again for all your feedback posts (yes, even the spicy 
+ones). We have been keeping a close eye on the issues you have raised in the #addon-
+restrictions-feedback channel and have created over 50 tasks and bugs from them so far. 
+We know that analyzing each set of changes, making necessary updates to your addon 
+code and providing us with this feedback takes time and effort for you and we truly 
+appreciate you taking the time to do so.
+
+<details open>
+<summary>{{text|#ecbc2a|<big>What is the goal of this initiative?</big>}}</summary>
+
+Ion covers this subject in much more detail in his post, but perhaps the simplest way to 
+express the overall philosophy of this project is: Addons should not be able to provide a 
+competitive advantage in combat. While preventing addons from being able to trivialize 
+encounter mechanics is certainly part of this goal, that isn't the entirety of the goal. Any 
+time a plurality of players agrees that a certain addon is required to perform competitively 
+in end game content or with a certain spec, that is a problem. While we have no issue with 
+addons customizing how combat information we show in our UI is presented to players 
+(whether for accessibility or personal preference reasons), players should never feel like 
+they are at a competitive disadvantage if they choose not to use an addon.
+</details>
+
+<details open>
+<summary>{{text|#ecbc2a|<big>What specific functionality are we aiming to prevent addons from providing?</big>}}</summary>
+
+{{text|blizz|1. Making encounter decisions for the player}}
+
+'''Reasoning:''' When addons can process combat information to make decisions for 
+players, it means that players no longer need to make these decisions themselves. This 
+in turn lowers the challenge in our combat and encounters, but only for players using 
+these addons. To make up for this reduction in challenge, our designers must rely more 
+heavily on twitch gameplay (shorter enemy cast times, increased punishment for not 
+executing perfectly). This results in players who choose not to use addons (and even 
+those that do in some cases) having to deal with a much higher level of moment-to-
+moment complexity.
+
+'''APIs Affected:''' The most obvious APIs that allow addons to provide this functionality 
+are combat log events, addon communication and player debuffs. Enemy information 
+(spellcasts, auras, health, power) is also involved. But there are also cases where player 
+or group member health and power can be used to make these decisions, so we have 
+been cautious about exposing those values fully as well. We know that not having full 
+access to some of this combat information is a burden for other types of addons as well 
+(e.g. unit frame addons), so we are actively looking for ways to address the pain points 
+in those usages without making this information non-secret.
+
+{{text|blizz|2. Creating optimal rotation helpers}}
+
+'''Reasoning:''' Rotation helpers in and of themselves are not something we view as 
+harmful. The same goes for addons that allow players to keep track of their cooldowns. 
+Teaching players how to play their spec at a baseline level or helping them remember 
+that a cooldown is ready are things we support. Unfortunately, the same information 
+that allows addons to create a simple rotation helper can also be used to show players 
+the truly optimal action to take at any given time. Another way to think about this is that 
+we have no issues with addons allowing a player to perform at a competent level, but 
+when an addon allows players to perform at a truly optimal level, it gives those players 
+an unfair advantage. This is why our Combat Assistant feature is non-optimal by design, 
+aiming to help players achieve average or even slightly above average DPS, but never 
+fully optimal DPS. Performing at the very highest levels should always require practice 
+and skill.
+
+'''APIs Affected:''' The primary APIs that allow addons to provide this functionality are 
+those that return information about the player's cooldowns and auras, and it is for this 
+reason that these APIs are likely to remain secret. Again, we recognize that many 
+addons use these APIs for other purposes (e.g. action bar addons), so providing 
+workarounds for those cases is one of our primary focuses in Beta.
+
+{{text|blizz|3. Simplifying enemy names (e.g. "Healer"), cast names ("Frontal"), or colorizing unit nameplates based on priority}}
+
+'''Reasoning:''' While this functionality may seem somewhat benign at first, it has played 
+an important part in reducing the challenge level in end-game content over the last 
+several years, particularly in M+. For most of WoW's history, learning which enemies 
+were the highest priority or what to do when a certain spell is being cast has required 
+knowledge, built up through practice and research. But when addons are able to call 
+out exactly which enemies to kill first, which casts to interrupt and which enemies to 
+run away from, that knowledge is no longer necessary. With that knowledge and 
+mastery no longer required, we must compensate through other means in order to 
+maintain a satisfying level of challenge for players. Larger packs of enemies become 
+the norm, as do shorter cast times on lethal spells. Essentially, we are forced to replace 
+mastery and knowledge gained through time with twitch gameplay that punishes 
+players who aren't using addons and/or have slower reaction times. We recognize that 
+our current naming approach does not always provide enough clarity, especially with 
+longer creature or cast names, so we are also working on ways to address this on the 
+design side for Midnight.
+
+'''APIs Affected:''' APIs that allow addons to identify specific enemies and enemy 
+spellcasts are the primary ones that need to be locked down to prevent this behavior.
+</details>
+
+<details open>
+<summary>{{text|#ecbc2a|<big>Without addons providing this functionality, won't players be shut out of content they enjoy?</big>}}</summary>
+
+This is one of the most common worries we have heard expressed not only among addon 
+developers but among players at large. The important thing to remember here is that we are 
+not making these addon changes in a vacuum; they are being paired with significant 
+changes to our combat and encounters as well. Now that addons will no longer be able to 
+think for the player, we have been able to reduce our reliance on the measures we leaned 
+on previously to provide challenge.
+
+When players are not told immediately what to do when an enemy starts casting a lethal 
+spell, we can increase the cast time on that spell. When players affected by a certain 
+debuff are not automatically marked by an addon so other players can stack on or run away 
+from them, we can give players more time to realize what they should do in those situations 
+and then execute. And when addons cannot tell the player exactly which spell to cast at 
+any given time, we can reduce the complexity of our spec rotations, so players can decide 
+on their own which spell to cast next. We have been busy making these needed 
+adjustments to our classes and encounters and look forward to players being able to 
+experience them in Beta and after launch.
+
+How these changes affect accessibility has been one of our main focuses throughout this 
+project, and we are of the strong belief that we should be adding necessary accessibility 
+features to our base game and not relying solely on addons to pick up that slack. As such, 
+we have been adding accessibility-focused features (like the new Combat Audio Alert 
+system, and sound alerts in Cooldown Manager) throughout Alpha and will continue to 
+work on them all the way up through launch. We know that we won't have time to bring 
+every addon accessibility feature into the base game by launch, and there will be a great 
+deal of accessibility functionality that addons can still provide in Midnight. So we are 
+focusing on the features that addons will no longer be able to provide first, with many more 
+features coming post launch.
+</details>
+
+<details open>
+<summary>{{text|#ecbc2a|<big>Reflections on Alpha, Plans for Beta</big>}}</summary>
+
+Alpha has been a whirlwind of activity for our team, filled with ongoing work on these addon 
+restrictions as well as the many UI features in Midnight (Cooldown Manager, Nameplates, 
+Damage Meters, External Defensives, and more). We are happy with how the Secret Value 
+system has performed and with the adjustments we have made throughout Alpha, but we 
+also recognize that we still have a lot of work ahead of us.
+
+Your feedback is absolutely vital in this process. We know the things we want to prevent 
+addons from doing, and which APIs need to be changed to accomplish that. What is often a 
+lot harder for us to predict is exactly how those changes will affect addons attempting to 
+provide other types of functionality. This is an area where you, as addon developers, are 
+truly the experts and as such we are reliant on your feedback to point out these pain points.
+
+With that in mind, our plans for Beta are centered around the following:
+
+{{text|blizz|1. Concentrating our efforts on making the highest-impact changes to reduce pain points for addons}}
+
+We acknowledge that we are not going to have time to address all the pain points you 
+have been pointing out before prepatch, so it is of utmost importance that we identify 
+and work on the changes that will have the largest possible impact.
+
+{{text|blizz|2. Opening direct communication lines with more addon developers}}
+
+Concentrating on the highest-impact changes requires us to be able to identify exactly 
+what those high priority changes are, so we would like to reach out to more of you 
+directly to chat. While we have had (and continue to have) direct contact with a number 
+of different addon developers, we are looking to broaden that reach in Beta. Time is 
+limited, so we will be concentrating these efforts mostly on developers of widely used 
+addon libraries (particularly those that facilitate visual customizations). We will be 
+reaching out to some of you over the coming weeks to open those lines of 
+communication. Please know that even if you aren't among this group, it doesn't mean 
+that your feedback is not important to us. We will continue to monitor all of your 
+feedback threads and make necessary tasks from them.
+
+Thank you again for all your feedback so far. We hope this post helps provide some of the 
+clarity you have been seeking. We will be keeping a close eye on discussions so we can 
+further clarify things if needed. See you all in Beta!
+</details>
+
+==November 17: [https://discord.com/channels/327414731654692866/1440086571700326471 Midnight Beta 2 (and later) Changes]==
+
+Blizzard again! Below you will find a list of changes we are making to addon restriction APIs in the coming weeks. 
+
+These are not the entirety of the changes we are planning, just the ones already committed to for the next few Beta releases.
+
+''Editor's note: Lines marked with a * are new to this week's post, and the marks were added by the wiki.''
+
+<details>
+<summary>{{text|#ecbc2a|<big>Coming in Beta 2</big>}}</summary>
+;{{text|blizz|Forced interface matching for 12.0.0}}
+:Mainline addons that don't have an [[TOC format|interface version]] of <code>120000</code> or higher are not allowed to load in 12.0.0+ builds at all (with no player override).
+;{{text|blizz|Secret Color Text}}
+:{{api|WrapTextInColorCode}} now works with secret strings.
+:Added a suite of utility functions in the new C_ColorUtil namespace, all of which support secret strings.
+;{{text|blizz|Secret-related Lua errors}}*
+:Improved lua error messaging when a script object API fails due to being passed secrets.
+;{{text|blizz|AbbreviateNumbers}}*
+:Made various improvements to the performance of the recently updated {{api|AbbreviateNumbers|AbbreviatedNumbers}} APIs.
+</details>
+ 
+<details>
+<summary>{{text|#ecbc2a|<big>Currently being worked on</big>}}</summary>
+;{{text|blizz|Action Buttons}}
+:We will be making various improvements to action button APIs, including (but not limited to) ActionButton_UpdateCooldown.
+;{{text|blizz|Unit Power}}
+:We will be relaxing restrictions around {{api|UnitPower}} so the player's [[resource|secondary resources]] are no longer secret (primary resources will remain secret). This includes Stagger 🙂
+:We will be adding an API that allows addons to check if a unit doesn't use a specific power (i.e. has 0 max power of that type).
+;{{text|blizz|Smooth Status Bars}}
+:We will be adding native support for status bars to smoothly transition between values.
+;{{text|blizz|Cooldowns}}*
+:Similar to our recent changes for spellcasts and auras, we will be adding a way for us to flag a particular spell's cooldown as non-secret.
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Coming soon</big>}}</summary>
+;{{text|blizz|Raid Target API}}
+:{{api|SetRaidTarget}} will be made usable via [[SecureActionButtonTemplate|SABT]].
+;{{text|blizz|Unit Death}}
+:We will be adding an event that gets sent down when a unit dies. The [[GUID]] payload will be secret in the same cases cooldowns & auras are secret.
+;{{text|blizz|Boolean secrets}}
+:We will be addressing various pain-points with Boolean secrets (by adding APIs that accept them in safe ways).
+;{{text|blizz|Timer Status Bars}}
+:We will be adding support for timer status bars that automatically update on their own based on the current time.
+;{{text|blizz|Player Target}}*
+:We will be adding an API to allow addons to check if a unit is the player's current target (which will return a non-secret bool).
+;{{text|blizz|Tooltips}}*
+:We will be addressing various issues with tooltips and taint during combat.
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Under consideration</big>}}</summary>
+;{{text|blizz|Custom Unit Frame Pain Points}}
+:We are looking at ways to improve the ability for addons to re-create [[unit frame]]s from scratch, including (but not limited to) the possibility of adding a unit health bar template that includes all of the various pieces needed by unit frame health bars (absorb bars, predicted heals, etc).
+;{{text|blizz|Aura Filtering Improvements}}
+:We are looking at ways to improve aura filtering.
+;{{text|blizz|SecureAuraHeaderTemplate}}
+:We are looking at ways to improve [[SecureAuraHeaderTemplate]] and make it more useful for addons.
+;{{text|blizz|Mythic+ Trash Count APIs}}*
+:We are considering adding APIs to allow addons to be able to keep track of trash counts in [[Mythic+|M+]].
+</details>
+
+==November 19: GameInformer interview with Ion Hazzikostas==
+{{#ev:youtube|fELjCCqsO3g}}
+
+{{Bluepost|poster=Ion Hazzikostas|date=2025-11-19|body=
+
+Earlier today we pushed a client hotfix to beta to change the way nameplate stacking/overlapping works, as we know it's been way off the mark. We'll make further changes as needed based on playtesting/feedback in the coming beta updates.
+
+Nameplates, unitframes, and raid frames are all seeing ongoing polish (and in some cases we need to set up designer logic for better defaults on buff/debuff visibility). When it comes to UI features, players on beta will see more things go live in a more work-in-progress state than we'd usually target for, say, a questline or a raid boss, because we want to get feedback as quickly as possible even while we know we still have work to do on our end.
+
+There's a lot of discussion in this thread about people trying to go into Midnight (or "preparing" in live TWW) with zero addons after using a bunch of different ones for years, and feeling frustrated. But our goal has never been to get people who enjoy the customization that addons offer to stop using them entirely. We want to keep improving the base UI such that fewer people feel addons are necessary to enjoy the game, but there's a reason last week's blog was about "Addon Disarmament" and not "Addon Removal." The focus has always been on limiting combat performance advantages, and anything else that has been affected was collateral damage that we are working on repairing.
+
+When it comes to aesthetic customization, we could put in years of extra development on the UI and still not fully capture the thousands of variations of personal preference that addons enable. And if we tried, the base UI interface settings and edit mode would become a mess of endless niche options.
+
+While we have UX designers focused on refining the base UI offerings that are being tested now (and we know a lot of refinement is still needed), a major focus for our UI engineers, which isn't captured in patch notes, is working with addon developers to provide new functions and other support to help re-enable a wide range of cosmetic addons that touch unit frames, action bars, and more, so that they can still work in Midnight. If you think the default UI is ugly, or you prefer your secondary resources displayed in a certain way, that's entirely your prerogative, and we want there to be as many possible addon options to allow you to change the size, shape, color, texture, and location of every element (as long as those changes aren't driven by real-time combat logic) in Midnight and beyond.
+|link=https://www.reddit.com/r/wow/comments/1p1f3fh/comment/npqsxe3/}}
+
+==November 24: [https://discord.com/channels/327414731654692866/1442631600624898149 Midnight Beta 3 (and later) Changes]==
+
+Blizzard again! Below you will find a list of changes we are making to addon restriction APIs in the coming weeks. 
+
+These are not the entirety of the changes we are planning, just the ones already committed to for the next few Beta releases.
+
+'''IMPORTANT: Unfortunately there will be no Beta build this week''', due to the Thanksgiving holiday here in the US (yes I know we are strange ones, what with our obsession around gobbling turkeys and what-not). '''Beta 3 will be released next week instead''' (but will include more changes than usual due to the extra week). The following changes are those already made in the Beta 3 build (more will be added before it ships).
+
+''Editor's note: Lines marked with a * are new to this week's post, and the marks were added by the wiki.''
+
+<details>
+<summary>{{text|#ecbc2a|<big>Coming in Beta 3 (ETA 12/2)</big>}}</summary>
+;{{text|blizz|Smooth Status Bars}}
+:We have added native support for status bars to smoothly transition between values.
+:Usage: {{api|StatusBar:SetValue(value, Enum.StatusBarInterpolation.ExponentialEaseOut)}} ({{api|StatusBar:SetMinMaxValues|SetMinMaxValue}} also has the extra optional parameter)
+:The {{api|StatusBar:SetFillStyle|SetFillStyle}} method on StatusBar has been updated to take a StatusBarFillStyle enum value rather than a string like "REVERSE".
+;{{text|blizz|Unit Power}}*
+:We have relaxed restrictions around {{api|UnitPower}} so the player's [[Resource|secondary resources]] are no longer secret (primary resources remain secret). Affected resources: [[Combo Points]], [[Runes]], [[:Soul Shards]], [[Holy Power]], [[Chi]], [[Arcane Charge]]s, [[Essence]]. The [[:Maelstrom Weapon]] aura will be flagged as non-secret in an upcoming build.
+:The {{api|UnitStagger}} API no longer returns secrets when called for the player.
+:{{api|UnitPowerMax}} will now return a non-secret 0 value if the unit doesn't use the power type passed in.
+;{{text|blizz|Secret Testing}}*
+:We have added several cvars that allow addon authors to replicate various restricted states for testing purposes (none of them save between sessions):
+::{{api|t=c|addonChatRestrictionsForced}}, {{api|t=c|secretAurasForced}}, {{api|t=c|secretCooldownsForced}}, {{api|t=c|secretUnitIdentityForced}}, {{api|t=c|secretSpellcastsForced}}, {{api|t=c|secretUnitPowerForced}}, {{api|t=c|secretUnitPowerMaxForced}}.
+::None of these CVars will persist across client restarts.
+:We will be adding a test encounter and several test units (who spam various kinds of spells) inside the [[MOTHERLODE!!]] dungeon to allow addons devs to test boss warnings and enemy nameplates/unit frames in an encounter setting (without having to run real dungeons over and over).
+:The test encounter will be located on the beach to the right of the entrance.
+;{{text|blizz|UIFrameFlash_OnUpdate}}*
+:Fixed an issue where receiving a whisper while in chat messaging lockdown would result in Lua error spam originating in the {{api|UIFrameFlash|UIFrameFlash_OnUpdate}} function.
+;{{text|blizz|Tooltips}}
+:We have fixed several secret-related tooltip Lua errors (more to come soon)
+;{{text|blizz|FontString Measurement}}
+:The {{api|FontString:CalculateScreenAreaFromCharacterSpan|CalculateScreenAreaFromCharacterSpan}} and {{api|FontString:FindCharacterIndexAtCoordinate|FindCharacterIndexAtCoordinate}} APIs have had additional protections added to them to prevent addons from using them on fontstrings with the text secret aspect applied to them.
+:[[XML/ScrollingMessageFrame|ScrollingMessageFrame]] has had further protection added to prevent the above exploits.
+;{{text|blizz|Exploit Fixes}}*
+:Fixed an exploit that allowed addons to call arbitrary functions with creative use of [[SecureActionButtonTemplate]].
+:Removed {{api|secretunwrap}} from the global table.
+:{{api|t=e|UNIT_SPELLCAST_SENT}} now sends the target name parameter as a secret.
+;{{text|blizz|Misc Fixes}}*
+:{{api|Region:SetAlpha|SetAlpha}} now always clamps its value to the range [0, 1] without raising an error.
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Currently being worked on (likely in Beta 3)</big>}}</summary>
+;{{text|blizz|Cooldowns}}
+:Similar to our recent changes for spellcasts and auras, we are adding a way for us to flag a particular spell's cooldown as non-secret.
+;{{text|blizz|Auras}}*
+:We are making various improvements to Aura APIs to address issues raised in the ⁠addon-restrictions-feedback channel.
+;{{text|blizz|Player Target}}*
+:We are relaxing restrictions on the {{api|UnitIsUnit}} API to allow it to return a non-secret value when comparing units with the following unit tokens: target, focus, mousover, softenemy, softinteract, softfriend.
+;{{text|blizz|Boolean secrets}}
+:We are addressing various pain-points with Boolean secrets (by adding APIs that accept them in safe ways).
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Coming soon</big>}}</summary>
+;{{text|blizz|Action Buttons}}
+:We will be making various improvements to action button APIs to address issues raised in the ⁠addon-restrictions-feedback channel.
+;{{text|blizz|Tooltips}}
+:We will be addressing various issues with tooltips and taint during combat.
+;{{text|blizz|Mouse-Less UI Accessibility}}*
+:We will be addressing pain points faced by gamepad and accessibility addons around emulating mouse interactions with arbitrary frames (exact details are yet to be decided).
+;{{text|blizz|More Curves!}}*
+:We will be adding more usages of the curve tech we added back in Alpha 4. Candidates under consideration for curve treatment include: Important Spellcasts, Interruptible Spellcasts, Aura Dispel Types, Stealable Auras. If you have other candidates you would like considered please provide them in the feedback channel
+;{{text|blizz|Aura Sorting}}*
+:We will be adding support for sorting auras by remaining duration.
+;{{text|blizz|Timer Status Bars}}
+:We will be adding support for timer status bars that automatically update on their own based on the current time.
+;{{text|blizz|Raid Target API}}
+:SetRaidTarget will be made usable via SABT.
+;{{text|blizz|Unit Death}}
+:We will be adding an event that gets sent down when a unit dies. The GUID payload will be secret in the same cases cooldowns & auras are secret.
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Under consideration</big>}}</summary>
+;{{text|blizz|Aura Filtering Improvements}}
+:We are looking at ways to improve aura filtering.
+;{{text|blizz|Mythic+ Trash Count APIs}}
+:We are considering adding APIs to allow addons to be able to keep track of trash counts in M+.
+</details>
+
+==December 1: [https://discord.com/channels/327414731654692866/1445127028113145970 Midnight Beta 3 (updated 4real) Changes]==
+
+Blizzard again! Below you will find a list of changes we are making to addon restriction APIs in the coming weeks. 
+
+These are not the entirety of the changes we are planning, just the ones already committed to for the next few Beta releases.
+
+''Editor's note: Lines with an 🆙 mark were moved up from a lower section (or updated) from last week's post. Lines marked with 🆕 are new to this week's post.''
+
+<details>
+<summary>{{text|#ecbc2a|<big>Coming in Beta 3 (ETA 12/3)</big>}}</summary>
+;{{text|blizz|Smooth Status Bars}}
+:We have added native support for status bars to smoothly transition between values.
+:Usage: {{api|StatusBar:SetValue(value, Enum.StatusBarInterpolation.ExponentialEaseOut)}} ({{api|StatusBar:SetMinMaxValues|SetMinMaxValue}} also has the extra optional parameter)
+:The {{api|StatusBar:SetFillStyle|SetFillStyle}} method on StatusBar has been updated to take a StatusBarFillStyle enum value rather than a string like "REVERSE".
+;{{text|blizz|Unit Power}} 🆙
+:We have relaxed restrictions around {{api|UnitPower}} so the player's [[Resource|secondary resources]] are no longer secret (primary resources remain secret). Affected resources: [[Combo Points]], [[Runes]], [[:Soul Shards]], [[Holy Power]], [[Chi]], [[Arcane Charge]]s, [[Essence]].
+:The [[:Maelstrom Weapon]] '''and [[:Ebon Might]]''' auras will be flagged as non-secret in an upcoming build.
+:The {{api|UnitStagger}} API no longer returns secrets when called for the player.
+:{{api|UnitPowerMax}} will now return a non-secret 0 value if the unit doesn't use the power type passed in.
+;{{text|blizz|Cooldowns}} 🆕
+:Similar to our recent changes for spellcasts and auras, we have added a way for us to flag a particular spell's cooldown as non-secret. We will be flagging various spells with this flag in the coming weeks.
+;{{text|blizz|Auras}} 🆕
+:Added a new API {{api|C_StringUtil.TruncateWhenZero(number)}} which returns the number as a secret string if the value is > 0, and returns an empty string if the value is 0.
+:Added a new API {{api|C_StringUtil.WrapString(infix[, prefix[, suffix]])}}, which returns the concatenation of prefix .. infix .. suffix if infix isn't an empty string. If it is, then the return is an empty string.
+:Added a new Cooldown API {{api|Cooldown:SetCooldownFromExpirationTime(expirationTime, duration[, modRate])|SetCooldownFromExpirationTime}}.
+;{{text|blizz|Boolean Secrets}} 🆕
+:Added a new Frame and Region API {{api|Region:SetAlphaFromBoolean(bool[, alphaIfTrue[, alphaIfFalse]])|SetAlphaFromBoolean}} to adjust the alpha of regions from secret boolean values.
+;{{text|blizz|Unit Identity}} 🆕
+:We have relaxed restrictions on the {{api|UnitIsUnit}} API to allow it to return a non-secret value when comparing units with the following unit tokens: target, focus, mouseover, softenemy, softinteract, softfriend.
+:The result of UnitIsUnit will remain secret if the other unit token being compared against is a compound token (e.g. boss1target, raid13targettarget).
+;{{text|blizz|Secret Testing}} 🆙
+:We have added several cvars that allow addon authors to replicate various restricted states for testing purposes (none of them save between sessions):
+::{{apitooltip|type=cvar|name=addonChatRestrictionsForced|default=0|cat=4|desc=If true, force the client into the chat lockdown state. This is provided for addon author testing and will not persist across client restarts.}}, secretAurasForced, secretCooldownsForced, secretUnitIdentityForced, secretSpellcastsForced, secretUnitPowerForced, secretUnitPowerMaxForced, secretUnitComparisonForced.
+::None of these CVars will persist across client restarts.
+:We will be adding a test encounter and several test units (who spam various kinds of spells) inside the [[MOTHERLODE!!]] dungeon to allow addons devs to test boss warnings and enemy nameplates/unit frames in an encounter setting (without having to run real dungeons over and over).
+:The test encounter will be located on the beach to the right of the entrance.
+;{{text|blizz|Tooltips}} 🆕
+:We have fixed several secret-related tooltip Lua errors, including those triggered by registering tooltip data/line processor callbacks.
+:If you are still seeing issues with secrets in tooltips please report them in the ⁠addon-restrictions-feedback channel.
+;{{text|blizz|FontString Measurement}}
+:The {{api|FontString:CalculateScreenAreaFromCharacterSpan|CalculateScreenAreaFromCharacterSpan}} and {{api|FontString:FindCharacterIndexAtCoordinate|FindCharacterIndexAtCoordinate}} APIs have had additional protections added to them to prevent addons from using them on fontstrings with the text secret aspect applied to them.
+:[[XML/ScrollingMessageFrame|ScrollingMessageFrame]] has had further protection added to prevent the above exploits.
+;{{text|blizz|Exploit Fixes}}
+:Fixed an exploit that allowed addons to call arbitrary functions with creative use of [[SecureActionButtonTemplate]].
+:Removed {{api|secretunwrap}} from the global table.
+:{{api|t=e|UNIT_SPELLCAST_SENT}} now sends the target name parameter as a secret.
+;{{text|blizz|Misc Changes}} 🆙
+:{{api|Region:SetAlpha|SetAlpha}} now always clamps its value to the range [0, 1] without raising an error.
+:Fixed an issue where opening a unit frame menu while in combat would cause secret-related Lua errors.
+:Fixed an issue where calling SetToDefaults on a region with the shown secret aspect would cause an assert.
+:Fixed an issue where receiving a whisper while in chat messaging lockdown would result in Lua error spam originating in the UIFrameFlash_OnUpdate function.
+:Added a new {{api|t=e|LEGACY_LOOT_RULES_CHANGED}} event.
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Currently being worked on</big>}}</summary>
+;{{text|blizz|Action Buttons}}
+:We are making various improvements to action button APIs to address issues raised in the ⁠addon-restrictions-feedback channel.
+;{{text|blizz|Auras}}
+:We are making various improvements to Aura APIs to address issues raised in the ⁠addon-restrictions-feedback channel.
+;{{text|blizz|Boolean secrets}}
+:We are addressing various pain-points with Boolean secrets (by adding APIs that accept them in safe ways).
+;{{text|blizz|Aura Sorting}} 🆙
+:We will be adding support for sorting auras by remaining duration.
+;{{text|blizz|Timer Status Bars}} 🆙
+:We will be adding support for timer status bars that automatically update on their own based on the current time.
+;{{text|blizz|Raid Target API}} 🆙
+:SetRaidTarget will be made usable via [[SecureActionButtonTemplate]]
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Coming soon</big>}}</summary>
+;{{text|blizz|Mouse-Less UI Accessibility}}
+:We will be addressing pain points faced by gamepad and accessibility addons around emulating mouse interactions with arbitrary frames (exact details are yet to be decided).
+;{{text|blizz|More Curves!}}
+:We will be adding more usages of the curve tech we added back in Alpha 4. Candidates under consideration for curve treatment include: Important Spellcasts, Interruptible Spellcasts, Aura Dispel Types, Stealable Auras. If you have other candidates you would like considered please provide them in the feedback channel
+;{{text|blizz|Unit Death}}
+:We will be adding an event that gets sent down when a unit dies. The GUID payload will be secret in the same cases cooldowns & auras are secret.
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Under consideration</big>}}</summary>
+;{{text|blizz|Aura Filtering Improvements}}
+:We are looking at ways to improve aura filtering.
+;{{text|blizz|Mythic+ Trash Count APIs}}
+:We are considering adding APIs to allow addons to be able to keep track of trash counts in M+.
+</details>
+
+==December 8: [https://discord.com/channels/327414731654692866/1447679804961853531 Midnight Beta 4 Changes]==
+Blizzard again! Below you will find a list of changes we are making to addon restriction APIs in the coming weeks. 
+
+These are not the entirety of the changes we are planning, just the ones already committed to for the next few Beta releases.
+
+IMPORTANT: You may notice that the Beta build this week has switched to a 12.0.1 version number instead of 12.0.0. This is because 12.0.0 will be the version used for Midnight pre-patch, and 12.0.1 will be the version used for actual Midnight launch.
+
+The remainder of Beta will feature 12.0.1 builds, while PTR (when it goes up) will feature 12.0.0 builds. We will continue to make addon-related changes in 12.0.0 until we make our pre-patch Release Candidate (RC) build. One important thing to note here is that we DO plan to have these new addon restrictions active in pre-patch (12.0.0), rather than waiting until 12.0.1.
+
+The reason for this is we want to give players a chance to get used to the new addon landscape prior to Midnight launch. We are not in 12.0.0 RC yet, so you can continue to test in Beta for now, but once we pick an RC build (we will let you know when that happens) we advise addon authors looking to prepare for pre-patch switch to testing on PTR instead of Beta.
+
+After the 12.0.0 RC is chosen, our engineers will be switching over to making most addon-related changes in 12.0.1 (outside of very high priority stuff). We will continue to make changes to 12.0.1 all the way up until launch (and well past launch even, in follow-up patches) to provide you with more of the QoL changes you have requested.
+
+<details>
+<summary>{{text|#ecbc2a|<big>Coming in Beta 4 (ETA 12/9)</big>}}</summary>
+;{{text|blizz|Action Buttons & Cooldowns}}
+:Added a new ActionButton_ApplyCooldown global function (which uses a secure delegate) to allow addons to create action button cooldown frames by passing in 3 tables containing secret cooldown values.
+::ActionButtonTemplate's cooldown frame has been split into 3 separate frames (cooldown, chargeCooldown, and lossOfControlCooldown) for use in this function.
+:Added 2 new APIs {{api|C_ActionBar.GetActionDisplayCount}} and {{api|C_Spell.GetSpellDisplayCount}}, for displaying counts on action buttons.
+:{{api|C_Spell.IsConsumableSpell|IsConsumableSpell}} has been moved into the C_Spell namespace.
+;{{text|blizz|Addon Restriction States}}
+:Added a new C_Secrets namespace, containing a host of functions for addons to use to test whether various APIs will return secrets based off particular inputs ({{api|C_Secrets.ShouldUnitSpellCastBeSecret|ShouldUnitSpellCastBeSecret}}, {{api|C_Secrets.ShouldUnitComparisonBeSecret|ShouldUnitComparisonBeSecret}}, etc).
+:Added a new [[Enum.AddOnRestrictionType|AddOnRestrictionType enum]] that contains the various different scenarios in which we apply secret restrictions (Combat, Encounter, ChallengeMode, PvPMatch and Map)
+:Added a new [[Enum.AddOnRestrictionState|AddOnRestrictionState enum]] that is used to specify what state each AddOnRestrictionType is currently in (Inactive, Activating or Active)
+:Added a new C_RestrictedActions namespace, which contains APIs for testing whether an AddOnRestrictionType is currently active, as well as a new event that gets sent down to Lua when a AddOnRestrictionType's state changes.
+::The timing of these events is similar to {{api|t=e|PLAYER_REGEN_DISABLED}} and {{api|t=e|PLAYER_REGEN_ENABLED}} - they will always fire the immediate moment before a restriction activates, or after it deactivates.
+;{{text|blizz|Timer Status Bars}}
+:Added a new API SetTimer to StatusBar frames for creating timer status bars, which can be used to create self-updating timer bars.
+:Added a set of related APIs to StatusBar for querying the state of timer status bars (GetDuration, GetStartTime, GetEndTime, GetElapsedTime and GetRemainingTime).
+;{{text|blizz|Auras}}
+:Added new sortRule and sortDirection parameters to {{api|C_UnitAuras.GetUnitAuras}}.
+::Current SortRule options are Unsorted, Default, BigDefensive, Expiration, ExpirationOnly, Name, and NameOnly (all of which have descriptions in the docs).
+::SortDirection can be either Normal or Reverse.
+:Added a new API {{api|C_UnitAuras.GetUnitAuraInstanceIDs}}, which takes the same parameters as C_UnitAuras.GetUnitAuras but just returns a vector of auraInstanceIDs instead of full AuraData.
+:Added a new API {{api|C_UnitAuras.DoesAuraHaveExpirationTime}}.
+:Added a new API {{api|C_UnitAuras.GetAuraApplicationDisplayCount}} that returns the application count of an aura formatted as a string, with a configurable minimum bound below which an empty string will be returned.
+:Added a new API {{api|C_UnitAuras.GetAuraDispelTypeColor}} that evaluates a dispel type ID through a [[ScriptObject ColorCurveObject|color curve]].
+:<s>Added a new API {{api|C_UnitAuras.GetAuraDurationRemainingPercent}} that returns the remaining duration of an aura (with the start point calculated as expiration - duration) as a percentage, optionally re-scalable by a [[ScriptObject CurveObject|curve]].</s>
+:<s>Added a new API {{api|C_UnitAuras.GetAuraDurationRemainingColor}} that's the same as the above, but evaluates a non-optional color curve for the result instead.</s>
+:<s>Added the following APIs to C_ActionBar, which work just like the UnitAuras APIs above: {{api|C_ActionBar.GetActionCooldownRemaining|GetActionCooldownRemaining}}, {{api|C_ActionBar.GetActionCooldownRemainingPercent|GetActionCooldownRemainingPercent}}, and {{api|C_ActionBar.GetActionCooldownRemainingColor|GetActionCooldownRemainingColor}}.</s>
+:<s>Added the following APIs to C_Spell, which work just like the UnitAuras APIs above: {{api|C_Spell.GetSpellCooldownRemaining|GetSpellCooldownRemaining}}, {{api|C_Spell.GetSpellCooldownRemainingPercent|GetSpellCooldownRemainingPercent}}, and {{api|C_Spell.GetSpellCooldownRemainingColor|GetSpellCooldownRemainingColor}}.</s>
+::'''Note''': In a future build, the Color APIs listed above (with the exception of GetAuraDispelTypeColor) will be merged into the Percent APIs.
+::The Percent functions will accept any curve type and return the evaluated result - so passing a color curve into GetSpellCooldownRemainingPercent will return a ColorMixin.
+;{{text|blizz|More Curves!}}
+:Added a new CurveConstants.lua file, which some pre-defined curves: ScaleTo100, Reverse, and ReverseTo100.
+:{{api|UnitHealthPercent}} and {{api|UnitPowerPercent}} now take an optional curve instead of a boolean scaleTo100 parameter.
+;{{text|blizz|Boolean Secrets}}
+:Added a new SetVertexColorFromBoolean API to FontString and Texture types.
+;{{text|blizz|Misc Changes}}
+:The {{api|C_Housing.VisitHouse|VisitHouse}}, {{api|C_Housing.TeleportHome|TeleportHome}} and {{api|C_Housing.ReturnAfterVisitingHouse|ReturnAfterVisitingHouse}} APIs in C_Housing are no longer allowed to be called by addons. Added new secure action delegates for all three.
+:Added a new raidTarget secure action delegate to allow addons to set, clear or toggle raid targets on units.
+;{{text|blizz|Bug fixes}}
+:Fixed an issue where addons using metatables in the restricted environment would cause lua errors.
+;{{text|blizz|Exploit fixes}}
+:The {{api|CheckButton SetChecked}} API no longer accepts secrets from tainted code.
+:Fixed an exploit involving using a particular API to create a nasty wormhole into the restricted environment. Also hardened up the code against similar exploits.
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Currently being worked on</big>}}</summary>
+;{{text|blizz|Mouse-Less UI Accessibility}}
+:We are addressing pain points faced by gamepad and accessibility addons around emulating mouse interactions with arbitrary frames.
+;{{text|blizz|More Tooltip Fixes}}
+:We are creating secure delegates for all of the Set* GameTooltip APIs so addons can safely use them without taint issues.
+;{{text|blizz|Addon Menus In Restricted Areas}}
+:We are working on a solution to prevent addon-created menus from throwing a bunch of lua errors when secret restrictions are in place (e.g. in dungeons).
+;{{text|blizz|Channeled and Empowered Casts}}
+:We are changing the restrictions on channeled and empowered casts to match those for normal {{api|t=e|UNIT_SPELLCAST}} casts (non-secret for the player's own casts).
+:This includes APIs for calculating empower stages on cast bars.
+;{{text|blizz|UnitFrame Heal Absorb & Heal Prediction}}
+:We are addressing issues addons are having showing heal absorbs & prediction in custom unit frames.
+;{{text|blizz|Damage Meter Improvements}}
+:We are making various improvements to the Damage Meter APIs to allow addons to be able to access certain information as non-secrets.
+;{{text|blizz|Secrets in Event Trace}}
+:We are making some improvements to allow secret state to be shown in Event Trace logs.
+;{{text|blizz|Combo Point APIs}}
+:We are loosening restrictions on the {{api|GetComboPoints}} and {{api|GetUnitChargedPowerPoints}} APIs to use the same rules as combo points do in {{api|UnitPower}}.
+;{{text|blizz|More Curves!}}
+:We are continuing to add more usages of the curves tech. If you have other candidates you would like us to consider please provide them in the feedback channel.
+;{{text|blizz|Chat Addon QoL Changes}}
+:We are adding various QoL changes for chat addons, including making some chat events no longer secret in chat lockdown, and providing more string APIs that accept secrets
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Coming soon</big>}}</summary>
+;{{text|blizz|Aura Instance ID Exploits}}
+:We are aware of some exploits involving comparing aura instance IDs to each other as a way to identify units and facilitate communication between addons. We will be locking these exploits down before 12.0.1.
+;{{text|blizz|Addon Communication Workarounds}}
+:Thanks for identifying numerous communication workarounds in the ⁠addon-restrictions-feedback channel. We will be locking down all of the APIs mentioned very soon, keep those examples coming as you find them!
+;{{text|blizz|Nameplate HitRect APIs}}
+:We will be adding an API to allow addons to override the offsets of nameplate hit-rects (now that those are no longer directly accessible by addons).
+</details>
+
+===December 10: [https://discord.com/channels/327414731654692866/1448829840420765929 Midnight Beta 3.0+1.0 Thrice Upon a Time Changes]===
+Blizzard again! Sorry for the delay on Beta 4, we ended up having to make a whole new build due to some issues in the previous build. The silver lining however is that because a new build was needed, some more addon changes we able to sneak into Beta 4! Listed below are just the new things.
+
+<details>
+<summary>{{text|#ecbc2a|<big>Late Beta 4 additions</big>}}</summary>
+;{{text|blizz|Mouse-Less UI Accessibility}}
+:We have added several new APIs specifically for use by gamepad-related addons. All of these are only available when outside combat and in response to a gamepad hardware event.
+:{{api|SetCursorPosition(x,y)}} allows addons to set the position of the mouse cursor.
+:{{api|SimulateMouseDown}}, {{api|SimulateMouseUp}}, and {{api|SimulateMouseClick}} take a button object as a parameter and allows addons to simulate mouse click events on them.
+:{{api|SimulateMouseWheel}} takes a delta and allows addons to simulate the player moving their mouse wheel up or down.
+;{{text|blizz|Addon Menus In Restricted Areas}}
+:We have fixed the issues causing addon-created menus to throw a bunch of lua errors when secret restrictions are in place (e.g. in dungeons).
+;{{text|blizz|Tooltip Fixes}}
+:We have converted all of the Set* [[UIOBJECT GameTooltip|GameTooltip]] APIs to secure delegates so addons can safely use them without taint issues.
+;{{text|blizz|Secrets in Event Trace}}
+:[[MACRO eventtrace|Event Trace]] now shows the secret state of event payloads in its logs.
+;{{text|blizz|Combo Point APIs}}
+:{{api|GetComboPoints}} and {{api|GetUnitChargedPowerPoints}} APIs now return non-secrets.
+;{{text|blizz|Channeled and Empowered Casts}}
+:Channeled and empowered casts are no longer secret for the player's own casts.
+;{{text|blizz|Chat Addon QoL Changes}}
+:We have declassified a number of chat message events (for things like {{api|t=e|GUILD_ITEM_LOOTED}}, which are not exploit risks).
+:We have added an API {{api|C_StringUtil.RemoveContiguousSpaces|RemoveContiguousSpaces}} that can be used to remove consecutive space characters out of secret strings.
+:We have added an API {{api|C_StringUtil.EscapeLuaPatterns|EscapeLuaPatterns}} that can be used escape all Lua pattern characters.
+:We have added various global [[EventRegistry]] callbacks to [[ChatFrame]] & ChatFrameEditBox to allow addons to hook them more easily.
+;{{text|blizz|Damage Meter Improvements}}
+:We have made several fields in Damage Meter APIs non-secret (classFilename, specIconID, isLocalPlayer, unitClassFilename and classification).
+:The name field in DamageMeterCombatSource is now only secret for units whose identities are secret.
+;{{text|blizz|Duration Objects}}
+:Added a new [[ScriptObject DurationObject|first-class Lua-exposed duration object]] type.
+:Duration objects can be created via {{api|C_DurationUtil.CreateDuration()}}. This creates an empty (zero) duration.
+:The measured duration can be changed by calling {{api|DurationObject SetTimeSpan(start, end)|:SetTimeSpan}}, {{api|DurationObject SetTimeFromStart(startTime, duration[, modRate])|:SetTimeFromStart}} or {{api|DurationObject SetTimeFromEnd(endTime, duration[, modRate])|:SetTimeFromEnd}}.
+::These three APIs do not accept secret values from tainted callers.
+:Duration objects provide methods such as {{api|DurationObject GetElapsedDuration|GetElapsedDuration}}, {{api|DurationObject GetRemainingDuration|GetRemainingDuration}}, {{api|DurationObject EvalulateElapsedProgress|EvaluateElapsedProgress}}, etc. to perform calculations natively on potentially secret data and return secret results back to Lua.
+:Added {{api|Cooldown:SetCooldownFromDurationObject(duration[, clearIfZero])}} that configures a cooldown frame from a duration object.
+:Added {{api|StatusBar:SetTimerDuration(duration[, interpolation])}} that configures a statusbar to render from a duration object.
+::An extra parameter will be added in a future build to control whether elapsed or remaining time is used for rendering (currently, it's elapsed).
+:Added {{api|C_UnitAuras.GetUnitAuraDuration(unitToken, auraInstanceID)}} that returns a duration object representing the queried aura.
+:Added C_ActionBar APIs for regular and loss of control cooldowns (and charges) that return duration objects.
+:Added C_Spell APIs for regular and loss of control cooldowns (and charges) that return duration objects.
+:Added C_SpellBook APIs for regular and loss of control cooldowns (and charges) that return duration objects.
+:Added {{api|UnitCastingDuration}} and {{api|UnitChannelDuration}} APIs that return duration objects.
+;{{text|blizz|Unit Death}}
+:Rumors of the demise of the previously-promised {{api|t=e|UNIT_DEATH}} turn out to have been greatly exaggerated. It too managed to sneak into Beta 4 at the last second. The payload for this event is the GUID of the unit that died, which is secret when that unit's identity is secret.
+</details>
+
+==December 16: [https://discord.com/channels/327414731654692866/1450545379966980319 Midnight Beta 5 Royal Changes]==
+Blizzard again! Below you will find a list of changes we are making to addon restriction APIs in the coming weeks.
+These are not the entirety of the changes we are planning, just the ones already committed to for the immediately upcoming Beta releases.
+
+NOTE: Beta 5 will be the last Beta build we put out this year. We will be continuing to work on addon dev requests until the holidays but Beta 6 won't be made until January. 
+Also note that Beta 4 had more changes than expected, and Beta 5 has fewer due to build timing (Beta 4 ended up being built later than expected).
+
+REMINDER: Beta builds have switched to a 12.0.1 version number instead of 12.0.0. This is because 12.0.0 will be the version used for Midnight pre-patch, and 12.0.1 will be the version used for actual Midnight launch. The remainder of Beta will feature 12.0.1 builds, while PTR (when it goes up) will feature 12.0.0 builds. We will continue to make addon-related changes in 12.0.0 until we make our pre-patch Release Candidate (RC) build.
+
+One important thing to note here is that we DO plan to have these new addon restrictions active in pre-patch (12.0.0), rather than waiting until 12.0.1. The reason for this is we want to give players a chance to get used to the new addon landscape prior to Midnight launch. We are not in 12.0.0 RC yet, so you can continue to test in Beta for now, but once we pick an RC build (we will let you know when that happens) we advise addon authors looking to prepare for pre-patch switch to testing on PTR instead of Beta.
+
+After the 12.0.0 RC is chosen, our engineers will be switching over to making most addon-related changes in 12.0.1 (outside of very high priority stuff). We will continue to make changes to 12.0.1 all the way up until launch (and well past launch even, in follow-up patches) to provide you with more of the QoL changes you have requested.
+
+<details>
+<summary>{{text|#ecbc2a|<big>Coming in Beta 5 (ETA 12/17)</big>}}</summary>
+;{{text|blizz|UnitFrame Heal Absorb & Heal Prediction}}
+:We have added a new [[ScriptObject UnitHealPredictionCalculator|UnitHealPredictionCalculator]] Lua object (created via a new {{api|CreateUnitHealPredictionCalculator}} API), and an associated API {{api|UnitGetDetailedHealPrediction}} that accepts this object type.
+::Addons can use these APIs to calculate all of the heal prediction and absorb data needed for passing directly into other APIs.
+::This object provides various options, such as allowing for damage absorbs to be clamped to either missing health, missing health after adding incoming healing, or maximum health.
+::Very brief example shown below:
+<syntaxhighlight lang="lua">
+local calculator = CreateUnitHealPredictionCalculator();
+UnitGetDetailedHealPrediction(unit, unitDoingTheHealing, calculator);  -- 'calculator' is updated with new data after this call.
+local incomingHeals, incomingHealsFromHealer, incomingHealsFromOthers, incomingHealsClamped = calculator:GetIncomingHeals();
+myStatusBar:SetValue(incomingHealsFromHealer);
+</syntaxhighlight>
+;{{text|blizz|Cast Bars}}
+:Added a new optional direction parameter to {{api|StatusBar:SetTimerDuration}} that allows the status bar to calculate its fill from remaining duration rather than elapsed (for channeled spells primarily).
+;{{text|blizz|Party Kill Event}}
+:Added a new {{api|t=e|PARTY_KILL}} event that gets sent when a party member kills a unit. The payload is 2 [[unitGUID]]s, the attacker and target. Both are secret when the associated unit's identity is secret.
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Currently being worked on</big>}}</summary>
+;{{text|blizz|Whitelisting Select Spells}}
+:Adding numerous spells to the whitelists for cooldown/aura secrecy: [[Skyriding]] spells, the [[61304|GCD spell]], Maelstrom Weapon, Devourer DH resource spells, Combat Res spells.
+:Continue to call out spells that you think should be whitelisted, we will evaluate each of them individually.
+;{{text|blizz|Removing Old Duration APIs}}
+:We are removing several APIs (in C_UnitAuras, C_Spell and C_ActionBar) that are no longer needed now that [[ScriptObject DurationObject|Duration objects]] are a thing.
+;{{text|blizz|Generic Boolean To Color APIs}}
+:We are adding 2 new APIs ({{api|C_CurveUtil.EvaluateColorFromBoolean}} and {{api|C_CurveUtil.EvaluateColorValueFromBoolean}}) that can be used to convert a secret boolean to a color.
+::This is in preference to adding SetStatusBarColorFromBoolean, SetColorTextureFromBoolean, etc.
+;{{text|blizz|Lots More Cast Bar Stuff}}
+:We are adding a new castbar spell sequence ID delivered with spellcast events and from the {{api|UnitCastingInfo}}/{{api|UnitChannelInfo}} APIs. This sequence ID is only delivered for casting events that should display a castbar in the UI, is incremented on each new spellcast, and is never secret.
+:We will be removing secret restrictions on several values needed by addons to properly display enemy empowered casts (number of stages and the percentage of cast time each stage consumes).
+:We will be adding a way to include the hold-at-max time of empowered casts in a duration object.
+;{{text|blizz|Formatting Secret Times}}
+:We are adding a new SecondsFormatter Lua object that will allow addons to format secret time values into strings.
+:Other numeric formatting solutions are also being worked on, including a solution for formatting differences between cast durations (eg. for spell pushback).
+;{{text|blizz|Restricted Environment Issues}}
+:Several functions ({{api|strsplit}}, {{api|strjoin}}, {{api|strconcat}}) that got mistakenly removed from the [[RestrictedEnvironment|restricted environment]] are being added back.
+;{{text|blizz|Reload UI & Secrets}}
+:We are fixing an issue where secret values are made non-secret following a UI reload.
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Coming soon</big>}}</summary>
+;{{text|blizz|Exploit Fixes}}
+:We will be fixing a whole host of exploits and addon communication workarounds. Keep those exploit reports coming they are very helpful!
+;{{text|blizz|Nameplate HitRect APIs}}
+:We will be adding an API to allow addons to override the offsets of nameplate hit-rects and reparent the hit rect to the parent nameplate instead of the child unit frame.
+;{{text|blizz|Forced Secret Cvars}}
+:We are going to be making some adjustments to the cvars that force secret states so they are more useful for addon devs.
+</details>
+
+===December 18: [https://discord.com/channels/327414731654692866/1451396901453955072 Midnight PTR 1 Changes]===
+Blizzard again! This week the first PTR build (PTR 1) for Midnight went up. As mentioned before, PTR is now 12.0.0 and all remaining Beta builds are 12.0.1. Below are the changes that are in PTR 1 that were not in Beta 5. 
+
+It's important to note that ALL changes in PTR builds will also be in Beta, so expect to see these changes in Beta 6 as well when that goes up in January. After this build the majority of our addon changes will be going into 12.0.1 instead of 12.0.0 (we are very close to RC for 12.0.0) but there will be a few things that do go into 12.0.0 as well (mostly very high priority things).
+
+<details>
+<summary>{{text|#ecbc2a|<big>PTR 1 updates</big>}}</summary>
+;{{text|blizz|Whitelisting Select Spells}}
+:The following spells have been flagged as having non-secret cooldowns:
+ 425782 - [[:Second Wind]]
+ 372608 - [[:Surge Forward]]
+ 372610 - [[:Skyward Ascent]]
+ 403092 - [[:Aerial Halt]]
+ 361584 - [[:Whirling Surge]]
+ 418592 - [[:Lightning Rush]]
+ 460002 - Switch Flight Style
+ [[61304]]  - GCD Dummy Spell
+
+:The following spells have been flagged as having non-secret aura data:
+ 377234  - [[:Thrill of the Skies]]
+ 388367  - [[:Ohn'ahra's Gusts]]
+ 418590  - [[:Static Charge]]
+ 369968  - Skyriding Racing
+ 344179  - [[:Maelstrom Weapon]]
+ 1217607 - [[:Void Metamorphosis]]
+ 1225789 - Void Metamorphosis (resource aura)
+ 1227702 - [[:Collapsing Star]]
+
+;{{text|blizz|Combat Res Cooldowns}}
+:All [[Combat resurrection|combat res]] spells now have non-secret cooldowns and charge counts.
+;{{text|blizz|Reload UI & Secrets}}
+:We have fixed an issue where secret values were made non-secret following a reload ui.
+;{{text|blizz|Removing Old Duration APIs}}
+:We have removed the follow APIs (addons should use the new [[ScriptObject DurationObject|Duration Object]] type instead from now on):
+:{{api|C_ActionBar.GetActionCooldownRemaining}}, {{api|C_ActionBar.GetActionCooldownRemainingPercent}}
+:{{api|C_Spell.GetSpellCooldownRemaining}}, {{api|C_Spell.GetSpellCooldownRemainingPercent}}
+:{{api|C_UnitAuras.GetAuraDurationRemaining}}, {{api|C_UnitAuras.GetAuraDurationRemainingPercent}}
+;{{text|blizz|Duration Object Utilities}}
+:Added 2 new APIs to Duration Objects:  [[API_DurationObject_EvaluateRemainingDuration|EvaluateRemainingDuration]](curve, modifier), [[API_DurationObject_EvaluateElapsedDuration|EvaluateElapsedDuration]](curve, modifier)
+;{{text|blizz|Generic Boolean To Color APIs}}
+:Added 2 new APIs ({{api|C_CurveUtil.EvaluateColorFromBoolean}} and {{api|C_CurveUtil.EvaluateColorValueFromBoolean}}) that can be used to convert a secret boolean to a color.
+</details>
+
+===December 22: [https://discord.com/channels/327414731654692866/1452779863374168158 Midnight PTR 2 Changes]===
+Blizzard again! Below are the changes that are in PTR 2 that were not in PTR 1. 
+
+Reminder that all of these changes will be in Beta 6 when that goes up in January.
+
+<details>
+<summary>{{text|#ecbc2a|<big>New Changes in PTR 2 (ETA 12/22)</big>}}</summary>
+;{{text|blizz|Cast Bar Changes}}
+:Added a new field "castBarID" to all spellcast events and the {{api|UnitCastingInfo}}/{{api|UnitChannelInfo}} APIs. CastBarID is only delivered for casting events that should display a castbar in the UI, is incremented on each new spellcast, and is never secret. It can be used to identify and compare casts.
+:The isTradeskill, isEmpowered and numEmpowerStages fields are no longer secret in the UnitCastingInfo/UnitChannelInfo APIs.
+:Added new API {{api|UnitEmpoweredChannelDuration("unitToken"[, includeHoldAtMaxTime])}} which returns a duration object for an empowered cast, optionally including the hold-at-max time (default: true).
+:Added new API {{api|UnitEmpoweredStageDurations("unitToken")}} which returns a vector of duration objects for each stage of an empowered cast, with the final element always being the hold-at-max period.
+:Added new API {{api|UnitEmpoweredStagePercentages("unitToken"[, includeHoldAtMaxTime])}} which returns a vector of non-secret percentage values, describing how much of an empowered channel time each stage takes. The last element is the hold-at-max window (unless explicitly requested to be excluded).
+;{{text|blizz|Restricted Environment Issues}}
+:Several functions ({{api|strsplit}}, {{api|strjoin}}, {{api|strconcat}}) that got mistakenly removed from the restricted environment have been added back in.
+;{{text|blizz|Chat Addon QoL Changes}}
+:Added new API {{api|C_StringUtil.EscapeLuaFormatString}} that accepts secret strings and replaces all % values with %%.
+;{{text|blizz|Misc Changes}}
+:{{api|C_UnitAuras.GetAuraApplicationDisplayCount|GetAuraApplicationDisplayCount}} now correctly handles a nil being passed in for maxDisplayCount.
+;{{text|blizz|Secret Testing}}
+:We have removed all of the existing secretXForced cvars and they have been replaced by cvars that force each restriction type to be enabled ({{apitooltip|type=cvar|name=secretCombatRestrictionsForced|default=0|cat=4|desc=If set, APIs guarded by combat restrictions will return secrets.}}, {{apitooltip|type=cvar|name=secretEncounterRestrictionsForced|default=0|cat=4|desc=If set, APIs guarded by instance encounter restrictions will return secrets.}}, {{apitooltip|type=cvar|name=secretChallengeModeRestrictionsForced|default=0|cat=4|desc=If set, APIs guarded by challenge mode and mythic plus restrictions will return secrets.}}, {{apitooltip|type=cvar|name=secretPvPMatchRestrictionsForced|default=0|cat=4|desc=If set, APIs guarded by PvP match restrictions will return secrets.}}, and {{apitooltip|type=cvar|name=secretMapRestrictionsForced|default=0|cat=4|desc=If set, APIs guarded by map restrictions will return secrets.}}). This should allow addon developers to more easily test their addons by making the client act like it has a restriction type active.
+:Added new APIs to test the secrecy of particular spells or power types: {{api|C_Secrets.GetSpellAuraSecrecy|GetSpellAuraSecrecy}}, {{api|C_Secrets.GetSpellCooldownSecrecy|GetSpellCooldownSecrecy}}, {{api|C_Secrets.GetSpellCastSecrecy|GetSpellCastSecrecy}}, and {{api|C_Secrets.GetPowerTypeSecrecy|GetPowerTypeSecrecy}}. These APIs return a non-secret [[Enum.SecrecyLevel|SecrecyLevel enum ]]value indicating if the passed in spell/power type is always secret, never secret or contextually secret.
+:Added new API {{api|C_Secrets.ShouldUnitHealthMaxBeSecret|ShouldUnitHealthMaxBeSecret}} which takes a unit token and returns a non-secret Boolean.
+</details>
+
+==January 12: [https://discord.com/channels/327414731654692866/1460387750480969840 Midnight Beta 6 Changes]==
+Blizzard again! Below you will find a list of changes we are making to addon restriction APIs in the coming weeks.
+These are not the entirety of the changes we are planning, just the ones already committed to for the immediately upcoming Beta releases.
+
+IMPORTANT: The [[patch 12.0.0|12.0.0 build]] currently on the [[PTR]] has been chosen as the official Release Candidate for 12.0.0 (pre-patch). We still have a few high priority changes that we are aiming to sneak into 12.0.0 before pre-patch goes live (listed below), but by and large you can expect things to remain pretty stable on PTR from here until pre-patch.
+
+We are continuing to make changes in [[patch 12.0.1|12.0.1]], and you will see those changes in Beta starting this week. RC for 12.0.1 is also fast approaching however, so we are concentrating on high priority changes there as well (with our main focus being exploits). After we finish up our last few high priority addon-related tasks for 12.0.1 we will be moving onto medium priority tasks and aiming to get as many of them into 12.0.1 as we can.
+
+Thank you so much for all of your feedback in the ⁠addon-restrictions-feedback channel! Our focus for Midnight launch has been on fixing the really critical issues that were blocking a large number of addons from getting operational, but once work on 12.0.1 is complete we will be turning our focus towards the other requests you have made.
+
+We have already entered dozens of medium priority tasks from your requests, and will continue to monitor the channel and make further tasks as they come up. Once we get closer to 12.0.1 launch we will release a list of tasks we plan to work on for [[patch 12.0.5|12.0.5]] so you can have a better idea of the upcoming roadmap.
+
+<details>
+<summary>{{text|#ecbc2a|<big>Changes likely to make Pre-patch</big>}}</summary>
+:We are fixing an issue causing {{api|C_UnitAuras.GetUnitAuraBySpellID|GetUnitAuraBySpellID}} and {{api|C_UnitAuras.GetPlayerAuraBySpellID|GetPlayerAuraBySpellID}} to be Lua error even when passed non-secret spells.
+:We are fixing the issues with MoneyFrame in tooltips.
+:We are addressing issues with spell pushbacks & delays in cast bar fontstrings.
+</details>
+<details>
+<summary>{{text|#ecbc2a|<big>The following changes are already on PTR, and will also be in Beta 6</big>}}</summary>
+; {{text|blizz|Whitelisting Select Spells}}
+: The following spells have been flagged as having non-secret cooldowns:
+ 61304  - Global Cooldown
+ 361584 - Whirling Surge
+ 372608 - Surge Forward
+ 372610 - Skyward Ascent
+ 403092 - Aerial Halt
+ 418592 - Lightning Rush
+ 425782 - Second Wind
+ 460002 - Switch Flight Style
+ 460003 - Switch Flight Style
+
+: The following spells have been flagged as having non-secret aura data:
+ 344179  - Maelstrom Weapon
+ 369968  - Skyriding Racing
+ 377234  - Thrill of the Skies
+ 388367  - Ohn'ahra's Gusts
+ 404464 	- Flight Style: Skyriding
+ 404468  - Flight Style: Steady
+ 418590  - Static Charge
+ 1217607 - Void Metamorphosis
+ 1225789 - Void Metamorphosis (resource aura)
+ 1227702 - Collapsing Star
+
+;{{text|blizz|Combat Res Cooldowns}}
+: All combat res spells now have non-secret cooldowns and charge counts.
+;{{text|blizz|Reload UI & Secrets}}
+: We have fixed an issue where secret values were made non-secret following a reload ui.
+;{{text|blizz|Removing Old Duration APIs}}
+: We have removed the following APIs (addons should use the new Duration Object type instead from now on):  C_ActionBar.GetActionCooldownRemaining, C_ActionBar.GetActionCooldownRemainingPercent, C_Spell.GetSpellCooldownRemaining, C_Spell.GetSpellCooldownRemainingPercent, C_UnitAuras.GetAuraDurationRemaining, C_UnitAuras.GetAuraDurationRemainingPercent
+;{{text|blizz|Duration Object Utilities}}
+: Added 2 new APIs to Duration Objects: EvaluateRemainingDuration(curve, modifier), EvaluateElapsedDuration(curve, modifier)
+;{{text|blizz|Generic Boolean To Color APIs}}
+: Added 2 new APIs (C_CurveUtil.EvaluateColorFromBoolean and C_CurveUtil.EvaluateColorValueFromBoolean) that can be used to convert a secret boolean to a color.
+;{{text|blizz|Cast Bar Changes}}
+: Added a new field "castBarID" to all spellcast events and the UnitCastingInfo/UnitChannelInfo APIs. CastBarID is only delivered for casting events that should display a castbar in the UI, is incremented on each new spellcast, and is never secret. It can be used to identify and compare casts.
+: The isTradeskill, isEmpowered and numEmpowerStages fields are no longer secret in the UnitCastingInfo/UnitChannelInfo APIs.
+: Added new API UnitEmpoweredChannelDuration("unitToken"[, includeHoldAtMaxTime]) which returns a duration object for an empowered cast, optionally including the hold-at-max time (default: true).
+: Added new API UnitEmpoweredStageDurations("unitToken") which returns a vector of duration objects for each stage of an empowered cast, with the final element always being the hold-at-max period.
+: Added new API UnitEmpoweredStagePercentages("unitToken"[, includeHoldAtMaxTime]) which returns a vector of non-secret percentage values, describing how much of an empowered channel time each stage takes. The last element is the hold-at-max window (unless explicitly requested to be excluded).
+;{{text|blizz|Restricted Environment Issues}}
+: Several functions (strsplit, strjoin, strconcat) that got mistakenly removed from the restricted environment have been added back in.
+;{{text|blizz|Secret Testing}}
+: We have removed all of the existing secretXForced cvars and they have been replaced by cvars that force each restriction type to be enabled (secretCombatRestrictionsForced, secretEncounterRestrictionsForced, secretChallengeModeRestrictionsForced, secretPvPMatchRestrictionsForced, and secretMapRestrictionsForced). This should allow addon developers to more easily test their addons by making the client act like it has a restriction type active.
+: Added new APIs to test the secrecy of particular spells or power types: GetSpellAuraSecrecy, GetSpellCooldownSecrecy, GetSpellCastSecrecy, and GetPowerTypeSecrecy. These APIs return a non-secret SecrecyLevel enum value indicating if the passed in spell/power type is always secret, never secret or contextually secret.
+: Added new API ShouldUnitHealthMaxBeSecret which takes a unit token and returns a non-secret Boolean.
+;{{text|blizz|Chat Addon QoL Changes}}
+: Added new APIC_StringUtil.EscapeLuaFormatString that accepts secret strings and replaces all % values with %%.
+;{{text|blizz|Misc Changes}}
+: GetAuraApplicationDisplayCount now correctly handles a nil being passed in for maxDisplayCount.
+</details>
+<details>
+<summary>{{text|#ecbc2a|<big>Coming in Beta 6 (ETA 1/14)</big>}}</summary>
+;{{text|blizz|Exploit Fixes}}
+:We have addressed various exploits with the {{api|AbbreviateNumbers}} API. Breakpoints passed to AbbreviateNumbers can now only be powers of 10.
+:We have addressed various exploits involving passing creature IDs into [[TString|{{!}}T string markup]]. |T markup is no longer allowed to reference a loose texture file (one not shipped with the client) using secret text.
+:We have addressed an exploit with the {{api|C_NamePlate.GetNamePlateForUnit|GetNamePlateForUnit}} API. GetNamePlateForUnit no longer accepts compound unit tokens (e.g. boss1target) from tainted code.
+:We have addressed various exploits with CooldownFrameTemplate. It now uses alpha instead of shown state (and has the alpha secret aspect) to show/hide base on the cooldown being active or not.
+:We have addressed various exploits with aura instance IDs. Aura Instance IDs are no longer unique across all units (so the same ID can and will be used on different units for totally different auras).
+;{{text|blizz|UnitHealPredictionCalculator}}
+:We have added several new APIs to {{apitype|UnitHealPredictionCalculator}}: GetCurrentHealth, GetMaximumHealth, GetMissingHealth, GetTotalIncomingHeals, GetTotalIncomingHealsFromHealer, GetTotalDamageAbsorbs, GetTotalHealAbsorbs, GetMaximumIncomingHeals, GetMaximumDamageAbsorbs and GetMaximumHealAbsorbs.
+:The new SetMaximumHealthMode API accepts a UnitMaximumHealthMode enum and allows addons to choose whether the max health should include absorbs or not. GetMaximumHealthMode returns the current mode.
+:The new ResetPredictedValues API can be used to reset all stored healing values.
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Tooltip Data Line Changes</big>}}</summary>
+A future 12.0.1 build will be making the following changes to C_TooltipInfo and data line types.
+
+:All Restricted<X> line types have been replaced by a single new line type (UsageRequirement) with two data arguments:
+::requirementType - maps to a new TooltipDataUsageRequirementType enum.
+::usable (bool) - false when leftColor is red. In most cases it will never be true as the line just won't show up if it would be white.
+::Depending on the requirementType there will be other args. All args in these notes are number type unless otherwise specified.
+
+;Converted requirement types
+:RaceClass (RACE_CLASS_ONLY, ITEM_RACES_ALLOWED, or ITEM_CLASSES_ALLOWED)
+:Faction (ITEM_REQ_HORDE, ITEM_REQ_ALLIANCE)
+:Skill (ITEM_MIN_SKILL, ITEM_REQ_SKILL)
+:PvPMedal (ITEM_REQ_SKILL)
+::  arg: medal (used for PVP_MEDALx globalstrings)
+:Reputation (ITEM_REQ_REPUTATION)
+::  args: factionID, reactionLevel
+:Level (ITEM_MIN_LEVEL, ITEM_LEVEL_RANGE_CURRENT)
+::  args: level, maxLevel (only when it's ITEM_LEVEL_RANGE_CURRENT)
+:NotInArena (ARENA_NOT_USABLE) - Was RestrictedArena.
+:NotInRatedBg (RATEDBG_NOT_USABLE) - Was RestrictedBg`.
+:NotAlreadyKnown (ITEM_SPELL_KNOWN, ERR_COSMETIC_KNOWN) - Was RestrictedSpellKnown.
+
+;New requirement types
+:Guild (ITEM_REQ_PURCHASE_GUILD)
+:Achievement (ITEM_REQ_PURCHASE_ACHIEVEMENT)
+::  arg: achievementID
+:PvPRank (ITEM_REQ_SKILL)
+::  arg: rank
+:EquippedItem (SPELL_EQUIPPED_ITEM_NOSPACE, SPELL_EQUIPPED_ITEM)
+:ShapeshiftForm (SPELL_REQUIRED_FORM_NOSPACE, SPELL_REQUIRED_FORM)
+:ArenaRating (ITEM_REQ_ARENA_RATING_5V5, ITEM_REQ_ARENA_RATING_3V3_BG, ITEM_REQ_ARENA_RATING_BG)
+::  args: bracket, rating
+:EarnCurrency (ITEM_REQ_AMOUNT_EARNED)
+::  args: currencyID, amount
+:Specialization (ITEM_REQ_SPECIALIZATION)
+::  arg: specID
+ 
+;Other changes
+:ItemName now has quality arg
+:QuestObjective now has additional args when it's a goal and not something like "Ready for turn-in": numRequired, numFullfilled, progressBarPercent (optional).
+
+;New Line types
+:ItemSpellTriggerLearn with spellID arg (typically recipe items).
+:LearnTransmogSet with setID arg.
+:LearnTransmogIllusion with spellID arg.
+:TradeTimeRemaining with secondsLeft arg.
+:ItemQuality - This is the quality name when colorblind mode is enabled, erroneously tagged as ItemName before.
+:ErrorLine - Any line with line type None and color FF2020 will go out as this instead (not guaranteed to be an actual error, like bosses killed in InstanceLock tooltip type).
+:DisabledLine - Any line with line type None and color 808080 will go out as this instead.
+</details>
+
+==January 21: [https://discord.com/channels/327414731654692866/1463646352239235259 Midnight Beta 7 Changes]==
+Blizzard again! Below you will find a list of changes we are making to addon restriction APIs in the coming weeks.
+These are not the entirety of the changes we are planning, just the ones already committed to for the immediately upcoming Beta releases.
+
+IMPORTANT: The RC process for 12.0.1 is due to start later this week. As a result, only very high priority issues are being worked on in 12.0.1 (mostly exploits, but also a smattering of remaining high-priority addon dev requests). Once we get closer to 12.0.1 launch we will release a list of tasks we plan to work on for 12.0.5 so you can have a better idea of the upcoming roadmap (including many of your requests).
+
+<details>
+<summary>{{text|#ecbc2a|<big>Critical changes we will be hotfixing to Pre-patch</big>}}</summary>
+*We are addressing various issues with secrets in tooltips.
+*We are addressing secret-related lua errors in Edit Mode.
+*We are addressing secret-related lua errors with dropdowns.
+</details>
+<details>
+<summary>{{text|#ecbc2a|<big>Changes in Beta 7</big>}}</summary>
+;{{text|blizz|Exploit Fixes}}
+*We have addressed further exploits with aura instance IDs.
+**Added a new Lua type called UnitTokenRestrictedForAddOns which is used in several aura and nameplate APIs and doesn't accept compound unit tokens (boss1target) or player/pet names from addons.
+**The "targettarget" token is exempt from this restriction.
+*We have addressed a whole host of addon communication workarounds:
+**QuestLogPushQuest is now restricted while in combat.
+***PingLocation is no longer accessible to addons.
+***MINIMAP_PING is now a secure callback event with secret payloads.
+***UnitIsAFK and UnitIsDND now return secrets when chat message lockdown is active.
+***The PLAYER_FLAGS_CHANGED event no longer gets sent when AFK or DND are changed and chat message lockdown is active.
+***BNSetAFK and BNSetDND can no longer be called by addons when chat message lockdown is active.
+***The following events now have secret payloads when chat messaging lockdown is active: START_PLAYER_COUNTDOWN, CANCEL_PLAYER_COUNTDOWN, READY_CHECK, GUILD_MOTD
+***The following C_LFGList APIs return secrets when chat messaging lockdown is active: GetApplicantInfo, GetActiveEntryInfo, GetSearchResultInfo, GetSearchResultPlayerInfo, GetSearchResultLeaderInfo
+***Club memberNote/officerNote values are now secret while in chat messaging lockdown.
+***C_VoiceChat.GetChannel APIs now return a secret list of voice chat channel members while in chat messaging lockdown.
+***Calendar Event information now secret while in chat messaging lockdown.
+;{{text|blizz|Addon throttles}}
+:Fixed an issue where addon throttles were incorrectly throttling addon load time in some cases. (Already hotfixed to pre-patch)
+;{{text|blizz|Misc Changes}}
+*Added a new SecureAuraButtonTemplate template in SecureGroupHeader.xml.
+*Fixed an issue where the C_UnitAuras.AddPrivateAuraAppliedSound API caused lua errors at the time of the sound playing. (Will be hotfixed to pre-patch)
+*Fixed an issue where the GetUnitAuraBySpellID and GetPlayerAuraBySpellID APIs would lua error even when passed non-secret spells. (Already hotfixed to pre-patch)
+</details>
+
+==January 27: [https://discord.com/channels/327414731654692866/1465776507237568664 Midnight Beta 8 Changes]==
+Blizzard again! Below you will find a list of changes we are making to addon restriction APIs in the coming weeks.
+
+These are not the entirety of the changes we are planning, just the ones already committed to for the immediately upcoming Beta releases.
+
+IMPORTANT: The RC process for 12.0.1 has begun, and while the Beta build this week is likely not going to be the final RC we are getting close. As a result, only very high priority issues are being worked on in 12.0.1 (mostly exploits, but also a smattering of remaining high-priority addon dev requests). Once we get closer to 12.0.1 launch we will release a list of tasks we plan to work on for 12.0.5 so you can have a better idea of the upcoming roadmap (including many of your requests).
+
+<details>
+<summary>{{text|#ecbc2a|<big>Critical changes due to be deployed to live/pre-patch over the next few days</big>}}</summary>
+*Fixed an issue where the C_UnitAuras.AddPrivateAuraAppliedSound API caused Lua errors at the time of the sound playing.
+*Fixed an issue causing secret-related Lua errors in Edit Mode.
+*Fixed an issue causing click casting to get eaten by private auras on raid frames.
+*Fixed various issues with secrets in tooltips causing Lua errors.
+*Fixed an issue where responding to a BNet whisper could cause a Lua error in auto complete code.
+*Fixed an issue causing secret-related Lua errors when addons created dropdowns.
+*Fixed an issue where arena frames could cause Lua errors when exiting edit mode.
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Changes in Beta 8 (ETA 1/28)</big>}}</summary>
+;{{text|blizz|Boss Warning APIs}}
+*Added a new C_EncounterEvents namespace that allows querying static information about encounter events.
+*Added a new C_EncounterEvents.SetEventColor API that allows addons to associate a specific color with an encounter event (our UI will use it to colorize text and timer bars).
+*Added a new C_EncounterEvents.SetEventSound API that allows addons to specify a sound to play when encounter events show text warnings or transition states on the timeline.
+**Sounds will be played automatically by the client.
+;{{text|blizz|Aura Filters}}
+*Added 4 new filter types for Aura APIs:
+**CROWD_CONTROL
+**BIG_DEFENSIVE
+**RAID_PLAYER_DISPELLABLE (returns auras the player can dispel)
+**RAID_IN_COMBAT (returns auras that are flagged to show on raid frames in combat, when used with Player and Helpful filters this should return mostly just HoTs).
+;{{text|blizz|Misc Changes}}
+*|T string markup inside secret strings now permits the use of local file overrides if the texture is part of the base game.
+**Referencing custom addon textures using secret strings is still not allowed.
+*Fixed an issue where tainted calls to CVarCallbackRegistry:GetCVarValue could store tainted values in the cached value table, causing restriction issues.
+*Fixed an issue in the Restricted Environment ipairs function that caused it to return early when any falsey value was stored in the table.
+*Added the optional start and end range parameters to unpack in the Restricted Environment.
+</details>
+
+<details>
+<summary>{{text|#ecbc2a|<big>Bonus Changes!!!</big>}}</summary>
+*Added a new CVar encounterTimelineShowSequenceCount (off by default) which will append a counter onto the end of the name of encounter events that increments after each occurrence of that event.
+*Added the following APIs to UnitHealPredictionCalculator: GetCurrentHealthPercent, GetMissingHealthPercent, EvaluateCurrentHealthPercent, EvaluateMissingHealthPercent.
+*Player data returned by PvP scoreboard APIs is now secret during an active PvP match.
+*Fixed an issue where addons using PingableUnitFrameTemplate would result in Lua errors when the player pinged on them.
+*Adjusted some script object APIs to no longer return secrets: HasScript, CanChangeAttribute, CanChangeProtectedState, IsAnchoringSecret, IsAnchoringRestricted, IsPreventingSecretValues, GetSourceLocation, GetNumMaskTextures/GetMaskTexture.
+</details>
+
+==February 3: [https://discord.com/channels/327414731654692866/1468459745785417769 Midnight Beta IX Changes Tetra Master Edition]==
+Hello again from Blizzard again!
+
+DISCLAIMER: These notes are for addon authors and as such are focused specifically on addon security changes only. Changes planned for other parts of the game (UI or otherwise) are not included here.
+
+IMPORTANT: We have picked our final RC for 12.0.1 pre-patch day and as such the Beta this week (Beta 9) will be the final Beta build for 12.0.1. With 3 weeks left until Midnight launch there are still a handful of fixes that we plan to hotfix before launch day, but you can expect those changes to be only very high priority things (bugfixes, exploit fixes, etc) rather than major API changes.
+
+With the Midnight Beta process drawing to a close, you can also expect these updates from us to slow down in pace a little. That doesn't mean we are going to go silent by any means (we will be releasing a roadmap of planned 12.0.5 changes around launch day and posting important updates as they come up) but expect these API change updates to slow down to maybe once a month or so.
+
+NOTE: Beta 9 doesn't have any addon-related changes in it that Beta 8 didn't, so the notes below will focus on critical changes that we are aiming to hotfix in to 12.0.1.
+
+On a more personal note, I want to take a moment to thank all of you for your patience and excellent feedback throughout this whole process. I know this has not been an easy process for many of you and that making the necessary updates to your addons was not easy (and was in some cases impossible). Despite all of that, you have provided us with absolutely VITAL feedback throughout alpha and beta.
+
+You pointed us towards numerous bugs and exploits and helped us prioritize the changes that were most vital for addon developers. We would not have gotten to this point without your help, and I want to truly thank ALL of you. Keep that feedback coming and stay tuned for a preview of our planned improvements for post-launch soon!
+
+<details open>
+{{apisummary.header|Critical changes due to be deployed to before 12.0.1 Patch day}}
+*Fixed an exploit with secret numbers and loops (shhh you didn't read this, it never happened).
+*Fixed an exploit with secret info leaking about whether a cast was interruptible.
+*Fixed various addon communication workarounds in Club APIs.
+*Fixed another exploit that allowed aurainstanceIDs to be "unsecreted".
+*Added a new IMPORTANT filter type for Aura APIs
+</details>
+<details open>
+{{apisummary.header|Critical changes we are plan to deploy before Midnight launch}}
+*We are fixing an issue where status bars can leak secrets.
+*We are fixing an issue where cooldown objects were not applying the cooldown aspect correctly.
+*We are fixing an issue where addons appending lines to certain tooltips would cause lua errors.
+*We are fixing an issue with cast delays in addon cast bars.
+</details>
+
+: ➡️ Follow-up: [[Patch 12.0.1/API changes#Blue posts]]

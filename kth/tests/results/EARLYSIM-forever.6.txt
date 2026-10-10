@@ -1,0 +1,13 @@
+run16 window 90s, first real snapshot at t=381s (same clock as forensics6_meter.py)
+   DRUID    n=1 healers=1  sim first ALL t=164  first NONE t=None
+   PALADIN  n=2 healers=0  sim first ALL t=None  first NONE t=None
+   PRIEST   n=2 healers=2  sim first ALL t=164  first NONE t=None
+   SHAMAN   n=1 healers=0  sim first ALL t=None  first NONE t=None
+run17 window 190s, first real snapshot at t=230s (same clock as forensics6_meter.py)
+   PALADIN  n=3 healers=1  sim first ALL t=None  first NONE t=None
+   PRIEST   n=2 healers=2  sim first ALL t=133  first NONE t=None
+   SHAMAN   n=2 healers=0  sim first ALL t=None  first NONE t=223
+run18 window 62s, first real snapshot at t=593s (same clock as forensics6_meter.py)
+   DRUID    n=2 healers=0  sim first ALL t=None  first NONE t=339
+   PALADIN  n=1 healers=0  sim first ALL t=279  first NONE t=None
+   PRIEST   n=3 healers=3  sim first ALL t=339  first NONE t=None

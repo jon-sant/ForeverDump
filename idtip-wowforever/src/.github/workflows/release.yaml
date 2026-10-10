@@ -1,0 +1,34 @@
+name: release
+
+on:
+  push:
+    tags: ['**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          cache: pnpm
+          node-version: latest
+      - uses: leafo/gh-actions-lua@v13
+        with:
+          luaVersion: "luajit"
+      - uses: leafo/gh-actions-luarocks@v6
+      - run: make lint
+      - run: make test
+      - run: make changelog > CHANGELOG.txt
+      - uses: BigWigsMods/packager@v2
+        env:
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          WOWI_API_TOKEN: ${{ secrets.WOWI_API_TOKEN }}
+          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}

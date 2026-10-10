@@ -1,0 +1,121 @@
+R1 ok: /kthg /hhtd /hhtdg open, 0 errors, 0 Blizzard chat lines
+R2 ok marks ['1'] errors 0
+R3 ok mouse-over on the healer plays the announcer sound, clicking it plays the target-lock sound: {'alerted': 5, 'verdictTrue': 5, 'hovers': 10, 'targetLocked': 5, 'alertedNoVerdict': 0, 'missed': 0}
+R4/R5 ok 2026-10-09-run16-bg.lua mo {'alerted': 48, 'verdictTrue': 72, 'hovers': 858, 'onTarget': 24, 'alertedNoVerdict': 0, 'missed': 0} platelog {'healerNoIcon': 0, 'changes': 18, 'iconNoHealer': 0} errors 0
+R4/R5 ok 2026-10-10-run17-bg.lua mo {'alerted': 50, 'verdictTrue': 89, 'hovers': 730, 'onTarget': 39, 'alertedNoVerdict': 0, 'missed': 0} platelog {'healerNoIcon': 0, 'changes': 14, 'iconNoHealer': 0} errors 0
+R4/R5 ok 2026-10-10-run18-bg.lua mo {'alerted': 43, 'verdictTrue': 43, 'hovers': 709, 'alertedNoVerdict': 0, 'missed': 0} platelog {'healerNoIcon': 0, 'changes': 18, 'iconNoHealer': 0} errors 0
+R9 ok zone pvp DPS druids on MANA marked: 0 alerts 0 errors 0
+R9 ok zone arena DPS druids on MANA marked: 0 alerts 0 errors 0
+R9 ok zone none DPS druids on MANA marked: 0 alerts 0 errors 0
+R9 ok control: healing druid marked: ['1']
+R9b ok 2026-10-09-run16-bg non-healer enemy druids [] marked []
+R9b ok 2026-10-10-run17-bg non-healer enemy druids [] marked []
+R9b ok 2026-10-10-run18-bg non-healer enemy druids ['Joff', 'Tatusera'] marked []
+R10 ok run16 healer Bleep marked at 749 s (ceiling 749 s) offFlips 0
+R10 ok run16 healer Frobby marked at 530 s (ceiling 530 s) offFlips 0
+R10 ok run16 healer Invictusap marked at 584 s (ceiling 584 s) offFlips 0
+R10 ok run17 healer Gorrotar marked at 1106 s (ceiling 1106 s) offFlips 0
+R10 ok run17 healer Aerie marked at 359 s (ceiling 359 s) offFlips 0
+R10 ok run17 healer Brocky marked at 459 s (ceiling 459 s) offFlips 0
+R10 ok run17 never claimed Ganon claims 0
+R10 ok run17 never claimed Romsly claims 0
+R10 ok run17 never claimed Vale claims 0
+R10 ok run18 healer Randess marked at 715 s (ceiling 715 s) offFlips 0
+R10 ok run18 healer Ank marked at 1052 s (ceiling 1052 s) offFlips 0
+R10 ok run18 healer Karen marked at 1036 s (ceiling 1036 s) offFlips 0
+R10 ok run18 not-healer Joff unmarked
+R10 ok run18 not-healer Tatusera unmarked
+R10 ok run18 not-healer Torvian unmarked
+R10 ok run18 never claimed Joff claims 0
+R10 ok run18 never claimed Tatusera claims 0
+R10 ok run18 never claimed Torvian claims 0
+R11 ok none class secret Penance marked +1 s after the cast
+R11 ok none class secret Power Infusion marked +1 s after the cast
+R11 ok none class secret Prayer of Mending marked +1 s after the cast
+R11 ok none class secret Light's Vigil marked +1 s after the cast
+R11 ok none class secret Wild Growth marked +1 s after the cast
+R11 ok none class secret Riptide marked +1 s after the cast
+R11 ok none class secret Swiftmend / Holy Shock / Riptide-NPC 22419 / no cast: marked []
+R11 ok none class clear Penance marked +1 s after the cast
+R11 ok none class clear Power Infusion marked +1 s after the cast
+R11 ok none class clear Prayer of Mending marked +1 s after the cast
+R11 ok none class clear Light's Vigil marked +1 s after the cast
+R11 ok none class clear Wild Growth marked +1 s after the cast
+R11 ok none class clear Riptide marked +1 s after the cast
+R11 ok none class clear Swiftmend / Holy Shock / Riptide-NPC 22419 / no cast: marked []
+R11 ok arena class secret Penance marked +1 s after the cast
+R11 ok arena class secret Power Infusion marked +1 s after the cast
+R11 ok arena class secret Prayer of Mending marked +1 s after the cast
+R11 ok arena class secret Light's Vigil marked +1 s after the cast
+R11 ok arena class secret Wild Growth marked +1 s after the cast
+R11 ok arena class secret Riptide marked +1 s after the cast
+R11 ok arena class secret Swiftmend / Holy Shock / Riptide-NPC 22419 / no cast: marked []
+R11 ok arena class clear Penance marked +1 s after the cast
+R11 ok arena class clear Power Infusion marked +1 s after the cast
+R11 ok arena class clear Prayer of Mending marked +1 s after the cast
+R11 ok arena class clear Light's Vigil marked +1 s after the cast
+R11 ok arena class clear Wild Growth marked +1 s after the cast
+R11 ok arena class clear Riptide marked +1 s after the cast
+R11 ok arena class clear Swiftmend / Holy Shock / Riptide-NPC 22419 / no cast: marked []
+R11 ok pvp class secret Penance marked +1 s after the cast
+R11 ok pvp class secret Power Infusion marked +1 s after the cast
+R11 ok pvp class secret Prayer of Mending marked +1 s after the cast
+R11 ok pvp class secret Light's Vigil marked +1 s after the cast
+R11 ok pvp class secret Wild Growth marked +1 s after the cast
+R11 ok pvp class secret Riptide marked +1 s after the cast
+R11 ok pvp class secret Swiftmend / Holy Shock / Riptide-NPC 22419 / no cast: marked []
+R11 ok pvp class clear Penance marked +1 s after the cast
+R11 ok pvp class clear Power Infusion marked +1 s after the cast
+R11 ok pvp class clear Prayer of Mending marked +1 s after the cast
+R11 ok pvp class clear Light's Vigil marked +1 s after the cast
+R11 ok pvp class clear Wild Growth marked +1 s after the cast
+R11 ok pvp class clear Riptide marked +1 s after the cast
+R11 ok pvp class clear Swiftmend / Holy Shock / Riptide-NPC 22419 / no cast: marked []
+R12 ok low-level healer without healer-only spells marked by meter heal 1450 dmg 120 median 90
+R13 ok arena spec: marked ['1'] recs {'E:Tree Bark': 'HEALER'}
+R13 ok group role HEALER claimed: spec group role
+R14 ok -run16-bg 18 side x class cells = NamePlateHooker ICONS_COORDS; marks 3 class icon 3 plain-cross fallback 0 ['DRUID', 'PRIEST']
+R14 ok -run17-bg 18 side x class cells = NamePlateHooker ICONS_COORDS; marks 3 class icon 3 plain-cross fallback 0 ['PALADIN', 'PRIEST']
+R14 ok -run18-bg 18 side x class cells = NamePlateHooker ICONS_COORDS; marks 3 class icon 3 plain-cross fallback 0 ['PRIEST']
+R15 ok GUI selects 8 missing hhtd [] round-trip {'enemyNone': ('UI-RaidTargetingIcon_8', [0, 0]), 'enemyShaman': ('UI-RaidTargetingIcon_8', [0, 0]), 'enemyPriest': ('healers_icons.tga', [2, 2]), 'friendDruid': ('healers_icons_minimal.tga', [1, 0])}
+R16	ok	scoreboard spec names: 15 cases, class-name values give no verdict
+R18	ok	meter minimum count / elimination / form share: 22 checks
+R19	ok	healer threshold setting + overrides + debug switch: 90 checks
+R20 ok run16 settings (defaults) detection == forever.10 debug capture {'plateLogRows': 18, 'meterReads': 17}
+R20 ok run17 settings (defaults) detection == forever.10 debug capture {'plateLogRows': 14, 'meterReads': 19}
+R20 ok run18 settings (defaults) detection == forever.10 debug capture {'plateLogRows': 18, 'meterReads': 20}
+R20 ok run19 settings (defaults) detection == forever.10 debug capture {'plateLogRows': 17, 'meterReads': 16}
+R20 ok run16 settings healerSharePct=60 detection == forever.10 debug capture {'plateLogRows': 18, 'meterReads': 17}
+R20 ok run17 settings healerSharePct=60 detection == forever.10 debug capture {'plateLogRows': 14, 'meterReads': 19}
+R20 ok run18 settings healerSharePct=60 detection == forever.10 debug capture {'plateLogRows': 18, 'meterReads': 20}
+R20 ok run19 settings healerSharePct=60 detection == forever.10 debug capture {'plateLogRows': 17, 'meterReads': 16}
+R20 ok run16 settings debug=1 detection == forever.10 debug capture {'plateLogRows': 18, 'meterReads': 17}
+R20 ok run17 settings debug=1 detection == forever.10 debug capture {'plateLogRows': 14, 'meterReads': 19}
+R20 ok run18 settings debug=1 detection == forever.10 debug capture {'plateLogRows': 18, 'meterReads': 20}
+R20 ok run19 settings debug=1 detection == forever.10 debug capture {'plateLogRows': 17, 'meterReads': 16}
+R20 ok run16 settings debug=0 detection == forever.10 debug capture {'plateLogRows': 0, 'meterReads': 0}
+R20 ok run17 settings debug=0 detection == forever.10 debug capture {'plateLogRows': 0, 'meterReads': 0}
+R20 ok run18 settings debug=0 detection == forever.10 debug capture {'plateLogRows': 0, 'meterReads': 0}
+R20 ok run19 settings debug=0 detection == forever.10 debug capture {'plateLogRows': 0, 'meterReads': 0}
+R17 ok run19 (training run since forever.10): marked ['Danukeru', '汇源'] claims E/F all truth healers, 0 false
+R7 ok arena enemyClass=secret marks 0 [] roster 0 errors 0 mo {'alerted': 0, 'verdictTrue': 0, 'hovers': 709, 'alertedNoVerdict': 0, 'missed': 0}
+R7 ok arena enemyClass=clear marks 0 [] roster 0 errors 0 mo {'alerted': 0, 'verdictTrue': 0, 'hovers': 709, 'alertedNoVerdict': 0, 'missed': 0}
+R7 ok none enemyClass=secret marks 0 [] roster 0 errors 0 mo {'alerted': 0, 'verdictTrue': 0, 'hovers': 709, 'alertedNoVerdict': 0, 'missed': 0}
+R7 ok none enemyClass=clear marks 0 [] roster 0 errors 0 mo {'alerted': 0, 'verdictTrue': 0, 'hovers': 709, 'alertedNoVerdict': 0, 'missed': 0}
+R7 ok party enemyClass=secret marks 0 [] roster 0 errors 0 mo {'alerted': 0, 'verdictTrue': 0, 'hovers': 709, 'alertedNoVerdict': 0, 'missed': 0}
+R7 ok party enemyClass=clear marks 0 [] roster 0 errors 0 mo {'alerted': 0, 'verdictTrue': 0, 'hovers': 709, 'alertedNoVerdict': 0, 'missed': 0}
+R7 ok party with Pve off: evidence records 0
+R8 2026-10-09-run10-bg: board-less (no full names, no classes)
+R8 2026-10-09-run11-bg: board-less (no full names, no classes)
+R8 2026-10-09-run12-bg: board-less (no full names, no classes)
+R8 2026-10-09-run13-bg: board-less (no full names, no classes)
+R8 2026-10-09-run16-bg: real board, 31/31 names backed by the SV
+R8 2026-10-10-run17-bg: real board, 30/30 names backed by the SV
+R8 2026-10-10-run18-bg: real board, 29/29 names backed by the SV
+R8 2026-10-10-run19-bg: real board, 31/31 names backed by the SV
+R8 2026-10-09-run16-bg: meter snapshots identical to a fresh SV export
+R8 2026-10-10-run17-bg: meter snapshots identical to a fresh SV export
+R8 2026-10-10-run18-bg: meter snapshots identical to a fresh SV export
+R8 2026-10-10-run19-bg: meter snapshots identical to a fresh SV export
+R8 ok
+R6 ok 60 non-listed globals, all reviewed

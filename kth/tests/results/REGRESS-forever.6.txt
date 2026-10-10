@@ -1,0 +1,50 @@
+R1 ok: /kthg /hhtd /hhtdg open, 0 errors, 0 Blizzard chat lines
+R2 ok marks ['1'] errors 0
+R3 ok mouse-over on the healer plays the announcer sound, clicking it plays the target-lock sound: {'alerted': 5, 'verdictTrue': 5, 'hovers': 10, 'targetLocked': 5, 'alertedNoVerdict': 0, 'missed': 0}
+R4/R5 ok 2026-10-09-run16-bg.lua mo {'alerted': 48, 'verdictTrue': 72, 'hovers': 858, 'onTarget': 24, 'alertedNoVerdict': 0, 'missed': 0} platelog {'healerNoIcon': 0, 'changes': 18, 'iconNoHealer': 0} errors 0
+R4/R5 ok 2026-10-10-run17-bg.lua mo {'alerted': 50, 'verdictTrue': 89, 'hovers': 730, 'onTarget': 39, 'alertedNoVerdict': 0, 'missed': 0} platelog {'healerNoIcon': 0, 'changes': 14, 'iconNoHealer': 0} errors 0
+R4/R5 ok 2026-10-10-run18-bg.lua mo {'alerted': 43, 'verdictTrue': 43, 'hovers': 709, 'alertedNoVerdict': 0, 'missed': 0} platelog {'healerNoIcon': 0, 'changes': 18, 'iconNoHealer': 0} errors 0
+R9 ok zone pvp DPS druids on MANA marked: 0 alerts 0 errors 0
+R9 ok zone arena DPS druids on MANA marked: 0 alerts 0 errors 0
+R9 ok zone none DPS druids on MANA marked: 0 alerts 0 errors 0
+R9 ok control: healing druid marked: ['1']
+R9b ok 2026-10-09-run16-bg non-healer enemy druids [] marked []
+R9b ok 2026-10-10-run17-bg non-healer enemy druids [] marked []
+R9b ok 2026-10-10-run18-bg non-healer enemy druids ['Joff', 'Tatusera'] marked []
+R10 ok run16 healer Bleep marked offFlips 0
+R10 ok run16 healer Frobby marked offFlips 0
+R10 ok run16 healer Invictusap marked offFlips 0
+R10 ok run17 healer Gorrotar marked offFlips 0
+R10 ok run17 healer Aerie marked offFlips 0
+R10 ok run17 healer Brocky marked offFlips 0
+R10 ok run17 never claimed Ganon claims 0
+R10 ok run17 never claimed Romsly claims 0
+R10 ok run17 never claimed Vale claims 0
+R10 ok run18 healer Randess marked offFlips 0
+R10 ok run18 healer Ank marked offFlips 0
+R10 ok run18 healer Karen marked offFlips 0
+R10 ok run18 not-healer Joff unmarked
+R10 ok run18 not-healer Tatusera unmarked
+R10 ok run18 not-healer Torvian unmarked
+R10 ok run18 never claimed Joff claims 0
+R10 ok run18 never claimed Tatusera claims 0
+R10 ok run18 never claimed Torvian claims 0
+R7 ok arena enemyClass=secret marks 0 [] roster 0 errors 0 mo {'alerted': 0, 'verdictTrue': 0, 'hovers': 709, 'alertedNoVerdict': 0, 'missed': 0}
+R7 ok arena enemyClass=clear marks 0 [] roster 0 errors 0 mo {'alerted': 0, 'verdictTrue': 0, 'hovers': 709, 'alertedNoVerdict': 0, 'missed': 0}
+R7 ok none enemyClass=secret marks 0 [] roster 0 errors 0 mo {'alerted': 0, 'verdictTrue': 0, 'hovers': 709, 'alertedNoVerdict': 0, 'missed': 0}
+R7 ok none enemyClass=clear marks 0 [] roster 0 errors 0 mo {'alerted': 0, 'verdictTrue': 0, 'hovers': 709, 'alertedNoVerdict': 0, 'missed': 0}
+R7 ok party enemyClass=secret marks 0 [] roster 0 errors 0 mo {'alerted': 0, 'verdictTrue': 0, 'hovers': 709, 'alertedNoVerdict': 0, 'missed': 0}
+R7 ok party enemyClass=clear marks 0 [] roster 0 errors 0 mo {'alerted': 0, 'verdictTrue': 0, 'hovers': 709, 'alertedNoVerdict': 0, 'missed': 0}
+R7 ok party with Pve off: evidence records 0
+R8 2026-10-09-run10-bg: board-less (no full names, no classes)
+R8 2026-10-09-run11-bg: board-less (no full names, no classes)
+R8 2026-10-09-run12-bg: board-less (no full names, no classes)
+R8 2026-10-09-run13-bg: board-less (no full names, no classes)
+R8 2026-10-09-run16-bg: real board, 31/31 names backed by the SV
+R8 2026-10-10-run17-bg: real board, 30/30 names backed by the SV
+R8 2026-10-10-run18-bg: real board, 29/29 names backed by the SV
+R8 2026-10-09-run16-bg: meter snapshots identical to a fresh SV export
+R8 2026-10-10-run17-bg: meter snapshots identical to a fresh SV export
+R8 2026-10-10-run18-bg: meter snapshots identical to a fresh SV export
+R8 ok
+R6 ok 60 non-listed globals, all reviewed

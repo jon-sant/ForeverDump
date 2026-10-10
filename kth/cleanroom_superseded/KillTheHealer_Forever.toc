@@ -1,0 +1,16 @@
+## Interface: 16001
+## Title: K.T.H. |cff888888(Kill The Healer)|r Forever
+## Notes: Finds and marks enemy (and friendly) healers in battlegrounds on WoW Forever using only signals that are not secret.
+## Author: John Wellesz (original H.H.T.D.), Scone (K.T.H. Midnight adaptation); Forever port for private use
+## Version: 1.0.0-forever
+## X-Credits: H.H.T.D. by John Wellesz - https://www.wowace.com/projects/h-h-t-d ; K.T.H. by Scone - https://www.curseforge.com/wow/addons/kill-the-healer-k-t-h
+## X-License: All Rights Reserved (original K.T.H.). This port is a clean-room reimplementation for private use; see LICENSE-NOTICE.txt
+## SavedVariables: KTH_ForeverDB
+## X-Interface-Detected-From: ForeverDump captures (env.interface=16001, WOW_PROJECT_ID=18, build 1.60.1.70334)
+
+Core\Init.lua
+Core\Safe.lua
+Data\HealSpells.lua
+Core\Engine.lua
+Core\Driver.lua
+UI\UI.lua

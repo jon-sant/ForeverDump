@@ -1,0 +1,83 @@
+
+### C_PvP.GetScoreInfo (table code, then field@tableCode)
+| key | world | prep | ooc | combat | post |
+|---|---|---|---|---|---|
+| GetScoreInfo | - | C305 | C1394 | C690 | C30 |
+| GetScoreInfo.bgRating@C | - | N305 | N1394 | N690 | N30 |
+| GetScoreInfo.className@C | - | C305 | C1394 | C690 | C30 |
+| GetScoreInfo.classToken@C | - | C305 | C1394 | C690 | C30 |
+| GetScoreInfo.damageDone@C | - | S305 | S1394 | S690 | C30 |
+| GetScoreInfo.deaths@C | - | S305 | S1394 | S690 | C30 |
+| GetScoreInfo.faction@C | - | C305 | C1394 | C690 | C30 |
+| GetScoreInfo.guid@C | - | S305 | S1394 | S690 | C30 |
+| GetScoreInfo.healingDone@C | - | S305 | S1394 | S690 | C30 |
+| GetScoreInfo.honorGained@C | - | S305 | S1394 | S690 | C30 |
+| GetScoreInfo.honorableKills@C | - | S305 | S1394 | S690 | C30 |
+| GetScoreInfo.killingBlows@C | - | S305 | S1394 | S690 | C30 |
+| GetScoreInfo.name@C | - | C305 | C1394 | C690 | C30 |
+| GetScoreInfo.race@C | - | N305 | N1394 | N690 | N30 |
+| GetScoreInfo.rating@C | - | S305 | S1394 | S690 | C30 |
+| GetScoreInfo.roleAssigned@C | - | S305 | S1394 | S690 | C30 |
+| GetScoreInfo.talentSpec@C | - | S305 | S1394 | S690 | C30 |
+
+### GetBattlefieldScore positions
+| key | world | prep | ooc | combat | post |
+|---|---|---|---|---|---|
+| GetBattlefieldScore.1 | - | C305 | C1394 | C690 | C30 |
+| GetBattlefieldScore.2 | - | S305 | S1394 | S690 | C30 |
+| GetBattlefieldScore.3 | - | S305 | S1394 | S690 | C30 |
+| GetBattlefieldScore.4 | - | S305 | S1394 | S690 | C30 |
+| GetBattlefieldScore.5 | - | S305 | S1394 | S690 | C30 |
+| GetBattlefieldScore.6 | - | C305 | C1394 | C690 | C30 |
+| GetBattlefieldScore.7 | - | C305 | C1394 | C690 | C30 |
+| GetBattlefieldScore.8 | - | C305 | C1394 | C690 | C30 |
+| GetBattlefieldScore.9 | - | C305 | C1394 | C690 | C30 |
+| GetBattlefieldScore.10 | - | S305 | S1394 | S690 | C30 |
+| GetBattlefieldScore.11 | - | S305 | S1394 | S690 | C30 |
+| GetBattlefieldScore.12 | - | S305 | S1394 | S690 | C30 |
+| GetBattlefieldScore.13 | - | S305 | S1394 | S690 | C30 |
+| GetBattlefieldScore.14 | - | N305 | N1394 | N690 | N30 |
+| GetBattlefieldScore.15 | - | S305 | S1394 | S690 | C30 |
+| GetBattlefieldScore.16 | - | S305 | S1394 | S690 | C30 |
+| GetBattlefieldScore.17 | - | S305 | S1394 | S690 | C30 |
+| GetNumBattlefieldScores | - | C11 | C86 | C44 | C2 |
+
+### unit reads (family:side:API.return)
+| key | world | prep | ooc | combat | post |
+|---|---|---|---|---|---|
+| nameplateN:enemy:UnitCanAttack.1 | - | - | C245 | C581 | - |
+| nameplateN:enemy:UnitClass.1 | - | - | S245 | S581 | - |
+| nameplateN:enemy:UnitClass.2 | - | - | S245 | S581 | - |
+| nameplateN:enemy:UnitClass.3 | - | - | S245 | S581 | - |
+| nameplateN:enemy:UnitGUID.1 | - | - | S245 | S581 | - |
+| nameplateN:enemy:UnitHealthMax.1 | - | - | S245 | S581 | - |
+| nameplateN:enemy:UnitIsFriend.1 | - | - | C245 | C581 | - |
+| nameplateN:enemy:UnitName.1 | - | - | C245 | C581 | - |
+| nameplateN:enemy:UnitName.2 | - | - | C245 | C581 | - |
+| nameplateN:enemy:UnitPowerType.1 | - | - | C245 | C581 | - |
+| nameplateN:enemy:UnitPowerType.2 | - | - | C245 | C581 | - |
+| nameplateN:enemy:UnitPowerType.3 | - | - | N245 | N581 | - |
+| nameplateN:enemy:UnitPowerType.4 | - | - | N245 | N581 | - |
+| nameplateN:enemy:UnitPowerType.5 | - | - | N245 | N581 | - |
+
+### UNIT_SPELLCAST_SUCCEEDED spellID
+| key | world | prep | ooc | combat | post |
+|---|---|---|---|---|---|
+| arenaN:spellID | - | - | S3 | - | - |
+| nameplateN:spellID | - | - | S9 | S16 | - |
+| partyN:spellID | - | - | S20 | S10 | - |
+| player:spellID | - | C5 | C44 | C99 | - |
+| raidN:spellID | - | C5 S12 | C44 S89 | C99 S67 | - |
+| target:spellID | - | - | S2 | S6 | - |
+| targettarget:spellID | - | - | C2 S2 | C18 S9 | - |
+
+sessions [{"C_CombatLogInternal": false, "regF": 0, "healerSpells": 3, "mnCount": {"friendly": 0, "enemy": 0}, "project": 18, "diag": {"cleuIntSecretSpell": 0, "cleuIntHealEvent": 0, "cleuIntSecretGUID": 0, "spellcastSecretGUID": 0, "lastEvent": "", "cleuIntBadTarget": 0, "scoreboardScans": 0, "cleuIntFired": 0, "cleuIntGotData": 0, "cleuIntNotPlayer": 0, "spellcastSecretID": 0, "diagEnabled": false, "cleuIntSecretFlags": 0, "lastSpell": "", "cleuIntRegistered": 0, "cleuIntSecretEvent": 0, "spellcastRegistered": 0, "scoreboardRegistered": 0, "spellcastFired": 0, "spellcastNotHealer": 0, "scoreboardPlayers": 0, "cleuIntNoSource": 0}, "kthLoaded": true, "MNP": false, "build": "70334", "enabled": true, "toc": 16001, "at": 1791604289, "canaccessvalue": true, "MN": false, "CombatLogGetCurrentEventInfo": false, "regE": 0, "WOWC": true}, {"C_CombatLogInternal": false, "regF": 0, "healerSpells": 3, "mnCount": {"friendly": 0, "enemy": 0}, "project": 18, "diag": {"cleuIntSecretSpell": 0, "cleuIntHealEvent": 0, "cleuIntSecretGUID": 0, "spellcastSecretGUID": 0, "lastEvent": "", "cleuIntBadTarget": 0, "scoreboardScans": 0, "cleuIntFired": 0, "cleuIntGotData": 0, "lastSpell": "", "spellcastSecretID": 0, "diagEnabled": false, "cleuIntSecretFlags": 0, "cleuIntNoSource": 0, "cleuIntRegistered": 0, "cleuIntSecretEvent": 0, "spellcastRegistered": 0, "scoreboardRegistered": 0, "scoreboardPlayers": 0, "spellcastNotHealer": 0, "spellcastFired": 0, "cleuIntNotPlayer": 0}, "kthLoaded": true, "MNP": false, "b
+
+blocked {}
+
+errors 1
+   {"kth": false, "msg": "...TH/Libs/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua:130: attempt to call a nil value", "stack": "[tail call]: ?\n[Interface/AddOns/KTH/Libs/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua]:130: in function 'SetValue'\n[Interface/AddOns/KTH/Libs/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua]:75: in function 'OnAcquire'\n[Interface/AddOns/KTH/Libs/AceGUI-3.0/AceGUI-3.0.lua]:156: in function 'Create'\n[Interface/AddOns/KTH/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1102: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1093>\n[Interface/AddOns/KTH/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1198: in function <..
+
+kthPrints [{"t": 1791606558, "ctx": "world|p0", "text": "|cff00ff00[K.T.H.]|r Kill The Healer active. Type |cffffffff/kthg|r for settings."}, {"t": 1791607046, "ctx": "prep|p14", "text": "|cff00ff00[K.T.H.]|r Kill The Healer active. Type |cffffffff/kthg|r for settings."}]
+
+lastZone {'inInstance': True, 't': 1791607046, 'kind': 'pvp'} phaseNow {'ctx': 'post|p15', 't': 1791608382}
