@@ -1,0 +1,8 @@
+{
+ "_comment": "OPTIONAL fallback for combat logs without a matching SavedVariables file. Normally the converter reads the player identity that ForeverDump >= 2.2.1 writes to the SV meta (ForeverDumpDB.meta.identity) and needs no configuration. Forever names are 'First Last'; the combat log shows only 'First-Realm-Region'. guid may be empty.",
+ "characters": [
+  {"display": "Uglaz Doomaxe", "combatLogName": "Uglaz", "realm": "ClassicBetaPvE", "guid": "Player-4618-00EB40D8", "role": "main"},
+  {"display": "Pally-Palzy", "combatLogName": "Pally", "realm": "", "guid": "", "role": "alt",
+   "note": "given as 'Pally-Palzy' (first-last or name-realm: not yet seen in a log or SV)"}
+ ]
+}

@@ -1,0 +1,573 @@
+{
+ "_about": "Curated legacy -> modern API map (11.x/12.x API moves; sources: Blizzard_Deprecated* shims of earlier patches, warcraft.wiki.gg 'API change summaries' and Ketho BIR). Every replacement is checked against the dump at run time; a replacement missing from the client is reported as such. kind: alias (same args/returns) | table (returns a struct instead of a tuple) | changed (other differences) | none (no replacement for addons).",
+ "events": {
+  "COMBAT_LOG_EVENT": {
+   "note": "same as COMBAT_LOG_EVENT_UNFILTERED",
+   "status": "restricted-event"
+  },
+  "COMBAT_LOG_EVENT_UNFILTERED": {
+   "note": "registering it on Forever fires ADDON_ACTION_FORBIDDEN and offers to disable the addon (pcall does not help). Use UNIT_COMBAT / UNIT_SPELLCAST_* / COMBAT_TEXT_UPDATE / C_DamageMeter.",
+   "status": "restricted-event"
+  },
+  "ITEM_PUSH": {
+   "new": "BAG_UPDATE_DELAYED"
+  },
+  "LEARNED_SPELL_IN_TAB": {
+   "new": "LEARNED_SPELL_IN_SKILL_LINE"
+  },
+  "PARTY_MEMBERS_CHANGED": {
+   "new": "GROUP_ROSTER_UPDATE"
+  },
+  "PARTY_MEMBER_DISABLE": {
+   "new": "UNIT_CONNECTION"
+  },
+  "PARTY_MEMBER_ENABLE": {
+   "new": "UNIT_CONNECTION"
+  },
+  "RAID_ROSTER_UPDATE": {
+   "new": "GROUP_ROSTER_UPDATE"
+  },
+  "UNIT_AURASTATE": {
+   "new": "UNIT_AURA"
+  },
+  "UNIT_ENERGY": {
+   "new": "UNIT_POWER_UPDATE"
+  },
+  "UNIT_HEALTH_FREQUENT": {
+   "new": "UNIT_HEALTH",
+   "note": "merged into UNIT_HEALTH (9.0); health values are secret for many units"
+  },
+  "UNIT_MANA": {
+   "new": "UNIT_POWER_UPDATE"
+  },
+  "UNIT_MAXMANA": {
+   "new": "UNIT_MAXPOWER"
+  },
+  "UNIT_POWER": {
+   "new": "UNIT_POWER_UPDATE",
+   "note": "payload (unitTarget, powerType)"
+  },
+  "UNIT_POWER_FREQUENT": {
+   "new": "UNIT_POWER_UPDATE",
+   "note": "check the dump: UNIT_POWER_FREQUENT may still exist"
+  },
+  "UNIT_RAGE": {
+   "new": "UNIT_POWER_UPDATE"
+  },
+  "WORLD_MAP_UPDATE": {
+   "new": "ZONE_CHANGED_NEW_AREA",
+   "note": "no world-map state events for addons; react to zone changes"
+  }
+ },
+ "functions": {
+  "BNGetFriendInfo": {
+   "kind": "table",
+   "new": "C_BattleNet.GetFriendAccountInfo",
+   "returns": "BNetAccountInfo"
+  },
+  "CombatLogGetCurrentEventInfo": {
+   "kind": "none",
+   "new": null,
+   "returns": "Forever restricts COMBAT_LOG_EVENT(_UNFILTERED) and has no C_CombatLog.GetCurrentEventInfo. Use UNIT_COMBAT, UNIT_SPELLCAST_*, COMBAT_TEXT_UPDATE + C_CombatText.GetCurrentEventInfo and C_DamageMeter (amounts secret in combat); offline analysis: Logs/WoWCombatLog.txt"
+  },
+  "DisableAddOn": {
+   "kind": "alias",
+   "new": "C_AddOns.DisableAddOn"
+  },
+  "EasyMenu": {
+   "kind": "changed",
+   "new": "MenuUtil.CreateContextMenu",
+   "returns": "Blizzard_Menu API: MenuUtil.CreateContextMenu(owner, function(owner, rootDescription) rootDescription:CreateButton(text, fn) end)"
+  },
+  "EnableAddOn": {
+   "kind": "alias",
+   "new": "C_AddOns.EnableAddOn"
+  },
+  "GetAddOnDependencies": {
+   "kind": "alias",
+   "new": "C_AddOns.GetAddOnDependencies"
+  },
+  "GetAddOnInfo": {
+   "kind": "alias",
+   "new": "C_AddOns.GetAddOnInfo"
+  },
+  "GetAddOnMetadata": {
+   "kind": "alias",
+   "new": "C_AddOns.GetAddOnMetadata"
+  },
+  "GetBagName": {
+   "kind": "alias",
+   "new": "C_Container.GetBagName"
+  },
+  "GetCVarBool": {
+   "kind": "alias",
+   "new": "C_CVar.GetCVarBool"
+  },
+  "GetCVarDefault": {
+   "kind": "alias",
+   "new": "C_CVar.GetCVarDefault"
+  },
+  "GetContainerItemCooldown": {
+   "kind": "alias",
+   "new": "C_Container.GetContainerItemCooldown"
+  },
+  "GetContainerItemDurability": {
+   "kind": "alias",
+   "new": "C_Container.GetContainerItemDurability"
+  },
+  "GetContainerItemID": {
+   "kind": "alias",
+   "new": "C_Container.GetContainerItemID"
+  },
+  "GetContainerItemInfo": {
+   "example": "local info = C_Container.GetContainerItemInfo(bag, slot); if info then local count = info.stackCount end",
+   "kind": "table",
+   "new": "C_Container.GetContainerItemInfo",
+   "returns": "ContainerItemInfo {iconFileID, stackCount, isLocked, quality, isReadable, hasLoot, hyperlink, isFiltered, hasNoValue, itemID, isBound}; old: texture, count, locked, quality, readable, lootable, link, isFiltered, noValue, itemID, isBound"
+  },
+  "GetContainerItemLink": {
+   "kind": "alias",
+   "new": "C_Container.GetContainerItemLink"
+  },
+  "GetContainerItemQuestInfo": {
+   "kind": "table",
+   "new": "C_Container.GetContainerItemQuestInfo",
+   "returns": "ItemQuestInfo {isQuestItem, questID, isActive}"
+  },
+  "GetContainerNumFreeSlots": {
+   "kind": "alias",
+   "new": "C_Container.GetContainerNumFreeSlots"
+  },
+  "GetContainerNumSlots": {
+   "kind": "alias",
+   "new": "C_Container.GetContainerNumSlots"
+  },
+  "GetCurrencyInfo": {
+   "kind": "table",
+   "new": "C_CurrencyInfo.GetCurrencyInfo",
+   "returns": "CurrencyInfo {name, quantity, iconFileID, maxQuantity, quality, ...}"
+  },
+  "GetCurrencyLink": {
+   "kind": "alias",
+   "new": "C_CurrencyInfo.GetCurrencyLink"
+  },
+  "GetCurrencyListInfo": {
+   "kind": "table",
+   "new": "C_CurrencyInfo.GetCurrencyListInfo",
+   "returns": "CurrencyInfo"
+  },
+  "GetCurrentMapAreaID": {
+   "kind": "changed",
+   "new": "C_Map.GetBestMapForUnit",
+   "returns": "C_Map.GetBestMapForUnit('player') returns uiMapID (different IDs from old map area IDs)"
+  },
+  "GetDetailedItemLevelInfo": {
+   "kind": "alias",
+   "new": "C_Item.GetDetailedItemLevelInfo"
+  },
+  "GetFriendInfo": {
+   "kind": "table",
+   "new": "C_FriendList.GetFriendInfoByIndex",
+   "returns": "FriendInfo {name, level, className, area, connected, notes, guid}"
+  },
+  "GetItemClassInfo": {
+   "kind": "alias",
+   "new": "C_Item.GetItemClassInfo"
+  },
+  "GetItemCooldown": {
+   "kind": "alias",
+   "new": "C_Container.GetItemCooldown",
+   "returns": "startTime, duration, enable"
+  },
+  "GetItemCount": {
+   "kind": "alias",
+   "new": "C_Item.GetItemCount"
+  },
+  "GetItemFamily": {
+   "kind": "alias",
+   "new": "C_Item.GetItemFamily"
+  },
+  "GetItemIcon": {
+   "kind": "alias",
+   "new": "C_Item.GetItemIconByID"
+  },
+  "GetItemInfo": {
+   "kind": "alias",
+   "new": "C_Item.GetItemInfo",
+   "returns": "same tuple (itemName, itemLink, quality, itemLevel, minLevel, type, subType, stackCount, equipLoc, texture, sellPrice, classID, subclassID, bindType, expansionID, setID, isCraftingReagent); nil until GET_ITEM_INFO_RECEIVED / ITEM_DATA_LOAD_RESULT"
+  },
+  "GetItemInfoInstant": {
+   "kind": "alias",
+   "new": "C_Item.GetItemInfoInstant"
+  },
+  "GetItemQualityColor": {
+   "kind": "alias",
+   "new": "C_Item.GetItemQualityColor"
+  },
+  "GetItemSpell": {
+   "kind": "alias",
+   "new": "C_Item.GetItemSpell"
+  },
+  "GetItemStats": {
+   "kind": "alias",
+   "new": "C_Item.GetItemStats"
+  },
+  "GetItemSubClassInfo": {
+   "kind": "alias",
+   "new": "C_Item.GetItemSubClassInfo"
+  },
+  "GetLootMethod": {
+   "kind": "alias",
+   "new": "C_PartyInfo.GetLootMethod"
+  },
+  "GetMapNameByID": {
+   "kind": "table",
+   "new": "C_Map.GetMapInfo",
+   "returns": "UiMapDetails {mapID, name, mapType, parentMapID}"
+  },
+  "GetMouseFocus": {
+   "example": "local focus = GetMouseFoci()[1]",
+   "kind": "changed",
+   "new": "GetMouseFoci",
+   "returns": "GetMouseFoci() returns a table of regions under the cursor (top first)"
+  },
+  "GetNumAddOns": {
+   "kind": "alias",
+   "new": "C_AddOns.GetNumAddOns"
+  },
+  "GetNumFriends": {
+   "kind": "alias",
+   "new": "C_FriendList.GetNumFriends"
+  },
+  "GetNumPartyMembers": {
+   "kind": "alias",
+   "new": "GetNumSubgroupMembers"
+  },
+  "GetNumQuestLogEntries": {
+   "kind": "alias",
+   "new": "C_QuestLog.GetNumQuestLogEntries"
+  },
+  "GetNumRaidMembers": {
+   "kind": "alias",
+   "new": "GetNumGroupMembers"
+  },
+  "GetNumSpellTabs": {
+   "kind": "alias",
+   "new": "C_SpellBook.GetNumSpellBookSkillLines"
+  },
+  "GetPlayerAuraBySpellID": {
+   "kind": "table",
+   "new": "C_UnitAuras.GetPlayerAuraBySpellID",
+   "returns": "AuraData"
+  },
+  "GetPlayerMapPosition": {
+   "kind": "changed",
+   "new": "C_Map.GetPlayerMapPosition",
+   "returns": "C_Map.GetPlayerMapPosition(uiMapID, 'player') returns a Vector2D (x, y = pos:GetXY()); nil in restricted areas"
+  },
+  "GetQuestLogIndexByID": {
+   "kind": "alias",
+   "new": "C_QuestLog.GetLogIndexForQuestID"
+  },
+  "GetQuestLogTitle": {
+   "kind": "table",
+   "new": "C_QuestLog.GetInfo",
+   "returns": "QuestInfo {title, questLogIndex, questID, level, isHeader, isCollapsed, frequency, isComplete, ...}"
+  },
+  "GetQuestsCompleted": {
+   "kind": "changed",
+   "new": "C_QuestLog.GetAllCompletedQuestIDs",
+   "returns": "array of questIDs instead of a [questID]=true map"
+  },
+  "GetRealNumPartyMembers": {
+   "kind": "alias",
+   "new": "GetNumSubgroupMembers"
+  },
+  "GetRealNumRaidMembers": {
+   "kind": "alias",
+   "new": "GetNumGroupMembers"
+  },
+  "GetSpecialization": {
+   "kind": "alias",
+   "new": "C_SpecializationInfo.GetSpecialization"
+  },
+  "GetSpecializationInfo": {
+   "kind": "alias",
+   "new": "C_SpecializationInfo.GetSpecializationInfo"
+  },
+  "GetSpellBookItemInfo": {
+   "kind": "table",
+   "new": "C_SpellBook.GetSpellBookItemInfo",
+   "returns": "SpellBookItemInfo {actionID, spellID, itemType (Enum.SpellBookItemType), name, subName, iconID, isPassive, isOffSpec, skillLineIndex}; bookType string -> Enum.SpellBookSpellBank"
+  },
+  "GetSpellBookItemName": {
+   "kind": "changed",
+   "new": "C_SpellBook.GetSpellBookItemName",
+   "returns": "bank argument is Enum.SpellBookSpellBank instead of 'spell'/'pet'"
+  },
+  "GetSpellBookItemTexture": {
+   "kind": "changed",
+   "new": "C_SpellBook.GetSpellBookItemTexture",
+   "returns": "bank argument is Enum.SpellBookSpellBank"
+  },
+  "GetSpellCharges": {
+   "kind": "table",
+   "new": "C_Spell.GetSpellCharges",
+   "returns": "SpellChargeInfo {currentCharges, maxCharges, cooldownStartTime, cooldownDuration, chargeModRate}"
+  },
+  "GetSpellCooldown": {
+   "example": "local cd = C_Spell.GetSpellCooldown(id); if cd and cd.duration > 0 then ... end",
+   "kind": "table",
+   "new": "C_Spell.GetSpellCooldown",
+   "returns": "SpellCooldownInfo {startTime, duration, isEnabled (boolean), modRate}; old: start, duration, enabled (1/0), modRate"
+  },
+  "GetSpellCount": {
+   "kind": "alias",
+   "new": "C_Spell.GetSpellCastCount"
+  },
+  "GetSpellDescription": {
+   "kind": "alias",
+   "new": "C_Spell.GetSpellDescription"
+  },
+  "GetSpellInfo": {
+   "example": "local info = C_Spell.GetSpellInfo(id); local name, icon = info and info.name, info and info.iconID",
+   "kind": "table",
+   "new": "C_Spell.GetSpellInfo",
+   "returns": "SpellInfo {name, iconID, originalIconID, castTime, minRange, maxRange, spellID}; old: name, rank, icon, castTime, minRange, maxRange, spellID, originalIcon. rank is gone. Returns nil for unknown spells."
+  },
+  "GetSpellInfoTooltip": {
+   "kind": "table",
+   "new": "C_TooltipInfo.GetSpellByID"
+  },
+  "GetSpellLink": {
+   "kind": "alias",
+   "new": "C_Spell.GetSpellLink",
+   "returns": "spellLink (no tradeSkillLink second return)"
+  },
+  "GetSpellPowerCost": {
+   "kind": "alias",
+   "new": "C_Spell.GetSpellPowerCost"
+  },
+  "GetSpellTabInfo": {
+   "kind": "table",
+   "new": "C_SpellBook.GetSpellBookSkillLineInfo",
+   "returns": "SpellBookSkillLineInfo {name, iconID, itemIndexOffset, numSpellBookItems, isGuild, offSpecID, shouldHide, specID}"
+  },
+  "GetSpellTexture": {
+   "kind": "alias",
+   "new": "C_Spell.GetSpellTexture",
+   "returns": "iconID, originalIconID"
+  },
+  "GetTalentInfo": {
+   "kind": "changed",
+   "new": "C_SpecializationInfo.GetTalentInfo",
+   "returns": "check the client's talent API (Forever uses the classic talent system)"
+  },
+  "HasPetSpells": {
+   "kind": "alias",
+   "new": "C_SpellBook.HasPetSpells"
+  },
+  "InterfaceOptionsFrame_OpenToCategory": {
+   "kind": "changed",
+   "new": "Settings.OpenToCategory",
+   "returns": "takes the category ID (category:GetID()), not the panel"
+  },
+  "InterfaceOptions_AddCategory": {
+   "kind": "changed",
+   "new": "Settings.RegisterCanvasLayoutCategory",
+   "returns": "local category = Settings.RegisterCanvasLayoutCategory(panel, panel.name); Settings.RegisterAddOnCategory(category)"
+  },
+  "IsAddOnLoadOnDemand": {
+   "kind": "alias",
+   "new": "C_AddOns.IsAddOnLoadOnDemand"
+  },
+  "IsAddOnLoaded": {
+   "kind": "changed",
+   "new": "C_AddOns.IsAddOnLoaded",
+   "returns": "loadedOrLoading, loaded"
+  },
+  "IsAddonMessagePrefixRegistered": {
+   "kind": "alias",
+   "new": "C_ChatInfo.IsAddonMessagePrefixRegistered"
+  },
+  "IsAutoRepeatSpell": {
+   "kind": "alias",
+   "new": "C_Spell.IsAutoRepeatSpell"
+  },
+  "IsConsumableItem": {
+   "kind": "alias",
+   "new": "C_Item.IsConsumableItem"
+  },
+  "IsCurrentItem": {
+   "kind": "alias",
+   "new": "C_Item.IsCurrentItem"
+  },
+  "IsCurrentSpell": {
+   "kind": "alias",
+   "new": "C_Spell.IsCurrentSpell"
+  },
+  "IsEquippedItem": {
+   "kind": "alias",
+   "new": "C_Item.IsEquippedItem"
+  },
+  "IsHarmfulItem": {
+   "kind": "alias",
+   "new": "C_Item.IsHarmfulItem"
+  },
+  "IsHarmfulSpell": {
+   "kind": "alias",
+   "new": "C_Spell.IsSpellHarmful"
+  },
+  "IsHelpfulItem": {
+   "kind": "alias",
+   "new": "C_Item.IsHelpfulItem"
+  },
+  "IsHelpfulSpell": {
+   "kind": "alias",
+   "new": "C_Spell.IsSpellHelpful"
+  },
+  "IsItemInRange": {
+   "kind": "changed",
+   "new": "C_Item.IsItemInRange",
+   "returns": "protected against hostile units in combat on modern clients"
+  },
+  "IsPassiveSpell": {
+   "kind": "alias",
+   "new": "C_Spell.IsSpellPassive"
+  },
+  "IsQuestFlaggedCompleted": {
+   "kind": "alias",
+   "new": "C_QuestLog.IsQuestFlaggedCompleted"
+  },
+  "IsSpellInRange": {
+   "kind": "changed",
+   "new": "C_Spell.IsSpellInRange",
+   "returns": "boolean or nil instead of 1/0/nil; argument order (spell, unit) unchanged; spell may be ID or name (no book index form)"
+  },
+  "IsUsableItem": {
+   "kind": "alias",
+   "new": "C_Item.IsUsableItem"
+  },
+  "IsUsableSpell": {
+   "kind": "alias",
+   "new": "C_Spell.IsSpellUsable",
+   "returns": "isUsable, insufficientPower (booleans)"
+  },
+  "ItemHasRange": {
+   "kind": "alias",
+   "new": "C_Item.ItemHasRange"
+  },
+  "LoadAddOn": {
+   "kind": "alias",
+   "new": "C_AddOns.LoadAddOn"
+  },
+  "PickupContainerItem": {
+   "kind": "alias",
+   "new": "C_Container.PickupContainerItem"
+  },
+  "RegisterAddonMessagePrefix": {
+   "kind": "alias",
+   "new": "C_ChatInfo.RegisterAddonMessagePrefix"
+  },
+  "SendAddonMessage": {
+   "kind": "changed",
+   "new": "C_ChatInfo.SendAddonMessage",
+   "returns": "returns Enum.SendAddonMessageResult; outgoing addon messages can be restricted (C_ChatInfo.AreOutgoingAddonChatMessagesRestricted)"
+  },
+  "SendChatMessage": {
+   "kind": "alias",
+   "new": "C_ChatInfo.SendChatMessage",
+   "returns": "the global may remain as a wrapper; chat output can be blocked during chat messaging lockdown"
+  },
+  "SetMapToCurrentZone": {
+   "kind": "none",
+   "new": null,
+   "returns": "no world-map state any more; use C_Map.GetBestMapForUnit('player')"
+  },
+  "SortBags": {
+   "kind": "alias",
+   "new": "C_Container.SortBags"
+  },
+  "SpellHasRange": {
+   "kind": "alias",
+   "new": "C_Spell.SpellHasRange"
+  },
+  "SplitContainerItem": {
+   "kind": "alias",
+   "new": "C_Container.SplitContainerItem"
+  },
+  "UnitAura": {
+   "example": "local aura = C_UnitAuras.GetAuraDataByIndex(unit, i, filter); if not aura then break end",
+   "kind": "table",
+   "new": "C_UnitAuras.GetAuraDataByIndex",
+   "returns": "AuraData {name, icon, applications, dispelName, duration, expirationTime, sourceUnit, isStealable, spellId, auraInstanceID, isHelpful, isHarmful, ...}; AuraUtil.UnpackAuraData(aura) rebuilds the old tuple. Prefer UNIT_AURA updateInfo + C_UnitAuras.GetAuraDataByAuraInstanceID."
+  },
+  "UnitAuraBySlot": {
+   "kind": "table",
+   "new": "C_UnitAuras.GetAuraDataBySlot",
+   "returns": "AuraData"
+  },
+  "UnitAuraSlots": {
+   "kind": "alias",
+   "new": "C_UnitAuras.GetAuraSlots"
+  },
+  "UnitBuff": {
+   "kind": "table",
+   "new": "C_UnitAuras.GetBuffDataByIndex",
+   "returns": "AuraData (see UnitAura)"
+  },
+  "UnitDebuff": {
+   "kind": "table",
+   "new": "C_UnitAuras.GetDebuffDataByIndex",
+   "returns": "AuraData (see UnitAura)"
+  },
+  "UnitIsTappedByPlayer": {
+   "kind": "changed",
+   "new": "UnitIsTapDenied",
+   "returns": "inverted meaning: UnitIsTapDenied(unit) is true when you can NOT get credit"
+  },
+  "UnitPopup_ShowMenu": {
+   "kind": "changed",
+   "new": "Menu.ModifyMenu",
+   "returns": "unit context menus are built with Menu.ModifyMenu('MENU_UNIT_...', fn)"
+  },
+  "UseContainerItem": {
+   "kind": "alias",
+   "new": "C_Container.UseContainerItem",
+   "returns": "protected in combat for some items"
+  },
+  "getglobal": {
+   "kind": "changed",
+   "new": "_G[name]"
+  },
+  "setglobal": {
+   "kind": "changed",
+   "new": "_G[name] = value"
+  }
+ },
+ "protected": [
+  "CastSpellByName",
+  "CastSpellByID",
+  "CastSpell",
+  "UseAction",
+  "TargetUnit",
+  "AssistUnit",
+  "FocusUnit",
+  "ClearTarget",
+  "UseItemByName",
+  "UseInventoryItem",
+  "RunMacro",
+  "RunMacroText",
+  "SpellStopCasting",
+  "PetAttack",
+  "CameraOrSelectOrMoveStart",
+  "TurnOrActionStart",
+  "JumpOrAscendStart",
+  "MoveForwardStart",
+  "SetBindingClick",
+  "SetOverrideBinding",
+  "SetOverrideBindingClick",
+  "PickupAction",
+  "PlaceAction"
+ ]
+}

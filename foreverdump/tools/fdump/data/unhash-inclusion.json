@@ -1,0 +1,426 @@
+{
+ "excluded": [
+  "2026-10-08-run8-bg",
+  "2026-10-08-run9-bg",
+  "2026-10-09-run14-bg",
+  "2026-10-09-run15-bg"
+ ],
+ "included": [
+  "2026-10-07",
+  "2026-10-07-run2",
+  "2026-10-07-run3",
+  "2026-10-07-run4",
+  "2026-10-08-run5",
+  "2026-10-08-run6",
+  "2026-10-08-run6b",
+  "2026-10-08-run7",
+  "2026-10-09-run10-bg",
+  "2026-10-09-run11-bg",
+  "2026-10-09-run12-bg",
+  "2026-10-09-run13-bg",
+  "2026-10-09-run16-bg",
+  "2026-10-10-run17-bg",
+  "2026-10-10-run18-bg",
+  "2026-10-10-run19-bg",
+  "2026-10-10-run20-dungeon",
+  "2026-10-10-run21-world",
+  "2026-10-10-run22-bg"
+ ],
+ "rule": "100% hashed IdKeys restored to raw, or no hashing (pre-IdKey)",
+ "runs": {
+  "2026-10-07": {
+   "hashedDistinct": 0,
+   "reason": "no hashing",
+   "resolved": 0,
+   "resolvedPct": 100.0,
+   "salt": null,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": null
+  },
+  "2026-10-07-run2": {
+   "hashedDistinct": 0,
+   "reason": "no hashing",
+   "resolved": 0,
+   "resolvedPct": 100.0,
+   "salt": null,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": null
+  },
+  "2026-10-07-run3": {
+   "hashedDistinct": 0,
+   "reason": "no hashing",
+   "resolved": 0,
+   "resolvedPct": 100.0,
+   "salt": null,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": null
+  },
+  "2026-10-07-run4": {
+   "hashedDistinct": 0,
+   "reason": "no hashing",
+   "resolved": 0,
+   "resolvedPct": 100.0,
+   "salt": null,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": null
+  },
+  "2026-10-08-run5": {
+   "hashedDistinct": 0,
+   "reason": "no hashing",
+   "resolved": 0,
+   "resolvedPct": 100.0,
+   "salt": null,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": null
+  },
+  "2026-10-08-run6": {
+   "hashedDistinct": 15,
+   "reason": "100% restored",
+   "resolved": 15,
+   "resolvedPct": 100.0,
+   "salt": 1126713479,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": []
+  },
+  "2026-10-08-run6b": {
+   "hashedDistinct": 46,
+   "reason": "100% restored",
+   "resolved": 46,
+   "resolvedPct": 100.0,
+   "salt": 1127332880,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": []
+  },
+  "2026-10-08-run7": {
+   "hashedDistinct": 46,
+   "reason": "100% restored",
+   "resolved": 46,
+   "resolvedPct": 100.0,
+   "salt": 1127332880,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": []
+  },
+  "2026-10-08-run8-bg": {
+   "hashedDistinct": 62,
+   "reason": "resolvedPct 83.9 < 100",
+   "resolved": 52,
+   "resolvedPct": 83.9,
+   "salt": 1131170476,
+   "status": "excluded",
+   "unresolved": 10,
+   "unresolvedSample": [
+    [
+     "guid",
+     "18c04f28"
+    ],
+    [
+     "guid",
+     "6d9ae1e6"
+    ],
+    [
+     "guid",
+     "6ebc30a0"
+    ],
+    [
+     "guid",
+     "76908f20"
+    ],
+    [
+     "guid",
+     "8ed302fc"
+    ],
+    [
+     "guid",
+     "9cf117b8"
+    ],
+    [
+     "guid",
+     "c5f78370"
+    ],
+    [
+     "player",
+     "6ab94dc0"
+    ],
+    [
+     "player",
+     "88c83a98"
+    ],
+    [
+     "player",
+     "aa81ff30"
+    ]
+   ]
+  },
+  "2026-10-08-run9-bg": {
+   "hashedDistinct": 148,
+   "reason": "resolvedPct 93.9 < 100",
+   "resolved": 139,
+   "resolvedPct": 93.9,
+   "salt": 1140216251,
+   "status": "excluded",
+   "unresolved": 9,
+   "unresolvedSample": [
+    [
+     "guid",
+     "18c04f28"
+    ],
+    [
+     "guid",
+     "6d9ae1e6"
+    ],
+    [
+     "guid",
+     "6ebc30a0"
+    ],
+    [
+     "guid",
+     "76908f20"
+    ],
+    [
+     "guid",
+     "8ed302fc"
+    ],
+    [
+     "guid",
+     "9cf117b8"
+    ],
+    [
+     "guid",
+     "c5f78370"
+    ],
+    [
+     "player",
+     "6ab94dc0"
+    ],
+    [
+     "player",
+     "88c83a98"
+    ]
+   ]
+  },
+  "2026-10-09-run10-bg": {
+   "hashedDistinct": 76,
+   "reason": "100% restored",
+   "resolved": 76,
+   "resolvedPct": 100.0,
+   "salt": 1146303944,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": []
+  },
+  "2026-10-09-run11-bg": {
+   "hashedDistinct": 45,
+   "reason": "100% restored",
+   "resolved": 45,
+   "resolvedPct": 100.0,
+   "salt": 1180675928,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": []
+  },
+  "2026-10-09-run12-bg": {
+   "hashedDistinct": 59,
+   "reason": "100% restored",
+   "resolved": 59,
+   "resolvedPct": 100.0,
+   "salt": 1194403973,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": []
+  },
+  "2026-10-09-run13-bg": {
+   "hashedDistinct": 53,
+   "reason": "100% restored",
+   "resolved": 53,
+   "resolvedPct": 100.0,
+   "salt": 1199872147,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": []
+  },
+  "2026-10-09-run14-bg": {
+   "hashedDistinct": 57,
+   "reason": "resolvedPct 98.2 < 100",
+   "resolved": 56,
+   "resolvedPct": 98.2,
+   "salt": 1208847119,
+   "status": "excluded",
+   "unresolved": 1,
+   "unresolvedSample": [
+    [
+     "guid",
+     "e06aebe4"
+    ]
+   ]
+  },
+  "2026-10-09-run15-bg": {
+   "hashedDistinct": 186,
+   "reason": "resolvedPct 87.1 < 100",
+   "resolved": 162,
+   "resolvedPct": 87.1,
+   "salt": 1216956013,
+   "status": "excluded",
+   "unresolved": 24,
+   "unresolvedSample": [
+    [
+     "guid",
+     "0a907668"
+    ],
+    [
+     "guid",
+     "15fb9a2c"
+    ],
+    [
+     "guid",
+     "2e76a880"
+    ],
+    [
+     "guild",
+     "2e14f2bc"
+    ],
+    [
+     "guild",
+     "398ecc14"
+    ],
+    [
+     "guild",
+     "3b8d5bf0"
+    ],
+    [
+     "guild",
+     "40a8e740"
+    ],
+    [
+     "guild",
+     "43735e3c"
+    ],
+    [
+     "guild",
+     "4528a550"
+    ],
+    [
+     "guild",
+     "6e945e70"
+    ],
+    [
+     "guild",
+     "70e41fc0"
+    ],
+    [
+     "guild",
+     "8e2130b8"
+    ],
+    [
+     "guild",
+     "a79f6200"
+    ],
+    [
+     "guild",
+     "ac5b4be8"
+    ],
+    [
+     "guild",
+     "b1626c78"
+    ],
+    [
+     "guild",
+     "e93b6524"
+    ],
+    [
+     "guild",
+     "f066ea40"
+    ],
+    [
+     "name",
+     "67801c00"
+    ],
+    [
+     "name",
+     "bfef36bc"
+    ],
+    [
+     "pet",
+     "0bf8800c"
+    ]
+   ]
+  },
+  "2026-10-09-run16-bg": {
+   "hashedDistinct": 0,
+   "reason": "no hashing",
+   "resolved": 0,
+   "resolvedPct": 100.0,
+   "salt": null,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": []
+  },
+  "2026-10-10-run17-bg": {
+   "hashedDistinct": 0,
+   "reason": "no hashing",
+   "resolved": 0,
+   "resolvedPct": 100.0,
+   "salt": null,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": []
+  },
+  "2026-10-10-run18-bg": {
+   "hashedDistinct": 0,
+   "reason": "no hashing",
+   "resolved": 0,
+   "resolvedPct": 100.0,
+   "salt": null,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": []
+  },
+  "2026-10-10-run19-bg": {
+   "hashedDistinct": 0,
+   "reason": "no hashing",
+   "resolved": 0,
+   "resolvedPct": 100.0,
+   "salt": null,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": []
+  },
+  "2026-10-10-run20-dungeon": {
+   "hashedDistinct": 0,
+   "reason": "no hashing",
+   "resolved": 0,
+   "resolvedPct": 100.0,
+   "salt": null,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": []
+  },
+  "2026-10-10-run21-world": {
+   "hashedDistinct": 0,
+   "reason": "no hashing",
+   "resolved": 0,
+   "resolvedPct": 100.0,
+   "salt": null,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": []
+  },
+  "2026-10-10-run22-bg": {
+   "hashedDistinct": 0,
+   "reason": "no hashing",
+   "resolved": 0,
+   "resolvedPct": 100.0,
+   "salt": null,
+   "status": "included",
+   "unresolved": 0,
+   "unresolvedSample": []
+  }
+ }
+}

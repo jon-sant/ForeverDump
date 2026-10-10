@@ -1,0 +1,250 @@
+{
+ "rawjoin": {
+  "enemies": 15,
+  "meter": {
+   "rows": 3322,
+   "guids": 16,
+   "joinedToLog": 15,
+   "joinRate": 93.8,
+   "classWrongGuids": 0,
+   "enemyIdentified": 0,
+   "coverage": 0.0,
+   "medianTTI": null
+  },
+  "signals": {
+   "guids": 2882,
+   "distinct": 16,
+   "joinedToLog": 16
+  },
+  "live": {
+   "units": 34,
+   "joinedToLog": 34,
+   "correct": 34,
+   "wrong": 0
+  }
+ },
+ "classderive": {
+  "enemies": 15,
+  "PC": {
+   "assigned": 0,
+   "correct": 0,
+   "wrong": 0,
+   "coverage": 0.0,
+   "accuracy": null,
+   "medianTTI": null,
+   "meanCandidates": 4.67,
+   "truthInSet": 100.0
+  },
+  "M": {
+   "assigned": 15,
+   "coverage": 100.0,
+   "medianTTI": 99.9
+  },
+  "combined": {
+   "coverage": 100.0,
+   "medianTTI": 99.9
+  }
+ },
+ "classderive_meta": {
+  "offset": 0
+ },
+ "oocfill": {
+  "fights": 28,
+  "enemyEpisodes": 355,
+  "friendEpisodes": 334,
+  "npcEpisodes": 162,
+  "enemyIdentityPct": 95.8,
+  "enemyClassPct": 95.8,
+  "enemyClassPctNameWeighted": 83.8,
+  "enemyHpEstPct": 95.8,
+  "enemyHpEstMedianErrPct": 27.9,
+  "friendCachedPct": 100.0,
+  "npcHpPct": 93.8,
+  "tti": {
+   "reset": {
+    "median": 11.7,
+    "mean": 14.2
+   },
+   "cached": {
+    "median": 0.0,
+    "mean": 0.9
+   },
+   "score": {
+    "median": 0.0,
+    "mean": 0.0
+   }
+  },
+  "bracket": 28
+ },
+ "false_assign": [
+  {
+   "key": "name:Johnny",
+   "guid": "Player-4618-0084264A",
+   "pred": "SHAMAN",
+   "truth": "ROGUE",
+   "via": "cache:raidN",
+   "provisional": null,
+   "name": "Johnny"
+  }
+ ],
+ "correct_assign": [
+  {
+   "key": "name:Rei Skyshatter",
+   "guid": "Player-4613-00653AB7",
+   "pred": "WARRIOR",
+   "truth": "WARRIOR",
+   "via": "score",
+   "provisional": null,
+   "name": "Rei"
+  },
+  {
+   "key": "name:Jaspir Nightshadow",
+   "guid": "Player-4613-00FE4C2E",
+   "pred": "HUNTER",
+   "truth": "HUNTER",
+   "via": "score",
+   "provisional": null,
+   "name": "Jaspir"
+  },
+  {
+   "key": "name:Shanquesha Jenkins",
+   "guid": "Player-4619-00C60E1D",
+   "pred": "WARRIOR",
+   "truth": "WARRIOR",
+   "via": "score",
+   "provisional": null,
+   "name": "Shanquesha"
+  },
+  {
+   "key": "name:Volarax Everin",
+   "guid": "Player-4613-00581F09",
+   "pred": "HUNTER",
+   "truth": "HUNTER",
+   "via": "score",
+   "provisional": null,
+   "name": "Volarax"
+  },
+  {
+   "key": "name:Frobby Thegreat",
+   "guid": "Player-4613-0102C310",
+   "pred": "PRIEST",
+   "truth": "PRIEST",
+   "via": "score",
+   "provisional": null,
+   "name": "Frobby"
+  },
+  {
+   "key": "name:Mini Rodeo",
+   "guid": "Player-4613-0081E39B",
+   "pred": "WARRIOR",
+   "truth": "WARRIOR",
+   "via": "score",
+   "provisional": null,
+   "name": "Mini"
+  },
+  {
+   "key": "name:Gladare Kwikstun",
+   "guid": "Player-4619-00793AA6",
+   "pred": "PALADIN",
+   "truth": "PALADIN",
+   "via": "score",
+   "provisional": null,
+   "name": "Gladare"
+  },
+  {
+   "key": "name:Dagrem Rakan",
+   "guid": "Player-4619-00611114",
+   "pred": "WARRIOR",
+   "truth": "WARRIOR",
+   "via": "score",
+   "provisional": null,
+   "name": "Dagrem"
+  },
+  {
+   "key": "name:Bleep Pocketheals",
+   "guid": "Player-4613-006A2775",
+   "pred": "PRIEST",
+   "truth": "PRIEST",
+   "via": "score",
+   "provisional": null,
+   "name": "Bleep"
+  },
+  {
+   "key": "name:\ubc1c\ub871\ub3c4\ub974 \uc774\uac15\uc778",
+   "guid": "Player-4619-0094201E",
+   "pred": "PALADIN",
+   "truth": "PALADIN",
+   "via": "score",
+   "provisional": null,
+   "name": "\ubc1c\ub871\ub3c4\ub974"
+  },
+  {
+   "key": "name:Johnny Snowden",
+   "guid": "Player-4618-0084264A",
+   "pred": "ROGUE",
+   "truth": "ROGUE",
+   "via": "score",
+   "provisional": null,
+   "name": "Johnny"
+  },
+  {
+   "key": "name:Drumgar Lionsmane",
+   "guid": "Player-4613-006983B7",
+   "pred": "SHAMAN",
+   "truth": "SHAMAN",
+   "via": "score",
+   "provisional": null,
+   "name": "Drumgar"
+  },
+  {
+   "key": "name:Picklerick Sanchezz",
+   "guid": "Player-4613-006B4AEF",
+   "pred": "WARLOCK",
+   "truth": "WARLOCK",
+   "via": "score",
+   "provisional": null,
+   "name": "Picklerick"
+  },
+  {
+   "key": "name:Invictusap Mender",
+   "guid": "Player-4613-00D1CCBD",
+   "pred": "DRUID",
+   "truth": "DRUID",
+   "via": "score",
+   "provisional": null,
+   "name": "Invictusap"
+  },
+  {
+   "key": "name:Chinaeastern Airlines",
+   "guid": "Player-4613-00BB5CBB",
+   "pred": "WARLOCK",
+   "truth": "WARLOCK",
+   "via": "score",
+   "provisional": null,
+   "name": "Chinaeastern"
+  }
+ ],
+ "no_join": [],
+ "summary": {
+  "contradictions": 291,
+  "assigned": 47,
+  "enemyAssigned": 16,
+  "overridden": 0,
+  "enemies": 30,
+  "byVia": {
+   "score": 32,
+   "cache:raidN": 13,
+   "cache:raidNtarget": 2
+  },
+  "units": 61
+ },
+ "scoreComp": "HUNTER=2 WARRIOR=4 WARLOCK=2 PALADIN=2 ROGUE=1 DRUID=1 SHAMAN=1 PRIEST=2",
+ "identCheck": {
+  "raidKeys": 8,
+  "raidTokens": 15,
+  "linkConflicts": 16
+ },
+ "bfJoin": "none:base (0 joins)",
+ "bfRow_combat_enemy": 570,
+ "prefill_enemy_class": "0/236"
+}

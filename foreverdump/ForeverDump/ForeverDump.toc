@@ -1,0 +1,61 @@
+## Interface: 16001
+## Title: ForeverDump
+## Notes: Dumps WoW Forever client API, docs, widgets, templates, CVars, fixtures and event recordings to SavedVariables for offline addon development.
+## Version: 2.2.29
+## OptionalDeps: !BugGrabber, BugSack
+## SavedVariables: ForeverDumpDB, ForeverDumpStaticDB, ForeverDumpRecordDB, ForeverDumpLogDB, ForeverDumpCombatLogDB
+## IconTexture: Interface\Icons\INV_Misc_Book_09
+
+Core.lua
+SVPack.lua
+Perf.lua
+Legacy.lua
+BlizzardAddOns.lua
+Docs.lua
+Secrets.lua
+Globals.lua
+Widgets.lua
+World.lua
+CVars.lua
+Protected.lua
+Extras.lua
+Recorder.lua
+CombatLog.lua
+Errors.lua
+Restrictions.lua
+Controls.lua
+Lab.lua
+Lib\HybridState.lua
+Lib\ClassEvidence.lua
+Lib\UnitCache.lua
+Data\KnowledgePatch.lua
+Data\spell-timing.lua
+Data\learned-seed.lua
+Data\SelfLinkSeed.lua
+Data\RefData.lua
+Data\LearnedAuras.lua
+Knowledge.lua
+CombatProbe.lua
+Tokens.lua
+Containers.lua
+Inference.lua
+DamageMeter.lua
+Identity.lua
+Verify.lua
+ReplayLog.lua
+WorldCapture.lua
+Drift.lua
+Timing.lua
+Learned.lua
+LabProbes.lua
+Derive.lua
+AuraPresence.lua
+OocFill.lua
+HSMUI.lua
+Baseline.lua
+Profiler.lua
+Logs.lua
+Probe.lua
+UI.lua
+Commands.lua
+Static.lua

@@ -1,0 +1,4508 @@
+{
+ "_about": "parsed from Blizzard_Deprecated* (forever, live)",
+ "functions": {
+  "AcceptSockets": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemSocketInfo/Deprecated_ItemSocketInfo.lua",
+   "kind": "alias",
+   "line": 25,
+   "loadTag": "",
+   "new": "C_ItemSocketInfo.AcceptSockets",
+   "version": null
+  },
+  "ActionBindsItem": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 33,
+   "loadTag": "",
+   "new": "C_Item.ActionBindsItem",
+   "version": null
+  },
+  "ActionHasRange": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 76,
+   "loadTag": "",
+   "new": "C_ActionBar.HasRangeRequirements",
+   "returnsTable": false,
+   "version": null
+  },
+  "ArenaEnemyFramesContainerMixin:Update": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 5,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.lua",
+   "kind": "wrapper",
+   "line": 28,
+   "loadTag": "",
+   "new": null,
+   "returnsTable": false,
+   "version": null
+  },
+  "ArenaEnemyFramesContainerMixin:UpdateShownState": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 17,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.lua",
+   "kind": "wrapper",
+   "line": 34,
+   "loadTag": "",
+   "new": null,
+   "returnsTable": false,
+   "version": null
+  },
+  "ArenaEnemyMatchFramesContainerMixin:OnEvent": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "event, ...",
+   "bodyLines": 426,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.lua",
+   "kind": "wrapper",
+   "line": 73,
+   "loadTag": "",
+   "new": "C_PvP.IsInBrawl",
+   "returnsTable": true,
+   "version": null
+  },
+  "ArenaEnemyMatchFramesContainerMixin:OnLoad": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 18,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.lua",
+   "kind": "wrapper",
+   "line": 54,
+   "loadTag": "",
+   "new": null,
+   "returnsTable": false,
+   "version": null
+  },
+  "BindEnchant": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 32,
+   "loadTag": "",
+   "new": "C_Item.BindEnchant",
+   "version": null
+  },
+  "Blizzard_CombatLog_BitToBraceCode": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 100,
+   "loadTag": "",
+   "new": "CombatLogUtil.GetRaidTargetBraceCode",
+   "version": null
+  },
+  "CHAT_BUTTON_FLASH_TIME": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 8,
+   "loadTag": "",
+   "new": "ChatFrameConstants.ScrollToBottomFlashInterval",
+   "version": null
+  },
+  "CHAT_TELL_ALERT_TIME": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 9,
+   "loadTag": "",
+   "new": "ChatFrameConstants.WhisperSoundAlertCooldown",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_AFFILIATION_MASK": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 59,
+   "loadTag": "",
+   "new": "Constants.CombatLogObjectMasks.COMBATLOG_OBJECT_AFFILIATION_MASK",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_AFFILIATION_MINE": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 39,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.AffiliationMine",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_AFFILIATION_OUTSIDER": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 42,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.AffiliationOutsider",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_AFFILIATION_PARTY": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 40,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.AffiliationParty",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_AFFILIATION_RAID": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 41,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.AffiliationRaid",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_CONTROL_MASK": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 61,
+   "loadTag": "",
+   "new": "Constants.CombatLogObjectMasks.COMBATLOG_OBJECT_CONTROL_MASK",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_CONTROL_NPC": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 47,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.ControlNpc",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_CONTROL_PLAYER": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 46,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.ControlPlayer",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_FOCUS": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 54,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.Focus",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_MAINASSIST": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 56,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.Mainassist",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_MAINTANK": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 55,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.Maintank",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_NONE": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 57,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.None",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_RAIDTARGET1": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 65,
+   "loadTag": "",
+   "new": "Enum.CombatLogObjectTarget.Raidtarget1",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_RAIDTARGET2": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 66,
+   "loadTag": "",
+   "new": "Enum.CombatLogObjectTarget.Raidtarget2",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_RAIDTARGET3": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 67,
+   "loadTag": "",
+   "new": "Enum.CombatLogObjectTarget.Raidtarget3",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_RAIDTARGET4": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 68,
+   "loadTag": "",
+   "new": "Enum.CombatLogObjectTarget.Raidtarget4",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_RAIDTARGET5": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 69,
+   "loadTag": "",
+   "new": "Enum.CombatLogObjectTarget.Raidtarget5",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_RAIDTARGET6": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 70,
+   "loadTag": "",
+   "new": "Enum.CombatLogObjectTarget.Raidtarget6",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_RAIDTARGET7": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 71,
+   "loadTag": "",
+   "new": "Enum.CombatLogObjectTarget.Raidtarget7",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_RAIDTARGET8": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 72,
+   "loadTag": "",
+   "new": "Enum.CombatLogObjectTarget.Raidtarget8",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_RAIDTARGET_MASK": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 75,
+   "loadTag": "",
+   "new": "Constants.CombatLogObjectTargetMasks.COMBATLOG_OBJECT_RAID_TARGET_MASK",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_RAID_MASK": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 76,
+   "loadTag": "",
+   "new": "Constants.CombatLogObjectTargetMasks.COMBATLOG_OBJECT_RAID_MASK",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_RAID_NONE": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 73,
+   "loadTag": "",
+   "new": "Enum.CombatLogObjectTarget.RaidNone",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_REACTION_FRIENDLY": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 43,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.ReactionFriendly",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_REACTION_HOSTILE": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 45,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.ReactionHostile",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_REACTION_MASK": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 60,
+   "loadTag": "",
+   "new": "Constants.CombatLogObjectMasks.COMBATLOG_OBJECT_REACTION_MASK",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_REACTION_NEUTRAL": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 44,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.ReactionNeutral",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_SPECIAL_MASK": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 63,
+   "loadTag": "",
+   "new": "Constants.CombatLogObjectMasks.COMBATLOG_OBJECT_SPECIAL_MASK",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_TARGET": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 53,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.Target",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_TYPE_GUARDIAN": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 51,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.TypeGuardian",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_TYPE_MASK": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 62,
+   "loadTag": "",
+   "new": "Constants.CombatLogObjectMasks.COMBATLOG_OBJECT_TYPE_MASK",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_TYPE_NPC": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 49,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.TypeNpc",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_TYPE_OBJECT": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 52,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.TypeObject",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_TYPE_PET": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 50,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.TypePet",
+   "version": null
+  },
+  "COMBATLOG_OBJECT_TYPE_PLAYER": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 48,
+   "loadTag": "",
+   "new": "Enum.CombatLogObject.TypePlayer",
+   "version": null
+  },
+  "C_ActionBar.GetActionLossOfControlCooldown": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 7,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "wrapper",
+   "line": 154,
+   "loadTag": "",
+   "new": "C_ActionBar.GetActionLossOfControlCooldownInfo",
+   "returnsTable": true,
+   "version": null
+  },
+  "C_ClickBindings.GetStringFromModifiers": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "modifiers",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_7.lua",
+   "kind": "wrapper",
+   "line": 20,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": null,
+   "returnsTable": false,
+   "version": "12.0.7"
+  },
+  "C_ClickBindings.MakeModifiers": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "...",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_7.lua",
+   "kind": "wrapper",
+   "line": 16,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": null,
+   "returnsTable": false,
+   "version": "12.0.7"
+  },
+  "C_Housing.IsInsideOwnHouse": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_1_0.lua",
+   "kind": "alias",
+   "line": 59,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "C_Housing.IsInsideOwnedHouse",
+   "version": "12.1.0"
+  },
+  "C_LFGInfo.IsPremadeGroupEnabled": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedLFG/Deprecated_LFG.lua",
+   "kind": "alias",
+   "line": 9,
+   "loadTag": "",
+   "new": "C_LFGList.IsPremadeGroupFinderEnabled",
+   "version": null
+  },
+  "C_Spell.GetMawPowerBorderAtlasBySpellID": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "spellID",
+   "bodyLines": 4,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_7.lua",
+   "kind": "wrapper",
+   "line": 24,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "C_Spell.GetMawPowerRarityInfoBySpellID",
+   "returnsTable": false,
+   "version": "12.0.7"
+  },
+  "C_Spell.GetSpellLossOfControlCooldown": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "spellIdentifier",
+   "bodyLines": 7,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpellScript/Deprecated_SpellScript.lua",
+   "kind": "wrapper",
+   "line": 38,
+   "loadTag": "",
+   "new": "C_Spell.GetSpellLossOfControlCooldownInfo",
+   "returnsTable": true,
+   "version": null
+  },
+  "C_SpellBook.GetDeadlyDebuffInfo": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/11_0_0_SpellBookAPITransitionGuide.lua",
+   "kind": "alias",
+   "line": 140,
+   "loadTag": "",
+   "new": "C_Spell.GetDeadlyDebuffInfo",
+   "version": null
+  },
+  "C_SpellBook.GetOverrideSpell": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/11_0_0_SpellBookAPITransitionGuide.lua",
+   "kind": "alias",
+   "line": 142,
+   "loadTag": "",
+   "new": "C_Spell.GetOverrideSpell",
+   "version": null
+  },
+  "C_SpellBook.GetSpellBookItemLossOfControlCooldown": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "spellBookItem",
+   "bodyLines": 7,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_1.lua",
+   "kind": "wrapper",
+   "line": 75,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "C_SpellBook.GetSpellBookItemLossOfControlCooldownInfo",
+   "returnsTable": true,
+   "version": "12.0.1"
+  },
+  "C_SpellBook.GetSpellInfo": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/11_0_0_SpellBookAPITransitionGuide.lua",
+   "kind": "alias",
+   "line": 132,
+   "loadTag": "",
+   "new": "C_Spell.GetSpellInfo",
+   "version": null
+  },
+  "C_SpellBook.GetSpellLinkFromSpellID": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/11_0_0_SpellBookAPITransitionGuide.lua",
+   "kind": "alias",
+   "line": 138,
+   "loadTag": "",
+   "new": "C_Spell.GetSpellLink",
+   "version": null
+  },
+  "C_SpellBook.IsSpellDisabled": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/11_0_0_SpellBookAPITransitionGuide.lua",
+   "kind": "alias",
+   "line": 130,
+   "loadTag": "",
+   "new": "C_Spell.IsSpellDisabled",
+   "version": null
+  },
+  "C_SuperTrack.GetNextWaypointForMap": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_1_0.lua",
+   "kind": "alias",
+   "line": 8,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "C_Navigation.GetNextWaypointForMap",
+   "version": "12.1.0"
+  },
+  "C_TransmogOutfitInfo.GetWeaponOptionsForSlot": {
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedTransmog/Deprecated_Transmog.lua",
+   "kind": "alias",
+   "line": 9,
+   "loadTag": "",
+   "new": "C_TransmogOutfitInfo.GetOptionsForSlot",
+   "version": null
+  },
+  "C_TransmogOutfitInfo.SetViewedWeaponOptionForSlot": {
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedTransmog/Deprecated_Transmog.lua",
+   "kind": "alias",
+   "line": 10,
+   "loadTag": "",
+   "new": "C_TransmogOutfitInfo.SetViewedOptionForSlot",
+   "version": null
+  },
+  "C_UnitAuras.RemovePrivateAuraAppliedSound": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Shared/Deprecated_12_1_0.lua",
+   "kind": "alias",
+   "line": 26,
+   "loadTag": "",
+   "new": "C_UnitAuras.RemoveAuraSound",
+   "version": "12.1.0"
+  },
+  "CancelItemTempEnchantment": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "index",
+   "bodyLines": 48,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Shared/Deprecated_12_1_0.lua",
+   "kind": "wrapper",
+   "line": 28,
+   "loadTag": "",
+   "new": "C_PaperDollInfo.CancelTemporaryEnchantment",
+   "returnsTable": true,
+   "version": "12.1.0"
+  },
+  "CastingInfo": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedUnitScript/Classic/Deprecated_UnitScriptOverrides.lua",
+   "kind": "wrapper",
+   "line": 8,
+   "loadTag": "",
+   "new": null,
+   "returnsTable": false,
+   "version": null
+  },
+  "ChangeActionBarPage": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "pageIndex",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 144,
+   "loadTag": "",
+   "new": "C_ActionBar.SetActionBarPage",
+   "returnsTable": false,
+   "version": null
+  },
+  "ChannelInfo": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedUnitScript/Classic/Deprecated_UnitScriptOverrides.lua",
+   "kind": "wrapper",
+   "line": 12,
+   "loadTag": "",
+   "new": null,
+   "returnsTable": false,
+   "version": null
+  },
+  "ChatEdit_ActivateChat": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 32,
+   "loadTag": "",
+   "new": "ChatFrameUtil.ActivateChat",
+   "version": null
+  },
+  "ChatEdit_AddHistory": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 114,
+   "loadTag": "",
+   "new": "ChatFrameEditBoxMixin.AddHistory",
+   "version": null
+  },
+  "ChatEdit_ChooseBoxForSend": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 33,
+   "loadTag": "",
+   "new": "ChatFrameUtil.ChooseBoxForSend",
+   "version": null
+  },
+  "ChatEdit_ClearChat": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 115,
+   "loadTag": "",
+   "new": "ChatFrameEditBoxMixin.ClearChat",
+   "version": null
+  },
+  "ChatEdit_DeactivateChat": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 34,
+   "loadTag": "",
+   "new": "ChatFrameUtil.DeactivateChat",
+   "version": null
+  },
+  "ChatEdit_DoesCurrentChannelTargetMatch": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 116,
+   "loadTag": "",
+   "new": "ChatFrameEditBoxMixin.DoesCurrentChannelTargetMatch",
+   "version": null
+  },
+  "ChatEdit_ExtractChannel": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 117,
+   "loadTag": "",
+   "new": "ChatFrameEditBoxMixin.ExtractChannel",
+   "version": null
+  },
+  "ChatEdit_ExtractTellTarget": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 118,
+   "loadTag": "",
+   "new": "ChatFrameEditBoxMixin.ExtractTellTarget",
+   "version": null
+  },
+  "ChatEdit_FocusActiveWindow": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 35,
+   "loadTag": "",
+   "new": "ChatFrameUtil.FocusActiveWindow",
+   "version": null
+  },
+  "ChatEdit_GetActiveChatType": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 36,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetActiveChatType",
+   "version": null
+  },
+  "ChatEdit_GetActiveWindow": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 37,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetActiveWindow",
+   "version": null
+  },
+  "ChatEdit_GetChannelTarget": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 119,
+   "loadTag": "",
+   "new": "ChatFrameEditBoxMixin.GetChannelTarget",
+   "version": null
+  },
+  "ChatEdit_GetLastActiveWindow": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 38,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetLastActiveWindow",
+   "version": null
+  },
+  "ChatEdit_GetLastTellTarget": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 39,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetLastTellTarget",
+   "version": null
+  },
+  "ChatEdit_GetLastToldTarget": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 40,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetLastToldTarget",
+   "version": null
+  },
+  "ChatEdit_GetNextTellTarget": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 41,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetNextTellTarget",
+   "version": null
+  },
+  "ChatEdit_HandleChatType": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 120,
+   "loadTag": "",
+   "new": "ChatFrameEditBoxMixin.HandleChatType",
+   "version": null
+  },
+  "ChatEdit_HasStickyFocus": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 42,
+   "loadTag": "",
+   "new": "ChatFrameUtil.HasStickyFocus",
+   "version": null
+  },
+  "ChatEdit_InsertLink": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 43,
+   "loadTag": "",
+   "new": "ChatFrameUtil.InsertLink",
+   "version": null
+  },
+  "ChatEdit_LinkItem": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 44,
+   "loadTag": "",
+   "new": "ChatFrameUtil.LinkItem",
+   "version": null
+  },
+  "ChatEdit_ParseText": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 121,
+   "loadTag": "",
+   "new": "ChatFrameEditBoxMixin.ParseText",
+   "version": null
+  },
+  "ChatEdit_ResetChatType": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 122,
+   "loadTag": "",
+   "new": "ChatFrameEditBoxMixin.ResetChatType",
+   "version": null
+  },
+  "ChatEdit_ResetChatTypeToSticky": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 123,
+   "loadTag": "",
+   "new": "ChatFrameEditBoxMixin.ResetChatTypeToSticky",
+   "version": null
+  },
+  "ChatEdit_SendText": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 124,
+   "loadTag": "",
+   "new": "ChatFrameEditBoxMixin.SendText",
+   "version": null
+  },
+  "ChatEdit_SetDeactivated": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 125,
+   "loadTag": "",
+   "new": "ChatFrameEditBoxMixin.Deactivate",
+   "version": null
+  },
+  "ChatEdit_SetLastActiveWindow": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 45,
+   "loadTag": "",
+   "new": "ChatFrameUtil.SetLastActiveWindow",
+   "version": null
+  },
+  "ChatEdit_SetLastTellTarget": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 46,
+   "loadTag": "",
+   "new": "ChatFrameUtil.SetLastTellTarget",
+   "version": null
+  },
+  "ChatEdit_SetLastToldTarget": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 47,
+   "loadTag": "",
+   "new": "ChatFrameUtil.SetLastToldTarget",
+   "version": null
+  },
+  "ChatEdit_TryInsertChatLink": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 48,
+   "loadTag": "",
+   "new": "ChatFrameUtil.TryInsertChatLink",
+   "version": null
+  },
+  "ChatEdit_TryInsertQuestLinkForQuestID": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 49,
+   "loadTag": "",
+   "new": "ChatFrameUtil.TryInsertQuestLinkForQuestID",
+   "version": null
+  },
+  "ChatEdit_UpdateHeader": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 126,
+   "loadTag": "",
+   "new": "ChatFrameEditBoxMixin.UpdateHeader",
+   "version": null
+  },
+  "ChatFrame_AddCommunitiesChannel": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 50,
+   "loadTag": "",
+   "new": "ChatFrameUtil.AddCommunitiesChannel",
+   "version": null
+  },
+  "ChatFrame_AddMessage": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 93,
+   "loadTag": "",
+   "new": "ChatFrameMixin.AddMessage",
+   "version": null
+  },
+  "ChatFrame_AddMessageEventFilter": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 51,
+   "loadTag": "",
+   "new": "ChatFrameUtil.AddMessageEventFilter",
+   "version": null
+  },
+  "ChatFrame_AddMessageGroup": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 94,
+   "loadTag": "",
+   "new": "ChatFrameMixin.AddMessageGroup",
+   "version": null
+  },
+  "ChatFrame_AddPrivateMessageTarget": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 95,
+   "loadTag": "",
+   "new": "ChatFrameMixin.AddPrivateMessageTarget",
+   "version": null
+  },
+  "ChatFrame_AddSingleMessageType": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 96,
+   "loadTag": "",
+   "new": "ChatFrameMixin.AddSingleMessageType",
+   "version": null
+  },
+  "ChatFrame_CanAddChannel": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 52,
+   "loadTag": "",
+   "new": "ChatFrameUtil.CanAddChannel",
+   "version": null
+  },
+  "ChatFrame_CanChatGroupPerformExpressionExpansion": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 53,
+   "loadTag": "",
+   "new": "ChatFrameUtil.CanChatGroupPerformExpressionExpansion",
+   "version": null
+  },
+  "ChatFrame_ChatPageDown": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 54,
+   "loadTag": "",
+   "new": "ChatFrameUtil.ChatPageDown",
+   "version": null
+  },
+  "ChatFrame_ChatPageUp": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 55,
+   "loadTag": "",
+   "new": "ChatFrameUtil.ChatPageUp",
+   "version": null
+  },
+  "ChatFrame_ClearChatFocusOverride": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 56,
+   "loadTag": "",
+   "new": "ChatFrameUtil.ClearChatFocusOverride",
+   "version": null
+  },
+  "ChatFrame_ContainsChannel": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 97,
+   "loadTag": "",
+   "new": "ChatFrameMixin.ContainsChannel",
+   "version": null
+  },
+  "ChatFrame_ContainsMessageGroup": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 98,
+   "loadTag": "",
+   "new": "ChatFrameMixin.ContainsMessageGroup",
+   "version": null
+  },
+  "ChatFrame_DisplayChatHelp": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 57,
+   "loadTag": "",
+   "new": "ChatFrameUtil.DisplayChatHelp",
+   "version": null
+  },
+  "ChatFrame_DisplayGMOTD": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 59,
+   "loadTag": "",
+   "new": "ChatFrameUtil.DisplayGMOTD",
+   "version": null
+  },
+  "ChatFrame_DisplayGameTime": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 58,
+   "loadTag": "",
+   "new": "ChatFrameUtil.DisplayGameTime",
+   "version": null
+  },
+  "ChatFrame_DisplayHelpText": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 60,
+   "loadTag": "",
+   "new": "ChatFrameUtil.DisplayHelpText",
+   "version": null
+  },
+  "ChatFrame_DisplayHelpTextSimple": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 61,
+   "loadTag": "",
+   "new": "ChatFrameUtil.DisplayHelpTextSimple",
+   "version": null
+  },
+  "ChatFrame_DisplayMacroHelpText": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 62,
+   "loadTag": "",
+   "new": "ChatFrameUtil.DisplayMacroHelpText",
+   "version": null
+  },
+  "ChatFrame_DisplaySystemMessage": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 63,
+   "loadTag": "",
+   "new": "ChatFrameUtil.DisplaySystemMessage",
+   "version": null
+  },
+  "ChatFrame_DisplaySystemMessageInCurrent": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 64,
+   "loadTag": "",
+   "new": "ChatFrameUtil.DisplaySystemMessageInCurrent",
+   "version": null
+  },
+  "ChatFrame_DisplaySystemMessageInPrimary": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 65,
+   "loadTag": "",
+   "new": "ChatFrameUtil.DisplaySystemMessageInPrimary",
+   "version": null
+  },
+  "ChatFrame_DisplayTimePlayed": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 66,
+   "loadTag": "",
+   "new": "ChatFrameUtil.DisplayTimePlayed",
+   "version": null
+  },
+  "ChatFrame_DisplayUsageError": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 67,
+   "loadTag": "",
+   "new": "ChatFrameUtil.DisplayUsageError",
+   "version": null
+  },
+  "ChatFrame_ExcludePrivateMessageTarget": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 99,
+   "loadTag": "",
+   "new": "ChatFrameMixin.ExcludePrivateMessageTarget",
+   "version": null
+  },
+  "ChatFrame_GetChatFocusOverride": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 68,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetChatFocusOverride",
+   "version": null
+  },
+  "ChatFrame_GetCommunitiesChannelLocalID": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 69,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetCommunitiesChannelLocalID",
+   "version": null
+  },
+  "ChatFrame_GetCommunityAndStreamFromChannel": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 70,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetCommunityAndStreamFromChannel",
+   "version": null
+  },
+  "ChatFrame_GetCommunityAndStreamName": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 71,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetCommunityAndStreamName",
+   "version": null
+  },
+  "ChatFrame_GetDefaultChatTarget": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 100,
+   "loadTag": "",
+   "new": "ChatFrameMixin.GetDefaultChatTarget",
+   "version": null
+  },
+  "ChatFrame_GetFullChannelInfo": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 72,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetFullChannelInfo",
+   "version": null
+  },
+  "ChatFrame_GetMobileEmbeddedTexture": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 73,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetMobileEmbeddedTexture",
+   "version": null
+  },
+  "ChatFrame_OpenChat": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 74,
+   "loadTag": "",
+   "new": "ChatFrameUtil.OpenChat",
+   "version": null
+  },
+  "ChatFrame_ReceiveAllPrivateMessages": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 101,
+   "loadTag": "",
+   "new": "ChatFrameMixin.ReceiveAllPrivateMessages",
+   "version": null
+  },
+  "ChatFrame_RegisterForChannels": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 102,
+   "loadTag": "",
+   "new": "ChatFrameMixin.RegisterForChannels",
+   "version": null
+  },
+  "ChatFrame_RegisterForMessages": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 103,
+   "loadTag": "",
+   "new": "ChatFrameMixin.RegisterForMessages",
+   "version": null
+  },
+  "ChatFrame_RemoveAllChannels": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 104,
+   "loadTag": "",
+   "new": "ChatFrameMixin.RemoveAllChannels",
+   "version": null
+  },
+  "ChatFrame_RemoveAllMessageGroups": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 105,
+   "loadTag": "",
+   "new": "ChatFrameMixin.RemoveAllMessageGroups",
+   "version": null
+  },
+  "ChatFrame_RemoveChannel": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 106,
+   "loadTag": "",
+   "new": "ChatFrameMixin.RemoveChannel",
+   "version": null
+  },
+  "ChatFrame_RemoveCommunitiesChannel": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 75,
+   "loadTag": "",
+   "new": "ChatFrameUtil.RemoveCommunitiesChannel",
+   "version": null
+  },
+  "ChatFrame_RemoveExcludePrivateMessageTarget": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 107,
+   "loadTag": "",
+   "new": "ChatFrameMixin.RemoveExcludePrivateMessageTarget",
+   "version": null
+  },
+  "ChatFrame_RemoveMessageEventFilter": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 76,
+   "loadTag": "",
+   "new": "ChatFrameUtil.RemoveMessageEventFilter",
+   "version": null
+  },
+  "ChatFrame_RemoveMessageGroup": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 108,
+   "loadTag": "",
+   "new": "ChatFrameMixin.RemoveMessageGroup",
+   "version": null
+  },
+  "ChatFrame_RemovePrivateMessageTarget": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 109,
+   "loadTag": "",
+   "new": "ChatFrameMixin.RemovePrivateMessageTarget",
+   "version": null
+  },
+  "ChatFrame_ReplyTell": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 77,
+   "loadTag": "",
+   "new": "ChatFrameUtil.ReplyTell",
+   "version": null
+  },
+  "ChatFrame_ReplyTell2": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 78,
+   "loadTag": "",
+   "new": "ChatFrameUtil.ReplyTell2",
+   "version": null
+  },
+  "ChatFrame_ResolveChannelName": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 79,
+   "loadTag": "",
+   "new": "ChatFrameUtil.ResolveChannelName",
+   "version": null
+  },
+  "ChatFrame_ResolvePrefixedChannelName": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 80,
+   "loadTag": "",
+   "new": "ChatFrameUtil.ResolvePrefixedChannelName",
+   "version": null
+  },
+  "ChatFrame_ScrollDown": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 81,
+   "loadTag": "",
+   "new": "ChatFrameUtil.ScrollDown",
+   "version": null
+  },
+  "ChatFrame_ScrollToBottom": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 82,
+   "loadTag": "",
+   "new": "ChatFrameUtil.ScrollToBottom",
+   "version": null
+  },
+  "ChatFrame_ScrollUp": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 83,
+   "loadTag": "",
+   "new": "ChatFrameUtil.ScrollUp",
+   "version": null
+  },
+  "ChatFrame_SendTell": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 84,
+   "loadTag": "",
+   "new": "ChatFrameUtil.SendTell",
+   "version": null
+  },
+  "ChatFrame_SendTellWithMessage": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 85,
+   "loadTag": "",
+   "new": "ChatFrameUtil.SendTellWithMessage",
+   "version": null
+  },
+  "ChatFrame_SetChatFocusOverride": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 86,
+   "loadTag": "",
+   "new": "ChatFrameUtil.SetChatFocusOverride",
+   "version": null
+  },
+  "ChatFrame_TimeBreakDown": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 87,
+   "loadTag": "",
+   "new": "ChatFrameUtil.TimeBreakDown",
+   "version": null
+  },
+  "ChatFrame_TruncateToMaxLength": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 88,
+   "loadTag": "",
+   "new": "ChatFrameUtil.TruncateToMaxLength",
+   "version": null
+  },
+  "ChatFrame_UnregisterAllMessageGroups": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 110,
+   "loadTag": "",
+   "new": "ChatFrameMixin.UnregisterAllMessageGroups",
+   "version": null
+  },
+  "ChatFrame_UpdateChatFrames": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 89,
+   "loadTag": "",
+   "new": "ChatFrameUtil.UpdateChatFrames",
+   "version": null
+  },
+  "ChatFrame_UpdateColorByID": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 111,
+   "loadTag": "",
+   "new": "ChatFrameMixin.UpdateColorByID",
+   "version": null
+  },
+  "ChatFrame_UpdateDefaultChatTarget": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 112,
+   "loadTag": "",
+   "new": "ChatFrameMixin.UpdateDefaultChatTarget",
+   "version": null
+  },
+  "Chat_AddSystemMessage": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 22,
+   "loadTag": "",
+   "new": "ChatFrameUtil.AddSystemMessage",
+   "version": null
+  },
+  "Chat_GetChannelColor": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 23,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetChannelColor",
+   "version": null
+  },
+  "Chat_GetChannelShortcutName": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 24,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetChannelShortcutName",
+   "version": null
+  },
+  "Chat_GetChatCategory": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 25,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetChatCategory",
+   "version": null
+  },
+  "Chat_GetChatFrame": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 26,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetChatFrame",
+   "version": null
+  },
+  "Chat_GetColoredChatName": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 27,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetColoredChatName",
+   "version": null
+  },
+  "Chat_GetCommunitiesChannel": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 28,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetCommunitiesChannel",
+   "version": null
+  },
+  "Chat_GetCommunitiesChannelColor": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 29,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetCommunitiesChannelColor",
+   "version": null
+  },
+  "Chat_GetCommunitiesChannelName": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 30,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetCommunitiesChannelName",
+   "version": null
+  },
+  "Chat_ShouldColorChatByClass": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 31,
+   "loadTag": "",
+   "new": "ChatFrameUtil.ShouldColorChatByClass",
+   "version": null
+  },
+  "ClickSocketButton": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemSocketInfo/Deprecated_ItemSocketInfo.lua",
+   "kind": "alias",
+   "line": 23,
+   "loadTag": "",
+   "new": "C_ItemSocketInfo.ClickSocketButton",
+   "version": null
+  },
+  "CloseSocketInfo": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemSocketInfo/Deprecated_ItemSocketInfo.lua",
+   "kind": "alias",
+   "line": 9,
+   "loadTag": "",
+   "new": "C_ItemSocketInfo.CloseSocketInfo",
+   "version": null
+  },
+  "CombatLogAddFilter": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 15,
+   "loadTag": "",
+   "new": "C_CombatLog.AddEventFilter",
+   "version": null
+  },
+  "CombatLogClearEntries": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 16,
+   "loadTag": "",
+   "new": "C_CombatLog.ClearEntries",
+   "version": null
+  },
+  "CombatLogGetCurrentEntry": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 17,
+   "loadTag": "",
+   "new": "C_CombatLog.GetCurrentEntryInfo",
+   "version": null
+  },
+  "CombatLogGetCurrentEventInfo": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 18,
+   "loadTag": "",
+   "new": "C_CombatLog.GetCurrentEventInfo",
+   "version": null
+  },
+  "CombatLogGetNumEntries": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 19,
+   "loadTag": "",
+   "new": "C_CombatLog.GetEntryCount",
+   "version": null
+  },
+  "CombatLogGetRetentionTime": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 20,
+   "loadTag": "",
+   "new": "C_CombatLog.GetEntryRetentionTime",
+   "version": null
+  },
+  "CombatLogResetFilter": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 21,
+   "loadTag": "",
+   "new": "C_CombatLog.ClearEventFilters",
+   "version": null
+  },
+  "CombatLogSetRetentionTime": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 22,
+   "loadTag": "",
+   "new": "C_CombatLog.SetEntryRetentionTime",
+   "version": null
+  },
+  "CombatLogShowCurrentEntry": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 23,
+   "loadTag": "",
+   "new": "C_CombatLog.ShouldShowCurrentEntry",
+   "version": null
+  },
+  "CombatLog_Color_ColorArrayByEventType": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "event, filterSettings",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "wrapper",
+   "line": 123,
+   "loadTag": "",
+   "new": "CombatLogUtil.GetColorByEventType",
+   "returnsTable": false,
+   "version": null
+  },
+  "CombatLog_Color_ColorArrayBySchool": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "school, filterSettings",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "wrapper",
+   "line": 131,
+   "loadTag": "",
+   "new": "CombatLogUtil.GetColorBySchool",
+   "returnsTable": false,
+   "version": null
+  },
+  "CombatLog_Color_ColorArrayByUnitType": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "unitFlags, filterSettings",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "wrapper",
+   "line": 127,
+   "loadTag": "",
+   "new": "CombatLogUtil.GetColorByUnitType",
+   "returnsTable": false,
+   "version": null
+  },
+  "CombatLog_Color_ColorStringByEventType": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "unitFlags, filterSettings",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "wrapper",
+   "line": 135,
+   "loadTag": "",
+   "new": null,
+   "returnsTable": false,
+   "version": null
+  },
+  "CombatLog_Color_ColorStringBySchool": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "school, filterSettings",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "wrapper",
+   "line": 139,
+   "loadTag": "",
+   "new": null,
+   "returnsTable": false,
+   "version": null
+  },
+  "CombatLog_Color_ColorStringByUnitType": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "unitFlags, filterSettings",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "wrapper",
+   "line": 143,
+   "loadTag": "",
+   "new": null,
+   "returnsTable": false,
+   "version": null
+  },
+  "CombatLog_Color_FloatToText": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "r, g, b, a",
+   "bodyLines": 12,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "wrapper",
+   "line": 110,
+   "loadTag": "",
+   "new": null,
+   "returnsTable": false,
+   "version": null
+  },
+  "CombatLog_Color_HighlightColorArray": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 104,
+   "loadTag": "",
+   "new": "CombatLogUtil.HighlightColor",
+   "version": null
+  },
+  "CombatLog_Object_IsA": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 14,
+   "loadTag": "",
+   "new": "C_CombatLog.DoesObjectMatchFilter",
+   "version": null
+  },
+  "CombatLog_String_DamageResultString": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 105,
+   "loadTag": "",
+   "new": "CombatLogUtil.GenerateDamageResultString",
+   "version": null
+  },
+  "CombatLog_String_GetIcon": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 106,
+   "loadTag": "",
+   "new": "CombatLogUtil.GetUnitIcon",
+   "version": null
+  },
+  "CombatLog_String_PowerType": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 107,
+   "loadTag": "",
+   "new": "CombatLogUtil.GetPowerTypeString",
+   "version": null
+  },
+  "CombatLog_String_SchoolString": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 108,
+   "loadTag": "",
+   "new": "CombatLogUtil.GetSpellSchoolString",
+   "version": null
+  },
+  "CombatTextSetActiveUnit": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 25,
+   "loadTag": "",
+   "new": "C_CombatText.SetActiveUnit",
+   "version": null
+  },
+  "ConfirmBindOnUse": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 36,
+   "loadTag": "",
+   "new": "C_Item.ConfirmBindOnUse",
+   "version": null
+  },
+  "ConfirmNoRefundOnUse": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 38,
+   "loadTag": "",
+   "new": "C_Item.ConfirmNoRefundOnUse",
+   "version": null
+  },
+  "ConfirmOnUse": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 37,
+   "loadTag": "",
+   "new": "C_Item.ConfirmOnUse",
+   "version": null
+  },
+  "ConfirmReadyCheck": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "isReady",
+   "bodyLines": 7,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedPartyInfo/Deprecated_PartyInfo.lua",
+   "kind": "wrapper",
+   "line": 8,
+   "loadTag": "",
+   "new": "C_PartyInfo.ConfirmReadyCheck",
+   "returnsTable": false,
+   "version": null
+  },
+  "DeathRecap_GetEvents": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 28,
+   "loadTag": "",
+   "new": "C_DeathRecap.GetRecapEvents",
+   "version": null
+  },
+  "DeathRecap_HasEvents": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 29,
+   "loadTag": "",
+   "new": "C_DeathRecap.HasRecapEvents",
+   "version": null
+  },
+  "DemoteAssistant": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "name, exactNameMatch",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedPartyInfo/Deprecated_PartyInfo.lua",
+   "kind": "wrapper",
+   "line": 16,
+   "loadTag": "",
+   "new": "C_PartyInfo.DemoteAssistant",
+   "returnsTable": false,
+   "version": null
+  },
+  "DoReadyCheck": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedPartyInfo/Deprecated_PartyInfo.lua",
+   "kind": "wrapper",
+   "line": 20,
+   "loadTag": "",
+   "new": "C_PartyInfo.DoReadyCheck",
+   "returnsTable": false,
+   "version": null
+  },
+  "DoesItemContainSpec": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 13,
+   "loadTag": "",
+   "new": "C_Item.DoesItemContainSpec",
+   "version": null
+  },
+  "DropItemOnUnit": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 39,
+   "loadTag": "",
+   "new": "C_Item.DropItemOnUnit",
+   "version": null
+  },
+  "EndBoundTradeable": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 40,
+   "loadTag": "",
+   "new": "C_Item.EndBoundTradeable",
+   "version": null
+  },
+  "EndRefund": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 41,
+   "loadTag": "",
+   "new": "C_Item.EndRefund",
+   "version": null
+  },
+  "EquipItemByName": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 50,
+   "loadTag": "",
+   "new": "C_Item.EquipItemByName",
+   "version": null
+  },
+  "FindBaseSpellByID": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "spellID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpellBook/Deprecated_SpellBook.lua",
+   "kind": "alias",
+   "line": 36,
+   "loadTag": "",
+   "new": "C_SpellBook.FindBaseSpellByID",
+   "returnsTable": false,
+   "version": null
+  },
+  "FindFlyoutSlotBySpellID": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "spellID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpellBook/Deprecated_SpellBook.lua",
+   "kind": "alias",
+   "line": 28,
+   "loadTag": "",
+   "new": "C_SpellBook.FindFlyoutSlotBySpellID",
+   "returnsTable": false,
+   "version": null
+  },
+  "FindSpellOverrideByID": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "spellID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpellBook/Deprecated_SpellBook.lua",
+   "kind": "alias",
+   "line": 32,
+   "loadTag": "",
+   "new": "C_SpellBook.FindSpellOverrideByID",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetActionAutocast": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 10,
+   "loadTag": "",
+   "new": "C_ActionBar.GetActionAutocast",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetActionBarPage": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 148,
+   "loadTag": "",
+   "new": "C_ActionBar.GetActionBarPage",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetActionCharges": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 4,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "wrapper",
+   "line": 31,
+   "loadTag": "",
+   "new": "C_ActionBar.GetActionCharges",
+   "returnsTable": true,
+   "version": null
+  },
+  "GetActionCooldown": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 4,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "wrapper",
+   "line": 26,
+   "loadTag": "",
+   "new": "C_ActionBar.GetActionCooldown",
+   "returnsTable": true,
+   "version": null
+  },
+  "GetActionCount": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 22,
+   "loadTag": "",
+   "new": "C_ActionBar.GetActionUseCount",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetActionLossOfControlCooldown": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 36,
+   "loadTag": "",
+   "new": "C_ActionBar.GetActionLossOfControlCooldown",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetActionText": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 14,
+   "loadTag": "",
+   "new": "C_ActionBar.GetActionText",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetActionTexture": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 18,
+   "loadTag": "",
+   "new": "C_ActionBar.GetActionTexture",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetActiveSpecGroup": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpecialization/Deprecated_Specialization_Standard.lua",
+   "kind": "alias",
+   "line": 19,
+   "loadTag": "",
+   "new": "C_SpecializationInfo.GetActiveSpecGroup",
+   "version": null
+  },
+  "GetActiveTalentGroup": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpecialization/Deprecated_Specialization_Cata.lua",
+   "kind": "alias",
+   "line": 24,
+   "loadTag": "",
+   "new": "C_SpecializationInfo.GetActiveSpecGroup",
+   "version": null
+  },
+  "GetAutoCompletePresenceID": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "name",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedAutoComplete/Deprecated_AutoComplete.lua",
+   "kind": "alias",
+   "line": 26,
+   "loadTag": "",
+   "new": "C_AutoComplete.GetAutoCompletePresenceID",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetAutoCompleteRealms": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedAutoComplete/Deprecated_AutoComplete.lua",
+   "kind": "alias",
+   "line": 36,
+   "loadTag": "",
+   "new": "C_AutoComplete.GetAutoCompleteRealms",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetAutoCompleteResults": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "name, numResults, cursorPosition, allowFullMatch, includeFlags, excludeFlags",
+   "bodyLines": 5,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedAutoComplete/Deprecated_AutoComplete.lua",
+   "kind": "alias",
+   "line": 30,
+   "loadTag": "",
+   "new": "C_AutoComplete.GetAutoCompleteResults",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetBattlefieldScore": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "playerIndex",
+   "bodyLines": 43,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_1.lua",
+   "kind": "wrapper",
+   "line": 8,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "C_PvP.GetScoreInfo",
+   "returnsTable": true,
+   "version": "12.0.1"
+  },
+  "GetBattlefieldStatData": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "playerIndex, statIndex",
+   "bodyLines": 14,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_1.lua",
+   "kind": "wrapper",
+   "line": 52,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "C_PvP.GetScoreInfo",
+   "returnsTable": true,
+   "version": "12.0.1"
+  },
+  "GetBonusBarIndex": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 88,
+   "loadTag": "",
+   "new": "C_ActionBar.GetBonusBarIndex",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetBonusBarOffset": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 92,
+   "loadTag": "",
+   "new": "C_ActionBar.GetBonusBarOffset",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetChatTimestampFormat": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 90,
+   "loadTag": "",
+   "new": "ChatFrameUtil.GetTimestampFormat",
+   "version": null
+  },
+  "GetCoinIcon": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedCurrencyScript/Deprecated_CurrencyScript.lua",
+   "kind": "alias",
+   "line": 9,
+   "loadTag": "",
+   "new": "C_CurrencyInfo.GetCoinIcon",
+   "version": null
+  },
+  "GetCoinText": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedCurrencyScript/Deprecated_CurrencyScript.lua",
+   "kind": "alias",
+   "line": 10,
+   "loadTag": "",
+   "new": "C_CurrencyInfo.GetCoinText",
+   "version": null
+  },
+  "GetCoinTextureString": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedCurrencyScript/Deprecated_CurrencyScript.lua",
+   "kind": "alias",
+   "line": 11,
+   "loadTag": "",
+   "new": "C_CurrencyInfo.GetCoinTextureString",
+   "version": null
+  },
+  "GetCurrentCombatTextEventInfo": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 26,
+   "loadTag": "",
+   "new": "C_CombatText.GetCurrentEventInfo",
+   "version": null
+  },
+  "GetDeathRecapLink": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "kind": "alias",
+   "line": 30,
+   "loadTag": "",
+   "new": "C_DeathRecap.GetRecapLink",
+   "version": null
+  },
+  "GetDetailedItemLevelInfo": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 43,
+   "loadTag": "",
+   "new": "C_Item.GetDetailedItemLevelInfo",
+   "version": null
+  },
+  "GetExistingSocketInfo": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemSocketInfo/Deprecated_ItemSocketInfo.lua",
+   "kind": "alias",
+   "line": 15,
+   "loadTag": "",
+   "new": "C_ItemSocketInfo.GetExistingSocketInfo",
+   "version": null
+  },
+  "GetExistingSocketLink": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemSocketInfo/Deprecated_ItemSocketInfo.lua",
+   "kind": "alias",
+   "line": 17,
+   "loadTag": "",
+   "new": "C_ItemSocketInfo.GetExistingSocketLink",
+   "version": null
+  },
+  "GetExtraBarIndex": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 96,
+   "loadTag": "",
+   "new": "C_ActionBar.GetExtraBarIndex",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetGuildInfoText": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedGuildScript/Deprecated_GuildScript.lua",
+   "kind": "alias",
+   "line": 20,
+   "loadTag": "",
+   "new": "C_GuildInfo.GetInfoText",
+   "version": null
+  },
+  "GetGuildRosterMOTD": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedGuildScript/Deprecated_GuildScript.lua",
+   "kind": "alias",
+   "line": 19,
+   "loadTag": "",
+   "new": "C_GuildInfo.GetMOTD",
+   "version": null
+  },
+  "GetItemChildInfo": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 12,
+   "loadTag": "",
+   "new": "C_Item.GetItemChildInfo",
+   "version": null
+  },
+  "GetItemClassInfo": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 30,
+   "loadTag": "",
+   "new": "C_Item.GetItemClassInfo",
+   "version": null
+  },
+  "GetItemCooldown": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 52,
+   "loadTag": "",
+   "new": "C_Item.GetItemCooldown",
+   "version": null
+  },
+  "GetItemCount": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 46,
+   "loadTag": "",
+   "new": "C_Item.GetItemCount",
+   "version": null
+  },
+  "GetItemCreationContext": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 15,
+   "loadTag": "",
+   "new": "C_Item.GetItemCreationContext",
+   "version": null
+  },
+  "GetItemFamily": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 17,
+   "loadTag": "",
+   "new": "C_Item.GetItemFamily",
+   "version": null
+  },
+  "GetItemGem": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 14,
+   "loadTag": "",
+   "new": "C_Item.GetItemGem",
+   "version": null
+  },
+  "GetItemIcon": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 16,
+   "loadTag": "",
+   "new": "C_Item.GetItemIconByID",
+   "version": null
+  },
+  "GetItemInfo": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 42,
+   "loadTag": "",
+   "new": "C_Item.GetItemInfo",
+   "version": null
+  },
+  "GetItemInfoInstant": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 10,
+   "loadTag": "",
+   "new": "C_Item.GetItemInfoInstant",
+   "version": null
+  },
+  "GetItemInventorySlotInfo": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 31,
+   "loadTag": "",
+   "new": "C_Item.GetItemInventorySlotInfo",
+   "version": null
+  },
+  "GetItemQualityColor": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 9,
+   "loadTag": "",
+   "new": "C_Item.GetItemQualityColor",
+   "version": null
+  },
+  "GetItemSetInfo": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 11,
+   "loadTag": "",
+   "new": "C_Item.GetItemSetInfo",
+   "version": null
+  },
+  "GetItemSpecInfo": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 44,
+   "loadTag": "",
+   "new": "C_Item.GetItemSpecInfo",
+   "version": null
+  },
+  "GetItemSpell": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 18,
+   "loadTag": "",
+   "new": "C_Item.GetItemSpell",
+   "version": null
+  },
+  "GetItemSubClassInfo": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 48,
+   "loadTag": "",
+   "new": "C_Item.GetItemSubClassInfo",
+   "version": null
+  },
+  "GetItemUniqueness": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 45,
+   "loadTag": "",
+   "new": "C_Item.GetItemUniqueness",
+   "version": null
+  },
+  "GetMaxSpellStartRecoveryOffset": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpellScript/Deprecated_SpellScript.lua",
+   "kind": "alias",
+   "line": 10,
+   "loadTag": "",
+   "new": "C_Spell.GetSpellQueueWindow",
+   "version": null
+  },
+  "GetMerchantCurrencies": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_7.lua",
+   "kind": "wrapper",
+   "line": 29,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "C_MerchantFrame.GetMerchantCurrencies",
+   "returnsTable": false,
+   "version": "12.0.7"
+  },
+  "GetMultiCastBarIndex": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 100,
+   "loadTag": "",
+   "new": "C_ActionBar.GetMultiCastBarIndex",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetNewSocketInfo": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemSocketInfo/Deprecated_ItemSocketInfo.lua",
+   "kind": "alias",
+   "line": 19,
+   "loadTag": "",
+   "new": "C_ItemSocketInfo.GetNewSocketInfo",
+   "version": null
+  },
+  "GetNewSocketLink": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemSocketInfo/Deprecated_ItemSocketInfo.lua",
+   "kind": "alias",
+   "line": 21,
+   "loadTag": "",
+   "new": "C_ItemSocketInfo.GetNewSocketLink",
+   "version": null
+  },
+  "GetNumSockets": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemSocketInfo/Deprecated_ItemSocketInfo.lua",
+   "kind": "alias",
+   "line": 13,
+   "loadTag": "",
+   "new": "C_ItemSocketInfo.GetNumSockets",
+   "version": null
+  },
+  "GetNumSpecializationsForClassID": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpecialization/Deprecated_Specialization_Standard.lua",
+   "kind": "alias",
+   "line": 10,
+   "loadTag": "",
+   "new": "C_SpecializationInfo.GetNumSpecializationsForClassID",
+   "version": null
+  },
+  "GetOverrideBarIndex": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 104,
+   "loadTag": "",
+   "new": "C_ActionBar.GetOverrideBarIndex",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetOverrideBarSkin": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 108,
+   "loadTag": "",
+   "new": "C_ActionBar.GetOverrideBarSkin",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetPetTalentTree": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedPetInfo/Deprecated_PetInfo.lua",
+   "kind": "alias",
+   "line": 10,
+   "loadTag": "",
+   "new": "C_PetInfo.GetPetTalentTree",
+   "version": null
+  },
+  "GetPrimaryTalentTree": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpecialization/Deprecated_Specialization_Cata.lua",
+   "kind": "alias",
+   "line": 21,
+   "loadTag": "",
+   "new": "C_SpecializationInfo.GetSpecialization",
+   "version": null
+  },
+  "GetSchoolString": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpellScript/Deprecated_SpellScript.lua",
+   "kind": "alias",
+   "line": 12,
+   "loadTag": "",
+   "new": "C_Spell.GetSchoolString",
+   "version": null
+  },
+  "GetSocketItemBoundTradeable": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemSocketInfo/Deprecated_ItemSocketInfo.lua",
+   "kind": "alias",
+   "line": 31,
+   "loadTag": "",
+   "new": "C_ItemSocketInfo.GetSocketItemBoundTradeable",
+   "version": null
+  },
+  "GetSocketItemInfo": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemSocketInfo/Deprecated_ItemSocketInfo.lua",
+   "kind": "alias",
+   "line": 11,
+   "loadTag": "",
+   "new": "C_ItemSocketInfo.GetSocketItemInfo",
+   "version": null
+  },
+  "GetSocketItemRefundable": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemSocketInfo/Deprecated_ItemSocketInfo.lua",
+   "kind": "alias",
+   "line": 29,
+   "loadTag": "",
+   "new": "C_ItemSocketInfo.GetSocketItemRefundable",
+   "version": null
+  },
+  "GetSocketTypes": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemSocketInfo/Deprecated_ItemSocketInfo.lua",
+   "kind": "alias",
+   "line": 27,
+   "loadTag": "",
+   "new": "C_ItemSocketInfo.GetSocketTypes",
+   "version": null
+  },
+  "GetSpecialization": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpecialization/Deprecated_Specialization_Standard.lua",
+   "kind": "alias",
+   "line": 16,
+   "loadTag": "",
+   "new": "C_SpecializationInfo.GetSpecialization",
+   "version": null
+  },
+  "GetSpecializationInfo": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpecialization/Deprecated_Specialization_Standard.lua",
+   "kind": "alias",
+   "line": 13,
+   "loadTag": "",
+   "new": "C_SpecializationInfo.GetSpecializationInfo",
+   "version": null
+  },
+  "GetSpellQueueWindow": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpellScript/Deprecated_SpellScript.lua",
+   "kind": "alias",
+   "line": 11,
+   "loadTag": "",
+   "new": "C_Spell.GetSpellQueueWindow",
+   "version": null
+  },
+  "GetTempShapeshiftBarIndex": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 112,
+   "loadTag": "",
+   "new": "C_ActionBar.GetTempShapeshiftBarIndex",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetVehicleBarIndex": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 116,
+   "loadTag": "",
+   "new": "C_ActionBar.GetVehicleBarIndex",
+   "returnsTable": false,
+   "version": null
+  },
+  "GetZonePVPInfo": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedPvpScript/Deprecated_PvpScript.lua",
+   "kind": "alias",
+   "line": 10,
+   "loadTag": "",
+   "new": "C_PvP.GetZonePVPInfo",
+   "version": null
+  },
+  "GuildDemote": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedGuildScript/Deprecated_GuildScript.lua",
+   "kind": "alias",
+   "line": 12,
+   "loadTag": "",
+   "new": "C_GuildInfo.Demote",
+   "version": null
+  },
+  "GuildDisband": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedGuildScript/Deprecated_GuildScript.lua",
+   "kind": "alias",
+   "line": 16,
+   "loadTag": "",
+   "new": "C_GuildInfo.Disband",
+   "version": null
+  },
+  "GuildInvite": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedGuildScript/Deprecated_GuildScript.lua",
+   "kind": "alias",
+   "line": 9,
+   "loadTag": "",
+   "new": "C_GuildInfo.Invite",
+   "version": null
+  },
+  "GuildLeave": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedGuildScript/Deprecated_GuildScript.lua",
+   "kind": "alias",
+   "line": 15,
+   "loadTag": "",
+   "new": "C_GuildInfo.Leave",
+   "version": null
+  },
+  "GuildPromote": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedGuildScript/Deprecated_GuildScript.lua",
+   "kind": "alias",
+   "line": 11,
+   "loadTag": "",
+   "new": "C_GuildInfo.Promote",
+   "version": null
+  },
+  "GuildSetLeader": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedGuildScript/Deprecated_GuildScript.lua",
+   "kind": "alias",
+   "line": 13,
+   "loadTag": "",
+   "new": "C_GuildInfo.SetLeader",
+   "version": null
+  },
+  "GuildSetMOTD": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedGuildScript/Deprecated_GuildScript.lua",
+   "kind": "alias",
+   "line": 14,
+   "loadTag": "",
+   "new": "C_GuildInfo.SetMOTD",
+   "version": null
+  },
+  "GuildUninvite": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedGuildScript/Deprecated_GuildScript.lua",
+   "kind": "alias",
+   "line": 10,
+   "loadTag": "",
+   "new": "C_GuildInfo.Uninvite",
+   "version": null
+  },
+  "HUNTER_DISMISS_PET": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpellBook/Deprecated_SpellBook.lua",
+   "kind": "alias",
+   "line": 9,
+   "loadTag": "",
+   "new": "Constants.SpellBookSpellIDs.SPELL_ID_DISMISS_PET",
+   "version": null
+  },
+  "HasAction": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 40,
+   "loadTag": "",
+   "new": "C_ActionBar.HasAction",
+   "returnsTable": false,
+   "version": null
+  },
+  "HasBonusActionBar": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 120,
+   "loadTag": "",
+   "new": "C_ActionBar.HasBonusActionBar",
+   "returnsTable": false,
+   "version": null
+  },
+  "HasBoundGemProposed": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemSocketInfo/Deprecated_ItemSocketInfo.lua",
+   "kind": "alias",
+   "line": 33,
+   "loadTag": "",
+   "new": "C_ItemSocketInfo.HasBoundGemProposed",
+   "version": null
+  },
+  "HasExtraActionBar": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 124,
+   "loadTag": "",
+   "new": "C_ActionBar.HasExtraActionBar",
+   "returnsTable": false,
+   "version": null
+  },
+  "HasOverrideActionBar": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 128,
+   "loadTag": "",
+   "new": "C_ActionBar.HasOverrideActionBar",
+   "returnsTable": false,
+   "version": null
+  },
+  "HasTempShapeshiftActionBar": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 132,
+   "loadTag": "",
+   "new": "C_ActionBar.HasTempShapeshiftActionBar",
+   "returnsTable": false,
+   "version": null
+  },
+  "HasVehicleActionBar": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 136,
+   "loadTag": "",
+   "new": "C_ActionBar.HasVehicleActionBar",
+   "returnsTable": false,
+   "version": null
+  },
+  "IsActionInRange": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 80,
+   "loadTag": "",
+   "new": "C_ActionBar.IsActionInRange",
+   "returnsTable": false,
+   "version": null
+  },
+  "IsArtifactPowerItem": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 19,
+   "loadTag": "",
+   "new": "C_Item.IsArtifactPowerItem",
+   "version": null
+  },
+  "IsAttackAction": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 44,
+   "loadTag": "",
+   "new": "C_ActionBar.IsAttackAction",
+   "returnsTable": false,
+   "version": null
+  },
+  "IsAutoRepeatAction": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 52,
+   "loadTag": "",
+   "new": "C_ActionBar.IsAutoRepeatAction",
+   "returnsTable": false,
+   "version": null
+  },
+  "IsConsumableAction": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 60,
+   "loadTag": "",
+   "new": "C_ActionBar.IsConsumableAction",
+   "returnsTable": false,
+   "version": null
+  },
+  "IsConsumableItem": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 24,
+   "loadTag": "",
+   "new": "C_Item.IsConsumableItem",
+   "version": null
+  },
+  "IsCorruptedItem": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 53,
+   "loadTag": "",
+   "new": "C_Item.IsCorruptedItem",
+   "version": null
+  },
+  "IsCosmeticItem": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 54,
+   "loadTag": "",
+   "new": "C_Item.IsCosmeticItem",
+   "version": null
+  },
+  "IsCurrentAction": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 48,
+   "loadTag": "",
+   "new": "C_ActionBar.IsCurrentAction",
+   "returnsTable": false,
+   "version": null
+  },
+  "IsCurrentItem": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 20,
+   "loadTag": "",
+   "new": "C_Item.IsCurrentItem",
+   "version": null
+  },
+  "IsDressableItem": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 55,
+   "loadTag": "",
+   "new": "C_Item.IsDressableItem",
+   "version": null
+  },
+  "IsEquippableItem": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 25,
+   "loadTag": "",
+   "new": "C_Item.IsEquippableItem",
+   "version": null
+  },
+  "IsEquippedAction": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 72,
+   "loadTag": "",
+   "new": "C_ActionBar.IsEquippedAction",
+   "returnsTable": false,
+   "version": null
+  },
+  "IsEquippedItem": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 26,
+   "loadTag": "",
+   "new": "C_Item.IsEquippedItem",
+   "version": null
+  },
+  "IsEquippedItemType": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 27,
+   "loadTag": "",
+   "new": "C_Item.IsEquippedItemType",
+   "version": null
+  },
+  "IsGUIDInGroup": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "guid, category",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedPartyInfo/Deprecated_PartyInfo.lua",
+   "kind": "alias",
+   "line": 40,
+   "loadTag": "",
+   "new": "C_PartyInfo.IsGUIDInGroup",
+   "returnsTable": false,
+   "version": null
+  },
+  "IsHarmfulItem": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 23,
+   "loadTag": "",
+   "new": "C_Item.IsHarmfulItem",
+   "version": null
+  },
+  "IsHelpfulItem": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 22,
+   "loadTag": "",
+   "new": "C_Item.IsHelpfulItem",
+   "version": null
+  },
+  "IsItemAction": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 68,
+   "loadTag": "",
+   "new": "C_ActionBar.IsItemAction",
+   "returnsTable": false,
+   "version": null
+  },
+  "IsItemInRange": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 29,
+   "loadTag": "",
+   "new": "C_Item.IsItemInRange",
+   "version": null
+  },
+  "IsPlayerSpell": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "spellID",
+   "bodyLines": 4,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpellBook/Deprecated_SpellBook.lua",
+   "kind": "wrapper",
+   "line": 11,
+   "loadTag": "",
+   "new": "C_SpellBook.IsSpellKnown",
+   "returnsTable": false,
+   "version": null
+  },
+  "IsPossessBarVisible": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 140,
+   "loadTag": "",
+   "new": "C_ActionBar.IsPossessBarVisible",
+   "returnsTable": false,
+   "version": null
+  },
+  "IsRecognizedName": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "name, includeFlags, excludeFlags",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedAutoComplete/Deprecated_AutoComplete.lua",
+   "kind": "alias",
+   "line": 40,
+   "loadTag": "",
+   "new": "C_AutoComplete.IsRecognizedName",
+   "returnsTable": false,
+   "version": null
+  },
+  "IsSpellKnown": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "spellID, isPet",
+   "bodyLines": 5,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpellBook/Deprecated_SpellBook.lua",
+   "kind": "wrapper",
+   "line": 16,
+   "loadTag": "",
+   "new": "C_SpellBook.IsSpellInSpellBook",
+   "returnsTable": false,
+   "version": null
+  },
+  "IsSpellKnownOrOverridesKnown": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "spellID, isPet",
+   "bodyLines": 5,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpellBook/Deprecated_SpellBook.lua",
+   "kind": "wrapper",
+   "line": 22,
+   "loadTag": "",
+   "new": "C_SpellBook.IsSpellInSpellBook",
+   "returnsTable": false,
+   "version": null
+  },
+  "IsStackableAction": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 64,
+   "loadTag": "",
+   "new": "C_ActionBar.IsStackableAction",
+   "returnsTable": false,
+   "version": null
+  },
+  "IsSubZonePVPPOI": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedPvpScript/Deprecated_PvpScript.lua",
+   "kind": "alias",
+   "line": 9,
+   "loadTag": "",
+   "new": "C_PvP.IsSubZonePVPPOI",
+   "version": null
+  },
+  "IsUsableAction": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "actionID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "alias",
+   "line": 56,
+   "loadTag": "",
+   "new": "C_ActionBar.IsUsableAction",
+   "returnsTable": false,
+   "version": null
+  },
+  "IsUsableItem": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 21,
+   "loadTag": "",
+   "new": "C_Item.IsUsableItem",
+   "version": null
+  },
+  "ItemHasRange": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 28,
+   "loadTag": "",
+   "new": "C_Item.ItemHasRange",
+   "version": null
+  },
+  "LE_WORLD_ELAPSED_TIMER_TYPE_CHALLENGE_MODE": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedWorldElapsedTimerTypes/Deprecated_WorldElapsedTimerTypes.lua",
+   "kind": "alias",
+   "line": 10,
+   "loadTag": "",
+   "new": "Enum.WorldElapsedTimerTypes.ChallengeMode",
+   "version": null
+  },
+  "LE_WORLD_ELAPSED_TIMER_TYPE_NONE": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedWorldElapsedTimerTypes/Deprecated_WorldElapsedTimerTypes.lua",
+   "kind": "alias",
+   "line": 9,
+   "loadTag": "",
+   "new": "Enum.WorldElapsedTimerTypes.None",
+   "version": null
+  },
+  "LE_WORLD_ELAPSED_TIMER_TYPE_PROVING_GROUND": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedWorldElapsedTimerTypes/Deprecated_WorldElapsedTimerTypes.lua",
+   "kind": "alias",
+   "line": 11,
+   "loadTag": "",
+   "new": "Enum.WorldElapsedTimerTypes.ProvingGround",
+   "version": null
+  },
+  "MAX_CHARACTER_NAME_BYTES": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 17,
+   "loadTag": "",
+   "new": "Constants.ChatFrameConstants.MaxCharacterNameBytes",
+   "version": null
+  },
+  "MAX_COMMUNITY_NAME_LENGTH": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 10,
+   "loadTag": "",
+   "new": "ChatFrameConstants.TruncatedCommunityNameLength",
+   "version": null
+  },
+  "MAX_COMMUNITY_NAME_LENGTH_NO_CHANNEL": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 11,
+   "loadTag": "",
+   "new": "ChatFrameConstants.TruncatedCommunityNameWithoutChannelLength",
+   "version": null
+  },
+  "MAX_COUNTDOWN_SECONDS": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 20,
+   "loadTag": "",
+   "new": "Constants.PartyCountdownConstants.MaxCountdownSeconds",
+   "version": null
+  },
+  "MAX_REMEMBERED_TELLS": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 12,
+   "loadTag": "",
+   "new": "ChatFrameConstants.MaxRememberedWhisperTargets",
+   "version": null
+  },
+  "MAX_TALENT_TIERS": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpecialization/Deprecated_TalentConsts.lua",
+   "kind": "alias",
+   "line": 8,
+   "loadTag": "",
+   "new": "Constants.TalentTierConstants.MAX_TALENT_TIERS",
+   "version": null
+  },
+  "MAX_WOW_CHAT_CHANNELS": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 16,
+   "loadTag": "",
+   "new": "Constants.ChatFrameConstants.MaxChatChannels",
+   "version": null
+  },
+  "MESSAGE_SCROLLBUTTON_INITIAL_DELAY": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 13,
+   "loadTag": "",
+   "new": "MessageFrameScrollButtonConstants.InitialScrollDelay",
+   "version": null
+  },
+  "MESSAGE_SCROLLBUTTON_SCROLL_DELAY": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 14,
+   "loadTag": "",
+   "new": "MessageFrameScrollButtonConstants.HeldScrollDelay",
+   "version": null
+  },
+  "MenuUtil.HideTooltip": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "owner",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_7.lua",
+   "kind": "wrapper",
+   "line": 12,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "MenuUtil.HideTooltipEx",
+   "returnsTable": false,
+   "version": "12.0.7"
+  },
+  "MenuUtil.ShowTooltip": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "owner, func, ...",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_7.lua",
+   "kind": "wrapper",
+   "line": 8,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "MenuUtil.ShowTooltipEx",
+   "returnsTable": false,
+   "version": "12.0.7"
+  },
+  "NUM_CHAT_WINDOWS": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 18,
+   "loadTag": "",
+   "new": "Constants.ChatFrameConstants.MaxChatWindows",
+   "version": null
+  },
+  "NUM_TALENT_COLUMNS": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpecialization/Deprecated_TalentConsts.lua",
+   "kind": "alias",
+   "line": 9,
+   "loadTag": "",
+   "new": "Constants.TalentConsts.NumTalentColumns",
+   "version": null
+  },
+  "PetAssistMode": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedPetInfo/Deprecated_PetInfo.lua",
+   "kind": "alias",
+   "line": 9,
+   "loadTag": "",
+   "new": "C_PetInfo.PetAssistMode",
+   "version": null
+  },
+  "PickupItem": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 47,
+   "loadTag": "",
+   "new": "C_Item.PickupItem",
+   "version": null
+  },
+  "PlayVocalErrorSoundID": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedSoundScript/Deprecated_SoundScript.lua",
+   "kind": "alias",
+   "line": 9,
+   "loadTag": "",
+   "new": "C_Sound.PlayVocalErrorSound",
+   "version": null
+  },
+  "PromoteToAssistant": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "name, exactNameMatch",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedPartyInfo/Deprecated_PartyInfo.lua",
+   "kind": "wrapper",
+   "line": 24,
+   "loadTag": "",
+   "new": "C_PartyInfo.PromoteToAssistant",
+   "returnsTable": false,
+   "version": null
+  },
+  "PromoteToLeader": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "name, exactNameMatch",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedPartyInfo/Deprecated_PartyInfo.lua",
+   "kind": "wrapper",
+   "line": 28,
+   "loadTag": "",
+   "new": "C_PartyInfo.PromoteToLeader",
+   "returnsTable": false,
+   "version": null
+  },
+  "ReplaceEnchant": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 34,
+   "loadTag": "",
+   "new": "C_Item.ReplaceEnchant",
+   "version": null
+  },
+  "ReplaceTradeEnchant": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 35,
+   "loadTag": "",
+   "new": "C_Item.ReplaceTradeEnchant",
+   "version": null
+  },
+  "ReplaceTradeskillEnchant": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 51,
+   "loadTag": "",
+   "new": "C_Item.ReplaceTradeskillEnchant",
+   "version": null
+  },
+  "SetActionUIButton": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "checkboxFrame, actionID, cooldownFrame",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua",
+   "kind": "wrapper",
+   "line": 84,
+   "loadTag": "",
+   "new": "C_ActionBar.RegisterActionUIButton",
+   "returnsTable": false,
+   "version": null
+  },
+  "SetActiveTalentGroup": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpecialization/Deprecated_Specialization_Cata.lua",
+   "kind": "alias",
+   "line": 10,
+   "loadTag": "",
+   "new": "C_SpecializationInfo.SetActiveSpecGroup",
+   "version": null
+  },
+  "SetEveryoneIsAssistant": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "isAssistant",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedPartyInfo/Deprecated_PartyInfo.lua",
+   "kind": "alias",
+   "line": 32,
+   "loadTag": "",
+   "new": "C_PartyInfo.SetEveryoneIsAssistant",
+   "returnsTable": false,
+   "version": null
+  },
+  "SetGuildInfoText": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedGuildScript/Deprecated_GuildScript.lua",
+   "kind": "alias",
+   "line": 21,
+   "loadTag": "",
+   "new": "C_GuildInfo.SetInfoText",
+   "version": null
+  },
+  "SetPVP": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedPvpScript/Deprecated_PvpScript.lua",
+   "kind": "alias",
+   "line": 12,
+   "loadTag": "",
+   "new": "C_PvP.SetPVP",
+   "version": null
+  },
+  "ShowBossFrameWhenUninteractable": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "unit",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedUnitScript/Deprecated_UnitScript.lua",
+   "kind": "wrapper",
+   "line": 9,
+   "loadTag": "",
+   "new": null,
+   "returnsTable": false,
+   "version": null
+  },
+  "SpellGetVisibilityInfo": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "spellID, visiblityTypeName",
+   "bodyLines": 4,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpellScript/Deprecated_SpellScript.lua",
+   "kind": "wrapper",
+   "line": 30,
+   "loadTag": "",
+   "new": "C_Spell.GetVisibilityInfo",
+   "returnsTable": false,
+   "version": null
+  },
+  "SpellIsPriorityAura": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "spellID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpellScript/Deprecated_SpellScript.lua",
+   "kind": "alias",
+   "line": 16,
+   "loadTag": "",
+   "new": "C_Spell.IsPriorityAura",
+   "returnsTable": false,
+   "version": null
+  },
+  "SpellIsSelfBuff": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "spellID",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpellScript/Deprecated_SpellScript.lua",
+   "kind": "alias",
+   "line": 20,
+   "loadTag": "",
+   "new": "C_Spell.IsSelfBuff",
+   "returnsTable": false,
+   "version": null
+  },
+  "SubstituteChatMessageBeforeSend": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedChatInfo/Deprecated_ChatFrame.lua",
+   "kind": "alias",
+   "line": 91,
+   "loadTag": "",
+   "new": "ChatFrameUtil.SubstituteChatMessageBeforeSend",
+   "version": null
+  },
+  "TargetSpellReplacesBonusTree": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedSpellScript/Deprecated_SpellScript.lua",
+   "kind": "alias",
+   "line": 9,
+   "loadTag": "",
+   "new": "C_Spell.TargetSpellReplacesBonusTree",
+   "version": null
+  },
+  "TogglePVP": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedPvpScript/Deprecated_PvpScript.lua",
+   "kind": "alias",
+   "line": 11,
+   "loadTag": "",
+   "new": "C_PvP.TogglePVP",
+   "version": null
+  },
+  "UninviteUnit": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "unit, reason, exactNameMatch",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_DeprecatedPartyInfo/Deprecated_PartyInfo.lua",
+   "kind": "wrapper",
+   "line": 36,
+   "loadTag": "",
+   "new": "C_PartyInfo.UninviteUnit",
+   "returnsTable": false,
+   "version": null
+  },
+  "UnitIsSpellTarget": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "unit, target",
+   "bodyLines": 7,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_1.lua",
+   "kind": "wrapper",
+   "line": 67,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": null,
+   "returnsTable": false,
+   "version": "12.0.1"
+  },
+  "UseItemByName": {
+   "branch": "live",
+   "file": "Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "kind": "alias",
+   "line": 49,
+   "loadTag": "",
+   "new": "C_Item.UseItemByName",
+   "version": null
+  },
+  "getglobal": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "var",
+   "bodyLines": 3,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Shared/Deprecated_12_1_0.lua",
+   "kind": "wrapper",
+   "line": 9,
+   "loadTag": "",
+   "new": null,
+   "returnsTable": false,
+   "version": "12.1.0"
+  },
+  "info.anyOwnedEntries": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_5.lua",
+   "kind": "alias",
+   "line": 108,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "info.anyStoredEntries",
+   "version": "12.0.5"
+  },
+  "info.numPlaced": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_5.lua",
+   "kind": "alias",
+   "line": 86,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "info.totalNumPlaced",
+   "version": "12.0.5"
+  },
+  "info.quantity": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_5.lua",
+   "kind": "alias",
+   "line": 85,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "info.totalNumStored",
+   "version": "12.0.5"
+  },
+  "searchParams.withStoredEntriesOnly": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_5.lua",
+   "kind": "alias",
+   "line": 118,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "searchParams.withOwnedEntriesOnly",
+   "version": "12.0.5"
+  },
+  "searcher.IsOwnedOnlyActive": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_5.lua",
+   "kind": "alias",
+   "line": 250,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "searcher.IsStoredOnlyActive",
+   "version": "12.0.5"
+  },
+  "searcher.SetOwnedOnly": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_5.lua",
+   "kind": "alias",
+   "line": 251,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "searcher.SetStoredOnly",
+   "version": "12.0.5"
+  },
+  "searcher.ToggleOwnedOnly": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_5.lua",
+   "kind": "alias",
+   "line": 252,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "searcher.ToggleStoredOnly",
+   "version": "12.0.5"
+  },
+  "setglobal": {
+   "alsoIn": [
+    "live"
+   ],
+   "args": "var, val",
+   "bodyLines": 7,
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Shared/Deprecated_12_1_0.lua",
+   "kind": "wrapper",
+   "line": 14,
+   "loadTag": "",
+   "new": null,
+   "returnsTable": false,
+   "version": "12.1.0"
+  },
+  "variantID.entrySubtype": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_5.lua",
+   "kind": "alias",
+   "line": 68,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "Enum.HousingCatalogEntrySubtype.Unowned",
+   "version": "12.0.5"
+  },
+  "variantID.subtypeIdentifier": {
+   "alsoIn": [
+    "live"
+   ],
+   "branch": "forever",
+   "file": "Blizzard_Deprecated/Mainline/Deprecated_12_0_5.lua",
+   "kind": "alias",
+   "line": 67,
+   "loadTag": "[AllowLoadGameType mainline]",
+   "new": "variantID.variantIdentifier",
+   "version": "12.0.5"
+  }
+ }
+}

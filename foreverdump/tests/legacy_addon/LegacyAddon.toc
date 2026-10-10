@@ -1,0 +1,5 @@
+## Interface: 30400
+## Interface-Classic: 11403
+## Title: LegacyAddon (deliberately old-style migration fixture)
+## Dependencies: Blizzard_CombatLog_DoesNotExist
+LegacyAddon.lua

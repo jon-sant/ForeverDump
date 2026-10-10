@@ -1,0 +1,290 @@
+{
+ "2026-10-07-run2": {
+  "enemies": 0,
+  "meter": {
+   "rows": 31,
+   "guids": 1,
+   "joinedToLog": 1,
+   "joinRate": 100.0,
+   "classWrongGuids": 0,
+   "enemyIdentified": 0,
+   "coverage": null,
+   "medianTTI": null
+  },
+  "signals": {
+   "guids": 0,
+   "distinct": 0,
+   "joinedToLog": 0
+  },
+  "live": {
+   "units": 0,
+   "joinedToLog": 0,
+   "correct": 0,
+   "wrong": 0
+  }
+ },
+ "2026-10-07-run3": {
+  "enemies": 0,
+  "meter": {
+   "rows": 32,
+   "guids": 1,
+   "joinedToLog": 1,
+   "joinRate": 100.0,
+   "classWrongGuids": 0,
+   "enemyIdentified": 0,
+   "coverage": null,
+   "medianTTI": null
+  },
+  "signals": {
+   "guids": 25,
+   "distinct": 2,
+   "joinedToLog": 1
+  },
+  "live": {
+   "units": 0,
+   "joinedToLog": 0,
+   "correct": 0,
+   "wrong": 0
+  }
+ },
+ "2026-10-07-run4": {
+  "enemies": 0,
+  "meter": {
+   "rows": 10,
+   "guids": 1,
+   "joinedToLog": 1,
+   "joinRate": 100.0,
+   "classWrongGuids": 0,
+   "enemyIdentified": 0,
+   "coverage": null,
+   "medianTTI": null
+  },
+  "signals": {
+   "guids": 88,
+   "distinct": 2,
+   "joinedToLog": 1
+  },
+  "live": {
+   "units": 0,
+   "joinedToLog": 0,
+   "correct": 0,
+   "wrong": 0
+  }
+ },
+ "2026-10-08-run5": {
+  "enemies": 0,
+  "meter": {
+   "rows": 21,
+   "guids": 1,
+   "joinedToLog": 1,
+   "joinRate": 100.0,
+   "classWrongGuids": 0,
+   "enemyIdentified": 0,
+   "coverage": null,
+   "medianTTI": null
+  },
+  "signals": {
+   "guids": 104,
+   "distinct": 4,
+   "joinedToLog": 1
+  },
+  "live": {
+   "units": 0,
+   "joinedToLog": 0,
+   "correct": 0,
+   "wrong": 0
+  }
+ },
+ "2026-10-08-run6": {
+  "enemies": 0,
+  "meter": {
+   "rows": 33,
+   "guids": 1,
+   "joinedToLog": 1,
+   "joinRate": 100.0,
+   "classWrongGuids": 0,
+   "enemyIdentified": 0,
+   "coverage": null,
+   "medianTTI": null
+  },
+  "signals": {
+   "guids": 0,
+   "distinct": 0,
+   "joinedToLog": 0
+  },
+  "live": {
+   "units": 0,
+   "joinedToLog": 0,
+   "correct": 0,
+   "wrong": 0
+  }
+ },
+ "2026-10-08-run6b": {
+  "enemies": 1,
+  "meter": {
+   "rows": 23,
+   "guids": 1,
+   "joinedToLog": 1,
+   "joinRate": 100.0,
+   "classWrongGuids": 0,
+   "enemyIdentified": 0,
+   "coverage": 0.0,
+   "medianTTI": null
+  },
+  "signals": {
+   "guids": 0,
+   "distinct": 0,
+   "joinedToLog": 0
+  },
+  "live": {
+   "units": 0,
+   "joinedToLog": 0,
+   "correct": 0,
+   "wrong": 0
+  }
+ },
+ "2026-10-08-run7": {
+  "enemies": 1,
+  "meter": {
+   "rows": 15,
+   "guids": 1,
+   "joinedToLog": 1,
+   "joinRate": 100.0,
+   "classWrongGuids": 0,
+   "enemyIdentified": 0,
+   "coverage": 0.0,
+   "medianTTI": null
+  },
+  "signals": {
+   "guids": 0,
+   "distinct": 0,
+   "joinedToLog": 0
+  },
+  "live": {
+   "units": 0,
+   "joinedToLog": 0,
+   "correct": 0,
+   "wrong": 0
+  }
+ },
+ "2026-10-09-run10-bg": {
+  "enemies": 19,
+  "meter": {
+   "rows": 5064,
+   "guids": 16,
+   "joinedToLog": 15,
+   "joinRate": 93.8,
+   "classWrongGuids": 0,
+   "enemyIdentified": 0,
+   "coverage": 0.0,
+   "medianTTI": null
+  },
+  "signals": {
+   "guids": 3862,
+   "distinct": 13,
+   "joinedToLog": 13
+  },
+  "live": {
+   "units": 0,
+   "joinedToLog": 0,
+   "correct": 0,
+   "wrong": 0
+  }
+ },
+ "2026-10-09-run11-bg": {
+  "enemies": 16,
+  "meter": {
+   "rows": 2447,
+   "guids": 16,
+   "joinedToLog": 15,
+   "joinRate": 93.8,
+   "classWrongGuids": 0,
+   "enemyIdentified": 0,
+   "coverage": 0.0,
+   "medianTTI": null
+  },
+  "signals": {
+   "guids": 2832,
+   "distinct": 9,
+   "joinedToLog": 9
+  },
+  "live": {
+   "units": 0,
+   "joinedToLog": 0,
+   "correct": 0,
+   "wrong": 0
+  }
+ },
+ "2026-10-09-run12-bg": {
+  "enemies": 15,
+  "meter": {
+   "rows": 1365,
+   "guids": 16,
+   "joinedToLog": 15,
+   "joinRate": 93.8,
+   "classWrongGuids": 0,
+   "enemyIdentified": 0,
+   "coverage": 0.0,
+   "medianTTI": null
+  },
+  "signals": {
+   "guids": 1129,
+   "distinct": 6,
+   "joinedToLog": 6
+  },
+  "live": {
+   "units": 0,
+   "joinedToLog": 0,
+   "correct": 0,
+   "wrong": 0
+  }
+ },
+ "2026-10-09-run13-bg": {
+  "enemies": 15,
+  "meter": {
+   "rows": 2671,
+   "guids": 16,
+   "joinedToLog": 15,
+   "joinRate": 93.8,
+   "classWrongGuids": 0,
+   "enemyIdentified": 0,
+   "coverage": 0.0,
+   "medianTTI": null
+  },
+  "signals": {
+   "guids": 2576,
+   "distinct": 13,
+   "joinedToLog": 12
+  },
+  "live": {
+   "units": 0,
+   "joinedToLog": 0,
+   "correct": 0,
+   "wrong": 0
+  }
+ },
+ "2026-10-09-run16-bg": {
+  "enemies": 15,
+  "meter": {
+   "rows": 3322,
+   "guids": 16,
+   "joinedToLog": 15,
+   "joinRate": 93.8,
+   "classWrongGuids": 0,
+   "enemyIdentified": 0,
+   "coverage": 0.0,
+   "medianTTI": null
+  },
+  "signals": {
+   "guids": 2882,
+   "distinct": 16,
+   "joinedToLog": 16
+  },
+  "live": {
+   "units": 34,
+   "joinedToLog": 34,
+   "correct": 34,
+   "wrong": 0
+  }
+ }
+}

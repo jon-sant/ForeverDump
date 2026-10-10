@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>ForeverDump HSM window (static mock)</title>
+<style>
+body{background:#1b1b1b;font:13px/1.35 Arial,sans-serif;color:#ddd;padding:24px}
+.note{color:#aaa;max-width:760px;margin-bottom:16px}
+.win{width:430px;border:1px solid #555;background:rgba(0,0,0,.85);box-shadow:0 0 0 2px #222;position:relative}
+.title{background:#333;padding:4px 8px;font-weight:bold;color:#ffd100;cursor:move;display:flex;justify-content:space-between}
+.x{color:#aaa}
+.sec{padding:6px 8px;border-bottom:1px solid #333}
+.bar{position:relative;height:12px;margin:3px 0 1px;background:#222;border:1px solid #444}
+.bar i{position:absolute;left:0;top:0;bottom:0}
+.lbl{font-size:11px;color:#bbb}
+.g{color:#3c3}.y{color:#ff3}.k{color:#999}.r{color:#f44}
+.pred i{background:#cc3}.eng i{background:#eee}.hp i{background:#2a2}
+.scroll{height:210px;overflow:auto;padding:6px 8px;font-family:Consolas,monospace;font-size:12px;white-space:pre}
+.grip{position:absolute;right:1px;bottom:1px;width:12px;height:12px;background:linear-gradient(135deg,transparent 50%,#888 50%)}
+.secret{font-size:10px;color:#c9f}
+</style></head><body>
+<p class="note"><b>Static mock</b> of the in-game <code>/fdump hsm</code> window (ForeverDump v2.2, <code>HSMUI.lua</code>), for the guide.
+Values are <b>illustrative, not captured</b>. In game, widgets marked "secret (engine-displayed)" are drawn by the engine from
+duration objects / secret numbers (<code>SetTimerDuration</code>, <code>SetCooldownFromDurationObject</code>, <code>StatusBar:SetValue</code>,
+<code>FontString:SetText</code>); the addon never reads those values.</p>
+<div class="win" role="img" aria-label="HSM window mock">
+ <div class="title"><span>ForeverDump HSM</span><span class="x">[x]</span></div>
+ <div class="sec"><span class="g">Combat=Inactive</span> <span class="y">Encounter=Activating</span> <span class="g">ChallengeMode=Inactive</span> <span class="g">PvPMatch=Inactive</span> <span class="r">Map=Active</span> <span class="g">Chat=Inactive</span><br>
+  <span class="lbl">always-on: combat log restricted <span class="r">yes</span> · addon chat restricted <span class="r">yes</span></span></div>
+ <div class="sec">
+  <div class="lbl">player cast: <span class="g">Lightning Bolt (observed, cast-pair)</span> predicted end 1.2 s</div>
+  <div class="bar pred"><i style="width:55%"></i></div>
+  <div class="bar eng"><i style="width:57%"></i></div><div class="secret">engine bar: secret (engine-displayed)</div>
+  <div class="lbl">target cast: <span class="k">unknown spell (spellID secret)</span> casting <span class="g">yes</span></div>
+  <div class="bar eng"><i style="width:30%"></i></div><div class="secret">secret (engine-displayed)</div>
+  <div class="lbl">cooldown: Earth Shock predicted 4.1 s · Cooldown frame (duration object) <span class="secret">secret (engine-displayed)</span></div>
+  <div class="bar pred"><i style="width:68%"></i></div>
+  <div class="lbl">player HP, secret (engine-displayed): <span class="secret">[1210 / 1345]</span></div>
+  <div class="bar hp"><i style="width:90%"></i></div>
+ </div>
+ <div class="scroll">Counters: predictions 14 · live contradictions <span class="r">1</span> · secrets seen 212
+Auras
+ player  <span class="g">Lightning Shield  x3  9:41  observed (high)</span>
+ target  <span class="y">Flame Shock  10.8s  inferred cast-correlation (medium)</span>
+ target  <span class="y">aura iid 4471  single-applier -> Earthbind (high)</span>
+ target  <span class="k">aura iid 4480  unknown</span>
+Cooldowns
+ Earth Shock   ends in 4.1s (predicted, GetSpellBaseCooldown)
+Last predictions
+ <span class="g">19:54:12 Flame Shock aura 12s  -> aura seen (cast-correlation)</span>
+ <span class="g">19:54:12 Earth Shock cd 6s   -> verified</span>
+ <span class="r">19:54:20 Lightning Shield 600s -> contradicted (aura-gone-early)</span>
+ <span class="k">19:54:31 Healing Wave 48-62  -> unverified (amount secret)</span>
+</div>
+ <div class="grip"></div>
+</div>
+<p class="note">Colours: <span class="g">green</span> observed · <span class="y">yellow</span> inferred · <span class="k">grey</span> unknown · <span class="r">red</span> contradiction. Movable (title), resizable (grip), scrollable text, Escape closes, position saved; updates at most every 0.2 s.</p>
+</body></html>

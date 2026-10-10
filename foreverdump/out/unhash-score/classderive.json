@@ -1,0 +1,326 @@
+{
+ "2026-10-07-run2": {
+  "summary": {
+   "enemies": 0,
+   "PC": {
+    "assigned": 0,
+    "correct": 0,
+    "wrong": 0,
+    "coverage": null,
+    "accuracy": null,
+    "medianTTI": null,
+    "meanCandidates": null,
+    "truthInSet": null
+   },
+   "M": {
+    "assigned": 0,
+    "coverage": null,
+    "medianTTI": null
+   },
+   "combined": {
+    "coverage": null,
+    "medianTTI": null
+   }
+  },
+  "meta": {
+   "offset": 0
+  }
+ },
+ "2026-10-07-run3": {
+  "summary": {
+   "enemies": 0,
+   "PC": {
+    "assigned": 0,
+    "correct": 0,
+    "wrong": 0,
+    "coverage": null,
+    "accuracy": null,
+    "medianTTI": null,
+    "meanCandidates": null,
+    "truthInSet": null
+   },
+   "M": {
+    "assigned": 0,
+    "coverage": null,
+    "medianTTI": null
+   },
+   "combined": {
+    "coverage": null,
+    "medianTTI": null
+   }
+  },
+  "meta": {
+   "offset": 0
+  }
+ },
+ "2026-10-07-run4": {
+  "summary": {
+   "enemies": 0,
+   "PC": {
+    "assigned": 0,
+    "correct": 0,
+    "wrong": 0,
+    "coverage": null,
+    "accuracy": null,
+    "medianTTI": null,
+    "meanCandidates": null,
+    "truthInSet": null
+   },
+   "M": {
+    "assigned": 0,
+    "coverage": null,
+    "medianTTI": null
+   },
+   "combined": {
+    "coverage": null,
+    "medianTTI": null
+   }
+  },
+  "meta": {
+   "offset": 0
+  }
+ },
+ "2026-10-08-run5": {
+  "summary": {
+   "enemies": 0,
+   "PC": {
+    "assigned": 0,
+    "correct": 0,
+    "wrong": 0,
+    "coverage": null,
+    "accuracy": null,
+    "medianTTI": null,
+    "meanCandidates": null,
+    "truthInSet": null
+   },
+   "M": {
+    "assigned": 0,
+    "coverage": null,
+    "medianTTI": null
+   },
+   "combined": {
+    "coverage": null,
+    "medianTTI": null
+   }
+  },
+  "meta": {
+   "offset": 0
+  }
+ },
+ "2026-10-08-run6": {
+  "summary": {
+   "enemies": 0,
+   "PC": {
+    "assigned": 0,
+    "correct": 0,
+    "wrong": 0,
+    "coverage": null,
+    "accuracy": null,
+    "medianTTI": null,
+    "meanCandidates": null,
+    "truthInSet": null
+   },
+   "M": {
+    "assigned": 0,
+    "coverage": null,
+    "medianTTI": null
+   },
+   "combined": {
+    "coverage": null,
+    "medianTTI": null
+   }
+  },
+  "meta": {
+   "offset": 0
+  }
+ },
+ "2026-10-08-run6b": {
+  "summary": {
+   "enemies": 1,
+   "PC": {
+    "assigned": 1,
+    "correct": 1,
+    "wrong": 0,
+    "coverage": 100.0,
+    "accuracy": 100.0,
+    "medianTTI": 0.0,
+    "meanCandidates": 1,
+    "truthInSet": 100.0
+   },
+   "M": {
+    "assigned": 1,
+    "coverage": 100.0,
+    "medianTTI": 83.4
+   },
+   "combined": {
+    "coverage": 100.0,
+    "medianTTI": 0.0
+   }
+  },
+  "meta": {
+   "offset": 264
+  }
+ },
+ "2026-10-08-run7": {
+  "summary": {
+   "enemies": 1,
+   "PC": {
+    "assigned": 1,
+    "correct": 1,
+    "wrong": 0,
+    "coverage": 100.0,
+    "accuracy": 100.0,
+    "medianTTI": 0.0,
+    "meanCandidates": 1,
+    "truthInSet": 100.0
+   },
+   "M": {
+    "assigned": 1,
+    "coverage": 100.0,
+    "medianTTI": 129.1
+   },
+   "combined": {
+    "coverage": 100.0,
+    "medianTTI": 0.0
+   }
+  },
+  "meta": {
+   "offset": 0
+  }
+ },
+ "2026-10-09-run10-bg": {
+  "summary": {
+   "enemies": 19,
+   "PC": {
+    "assigned": 5,
+    "correct": 5,
+    "wrong": 0,
+    "coverage": 26.3,
+    "accuracy": 100.0,
+    "medianTTI": 64.4,
+    "meanCandidates": 2.47,
+    "truthInSet": 100.0
+   },
+   "M": {
+    "assigned": 19,
+    "coverage": 100.0,
+    "medianTTI": 48.4
+   },
+   "combined": {
+    "coverage": 100.0,
+    "medianTTI": 48.4
+   }
+  },
+  "meta": {
+   "offset": 0
+  }
+ },
+ "2026-10-09-run11-bg": {
+  "summary": {
+   "enemies": 16,
+   "PC": {
+    "assigned": 3,
+    "correct": 3,
+    "wrong": 0,
+    "coverage": 18.8,
+    "accuracy": 100.0,
+    "medianTTI": 0.0,
+    "meanCandidates": 5.06,
+    "truthInSet": 100.0
+   },
+   "M": {
+    "assigned": 16,
+    "coverage": 100.0,
+    "medianTTI": 96.2
+   },
+   "combined": {
+    "coverage": 100.0,
+    "medianTTI": 95.7
+   }
+  },
+  "meta": {
+   "offset": 0
+  }
+ },
+ "2026-10-09-run12-bg": {
+  "summary": {
+   "enemies": 15,
+   "PC": {
+    "assigned": 1,
+    "correct": 1,
+    "wrong": 0,
+    "coverage": 6.7,
+    "accuracy": 100.0,
+    "medianTTI": 376.1,
+    "meanCandidates": 4.6,
+    "truthInSet": 100.0
+   },
+   "M": {
+    "assigned": 15,
+    "coverage": 100.0,
+    "medianTTI": 150.8
+   },
+   "combined": {
+    "coverage": 100.0,
+    "medianTTI": 150.8
+   }
+  },
+  "meta": {
+   "offset": 0
+  }
+ },
+ "2026-10-09-run13-bg": {
+  "summary": {
+   "enemies": 15,
+   "PC": {
+    "assigned": 1,
+    "correct": 1,
+    "wrong": 0,
+    "coverage": 6.7,
+    "accuracy": 100.0,
+    "medianTTI": 50.5,
+    "meanCandidates": 2.87,
+    "truthInSet": 100.0
+   },
+   "M": {
+    "assigned": 15,
+    "coverage": 100.0,
+    "medianTTI": 168.3
+   },
+   "combined": {
+    "coverage": 100.0,
+    "medianTTI": 168.3
+   }
+  },
+  "meta": {
+   "offset": 0
+  }
+ },
+ "2026-10-09-run16-bg": {
+  "summary": {
+   "enemies": 15,
+   "PC": {
+    "assigned": 0,
+    "correct": 0,
+    "wrong": 0,
+    "coverage": 0.0,
+    "accuracy": null,
+    "medianTTI": null,
+    "meanCandidates": 4.67,
+    "truthInSet": 100.0
+   },
+   "M": {
+    "assigned": 15,
+    "coverage": 100.0,
+    "medianTTI": 99.9
+   },
+   "combined": {
+    "coverage": 100.0,
+    "medianTTI": 99.9
+   }
+  },
+  "meta": {
+   "offset": 0
+  }
+ }
+}

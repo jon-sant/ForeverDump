@@ -1,0 +1,84 @@
+{
+ "2026-10-09-run16-bg": {
+  "run": "2026-10-09-run16-bg",
+  "scoreUnits": 32,
+  "plateFirstNames": 15,
+  "simUniqueFirst": 30,
+  "simAmbiguousFirst": 1,
+  "simJoinedToPlate": 15,
+  "simJoinRate": 50.0,
+  "liveBfJoinToken": 0,
+  "liveBfJoinNone": 4017,
+  "guidScoreCorrect": 15,
+  "guidScoreFalse": 0,
+  "summary": {
+   "contradictions": 291,
+   "assigned": 47,
+   "enemyAssigned": 16,
+   "overridden": 0,
+   "enemies": 30,
+   "byVia": {
+    "score": 32,
+    "cache:raidN": 13,
+    "cache:raidNtarget": 2
+   },
+   "units": 61
+  }
+ },
+ "2026-10-09-run10-bg": {
+  "run": "2026-10-09-run10-bg",
+  "scoreUnits": 0,
+  "plateFirstNames": 0,
+  "simUniqueFirst": 0,
+  "simAmbiguousFirst": 0,
+  "simJoinedToPlate": 0,
+  "simJoinRate": null,
+  "liveBfJoinToken": 0,
+  "liveBfJoinNone": 0,
+  "guidScoreCorrect": 0,
+  "guidScoreFalse": 0,
+  "summary": null
+ },
+ "2026-10-09-run11-bg": {
+  "run": "2026-10-09-run11-bg",
+  "scoreUnits": 0,
+  "plateFirstNames": 0,
+  "simUniqueFirst": 0,
+  "simAmbiguousFirst": 0,
+  "simJoinedToPlate": 0,
+  "simJoinRate": null,
+  "liveBfJoinToken": 0,
+  "liveBfJoinNone": 0,
+  "guidScoreCorrect": 0,
+  "guidScoreFalse": 0,
+  "summary": null
+ },
+ "2026-10-09-run12-bg": {
+  "run": "2026-10-09-run12-bg",
+  "scoreUnits": 0,
+  "plateFirstNames": 0,
+  "simUniqueFirst": 0,
+  "simAmbiguousFirst": 0,
+  "simJoinedToPlate": 0,
+  "simJoinRate": null,
+  "liveBfJoinToken": 0,
+  "liveBfJoinNone": 0,
+  "guidScoreCorrect": 0,
+  "guidScoreFalse": 0,
+  "summary": null
+ },
+ "2026-10-09-run13-bg": {
+  "run": "2026-10-09-run13-bg",
+  "scoreUnits": 0,
+  "plateFirstNames": 0,
+  "simUniqueFirst": 0,
+  "simAmbiguousFirst": 0,
+  "simJoinedToPlate": 0,
+  "simJoinRate": null,
+  "liveBfJoinToken": 0,
+  "liveBfJoinNone": 0,
+  "guidScoreCorrect": 0,
+  "guidScoreFalse": 0,
+  "summary": null
+ }
+}

@@ -1,0 +1,8 @@
+10/7 17:40:01.123  Global variable SampleGlobal tainted by SampleAddon - Interface/AddOns/SampleAddon/SampleAddon.lua:12
+10/7 17:40:01.123      Interface/AddOns/SampleAddon/SampleAddon.lua:12
+10/7 17:40:02.500  An action was blocked in combat because of taint from SampleAddon - SampleAddonFrame:Show()
+10/7 17:40:02.500      Interface/AddOns/SampleAddon/SampleAddon.lua:40 OnEvent()
+10/7 17:40:02.500      [C]: in function `Show'
+10/7 17:40:03.000  Execution tainted by SampleAddon while reading SampleAddonDB - Interface/AddOns/Blizzard_UIParent/UIParent.lua:100
+10/7 17:40:04.000  AddOn 'OtherAddon' tried to call the protected function 'CastSpellByName()'.
+10/7 17:40:05.000  Some line nobody documented

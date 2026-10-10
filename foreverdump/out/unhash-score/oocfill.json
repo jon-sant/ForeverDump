@@ -1,0 +1,338 @@
+{
+ "2026-10-07-run2": {
+  "fights": 9,
+  "enemyEpisodes": 0,
+  "friendEpisodes": 28,
+  "npcEpisodes": 18,
+  "enemyIdentityPct": null,
+  "enemyClassPct": null,
+  "enemyClassPctNameWeighted": null,
+  "enemyHpEstPct": null,
+  "enemyHpEstMedianErrPct": null,
+  "friendCachedPct": 100.0,
+  "npcHpPct": 72.2,
+  "tti": {
+   "reset": {
+    "median": null,
+    "mean": null
+   },
+   "cached": {
+    "median": null,
+    "mean": null
+   },
+   "score": {
+    "median": null,
+    "mean": null
+   }
+  },
+  "bracket": 5
+ },
+ "2026-10-07-run3": {
+  "fights": 5,
+  "enemyEpisodes": 0,
+  "friendEpisodes": 22,
+  "npcEpisodes": 11,
+  "enemyIdentityPct": null,
+  "enemyClassPct": null,
+  "enemyClassPctNameWeighted": null,
+  "enemyHpEstPct": null,
+  "enemyHpEstMedianErrPct": null,
+  "friendCachedPct": 100.0,
+  "npcHpPct": 81.8,
+  "tti": {
+   "reset": {
+    "median": null,
+    "mean": null
+   },
+   "cached": {
+    "median": null,
+    "mean": null
+   },
+   "score": {
+    "median": null,
+    "mean": null
+   }
+  },
+  "bracket": 18
+ },
+ "2026-10-07-run4": {
+  "fights": 1,
+  "enemyEpisodes": 0,
+  "friendEpisodes": 1,
+  "npcEpisodes": 13,
+  "enemyIdentityPct": null,
+  "enemyClassPct": null,
+  "enemyClassPctNameWeighted": null,
+  "enemyHpEstPct": null,
+  "enemyHpEstMedianErrPct": null,
+  "friendCachedPct": 100.0,
+  "npcHpPct": 76.9,
+  "tti": {
+   "reset": {
+    "median": null,
+    "mean": null
+   },
+   "cached": {
+    "median": null,
+    "mean": null
+   },
+   "score": {
+    "median": null,
+    "mean": null
+   }
+  },
+  "bracket": 18
+ },
+ "2026-10-08-run5": {
+  "fights": 3,
+  "enemyEpisodes": 0,
+  "friendEpisodes": 5,
+  "npcEpisodes": 12,
+  "enemyIdentityPct": null,
+  "enemyClassPct": null,
+  "enemyClassPctNameWeighted": null,
+  "enemyHpEstPct": null,
+  "enemyHpEstMedianErrPct": null,
+  "friendCachedPct": 100.0,
+  "npcHpPct": 100.0,
+  "tti": {
+   "reset": {
+    "median": null,
+    "mean": null
+   },
+   "cached": {
+    "median": null,
+    "mean": null
+   },
+   "score": {
+    "median": null,
+    "mean": null
+   }
+  },
+  "bracket": 25
+ },
+ "2026-10-08-run6": {
+  "fights": 3,
+  "enemyEpisodes": 0,
+  "friendEpisodes": 0,
+  "npcEpisodes": 0,
+  "enemyIdentityPct": null,
+  "enemyClassPct": null,
+  "enemyClassPctNameWeighted": null,
+  "enemyHpEstPct": null,
+  "enemyHpEstMedianErrPct": null,
+  "friendCachedPct": null,
+  "npcHpPct": null,
+  "tti": {
+   "reset": {
+    "median": null,
+    "mean": null
+   },
+   "cached": {
+    "median": null,
+    "mean": null
+   },
+   "score": {
+    "median": null,
+    "mean": null
+   }
+  },
+  "bracket": null
+ },
+ "2026-10-08-run6b": {
+  "fights": 1,
+  "enemyEpisodes": 1,
+  "friendEpisodes": 11,
+  "npcEpisodes": 18,
+  "enemyIdentityPct": 0.0,
+  "enemyClassPct": 0.0,
+  "enemyClassPctNameWeighted": 0.0,
+  "enemyHpEstPct": 0.0,
+  "enemyHpEstMedianErrPct": null,
+  "friendCachedPct": 100.0,
+  "npcHpPct": 72.2,
+  "tti": {
+   "reset": {
+    "median": 0.0,
+    "mean": 0.0
+   },
+   "cached": {
+    "median": 0.0,
+    "mean": 0.0
+   },
+   "score": {
+    "median": 0.0,
+    "mean": 0.0
+   }
+  },
+  "bracket": 22
+ },
+ "2026-10-08-run7": {
+  "fights": 1,
+  "enemyEpisodes": 1,
+  "friendEpisodes": 11,
+  "npcEpisodes": 28,
+  "enemyIdentityPct": 0.0,
+  "enemyClassPct": 0.0,
+  "enemyClassPctNameWeighted": 0.0,
+  "enemyHpEstPct": 0.0,
+  "enemyHpEstMedianErrPct": null,
+  "friendCachedPct": 100.0,
+  "npcHpPct": 78.6,
+  "tti": {
+   "reset": {
+    "median": 0.0,
+    "mean": 0.0
+   },
+   "cached": {
+    "median": 0.0,
+    "mean": 0.0
+   },
+   "score": {
+    "median": 0.0,
+    "mean": 0.0
+   }
+  },
+  "bracket": 22
+ },
+ "2026-10-09-run10-bg": {
+  "fights": 35,
+  "enemyEpisodes": 397,
+  "friendEpisodes": 458,
+  "npcEpisodes": 53,
+  "enemyIdentityPct": 95.2,
+  "enemyClassPct": 95.2,
+  "enemyClassPctNameWeighted": 83.3,
+  "enemyHpEstPct": 95.2,
+  "enemyHpEstMedianErrPct": 25.8,
+  "friendCachedPct": 100.0,
+  "npcHpPct": 98.1,
+  "tti": {
+   "reset": {
+    "median": 6.8,
+    "mean": 10.8
+   },
+   "cached": {
+    "median": 0.0,
+    "mean": 0.3
+   },
+   "score": {
+    "median": 0.0,
+    "mean": 0.0
+   }
+  },
+  "bracket": 28
+ },
+ "2026-10-09-run11-bg": {
+  "fights": 18,
+  "enemyEpisodes": 204,
+  "friendEpisodes": 227,
+  "npcEpisodes": 43,
+  "enemyIdentityPct": 92.2,
+  "enemyClassPct": 92.2,
+  "enemyClassPctNameWeighted": 80.6,
+  "enemyHpEstPct": 65.7,
+  "enemyHpEstMedianErrPct": 9.6,
+  "friendCachedPct": 100.0,
+  "npcHpPct": 90.7,
+  "tti": {
+   "reset": {
+    "median": 6.9,
+    "mean": 9.5
+   },
+   "cached": {
+    "median": 0.0,
+    "mean": 0.5
+   },
+   "score": {
+    "median": 0.0,
+    "mean": 0.0
+   }
+  },
+  "bracket": 29
+ },
+ "2026-10-09-run12-bg": {
+  "fights": 10,
+  "enemyEpisodes": 112,
+  "friendEpisodes": 123,
+  "npcEpisodes": 86,
+  "enemyIdentityPct": 86.6,
+  "enemyClassPct": 86.6,
+  "enemyClassPctNameWeighted": 75.8,
+  "enemyHpEstPct": 82.1,
+  "enemyHpEstMedianErrPct": 31.2,
+  "friendCachedPct": 100.0,
+  "npcHpPct": 87.2,
+  "tti": {
+   "reset": {
+    "median": 9.4,
+    "mean": 11.0
+   },
+   "cached": {
+    "median": 0.0,
+    "mean": 1.1
+   },
+   "score": {
+    "median": 0.0,
+    "mean": 0.0
+   }
+  },
+  "bracket": 28
+ },
+ "2026-10-09-run13-bg": {
+  "fights": 25,
+  "enemyEpisodes": 260,
+  "friendEpisodes": 270,
+  "npcEpisodes": 96,
+  "enemyIdentityPct": 94.2,
+  "enemyClassPct": 94.2,
+  "enemyClassPctNameWeighted": 82.5,
+  "enemyHpEstPct": 51.9,
+  "enemyHpEstMedianErrPct": 10.8,
+  "friendCachedPct": 100.0,
+  "npcHpPct": 84.4,
+  "tti": {
+   "reset": {
+    "median": 9.4,
+    "mean": 10.2
+   },
+   "cached": {
+    "median": 0.0,
+    "mean": 0.5
+   },
+   "score": {
+    "median": 0.0,
+    "mean": 0.0
+   }
+  },
+  "bracket": 27
+ },
+ "2026-10-09-run16-bg": {
+  "fights": 28,
+  "enemyEpisodes": 355,
+  "friendEpisodes": 334,
+  "npcEpisodes": 162,
+  "enemyIdentityPct": 95.8,
+  "enemyClassPct": 95.8,
+  "enemyClassPctNameWeighted": 83.8,
+  "enemyHpEstPct": 95.8,
+  "enemyHpEstMedianErrPct": 27.9,
+  "friendCachedPct": 100.0,
+  "npcHpPct": 93.8,
+  "tti": {
+   "reset": {
+    "median": 11.7,
+    "mean": 14.2
+   },
+   "cached": {
+    "median": 0.0,
+    "mean": 0.9
+   },
+   "score": {
+    "median": 0.0,
+    "mean": 0.0
+   }
+  },
+  "bracket": 28
+ }
+}

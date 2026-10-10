@@ -1,0 +1,169 @@
+{
+ "2026-10-09-run16-bg": {
+  "segments": [
+   {
+    "zone": "Darkspear Islands",
+    "unique": 44,
+    "assigned": 46,
+    "crossFac": 2,
+    "false": 0,
+    "players": 46
+   }
+  ],
+  "total": {
+   "unique": 44,
+   "assigned": 46,
+   "crossFac": 2,
+   "false": 0,
+   "players": 46,
+   "joinRate": 100.0
+  }
+ },
+ "2026-10-09-run10-bg": {
+  "segments": [
+   {
+    "zone": "Thousand Needles",
+    "unique": 40,
+    "assigned": 40,
+    "false": 0,
+    "players": 40
+   },
+   {
+    "zone": "Thousand Needles",
+    "unique": 28,
+    "assigned": 28,
+    "false": 0,
+    "players": 28
+   },
+   {
+    "zone": "Orgrimmar",
+    "unique": 17,
+    "assigned": 17,
+    "false": 0,
+    "players": 17
+   },
+   {
+    "zone": "Orgrimmar",
+    "unique": 360,
+    "assigned": 364,
+    "crossFac": 4,
+    "false": 0,
+    "players": 364
+   },
+   {
+    "zone": "Darkspear Islands",
+    "unique": 39,
+    "assigned": 39,
+    "dupFac": 2,
+    "false": 0,
+    "players": 41
+   },
+   {
+    "zone": "Darkspear Islands",
+    "unique": 44,
+    "assigned": 44,
+    "false": 0,
+    "players": 44
+   },
+   {
+    "zone": "Darkspear Islands",
+    "unique": 41,
+    "assigned": 43,
+    "crossFac": 2,
+    "false": 0,
+    "players": 43
+   },
+   {
+    "zone": "Darkspear Islands",
+    "unique": 42,
+    "assigned": 42,
+    "false": 0,
+    "players": 42
+   }
+  ],
+  "total": {
+   "unique": 611,
+   "assigned": 617,
+   "false": 0,
+   "players": 619,
+   "crossFac": 6,
+   "dupFac": 2,
+   "joinRate": 99.7
+  }
+ },
+ "2026-10-09-run11-bg": {
+  "segments": [
+   {
+    "zone": "Darkspear Islands",
+    "unique": 32,
+    "assigned": 32,
+    "false": 0,
+    "players": 32
+   },
+   {
+    "zone": "Darkspear Islands",
+    "unique": 40,
+    "assigned": 40,
+    "false": 0,
+    "players": 40
+   }
+  ],
+  "total": {
+   "unique": 72,
+   "assigned": 72,
+   "false": 0,
+   "players": 72,
+   "joinRate": 100.0
+  }
+ },
+ "2026-10-09-run12-bg": {
+  "segments": [
+   {
+    "zone": "Darkspear Islands",
+    "unique": 45,
+    "assigned": 45,
+    "false": 0,
+    "players": 45
+   }
+  ],
+  "total": {
+   "unique": 45,
+   "assigned": 45,
+   "false": 0,
+   "players": 45,
+   "joinRate": 100.0
+  }
+ },
+ "2026-10-09-run13-bg": {
+  "segments": [
+   {
+    "zone": "Darkspear Islands",
+    "unique": 45,
+    "assigned": 45,
+    "false": 0,
+    "players": 45
+   },
+   {
+    "zone": "Orgrimmar",
+    "unique": 32,
+    "assigned": 32,
+    "false": 0,
+    "players": 32
+   },
+   {
+    "zone": "Darkspear Islands",
+    "unique": 42,
+    "assigned": 42,
+    "false": 0,
+    "players": 42
+   }
+  ],
+  "total": {
+   "unique": 119,
+   "assigned": 119,
+   "false": 0,
+   "players": 119,
+   "joinRate": 100.0
+  }
+ }
+}
