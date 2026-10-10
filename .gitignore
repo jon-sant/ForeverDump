@@ -1,0 +1,18 @@
+# regenerable / optional parts (see HANDOFF.md section 9)
+__pycache__/
+*.pyc
+.venv/
+foreverdump/tests/out/*
+!foreverdump/tests/out/runner/
+foreverdump/tests/out/runner/*
+!foreverdump/tests/out/runner/timing.json
+foreverdump/.cache/svcache/
+foreverdump/.cache/wowlua/bin/
+foreverdump/.cache/wowlua/path/
+foreverdump/.cache/wowlua/lua-5.1.5/
+foreverdump/tools/refresh/.cache/
+# keyhunt metric logs > 100 MB (GitHub hard limit); they live in the optional keyhunt zip part
+other/wow-forever-keyhunt/evolution-8-metrics.jsonl
+other/wow-forever-keyhunt/evolution-9-metrics.jsonl
+other/wow-forever-keyhunt/evolution-10-metrics.jsonl
+other/wow-forever-keyhunt/evolution-12-metrics.jsonl
