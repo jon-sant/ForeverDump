@@ -1,0 +1,7180 @@
+{
+ "absent": {},
+ "detectability": {
+  "combat": {
+   "mouseover:friendly-npc": {
+    "casting": "yes",
+    "whichSpell": "n/a"
+   },
+   "nameplate:hostile-npc": {
+    "anyAura": "no",
+    "casting": "yes",
+    "dispellable": "n/a",
+    "myAura": "no",
+    "stacksDuration": "n/a",
+    "whatAura": "n/a",
+    "whichSpell": "no"
+   },
+   "player": {
+    "anyAura": "no",
+    "casting": "yes",
+    "dispellable": "n/a",
+    "myAura": "no",
+    "stacksDuration": "n/a",
+    "whatAura": "n/a",
+    "whichSpell": "n/a"
+   },
+   "target:hostile-npc": {
+    "anyAura": "no",
+    "casting": "yes",
+    "dispellable": "n/a",
+    "myAura": "no",
+    "stacksDuration": "n/a",
+    "whatAura": "n/a",
+    "whichSpell": "no"
+   },
+   "targettarget:self": {
+    "casting": "yes",
+    "whichSpell": "n/a"
+   }
+  },
+  "ooc": {
+   "nameplate:hostile-npc": {
+    "anyAura": "yes",
+    "casting": "yes",
+    "dispellable": "n/a",
+    "myAura": "yes",
+    "stacksDuration": "n/a",
+    "whatAura": "n/a",
+    "whichSpell": "n/a"
+   },
+   "player": {
+    "anyAura": "yes",
+    "casting": "yes",
+    "dispellable": "n/a",
+    "myAura": "yes",
+    "stacksDuration": "yes",
+    "whatAura": "yes",
+    "whichSpell": "n/a"
+   },
+   "target:hostile-npc": {
+    "anyAura": "yes",
+    "casting": "yes",
+    "dispellable": "n/a",
+    "myAura": "yes",
+    "stacksDuration": "n/a",
+    "whatAura": "n/a",
+    "whichSpell": "n/a"
+   }
+  }
+ },
+ "matrix": {
+  "C_DamageMeter.GetCombatSessionFromType": {
+   ".combatSources": {
+    "global": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenInCombat"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenInCombat"
+     }
+    }
+   },
+   ".durationSeconds": {
+    "global": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenInCombat"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenInCombat"
+     }
+    }
+   },
+   ".maxAmount": {
+    "global": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenInCombat"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenInCombat"
+     }
+    }
+   },
+   ".totalAmount": {
+    "global": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenInCombat"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenInCombat"
+     }
+    }
+   },
+   "1": {
+    "global": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "T",
+      "tag": "SecretWhenInCombat"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenInCombat"
+     }
+    }
+   }
+  },
+  "C_DamageMeter.IsDamageMeterAvailable": {
+   "1": {
+    "global": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   "2": {
+    "global": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "C_Map.GetPlayerMapPosition": {
+   ".Add": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".Clone": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".Cross": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".DivideBy": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".Dot": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".GetLength": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".GetLengthSquared": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".GetXY": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".IsEqualTo": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".IsZero": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".Normalize": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".OnLoad": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".RotateDirection": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".ScaleBy": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".SetXY": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".Subtract": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".x": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   ".y": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    }
+   }
+  },
+  "C_Spell.IsSpellInRange": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    }
+   }
+  },
+  "CanCompareUnitTokens": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "CheckInteractDistance": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "GetPlayerFacing": {
+   "1": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "GetRaidTargetIndex": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    }
+   }
+  },
+  "GetUnitSpeed": {
+   "current": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    }
+   },
+   "flight": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    }
+   },
+   "run": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    }
+   },
+   "swim": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitStatsRestricted"
+     }
+    }
+   }
+  },
+  "IsFalling": {
+   "1": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "IsFlying": {
+   "1": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "IsSwimming": {
+   "1": {
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "ShouldUnitIdentityBeSecret": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitAffectingCombat": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitCanAttack": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitCastingDuration": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "T",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "T",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "T",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitCastingInfo": {
+   "10": {
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "never",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     },
+     "ooc": {
+      "exp": "never",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "never",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    }
+   },
+   "11": {
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "never",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     },
+     "ooc": {
+      "exp": "never",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "never",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    }
+   },
+   "castID": {
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    }
+   },
+   "endTimeMS": {
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    }
+   },
+   "isTradeSkill": {
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "never",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     },
+     "ooc": {
+      "exp": "never",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "never",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    }
+   },
+   "name": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S*",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N*",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    }
+   },
+   "notInterruptible": {
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    }
+   },
+   "spellID": {
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    }
+   },
+   "startTimeMS": {
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    }
+   },
+   "text": {
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    }
+   },
+   "texture": {
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    }
+   }
+  },
+  "UnitChannelInfo": {
+   "name": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitSpellCastRestricted"
+     }
+    }
+   }
+  },
+  "UnitClass": {
+   "classFile": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    }
+   },
+   "classID": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    }
+   },
+   "className": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    }
+   }
+  },
+  "UnitDetailedThreatSituation": {
+   "isTanking": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitThreatValuesRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitThreatValuesRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitThreatValuesRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitThreatValuesRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitThreatValuesRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitThreatValuesRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitThreatValuesRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitThreatValuesRestricted"
+     }
+    }
+   },
+   "rawPct": {
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitThreatValuesRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitThreatValuesRestricted"
+     }
+    }
+   },
+   "rawThreat": {
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitThreatValuesRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitThreatValuesRestricted"
+     }
+    }
+   },
+   "scaledPct": {
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitThreatValuesRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitThreatValuesRestricted"
+     }
+    }
+   },
+   "status": {
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitThreatValuesRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitThreatValuesRestricted"
+     }
+    }
+   }
+  },
+  "UnitExists": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitFullName": {
+   "name": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    }
+   },
+   "realm": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    }
+   }
+  },
+  "UnitGUID": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    }
+   }
+  },
+  "UnitGetIncomingHeals": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitGetTotalAbsorbs": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitGetTotalHealAbsorbs": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitHealth": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitHealthMax": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitHealthMaxRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitHealthMaxRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitHealthMaxRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitHealthMaxRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitHealthMaxRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitHealthMaxRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitHealthMaxRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitHealthMaxRestricted"
+     }
+    }
+   }
+  },
+  "UnitHealthPercent": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitInRange": {
+   "checked": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    }
+   },
+   "inRange": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "always",
+      "mismatch": false,
+      "obs": "S",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitIsDeadOrGhost": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitIsEnemy": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitIsFriend": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitIsPlayer": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitIsUnit(u,player)": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitComparisonRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitComparisonRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitComparisonRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitComparisonRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitComparisonRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitComparisonRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitComparisonRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitComparisonRestricted"
+     }
+    }
+   }
+  },
+  "UnitLevel": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitName": {
+   "name": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitNameIdentityRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitNameIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitNameIdentityRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitNameIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitNameIdentityRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitNameIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitNameIdentityRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitNameIdentityRestricted"
+     }
+    }
+   },
+   "realm": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitNameIdentityRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitNameIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitNameIdentityRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitNameIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitNameIdentityRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitNameIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitNameIdentityRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitNameIdentityRestricted"
+     }
+    }
+   }
+  },
+  "UnitPosition": {
+   "mapID": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   "x": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   "y": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   "z": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitPower": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitPowerRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitPowerRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitPowerRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitPowerRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitPowerRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitPowerRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitPowerRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitPowerRestricted"
+     }
+    }
+   }
+  },
+  "UnitPowerMax": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitPowerMaxRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitPowerMaxRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitPowerMaxRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitPowerMaxRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitPowerMaxRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitPowerMaxRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "S",
+      "tag": "SecretWhenUnitPowerMaxRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitPowerMaxRestricted"
+     }
+    }
+   }
+  },
+  "UnitPowerType": {
+   "3": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    }
+   },
+   "4": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    }
+   },
+   "5": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    }
+   },
+   "powerToken": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   "powerType": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitRace": {
+   "raceFile": {
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    }
+   },
+   "raceID": {
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    }
+   },
+   "raceName": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitIdentityRestricted"
+     }
+    }
+   }
+  },
+  "UnitReaction": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     },
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "UnitThreatSituation": {
+   "1": {
+    "mouseover:friendly-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitThreatStateRestricted"
+     }
+    },
+    "nameplate:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitThreatStateRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitThreatStateRestricted"
+     }
+    },
+    "player": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitThreatStateRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitThreatStateRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitThreatStateRestricted"
+     },
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitThreatStateRestricted"
+     }
+    },
+    "targettarget:self": {
+     "combat": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitThreatStateRestricted"
+     }
+    }
+   }
+  },
+  "aura:GetAuraApplicationDisplayCount[HELPFUL]": {
+   "1": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   }
+  },
+  "aura:GetAuraApplicationDisplayCount[HELPFUL|PLAYER]": {
+   "1": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   }
+  },
+  "aura:GetAuraDataByAuraInstanceID[HELPFUL]": {
+   ".applications": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".auraInstanceID": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".canActivePlayerDispel": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".canApplyAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".dispelName": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".duration": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".expirationTime": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".hideOnPartyFrames": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".icon": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isBossAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isDPSRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isFromPlayerOrPlayerPet": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHarmful": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHealerRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHelpful": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isNameplateOnly": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isRaid": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isStealable": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isTankRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".name": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".nameplateShowAll": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".nameplateShowPersonal": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".points": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".sourceUnit": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".spellId": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".timeMod": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   "1": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   }
+  },
+  "aura:GetAuraDataByAuraInstanceID[HELPFUL|PLAYER]": {
+   ".applications": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".auraInstanceID": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".canActivePlayerDispel": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".canApplyAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".dispelName": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".duration": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".expirationTime": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".hideOnPartyFrames": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".icon": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isBossAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isDPSRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isFromPlayerOrPlayerPet": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHarmful": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHealerRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHelpful": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isNameplateOnly": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isRaid": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isStealable": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isTankRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".name": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".nameplateShowAll": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".nameplateShowPersonal": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".points": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".sourceUnit": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".spellId": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".timeMod": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   "1": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   }
+  },
+  "aura:GetAuraDataByIndex[HARMFUL]": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   }
+  },
+  "aura:GetAuraDataByIndex[HARMFUL|PLAYER]": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   }
+  },
+  "aura:GetAuraDataByIndex[HARMFUL|RAID]": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   }
+  },
+  "aura:GetAuraDataByIndex[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   }
+  },
+  "aura:GetAuraDataByIndex[HELPFUL]": {
+   ".applications": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".auraInstanceID": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".canActivePlayerDispel": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".canApplyAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".dispelName": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".duration": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".expirationTime": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".hideOnPartyFrames": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".icon": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isBossAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isDPSRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isFromPlayerOrPlayerPet": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHarmful": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHealerRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHelpful": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isNameplateOnly": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isRaid": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isStealable": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isTankRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".name": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".nameplateShowAll": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".nameplateShowPersonal": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".points": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".sourceUnit": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".spellId": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".timeMod": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   }
+  },
+  "aura:GetAuraDataByIndex[HELPFUL|PLAYER]": {
+   ".applications": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".auraInstanceID": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".canActivePlayerDispel": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".canApplyAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".dispelName": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".duration": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".expirationTime": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".hideOnPartyFrames": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".icon": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isBossAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isDPSRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isFromPlayerOrPlayerPet": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHarmful": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHealerRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHelpful": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isNameplateOnly": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isRaid": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isStealable": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isTankRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".name": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".nameplateShowAll": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".nameplateShowPersonal": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".points": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".sourceUnit": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".spellId": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".timeMod": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K*",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "N",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   }
+  },
+  "aura:GetAuraDataBySlot[HELPFUL]": {
+   ".applications": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".auraInstanceID": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".canActivePlayerDispel": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".canApplyAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".dispelName": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".duration": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".expirationTime": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".hideOnPartyFrames": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".icon": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isBossAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isDPSRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isFromPlayerOrPlayerPet": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHarmful": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHealerRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHelpful": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isNameplateOnly": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isRaid": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isStealable": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isTankRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".name": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".nameplateShowAll": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".nameplateShowPersonal": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".points": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".sourceUnit": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".spellId": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".timeMod": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   "1": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   }
+  },
+  "aura:GetAuraDataBySlot[HELPFUL|PLAYER]": {
+   ".applications": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".auraInstanceID": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".canActivePlayerDispel": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".canApplyAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".dispelName": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".duration": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".expirationTime": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".hideOnPartyFrames": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".icon": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isBossAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isDPSRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isFromPlayerOrPlayerPet": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHarmful": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHealerRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHelpful": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isNameplateOnly": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isRaid": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isStealable": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isTankRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".name": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".nameplateShowAll": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".nameplateShowPersonal": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".points": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".sourceUnit": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".spellId": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".timeMod": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   "1": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   }
+  },
+  "aura:GetAuraDispelTypeColor[HELPFUL]": {
+   ".GenerateHexColor": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".GenerateHexColorMarkup": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".GenerateHexColorNoAlpha": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".GetHSL": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".GetRGB": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".GetRGBA": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".GetRGBAAsBytes": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".GetRGBAsBytes": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".IsEqualTo": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".IsRGBEqualTo": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".OnLoad": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".SetRGB": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".SetRGBA": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".WrapTextInColorCode": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".a": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".b": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".g": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".r": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   "1": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   }
+  },
+  "aura:GetAuraDispelTypeColor[HELPFUL|PLAYER]": {
+   ".GenerateHexColor": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".GenerateHexColorMarkup": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".GenerateHexColorNoAlpha": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".GetHSL": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".GetRGB": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".GetRGBA": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".GetRGBAAsBytes": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".GetRGBAsBytes": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".IsEqualTo": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".IsRGBEqualTo": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".OnLoad": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".SetRGB": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".SetRGBA": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".WrapTextInColorCode": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".a": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".b": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".g": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   ".r": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   },
+   "1": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenCurveSecret"
+     }
+    }
+   }
+  },
+  "aura:GetAuraDuration[HELPFUL]": {
+   "1": {
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    }
+   }
+  },
+  "aura:GetAuraDuration[HELPFUL|PLAYER]": {
+   "1": {
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    }
+   }
+  },
+  "aura:GetAuraSlots[HARMFUL]": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    }
+   }
+  },
+  "aura:GetAuraSlots[HARMFUL|PLAYER]": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    }
+   }
+  },
+  "aura:GetAuraSlots[HARMFUL|RAID]": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    }
+   }
+  },
+  "aura:GetAuraSlots[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    }
+   }
+  },
+  "aura:GetAuraSlots[HELPFUL]": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    }
+   },
+   "2": {
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   "3": {
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   },
+   "4": {
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "aura:GetAuraSlots[HELPFUL|PLAYER]": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "N",
+      "tag": null
+     }
+    }
+   },
+   "2": {
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "aura:GetPlayerAuraBySpellID": {
+   ".applications": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".auraInstanceID": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".canActivePlayerDispel": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".canApplyAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".dispelName": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".duration": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".expirationTime": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".hideOnPartyFrames": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".icon": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isBossAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isDPSRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isFromPlayerOrPlayerPet": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHarmful": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHealerRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isHelpful": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isNameplateOnly": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isRaid": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isStealable": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".isTankRoleAura": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".name": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".nameplateShowAll": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".nameplateShowPersonal": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".points": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".sourceUnit": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".spellId": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   ".timeMod": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "C",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   },
+   "1": {
+    "player": {
+     "ooc": {
+      "exp": "conditional",
+      "mismatch": false,
+      "obs": "K",
+      "tag": "SecretWhenUnitAuraRestricted"
+     }
+    }
+   }
+  },
+  "aura:GetSpellAuraSecrecy": {
+   "1": {
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  },
+  "aura:GetUnitAuras[HARMFUL]": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    }
+   }
+  },
+  "aura:GetUnitAuras[HARMFUL|PLAYER]": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    }
+   }
+  },
+  "aura:GetUnitAuras[HARMFUL|RAID]": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    }
+   }
+  },
+  "aura:GetUnitAuras[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    }
+   }
+  },
+  "aura:GetUnitAuras[HELPFUL]": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    }
+   }
+  },
+  "aura:GetUnitAuras[HELPFUL|PLAYER]": {
+   "1": {
+    "nameplate:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    },
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    },
+    "target:hostile-npc": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "K",
+      "tag": null
+     }
+    }
+   }
+  },
+  "aura:ShouldSpellAuraBeSecret": {
+   "1": {
+    "player": {
+     "ooc": {
+      "exp": "none",
+      "mismatch": false,
+      "obs": "C",
+      "tag": null
+     }
+    }
+   }
+  }
+ },
+ "runCount": {
+  "combat": 3,
+  "ooc": 2
+ },
+ "timeLeft": {
+  "combat|nameplate:hostile-npc": {
+   "derivedErr": "Interface/AddOns/ForeverDump/Controls.lua:227: attempt to perform arithmetic on upvalue 'endTimeMS' (a secret number value, while execution tainted by 'ForeverD",
+   "derivedOk": false,
+   "duration": {
+    "GetRemainingDuration": "S",
+    "GetRemainingPercent": "S",
+    "GetTotalDuration": "S",
+    "HasSecretValues": "C",
+    "IsZero": "S",
+    "state": "T"
+   },
+   "endTimeState": "S",
+   "kind": "cast"
+  },
+  "combat|target:hostile-npc": {
+   "derivedErr": "Interface/AddOns/ForeverDump/Controls.lua:227: attempt to perform arithmetic on upvalue 'endTimeMS' (a secret number value, while execution tainted by 'ForeverD",
+   "derivedOk": false,
+   "duration": {
+    "GetRemainingDuration": "S",
+    "GetRemainingPercent": "S",
+    "GetTotalDuration": "S",
+    "HasSecretValues": "C",
+    "IsZero": "S",
+    "state": "T"
+   },
+   "endTimeState": "S",
+   "kind": "cast"
+  },
+  "ooc|nameplate:hostile-npc": {
+   "derivedErr": "Interface/AddOns/ForeverDump/Controls.lua:227: attempt to perform arithmetic on upvalue 'endTimeMS' (a secret number value, while execution tainted by 'ForeverD",
+   "derivedOk": false,
+   "duration": {
+    "GetRemainingDuration": "S",
+    "GetRemainingPercent": "S",
+    "GetTotalDuration": "S",
+    "HasSecretValues": "C",
+    "IsZero": "S",
+    "state": "T"
+   },
+   "endTimeState": "S",
+   "kind": "cast"
+  }
+ },
+ "version": 1
+}

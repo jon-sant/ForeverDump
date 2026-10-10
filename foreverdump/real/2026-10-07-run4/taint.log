@@ -1,0 +1,1057 @@
+10/7 22:58:43.317  Execution tainted by ForeverDump while reading field isdst (<table: 00000173950b9fe0>) - 
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Core.lua:485 utcOffset()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Core.lua:514 TimeAnchor()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Secrets.lua:526 sessionRecord()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Secrets.lua:536 StartSweep()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:233 startCapture()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.317      UseAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.317  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:238
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:241 startCapture()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.317      UseAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.317  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:238
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:241 startCapture()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.317      UseAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.317  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:238
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:241 startCapture()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.317      UseAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.317  Execution tainted by ForeverDump while reading field value (<table: 0000017395104e30>) - Interface/AddOns/Blizzard_SharedXMLBase/SecureTypes.lua:279
+10/7 22:58:43.317      Interface/AddOns/Blizzard_SharedXMLBase/SecureTypes.lua:279
+10/7 22:58:43.317      securecallfunction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_SharedXMLBase/SecureTypes.lua:283 GetValue()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua:49 PushFront()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:11 AddMessage()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:807
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:195 opsFor()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:238
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:241 startCapture()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.317      UseAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.317  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:239
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:241 startCapture()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.317      UseAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.317  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:239
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:241 startCapture()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.317      UseAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.317  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:239
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:241 startCapture()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.317      UseAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.317  Execution tainted by ForeverDump while reading field value (<table: 0000017395104e30>) - Interface/AddOns/Blizzard_SharedXMLBase/SecureTypes.lua:279
+10/7 22:58:43.317      Interface/AddOns/Blizzard_SharedXMLBase/SecureTypes.lua:279
+10/7 22:58:43.317      securecallfunction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_SharedXMLBase/SecureTypes.lua:283 GetValue()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua:49 PushFront()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:11 AddMessage()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:807
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:195 opsFor()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:239
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:241 startCapture()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.317      UseAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.317  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:241
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:241 startCapture()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.317      UseAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.317  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:241
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:241 startCapture()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.317      UseAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.317  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:241
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:43.317      pcall()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:241 startCapture()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.317      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.317      UseAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.317      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.320  Execution tainted by ForeverDump while reading field b (<table: 0000017395108490>) - 
+10/7 22:58:43.320      AddPoint()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:184
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:179
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:245 startCapture()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.320      UseAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.320  An attempt to perform string conversion on a secret value was blocked because of taint from ForeverDump - len()
+10/7 22:58:43.320      len()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:241
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:245 startCapture()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.320      UseAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.320  An attempt to get length of a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Lab.lua:241
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:241
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:245 startCapture()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.320      UseAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.320  An attempt to index a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Lab.lua:242
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:242
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:245 startCapture()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.320      UseAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.320  An attempt to index a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Lab.lua:242
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:242
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:245 startCapture()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.320      UseAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.320  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Lab.lua:243
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:243
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:245 startCapture()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.320      UseAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.320  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Lab.lua:243
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:243
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:245 startCapture()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.320      UseAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.320  An attempt to index a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Lab.lua:245
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:245
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:245 startCapture()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.320      UseAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.320  An attempt to index a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Lab.lua:245
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:245
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:245 startCapture()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.320      UseAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.320  An attempt to index a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Lab.lua:246
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:246
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:245 startCapture()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.320      UseAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.320  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Controls.lua:175
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:403 opsFor()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:463
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:568
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:251 startCapture()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.320      UseAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.320  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Controls.lua:175
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:403 opsFor()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:463
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:568
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:251 startCapture()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.320      UseAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.320  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Controls.lua:175
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:403 opsFor()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:463
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:568
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:251 startCapture()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.320      UseAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.320  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Controls.lua:175
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:403 opsFor()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:464
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:568
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:251 startCapture()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.320      UseAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.320  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Controls.lua:175
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:403 opsFor()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:464
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:568
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:251 startCapture()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.320      UseAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:43.320  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Controls.lua:175
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:403 opsFor()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:464
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/CombatProbe.lua:568
+10/7 22:58:43.320      pcall()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:251 startCapture()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:366
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Logs.lua:459 Command()
+10/7 22:58:43.320      Interface/AddOns/ForeverDump/Commands.lua:141 ?()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:267 EditBox:ParseText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:292 EditBox:SendText()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ChatFrameBase/Shared/MacroExecutionManager.lua:27
+10/7 22:58:43.320      UseAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:357 handler()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:752 PerformAction()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:766 OnActionButtonClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_FrameXML/SecureTemplates.lua:818 SecureActionButton_OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1393 MultiBarBottomRightButton12:TriggerSecureClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1424 OnClick()
+10/7 22:58:43.320      Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1563
+10/7 22:58:53.561  Execution tainted by ForeverDump while reading field oldestFadingLineTimestamp (<table: 00000173ad7877c0>) - Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:58:53.561      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:58:53.561      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:375
+10/7 22:58:53.561  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:58:53.561      Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:58:53.561      pcall()
+10/7 22:58:53.561      Interface/AddOns/ForeverDump/Controls.lua:227 TryTimeLeft()
+10/7 22:58:53.561      Interface/AddOns/ForeverDump/CombatProbe.lua:387
+10/7 22:58:53.561      pcall()
+10/7 22:58:53.561      Interface/AddOns/ForeverDump/CombatProbe.lua:541
+10/7 22:58:53.561      pcall()
+10/7 22:58:53.561      Interface/AddOns/ForeverDump/CombatProbe.lua:562
+10/7 22:58:53.665  Execution tainted by ForeverDump while reading field oldestFadingLineTimestamp (<table: 00000173ad7877c0>) - Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:58:53.665      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:58:53.665      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:375
+10/7 22:58:53.665  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/Controls.lua:175
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:403 opsFor()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:463
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:559
+10/7 22:58:53.665  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/Controls.lua:175
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:403 opsFor()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:463
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:559
+10/7 22:58:53.665  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/Controls.lua:175
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:403 opsFor()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:463
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:559
+10/7 22:58:53.665  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/Controls.lua:175
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:403 opsFor()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:464
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:559
+10/7 22:58:53.665  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/Controls.lua:175
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:403 opsFor()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:464
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:559
+10/7 22:58:53.665  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/Controls.lua:175
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:403 opsFor()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:464
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:559
+10/7 22:58:53.665  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/Controls.lua:227 TryTimeLeft()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:387 castProbe()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:468
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:559
+10/7 22:58:53.665  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/Controls.lua:227 TryTimeLeft()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:387 castProbe()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:468
+10/7 22:58:53.665      pcall()
+10/7 22:58:53.665      Interface/AddOns/ForeverDump/CombatProbe.lua:559
+10/7 22:58:54.076  Execution tainted by ForeverDump while reading field oldestFadingLineTimestamp (<table: 00000173ad7877c0>) - Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:58:54.076      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:58:54.076      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:375
+10/7 22:58:54.076  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:238
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:440
+10/7 22:58:54.076  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:238
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:440
+10/7 22:58:54.076  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:238
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:440
+10/7 22:58:54.076  Execution tainted by ForeverDump while reading field value (<table: 0000017395104e30>) - Interface/AddOns/Blizzard_SharedXMLBase/SecureTypes.lua:279
+10/7 22:58:54.076      Interface/AddOns/Blizzard_SharedXMLBase/SecureTypes.lua:279
+10/7 22:58:54.076      securecallfunction()
+10/7 22:58:54.076      Interface/AddOns/Blizzard_SharedXMLBase/SecureTypes.lua:283 GetValue()
+10/7 22:58:54.076      Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua:49 PushFront()
+10/7 22:58:54.076      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:11 AddMessage()
+10/7 22:58:54.076      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:807
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:195 opsFor()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:238
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:440
+10/7 22:58:54.076  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:239
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:440
+10/7 22:58:54.076  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:239
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:440
+10/7 22:58:54.076  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:239
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:440
+10/7 22:58:54.076  Execution tainted by ForeverDump while reading field value (<table: 0000017395104e30>) - Interface/AddOns/Blizzard_SharedXMLBase/SecureTypes.lua:279
+10/7 22:58:54.076      Interface/AddOns/Blizzard_SharedXMLBase/SecureTypes.lua:279
+10/7 22:58:54.076      securecallfunction()
+10/7 22:58:54.076      Interface/AddOns/Blizzard_SharedXMLBase/SecureTypes.lua:283 GetValue()
+10/7 22:58:54.076      Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua:49 PushFront()
+10/7 22:58:54.076      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:11 AddMessage()
+10/7 22:58:54.076      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:807
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:195 opsFor()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:239
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:440
+10/7 22:58:54.076  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:154
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:241
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:440
+10/7 22:58:54.076  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:155
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:241
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:440
+10/7 22:58:54.076  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:156
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:175 opsFor()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:236 add()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:241
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:272
+10/7 22:58:54.076      pcall()
+10/7 22:58:54.076      Interface/AddOns/ForeverDump/Controls.lua:440
+10/7 22:58:54.587  Execution tainted by ForeverDump while reading field b (<table: 000001735a28d990>) - 
+10/7 22:58:54.587      AddPoint()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:184
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:179
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:316
+10/7 22:58:54.587  An attempt to perform string conversion on a secret value was blocked because of taint from ForeverDump - len()
+10/7 22:58:54.587      len()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:241
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:316
+10/7 22:58:54.587  An attempt to get length of a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Lab.lua:241
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:241
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:316
+10/7 22:58:54.587  An attempt to index a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Lab.lua:242
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:242
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:316
+10/7 22:58:54.587  An attempt to index a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Lab.lua:242
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:242
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:316
+10/7 22:58:54.587  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Lab.lua:243
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:243
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:316
+10/7 22:58:54.587  An attempt to compare a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Lab.lua:243
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:243
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:316
+10/7 22:58:54.587  An attempt to index a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Lab.lua:245
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:245
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:316
+10/7 22:58:54.587  An attempt to index a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Lab.lua:245
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:245
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:316
+10/7 22:58:54.587  An attempt to index a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Lab.lua:246
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:246
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:250
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:83 item()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:236
+10/7 22:58:54.587      pcall()
+10/7 22:58:54.587      Interface/AddOns/ForeverDump/Lab.lua:316
+10/7 22:59:00.874  Execution tainted by ForeverDump while reading field oldestFadingLineTimestamp (<table: 00000173ad7877c0>) - Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:59:00.874      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:59:00.874      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:375
+10/7 22:59:00.874  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:59:00.874      Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:59:00.874      pcall()
+10/7 22:59:00.874      Interface/AddOns/ForeverDump/Controls.lua:227 TryTimeLeft()
+10/7 22:59:00.874      Interface/AddOns/ForeverDump/CombatProbe.lua:387
+10/7 22:59:00.874      pcall()
+10/7 22:59:00.874      Interface/AddOns/ForeverDump/CombatProbe.lua:541
+10/7 22:59:00.874      pcall()
+10/7 22:59:00.874      Interface/AddOns/ForeverDump/CombatProbe.lua:562
+10/7 22:59:10.545  Execution tainted by ForeverDump while reading field oldestFadingLineTimestamp (<table: 00000173ad7877c0>) - Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:59:10.545      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:59:10.545      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:375
+10/7 22:59:10.545  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:59:10.545      Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:59:10.545      pcall()
+10/7 22:59:10.545      Interface/AddOns/ForeverDump/Controls.lua:227 TryTimeLeft()
+10/7 22:59:10.545      Interface/AddOns/ForeverDump/CombatProbe.lua:387
+10/7 22:59:10.545      pcall()
+10/7 22:59:10.545      Interface/AddOns/ForeverDump/CombatProbe.lua:541
+10/7 22:59:10.545      pcall()
+10/7 22:59:10.545      Interface/AddOns/ForeverDump/CombatProbe.lua:562
+10/7 22:59:16.618  Execution tainted by ForeverDump while reading field oldestFadingLineTimestamp (<table: 00000173ad7877c0>) - Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:59:16.618      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:59:16.618      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:375
+10/7 22:59:16.618  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:59:16.618      Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:59:16.618      pcall()
+10/7 22:59:16.618      Interface/AddOns/ForeverDump/Controls.lua:227 TryTimeLeft()
+10/7 22:59:16.618      Interface/AddOns/ForeverDump/CombatProbe.lua:387
+10/7 22:59:16.618      pcall()
+10/7 22:59:16.618      Interface/AddOns/ForeverDump/CombatProbe.lua:541
+10/7 22:59:16.618      pcall()
+10/7 22:59:16.618      Interface/AddOns/ForeverDump/CombatProbe.lua:562
+10/7 22:59:22.666  Execution tainted by ForeverDump while reading field oldestFadingLineTimestamp (<table: 00000173ad7877c0>) - Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:59:22.666      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:59:22.666      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:375
+10/7 22:59:22.666  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:59:22.666      Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:59:22.666      pcall()
+10/7 22:59:22.666      Interface/AddOns/ForeverDump/Controls.lua:227 TryTimeLeft()
+10/7 22:59:22.666      Interface/AddOns/ForeverDump/CombatProbe.lua:387
+10/7 22:59:22.666      pcall()
+10/7 22:59:22.666      Interface/AddOns/ForeverDump/CombatProbe.lua:541
+10/7 22:59:22.666      pcall()
+10/7 22:59:22.666      Interface/AddOns/ForeverDump/CombatProbe.lua:562
+10/7 22:59:27.548  Execution tainted by ForeverDump while reading field oldestFadingLineTimestamp (<table: 00000173ad7877c0>) - Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:59:27.548      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:59:27.548      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:375
+10/7 22:59:27.548  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:59:27.548      Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:59:27.548      pcall()
+10/7 22:59:27.548      Interface/AddOns/ForeverDump/Controls.lua:227 TryTimeLeft()
+10/7 22:59:27.548      Interface/AddOns/ForeverDump/CombatProbe.lua:387
+10/7 22:59:27.548      pcall()
+10/7 22:59:27.548      Interface/AddOns/ForeverDump/CombatProbe.lua:541
+10/7 22:59:27.548      pcall()
+10/7 22:59:27.548      Interface/AddOns/ForeverDump/CombatProbe.lua:562
+10/7 22:59:33.640  Execution tainted by ForeverDump while reading field oldestFadingLineTimestamp (<table: 00000173ad7877c0>) - Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:59:33.640      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:59:33.640      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:375
+10/7 22:59:33.640  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:59:33.640      Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:59:33.640      pcall()
+10/7 22:59:33.640      Interface/AddOns/ForeverDump/Controls.lua:227 TryTimeLeft()
+10/7 22:59:33.640      Interface/AddOns/ForeverDump/CombatProbe.lua:387
+10/7 22:59:33.640      pcall()
+10/7 22:59:33.640      Interface/AddOns/ForeverDump/CombatProbe.lua:541
+10/7 22:59:33.640      pcall()
+10/7 22:59:33.640      Interface/AddOns/ForeverDump/CombatProbe.lua:562
+10/7 22:59:40.908  Execution tainted by ForeverDump while reading field oldestFadingLineTimestamp (<table: 00000173ad7877c0>) - Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:59:40.908      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:765 ChatFrame1:UpdateFading()
+10/7 22:59:40.908      Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua:375
+10/7 22:59:40.908  An attempt to perform arithmetic on a secret value was blocked because of taint from ForeverDump - Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:59:40.908      Interface/AddOns/ForeverDump/Controls.lua:227
+10/7 22:59:40.908      pcall()
+10/7 22:59:40.908      Interface/AddOns/ForeverDump/Controls.lua:227 TryTimeLeft()
+10/7 22:59:40.908      Interface/AddOns/ForeverDump/CombatProbe.lua:387
+10/7 22:59:40.908      pcall()
+10/7 22:59:40.908      Interface/AddOns/ForeverDump/CombatProbe.lua:541
+10/7 22:59:40.908      pcall()
+10/7 22:59:40.908      Interface/AddOns/ForeverDump/CombatProbe.lua:562

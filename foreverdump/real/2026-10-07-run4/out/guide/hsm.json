@@ -1,0 +1,688 @@
+{
+ "build": "1.60.1.70245",
+ "captured": "2026-10-07T23:00:10-04:00",
+ "inputs": {
+  "combat": {
+   "aura.addedAuras": {
+    "r": 0,
+    "u": 9
+   },
+   "aura.count": {
+    "r": 0,
+    "u": 28
+   },
+   "aura.updateInfo": {
+    "r": 14,
+    "u": 0
+   },
+   "playerCast.castGUID": {
+    "r": 13,
+    "u": 0
+   },
+   "playerCast.event": {
+    "r": 13,
+    "u": 0
+   },
+   "playerCast.spellID": {
+    "r": 13,
+    "u": 0
+   },
+   "totem.duration": {
+    "r": 0,
+    "u": 6
+   },
+   "totem.haveTotem": {
+    "r": 0,
+    "u": 6
+   },
+   "totem.name": {
+    "r": 0,
+    "u": 6
+   },
+   "totem.slot": {
+    "r": 6,
+    "u": 0
+   },
+   "totem.startTime": {
+    "r": 0,
+    "u": 6
+   },
+   "unitCast.castGUID": {
+    "r": 0,
+    "u": 46
+   },
+   "unitCast.event": {
+    "r": 46,
+    "u": 0
+   },
+   "unitCast.spellID": {
+    "r": 0,
+    "u": 46
+   }
+  },
+  "ooc": {
+   "aura.applications": {
+    "r": 2,
+    "u": 0
+   },
+   "aura.auraInstanceID": {
+    "r": 2,
+    "u": 0
+   },
+   "aura.count": {
+    "r": 6,
+    "u": 0
+   },
+   "aura.duration": {
+    "r": 2,
+    "u": 0
+   },
+   "aura.fromPlayer": {
+    "r": 2,
+    "u": 0
+   },
+   "aura.removedID": {
+    "r": 2,
+    "u": 0
+   },
+   "aura.spellId": {
+    "r": 2,
+    "u": 0
+   },
+   "aura.updateInfo": {
+    "r": 3,
+    "u": 0
+   },
+   "playerCast.castGUID": {
+    "r": 7,
+    "u": 0
+   },
+   "playerCast.event": {
+    "r": 7,
+    "u": 0
+   },
+   "playerCast.spellID": {
+    "r": 7,
+    "u": 0
+   },
+   "unitCast.castGUID": {
+    "r": 0,
+    "u": 2
+   },
+   "unitCast.event": {
+    "r": 2,
+    "u": 0
+   },
+   "unitCast.spellID": {
+    "r": 0,
+    "u": 2
+   }
+  }
+ },
+ "predictions": [
+  {
+   "conf": "high",
+   "errorSec": 0.05,
+   "kind": "aura",
+   "outcome": "verified",
+   "rule": "replay:hsm-aura",
+   "spell": 905,
+   "t": 1791417279.313,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "kind": "cooldown",
+   "outcome": "unverified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 905,
+   "t": 1791417279.313,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "errorSec": 0.0,
+   "kind": "aura",
+   "outcome": "verified",
+   "rule": "replay:hsm-aura",
+   "spell": 20572,
+   "t": 1791417282.773,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "kind": "cooldown",
+   "outcome": "unverified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 8177,
+   "t": 1791417287.914,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "kind": "summon",
+   "outcome": "verified",
+   "rule": "replay:hsm-summon",
+   "spell": 8177,
+   "t": 1791417287.914,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "errorSec": -7.88,
+   "kind": "aura",
+   "outcome": "verified",
+   "rule": "replay:hsm-aura",
+   "spell": 905,
+   "t": 1791417318.938,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "kind": "cooldown",
+   "outcome": "unverified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 905,
+   "t": 1791417318.938,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "errorSec": -0.05,
+   "kind": "aura",
+   "outcome": "verified",
+   "rule": "replay:hsm-aura",
+   "spell": 1238640,
+   "t": 1791417321.437,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "errorSec": 0.01,
+   "kind": "aura",
+   "outcome": "verified",
+   "rule": "replay:hsm-aura",
+   "spell": 8052,
+   "t": 1791417335.768,
+   "unit": "other"
+  },
+  {
+   "conf": "medium",
+   "kind": "amount",
+   "outcome": "contradicted",
+   "rule": "replay:hsm-amount",
+   "spell": 8052,
+   "t": 1791417335.768,
+   "unit": "other"
+  },
+  {
+   "conf": "high",
+   "kind": "cooldown",
+   "outcome": "unverified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 8052,
+   "t": 1791417335.768,
+   "unit": "other"
+  },
+  {
+   "conf": "medium",
+   "kind": "amount",
+   "outcome": "contradicted",
+   "rule": "replay:hsm-amount",
+   "spell": 8008,
+   "t": 1791417362.656,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "errorSec": -0.0,
+   "kind": "cooldown",
+   "outcome": "verified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 8008,
+   "t": 1791417362.656,
+   "unit": "player"
+  },
+  {
+   "conf": "medium",
+   "kind": "amount",
+   "outcome": "verified",
+   "rule": "replay:hsm-amount",
+   "spell": 8008,
+   "t": 1791417372.301,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "kind": "cooldown",
+   "outcome": "unverified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 8008,
+   "t": 1791417372.301,
+   "unit": "player"
+  },
+  {
+   "conf": "medium",
+   "kind": "amount",
+   "outcome": "verified",
+   "rule": "replay:hsm-amount",
+   "spell": 8008,
+   "t": 1791417401.097,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "kind": "cooldown",
+   "outcome": "unverified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 8008,
+   "t": 1791417401.097,
+   "unit": "player"
+  },
+  {
+   "conf": "medium",
+   "kind": "amount",
+   "outcome": "verified",
+   "rule": "replay:hsm-amount",
+   "spell": 8046,
+   "t": 1791417415.443,
+   "unit": "other"
+  },
+  {
+   "conf": "high",
+   "errorSec": 0.0,
+   "kind": "cooldown",
+   "outcome": "verified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 17364,
+   "t": 1791417480.935,
+   "unit": "other"
+  },
+  {
+   "conf": "high",
+   "kind": "summon",
+   "outcome": "verified",
+   "rule": "replay:hsm-summon",
+   "spell": 6364,
+   "t": 1791417490.019,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "kind": "cooldown",
+   "outcome": "unverified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 17364,
+   "t": 1791417498.535,
+   "unit": "other"
+  },
+  {
+   "conf": "high",
+   "errorSec": 0.03,
+   "kind": "aura",
+   "outcome": "verified",
+   "rule": "replay:hsm-aura",
+   "spell": 8052,
+   "t": 1791424635.694,
+   "unit": "other"
+  },
+  {
+   "conf": "medium",
+   "kind": "amount",
+   "outcome": "verified",
+   "rule": "replay:hsm-amount",
+   "spell": 8052,
+   "t": 1791424635.694,
+   "unit": "other"
+  },
+  {
+   "conf": "high",
+   "errorSec": 0.0,
+   "kind": "cooldown",
+   "outcome": "verified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 8052,
+   "t": 1791424635.694,
+   "unit": "other"
+  },
+  {
+   "conf": "medium",
+   "kind": "amount",
+   "outcome": "verified",
+   "rule": "replay:hsm-amount",
+   "spell": 8008,
+   "t": 1791424643.85,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "kind": "cooldown",
+   "outcome": "unverified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 8008,
+   "t": 1791424643.85,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "errorSec": -6.59,
+   "kind": "aura",
+   "outcome": "verified",
+   "rule": "replay:hsm-aura",
+   "spell": 8052,
+   "t": 1791424690.095,
+   "unit": "other"
+  },
+  {
+   "conf": "medium",
+   "kind": "amount",
+   "outcome": "verified",
+   "rule": "replay:hsm-amount",
+   "spell": 8052,
+   "t": 1791424690.095,
+   "unit": "other"
+  },
+  {
+   "conf": "high",
+   "kind": "cooldown",
+   "outcome": "unverified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 8052,
+   "t": 1791424690.095,
+   "unit": "other"
+  },
+  {
+   "conf": "medium",
+   "kind": "amount",
+   "outcome": "verified",
+   "rule": "replay:hsm-amount",
+   "spell": 8008,
+   "t": 1791424780.509,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "kind": "cooldown",
+   "outcome": "unverified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 8008,
+   "t": 1791424780.509,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "errorSec": -33.68,
+   "kind": "aura",
+   "outcome": "verified",
+   "rule": "replay:hsm-aura",
+   "spell": 905,
+   "t": 1791424806.918,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "errorSec": 9.08,
+   "kind": "cooldown",
+   "outcome": "verified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 905,
+   "t": 1791424806.918,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "errorSec": 14.26,
+   "kind": "aura",
+   "outcome": "verified",
+   "rule": "replay:hsm-aura",
+   "spell": 905,
+   "t": 1791424818.058,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "errorSec": 0.0,
+   "kind": "cooldown",
+   "outcome": "verified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 905,
+   "t": 1791424818.058,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "errorSec": 12.19,
+   "kind": "aura",
+   "outcome": "verified",
+   "rule": "replay:hsm-aura",
+   "spell": 905,
+   "t": 1791424820.122,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "kind": "cooldown",
+   "outcome": "unverified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 905,
+   "t": 1791424820.122,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "errorSec": -0.0,
+   "kind": "cooldown",
+   "outcome": "verified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 8177,
+   "t": 1791424884.43,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "kind": "summon",
+   "outcome": "verified",
+   "rule": "replay:hsm-summon",
+   "spell": 8177,
+   "t": 1791424884.43,
+   "unit": "player"
+  },
+  {
+   "conf": "high",
+   "kind": "cooldown",
+   "outcome": "unverified",
+   "rule": "replay:hsm-cooldown",
+   "spell": 8177,
+   "t": 1791424957.366,
+   "unit": "player"
+  }
+ ],
+ "replayMode": "secret-pretrained",
+ "rules": [
+  {
+   "context": "combat",
+   "contradicted": 3,
+   "id": "cast-pair",
+   "pending": 24,
+   "predictions": 27,
+   "source": "addon",
+   "status": "failing",
+   "verified": 0
+  },
+  {
+   "context": "ooc",
+   "contradicted": 1,
+   "id": "cast-pair",
+   "pending": 0,
+   "predictions": 1,
+   "source": "addon",
+   "status": "failing",
+   "verified": 0
+  },
+  {
+   "context": "combat",
+   "contradicted": 0,
+   "id": "observed",
+   "pending": 0,
+   "predictions": 1,
+   "source": "addon",
+   "status": "verified",
+   "verified": 1
+  },
+  {
+   "context": "ooc",
+   "contradicted": 1,
+   "id": "observed",
+   "pending": 0,
+   "predictions": 1,
+   "source": "addon",
+   "status": "failing",
+   "verified": 0
+  },
+  {
+   "context": "combat",
+   "contradicted": 0,
+   "id": "replay:cast-correlation",
+   "pending": 0,
+   "predictions": 6,
+   "source": "replay:secret-pretrained",
+   "status": "verified",
+   "verified": 6
+  },
+  {
+   "context": "ooc",
+   "contradicted": 0,
+   "id": "replay:cast-correlation",
+   "pending": 0,
+   "predictions": 4,
+   "source": "replay:secret-pretrained",
+   "status": "verified",
+   "verified": 4
+  },
+  {
+   "context": "combat",
+   "contradicted": 0,
+   "id": "replay:cast-pair",
+   "pending": 0,
+   "predictions": 19,
+   "source": "replay:secret-pretrained",
+   "status": "verified",
+   "verified": 19
+  },
+  {
+   "context": "ooc",
+   "contradicted": 0,
+   "id": "replay:cast-pair",
+   "pending": 0,
+   "predictions": 7,
+   "source": "replay:secret-pretrained",
+   "status": "verified",
+   "verified": 7
+  },
+  {
+   "context": "combat",
+   "contradicted": 1,
+   "id": "replay:iid-map",
+   "pending": 5,
+   "predictions": 15,
+   "source": "replay:secret-pretrained",
+   "status": "verified",
+   "verified": 9
+  },
+  {
+   "context": "ooc",
+   "contradicted": 0,
+   "id": "replay:iid-map",
+   "pending": 2,
+   "predictions": 5,
+   "source": "replay:secret-pretrained",
+   "status": "verified",
+   "verified": 3
+  },
+  {
+   "context": "combat",
+   "contradicted": 0,
+   "id": "replay:single-applier",
+   "pending": 0,
+   "predictions": 4,
+   "source": "replay:secret-pretrained",
+   "status": "verified",
+   "verified": 4
+  },
+  {
+   "context": "combat",
+   "contradicted": 3,
+   "id": "replay:hsm-amount",
+   "pending": 0,
+   "predictions": 11,
+   "source": "replay:secret-pretrained",
+   "status": "failing",
+   "verified": 8
+  },
+  {
+   "context": "combat",
+   "contradicted": 0,
+   "id": "replay:hsm-aura",
+   "meanErrorSec": 10.44,
+   "pending": 0,
+   "predictions": 10,
+   "source": "replay:secret-pretrained",
+   "status": "verified",
+   "verified": 10
+  },
+  {
+   "context": "ooc",
+   "contradicted": 0,
+   "id": "replay:hsm-aura",
+   "meanErrorSec": 1.99,
+   "pending": 0,
+   "predictions": 4,
+   "source": "replay:secret-pretrained",
+   "status": "verified",
+   "verified": 4
+  },
+  {
+   "context": "combat",
+   "contradicted": 0,
+   "id": "replay:hsm-cooldown",
+   "meanErrorSec": 1.94,
+   "pending": 17,
+   "predictions": 26,
+   "source": "replay:secret-pretrained",
+   "status": "verified",
+   "verified": 9
+  },
+  {
+   "context": "ooc",
+   "contradicted": 0,
+   "id": "replay:hsm-cooldown",
+   "pending": 3,
+   "predictions": 3,
+   "source": "replay:secret-pretrained",
+   "status": "pending",
+   "verified": 0
+  },
+  {
+   "context": "combat",
+   "contradicted": 0,
+   "id": "replay:hsm-summon",
+   "pending": 0,
+   "predictions": 12,
+   "source": "replay:secret-pretrained",
+   "status": "verified",
+   "verified": 12
+  },
+  {
+   "context": "ooc",
+   "contradicted": 0,
+   "id": "replay:hsm-summon",
+   "pending": 0,
+   "predictions": 1,
+   "source": "replay:secret-pretrained",
+   "status": "verified",
+   "verified": 1
+  }
+ ],
+ "schema": "foreverdump.hsm/1",
+ "source": "addon+replay:secret-pretrained"
+}

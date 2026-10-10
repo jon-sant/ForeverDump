@@ -1,0 +1,12 @@
+taint.log: 75 entries
+  attempt_blocked          36
+  secret_blocked           22
+  execution_tainted        17
+classification: expected=58, benign-chat=10, contained=7
+by addon:
+  ForeverDump                    attempt_blocked=36, execution_tainted=17, secret_blocked=22
+secret-value operations blocked by taint (the addon made Blizzard code run tainted; that code then touched a secret):
+    10x ForeverDump: arithmetic at Interface/AddOns/ForeverDump/Controls.lua:154 (entered via ForeverDump/Controls.lua:154)
+    10x ForeverDump: arithmetic at Interface/AddOns/ForeverDump/Controls.lua:227 (entered via ForeverDump/Controls.lua:227)
+     2x ForeverDump: string conversion at len() (entered via ForeverDump/Lab.lua:241)
+wrote real/2026-10-07-run4/out/taint/taint.json

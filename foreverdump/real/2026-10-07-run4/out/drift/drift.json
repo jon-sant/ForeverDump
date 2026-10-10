@@ -1,0 +1,112 @@
+{
+ "apisAdded": [],
+ "apisRemoved": [
+  "MacroEditButton_OnClick",
+  "MacroFrameCancelButton_OnClick",
+  "MacroFrameSaveButton_OnClick",
+  "MacroFrame_SaveMacro",
+  "MacroFrame_Show",
+  "MacroNewButton_OnClick",
+  "PlayerChoiceGetTextureKitInfo",
+  "PlayerChoiceToggle_GetActiveToggle",
+  "PlayerChoiceToggle_ShouldShow",
+  "PlayerChoice_SetupWidgets",
+  "PlayerChoice_WidgetInit",
+  "PlayerChoice_WidgetsLayout"
+ ],
+ "buildBump": false,
+ "coverage": {
+  "combat": [
+   false,
+   true
+  ],
+  "knowledge": [
+   false,
+   true
+  ],
+  "lab": [
+   false,
+   true
+  ],
+  "ops": [
+   false,
+   true
+  ],
+  "restrictions": [
+   false,
+   true
+  ],
+  "secrecy": [
+   true,
+   true
+  ],
+  "tokens": [
+   false,
+   true
+  ]
+ },
+ "docsAdded": [],
+ "docsHashChange": false,
+ "docsRemoved": [],
+ "eventsAdded": [],
+ "eventsRemoved": [],
+ "frameTypesAdded": [],
+ "frameTypesChanged": [
+  "Blob: failed -> notCreatable",
+  "MapScene: failed -> notCreatable",
+  "ModelFFX: failed -> notCreatable",
+  "PingPinFrame: failed -> notCreatable",
+  "VectorGraphics: failed -> notCreatable"
+ ],
+ "frameTypesRemoved": [],
+ "interfaceChange": false,
+ "labChanges": [],
+ "new": {
+  "addon": "2.2.2",
+  "build": "70245",
+  "interface": 16001,
+  "projectID": 18,
+  "source": "ForeverDump.lua",
+  "version": "1.60.1"
+ },
+ "newlyClear": [
+  "api:GetUnitEmpowerHoldAtMaxTime#1 (ooc): M -> C",
+  "api:GetUnitEmpowerMinHoldTime#1 (ooc): M -> C",
+  "api:UnitDetailedThreatSituation#1 (combat): M -> C",
+  "api:UnitDetailedThreatSituation#2 (combat): M -> C",
+  "api:UnitDetailedThreatSituation#3 (combat): M -> C",
+  "api:UnitDetailedThreatSituation#4 (combat): M -> C",
+  "api:UnitDetailedThreatSituation#5 (combat): M -> C",
+  "api:UnitHealthMax#1 (ooc): M -> C",
+  "api:UnitPowerMax#1 (ooc): M -> C",
+  "api:UnitStagger#1 (ooc): M -> C",
+  "api:UnitThreatSituation#1 (combat): M -> C"
+ ],
+ "newlySecret": [
+  "api:C_Spell.GetSpellCooldown#1 (combat): C -> S",
+  "api:C_Spell.GetSpellCooldownDuration#1 (combat): C -> S",
+  "api:UnitCastingDuration#1 (combat): C -> S",
+  "api:UnitCastingInfo#1 (combat): C -> S",
+  "event:UNIT_AURA#2 (combat): C -> S",
+  "event:UNIT_SPELLCAST_START#2 (combat): C -> S",
+  "event:UNIT_SPELLCAST_START#3 (combat): C -> S",
+  "event:UNIT_SPELLCAST_STOP#2 (combat): C -> S",
+  "event:UNIT_SPELLCAST_STOP#3 (combat): C -> S",
+  "event:UNIT_SPELLCAST_SUCCEEDED#2 (combat): C -> M",
+  "event:UNIT_SPELLCAST_SUCCEEDED#3 (combat): C -> M"
+ ],
+ "old": {
+  "addon": "2.1.0",
+  "build": "70245",
+  "interface": 16001,
+  "projectID": 18,
+  "source": "ForeverDump.lua",
+  "version": "1.60.1"
+ },
+ "opsChanges": [],
+ "restrictionTiming": [
+  "new flip kind Combat:Activating",
+  "new flip kind Combat:Inactive"
+ ],
+ "signatureChanges": []
+}

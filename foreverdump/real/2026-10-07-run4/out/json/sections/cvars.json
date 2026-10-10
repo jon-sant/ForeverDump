@@ -1,0 +1,980 @@
+{
+ "changedFromDefault": [
+  {
+   "category": "Game",
+   "current": "7",
+   "default": "-1",
+   "name": "EJLootClass"
+  },
+  {
+   "category": "Graphics",
+   "current": "AMD Radeon RX 6650 XT",
+   "default": "",
+   "name": "GxAdapter"
+  },
+  {
+   "category": "Default",
+   "current": "d3d12",
+   "default": "auto",
+   "name": "GxApi"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "0",
+   "name": "OutlineEngineMode"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "0",
+   "name": "RAIDOutlineEngineMode"
+  },
+  {
+   "category": "Default",
+   "current": "3",
+   "default": "0",
+   "name": "RAIDSSAO"
+  },
+  {
+   "category": "Default",
+   "current": "512",
+   "default": "768",
+   "name": "RAIDTerrainLodDiv"
+  },
+  {
+   "category": "Default",
+   "current": "2",
+   "default": "3",
+   "name": "RAIDVolumeFogLevel"
+  },
+  {
+   "category": "Default",
+   "current": "2",
+   "default": "0",
+   "name": "RAIDWaterDetail"
+  },
+  {
+   "category": "Default",
+   "current": "8",
+   "default": "10",
+   "name": "RAIDentityLodDist"
+  },
+  {
+   "category": "Default",
+   "current": "20",
+   "default": "10",
+   "name": "RAIDentityShadowFadeScale"
+  },
+  {
+   "category": "Default",
+   "current": "6000",
+   "default": "1000",
+   "name": "RAIDfarclip"
+  },
+  {
+   "category": "Default",
+   "current": "3",
+   "default": "1",
+   "name": "RAIDgiQuality"
+  },
+  {
+   "category": "Default",
+   "current": "32",
+   "default": "16",
+   "name": "RAIDgroundEffectDensity"
+  },
+  {
+   "category": "Default",
+   "current": "185",
+   "default": "70",
+   "name": "RAIDgroundEffectDist"
+  },
+  {
+   "category": "Default",
+   "current": "6000",
+   "default": "1600",
+   "name": "RAIDhorizonClip"
+  },
+  {
+   "category": "Default",
+   "current": "1700",
+   "default": "800",
+   "name": "RAIDhorizonStart"
+  },
+  {
+   "category": "Default",
+   "current": "19",
+   "default": "15",
+   "name": "RAIDlodObjectCullSize"
+  },
+  {
+   "category": "Default",
+   "current": "90",
+   "default": "100",
+   "name": "RAIDlodObjectFadeScale"
+  },
+  {
+   "category": "Default",
+   "current": "0",
+   "default": "20",
+   "name": "RAIDlodObjectMinSize"
+  },
+  {
+   "category": "Default",
+   "current": "80",
+   "default": "100",
+   "name": "RAIDparticleDensity"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "0",
+   "name": "RAIDpbrLiquidDetail"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "0",
+   "name": "RAIDprojectedTextures"
+  },
+  {
+   "category": "Default",
+   "current": "2",
+   "default": "3",
+   "name": "RAIDreflectionMode"
+  },
+  {
+   "category": "Default",
+   "current": "2",
+   "default": "0",
+   "name": "RAIDrefraction"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "2",
+   "name": "RAIDrippleDetail"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "0",
+   "name": "RAIDshadowBlendCascades"
+  },
+  {
+   "category": "Default",
+   "current": "3",
+   "default": "0",
+   "name": "RAIDshadowMode"
+  },
+  {
+   "category": "Default",
+   "current": "3",
+   "default": "1",
+   "name": "RAIDshadowNumCascades"
+  },
+  {
+   "category": "Default",
+   "current": "2048",
+   "default": "1024",
+   "name": "RAIDshadowTextureSize"
+  },
+  {
+   "category": "Default",
+   "current": "2",
+   "default": "0",
+   "name": "RAIDsunShafts"
+  },
+  {
+   "category": "Default",
+   "current": "500",
+   "default": "400",
+   "name": "RAIDterrainLodDist"
+  },
+  {
+   "category": "Default",
+   "current": "3",
+   "default": "2",
+   "name": "RAIDweatherDensity"
+  },
+  {
+   "category": "Default",
+   "current": "350",
+   "default": "650",
+   "name": "RAIDwmoLodDist"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "2",
+   "name": "RenderFormat"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "1.000000",
+   "name": "RenderScale"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "ShowAllSpellRanks"
+  },
+  {
+   "category": "Default",
+   "current": "0",
+   "default": "1",
+   "name": "Sound_EnableAmbience"
+  },
+  {
+   "category": "Default",
+   "current": "0",
+   "default": "1",
+   "name": "Sound_EnableDialog"
+  },
+  {
+   "category": "Default",
+   "current": "0",
+   "default": "1",
+   "name": "Sound_EnableMusic"
+  },
+  {
+   "category": "Default",
+   "current": "0",
+   "default": "1",
+   "name": "Sound_EnableSFX"
+  },
+  {
+   "category": "Default",
+   "current": "0.40000000596046",
+   "default": "1.0",
+   "name": "Sound_MasterVolume"
+  },
+  {
+   "category": "Default",
+   "current": "System Default",
+   "default": "Primary Sound Driver",
+   "name": "Sound_OutputDriverName"
+  },
+  {
+   "category": "Game",
+   "current": "0",
+   "default": "1",
+   "name": "accessibilityScreenNarrationEnabled"
+  },
+  {
+   "category": "Game",
+   "current": "<redacted>",
+   "default": "1",
+   "name": "accountNeedsTurnStrafeDialog"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "advancedCombatLogging"
+  },
+  {
+   "category": "Game",
+   "current": "wow_classic_beta",
+   "default": "wow_beta",
+   "name": "agentUID"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "2",
+   "name": "auctionHouseDurationDropdown"
+  },
+  {
+   "category": "Game",
+   "current": "enUS",
+   "default": "",
+   "name": "audioLocale"
+  },
+  {
+   "category": "Game",
+   "current": "15",
+   "default": "0",
+   "name": "autoFilledMultiCastSlots"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "autoLootDefault"
+  },
+  {
+   "category": "Game",
+   "current": "15.000000",
+   "default": "5.550000",
+   "name": "cameraSavedDistance"
+  },
+  {
+   "category": "Game",
+   "current": "16.998280",
+   "default": "10.000000",
+   "name": "cameraSavedPitch"
+  },
+  {
+   "category": "Game",
+   "current": "0",
+   "default": "4",
+   "name": "cameraSmoothStyle"
+  },
+  {
+   "category": "Game",
+   "current": "\u0002@@B@@@@@@@@@@@@@@@@`@@@@@@B",
+   "default": "",
+   "name": "closedInfoFrames"
+  },
+  {
+   "category": "Game",
+   "current": "<redacted>",
+   "default": "",
+   "name": "closedInfoFramesAccountWide"
+  },
+  {
+   "category": "Game",
+   "current": "v21###$###&",
+   "default": "0",
+   "name": "collapsedCurrencyCategoryDefaults"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "combinedBags"
+  },
+  {
+   "category": "Game",
+   "current": "v21###&###$",
+   "default": "0",
+   "name": "currencyCategoriesCollapsed"
+  },
+  {
+   "category": "Game",
+   "current": "15",
+   "default": "-1",
+   "name": "currentGameMode"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "damageMeterEnabled"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "damageMeterResetOnNewInstance"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "deselectOnClick"
+  },
+  {
+   "category": "Graphics",
+   "current": "150",
+   "default": "100",
+   "name": "doodadLodScale"
+  },
+  {
+   "category": "Game",
+   "current": "15",
+   "default": "0",
+   "name": "enableMultiActionBars"
+  },
+  {
+   "category": "Game",
+   "current": "8",
+   "default": "0",
+   "name": "engineSurvey"
+  },
+  {
+   "category": "Game",
+   "current": "16001",
+   "default": "0",
+   "name": "engineSurveyPatch"
+  },
+  {
+   "category": "Default",
+   "current": "10000",
+   "default": "1000",
+   "name": "farclip"
+  },
+  {
+   "category": "Default",
+   "current": "4",
+   "default": "0",
+   "name": "ffxAntiAliasingMode"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "findYourselfAnywhere"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "findYourselfModeOutline"
+  },
+  {
+   "category": "Game",
+   "current": "v21###$###^###,###6###:###?###@###]###D###4###F###C###R###I###L###J###9###3###Y###G###V###>###S",
+   "default": "",
+   "name": "flaggedTutorials"
+  },
+  {
+   "category": "Default",
+   "current": "68",
+   "default": "0",
+   "name": "gameTip"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "2",
+   "name": "graphicsComputeEffects"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "3",
+   "name": "graphicsDepthEffects"
+  },
+  {
+   "category": "Default",
+   "current": "9",
+   "default": "5",
+   "name": "graphicsEnvironmentDetail"
+  },
+  {
+   "category": "Default",
+   "current": "9",
+   "default": "5",
+   "name": "graphicsGroundClutter"
+  },
+  {
+   "category": "Default",
+   "current": "0",
+   "default": "2",
+   "name": "graphicsLightMode"
+  },
+  {
+   "category": "Default",
+   "current": "3",
+   "default": "4",
+   "name": "graphicsParticleDensity"
+  },
+  {
+   "category": "Default",
+   "current": "0",
+   "default": "3",
+   "name": "graphicsSSAO"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "3",
+   "name": "graphicsShadowQuality"
+  },
+  {
+   "category": "Default",
+   "current": "9",
+   "default": "5",
+   "name": "graphicsViewDistance"
+  },
+  {
+   "category": "Default",
+   "current": "48",
+   "default": "16",
+   "name": "groundEffectDensity"
+  },
+  {
+   "category": "Default",
+   "current": "320",
+   "default": "70",
+   "name": "groundEffectDist"
+  },
+  {
+   "category": "Game",
+   "current": "v21##0/#./J##/r##(u##/2#,3C##.d#.6s##N9#.+$##g]##(W##(f##i.##(z",
+   "default": "",
+   "name": "hardTrackedQuests"
+  },
+  {
+   "category": "Game",
+   "current": "v21",
+   "default": "",
+   "name": "hardTrackedWorldQuests"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "hasSelectedExperiencePreset"
+  },
+  {
+   "category": "Default",
+   "current": "10000",
+   "default": "1600",
+   "name": "horizonClip"
+  },
+  {
+   "category": "Default",
+   "current": "4000",
+   "default": "800",
+   "name": "horizonStart"
+  },
+  {
+   "category": "Default",
+   "current": "0",
+   "default": "1",
+   "name": "hwDetect"
+  },
+  {
+   "category": "Default",
+   "current": "<redacted>",
+   "default": "60",
+   "name": "initialRealmListTimeout"
+  },
+  {
+   "category": "Game",
+   "current": "0",
+   "default": "1",
+   "name": "interactOnLeftClick"
+  },
+  {
+   "category": "Game",
+   "current": "<redacted>",
+   "default": "0",
+   "name": "lastCharacterIndex"
+  },
+  {
+   "category": "Game",
+   "current": "<redacted>",
+   "default": "0",
+   "name": "lastSelectedClubId"
+  },
+  {
+   "category": "Game",
+   "current": "<redacted>",
+   "default": "",
+   "name": "lastSelectedTieredEntranceTier"
+  },
+  {
+   "category": "Game",
+   "current": "8",
+   "default": "0",
+   "name": "lfgSelectedRoles"
+  },
+  {
+   "category": "Default",
+   "current": "14",
+   "default": "15",
+   "name": "lodObjectCullSize"
+  },
+  {
+   "category": "Default",
+   "current": "150",
+   "default": "100",
+   "name": "lodObjectFadeScale"
+  },
+  {
+   "category": "Graphics",
+   "current": "48",
+   "default": "120",
+   "name": "maxFPS"
+  },
+  {
+   "category": "Graphics",
+   "current": "8",
+   "default": "30",
+   "name": "maxFPSBk"
+  },
+  {
+   "category": "Game",
+   "current": "<redacted>",
+   "default": "99",
+   "name": "minimapPortalMax"
+  },
+  {
+   "category": "Game",
+   "current": "v21",
+   "default": "",
+   "name": "minimapShapeshiftTracking"
+  },
+  {
+   "category": "Game",
+   "current": "1.000000",
+   "default": "0.035000",
+   "name": "mouseSpeed"
+  },
+  {
+   "category": "Game",
+   "current": "41",
+   "default": "45.000000",
+   "name": "nameplateMaxDistance"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "nameplateShowEnemies"
+  },
+  {
+   "category": "Game",
+   "current": "<redacted>",
+   "default": "1",
+   "name": "nameplateShowFriendlyRealmName"
+  },
+  {
+   "category": "Game",
+   "current": "5",
+   "default": "0",
+   "name": "numCurrencyCategories"
+  },
+  {
+   "category": "Game",
+   "current": "3",
+   "default": "0",
+   "name": "numReputationHeaders"
+  },
+  {
+   "category": "Default",
+   "current": "50",
+   "default": "100",
+   "name": "particleDensity"
+  },
+  {
+   "category": "Default",
+   "current": "70",
+   "default": "100",
+   "name": "particleMTDensity"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "0",
+   "name": "pbrLiquidDetail"
+  },
+  {
+   "category": "Default",
+   "current": "v21",
+   "default": "",
+   "name": "perksActivitiesPendingCompletion"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "petJournalFilterVersion"
+  },
+  {
+   "category": "Game",
+   "current": "5",
+   "default": "1",
+   "name": "petJournalTab"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "pingCategoryTutorialShown"
+  },
+  {
+   "category": "Game",
+   "current": "v21",
+   "default": "",
+   "name": "playerColorOverrides"
+  },
+  {
+   "category": "Net",
+   "current": "<redacted>",
+   "default": "",
+   "name": "portal"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "0",
+   "name": "projectedTextures"
+  },
+  {
+   "category": "Game",
+   "current": "0",
+   "default": "1",
+   "name": "questPOI"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "raidFramesDisplayClassColor"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "raidFramesDisplayPowerBars"
+  },
+  {
+   "category": "Game",
+   "current": "health",
+   "default": "none",
+   "name": "raidFramesHealthText"
+  },
+  {
+   "category": "Default",
+   "current": "2",
+   "default": "3",
+   "name": "reflectionMode"
+  },
+  {
+   "category": "Game",
+   "current": "v21",
+   "default": "",
+   "name": "reputationsCollapsed"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "2",
+   "name": "rippleDetail"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "seenAlliedRaceUnlocks"
+  },
+  {
+   "category": "Net",
+   "current": "<redacted>",
+   "default": "https://breaking-news.support.blizzard.com/service/wow-forever-client/ptr/us/en-US",
+   "name": "serverAlert"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "0",
+   "name": "shadowMode"
+  },
+  {
+   "category": "Game",
+   "current": "0",
+   "default": "-1",
+   "name": "showPhotosensitivityWarning"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "showQuestLevel"
+  },
+  {
+   "category": "Game",
+   "current": "0",
+   "default": "1",
+   "name": "showScreenNarrationDialog"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "showSwingTimer"
+  },
+  {
+   "category": "Game",
+   "current": "1",
+   "default": "0",
+   "name": "showTargetOfTarget"
+  },
+  {
+   "category": "Game",
+   "current": "<redacted>",
+   "default": "0",
+   "name": "showTokenFrame"
+  },
+  {
+   "category": "Default",
+   "current": "2",
+   "default": "4",
+   "name": "spellClutter"
+  },
+  {
+   "category": "Game",
+   "current": "2",
+   "default": "4",
+   "name": "spellVisualDensityFilterSetting"
+  },
+  {
+   "category": "Debug",
+   "current": "<redacted>",
+   "default": "0",
+   "name": "taintLogObjectSecrets"
+  },
+  {
+   "category": "Default",
+   "current": "8",
+   "default": "60",
+   "name": "targetFPS"
+  },
+  {
+   "category": "Graphics",
+   "current": "650",
+   "default": "400",
+   "name": "terrainLodDist"
+  },
+  {
+   "category": "Game",
+   "current": "enUS",
+   "default": "",
+   "name": "textLocale"
+  },
+  {
+   "category": "Default",
+   "current": "<redacted>",
+   "default": "0",
+   "name": "titleBarShowAccountName"
+  },
+  {
+   "category": "Default",
+   "current": "<redacted>",
+   "default": "0",
+   "name": "titleBarShowRealmName"
+  },
+  {
+   "category": "Game",
+   "current": "v21",
+   "default": "",
+   "name": "trackedAchievements"
+  },
+  {
+   "category": "Default",
+   "current": "v21",
+   "default": "",
+   "name": "trackedPerksActivities"
+  },
+  {
+   "category": "Game",
+   "current": "v21",
+   "default": "",
+   "name": "trackedProfessionRecipes"
+  },
+  {
+   "category": "Game",
+   "current": "v21",
+   "default": "",
+   "name": "trackedProfessionRecraftRecipes"
+  },
+  {
+   "category": "Game",
+   "current": "v21",
+   "default": "",
+   "name": "trackedWorldQuests"
+  },
+  {
+   "category": "Graphics",
+   "current": "1",
+   "default": "0",
+   "name": "useMaxFPS"
+  },
+  {
+   "category": "Default",
+   "current": "0",
+   "default": "1",
+   "name": "useTargetFPS"
+  },
+  {
+   "category": "Default",
+   "current": "53",
+   "default": "0",
+   "name": "videoOptionsVersion"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "3",
+   "name": "volumeFogLevel"
+  },
+  {
+   "category": "Default",
+   "current": "2",
+   "default": "0",
+   "name": "vrsValar"
+  },
+  {
+   "category": "Default",
+   "current": "0",
+   "default": "1",
+   "name": "vsync"
+  },
+  {
+   "category": "Default",
+   "current": "2",
+   "default": "0",
+   "name": "waterDetail"
+  },
+  {
+   "category": "Default",
+   "current": "1",
+   "default": "2",
+   "name": "weatherDensity"
+  },
+  {
+   "category": "Default",
+   "current": "400",
+   "default": "300",
+   "name": "wmoLodDist"
+  },
+  {
+   "category": "Graphics",
+   "current": "<redacted>",
+   "default": "1000",
+   "name": "wmoPortalFadeScale"
+  },
+  {
+   "category": "Graphics",
+   "current": "<redacted>",
+   "default": "1",
+   "name": "wmoPortalInteriorFade"
+  }
+ ],
+ "compact": true,
+ "counts": {
+  "changed": 158,
+  "commands": 87,
+  "cvars": 1810
+ },
+ "meta": {
+  "addonVersion": "2.2.2",
+  "build": "70245",
+  "buildDate": "Oct  5 2026",
+  "date": "2026-10-07 22:57:49",
+  "inCombat": false,
+  "locale": "enUS",
+  "projectConstants": {
+   "WOW_PROJECT_CAMELOT": 18,
+   "WOW_PROJECT_CLASSIC": 2,
+   "WOW_PROJECT_ID": 18,
+   "WOW_PROJECT_MAINLINE": 1
+  },
+  "projectID": 18,
+  "projectName": "WOW_PROJECT_CAMELOT",
+  "schemaVersion": 2,
+  "scriptsDisallowedForBeta": false,
+  "time": 1791428269,
+  "toc": 16001,
+  "version": "1.60.1"
+ },
+ "storedIn": "ForeverDumpDB.cvars / cvarNames / commands (v1 shape)"
+}

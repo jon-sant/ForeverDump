@@ -1,0 +1,72 @@
+{
+ "blocked": [
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "epoch": 1791428279,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1056252.963,
+   "inCombat": false,
+   "restrictions": "Combat",
+   "server": 1791428280,
+   "sid": "login-20261007225725-13",
+   "t": 1056252.963,
+   "taintLog": "0",
+   "time": 1791428279
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "epoch": 1791428308,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1056281.986,
+   "inCombat": false,
+   "restrictions": "none",
+   "server": 1791428309,
+   "sid": "login-20261007225725-13",
+   "t": 1056281.986,
+   "taintLog": "0",
+   "time": 1791428308
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791428333,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1056306.718,
+   "inCombat": false,
+   "restrictions": "Combat",
+   "server": 1791428334,
+   "sid": "cap-20261007225843-1",
+   "t": 1056306.718,
+   "taintLog": "1",
+   "time": 1791428333
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791428396,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1056369.886,
+   "inCombat": false,
+   "restrictions": "none",
+   "server": 1791428397,
+   "sid": "cap-20261007225843-1",
+   "t": 1056369.886,
+   "taintLog": "1",
+   "time": 1791428396
+  }
+ ],
+ "errors": [],
+ "perAddon": {}
+}

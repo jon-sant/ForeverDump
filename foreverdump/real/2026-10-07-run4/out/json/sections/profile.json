@@ -1,0 +1,618 @@
+{
+ "compact": true,
+ "counts": {
+  "addons": 9,
+  "snapshots": 2
+ },
+ "latest": {
+  "addons": {
+   "Auctionator": {
+    "memoryKB": 5253.1806640625,
+    "metrics": {
+     "CountTimeOver1000Ms": 0,
+     "CountTimeOver100Ms": 0,
+     "CountTimeOver10Ms": 3,
+     "CountTimeOver1Ms": 9,
+     "CountTimeOver500Ms": 0,
+     "CountTimeOver50Ms": 0,
+     "CountTimeOver5Ms": 6,
+     "EncounterAverageTime": 0,
+     "LastTime": 0,
+     "PeakTime": 16.5478,
+     "RecentAverageTime": 0,
+     "SessionAverageTime": 0.0008905196306030824
+    }
+   },
+   "ForeverDump": {
+    "memoryKB": 70583.9453125,
+    "metrics": {
+     "CountTimeOver1000Ms": 0,
+     "CountTimeOver100Ms": 4,
+     "CountTimeOver10Ms": 40,
+     "CountTimeOver1Ms": 42,
+     "CountTimeOver500Ms": 4,
+     "CountTimeOver50Ms": 7,
+     "CountTimeOver5Ms": 40,
+     "EncounterAverageTime": 0,
+     "LastTime": 0,
+     "PeakTime": 644.1403,
+     "RecentAverageTime": 0,
+     "SessionAverageTime": 0.03424449330647059
+    }
+   },
+   "ForeverDungeonJournal": {
+    "memoryKB": 1440.4306640625,
+    "metrics": {
+     "CountTimeOver1000Ms": 0,
+     "CountTimeOver100Ms": 0,
+     "CountTimeOver10Ms": 7,
+     "CountTimeOver1Ms": 7,
+     "CountTimeOver500Ms": 0,
+     "CountTimeOver50Ms": 0,
+     "CountTimeOver5Ms": 7,
+     "EncounterAverageTime": 0,
+     "LastTime": 0,
+     "PeakTime": 24.2455,
+     "RecentAverageTime": 0,
+     "SessionAverageTime": 0.001544537282294106
+    }
+   },
+   "QuestLevelPatch": {
+    "memoryKB": 8.0908203125,
+    "metrics": {
+     "CountTimeOver1000Ms": 0,
+     "CountTimeOver100Ms": 0,
+     "CountTimeOver10Ms": 0,
+     "CountTimeOver1Ms": 0,
+     "CountTimeOver500Ms": 0,
+     "CountTimeOver50Ms": 0,
+     "CountTimeOver5Ms": 0,
+     "EncounterAverageTime": 0,
+     "LastTime": 0,
+     "PeakTime": 0,
+     "RecentAverageTime": 0,
+     "SessionAverageTime": 0
+    }
+   },
+   "Questie": {
+    "memoryKB": 18334.669921875,
+    "metrics": {
+     "CountTimeOver1000Ms": 0,
+     "CountTimeOver100Ms": 7,
+     "CountTimeOver10Ms": 108,
+     "CountTimeOver1Ms": 1043,
+     "CountTimeOver500Ms": 0,
+     "CountTimeOver50Ms": 14,
+     "CountTimeOver5Ms": 235,
+     "EncounterAverageTime": 0,
+     "LastTime": 0.135,
+     "PeakTime": 157.7862,
+     "RecentAverageTime": 0.1426066666666667,
+     "SessionAverageTime": 0.2422186488172549
+    }
+   },
+   "QuestieDB": {
+    "memoryKB": 24609.3076171875,
+    "metrics": {
+     "CountTimeOver1000Ms": 0,
+     "CountTimeOver100Ms": 0,
+     "CountTimeOver10Ms": 0,
+     "CountTimeOver1Ms": 0,
+     "CountTimeOver500Ms": 0,
+     "CountTimeOver50Ms": 0,
+     "CountTimeOver5Ms": 0,
+     "EncounterAverageTime": 0,
+     "LastTime": 0,
+     "PeakTime": 0,
+     "RecentAverageTime": 0,
+     "SessionAverageTime": 0
+    }
+   },
+   "TomTom": {
+    "memoryKB": 581.294921875,
+    "metrics": {
+     "CountTimeOver1000Ms": 0,
+     "CountTimeOver100Ms": 0,
+     "CountTimeOver10Ms": 0,
+     "CountTimeOver1Ms": 7,
+     "CountTimeOver500Ms": 0,
+     "CountTimeOver50Ms": 0,
+     "CountTimeOver5Ms": 0,
+     "EncounterAverageTime": 0,
+     "LastTime": 0.0314,
+     "PeakTime": 2.1945,
+     "RecentAverageTime": 0.015415,
+     "SessionAverageTime": 0.02081583845532363
+    }
+   },
+   "TweaksForever": {
+    "memoryKB": 1375.9716796875,
+    "metrics": {
+     "CountTimeOver1000Ms": 0,
+     "CountTimeOver100Ms": 0,
+     "CountTimeOver10Ms": 7,
+     "CountTimeOver1Ms": 8,
+     "CountTimeOver500Ms": 0,
+     "CountTimeOver50Ms": 7,
+     "CountTimeOver5Ms": 7,
+     "EncounterAverageTime": 0,
+     "LastTime": 0,
+     "PeakTime": 68.6341,
+     "RecentAverageTime": 0.00104,
+     "SessionAverageTime": 0.00572246039619149
+    }
+   },
+   "idTip": {
+    "memoryKB": 66.3544921875,
+    "metrics": {
+     "CountTimeOver1000Ms": 0,
+     "CountTimeOver100Ms": 0,
+     "CountTimeOver10Ms": 0,
+     "CountTimeOver1Ms": 0,
+     "CountTimeOver500Ms": 0,
+     "CountTimeOver50Ms": 0,
+     "CountTimeOver5Ms": 0,
+     "EncounterAverageTime": 0,
+     "LastTime": 0,
+     "PeakTime": 0,
+     "RecentAverageTime": 0,
+     "SessionAverageTime": 0
+    }
+   }
+  },
+  "counts": {
+   "addons": 9
+  },
+  "gameTime": 1056382.414,
+  "inCombat": false,
+  "profiler": {
+   "application": {
+    "CountTimeOver1000Ms": 6,
+    "CountTimeOver100Ms": 31235,
+    "CountTimeOver10Ms": 93653,
+    "CountTimeOver1Ms": 93653,
+    "CountTimeOver500Ms": 14,
+    "CountTimeOver50Ms": 32075,
+    "CountTimeOver5Ms": 93653,
+    "EncounterAverageTime": 0,
+    "LastTime": 21,
+    "PeakTime": 6261,
+    "RecentAverageTime": 59.33333333333334,
+    "SessionAverageTime": 56.33235099942341
+   },
+   "enabled": true,
+   "overall": {
+    "CountTimeOver1000Ms": 0,
+    "CountTimeOver100Ms": 12,
+    "CountTimeOver10Ms": 151,
+    "CountTimeOver1Ms": 1128,
+    "CountTimeOver500Ms": 4,
+    "CountTimeOver50Ms": 24,
+    "CountTimeOver5Ms": 279,
+    "EncounterAverageTime": 0,
+    "LastTime": 0.1664,
+    "PeakTime": 749.5583,
+    "RecentAverageTime": 0.1590616666666667,
+    "SessionAverageTime": 0.3188960023063617
+   }
+  },
+  "reason": "capture:off",
+  "scriptProfile": "0",
+  "time": 1791428409
+ },
+ "meta": {
+  "addonVersion": "2.2.2",
+  "build": "70245",
+  "buildDate": "Oct  5 2026",
+  "date": "2026-10-07 23:00:10",
+  "inCombat": false,
+  "locale": "enUS",
+  "projectConstants": {
+   "WOW_PROJECT_CAMELOT": 18,
+   "WOW_PROJECT_CLASSIC": 2,
+   "WOW_PROJECT_ID": 18,
+   "WOW_PROJECT_MAINLINE": 1
+  },
+  "projectID": 18,
+  "projectName": "WOW_PROJECT_CAMELOT",
+  "schemaVersion": 2,
+  "scriptsDisallowedForBeta": false,
+  "time": 1791428410,
+  "toc": 16001,
+  "version": "1.60.1"
+ },
+ "snapshots": [
+  {
+   "addons": {
+    "Auctionator": {
+     "memoryKB": 5253.1806640625,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 0,
+      "CountTimeOver10Ms": 3,
+      "CountTimeOver1Ms": 9,
+      "CountTimeOver500Ms": 0,
+      "CountTimeOver50Ms": 0,
+      "CountTimeOver5Ms": 6,
+      "EncounterAverageTime": 0,
+      "LastTime": 0,
+      "PeakTime": 16.5478,
+      "RecentAverageTime": 0,
+      "SessionAverageTime": 0.0009135400820420282
+     }
+    },
+    "ForeverDump": {
+     "memoryKB": 46210.685546875,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 4,
+      "CountTimeOver10Ms": 28,
+      "CountTimeOver1Ms": 30,
+      "CountTimeOver500Ms": 4,
+      "CountTimeOver50Ms": 6,
+      "CountTimeOver5Ms": 28,
+      "EncounterAverageTime": 0,
+      "LastTime": 0,
+      "PeakTime": 644.1403,
+      "RecentAverageTime": 0,
+      "SessionAverageTime": 0.03242046224702834
+     }
+    },
+    "ForeverDungeonJournal": {
+     "memoryKB": 1440.4306640625,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 0,
+      "CountTimeOver10Ms": 7,
+      "CountTimeOver1Ms": 7,
+      "CountTimeOver500Ms": 0,
+      "CountTimeOver50Ms": 0,
+      "CountTimeOver5Ms": 7,
+      "EncounterAverageTime": 0,
+      "LastTime": 0,
+      "PeakTime": 24.2455,
+      "RecentAverageTime": 0,
+      "SessionAverageTime": 0.001584464471185623
+     }
+    },
+    "QuestLevelPatch": {
+     "memoryKB": 8.0908203125,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 0,
+      "CountTimeOver10Ms": 0,
+      "CountTimeOver1Ms": 0,
+      "CountTimeOver500Ms": 0,
+      "CountTimeOver50Ms": 0,
+      "CountTimeOver5Ms": 0,
+      "EncounterAverageTime": 0,
+      "LastTime": 0,
+      "PeakTime": 0,
+      "RecentAverageTime": 0,
+      "SessionAverageTime": 0
+     }
+    },
+    "Questie": {
+     "memoryKB": 18208.521484375,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 7,
+      "CountTimeOver10Ms": 108,
+      "CountTimeOver1Ms": 1043,
+      "CountTimeOver500Ms": 0,
+      "CountTimeOver50Ms": 14,
+      "CountTimeOver5Ms": 235,
+      "EncounterAverageTime": 0,
+      "LastTime": 0.1695,
+      "PeakTime": 157.7862,
+      "RecentAverageTime": 0.1494266666666667,
+      "SessionAverageTime": 0.2448391546104053
+     }
+    },
+    "QuestieDB": {
+     "memoryKB": 24609.3076171875,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 0,
+      "CountTimeOver10Ms": 0,
+      "CountTimeOver1Ms": 0,
+      "CountTimeOver500Ms": 0,
+      "CountTimeOver50Ms": 0,
+      "CountTimeOver5Ms": 0,
+      "EncounterAverageTime": 0,
+      "LastTime": 0,
+      "PeakTime": 0,
+      "RecentAverageTime": 0,
+      "SessionAverageTime": 0
+     }
+    },
+    "TomTom": {
+     "memoryKB": 579.361328125,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 0,
+      "CountTimeOver10Ms": 0,
+      "CountTimeOver1Ms": 7,
+      "CountTimeOver500Ms": 0,
+      "CountTimeOver50Ms": 0,
+      "CountTimeOver5Ms": 0,
+      "EncounterAverageTime": 0,
+      "LastTime": 0.008400000000000001,
+      "PeakTime": 2.1945,
+      "RecentAverageTime": 0.01284333333333334,
+      "SessionAverageTime": 0.02102662589044976
+     }
+    },
+    "TweaksForever": {
+     "memoryKB": 1300.5185546875,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 0,
+      "CountTimeOver10Ms": 7,
+      "CountTimeOver1Ms": 8,
+      "CountTimeOver500Ms": 0,
+      "CountTimeOver50Ms": 7,
+      "CountTimeOver5Ms": 7,
+      "EncounterAverageTime": 0,
+      "LastTime": 0,
+      "PeakTime": 68.6341,
+      "RecentAverageTime": 0.00188,
+      "SessionAverageTime": 0.005853404953995615
+     }
+    },
+    "idTip": {
+     "memoryKB": 62.9228515625,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 0,
+      "CountTimeOver10Ms": 0,
+      "CountTimeOver1Ms": 0,
+      "CountTimeOver500Ms": 0,
+      "CountTimeOver50Ms": 0,
+      "CountTimeOver5Ms": 0,
+      "EncounterAverageTime": 0,
+      "LastTime": 0,
+      "PeakTime": 0,
+      "RecentAverageTime": 0,
+      "SessionAverageTime": 0
+     }
+    }
+   },
+   "counts": {
+    "addons": 9
+   },
+   "gameTime": 1056296.396,
+   "inCombat": false,
+   "profiler": {
+    "application": {
+     "CountTimeOver1000Ms": 6,
+     "CountTimeOver100Ms": 30999,
+     "CountTimeOver10Ms": 91189,
+     "CountTimeOver1Ms": 91189,
+     "CountTimeOver500Ms": 14,
+     "CountTimeOver50Ms": 31705,
+     "CountTimeOver5Ms": 91189,
+     "EncounterAverageTime": 0,
+     "LastTime": 21,
+     "PeakTime": 6261,
+     "RecentAverageTime": 20.66666666666667,
+     "SessionAverageTime": 56.91118544248273
+    },
+    "enabled": true,
+    "overall": {
+     "CountTimeOver1000Ms": 0,
+     "CountTimeOver100Ms": 12,
+     "CountTimeOver10Ms": 139,
+     "CountTimeOver1Ms": 1115,
+     "CountTimeOver500Ms": 4,
+     "CountTimeOver50Ms": 23,
+     "CountTimeOver5Ms": 267,
+     "EncounterAverageTime": 0,
+     "LastTime": 0.1779,
+     "PeakTime": 749.5583,
+     "RecentAverageTime": 0.16415,
+     "SessionAverageTime": 0.3205152001315934
+    }
+   },
+   "reason": "capture:on",
+   "scriptProfile": "0",
+   "time": 1791428323
+  },
+  {
+   "addons": {
+    "Auctionator": {
+     "memoryKB": 5253.1806640625,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 0,
+      "CountTimeOver10Ms": 3,
+      "CountTimeOver1Ms": 9,
+      "CountTimeOver500Ms": 0,
+      "CountTimeOver50Ms": 0,
+      "CountTimeOver5Ms": 6,
+      "EncounterAverageTime": 0,
+      "LastTime": 0,
+      "PeakTime": 16.5478,
+      "RecentAverageTime": 0,
+      "SessionAverageTime": 0.0008905196306030824
+     }
+    },
+    "ForeverDump": {
+     "memoryKB": 70583.9453125,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 4,
+      "CountTimeOver10Ms": 40,
+      "CountTimeOver1Ms": 42,
+      "CountTimeOver500Ms": 4,
+      "CountTimeOver50Ms": 7,
+      "CountTimeOver5Ms": 40,
+      "EncounterAverageTime": 0,
+      "LastTime": 0,
+      "PeakTime": 644.1403,
+      "RecentAverageTime": 0,
+      "SessionAverageTime": 0.03424449330647059
+     }
+    },
+    "ForeverDungeonJournal": {
+     "memoryKB": 1440.4306640625,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 0,
+      "CountTimeOver10Ms": 7,
+      "CountTimeOver1Ms": 7,
+      "CountTimeOver500Ms": 0,
+      "CountTimeOver50Ms": 0,
+      "CountTimeOver5Ms": 7,
+      "EncounterAverageTime": 0,
+      "LastTime": 0,
+      "PeakTime": 24.2455,
+      "RecentAverageTime": 0,
+      "SessionAverageTime": 0.001544537282294106
+     }
+    },
+    "QuestLevelPatch": {
+     "memoryKB": 8.0908203125,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 0,
+      "CountTimeOver10Ms": 0,
+      "CountTimeOver1Ms": 0,
+      "CountTimeOver500Ms": 0,
+      "CountTimeOver50Ms": 0,
+      "CountTimeOver5Ms": 0,
+      "EncounterAverageTime": 0,
+      "LastTime": 0,
+      "PeakTime": 0,
+      "RecentAverageTime": 0,
+      "SessionAverageTime": 0
+     }
+    },
+    "Questie": {
+     "memoryKB": 18334.669921875,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 7,
+      "CountTimeOver10Ms": 108,
+      "CountTimeOver1Ms": 1043,
+      "CountTimeOver500Ms": 0,
+      "CountTimeOver50Ms": 14,
+      "CountTimeOver5Ms": 235,
+      "EncounterAverageTime": 0,
+      "LastTime": 0.135,
+      "PeakTime": 157.7862,
+      "RecentAverageTime": 0.1426066666666667,
+      "SessionAverageTime": 0.2422186488172549
+     }
+    },
+    "QuestieDB": {
+     "memoryKB": 24609.3076171875,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 0,
+      "CountTimeOver10Ms": 0,
+      "CountTimeOver1Ms": 0,
+      "CountTimeOver500Ms": 0,
+      "CountTimeOver50Ms": 0,
+      "CountTimeOver5Ms": 0,
+      "EncounterAverageTime": 0,
+      "LastTime": 0,
+      "PeakTime": 0,
+      "RecentAverageTime": 0,
+      "SessionAverageTime": 0
+     }
+    },
+    "TomTom": {
+     "memoryKB": 581.294921875,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 0,
+      "CountTimeOver10Ms": 0,
+      "CountTimeOver1Ms": 7,
+      "CountTimeOver500Ms": 0,
+      "CountTimeOver50Ms": 0,
+      "CountTimeOver5Ms": 0,
+      "EncounterAverageTime": 0,
+      "LastTime": 0.0314,
+      "PeakTime": 2.1945,
+      "RecentAverageTime": 0.015415,
+      "SessionAverageTime": 0.02081583845532363
+     }
+    },
+    "TweaksForever": {
+     "memoryKB": 1375.9716796875,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 0,
+      "CountTimeOver10Ms": 7,
+      "CountTimeOver1Ms": 8,
+      "CountTimeOver500Ms": 0,
+      "CountTimeOver50Ms": 7,
+      "CountTimeOver5Ms": 7,
+      "EncounterAverageTime": 0,
+      "LastTime": 0,
+      "PeakTime": 68.6341,
+      "RecentAverageTime": 0.00104,
+      "SessionAverageTime": 0.00572246039619149
+     }
+    },
+    "idTip": {
+     "memoryKB": 66.3544921875,
+     "metrics": {
+      "CountTimeOver1000Ms": 0,
+      "CountTimeOver100Ms": 0,
+      "CountTimeOver10Ms": 0,
+      "CountTimeOver1Ms": 0,
+      "CountTimeOver500Ms": 0,
+      "CountTimeOver50Ms": 0,
+      "CountTimeOver5Ms": 0,
+      "EncounterAverageTime": 0,
+      "LastTime": 0,
+      "PeakTime": 0,
+      "RecentAverageTime": 0,
+      "SessionAverageTime": 0
+     }
+    }
+   },
+   "counts": {
+    "addons": 9
+   },
+   "gameTime": 1056382.414,
+   "inCombat": false,
+   "profiler": {
+    "application": {
+     "CountTimeOver1000Ms": 6,
+     "CountTimeOver100Ms": 31235,
+     "CountTimeOver10Ms": 93653,
+     "CountTimeOver1Ms": 93653,
+     "CountTimeOver500Ms": 14,
+     "CountTimeOver50Ms": 32075,
+     "CountTimeOver5Ms": 93653,
+     "EncounterAverageTime": 0,
+     "LastTime": 21,
+     "PeakTime": 6261,
+     "RecentAverageTime": 59.33333333333334,
+     "SessionAverageTime": 56.33235099942341
+    },
+    "enabled": true,
+    "overall": {
+     "CountTimeOver1000Ms": 0,
+     "CountTimeOver100Ms": 12,
+     "CountTimeOver10Ms": 151,
+     "CountTimeOver1Ms": 1128,
+     "CountTimeOver500Ms": 4,
+     "CountTimeOver50Ms": 24,
+     "CountTimeOver5Ms": 279,
+     "EncounterAverageTime": 0,
+     "LastTime": 0.1664,
+     "PeakTime": 749.5583,
+     "RecentAverageTime": 0.1590616666666667,
+     "SessionAverageTime": 0.3188960023063617
+    }
+   },
+   "reason": "capture:off",
+   "scriptProfile": "0",
+   "time": 1791428409
+  }
+ ]
+}
