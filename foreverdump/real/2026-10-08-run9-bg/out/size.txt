@@ -1,0 +1,46 @@
+SV file 75.55 MB (sizes estimated from re-serialization, scaled to the file size; factor 1.26)
+    26.20 MB   34.7%  ForeverDumpCombatLogDB
+    26.20 MB   34.7%  ForeverDumpCombatLogDB > sessions
+    24.96 MB   33.0%  ForeverDumpLogDB
+    18.35 MB   24.3%  ForeverDumpLogDB > replay
+    18.35 MB   24.3%  ForeverDumpLogDB > replay > sessions
+    10.19 MB   13.5%  ForeverDumpRecordDB
+    10.19 MB   13.5%  ForeverDumpRecordDB > sessions
+     9.16 MB   12.1%  ForeverDumpDB
+     5.59 MB    7.4%  ForeverDumpDB > sections
+     4.05 MB    5.4%  ForeverDumpDocsDB
+     3.18 MB    4.2%  ForeverDumpLogDB > inference
+     3.09 MB    4.1%  ForeverDumpDocsDB > systems
+     2.37 MB    3.1%  ForeverDumpDB > sections > globals
+     1.55 MB    2.0%  ForeverDumpLogDB > inference > history
+     0.99 MB    1.3%  ForeverDumpStringsDB
+     0.99 MB    1.3%  ForeverDumpStringsDB > names
+     0.96 MB    1.3%  ForeverDumpLogDB > restrictions
+     0.85 MB    1.1%  ForeverDumpDB > sections > templates
+     0.77 MB    1.0%  ForeverDumpLogDB > inference > signals
+     0.76 MB    1.0%  ForeverDumpLogDB > restrictions > flips
+     0.74 MB    1.0%  ForeverDumpDocsDB > sharedTables
+     0.67 MB    0.9%  ForeverDumpDB > verify
+     0.67 MB    0.9%  ForeverDumpDB > verify > 70291
+     0.66 MB    0.9%  ForeverDumpLogDB > damageMeter
+     0.65 MB    0.9%  ForeverDumpLogDB > damageMeter > fights
+     0.65 MB    0.9%  ForeverDumpDB > sections > protected
+     0.62 MB    0.8%  ForeverDumpDB > enums
+     0.61 MB    0.8%  ForeverDumpLogDB > perf
+     0.61 MB    0.8%  ForeverDumpLogDB > perf > sessions
+     0.54 MB    0.7%  ForeverDumpLogDB > inference > inferences
+     0.51 MB    0.7%  ForeverDumpDB > cvars
+     0.44 MB    0.6%  ForeverDumpDB > sections > probe
+     0.43 MB    0.6%  ForeverDumpDB > apis
+     0.43 MB    0.6%  ForeverDumpDB > sections > frames
+     0.39 MB    0.5%  ForeverDumpDB > baselines
+     0.35 MB    0.5%  ForeverDumpLogDB > combatProbe
+     0.35 MB    0.5%  ForeverDumpDB > knowledge
+     0.33 MB    0.4%  ForeverDumpDB > cvars > Game
+     0.28 MB    0.4%  ForeverDumpDB > baselines > 70291
+     0.28 MB    0.4%  ForeverDumpLogDB > baseline
+     0.26 MB    0.3%  ForeverDumpLogDB > inference > fights
+     0.25 MB    0.3%  ForeverDumpDB > sections > widgets
+     0.23 MB    0.3%  ForeverDumpDB > sections > extras
+     0.23 MB    0.3%  ForeverDumpLogDB > combatProbe > cells
+     0.00 MB    0.0%  _static

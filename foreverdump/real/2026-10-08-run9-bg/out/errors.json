@@ -1,0 +1,1650 @@
+{
+ "blocked": [
+  {
+   "args": {
+    "state": 1,
+    "type": 4
+   },
+   "epoch": 1791511820,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1139792.205,
+   "inCombat": false,
+   "restrictions": "Map",
+   "server": 1791511820,
+   "sid": "login-20261008220326-39",
+   "t": 1139792.205,
+   "taintLog": "0",
+   "time": 1791511820
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 3
+   },
+   "epoch": 1791511821,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1139793.054,
+   "inCombat": false,
+   "restrictions": "Map,PvPMatch",
+   "server": 1791511821,
+   "sid": "login-20261008220326-39",
+   "t": 1139793.054,
+   "taintLog": "0",
+   "time": 1791511821
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 5
+   },
+   "epoch": 1791511821,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1139793.054,
+   "inCombat": false,
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791511821,
+   "sid": "login-20261008220326-39",
+   "t": 1139793.054,
+   "taintLog": "0",
+   "time": 1791511821
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791511880,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1139851.757,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791511880,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1139851.757,
+   "taintLog": "1",
+   "time": 1791511880
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791511906,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1139877.784,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791511906,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1139877.784,
+   "taintLog": "1",
+   "time": 1791511906
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791511910,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1139881.597,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791511910,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1139881.597,
+   "taintLog": "1",
+   "time": 1791511910
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791511926,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1139897.993,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791511926,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1139897.993,
+   "taintLog": "1",
+   "time": 1791511926
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512022,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1139994.259,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512022,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1139994.259,
+   "taintLog": "1",
+   "time": 1791512022
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512029,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140001.113,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512029,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140001.113,
+   "taintLog": "1",
+   "time": 1791512029
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512035,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140007.196,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512035,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140007.196,
+   "taintLog": "1",
+   "time": 1791512035
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512041,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140013.238,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512041,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140013.238,
+   "taintLog": "1",
+   "time": 1791512041
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512057,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140029.009,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512057,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140029.009,
+   "taintLog": "1",
+   "time": 1791512057
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512063,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140035.469,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512063,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140035.469,
+   "taintLog": "1",
+   "time": 1791512063
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512065,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140036.617,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512065,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140036.617,
+   "taintLog": "1",
+   "time": 1791512065
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512091,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140063.244,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512091,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140063.244,
+   "taintLog": "1",
+   "time": 1791512091
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512096,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140068.331,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512096,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140068.331,
+   "taintLog": "1",
+   "time": 1791512096
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512097,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140068.911,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512097,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140068.911,
+   "taintLog": "1",
+   "time": 1791512097
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512144,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140115.998,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512144,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140115.998,
+   "taintLog": "1",
+   "time": 1791512144
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512156,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140127.871,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512156,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140127.871,
+   "taintLog": "1",
+   "time": 1791512156
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512195,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140167.402,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512194,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140167.402,
+   "taintLog": "1",
+   "time": 1791512195
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512202,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140174.349,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512201,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140174.349,
+   "taintLog": "1",
+   "time": 1791512202
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512247,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140219.314,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512246,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140219.314,
+   "taintLog": "1",
+   "time": 1791512247
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512258,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140229.906,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512257,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140229.906,
+   "taintLog": "1",
+   "time": 1791512258
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512262,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140233.656,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512261,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140233.656,
+   "taintLog": "1",
+   "time": 1791512262
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512278,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140250.143,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512277,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140250.143,
+   "taintLog": "1",
+   "time": 1791512278
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512299,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140270.956,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512299,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140270.956,
+   "taintLog": "1",
+   "time": 1791512299
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512353,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140325.119,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512353,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140325.119,
+   "taintLog": "1",
+   "time": 1791512353
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512355,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140326.556,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512355,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140326.556,
+   "taintLog": "1",
+   "time": 1791512355
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512361,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140333.236,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512361,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140333.236,
+   "taintLog": "1",
+   "time": 1791512361
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512373,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140345.303,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512373,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140345.303,
+   "taintLog": "1",
+   "time": 1791512373
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512381,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140353.47,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512381,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140353.47,
+   "taintLog": "1",
+   "time": 1791512381
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512398,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140370.284,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512398,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140370.284,
+   "taintLog": "1",
+   "time": 1791512398
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512412,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140383.884,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512412,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140383.884,
+   "taintLog": "1",
+   "time": 1791512412
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512445,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140416.696,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512445,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140416.696,
+   "taintLog": "1",
+   "time": 1791512445
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512483,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140454.732,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512483,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140454.732,
+   "taintLog": "1",
+   "time": 1791512483
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512495,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140466.715,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512495,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140466.715,
+   "taintLog": "1",
+   "time": 1791512495
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512503,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140474.977,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512503,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140474.977,
+   "taintLog": "1",
+   "time": 1791512503
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512505,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140477.023,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512505,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140477.023,
+   "taintLog": "1",
+   "time": 1791512505
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512513,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140485.127,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512513,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140485.127,
+   "taintLog": "1",
+   "time": 1791512513
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512517,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140488.948,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512517,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140488.948,
+   "taintLog": "1",
+   "time": 1791512517
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512525,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140497.292,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512525,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140497.292,
+   "taintLog": "1",
+   "time": 1791512525
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512533,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140504.595,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512533,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140504.595,
+   "taintLog": "1",
+   "time": 1791512533
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512550,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140521.645,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512550,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140521.645,
+   "taintLog": "1",
+   "time": 1791512550
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512551,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140523.133,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512551,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140523.133,
+   "taintLog": "1",
+   "time": 1791512551
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512560,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140531.779,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512560,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140531.779,
+   "taintLog": "1",
+   "time": 1791512560
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512576,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140548.011,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512576,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140548.011,
+   "taintLog": "1",
+   "time": 1791512576
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512582,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140554.074,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512582,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140554.074,
+   "taintLog": "1",
+   "time": 1791512582
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512586,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140557.766,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512586,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140557.766,
+   "taintLog": "1",
+   "time": 1791512586
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512592,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140564.185,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512592,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140564.185,
+   "taintLog": "1",
+   "time": 1791512592
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512594,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140565.835,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512594,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140565.835,
+   "taintLog": "1",
+   "time": 1791512594
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512615,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140586.912,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512615,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140586.912,
+   "taintLog": "1",
+   "time": 1791512615
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512711,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140682.989,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512711,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140682.989,
+   "taintLog": "1",
+   "time": 1791512711
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512738,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140709.821,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512738,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140709.821,
+   "taintLog": "1",
+   "time": 1791512738
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512787,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140759.027,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512787,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140759.027,
+   "taintLog": "1",
+   "time": 1791512787
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512797,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140768.51,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512797,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140768.51,
+   "taintLog": "1",
+   "time": 1791512797
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512816,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140787.531,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512816,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140787.531,
+   "taintLog": "1",
+   "time": 1791512816
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512837,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140809,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512837,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140809,
+   "taintLog": "1",
+   "time": 1791512837
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512837,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140809.438,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512837,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140809.438,
+   "taintLog": "1",
+   "time": 1791512837
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512843,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140815.063,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512843,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140815.063,
+   "taintLog": "1",
+   "time": 1791512843
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512845,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140817.301,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512845,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140817.301,
+   "taintLog": "1",
+   "time": 1791512845
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512853,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140825.197,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512853,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140825.197,
+   "taintLog": "1",
+   "time": 1791512853
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512855,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140827.238,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512855,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140827.238,
+   "taintLog": "1",
+   "time": 1791512855
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512863,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140835.364,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512863,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140835.364,
+   "taintLog": "1",
+   "time": 1791512863
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512865,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140837.385,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512865,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140837.385,
+   "taintLog": "1",
+   "time": 1791512865
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512908,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140879.966,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512908,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140879.966,
+   "taintLog": "1",
+   "time": 1791512908
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512955,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140927.265,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512955,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140927.265,
+   "taintLog": "1",
+   "time": 1791512955
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512961,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140932.556,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512961,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140932.556,
+   "taintLog": "1",
+   "time": 1791512961
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512963,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140935.202,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512963,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140935.202,
+   "taintLog": "1",
+   "time": 1791512963
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512979,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140950.835,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791512979,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140950.835,
+   "taintLog": "1",
+   "time": 1791512979
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791512979,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140951.377,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791512979,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140951.377,
+   "taintLog": "1",
+   "time": 1791512979
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791513003,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1140974.574,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791513003,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1140974.574,
+   "taintLog": "1",
+   "time": 1791513003
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791513034,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1141005.697,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791513034,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1141005.697,
+   "taintLog": "1",
+   "time": 1791513034
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791513054,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1141025.76,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791513054,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1141025.76,
+   "taintLog": "1",
+   "time": 1791513054
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791513057,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1141028.644,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791513057,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1141028.644,
+   "taintLog": "1",
+   "time": 1791513057
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791513068,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1141039.957,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791513068,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1141039.957,
+   "taintLog": "1",
+   "time": 1791513068
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791513071,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1141042.587,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791513071,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1141042.587,
+   "taintLog": "1",
+   "time": 1791513071
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791513088,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1141060.232,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791513088,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1141060.232,
+   "taintLog": "1",
+   "time": 1791513088
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791513155,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1141127.349,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791513155,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1141127.349,
+   "taintLog": "1",
+   "time": 1791513155
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791513169,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1141141.128,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791513169,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1141141.128,
+   "taintLog": "1",
+   "time": 1791513169
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791513170,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1141142.295,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791513170,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1141142.295,
+   "taintLog": "1",
+   "time": 1791513170
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791513177,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1141149.232,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791513177,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1141149.232,
+   "taintLog": "1",
+   "time": 1791513177
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791513190,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1141161.628,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791513190,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1141161.628,
+   "taintLog": "1",
+   "time": 1791513190
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791513202,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1141173.532,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Map,PvPMatch",
+   "server": 1791513202,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1141173.532,
+   "taintLog": "1",
+   "time": 1791513202
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791513236,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1141208.411,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map,PvPMatch",
+   "server": 1791513236,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1141208.411,
+   "taintLog": "1",
+   "time": 1791513236
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 3
+   },
+   "duringCapture": true,
+   "epoch": 1791513250,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1141221.601,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Chat,Combat,Map",
+   "server": 1791513250,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1141221.601,
+   "taintLog": "1",
+   "time": 1791513250
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 5
+   },
+   "duringCapture": true,
+   "epoch": 1791513250,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1141221.601,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Combat,Map",
+   "server": 1791513250,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1141221.601,
+   "taintLog": "1",
+   "time": 1791513250
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791513250,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1141221.662,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Map",
+   "server": 1791513250,
+   "sid": "cap-20261008221025-40",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1141221.662,
+   "taintLog": "1",
+   "time": 1791513250
+  }
+ ],
+ "errors": [],
+ "perAddon": {}
+}

@@ -1,0 +1,365 @@
+{
+ "run": "2026-10-08-run9-bg",
+ "ok": true,
+ "salt": 1140216251,
+ "matches": 95,
+ "method": "t0+counter",
+ "counter": 42,
+ "t0_off": 0,
+ "hashedDistinct": 148,
+ "resolved": 139,
+ "resolvedPct": 93.9,
+ "unresolved": 9,
+ "unresolvedSample": [
+  [
+   "guid",
+   "18c04f28"
+  ],
+  [
+   "guid",
+   "6d9ae1e6"
+  ],
+  [
+   "guid",
+   "6ebc30a0"
+  ],
+  [
+   "guid",
+   "76908f20"
+  ],
+  [
+   "guid",
+   "8ed302fc"
+  ],
+  [
+   "guid",
+   "9cf117b8"
+  ],
+  [
+   "guid",
+   "c5f78370"
+  ],
+  [
+   "player",
+   "6ab94dc0"
+  ],
+  [
+   "player",
+   "88c83a98"
+  ]
+ ],
+ "collisions": 0,
+ "collisionSample": [],
+ "rewrite": {
+  "resolved_keys": 139,
+  "unresolved_keys": 9
+ },
+ "sessions": [
+  {
+   "session": 0,
+   "sid": "cap-20261008183852-21",
+   "t0": 1127103.501,
+   "version": "2.2.6",
+   "recovered": {
+    "salt": 1127580379,
+    "matches": 32,
+    "counter": null,
+    "t0_off": null,
+    "sample": [
+     [
+      "player",
+      "Player-4619-01127674",
+      "83dfc120"
+     ],
+     [
+      "player",
+      "Player-4619-00BC90F1",
+      "7b773680"
+     ],
+     [
+      "player",
+      "Player-4618-00513A6E",
+      "4acdef7b"
+     ],
+     [
+      "player",
+      "Player-4619-0091A4E8",
+      "77323550"
+     ],
+     [
+      "player",
+      "Player-4618-00EB40D8",
+      "5f5f38b8"
+     ],
+     [
+      "player",
+      "Player-4619-00ECD606",
+      "fc079530"
+     ],
+     [
+      "player",
+      "Player-4618-0057C206",
+      "46dee47c"
+     ],
+     [
+      "player",
+      "Player-4619-010753E4",
+      "27ebe630"
+     ],
+     [
+      "player",
+      "Player-4613-00D0A64C",
+      "ba42ea00"
+     ],
+     [
+      "player",
+      "Player-4619-00727E64",
+      "c75bdbe8"
+     ],
+     [
+      "player",
+      "Player-4620-006AECF8",
+      "7bb7aac8"
+     ],
+     [
+      "player",
+      "Player-4613-00DCB875",
+      "001d2ad0"
+     ]
+    ],
+    "method": "bruteforce-ownGUID",
+    "ownHex": "5f5f38b8"
+   }
+  },
+  {
+   "session": 1,
+   "sid": "cap-20261008193236-27",
+   "t0": 1130328.065,
+   "version": "2.2.7",
+   "recovered": {
+    "salt": 1131170476,
+    "matches": 44,
+    "counter": null,
+    "t0_off": null,
+    "sample": [
+     [
+      "player",
+      "Player-4619-01127674",
+      "83dfc120"
+     ],
+     [
+      "player",
+      "Player-4619-00BC90F1",
+      "7b773680"
+     ],
+     [
+      "player",
+      "Player-4618-00513A6E",
+      "4acdef7b"
+     ],
+     [
+      "player",
+      "Player-4619-0091A4E8",
+      "77323550"
+     ],
+     [
+      "player",
+      "Player-4618-00EB40D8",
+      "5f5f38b8"
+     ],
+     [
+      "player",
+      "Player-4619-00ECD606",
+      "fc079530"
+     ],
+     [
+      "player",
+      "Player-4618-0057C206",
+      "46dee47c"
+     ],
+     [
+      "player",
+      "Player-4619-010753E4",
+      "27ebe630"
+     ],
+     [
+      "player",
+      "Player-4613-00D0A64C",
+      "ba42ea00"
+     ],
+     [
+      "player",
+      "Player-4619-00727E64",
+      "c75bdbe8"
+     ],
+     [
+      "player",
+      "Player-4620-006AECF8",
+      "7bb7aac8"
+     ],
+     [
+      "player",
+      "Player-4613-00DCB875",
+      "001d2ad0"
+     ]
+    ],
+    "method": "bruteforce-ownGUID",
+    "ownHex": "5f5f38b8"
+   }
+  },
+  {
+   "session": 2,
+   "sid": "cap-20261008194049-33",
+   "t0": 1130821.421,
+   "version": "2.2.7",
+   "recovered": {
+    "salt": 1131170476,
+    "matches": 44,
+    "counter": 35,
+    "t0_off": 0,
+    "sample": [
+     [
+      "player",
+      "Player-4619-01127674",
+      "83dfc120"
+     ],
+     [
+      "player",
+      "Player-4619-00BC90F1",
+      "7b773680"
+     ],
+     [
+      "player",
+      "Player-4618-00513A6E",
+      "4acdef7b"
+     ],
+     [
+      "player",
+      "Player-4619-0091A4E8",
+      "77323550"
+     ],
+     [
+      "player",
+      "Player-4618-00EB40D8",
+      "5f5f38b8"
+     ],
+     [
+      "player",
+      "Player-4619-00ECD606",
+      "fc079530"
+     ],
+     [
+      "player",
+      "Player-4618-0057C206",
+      "46dee47c"
+     ],
+     [
+      "player",
+      "Player-4619-010753E4",
+      "27ebe630"
+     ],
+     [
+      "player",
+      "Player-4613-00D0A64C",
+      "ba42ea00"
+     ],
+     [
+      "player",
+      "Player-4619-00727E64",
+      "c75bdbe8"
+     ],
+     [
+      "player",
+      "Player-4620-006AECF8",
+      "7bb7aac8"
+     ],
+     [
+      "player",
+      "Player-4613-00DCB875",
+      "001d2ad0"
+     ]
+    ],
+    "method": "t0+counter"
+   }
+  },
+  {
+   "session": 3,
+   "sid": "cap-20261008221025-40",
+   "t0": 1139797.385,
+   "version": "2.2.10",
+   "recovered": {
+    "salt": 1140216251,
+    "matches": 95,
+    "counter": 42,
+    "t0_off": 0,
+    "sample": [
+     [
+      "player",
+      "Player-4618-00EB40D8",
+      "41aa28d0"
+     ],
+     [
+      "player",
+      "Player-4619-00AD9D60",
+      "26f7b168"
+     ],
+     [
+      "player",
+      "Player-4613-00722015",
+      "9a090418"
+     ],
+     [
+      "player",
+      "Player-4613-00E5B204",
+      "16873b38"
+     ],
+     [
+      "player",
+      "Player-4620-010BFA32",
+      "a2716608"
+     ],
+     [
+      "player",
+      "Player-4619-00DFF7B6",
+      "3d8803b0"
+     ],
+     [
+      "player",
+      "Player-4619-00BC9F6F",
+      "97e4b228"
+     ],
+     [
+      "player",
+      "Player-4619-00EC7552",
+      "bb98dfe0"
+     ],
+     [
+      "player",
+      "Player-4619-00CC7E12",
+      "3ec06038"
+     ],
+     [
+      "player",
+      "Player-4619-00EB40C2",
+      "b185cf08"
+     ],
+     [
+      "player",
+      "Player-4619-0067EE7A",
+      "74f51258"
+     ],
+     [
+      "player",
+      "Player-4620-00BF6454",
+      "f3e72148"
+     ]
+    ],
+    "method": "t0+counter"
+   }
+  }
+ ],
+ "ownGuidResolved": true,
+ "log": "/workspace/foreverdump/real/2026-10-08-run9-bg/WoWCombatLog.txt",
+ "out": "/workspace/foreverdump/real/2026-10-08-run9-bg/sv_raw",
+ "luaSubstitutions": 26628
+}
