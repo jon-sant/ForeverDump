@@ -1,0 +1,167 @@
+{
+  "combatlog": true,
+  "sessionCount": 3,
+  "sessions": [
+    {
+      "addonVersion": "2.2.6",
+      "anchorJoin": {
+        "anchors": 0,
+        "matched": 0
+      },
+      "anchorJoinRate": null,
+      "byKind": {
+        "dm": 121,
+        "hdr": 1,
+        "sec": 253,
+        "ws": 1439
+      },
+      "bytes": 92028,
+      "combatLogEnd": true,
+      "combatLogStart": false,
+      "decide": {
+        "conflicts": [],
+        "groups": 0,
+        "ok": false,
+        "vacuous": true
+      },
+      "dropped": {},
+      "groupSize": 1,
+      "groupType": "solo",
+      "mapEnd": {
+        "instanceId": 1,
+        "instanceType": "none",
+        "uiMapId": 1441
+      },
+      "mapStart": {
+        "instanceId": 1,
+        "instanceType": "none",
+        "uiMapId": 1441
+      },
+      "n": 1814,
+      "overflow": 0,
+      "overwritten": 0,
+      "privacyHits": 0,
+      "privacySamples": [],
+      "ringOverflow": {},
+      "schemaVersion": 3,
+      "seeds": {
+        "knowledgePatch": "kp:252221b8",
+        "learned": "ln:e57bb460",
+        "spellTiming": "st:ff6dddfc"
+      },
+      "verbosity": "test",
+      "verbosityEnd": "test"
+    },
+    {
+      "addonVersion": "2.2.6",
+      "anchorJoin": {
+        "anchors": 0,
+        "matched": 0
+      },
+      "anchorJoinRate": null,
+      "byKind": {
+        "dm": 131,
+        "hdr": 1,
+        "sec": 372,
+        "ws": 2851
+      },
+      "bytes": 167808,
+      "combatLogEnd": false,
+      "combatLogStart": false,
+      "decide": {
+        "conflicts": [],
+        "groups": 0,
+        "ok": false,
+        "vacuous": true
+      },
+      "dropped": {},
+      "groupSize": 1,
+      "groupType": "solo",
+      "mapEnd": {
+        "instanceId": 1,
+        "instanceType": "none",
+        "uiMapId": 1441
+      },
+      "mapStart": {
+        "instanceId": 1,
+        "instanceType": "none",
+        "uiMapId": 1441
+      },
+      "n": 3355,
+      "overflow": 0,
+      "overwritten": 0,
+      "privacyHits": 0,
+      "privacySamples": [],
+      "ringOverflow": {},
+      "schemaVersion": 3,
+      "seeds": {
+        "knowledgePatch": "kp:252221b8",
+        "learned": "ln:e57bb460",
+        "spellTiming": "st:ff6dddfc"
+      },
+      "verbosity": "test",
+      "verbosityEnd": "test"
+    },
+    {
+      "addonVersion": "2.2.6",
+      "anchorJoin": {
+        "anchors": 0,
+        "matched": 0
+      },
+      "anchorJoinRate": null,
+      "byKind": {
+        "dm": 103,
+        "hdr": 1,
+        "sec": 383,
+        "ws": 3356
+      },
+      "bytes": 191136,
+      "combatLogEnd": true,
+      "combatLogStart": false,
+      "decide": {
+        "conflicts": [],
+        "groups": 0,
+        "ok": false,
+        "vacuous": true
+      },
+      "dropped": {},
+      "groupSize": 1,
+      "groupType": "solo",
+      "mapEnd": {
+        "instanceId": 1,
+        "instanceType": "none",
+        "uiMapId": 1441
+      },
+      "mapStart": {
+        "instanceId": 1,
+        "instanceType": "none",
+        "uiMapId": 1441
+      },
+      "n": 3843,
+      "overflow": 0,
+      "overwritten": 0,
+      "privacyHits": 0,
+      "privacySamples": [],
+      "ringOverflow": {},
+      "schemaVersion": 3,
+      "seeds": {
+        "knowledgePatch": "kp:252221b8",
+        "learned": "ln:e57bb460",
+        "spellTiming": "st:ff6dddfc"
+      },
+      "verbosity": "test",
+      "verbosityEnd": "test"
+    }
+  ],
+  "summary": {
+    "decideConflicts": 0,
+    "decideVacuous": 3,
+    "ok": false,
+    "privacyHits": 0,
+    "totalRecords": 9012,
+    "verbosities": [
+      "test"
+    ]
+  },
+  "v": 1
+}

@@ -1,0 +1,3632 @@
+{
+ "castSource": "raw-events",
+ "casts": {
+  "logCasts": [
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791498635.75
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791498636.915
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791498638.624
+   },
+   {
+    "dur": 2.208,
+    "interruptedAfter": null,
+    "npc": "3902",
+    "spell": 6350,
+    "spellName": "Attack",
+    "t": 1791498640.165
+   },
+   {
+    "dur": 2.204,
+    "interruptedAfter": null,
+    "npc": "3902",
+    "spell": 6350,
+    "spellName": "Attack",
+    "t": 1791498643.029
+   },
+   {
+    "dur": 2.253,
+    "interruptedAfter": null,
+    "npc": "3902",
+    "spell": 6350,
+    "spellName": "Attack",
+    "t": 1791498645.441
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791498647.171
+   },
+   {
+    "dur": 2.155,
+    "interruptedAfter": null,
+    "npc": "3902",
+    "spell": 6350,
+    "spellName": "Attack",
+    "t": 1791498647.924
+   },
+   {
+    "dur": 3.062,
+    "interruptedAfter": null,
+    "npc": "4096",
+    "spell": 939,
+    "spellName": "Healing Wave",
+    "t": 1791498649.497
+   },
+   {
+    "dur": 2.23,
+    "interruptedAfter": null,
+    "npc": "3902",
+    "spell": 6350,
+    "spellName": "Attack",
+    "t": 1791498650.33
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "3902",
+    "spell": 6350,
+    "spellName": "Attack",
+    "t": 1791498652.766
+   },
+   {
+    "dur": 2.249,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791498659.455
+   },
+   {
+    "dur": 2.979,
+    "interruptedAfter": null,
+    "npc": "4096",
+    "spell": 939,
+    "spellName": "Healing Wave",
+    "t": 1791498661.704
+   },
+   {
+    "dur": 2.437,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791498661.704
+   },
+   {
+    "dur": 2.377,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791498664.141
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791498666.288
+   },
+   {
+    "dur": 2.457,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791498666.518
+   },
+   {
+    "dur": 2.438,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791498668.975
+   },
+   {
+    "dur": 0.001,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791498669.955
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791498671.413
+   },
+   {
+    "dur": null,
+    "interruptedAfter": 2.358,
+    "npc": "4096",
+    "spell": 939,
+    "spellName": "Healing Wave",
+    "t": 1791498672.643
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791498680.333
+   },
+   {
+    "dur": 2.407,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791498683.187
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791498685.594
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499133.945
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499141.268
+   },
+   {
+    "dur": 2.124,
+    "interruptedAfter": null,
+    "npc": "3903",
+    "spell": 6351,
+    "spellName": "Attack",
+    "t": 1791499145.768
+   },
+   {
+    "dur": 2.126,
+    "interruptedAfter": null,
+    "npc": "3903",
+    "spell": 6351,
+    "spellName": "Attack",
+    "t": 1791499148.143
+   },
+   {
+    "dur": 2.125,
+    "interruptedAfter": null,
+    "npc": "3903",
+    "spell": 6351,
+    "spellName": "Attack",
+    "t": 1791499150.642
+   },
+   {
+    "dur": 2.249,
+    "interruptedAfter": null,
+    "npc": "3903",
+    "spell": 6351,
+    "spellName": "Attack",
+    "t": 1791499153.018
+   },
+   {
+    "dur": 2.251,
+    "interruptedAfter": null,
+    "npc": "3903",
+    "spell": 6351,
+    "spellName": "Attack",
+    "t": 1791499155.394
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "3903",
+    "spell": 6351,
+    "spellName": "Attack",
+    "t": 1791499157.902
+   },
+   {
+    "dur": 4.651,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499170.241
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499170.241
+   },
+   {
+    "dur": 2.074,
+    "interruptedAfter": null,
+    "npc": "4096",
+    "spell": 6728,
+    "spellName": "Enveloping Winds",
+    "t": 1791499170.761
+   },
+   {
+    "dur": 2.503,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499174.892
+   },
+   {
+    "dur": 2.501,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499177.395
+   },
+   {
+    "dur": 2.249,
+    "interruptedAfter": null,
+    "npc": "3903",
+    "spell": 6351,
+    "spellName": "Attack",
+    "t": 1791499178.271
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499179.895
+   },
+   {
+    "dur": 2.375,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499179.896
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "3903",
+    "spell": 6351,
+    "spellName": "Attack",
+    "t": 1791499180.647
+   },
+   {
+    "dur": 2.499,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499182.271
+   },
+   {
+    "dur": 3.533,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499184.77
+   },
+   {
+    "dur": 0.001,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499188.302
+   },
+   {
+    "dur": 3.605,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499190.76
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499194.365
+   },
+   {
+    "dur": 2.957,
+    "interruptedAfter": null,
+    "npc": "4096",
+    "spell": 939,
+    "spellName": "Healing Wave",
+    "t": 1791499195.635
+   },
+   {
+    "dur": 2.978,
+    "interruptedAfter": null,
+    "npc": "4096",
+    "spell": 939,
+    "spellName": "Healing Wave",
+    "t": 1791499196.844
+   },
+   {
+    "dur": 2.2,
+    "interruptedAfter": null,
+    "npc": "3903",
+    "spell": 6351,
+    "spellName": "Attack",
+    "t": 1791499197.288
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "3903",
+    "spell": 6351,
+    "spellName": "Attack",
+    "t": 1791499199.593
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499202.739
+   },
+   {
+    "dur": 3.062,
+    "interruptedAfter": null,
+    "npc": "4096",
+    "spell": 939,
+    "spellName": "Healing Wave",
+    "t": 1791499209.346
+   },
+   {
+    "dur": 2.29,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499209.888
+   },
+   {
+    "dur": 2.421,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499212.178
+   },
+   {
+    "dur": 2.424,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499214.599
+   },
+   {
+    "dur": 2.423,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499214.6
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499217.023
+   },
+   {
+    "dur": 2.438,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499217.023
+   },
+   {
+    "dur": 2.449,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499219.461
+   },
+   {
+    "dur": 3.752,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499221.91
+   },
+   {
+    "dur": 2.389,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499224.785
+   },
+   {
+    "dur": 2.325,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499225.662
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499227.174
+   },
+   {
+    "dur": 0.001,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499227.986
+   },
+   {
+    "dur": 2.458,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499232.841
+   },
+   {
+    "dur": 2.833,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499232.842
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4096",
+    "spell": 939,
+    "spellName": "Healing Wave",
+    "t": 1791499234.863
+   },
+   {
+    "dur": 3.646,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499235.299
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499235.675
+   },
+   {
+    "dur": 2.375,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499238.945
+   },
+   {
+    "dur": 2.56,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499240.426
+   },
+   {
+    "dur": 2.5,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499241.32
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4094",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499242.986
+   },
+   {
+    "dur": 2.333,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499243.82
+   },
+   {
+    "dur": 2.439,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499246.153
+   },
+   {
+    "dur": 2.499,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499248.592
+   },
+   {
+    "dur": 2.375,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499251.091
+   },
+   {
+    "dur": 2.438,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499253.466
+   },
+   {
+    "dur": 3.708,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499255.904
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4096",
+    "spell": 939,
+    "spellName": "Healing Wave",
+    "t": 1791499256.362
+   },
+   {
+    "dur": null,
+    "interruptedAfter": null,
+    "npc": "4093",
+    "spell": 6660,
+    "spellName": "Shoot",
+    "t": 1791499259.612
+   }
+  ],
+  "mae": null,
+  "model": [],
+  "predicted": 0,
+  "rows": [],
+  "within150ms": 0
+ },
+ "cdtrack": {
+  "casts": 10,
+  "contradictions": [],
+  "counts": {
+   "consistent": 10
+  },
+  "gcds": [],
+  "nyr": {
+   "confirms": 1
+  },
+  "readies": [],
+  "spells": {
+   "1238640": {
+    "gcdN": 0,
+    "learnedN": 0,
+    "srCategory": 133
+   },
+   "408342": {
+    "category": 35,
+    "gcdN": 0,
+    "learnedN": 0,
+    "srCategory": 133
+   },
+   "6391": {
+    "category": 45,
+    "gcdN": 0,
+    "learnedN": 0,
+    "srCategory": 133
+   },
+   "8008": {
+    "gcdN": 0,
+    "learnedN": 0,
+    "srCategory": 133
+   },
+   "8046": {
+    "category": 19,
+    "gcdN": 0,
+    "learnedN": 0,
+    "srCategory": 133
+   },
+   "8052": {
+    "category": 19,
+    "gcdN": 0,
+    "learnedN": 0,
+    "srCategory": 133
+   },
+   "8056": {
+    "category": 19,
+    "gcdN": 0,
+    "learnedN": 0,
+    "srCategory": 133
+   },
+   "8155": {
+    "gcdN": 0,
+    "learnedN": 0,
+    "srCategory": 133
+   },
+   "8177": {
+    "category": 230,
+    "gcdN": 0,
+    "learnedN": 0,
+    "srCategory": 133
+   },
+   "905": {
+    "gcdN": 0,
+    "learnedN": 0,
+    "srCategory": 133
+   }
+  }
+ },
+ "combat": [
+  [
+   1791499213.823,
+   1791499261.965
+  ]
+ ],
+ "cooldowns": {
+  "counts": {
+   "contradicts": 1,
+   "n/a": 2
+  },
+  "fails": [
+   {
+    "reason": "Out of range",
+    "remaining": null,
+    "rule": "fail-outside-cd",
+    "spell": 8052,
+    "t": 1791499213.555,
+    "verdict": "n/a"
+   },
+   {
+    "reason": "Not yet recovered",
+    "remaining": null,
+    "rule": "fail-gcd",
+    "spell": 905,
+    "t": 1791499236.07,
+    "verdict": "contradicts"
+   },
+   {
+    "reason": "Your target is dead",
+    "remaining": null,
+    "rule": "fail-outside-cd",
+    "spell": 8046,
+    "t": 1791499261.716,
+    "verdict": "n/a"
+   }
+  ],
+  "recast": [
+   {
+    "cast": 1791499240.673,
+    "cdConfirm": null,
+    "predictedReady": 1791499246.673,
+    "recast": 1791499247.364,
+    "recastMinusReady": 0.691,
+    "spell": 8046,
+    "verdict": "consistent"
+   }
+  ]
+ },
+ "damageMeter": {
+  "deep": {
+   "fights": 3,
+   "nSources": 17,
+   "nUnits": 1
+  },
+  "events": {
+   "0": 22,
+   "1": 22,
+   "10": 22,
+   "2": 4,
+   "3": 4,
+   "7": 28
+  },
+  "eventsByCtx": {
+   "combat": 102
+  },
+  "functions": {
+   "GetAvailableCombatSessions": true,
+   "GetCombatSessionFromID": true,
+   "GetCombatSessionFromType": true,
+   "GetCombatSessionSourceFromID": true,
+   "GetCombatSessionSourceFromType": true,
+   "GetSessionDurationSeconds": true,
+   "IsDamageMeterAvailable": true,
+   "ResetAllCombatSessions": true
+  },
+  "moduleEvents": {
+   "0": 22,
+   "1": 22,
+   "10": 22,
+   "2": 4,
+   "3": 4,
+   "7": 28,
+   "DAMAGE_METER_CURRENT_SESSION_UPDATED": 1
+  },
+  "probeCells": [
+   {
+    "ctx": "combat",
+    "key": "C_DamageMeter.GetCombatSessionFromType",
+    "unit": "global",
+    "v": {
+     "doc": "conditional:SecretWhenInCombat",
+     "f": {
+      "combatSources": {
+       "K": 17
+      },
+      "durationSeconds": {
+       "S": 17
+      },
+      "maxAmount": {
+       "S": 17
+      },
+      "totalAmount": {
+       "S": 17
+      }
+     },
+     "n": 17,
+     "p": {
+      "t": 17
+     },
+     "r": [
+      {
+       "T": 17
+      }
+     ]
+    }
+   },
+   {
+    "ctx": "combat",
+    "key": "C_DamageMeter.IsDamageMeterAvailable",
+    "unit": "global",
+    "v": {
+     "doc": "unspecified",
+     "n": 15,
+     "r": [
+      {
+       "C": 15
+      },
+      {
+       "C": 15
+      }
+     ]
+    }
+   },
+   {
+    "ctx": "ooc",
+    "key": "C_DamageMeter.GetCombatSessionFromType",
+    "unit": "global",
+    "v": {
+     "doc": "conditional:SecretWhenInCombat",
+     "f": {
+      "combatSources": {
+       "K": 10
+      },
+      "durationSeconds": {
+       "C": 10
+      },
+      "maxAmount": {
+       "C": 10
+      },
+      "totalAmount": {
+       "C": 10
+      }
+     },
+     "n": 10,
+     "p": {
+      "f": 10
+     },
+     "r": [
+      {
+       "K": 10
+      }
+     ]
+    }
+   },
+   {
+    "ctx": "ooc",
+    "key": "C_DamageMeter.IsDamageMeterAvailable",
+    "unit": "global",
+    "v": {
+     "doc": "unspecified",
+     "n": 10,
+     "r": [
+      {
+       "C": 10
+      },
+      {
+       "C": 10
+      }
+     ]
+    }
+   }
+  ],
+  "reconcile": [
+   {
+    "dmDur": 48,
+    "dmEnemy": 439,
+    "dmHeal": 400,
+    "dmInterrupts": 0,
+    "dmMine": 439,
+    "dmOthers": 0,
+    "dmTaken": 494,
+    "dur": 48.1,
+    "fight": 1,
+    "logHealEff": 400,
+    "logInterrupts": 0,
+    "logMine": 439,
+    "logOtherOnTargets": 585,
+    "logTaken": 494,
+    "source": "DamageMeter.lua"
+   }
+  ],
+  "recordSource": "DamageMeter.lua",
+  "records": 11,
+  "schema": {
+   "after-combat": {
+    "AvailableCombatSession.durationSeconds": {
+     "C": 3
+    },
+    "AvailableCombatSession.name": {
+     "C": 3
+    },
+    "AvailableCombatSession.sessionID": {
+     "C": 3
+    },
+    "CombatSession.combatSources": {
+     "K": 3
+    },
+    "CombatSession.durationSeconds": {
+     "C": 3
+    },
+    "CombatSession.maxAmount": {
+     "C": 3
+    },
+    "CombatSession.totalAmount": {
+     "C": 3
+    },
+    "CombatSessionSource.combatSpells": {
+     "K": 3
+    },
+    "CombatSessionSource.totalAmount": {
+     "C": 3
+    },
+    "CombatSource.amountPerSecond": {
+     "C": 3
+    },
+    "CombatSource.classFilename": {
+     "C": 3
+    },
+    "CombatSource.classification": {
+     "C": 3
+    },
+    "CombatSource.combatSpells": {
+     "N": 3
+    },
+    "CombatSource.deathRecapID": {
+     "C": 3
+    },
+    "CombatSource.deathTimeSeconds": {
+     "C": 3
+    },
+    "CombatSource.isLocalPlayer": {
+     "C": 3
+    },
+    "CombatSource.name": {
+     "C": 3
+    },
+    "CombatSource.sourceCreatureID": {
+     "N": 3
+    },
+    "CombatSource.sourceDisplayType": {
+     "C": 3
+    },
+    "CombatSource.sourceGUID": {
+     "C": 3
+    },
+    "CombatSource.specIconID": {
+     "C": 3
+    },
+    "CombatSource.totalAmount": {
+     "C": 3
+    },
+    "CombatSpell.amountPerSecond": {
+     "C": 3
+    },
+    "CombatSpell.combatSpellDetails": {
+     "K": 3
+    },
+    "CombatSpell.creatureName": {
+     "C": 3
+    },
+    "CombatSpell.isAvoidable": {
+     "N": 3
+    },
+    "CombatSpell.isDeadly": {
+     "N": 3
+    },
+    "CombatSpell.overkillAmount": {
+     "C": 3
+    },
+    "CombatSpell.spellID": {
+     "C": 3
+    },
+    "CombatSpell.totalAmount": {
+     "C": 3
+    },
+    "GetAvailableCombatSessions": {
+     "K": 3
+    },
+    "GetCombatSessionFromType": {
+     "K": 3
+    },
+    "GetCombatSessionSourceFromType": {
+     "K": 3
+    },
+    "GetSessionDurationSeconds": {
+     "C": 3
+    },
+    "IsDamageMeterAvailable": {
+     "C": 3
+    },
+    "nAvailableSessions": {
+     "C": 3
+    }
+   },
+   "combat": {
+    "AvailableCombatSession.durationSeconds": {
+     "C": 1
+    },
+    "AvailableCombatSession.name": {
+     "C": 1
+    },
+    "AvailableCombatSession.sessionID": {
+     "C": 1
+    },
+    "CombatSession.combatSources": {
+     "K": 1
+    },
+    "CombatSession.durationSeconds": {
+     "S": 1
+    },
+    "CombatSession.maxAmount": {
+     "S": 1
+    },
+    "CombatSession.totalAmount": {
+     "S": 1
+    },
+    "CombatSessionSource.combatSpells": {
+     "K": 1
+    },
+    "CombatSessionSource.totalAmount": {
+     "S": 1
+    },
+    "CombatSource.amountPerSecond": {
+     "S": 1
+    },
+    "CombatSource.classFilename": {
+     "C": 1
+    },
+    "CombatSource.classification": {
+     "C": 1
+    },
+    "CombatSource.combatSpells": {
+     "N": 1
+    },
+    "CombatSource.deathRecapID": {
+     "C": 1
+    },
+    "CombatSource.deathTimeSeconds": {
+     "S": 1
+    },
+    "CombatSource.isLocalPlayer": {
+     "C": 1
+    },
+    "CombatSource.name": {
+     "S": 1
+    },
+    "CombatSource.sourceCreatureID": {
+     "N": 1
+    },
+    "CombatSource.sourceDisplayType": {
+     "S": 1
+    },
+    "CombatSource.sourceGUID": {
+     "S": 1
+    },
+    "CombatSource.specIconID": {
+     "C": 1
+    },
+    "CombatSource.totalAmount": {
+     "S": 1
+    },
+    "CombatSpell.amountPerSecond": {
+     "S": 1
+    },
+    "CombatSpell.creatureName": {
+     "S": 1
+    },
+    "CombatSpell.overkillAmount": {
+     "S": 1
+    },
+    "CombatSpell.spellID": {
+     "S": 1
+    },
+    "CombatSpell.totalAmount": {
+     "S": 1
+    },
+    "GetAvailableCombatSessions": {
+     "K": 1
+    },
+    "GetCombatSessionFromType": {
+     "T": 1
+    },
+    "GetCombatSessionSourceFromType": {
+     "T": 1
+    },
+    "GetSessionDurationSeconds": {
+     "C": 1
+    },
+    "IsDamageMeterAvailable": {
+     "C": 1
+    },
+    "nAvailableSessions": {
+     "C": 1
+    }
+   },
+   "combat-struct": {
+    "struct.DamageDone.nSources": {
+     "C": 11
+    },
+    "struct.DamageDone.nSpells": {
+     "N": 11
+    },
+    "struct.DamageDone.session": {
+     "T": 11
+    },
+    "struct.DamageTaken.nSources": {
+     "C": 14
+    },
+    "struct.DamageTaken.nSpells": {
+     "N": 14
+    },
+    "struct.DamageTaken.session": {
+     "T": 14
+    },
+    "struct.Dps.nSources": {
+     "C": 11
+    },
+    "struct.Dps.nSpells": {
+     "N": 11
+    },
+    "struct.Dps.session": {
+     "T": 11
+    },
+    "struct.EnemyDamageTaken.nSources": {
+     "C": 11
+    },
+    "struct.EnemyDamageTaken.nSpells": {
+     "N": 11
+    },
+    "struct.EnemyDamageTaken.session": {
+     "T": 11
+    },
+    "struct.HealingDone.nSources": {
+     "C": 2
+    },
+    "struct.HealingDone.nSpells": {
+     "N": 2
+    },
+    "struct.HealingDone.session": {
+     "T": 2
+    },
+    "struct.Hps.nSources": {
+     "C": 2
+    },
+    "struct.Hps.nSpells": {
+     "N": 2
+    },
+    "struct.Hps.session": {
+     "T": 2
+    }
+   },
+   "ooc": {
+    "AvailableCombatSession.durationSeconds": {
+     "C": 1
+    },
+    "AvailableCombatSession.name": {
+     "C": 1
+    },
+    "AvailableCombatSession.sessionID": {
+     "C": 1
+    },
+    "CombatSession.combatSources": {
+     "K": 1
+    },
+    "CombatSession.durationSeconds": {
+     "C": 1
+    },
+    "CombatSession.maxAmount": {
+     "C": 1
+    },
+    "CombatSession.totalAmount": {
+     "C": 1
+    },
+    "CombatSessionSource.combatSpells": {
+     "K": 1
+    },
+    "CombatSessionSource.totalAmount": {
+     "C": 1
+    },
+    "CombatSource.amountPerSecond": {
+     "C": 1
+    },
+    "CombatSource.classFilename": {
+     "C": 1
+    },
+    "CombatSource.classification": {
+     "C": 1
+    },
+    "CombatSource.combatSpells": {
+     "N": 1
+    },
+    "CombatSource.deathRecapID": {
+     "C": 1
+    },
+    "CombatSource.deathTimeSeconds": {
+     "C": 1
+    },
+    "CombatSource.isLocalPlayer": {
+     "C": 1
+    },
+    "CombatSource.name": {
+     "C": 1
+    },
+    "CombatSource.sourceCreatureID": {
+     "N": 1
+    },
+    "CombatSource.sourceDisplayType": {
+     "C": 1
+    },
+    "CombatSource.sourceGUID": {
+     "C": 1
+    },
+    "CombatSource.specIconID": {
+     "C": 1
+    },
+    "CombatSource.totalAmount": {
+     "C": 1
+    },
+    "CombatSpell.amountPerSecond": {
+     "C": 1
+    },
+    "CombatSpell.combatSpellDetails": {
+     "K": 1
+    },
+    "CombatSpell.creatureName": {
+     "C": 1
+    },
+    "CombatSpell.isAvoidable": {
+     "N": 1
+    },
+    "CombatSpell.isDeadly": {
+     "N": 1
+    },
+    "CombatSpell.overkillAmount": {
+     "C": 1
+    },
+    "CombatSpell.spellID": {
+     "C": 1
+    },
+    "CombatSpell.totalAmount": {
+     "C": 1
+    },
+    "GetAvailableCombatSessions": {
+     "K": 1
+    },
+    "GetCombatSessionFromType": {
+     "K": 1
+    },
+    "GetCombatSessionSourceFromType": {
+     "K": 1
+    },
+    "GetSessionDurationSeconds": {
+     "C": 1
+    },
+    "IsDamageMeterAvailable": {
+     "C": 1
+    },
+    "nAvailableSessions": {
+     "C": 1
+    }
+   }
+  },
+  "secretArgEvents": 0,
+  "unavailable": null
+ },
+ "fights": [
+  {
+   "dur": 48.1,
+   "healEffective": 400,
+   "healRaw": 456,
+   "interruptsMine": 0,
+   "mineDamage": 439,
+   "n": 1,
+   "otherBySrc": {
+    "other": 178,
+    "player": 407
+   },
+   "otherOnTargets": 585,
+   "start": 1791499213.823,
+   "stop": 1791499261.965,
+   "takenDamage": 494,
+   "targets": 1
+  }
+ ],
+ "hpMaxStandin": 1225,
+ "interrupts": [],
+ "ledger": {
+  "auraProbes": {},
+  "byConf": {},
+  "ledger": {
+   "caps": {
+    "aura": 400,
+    "cast": 64,
+    "fingerprint": 300,
+    "guid": 300,
+    "plate": 40,
+    "token": 64
+   },
+   "counts": {
+    "cast": 1
+   },
+   "stats": {
+    "evicted": 0,
+    "fresh": 0,
+    "invalidated": 0,
+    "live": 0,
+    "miss": 0,
+    "puts": 24,
+    "stale": 0
+   }
+  },
+  "tokenGuid": {
+   "correct": 18,
+   "n": 18
+  },
+  "wrong": []
+ },
+ "matrix": [
+  {
+   "amount": 0,
+   "cat": "absorb",
+   "ctx": "combat",
+   "dst": "player",
+   "log": 5,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "absorb",
+   "ctx": "ooc",
+   "dst": "player",
+   "log": 15,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "combat",
+   "dst": "me",
+   "log": 2,
+   "onToken": 2,
+   "spell": 0,
+   "src": "me",
+   "visible": 2
+  },
+  {
+   "amount": 1,
+   "cat": "aura+",
+   "ctx": "ooc",
+   "dst": "me",
+   "log": 1,
+   "onToken": 1,
+   "spell": 1,
+   "src": "me",
+   "visible": 1
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 1,
+   "onToken": 1,
+   "spell": 0,
+   "src": "me",
+   "visible": 1
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "combat",
+   "dst": "me",
+   "log": 2,
+   "onToken": 2,
+   "spell": 0,
+   "src": "npc",
+   "visible": 2
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 1,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "ooc",
+   "dst": "other",
+   "log": 1,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "combat",
+   "dst": "player",
+   "log": 1,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "ooc",
+   "dst": "player",
+   "log": 9,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "combat",
+   "dst": "other",
+   "log": 1,
+   "onToken": 0,
+   "spell": 0,
+   "src": "other",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "ooc",
+   "dst": "other",
+   "log": 2,
+   "onToken": 0,
+   "spell": 0,
+   "src": "other",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "combat",
+   "dst": "player",
+   "log": 1,
+   "onToken": 0,
+   "spell": 0,
+   "src": "other",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 21,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 48,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "combat",
+   "dst": "player",
+   "log": 71,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura+",
+   "ctx": "ooc",
+   "dst": "player",
+   "log": 141,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura-",
+   "ctx": "combat",
+   "dst": "me",
+   "log": 4,
+   "onToken": 4,
+   "spell": 0,
+   "src": "me",
+   "visible": 4
+  },
+  {
+   "amount": 1,
+   "cat": "aura-",
+   "ctx": "ooc",
+   "dst": "me",
+   "log": 1,
+   "onToken": 1,
+   "spell": 1,
+   "src": "me",
+   "visible": 1
+  },
+  {
+   "amount": 0,
+   "cat": "aura-",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 1,
+   "onToken": 1,
+   "spell": 0,
+   "src": "me",
+   "visible": 1
+  },
+  {
+   "amount": 0,
+   "cat": "aura-",
+   "ctx": "combat",
+   "dst": "me",
+   "log": 2,
+   "onToken": 2,
+   "spell": 0,
+   "src": "npc",
+   "visible": 2
+  },
+  {
+   "amount": 0,
+   "cat": "aura-",
+   "ctx": "ooc",
+   "dst": "other",
+   "log": 1,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura-",
+   "ctx": "combat",
+   "dst": "player",
+   "log": 1,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura-",
+   "ctx": "ooc",
+   "dst": "player",
+   "log": 11,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura-",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 26,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura-",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 32,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura-",
+   "ctx": "combat",
+   "dst": "player",
+   "log": 60,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "aura-",
+   "ctx": "ooc",
+   "dst": "player",
+   "log": 107,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-fail",
+   "ctx": "combat",
+   "dst": "none",
+   "log": 3,
+   "onToken": 3,
+   "spell": 2,
+   "src": "me",
+   "visible": 2
+  },
+  {
+   "amount": 0,
+   "cat": "cast-fail",
+   "ctx": "ooc",
+   "dst": "none",
+   "log": 1,
+   "onToken": 1,
+   "spell": 1,
+   "src": "me",
+   "visible": 1
+  },
+  {
+   "amount": 0,
+   "cat": "cast-start",
+   "ctx": "combat",
+   "dst": "none",
+   "log": 3,
+   "onToken": 3,
+   "spell": 3,
+   "src": "me",
+   "visible": 3
+  },
+  {
+   "amount": 0,
+   "cat": "cast-start",
+   "ctx": "combat",
+   "dst": "none",
+   "log": 27,
+   "onToken": 17,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-start",
+   "ctx": "ooc",
+   "dst": "none",
+   "log": 30,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-start",
+   "ctx": "combat",
+   "dst": "none",
+   "log": 11,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-start",
+   "ctx": "ooc",
+   "dst": "none",
+   "log": 32,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "combat",
+   "dst": "me",
+   "log": 2,
+   "onToken": 2,
+   "spell": 2,
+   "src": "me",
+   "visible": 2
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "combat",
+   "dst": "none",
+   "log": 4,
+   "onToken": 4,
+   "spell": 4,
+   "src": "me",
+   "visible": 4
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "ooc",
+   "dst": "none",
+   "log": 1,
+   "onToken": 1,
+   "spell": 1,
+   "src": "me",
+   "visible": 1
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 3,
+   "onToken": 3,
+   "spell": 3,
+   "src": "me",
+   "visible": 3
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "combat",
+   "dst": "me",
+   "log": 19,
+   "onToken": 19,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 1,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 10,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "combat",
+   "dst": "player",
+   "log": 8,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "ooc",
+   "dst": "player",
+   "log": 21,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 9,
+   "onToken": 2,
+   "spell": 0,
+   "src": "other",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 31,
+   "onToken": 0,
+   "spell": 0,
+   "src": "other",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "combat",
+   "dst": "none",
+   "log": 24,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "ooc",
+   "dst": "none",
+   "log": 32,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 70,
+   "onToken": 4,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 164,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "combat",
+   "dst": "player",
+   "log": 2,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "cast-success",
+   "ctx": "ooc",
+   "dst": "player",
+   "log": 9,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "crit",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 1,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "crit",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 2,
+   "onToken": 0,
+   "spell": 0,
+   "src": "other",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "crit",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 4,
+   "onToken": 0,
+   "spell": 0,
+   "src": "other",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "crit",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 14,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "crit",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 30,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "crit",
+   "ctx": "combat",
+   "dst": "player",
+   "log": 1,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "crit",
+   "ctx": "ooc",
+   "dst": "player",
+   "log": 5,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 11,
+   "cat": "damage",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 11,
+   "onToken": 11,
+   "spell": 3,
+   "src": "me",
+   "visible": 11
+  },
+  {
+   "amount": 0,
+   "cat": "damage",
+   "ctx": "ooc",
+   "dst": "player",
+   "log": 1,
+   "onToken": 0,
+   "spell": 0,
+   "src": "none",
+   "visible": 0
+  },
+  {
+   "amount": 14,
+   "cat": "damage",
+   "ctx": "combat",
+   "dst": "me",
+   "log": 14,
+   "onToken": 14,
+   "spell": 0,
+   "src": "npc",
+   "visible": 14
+  },
+  {
+   "amount": 0,
+   "cat": "damage",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 7,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "damage",
+   "ctx": "combat",
+   "dst": "other",
+   "log": 5,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "damage",
+   "ctx": "ooc",
+   "dst": "other",
+   "log": 5,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "damage",
+   "ctx": "combat",
+   "dst": "player",
+   "log": 28,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "damage",
+   "ctx": "ooc",
+   "dst": "player",
+   "log": 110,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 3,
+   "cat": "damage",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 39,
+   "onToken": 4,
+   "spell": 0,
+   "src": "other",
+   "visible": 3
+  },
+  {
+   "amount": 0,
+   "cat": "damage",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 76,
+   "onToken": 0,
+   "spell": 0,
+   "src": "other",
+   "visible": 0
+  },
+  {
+   "amount": 4,
+   "cat": "damage",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 146,
+   "onToken": 4,
+   "spell": 0,
+   "src": "player",
+   "visible": 4
+  },
+  {
+   "amount": 0,
+   "cat": "damage",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 276,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "damage",
+   "ctx": "combat",
+   "dst": "other",
+   "log": 1,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "damage",
+   "ctx": "ooc",
+   "dst": "other",
+   "log": 1,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "death",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 10,
+   "onToken": 1,
+   "spell": 0,
+   "src": "none",
+   "visible": 1
+  },
+  {
+   "amount": 0,
+   "cat": "death",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 9,
+   "onToken": 0,
+   "spell": 0,
+   "src": "none",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "energize",
+   "ctx": "combat",
+   "dst": "player",
+   "log": 18,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "energize",
+   "ctx": "ooc",
+   "dst": "player",
+   "log": 27,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "energize",
+   "ctx": "combat",
+   "dst": "player",
+   "log": 75,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "energize",
+   "ctx": "ooc",
+   "dst": "player",
+   "log": 131,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 2,
+   "cat": "heal",
+   "ctx": "combat",
+   "dst": "me",
+   "log": 2,
+   "onToken": 2,
+   "spell": 2,
+   "src": "me",
+   "visible": 2
+  },
+  {
+   "amount": 0,
+   "cat": "heal",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 3,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "heal",
+   "ctx": "combat",
+   "dst": "other",
+   "log": 6,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "heal",
+   "ctx": "ooc",
+   "dst": "other",
+   "log": 16,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "heal",
+   "ctx": "combat",
+   "dst": "player",
+   "log": 57,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "heal",
+   "ctx": "ooc",
+   "dst": "player",
+   "log": 100,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 3,
+   "cat": "miss",
+   "ctx": "combat",
+   "dst": "me",
+   "log": 3,
+   "onToken": 3,
+   "spell": 0,
+   "src": "npc",
+   "visible": 3
+  },
+  {
+   "amount": 0,
+   "cat": "miss",
+   "ctx": "ooc",
+   "dst": "other",
+   "log": 1,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "miss",
+   "ctx": "combat",
+   "dst": "player",
+   "log": 6,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "miss",
+   "ctx": "ooc",
+   "dst": "player",
+   "log": 18,
+   "onToken": 0,
+   "spell": 0,
+   "src": "npc",
+   "visible": 0
+  },
+  {
+   "amount": 1,
+   "cat": "miss",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 1,
+   "onToken": 1,
+   "spell": 0,
+   "src": "other",
+   "visible": 1
+  },
+  {
+   "amount": 0,
+   "cat": "miss",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 8,
+   "onToken": 0,
+   "spell": 0,
+   "src": "other",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "miss",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 7,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "miss",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 27,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "overkill",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 4,
+   "onToken": 0,
+   "spell": 0,
+   "src": "other",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "overkill",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 12,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "overkill",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 12,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "summon",
+   "ctx": "combat",
+   "dst": "mine",
+   "log": 2,
+   "onToken": 2,
+   "spell": 2,
+   "src": "me",
+   "visible": 2
+  },
+  {
+   "amount": 0,
+   "cat": "summon",
+   "ctx": "combat",
+   "dst": "npc",
+   "log": 3,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "summon",
+   "ctx": "ooc",
+   "dst": "npc",
+   "log": 3,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  },
+  {
+   "amount": 0,
+   "cat": "summon",
+   "ctx": "combat",
+   "dst": "other",
+   "log": 1,
+   "onToken": 0,
+   "spell": 0,
+   "src": "player",
+   "visible": 0
+  }
+ ],
+ "naive": {
+  "accuracy": 61.1,
+  "correct": 11,
+  "falseSelf": 7,
+  "falseSelfAmount": 534,
+  "n": 18
+ },
+ "otherPlayer": {
+  "falseSelf": [],
+  "fight": [
+   1791499213.823,
+   1791499261.965
+  ],
+  "live": [
+   {
+    "action": "WOUND",
+    "amount": 41,
+    "crit": false,
+    "dmEvent": true,
+    "hsm": "mine",
+    "rule": "cast-frame",
+    "school": 4,
+    "t": 1791499213.823,
+    "truth": "me"
+   },
+   {
+    "action": "WOUND",
+    "amount": 9,
+    "crit": false,
+    "dmEvent": true,
+    "hsm": "mine",
+    "rule": "dm-frame",
+    "school": 4,
+    "t": 1791499216.793,
+    "truth": "me"
+   },
+   {
+    "action": "WOUND",
+    "amount": 10,
+    "crit": false,
+    "dmEvent": true,
+    "hsm": "mine",
+    "rule": "dm-frame",
+    "school": 4,
+    "t": 1791499219.814,
+    "truth": "me"
+   },
+   {
+    "action": "WOUND",
+    "amount": 9,
+    "crit": false,
+    "dmEvent": true,
+    "hsm": "mine",
+    "rule": "dm-frame",
+    "school": 4,
+    "t": 1791499222.908,
+    "truth": "me"
+   },
+   {
+    "action": "WOUND",
+    "amount": 10,
+    "crit": false,
+    "dmEvent": true,
+    "hsm": "mine",
+    "rule": "dm-frame",
+    "school": 4,
+    "t": 1791499225.783,
+    "truth": "me"
+   },
+   {
+    "action": "WOUND",
+    "amount": 44,
+    "crit": false,
+    "dmEvent": true,
+    "hsm": "mine",
+    "rule": "dm-frame",
+    "school": 8,
+    "t": 1791499239.298,
+    "truth": "me"
+   },
+   {
+    "action": "WOUND",
+    "amount": 92,
+    "crit": false,
+    "dmEvent": true,
+    "hsm": "mine",
+    "rule": "cast-frame",
+    "school": 8,
+    "t": 1791499240.673,
+    "truth": "me"
+   },
+   {
+    "action": "WOUND",
+    "amount": 44,
+    "crit": false,
+    "dmEvent": true,
+    "hsm": "mine",
+    "rule": "dm-frame",
+    "school": 8,
+    "t": 1791499244.152,
+    "truth": "me"
+   },
+   {
+    "action": "WOUND",
+    "amount": 92,
+    "crit": false,
+    "dmEvent": true,
+    "hsm": "mine",
+    "rule": "cast-frame",
+    "school": 8,
+    "t": 1791499247.36,
+    "truth": "me"
+   },
+   {
+    "action": "WOUND",
+    "amount": 44,
+    "crit": false,
+    "dmEvent": true,
+    "hsm": "mine",
+    "rule": "dm-frame",
+    "school": 8,
+    "t": 1791499249.049,
+    "truth": "me"
+   },
+   {
+    "action": "WOUND",
+    "amount": 44,
+    "crit": false,
+    "dmEvent": true,
+    "hsm": "mine",
+    "rule": "dm-frame",
+    "school": 8,
+    "t": 1791499253.861,
+    "truth": "me"
+   },
+   {
+    "action": "WOUND",
+    "amount": 102,
+    "crit": false,
+    "dmEvent": false,
+    "hsm": "other",
+    "rule": "elimination",
+    "school": 64,
+    "t": 1791499257.32,
+    "truth": "player"
+   },
+   {
+    "action": "WOUND",
+    "amount": 95,
+    "crit": false,
+    "dmEvent": false,
+    "hsm": "other",
+    "rule": "elimination",
+    "school": 1,
+    "t": 1791499257.549,
+    "truth": "player"
+   },
+   {
+    "action": "MISS",
+    "amount": 0,
+    "crit": false,
+    "dmEvent": false,
+    "hsm": "other",
+    "rule": "elimination",
+    "school": 1,
+    "t": 1791499258.778,
+    "truth": "other"
+   },
+   {
+    "action": "WOUND",
+    "amount": 56,
+    "crit": false,
+    "dmEvent": false,
+    "hsm": "other",
+    "rule": "elimination",
+    "school": 1,
+    "t": 1791499259.111,
+    "truth": "other"
+   },
+   {
+    "action": "WOUND",
+    "amount": 17,
+    "crit": false,
+    "dmEvent": false,
+    "hsm": "other",
+    "rule": "elimination",
+    "school": 1,
+    "t": 1791499259.611,
+    "truth": "other"
+   },
+   {
+    "action": "WOUND",
+    "amount": 95,
+    "crit": false,
+    "dmEvent": false,
+    "hsm": "other",
+    "rule": "elimination",
+    "school": 1,
+    "t": 1791499260.528,
+    "truth": "player"
+   },
+   {
+    "action": "WOUND",
+    "amount": 115,
+    "crit": false,
+    "dmEvent": false,
+    "hsm": "other",
+    "rule": "elimination",
+    "school": 1,
+    "t": 1791499260.653,
+    "truth": "player"
+   },
+   {
+    "action": "WOUND",
+    "amount": 54,
+    "crit": false,
+    "dmEvent": false,
+    "hsm": "other",
+    "rule": "elimination",
+    "school": 1,
+    "t": 1791499260.653,
+    "truth": "other"
+   }
+  ],
+  "mineDamageLive": 439,
+  "otherAurasOnTarget": 0,
+  "otherCasts": 6,
+  "otherDamageLive": 534,
+  "otherDamageLog": 407,
+  "others": [
+   "other player A"
+  ],
+  "target": "Creature (4093)",
+  "timeline": [
+   {
+    "amount": null,
+    "spell": "Flame Shock",
+    "sub": "SPELL_CAST_SUCCESS",
+    "t": 1791499213.825,
+    "who": "me"
+   },
+   {
+    "amount": 41,
+    "spell": "Flame Shock",
+    "sub": "SPELL_DAMAGE",
+    "t": 1791499213.826,
+    "who": "me"
+   },
+   {
+    "amount": null,
+    "spell": "Flame Shock",
+    "sub": "SPELL_AURA_APPLIED",
+    "t": 1791499213.827,
+    "who": "me"
+   },
+   {
+    "amount": 9,
+    "spell": "Flame Shock",
+    "sub": "SPELL_PERIODIC_DAMAGE",
+    "t": 1791499216.794,
+    "who": "me"
+   },
+   {
+    "amount": 10,
+    "spell": "Flame Shock",
+    "sub": "SPELL_PERIODIC_DAMAGE",
+    "t": 1791499219.815,
+    "who": "me"
+   },
+   {
+    "amount": 9,
+    "spell": "Flame Shock",
+    "sub": "SPELL_PERIODIC_DAMAGE",
+    "t": 1791499222.911,
+    "who": "me"
+   },
+   {
+    "amount": 10,
+    "spell": "Flame Shock",
+    "sub": "SPELL_PERIODIC_DAMAGE",
+    "t": 1791499225.788,
+    "who": "me"
+   },
+   {
+    "amount": null,
+    "spell": "Flame Shock",
+    "sub": "SPELL_AURA_REMOVED",
+    "t": 1791499225.788,
+    "who": "me"
+   },
+   {
+    "amount": null,
+    "spell": "Aimed Shot",
+    "sub": "SPELL_CAST_START",
+    "t": 1791499226.966,
+    "who": "other player A"
+   },
+   {
+    "amount": 44,
+    "spell": "Lightning Shield",
+    "sub": "SPELL_DAMAGE",
+    "t": 1791499239.3,
+    "who": "me"
+   },
+   {
+    "amount": null,
+    "spell": "Earth Shock",
+    "sub": "SPELL_CAST_SUCCESS",
+    "t": 1791499240.675,
+    "who": "me"
+   },
+   {
+    "amount": 92,
+    "spell": "Earth Shock",
+    "sub": "SPELL_DAMAGE",
+    "t": 1791499240.676,
+    "who": "me"
+   },
+   {
+    "amount": 44,
+    "spell": "Lightning Shield",
+    "sub": "SPELL_DAMAGE",
+    "t": 1791499244.153,
+    "who": "me"
+   },
+   {
+    "amount": null,
+    "spell": "Earth Shock",
+    "sub": "SPELL_CAST_SUCCESS",
+    "t": 1791499247.364,
+    "who": "me"
+   },
+   {
+    "amount": 92,
+    "spell": "Earth Shock",
+    "sub": "SPELL_DAMAGE",
+    "t": 1791499247.364,
+    "who": "me"
+   },
+   {
+    "amount": 44,
+    "spell": "Lightning Shield",
+    "sub": "SPELL_DAMAGE",
+    "t": 1791499249.051,
+    "who": "me"
+   },
+   {
+    "amount": 44,
+    "spell": "Lightning Shield",
+    "sub": "SPELL_DAMAGE",
+    "t": 1791499253.862,
+    "who": "me"
+   },
+   {
+    "amount": null,
+    "spell": "Arcane Shot",
+    "sub": "SPELL_CAST_SUCCESS",
+    "t": 1791499256.758,
+    "who": "other player A"
+   },
+   {
+    "amount": null,
+    "spell": "Auto Shot",
+    "sub": "SPELL_CAST_SUCCESS",
+    "t": 1791499257.008,
+    "who": "other player A"
+   },
+   {
+    "amount": 102,
+    "spell": "Arcane Shot",
+    "sub": "SPELL_DAMAGE",
+    "t": 1791499257.32,
+    "who": "other player A"
+   },
+   {
+    "amount": 95,
+    "spell": "",
+    "sub": "RANGE_DAMAGE",
+    "t": 1791499257.55,
+    "who": "other player A"
+   },
+   {
+    "amount": null,
+    "spell": "Aimed Shot",
+    "sub": "SPELL_CAST_START",
+    "t": 1791499258.258,
+    "who": "other player A"
+   },
+   {
+    "amount": null,
+    "spell": "Auto Shot",
+    "sub": "SPELL_CAST_SUCCESS",
+    "t": 1791499259.987,
+    "who": "other player A"
+   },
+   {
+    "amount": null,
+    "spell": "Aimed Shot",
+    "sub": "SPELL_CAST_SUCCESS",
+    "t": 1791499260.091,
+    "who": "other player A"
+   },
+   {
+    "amount": 95,
+    "spell": "",
+    "sub": "RANGE_DAMAGE",
+    "t": 1791499260.53,
+    "who": "other player A"
+   },
+   {
+    "amount": 115,
+    "spell": "Aimed Shot",
+    "sub": "SPELL_DAMAGE",
+    "t": 1791499260.654,
+    "who": "other player A"
+   }
+  ]
+ },
+ "overheal": {
+  "big": [
+   {
+    "amount": 227,
+    "conf": "medium",
+    "est": 56,
+    "log": 56,
+    "t": 1791499230.09
+   },
+   {
+    "amount": 229,
+    "conf": "medium",
+    "est": 0,
+    "log": 0,
+    "t": 1791499253.778
+   }
+  ],
+  "estimated": 2,
+  "exact": 2,
+  "mae": 0.0,
+  "n": 2,
+  "overhealYesNoCorrect": 2
+ },
+ "player": "me",
+ "replay": {
+  "after": {
+   "contradictions": [],
+   "counters": {
+    "auraEvents": 0,
+    "casts": 24,
+    "contradictions": 0,
+    "fail-gcd": 1,
+    "fail-outside-cd": 3,
+    "inferences": 51,
+    "predictions": 10,
+    "unreadable": 0
+   },
+   "errors": [],
+   "fights": [
+    {
+     "auras": {
+      "mine": 0,
+      "other": 0
+     },
+     "dispels": {
+      "mine": 0,
+      "other": 0
+     },
+     "dm": {
+      "damage": 439,
+      "healing": 400,
+      "interrupts": 0,
+      "spells": {
+       "26366": 176,
+       "8046": 184,
+       "8052": 79
+      }
+     },
+     "dmg": {
+      "crit": 0,
+      "mine": 439,
+      "mineN": 11,
+      "miss": 1,
+      "other": 534,
+      "otherN": 8,
+      "rules": {
+       "cast-frame": 3,
+       "dm-frame": 8,
+       "other": 8
+      }
+     },
+     "heal": {
+      "mine": 456,
+      "mineN": 2,
+      "mineOver": 56,
+      "mineOverN": 2,
+      "other": 0,
+      "otherN": 0,
+      "rules": {
+       "dm-frame": 2
+      }
+     },
+     "interrupts": {
+      "mine": 0,
+      "other": 0
+     },
+     "liveEst": {
+      "damage": 439,
+      "dispels": 0,
+      "dmTicks": [
+       22,
+       4,
+       4
+      ],
+      "healing": 400,
+      "healingGross": 456,
+      "healingOver": 56,
+      "interrupts": 0,
+      "taken": 494
+     },
+     "otherSchools": {
+      "1": 432,
+      "64": 102
+     },
+     "power": 0,
+     "reconcile": {
+      "metrics": {
+       "damage": {
+        "delta": 0,
+        "dm": 439,
+        "live": 439,
+        "name": "damage",
+        "status": "match",
+        "tol": 8.78
+       },
+       "dispels": {
+        "live": 0,
+        "name": "dispels",
+        "status": "unexplained"
+       },
+       "healing": {
+        "delta": 0,
+        "dm": 400,
+        "live": 400,
+        "name": "healing",
+        "status": "match",
+        "tol": 8
+       },
+       "interrupts": {
+        "delta": 0,
+        "dm": 0,
+        "live": 0,
+        "name": "interrupts",
+        "status": "match",
+        "tol": 0
+       },
+       "taken": {
+        "live": 494,
+        "name": "taken",
+        "status": "unexplained"
+       }
+      },
+      "summary": {
+       "match": 3,
+       "off": 0,
+       "unexplained": 2
+      },
+      "t": 1791499262.465
+     },
+     "start": 1791499213.823,
+     "stop": 1791499261.965,
+     "taken": {
+      "amount": 494,
+      "miss": 3,
+      "n": 17
+     },
+     "world": {
+      "Creature-0-4621-1-739-4093-0000481B9A": {
+       "dispels": 0,
+       "dmTicks": [],
+       "dmg": 439,
+       "dmgN": 11,
+       "dtps": 920,
+       "heal": 0,
+       "healN": 0,
+       "idKey": "npc:4093",
+       "interrupts": 0,
+       "lastTakenT": 1791499260.653,
+       "taken": 534,
+       "takenN": 7
+      },
+      "npc:4093": {
+       "dispels": 0,
+       "dmTicks": [],
+       "dmg": 439,
+       "dmgN": 11,
+       "dtps": 920,
+       "heal": 0,
+       "healN": 0,
+       "idKey": "npc:4093",
+       "interrupts": 0,
+       "lastTakenT": 1791499260.653,
+       "taken": 534,
+       "takenN": 7
+      },
+      "player": {
+       "dispels": 0,
+       "dmTicks": {
+        "7": 9
+       },
+       "dmg": 0,
+       "dmgN": 0,
+       "dtps": 13.653288889033565,
+       "heal": 0,
+       "healN": 0,
+       "idKey": "player",
+       "interrupts": 0,
+       "lastTakenT": 1791499256.278,
+       "taken": 494,
+       "takenN": 14
+      }
+     }
+    }
+   ],
+   "predictionOutcomes": {
+    "None": 7,
+    "no aura seen": 3
+   },
+   "reconcile": [
+    {
+     "conf": "high",
+     "dmHeal": 400,
+     "dmInterrupts": 0,
+     "dmMine": 439,
+     "id": 61,
+     "kind": "reconcile",
+     "liveDispels": 0,
+     "liveHeal": 400,
+     "liveHealGross": 456,
+     "liveHealOver": 56,
+     "liveInterrupts": 0,
+     "liveMine": 439,
+     "liveOther": 534,
+     "liveTaken": 494,
+     "liveTotal": 973,
+     "metrics": {
+      "damage": {
+       "delta": 0,
+       "dm": 439,
+       "live": 439,
+       "name": "damage",
+       "status": "match",
+       "tol": 8.78
+      },
+      "dispels": {
+       "live": 0,
+       "name": "dispels",
+       "status": "unexplained"
+      },
+      "healing": {
+       "delta": 0,
+       "dm": 400,
+       "live": 400,
+       "name": "healing",
+       "status": "match",
+       "tol": 8
+      },
+      "interrupts": {
+       "delta": 0,
+       "dm": 0,
+       "live": 0,
+       "name": "interrupts",
+       "status": "match",
+       "tol": 0
+      },
+      "taken": {
+       "live": 494,
+       "name": "taken",
+       "status": "unexplained"
+      }
+     },
+     "othersOnTarget": 534,
+     "rule": "dm-reconcile",
+     "spells": [
+      {
+       "dm": 184,
+       "spell": "8046"
+      },
+      {
+       "dm": 176,
+       "spell": "26366"
+      },
+      {
+       "dm": 79,
+       "spell": "8052"
+      }
+     ],
+     "summary": {
+      "match": 3,
+      "off": 0,
+      "unexplained": 2
+     },
+     "t": 1791499262.465,
+     "units": []
+    }
+   ],
+   "scores": {
+    "aura-on-target": {
+     "accuracy": null,
+     "coverage": null,
+     "n": 14,
+     "noTruth": 14,
+     "scorable": 0
+    },
+    "damage-on-target": {
+     "accuracy": 100.0,
+     "attributed": 18,
+     "correct": 18,
+     "coverage": 100.0,
+     "n": 18,
+     "scorable": 18,
+     "truthMine": 11,
+     "truthOther": 7
+    },
+    "damage-taken": {
+     "accuracy": 100.0,
+     "attributed": 17,
+     "correct": 17,
+     "coverage": 100.0,
+     "n": 17,
+     "scorable": 17,
+     "truthOther": 17
+    },
+    "heal-on-me": {
+     "accuracy": 100.0,
+     "attributed": 2,
+     "correct": 2,
+     "coverage": 100.0,
+     "n": 2,
+     "scorable": 2,
+     "truthMine": 2
+    },
+    "miss-on-target": {
+     "accuracy": 100.0,
+     "attributed": 1,
+     "correct": 1,
+     "coverage": 100.0,
+     "n": 1,
+     "scorable": 1,
+     "truthOther": 1
+    }
+   }
+  },
+  "before": {
+   "contradictions": [],
+   "counters": {
+    "auraEvents": 0,
+    "casts": 24,
+    "contradictions": 0,
+    "fail-gcd": 1,
+    "fail-outside-cd": 3,
+    "inferences": 13,
+    "predictions": 10,
+    "unreadable": 0
+   },
+   "errors": [],
+   "fights": [
+    {
+     "auras": {
+      "mine": 0,
+      "other": 0
+     },
+     "dispels": {
+      "mine": 0,
+      "other": 0
+     },
+     "dm": {
+      "damage": 439,
+      "healing": 400,
+      "interrupts": 0,
+      "spells": {
+       "26366": 176,
+       "8046": 184,
+       "8052": 79
+      }
+     },
+     "dmg": {
+      "crit": 0,
+      "mine": 0,
+      "mineN": 0,
+      "miss": 0,
+      "other": 0,
+      "otherN": 0,
+      "rules": []
+     },
+     "heal": {
+      "mine": 0,
+      "mineN": 0,
+      "other": 0,
+      "otherN": 0,
+      "rules": []
+     },
+     "interrupts": {
+      "mine": 0,
+      "other": 0
+     },
+     "liveEst": {
+      "damage": 0,
+      "dispels": 0,
+      "dmTicks": [
+       22,
+       4,
+       4
+      ],
+      "healing": 0,
+      "healingGross": 0,
+      "interrupts": 0,
+      "taken": 0
+     },
+     "otherSchools": [],
+     "power": 0,
+     "reconcile": {
+      "metrics": {
+       "damage": {
+        "delta": -439,
+        "dm": 439,
+        "live": 0,
+        "name": "damage",
+        "status": "off",
+        "tol": 8.78
+       },
+       "dispels": {
+        "live": 0,
+        "name": "dispels",
+        "status": "unexplained"
+       },
+       "healing": {
+        "delta": -400,
+        "dm": 400,
+        "live": 0,
+        "name": "healing",
+        "status": "off",
+        "tol": 8
+       },
+       "interrupts": {
+        "delta": 0,
+        "dm": 0,
+        "live": 0,
+        "name": "interrupts",
+        "status": "match",
+        "tol": 0
+       },
+       "taken": {
+        "live": 0,
+        "name": "taken",
+        "status": "unexplained"
+       }
+      },
+      "summary": {
+       "match": 1,
+       "off": 2,
+       "unexplained": 2
+      },
+      "t": 1791499262.465
+     },
+     "start": 1791499213.823,
+     "stop": 1791499261.965,
+     "taken": {
+      "amount": 0,
+      "miss": 0,
+      "n": 0
+     },
+     "world": []
+    }
+   ],
+   "predictionOutcomes": {
+    "None": 7,
+    "no aura seen": 3
+   },
+   "reconcile": [
+    {
+     "conf": "high",
+     "dmHeal": 400,
+     "dmInterrupts": 0,
+     "dmMine": 439,
+     "id": 23,
+     "kind": "reconcile",
+     "liveDispels": 0,
+     "liveHeal": 0,
+     "liveHealGross": 0,
+     "liveInterrupts": 0,
+     "liveMine": 0,
+     "liveOther": 0,
+     "liveTaken": 0,
+     "liveTotal": 0,
+     "metrics": {
+      "damage": {
+       "delta": -439,
+       "dm": 439,
+       "live": 0,
+       "name": "damage",
+       "status": "off",
+       "tol": 8.78
+      },
+      "dispels": {
+       "live": 0,
+       "name": "dispels",
+       "status": "unexplained"
+      },
+      "healing": {
+       "delta": -400,
+       "dm": 400,
+       "live": 0,
+       "name": "healing",
+       "status": "off",
+       "tol": 8
+      },
+      "interrupts": {
+       "delta": 0,
+       "dm": 0,
+       "live": 0,
+       "name": "interrupts",
+       "status": "match",
+       "tol": 0
+      },
+      "taken": {
+       "live": 0,
+       "name": "taken",
+       "status": "unexplained"
+      }
+     },
+     "othersOnTarget": 0,
+     "rule": "dm-reconcile",
+     "spells": [
+      {
+       "dm": 184,
+       "spell": "8046"
+      },
+      {
+       "dm": 176,
+       "spell": "26366"
+      },
+      {
+       "dm": 79,
+       "spell": "8052"
+      }
+     ],
+     "summary": {
+      "match": 1,
+      "off": 2,
+      "unexplained": 2
+     },
+     "t": 1791499262.465,
+     "units": []
+    }
+   ],
+   "scores": {
+    "aura-on-target": {
+     "accuracy": null,
+     "coverage": null,
+     "n": 14,
+     "noTruth": 14,
+     "scorable": 0
+    },
+    "damage-on-target": {
+     "accuracy": 0.0,
+     "coverage": 0.0,
+     "missedSelf": 11,
+     "n": 18,
+     "scorable": 18,
+     "truthMine": 11,
+     "truthOther": 7
+    },
+    "damage-taken": {
+     "accuracy": 0.0,
+     "attributed": 0,
+     "correct": 0,
+     "coverage": 0.0,
+     "n": 17,
+     "scorable": 17,
+     "truthOther": 17
+    },
+    "heal-on-me": {
+     "accuracy": 0.0,
+     "coverage": 0.0,
+     "missedSelf": 2,
+     "n": 2,
+     "scorable": 2,
+     "truthMine": 2
+    },
+    "miss-on-target": {
+     "accuracy": 0.0,
+     "coverage": 0.0,
+     "n": 1,
+     "scorable": 1,
+     "truthOther": 1
+    }
+   }
+  }
+ },
+ "span": [
+  1791499132.026,
+  1791499273.653
+ ],
+ "streamEvents": {
+  "cast": 24,
+  "cdp": 8,
+  "cdseed": 81,
+  "combat": 2,
+  "dm": 102,
+  "dmrec": 11,
+  "failed": 4,
+  "hpevt": 22,
+  "hpmax": 1,
+  "learn": 157,
+  "probe": 48,
+  "uc": 38
+ },
+ "targetSource": "log-inferred",
+ "timing": {
+  "damage": {
+   "max": 0.0,
+   "median": -0.002,
+   "min": -0.005,
+   "n": 12
+  },
+  "damage/melee": {
+   "max": 0.458,
+   "median": 0.015,
+   "min": -0.002,
+   "n": 20
+  },
+  "heal": {
+   "max": -0.001,
+   "median": -0.001,
+   "min": -0.001,
+   "n": 2
+  },
+  "miss": {
+   "max": -0.001,
+   "median": -0.004,
+   "min": -0.004,
+   "n": 4
+  }
+ },
+ "unreadable": {},
+ "verdictCounts": {
+  "cooldown|U": 4,
+  "cooldown|V": 1,
+  "damage-range|V": 3,
+  "dm-damage|V": 1,
+  "dm-dispels|U": 1,
+  "dm-healing|V": 1,
+  "dm-interrupts|V": 1,
+  "dm-taken|U": 1
+ },
+ "verdicts": [
+  {
+   "conf": "low",
+   "kind": "cooldown",
+   "spell": 8052,
+   "src": "UNIT_SPELLCAST_FAILED",
+   "t": 1791499213.552,
+   "v": "U"
+  },
+  {
+   "conf": "medium",
+   "d": 1,
+   "kind": "damage-range",
+   "spell": 8052,
+   "src": "UNIT_COMBAT",
+   "t": 1791499213.823,
+   "v": "V"
+  },
+  {
+   "conf": "low",
+   "kind": "cooldown",
+   "spell": 905,
+   "src": "UNIT_SPELLCAST_FAILED",
+   "t": 1791499236.069,
+   "v": "U"
+  },
+  {
+   "conf": "medium",
+   "d": 0.9583333333333334,
+   "kind": "damage-range",
+   "spell": 8046,
+   "src": "UNIT_COMBAT",
+   "t": 1791499240.673,
+   "v": "V"
+  },
+  {
+   "conf": "high",
+   "d": 0.6869997978210449,
+   "kind": "cooldown",
+   "spell": 8046,
+   "src": "UNIT_SPELLCAST_SUCCEEDED",
+   "t": 1791499247.36,
+   "v": "V"
+  },
+  {
+   "conf": "medium",
+   "d": 0.9583333333333334,
+   "kind": "damage-range",
+   "spell": 8046,
+   "src": "UNIT_COMBAT",
+   "t": 1791499247.36,
+   "v": "V"
+  },
+  {
+   "conf": "low",
+   "kind": "cooldown",
+   "spell": 8046,
+   "src": "UNIT_SPELLCAST_FAILED",
+   "t": 1791499261.611,
+   "v": "U"
+  },
+  {
+   "conf": "low",
+   "kind": "cooldown",
+   "spell": 8046,
+   "src": "UNIT_SPELLCAST_FAILED",
+   "t": 1791499261.715,
+   "v": "U"
+  },
+  {
+   "conf": "high",
+   "d": 0,
+   "kind": "dm-damage",
+   "src": "match",
+   "t": 1791499262.465,
+   "v": "V"
+  },
+  {
+   "conf": "high",
+   "d": 0,
+   "kind": "dm-healing",
+   "src": "match",
+   "t": 1791499262.465,
+   "v": "V"
+  },
+  {
+   "conf": "high",
+   "d": 0,
+   "kind": "dm-interrupts",
+   "src": "match",
+   "t": 1791499262.465,
+   "v": "V"
+  },
+  {
+   "conf": "low",
+   "kind": "dm-dispels",
+   "src": "unexplained (no meter value)",
+   "t": 1791499262.465,
+   "v": "U"
+  },
+  {
+   "conf": "low",
+   "kind": "dm-taken",
+   "src": "unexplained (no meter value)",
+   "t": 1791499262.465,
+   "v": "U"
+  }
+ ]
+}

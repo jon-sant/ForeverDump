@@ -1,0 +1,1669 @@
+{
+ "addon": {
+  "appliers": {
+   "harmful": {},
+   "helpful": [
+    324,
+    325,
+    546,
+    905,
+    20572,
+    1299026
+   ],
+   "unknown": [
+    8050,
+    8052,
+    8053,
+    8056,
+    17364
+   ]
+  },
+  "counters": null,
+  "failures": {
+   "dispel: nothing removed (no dispellable effect / resisted)": 1
+  },
+  "inputs": {},
+  "live": [],
+  "player": {
+   "guid": "Player-4618-00EB40D8",
+   "info": {
+    "class": "SHAMAN",
+    "classID": 7,
+    "className": "Shaman",
+    "level": 30,
+    "race": "Orc",
+    "role": "DAMAGER",
+    "specID": 1489,
+    "specIndex": 1,
+    "specName": "Shaman"
+   }
+  },
+  "predictions": [
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "ooc",
+    "kind": "amount",
+    "meanAbsErrorSec": null,
+    "n": 15,
+    "ok": 0,
+    "pending": 15
+   },
+   {
+    "accuracy": 0.0,
+    "bad": 13,
+    "ctx": "ooc",
+    "kind": "aura",
+    "meanAbsErrorSec": null,
+    "n": 13,
+    "ok": 0,
+    "pending": 0
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "ooc",
+    "kind": "cooldown",
+    "meanAbsErrorSec": null,
+    "n": 12,
+    "ok": 0,
+    "pending": 12
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "ooc",
+    "kind": "dispel",
+    "meanAbsErrorSec": null,
+    "n": 1,
+    "ok": 0,
+    "pending": 1
+   },
+   {
+    "accuracy": 0.0,
+    "bad": 6,
+    "ctx": "ooc",
+    "kind": "summon",
+    "meanAbsErrorSec": null,
+    "n": 6,
+    "ok": 0,
+    "pending": 0
+   }
+  ],
+  "recall": {
+   "applications": 9,
+   "caught": 0,
+   "recall": 0.0
+  },
+  "rules": [
+   {
+    "accuracy": 0.0,
+    "bad": 8,
+    "ctx": "ooc",
+    "n": 22,
+    "ok": 0,
+    "rule": "cast-pair",
+    "unverifiable": 14
+   },
+   {
+    "accuracy": 0.0,
+    "bad": 1,
+    "ctx": "ooc",
+    "n": 5,
+    "ok": 0,
+    "rule": "count-delta",
+    "unverifiable": 4
+   },
+   {
+    "accuracy": 0.0,
+    "bad": 4,
+    "ctx": "ooc",
+    "n": 4,
+    "ok": 0,
+    "rule": "iid-map",
+    "unverifiable": 0
+   },
+   {
+    "accuracy": 0.0,
+    "bad": 6,
+    "ctx": "ooc",
+    "n": 6,
+    "ok": 0,
+    "rule": "observed",
+    "unverifiable": 0
+   },
+   {
+    "accuracy": 0.0,
+    "bad": 6,
+    "ctx": "ooc",
+    "n": 6,
+    "ok": 0,
+    "rule": "secret-timing",
+    "unverifiable": 0
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "ooc",
+    "n": 6,
+    "ok": 0,
+    "rule": "totem-update",
+    "unverifiable": 6
+   }
+  ],
+  "sample": [
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     },
+     "aura": {
+      "expected": true,
+      "predicted": 600,
+      "present": false
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 905,
+    "t": 1791432087.709,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "summon": {
+      "predicted": 300,
+      "present": false
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 8155,
+    "t": 1791432091.584,
+    "unit": "player"
+   },
+   {
+    "checks": {},
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 36936,
+    "t": 1791432095.959,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "summon": {
+      "predicted": 300,
+      "present": false
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 5675,
+    "t": 1791432097.709,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "summon": {
+      "predicted": 300,
+      "present": false
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 6375,
+    "t": 1791432105.521,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     },
+     "aura": {
+      "expected": true,
+      "predicted": 12,
+      "present": false
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 8052,
+    "t": 1791432123.06,
+    "unit": "Creature-0-6783-1-536-4249-0000471332"
+   },
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     },
+     "aura": {
+      "expected": true,
+      "predicted": 600,
+      "present": false
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 905,
+    "t": 1791432133.413,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     },
+     "aura": {
+      "expected": true,
+      "predicted": 12,
+      "present": false
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 8052,
+    "t": 1791432139.914,
+    "unit": "Creature-0-6783-1-536-4249-0000471332"
+   },
+   {
+    "checks": {
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     },
+     "summon": {
+      "predicted": 45,
+      "present": false
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 8177,
+    "t": 1791432142.893,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     },
+     "summon": {
+      "predicted": 45,
+      "present": false
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 2484,
+    "t": 1791432144.812,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "dispel": {
+      "result": "nothing-dispelled"
+     }
+    },
+    "ctx": "ooc",
+    "failures": [
+     "dispel: nothing removed (no dispellable effect / resisted)"
+    ],
+    "spell": 370,
+    "t": 1791432148.916,
+    "unit": "Creature-0-6783-1-536-4249-0000471332"
+   },
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 8008,
+    "t": 1791432152.958,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     },
+     "aura": {
+      "expected": true,
+      "predicted": 600,
+      "present": false
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 905,
+    "t": 1791432160.958,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     },
+     "aura": {
+      "expected": true,
+      "predicted": 12,
+      "present": false
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 8052,
+    "t": 1791432162.833,
+    "unit": "Creature-0-6783-1-536-4119-0000471423"
+   },
+   {
+    "checks": {
+     "summon": {
+      "predicted": 300,
+      "present": false
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 6375,
+    "t": 1791432165.146,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     },
+     "aura": {
+      "expected": true,
+      "predicted": 2,
+      "present": false
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 8046,
+    "t": 1791432171.291,
+    "unit": "Creature-0-6783-1-536-4119-0000471423"
+   },
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     },
+     "aura": {
+      "expected": true,
+      "predicted": 2,
+      "present": false
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 8046,
+    "t": 1791432177.312,
+    "unit": "Creature-0-6783-1-536-4119-0000471423"
+   },
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 8008,
+    "t": 1791432183.125,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 8008,
+    "t": 1791432185.104,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     },
+     "aura": {
+      "expected": true,
+      "predicted": 2,
+      "present": false
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 8046,
+    "t": 1791432197.979,
+    "unit": "Creature-0-6783-1-536-4119-0000471423"
+   },
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     },
+     "aura": {
+      "expected": true,
+      "predicted": 12,
+      "present": false
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 8052,
+    "t": 1791432211.291,
+    "unit": "Creature-0-6783-1-536-4124-0000470F85"
+   },
+   {
+    "checks": {
+     "aura": {
+      "expected": true,
+      "predicted": 12,
+      "present": false
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 17364,
+    "t": 1791432213.376,
+    "unit": "Creature-0-6783-1-536-4124-0000470F85"
+   },
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     },
+     "aura": {
+      "expected": true,
+      "predicted": 8,
+      "present": false
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 8056,
+    "t": 1791432217.522,
+    "unit": "Creature-0-6783-1-536-4124-0000470F85"
+   },
+   {
+    "checks": {
+     "aura": {
+      "expected": true,
+      "predicted": 12,
+      "present": false
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 17364,
+    "t": 1791432224.668,
+    "unit": "Creature-0-6783-1-536-4124-0000470F85"
+   },
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 8008,
+    "t": 1791432230.626,
+    "unit": "player"
+   }
+  ],
+  "sessions": 2
+ },
+ "player": "Player-4618-00EB40D8",
+ "playerNote": "player Player-4618-00EB40D8 via auto:sv-meta guid (Uglaz Doomaxe)",
+ "replay": {
+  "clear": {
+   "contradictions": 1,
+   "counters": {
+    "auraEvents": 15,
+    "casts": 19,
+    "contradictions": 1,
+    "inferences": 22,
+    "predictions": 15,
+    "unreadable": 0
+   },
+   "events": 64,
+   "failures": {
+    "crit": 1,
+    "removed-early (dispel/cancel/death)": 1
+   },
+   "predictions": [
+    {
+     "accuracy": 71.4,
+     "bad": 2,
+     "ctx": "combat",
+     "kind": "amount",
+     "meanAbsErrorSec": null,
+     "n": 7,
+     "ok": 5,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "kind": "aura",
+     "meanAbsErrorSec": 0.98,
+     "n": 3,
+     "ok": 3,
+     "pending": 0
+    },
+    {
+     "accuracy": null,
+     "bad": 0,
+     "ctx": "combat",
+     "kind": "cooldown",
+     "meanAbsErrorSec": null,
+     "n": 6,
+     "ok": 0,
+     "pending": 6
+    }
+   ],
+   "recall": {
+    "applications": 9,
+    "caught": 9,
+    "recall": 100.0
+   },
+   "rules": [
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 7,
+     "ok": 7,
+     "rule": "cast-pair",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 5,
+     "ok": 5,
+     "rule": "iid-map",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 1,
+     "ok": 1,
+     "rule": "iid-map",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 8,
+     "ok": 8,
+     "rule": "observed",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 1,
+     "ok": 1,
+     "rule": "observed",
+     "unverifiable": 0
+    }
+   ],
+   "sample": [
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8052,
+     "t": 1791498647.38,
+     "unit": "Creature-0-4621-1-739-4096-0000C8197F"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": true,
+       "periodic": false,
+       "within": false
+      },
+      "aura": {
+       "actual": 10.29,
+       "errorSec": -1.81,
+       "expected": true,
+       "predicted": 12.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "removed-early (dispel/cancel/death)",
+      "crit"
+     ],
+     "spell": 8052,
+     "t": 1791498666.184,
+     "unit": "Creature-0-4621-1-739-4096-0000C8197F"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791498672.122,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8046,
+     "t": 1791498674.999,
+     "unit": "Creature-0-4621-1-739-4096-0000C8197F"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 17364,
+     "t": 1791498676.479,
+     "unit": "Creature-0-4621-1-739-4096-0000C8197F"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 1238640,
+     "t": 1791499204.93,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 11.96,
+       "errorSec": -0.14,
+       "expected": true,
+       "predicted": 12.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8052,
+     "t": 1791499213.825,
+     "unit": "Creature-0-4621-1-739-4093-0000481B9A"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791499230.093,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8155,
+     "t": 1791499234.864,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 905,
+     "t": 1791499235.992,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": false
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8046,
+     "t": 1791499240.675,
+     "unit": "Creature-0-4621-1-739-4093-0000481B9A"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8046,
+     "t": 1791499247.364,
+     "unit": "Creature-0-4621-1-739-4093-0000481B9A"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8155,
+     "t": 1791499249.156,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "expected": true,
+       "predicted": 13,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 905,
+     "t": 1791499250.492,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791499253.781,
+     "unit": "player"
+    }
+   ]
+  },
+  "secret": {
+   "contradictions": 1,
+   "counters": {
+    "auraEvents": 15,
+    "casts": 19,
+    "contradictions": 1,
+    "inferences": 16,
+    "predictions": 15,
+    "unreadable": 0
+   },
+   "events": 64,
+   "failures": {
+    "crit": 1,
+    "removed-early (dispel/cancel/death)": 1
+   },
+   "predictions": [
+    {
+     "accuracy": 71.4,
+     "bad": 2,
+     "ctx": "combat",
+     "kind": "amount",
+     "meanAbsErrorSec": null,
+     "n": 7,
+     "ok": 5,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "kind": "aura",
+     "meanAbsErrorSec": 0.98,
+     "n": 3,
+     "ok": 3,
+     "pending": 0
+    },
+    {
+     "accuracy": null,
+     "bad": 0,
+     "ctx": "combat",
+     "kind": "cooldown",
+     "meanAbsErrorSec": null,
+     "n": 6,
+     "ok": 0,
+     "pending": 6
+    }
+   ],
+   "recall": {
+    "applications": 9,
+    "caught": 3,
+    "recall": 33.3
+   },
+   "rules": [
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 1,
+     "ok": 1,
+     "rule": "cast-correlation",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 7,
+     "ok": 7,
+     "rule": "cast-pair",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 5,
+     "ok": 2,
+     "rule": "iid-map",
+     "unverifiable": 3
+    },
+    {
+     "accuracy": null,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 1,
+     "ok": 0,
+     "rule": "iid-map",
+     "unverifiable": 1
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 2,
+     "ok": 2,
+     "rule": "single-applier",
+     "unverifiable": 0
+    }
+   ],
+   "sample": [
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8052,
+     "t": 1791498647.38,
+     "unit": "Creature-0-4621-1-739-4096-0000C8197F"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": true,
+       "periodic": false,
+       "within": false
+      },
+      "aura": {
+       "actual": 10.29,
+       "errorSec": -1.81,
+       "expected": true,
+       "predicted": 12.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "removed-early (dispel/cancel/death)",
+      "crit"
+     ],
+     "spell": 8052,
+     "t": 1791498666.184,
+     "unit": "Creature-0-4621-1-739-4096-0000C8197F"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791498672.122,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8046,
+     "t": 1791498674.999,
+     "unit": "Creature-0-4621-1-739-4096-0000C8197F"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 17364,
+     "t": 1791498676.479,
+     "unit": "Creature-0-4621-1-739-4096-0000C8197F"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 1238640,
+     "t": 1791499204.93,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 11.96,
+       "errorSec": -0.14,
+       "expected": true,
+       "predicted": 12.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8052,
+     "t": 1791499213.825,
+     "unit": "Creature-0-4621-1-739-4093-0000481B9A"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791499230.093,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8155,
+     "t": 1791499234.864,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 905,
+     "t": 1791499235.992,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": false
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8046,
+     "t": 1791499240.675,
+     "unit": "Creature-0-4621-1-739-4093-0000481B9A"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8046,
+     "t": 1791499247.364,
+     "unit": "Creature-0-4621-1-739-4093-0000481B9A"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8155,
+     "t": 1791499249.156,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "expected": true,
+       "predicted": 13,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 905,
+     "t": 1791499250.492,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791499253.781,
+     "unit": "player"
+    }
+   ]
+  },
+  "secret-pretrained": {
+   "contradictions": 1,
+   "counters": {
+    "auraEvents": 15,
+    "casts": 19,
+    "contradictions": 1,
+    "inferences": 19,
+    "predictions": 15,
+    "unreadable": 0
+   },
+   "events": 50,
+   "failures": {
+    "crit": 1,
+    "removed-early (dispel/cancel/death)": 1
+   },
+   "predictions": [
+    {
+     "accuracy": 88.9,
+     "bad": 1,
+     "ctx": "combat",
+     "kind": "amount",
+     "meanAbsErrorSec": null,
+     "n": 9,
+     "ok": 8,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "kind": "aura",
+     "meanAbsErrorSec": 0.51,
+     "n": 5,
+     "ok": 5,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "kind": "aura",
+     "meanAbsErrorSec": 0.03,
+     "n": 1,
+     "ok": 1,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "kind": "cooldown",
+     "meanAbsErrorSec": 0.0,
+     "n": 13,
+     "ok": 5,
+     "pending": 8
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "kind": "summon",
+     "meanAbsErrorSec": null,
+     "n": 2,
+     "ok": 2,
+     "pending": 0
+    }
+   ],
+   "recall": {
+    "applications": 9,
+    "caught": 6,
+    "recall": 66.7
+   },
+   "rules": [
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 2,
+     "ok": 2,
+     "rule": "cast-correlation",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 1,
+     "ok": 1,
+     "rule": "cast-correlation",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 7,
+     "ok": 7,
+     "rule": "cast-pair",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 5,
+     "ok": 5,
+     "rule": "iid-map",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": null,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 1,
+     "ok": 0,
+     "rule": "iid-map",
+     "unverifiable": 1
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 3,
+     "ok": 3,
+     "rule": "single-applier",
+     "unverifiable": 0
+    }
+   ],
+   "sample": [
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 12.07,
+       "errorSec": -0.03,
+       "expected": true,
+       "predicted": 12.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 0.0
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8052,
+     "t": 1791498647.38,
+     "unit": "Creature-0-4621-1-739-4096-0000C8197F"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": true,
+       "periodic": false,
+       "within": false
+      },
+      "aura": {
+       "actual": 10.29,
+       "errorSec": -1.81,
+       "expected": true,
+       "predicted": 12.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "removed-early (dispel/cancel/death)",
+      "crit"
+     ],
+     "spell": 8052,
+     "t": 1791498666.184,
+     "unit": "Creature-0-4621-1-739-4096-0000C8197F"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791498672.122,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8046,
+     "t": 1791498674.999,
+     "unit": "Creature-0-4621-1-739-4096-0000C8197F"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 17364,
+     "t": 1791498676.479,
+     "unit": "Creature-0-4621-1-739-4096-0000C8197F"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 8.63,
+       "errorSec": 0.03,
+       "expected": true,
+       "predicted": 8.6,
+       "present": true
+      }
+     },
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 1238640,
+     "t": 1791499204.93,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 11.96,
+       "errorSec": -0.14,
+       "expected": true,
+       "predicted": 12.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8052,
+     "t": 1791499213.825,
+     "unit": "Creature-0-4621-1-739-4093-0000481B9A"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": -0.0
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791499230.093,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 0.0
+      },
+      "summon": {
+       "actual": null,
+       "predicted": 300,
+       "present": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8155,
+     "t": 1791499234.864,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 12.96,
+       "errorSec": -0.04,
+       "expected": true,
+       "predicted": 13,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 0.0
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 905,
+     "t": 1791499235.992,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": -0.0
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8046,
+     "t": 1791499240.675,
+     "unit": "Creature-0-4621-1-739-4093-0000481B9A"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8046,
+     "t": 1791499247.364,
+     "unit": "Creature-0-4621-1-739-4093-0000481B9A"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      },
+      "summon": {
+       "actual": null,
+       "predicted": 300,
+       "present": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8155,
+     "t": 1791499249.156,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "expected": true,
+       "predicted": 13,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 905,
+     "t": 1791499250.492,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791499253.781,
+     "unit": "player"
+    }
+   ]
+  }
+ },
+ "truth": {
+  "amounts": 32,
+  "auras": 19,
+  "casts": 15,
+  "dispels": 0,
+  "misses": 0,
+  "starts": 4,
+  "summons": 2,
+  "summonsWithEnd": 0
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "run": "2026-10-08-run6b",
+ "ok": true,
+ "salt": 1127332880,
+ "matches": 4,
+ "method": "t0+counter",
+ "counter": 23,
+ "t0_off": 0,
+ "hashedDistinct": 46,
+ "resolved": 46,
+ "resolvedPct": 100.0,
+ "unresolved": 0,
+ "unresolvedSample": [],
+ "collisions": 0,
+ "collisionSample": [],
+ "rewrite": {
+  "resolved_keys": 46,
+  "unresolved_keys": 0
+ },
+ "sessions": [
+  {
+   "session": 0,
+   "sid": "cap-20261008183032-9",
+   "t0": 1126603.776,
+   "version": "2.2.6",
+   "recovered": {
+    "salt": 1126713479,
+    "matches": 2,
+    "counter": 11,
+    "t0_off": 0,
+    "sample": [
+     [
+      "player",
+      "Player-4618-00EB40D8",
+      "fd994260"
+     ],
+     [
+      "session",
+      "Galak Windchaser",
+      "540165e4"
+     ]
+    ],
+    "method": "t0+counter"
+   }
+  },
+  {
+   "session": 1,
+   "sid": "cap-20261008183532-14",
+   "t0": 1126904.148,
+   "version": "2.2.6",
+   "recovered": {
+    "salt": 1127063716,
+    "matches": 3,
+    "counter": 16,
+    "t0_off": 0,
+    "sample": [
+     [
+      "player",
+      "Player-4618-00EB40D8",
+      "aa81ff30"
+     ],
+     [
+      "session",
+      "Galak Wrangler",
+      "e240e130"
+     ],
+     [
+      "session",
+      "Galak Windchaser",
+      "930e45f8"
+     ]
+    ],
+    "method": "t0+counter"
+   }
+  },
+  {
+   "session": 2,
+   "sid": "cap-20261008183852-21",
+   "t0": 1127103.501,
+   "version": "2.2.6",
+   "recovered": {
+    "salt": 1127332880,
+    "matches": 4,
+    "counter": 23,
+    "t0_off": 0,
+    "sample": [
+     [
+      "player",
+      "Player-4618-00EB40D8",
+      "6ab94dc0"
+     ],
+     [
+      "player",
+      "Player-4618-00686E55",
+      "88c83a98"
+     ],
+     [
+      "session",
+      "Galak Wrangler",
+      "72688f50"
+     ],
+     [
+      "session",
+      "Galak Windchaser",
+      "3fe18dd4"
+     ]
+    ],
+    "method": "t0+counter"
+   }
+  }
+ ],
+ "ownGuidResolved": true,
+ "log": "/workspace/foreverdump/real/2026-10-08-run6b/WoWCombatLog.txt",
+ "out": "/workspace/foreverdump/real/2026-10-08-run6b/sv_raw",
+ "luaSubstitutions": 92
+}

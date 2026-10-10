@@ -1,0 +1,437 @@
+10/8 18:05:46.413  [N][BleepTokenManager] Constructing BLEEP token manager
+10/8 18:05:46.413  [N][Connection] Client connection initialized
+10/8 18:05:51.459  [N][Connection] Battle.net services startup requested hasFrontInterface="false" hasBackInterface="false"
+10/8 18:05:52.169  [N][Console] Linear: 1. 0- disabled (live), 1- linear
+10/8 18:05:52.169  [N][Console] Multithreaded rendering enabled.
+10/8 18:05:52.169  [N][Console] Multithreaded BeginDraw enabled.
+10/8 18:05:52.169  [N][Console] Multithread shadows changed to 1.
+10/8 18:05:52.169  [N][Console] Multithreaded prepass enabled.
+10/8 18:05:52.169  [N][Console] Multithreaded opaque pass enabled.
+10/8 18:05:52.169  [N][Console] Multithreaded opaque pass enabled.
+10/8 18:05:52.169  [N][Console] Multithreaded alpha M2 pass enabled.
+10/8 18:05:52.169  [N][Console] Multithreaded opaque WMO pass enabled.
+10/8 18:05:52.169  [N][Console] Multithreaded terrain pass enabled.
+10/8 18:05:52.169  [N][Console] Multithreaded volumetric fog enabled.
+10/8 18:05:52.169  [N][Console] Multithreaded Refraction Pass enabled.
+10/8 18:05:52.169  [N][Console] Multithreaded miscellaneous passes enabled.
+10/8 18:05:52.169  [N][Console] Multithreaded decal passes disabled.
+10/8 18:05:52.169  [N][Console] Multithreaded outline passes enabled.
+10/8 18:05:52.169  [N][Console] Multithreaded lightshaft passes enabled.
+10/8 18:05:52.169  [W][Console] Use trigger on BeginDrawComplete enabled.
+10/8 18:05:52.169  [N][Console] Multithreaded alpha pass enabled.
+10/8 18:05:52.169  [N][Console] Multithreaded daynight update enabled.
+10/8 18:05:52.169  [N][Console] Water detail changed to 2
+10/8 18:05:52.169  [N][Console] Ripple detail changed to 1
+10/8 18:05:52.169  [N][Console] Reflection mode changed to 2
+10/8 18:05:52.169  [N][Console] Reflection downscale changed to 0
+10/8 18:05:52.169  [N][Console] Sunshafts quality changed to 0
+10/8 18:05:52.169  [N][Console] Refraction mode changed to 0
+10/8 18:05:52.169  [N][Console] Volume fog enabled.
+10/8 18:05:52.169  [N][Console] Particulate volumes enabled.
+10/8 18:05:52.169  [N][Console] Projected textures enabled.
+10/8 18:05:52.169  [N][Console] Shadow mode changed to 1 - 1 band dynamic shadows on units, 1024
+10/8 18:05:52.169  [N][Console] Shadow texture size changed to 1024.
+10/8 18:05:52.169  [N][Console] Soft shadows changed to 0.
+10/8 18:05:52.169  [N][Console] Shadow cascade blending changed to 0
+10/8 18:05:52.169  [N][Console] Number of shadow cascades changed to 1
+10/8 18:05:52.169  [N][Console] Shadow RT mode changed to 0 (Disabled)
+10/8 18:05:52.169  [N][Console] maxLightCount must be in range 0 to 32.
+10/8 18:05:52.169  [N][Console] CVar 'maxLightCount' failed validation for its initial value.
+10/8 18:05:52.169  [N][Console] Clustered shading enabled.
+10/8 18:05:52.169  [N][Console] Not forcing clustered shading.
+10/8 18:05:52.169  [N][Console] SSAO mode set to 0
+10/8 18:05:52.169  [N][Console] Depth Based Opacity Enabled
+10/8 18:05:52.169  [N][Console] SkyCloudLOD set to 0
+10/8 18:05:52.169  [N][Console] Texture filtering mode updated.
+10/8 18:05:52.169  [N][Console] Terrain mip level changed to 0.
+10/8 18:05:52.169  [N][Console] Outline mode changed to 1
+10/8 18:05:52.169  [N][Console] Physics interaction level changed to 1
+10/8 18:05:52.169  [N][Console] Render scale changed to 1
+10/8 18:05:52.169  [N][Console] Resample quality changed to 3
+10/8 18:05:52.169  [N][Console] MSAA disabled
+10/8 18:05:52.169  [N][Console] MSAA for alpha-test enabled.
+10/8 18:05:52.169  [N][Console] VALAR mode changed to 2
+10/8 18:05:52.169  [N][Console] lodObjectSizeScale cannot be changed.
+10/8 18:05:52.169  [N][Console] Volume fog enabled.
+10/8 18:05:52.169  [N][Console] dynamicLod enabled
+10/8 18:05:52.169  [N][Console] World preload object sort enabled.
+10/8 18:05:52.169  [N][Console] World load object sort enabled.
+10/8 18:05:52.169  [N][Console] World preload non critical enabled.
+10/8 18:05:52.169  [N][Console] World preload high res textures enabled.
+10/8 18:05:52.227  [N][Console] FFX: Color Blind Test Mode Disabled
+10/8 18:05:52.300  [N][Console] CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.
+10/8 18:05:52.300  [N][Console] CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.
+10/8 18:05:52.300  [N][Console] CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.
+10/8 18:05:52.300  [N][Console] CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.
+10/8 18:05:52.419  [N][Console] GamePad input enabled.
+10/8 18:05:52.419  [N][Console] ChromaEffects disabled
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Global capacity for Frame changed to 100000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Global capacity for Frame changed to 100000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Global capacity for Timer changed to 500
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Global capacity for Timer changed to 500
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Addon capacity for Animation changed to 5000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Addon capacity for Animation changed to 5000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Addon capacity for Timer changed to 500
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Addon capacity for Timer changed to 500
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Global capacity for Font changed to 3000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Global capacity for Font changed to 3000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Addon capacity for Frame changed to 10000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Addon capacity for Frame changed to 10000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Addon capacity for Font changed to 300
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Addon capacity for Font changed to 300
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Addon capacity for FontString changed to 5000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Addon capacity for FontString changed to 5000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Addon capacity for AnimGroup changed to 2000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Addon capacity for AnimGroup changed to 2000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Addon capacity for Texture changed to 40000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Addon capacity for Texture changed to 40000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Global capacity for Texture changed to 400000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Global capacity for Texture changed to 400000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Global capacity for FontString changed to 50000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Global capacity for FontString changed to 50000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Global capacity for Animation changed to 50000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Global capacity for Animation changed to 50000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Enabled = false
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Enabled = false
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Global capacity for AnimGroup changed to 20000
+10/8 18:05:52.419  [N][Lua] LimitedLuaResources: Global capacity for AnimGroup changed to 20000
+10/8 18:05:52.419  [N][Glues] Startup()
+10/8 18:05:52.444  [N][Glues] Resume()
+10/8 18:05:53.251  [N][Lua] Screen invalid. Changing from="none" to="login"
+10/8 18:05:53.251  [N][Lua] Switching to screen="AccountLogin" (from "none")
+10/8 18:05:53.251  [N][Lua] From EnsureValidScreen
+10/8 18:05:53.270  [W][BnetOverlay] Overlay is disabled.  Only internal builds and public China builds have it.
+10/8 18:05:55.220  [N][Connection] Glue login started loginType="(enum)1" launcherPortal="test.actual.battle.net" loginPortal="test.actual.battle.net:1119"
+10/8 18:05:55.220  [N][Connection] Glue login state reset requested
+10/8 18:05:55.220  [N][Connection] Battle.net login session initialization requested
+10/8 18:05:55.220  [N][Connection] Battle.net logon requested host="test.actual.battle.net" port="1119"
+10/8 18:05:55.220  [N][Connection] Battle.net login waiting for server response
+10/8 18:05:55.226  [D][Connection] Launcher login game account supplied gameAccount=""
+10/8 18:05:55.678  [N][Connection] Battle.net front connected connectionId="1" title_id="5730135" platform="Wn64" locale="enUS" usedToken="true"
+10/8 18:05:55.679  [N][Connection] Battle.net login waiting for server response
+10/8 18:05:55.781  [N][Connection] Battle.net logon queue update received position="3" estimatedQueueExitTime="1791497155"
+10/8 18:05:55.781  [N][Connection] Battle.net logon queue updated
+10/8 18:05:55.781  [N][Connection] Battle.net logon response received result="ERROR_OK (0)"
+10/8 18:05:56.156  [N][Connection] Battle.net logon completed result="ERROR_OK (0)" numGameAccounts="1"
+10/8 18:05:56.156  [N][Connection] Battle.net login waiting for server response
+10/8 18:05:56.281  [N][Connection] Battle.net account service response received responseType="BNetInfo" responseTypeValue="1" code="ERROR_OK (0)"
+10/8 18:05:56.281  [N][Connection] Battle.net account service response received responseType="BNetRestriction" responseTypeValue="2" code="ERROR_OK (0)"
+10/8 18:05:56.281  [N][Connection] Battle.net auth token response received code="ERROR_OK (0)" gotCredentials="true"
+10/8 18:05:56.281  [N][Connection] Battle.net account service response received responseType="GameRestriction" responseTypeValue="8" code="ERROR_OK (0)"
+10/8 18:05:56.281  [D][Connection] Battle.net game account restrictions loaded loaded="1"
+10/8 18:05:56.281  [N][Connection] Battle.net account service response received responseType="GameInfo" responseTypeValue="4" code="ERROR_OK (0)"
+10/8 18:05:56.281  [N][Connection] Battle.net account service game info received responseType="GameInfo" responseTypeValue="4" code="ERROR_OK (0)" name="WoW1" numGameAccounts="1" numGameAccountNames="0"
+10/8 18:05:56.281  [D][Connection] Battle.net game account names loaded gameAccountNames="1"
+10/8 18:05:56.281  [D][Connection] Battle.net required account state loaded; completing login
+10/8 18:05:56.281  [N][Connection] Battle.net complete login requested hasGameAccount="true"
+10/8 18:05:56.281  [N][Connection] Game account list not saved because accountName CVar is empty
+10/8 18:05:56.281  [N][Connection] Battle.net logon completed in glue
+10/8 18:05:56.281  [N][Connection] Reconnect token saved creationTime="1791497156" expirationTime="1791511556"
+10/8 18:05:56.281  [N][Connection] Character selection waiting for account item collection data collectionListType="7"
+10/8 18:05:56.281  [N][Connection] Battle.net login waiting for realm list
+10/8 18:05:56.281  [N][Connection] Battle.net realm list ticket requested
+10/8 18:05:56.698  [D][BleepPinger] Sending pings to individual proxy proxyID="bleep-proxy-ec05-eqla1.network.cloud.blizzard.net"
+10/8 18:05:56.698  [D][BleepPinger] Opening socket for proxy proxyID="bleep-proxy-ec05-eqla1.network.cloud.blizzard.net" address="137.221.68.105"
+10/8 18:05:56.698  [D][BleepPinger] Sending pings to individual proxy proxyID="bleep-proxy-ec04-eqml2.network.cloud.blizzard.net"
+10/8 18:05:56.698  [D][BleepPinger] Opening socket for proxy proxyID="bleep-proxy-ec04-eqml2.network.cloud.blizzard.net" address="137.221.82.103"
+10/8 18:05:56.698  [D][BleepPinger] Sending pings to individual proxy proxyID="bleep-proxy-ec04-eqny5.network.cloud.blizzard.net"
+10/8 18:05:56.698  [D][BleepPinger] Opening socket for proxy proxyID="bleep-proxy-ec04-eqny5.network.cloud.blizzard.net" address="137.221.111.103"
+10/8 18:05:56.698  [D][BleepPinger] Sending pings to individual proxy proxyID="bleep-proxy-ec04-eqse2.network.cloud.blizzard.net"
+10/8 18:05:56.698  [D][BleepPinger] Opening socket for proxy proxyID="bleep-proxy-ec04-eqse2.network.cloud.blizzard.net" address="137.221.73.103"
+10/8 18:05:56.844  [N][BleepPinger] All pings from all pongs received
+10/8 18:05:57.260  [N][Connection] Battle.net realm list ticket received code="ERROR_OK (0)" realmListRequestToken="0" isCurrentToken="true" hasTicket="true"
+10/8 18:05:57.260  [N][Connection] Battle.net login waiting for realm list
+10/8 18:05:57.385  [N][Connection] Battle.net subregion list received code="ERROR_OK (0)" realmListRequestToken="0" isCurrentToken="true" subRegionCount="5"
+10/8 18:05:57.385  [N][Connection] Battle.net last played character requests sent numSubRegions="5" selectedSubRegion="70-1-70"
+10/8 18:05:57.865  [N][Connection] Battle.net last played character received code="ERROR_OK (0)" subRegion="70-1-70" lastPlayedTime="1791438708" realmListRequestToken="0" isCurrentToken="true" contentSetIDFilter="-1" numRegions="5" selectedSubRegion="70-1-70" numRegionsWithData="0" realmPermissions="512" licensesCount="1" realmEntry="{"wowRealmAddress":1174470658,"useBleepChance":0.0,"cfgTimezonesID":1,"populationState":2,"cfgCategoriesID":26,"version":{"versionMajor":1,"versionBuild":70249,"versionMinor":60,"versionRevision":1},"cfgRealmsID":4618,"gameServiceRegionId":98,"flags":0,"name":"Classic Beta PvE","cfgConfigsID":1,"cfgContentSetID":137,"cfgLanguagesID":1,"superDistrictID":2}"
+10/8 18:05:57.865  [N][Connection] Battle.net realm list ready in glue
+10/8 18:05:57.865  [N][Connection] Battle.net most recent character found; joining realm lastPlayedRegion="70-1-70" realmAddress="1174470658" lastActiveTime="1791438708"
+10/8 18:05:57.865  [N][Connection] Battle.net realm join requested subRegion="70-1-70" realmAddress="70-1-2"
+10/8 18:05:58.282  [N][Connection] Battle.net realm join response received code="ERROR_OK (0)" joinToken="1" isLatestJoinToken="true" hasJoinData="true"
+10/8 18:05:58.282  [N][Connection] Realm connection change requested
+10/8 18:05:58.282  [N][Connection] Realm connection requested realmAddress="70-1-2"
+10/8 18:05:58.295  [N][Connection] Opening game realm connection realmAddress="70-1-2" connection="000001f3a84416b0" protocol="(enum)0" directAddressCount="6" bleepProxyCount="0"
+10/8 18:05:58.295  [N][Connection] Opening network connection connectionIndex="(enum)0" connection="000001f3a84416b0" protocol="(enum)0" directAddressCount="6" bleepProxyCount="0"
+10/8 18:05:58.339  [D][Connection] Reliable transport connected connection="000001f3a84416b0" newConnection="0000000000000000" protocol="(enum)0" peerAddr="24.105.52.16"
+10/8 18:05:58.339  [N][Connection] Realm connection connected realmAddress="70-1-2"
+10/8 18:05:58.339  [N][Connection] Client connected
+10/8 18:05:59.698  [N][Connection] Authentication response received result="0" hasSuccessInfo="true" hasWaitInfo="false"
+10/8 18:05:59.698  [N][Connection] Realm authentication completed result="ERROR_OK (0)"
+10/8 18:05:59.698  [N][Connection] Character list request sent fastLogin="false"
+10/8 18:05:59.711  [N][Console] CVar 'encounterTimelineHighlightDuration' failed validation for its initial value.
+10/8 18:05:59.711  [N][Console] CVar 'encounterTimelineIconographyHiddenMask' failed validation for its initial value.
+10/8 18:05:59.711  [N][Console] CVar 'encounterTimelineIconographyEnabled' failed validation for its initial value.
+10/8 18:05:59.711  [N][Console] CVar 'encounterTimelineHideForOtherRoles' failed validation for its initial value.
+10/8 18:05:59.711  [N][Console] CVar 'encounterTimelineHideQueuedCountdowns' failed validation for its initial value.
+10/8 18:05:59.711  [N][Console] CVar 'encounterTimelineHideLongCountdowns' failed validation for its initial value.
+10/8 18:05:59.711  [N][Console] CVar 'encounterTimelineEnabled' failed validation for its initial value.
+10/8 18:05:59.711  [N][Lua] Screen invalid. Changing from="login" to="charselect"
+10/8 18:05:59.757  [N][Lua] Switching to screen="CharacterSelect" (from "login")
+10/8 18:05:59.757  [N][Connection] Character list request sent fastLogin="false"
+10/8 18:05:59.757  [N][Lua] From EnsureValidScreen
+10/8 18:05:59.757  [N][Connection] Battle.net connected to realm; disconnecting from front
+10/8 18:05:59.757  [N][Connection] Battle.net front disconnecting connectionId="1"
+10/8 18:05:59.757  [N][Connection] Battle.net authentication server disconnect started
+10/8 18:05:59.782  [N][AccountData] AccountData_RequestLoad type="0" fromAuth="true" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="0" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:05:59.782  [N][AccountData] AccountData_RequestLoad updated callback state type="0" pending="false" hasCallback="true" param="0"
+10/8 18:05:59.782  [N][AccountData] AccountData_RequestLoad type="10" fromAuth="true" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="0" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:05:59.782  [N][AccountData] AccountData_RequestLoad updated callback state type="10" pending="false" hasCallback="true" param="0"
+10/8 18:05:59.782  [N][AccountData] AccountData_RequestLoad type="16" fromAuth="false" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="0" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:05:59.782  [N][AccountData] AccountData_RequestLoad updated callback state type="16" pending="false" hasCallback="true" param="0"
+10/8 18:05:59.782  [N][Connection] Glue feature system status received
+10/8 18:05:59.782  [N][Lua] LimitedLuaResources: Addon capacity for Timer changed to 500
+10/8 18:05:59.782  [N][Lua] LimitedLuaResources: Addon capacity for Frame changed to 10000
+10/8 18:05:59.782  [N][Lua] LimitedLuaResources: Addon capacity for Font changed to 300
+10/8 18:05:59.782  [N][Lua] LimitedLuaResources: Global capacity for Timer changed to 500
+10/8 18:05:59.782  [N][Lua] LimitedLuaResources: Addon capacity for Texture changed to 40000
+10/8 18:05:59.782  [N][Lua] LimitedLuaResources: Global capacity for Animation changed to 50000
+10/8 18:05:59.782  [N][Lua] LimitedLuaResources: Enabled = false
+10/8 18:05:59.782  [N][Lua] LimitedLuaResources: Global capacity for Font changed to 3000
+10/8 18:05:59.782  [N][Lua] LimitedLuaResources: Addon capacity for FontString changed to 5000
+10/8 18:05:59.782  [N][Lua] LimitedLuaResources: Global capacity for Texture changed to 400000
+10/8 18:05:59.782  [N][Lua] LimitedLuaResources: Global capacity for Frame changed to 100000
+10/8 18:05:59.782  [N][Lua] LimitedLuaResources: Global capacity for FontString changed to 50000
+10/8 18:05:59.782  [N][Lua] LimitedLuaResources: Global capacity for AnimGroup changed to 20000
+10/8 18:05:59.782  [N][Lua] LimitedLuaResources: Addon capacity for Animation changed to 5000
+10/8 18:05:59.782  [N][Lua] LimitedLuaResources: Addon capacity for AnimGroup changed to 2000
+10/8 18:05:59.895  [N][Connection] Battle.net front disconnected connectionId="1" reason="ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)"
+10/8 18:05:59.895  [N][Connection] Battle.net authentication server disconnected
+10/8 18:05:59.910  [N][Connection] Connecting to sourceRealmAddress="70-1-2" connection="000001f404d57660" serial="14" protocol="(enum)0"
+10/8 18:05:59.910  [N][Connection] Opening network connection connectionIndex="(enum)2" connection="000001f404d57660" protocol="(enum)0" directAddressCount="1" bleepProxyCount="0"
+10/8 18:05:59.955  [D][Connection] Reliable transport connected connection="000001f404d57660" newConnection="0000000000000000" protocol="(enum)0" peerAddr="24.105.52.23"
+10/8 18:05:59.955  [D][Connection] Non-primary connection connected connectionIndex="(enum)2"
+10/8 18:06:00.366  [N][AccountData] LoadAccountDataFromFile type="0" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:06:00.366  [N][AccountData] LoadAccountDataFromFile type="10" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:06:00.366  [N][AccountData] LoadAccountDataFromFile type="16" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:06:00.366  [N][AccountData] LoadAccountDataFromFile type="19" pendingBefore="false" hasCallback="false" param="0"
+10/8 18:06:00.366  [N][Connection] Glue feature system status received
+10/8 18:06:00.366  [N][Connection] Character list response received success="true" isRegionwideData="true" isDeletedCharacters="false" characterCount="2" hadPendingResult="false"
+10/8 18:06:00.366  [N][AccountData] LoadAccountDataFromFile type="0" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:06:00.366  [N][AccountData] LoadAccountDataFromFile type="10" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:06:00.366  [N][AccountData] LoadAccountDataFromFile type="16" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:06:00.366  [N][AccountData] LoadAccountDataFromFile type="19" pendingBefore="false" hasCallback="false" param="0"
+10/8 18:06:00.366  [N][Connection] Account item collection data received for character selection collectionListType="7" itemCount="0" wasWaiting="true"
+10/8 18:06:00.366  [N][Connection] Character list update waiting on startup prerequisites waitingForHotfixesReady="false" tactEncryptionConnectedReady="false" tactKeyPendingPatchesReady="true" sectionLoadsReady="true" preloadAccountSettingsDataReady="true"
+10/8 18:06:00.406  [N][Connection] Initial hotfixes applied
+10/8 18:06:00.417  [N][Connection] Resuming communications connectionIndex="(enum)2"
+10/8 18:06:00.417  [N][Connection] Killing connection connection="000001f3a84416b0" state="(enum)6"
+10/8 18:06:00.417  [D][Connection] Reliable transport disconnected connection="000001f3a84416b0" peerAddr="24.105.52.16" reasonErrorCode="0" reasonStatus="0"
+10/8 18:06:00.866  [N][Connection] Character selection updating character list success="true" isRegionwideData="true" isDeletedCharacters="false" count="2"
+10/8 18:06:03.836  [N][Glues] Suspend()
+10/8 18:06:03.836  [N][Lua] LimitedLuaResources: Reset Timer
+10/8 18:06:03.913  [N][AccountData] AccountData_RequestLoad type="12" fromAuth="false" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="140698625668912" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:06:03.913  [N][AccountData] AccountData_RequestLoad updated callback state type="12" pending="false" hasCallback="true" param="140698625668912"
+10/8 18:06:03.913  [N][AccountData] AccountData_RequestLoad type="13" fromAuth="false" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="0" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:06:03.913  [N][AccountData] AccountData_RequestLoad updated callback state type="13" pending="false" hasCallback="true" param="0"
+10/8 18:06:03.913  [N][AccountData] AccountData_RequestLoad type="14" fromAuth="false" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="0" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:06:03.913  [N][AccountData] AccountData_RequestLoad updated callback state type="14" pending="false" hasCallback="true" param="0"
+10/8 18:06:03.935  [N][AccountData] AccountData_RequestLoad type="8" fromAuth="false" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="140698625702032" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:06:03.935  [N][AccountData] AccountData_RequestLoad updated callback state type="8" pending="false" hasCallback="true" param="140698625702032"
+10/8 18:06:03.935  [N][AccountData] AccountData_RequestLoad type="9" fromAuth="false" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="140698625702032" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:06:03.935  [N][AccountData] AccountData_RequestLoad updated callback state type="9" pending="false" hasCallback="true" param="140698625702032"
+10/8 18:06:03.935  [N][AccountData] AccountData_RequestLoad type="18" fromAuth="false" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="0" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:06:03.935  [N][AccountData] AccountData_RequestLoad updated callback state type="18" pending="false" hasCallback="true" param="0"
+10/8 18:06:04.272  [N][AccountData] PreLoadGameCVars initialized pending mask pendingMask="32" initCounter="1" characterlessLogin="false"
+10/8 18:06:11.389  [N][AccountData] AccountData_RequestLoad type="2" fromAuth="false" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="196609" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:06:11.389  [N][AccountData] AccountData_RequestLoad updated callback state type="2" pending="false" hasCallback="true" param="196609"
+10/8 18:06:11.389  [N][AccountData] AccountData_RequestLoad type="3" fromAuth="false" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="196610" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:06:11.389  [N][AccountData] AccountData_RequestLoad updated callback state type="3" pending="false" hasCallback="true" param="196610"
+10/8 18:06:11.389  [N][AccountData] AccountData_RequestLoad type="6" fromAuth="false" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="0" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:06:11.389  [N][AccountData] AccountData_RequestLoad updated callback state type="6" pending="false" hasCallback="true" param="0"
+10/8 18:06:11.389  [N][AccountData] AccountData_RequestLoad type="11" fromAuth="false" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="0" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:06:11.389  [N][AccountData] AccountData_RequestLoad updated callback state type="11" pending="false" hasCallback="true" param="0"
+10/8 18:06:11.389  [N][AccountData] LoadGameCVars request dispatch initCounter="1" pendingMask="32" characterlessLogin="false"
+10/8 18:06:11.389  [N][AccountData] AccountData_RequestLoad type="1" fromAuth="false" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="65568" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:06:11.389  [N][AccountData] AccountData_RequestLoad updated callback state type="1" pending="false" hasCallback="true" param="65568"
+10/8 18:06:11.389  [N][AccountData] AccountData_RequestLoad type="4" fromAuth="false" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="65537" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:06:11.389  [N][AccountData] AccountData_RequestLoad updated callback state type="4" pending="false" hasCallback="true" param="65537"
+10/8 18:06:11.389  [N][AccountData] AccountData_RequestLoad type="5" fromAuth="false" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="131073" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:06:11.389  [N][AccountData] AccountData_RequestLoad updated callback state type="5" pending="false" hasCallback="true" param="131073"
+10/8 18:06:11.389  [N][AccountData] AccountData_RequestLoad type="7" fromAuth="false" pending="false" existingHasCallback="false" newHasCallback="true" existingParam="0" newParam="0" isReloadingUI="false" loadOnDemandOnly="false"
+10/8 18:06:11.389  [N][AccountData] AccountData_RequestLoad updated callback state type="7" pending="false" hasCallback="true" param="0"
+10/8 18:06:15.179  [N][Connection] Connecting to sourceRealmAddress="70-1-2" connection="000001f404d57840" serial="17" protocol="(enum)0"
+10/8 18:06:15.179  [N][Connection] Opening network connection connectionIndex="(enum)3" connection="000001f404d57840" protocol="(enum)0" directAddressCount="1" bleepProxyCount="0"
+10/8 18:06:15.235  [D][Connection] Reliable transport connected connection="000001f404d57840" newConnection="0000000000000000" protocol="(enum)0" peerAddr="66.40.177.76"
+10/8 18:06:15.235  [D][Connection] Non-primary connection connected connectionIndex="(enum)3"
+10/8 18:06:15.410  [N][Connection] Resuming communications connectionIndex="(enum)3"
+10/8 18:06:15.639  [N][AccountData] DownloadAccountData begin type="1" pendingBefore="false" isCharacterlessLogin="false"
+10/8 18:06:15.639  [N][AccountData] DownloadAccountData request sent type="1"
+10/8 18:06:15.639  [N][AccountData] DownloadAccountData pending set type="1" pendingAfter="true"
+10/8 18:06:15.639  [N][AccountData] LoadAccountDataFromFile type="2" pendingBefore="false" hasCallback="true" param="196609"
+10/8 18:06:15.639  [N][AccountData] LoadAccountDataFromFile type="3" pendingBefore="false" hasCallback="true" param="196610"
+10/8 18:06:15.639  [N][AccountData] LoadAccountDataFromFile type="4" pendingBefore="false" hasCallback="true" param="65537"
+10/8 18:06:15.639  [N][AccountData] LoadAccountDataFromFile type="5" pendingBefore="false" hasCallback="true" param="131073"
+10/8 18:06:15.639  [N][AccountData] LoadAccountDataFromFile type="6" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:06:15.639  [N][AccountData] LoadAccountDataFromFile type="7" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:06:15.652  [N][AccountData] LoadAccountDataFromFile type="8" pendingBefore="false" hasCallback="true" param="140698625702032"
+10/8 18:06:15.665  [N][AccountData] LoadAccountDataFromFile type="9" pendingBefore="false" hasCallback="true" param="140698625702032"
+10/8 18:06:15.665  [N][AccountData] LoadAccountDataFromFile type="11" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:06:15.665  [N][AccountData] LoadAccountDataFromFile type="12" pendingBefore="false" hasCallback="true" param="140698625668912"
+10/8 18:06:15.665  [N][AccountData] LoadAccountDataFromFile type="13" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:06:15.665  [N][AccountData] LoadAccountDataFromFile type="14" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:06:15.665  [N][AccountData] LoadAccountDataFromFile type="15" pendingBefore="false" hasCallback="false" param="0"
+10/8 18:06:15.665  [N][AccountData] LoadAccountDataFromFile type="17" pendingBefore="false" hasCallback="false" param="0"
+10/8 18:06:15.665  [N][AccountData] LoadAccountDataFromFile type="18" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:06:15.764  [N][Console] Proficiency in item class 4 set to 0x0000000200
+10/8 18:06:15.764  [N][Console] Proficiency in item class 4 set to 0x0000000221
+10/8 18:06:15.764  [N][Console] Proficiency in item class 2 set to 0x0000004000
+10/8 18:06:15.764  [N][Console] Proficiency in item class 4 set to 0x0000000225
+10/8 18:06:15.764  [N][Console] Proficiency in item class 2 set to 0x0000004010
+10/8 18:06:15.764  [N][Console] Proficiency in item class 4 set to 0x0000000265
+10/8 18:06:15.764  [N][Console] Proficiency in item class 2 set to 0x0000004030
+10/8 18:06:15.764  [N][Console] Proficiency in item class 4 set to 0x0000000267
+10/8 18:06:15.764  [N][Console] Proficiency in item class 2 set to 0x0000104030
+10/8 18:06:15.764  [N][Console] Proficiency in item class 2 set to 0x0000104430
+10/8 18:06:15.764  [N][Console] Proficiency in item class 2 set to 0x000010c430
+10/8 18:06:15.764  [N][Console] Proficiency in item class 2 set to 0x000010c430
+10/8 18:06:15.764  [N][Console] Proficiency in item class 4 set to 0x0000000267
+10/8 18:06:15.764  [N][Console] Weather changed to 0, intensity 0.000000
+
+10/8 18:06:15.772  [N][Console] Time set to 10/8/2026 (Thu) 15:05
+10/8 18:06:15.772  [N][Console] Gamespeed set from 0.017 to 0.017
+10/8 18:06:16.340  [N][AccountData] OnUpdateAccountData received type="1" size="982" isAccountWide="false"
+10/8 18:06:16.340  [N][AccountData] OnUpdateAccountData consuming pending response type="1" size="982"
+10/8 18:06:16.340  [N][AccountData] OnUpdateAccountData decompression succeeded type="1" compressedSize="495" decompressedSize="982"
+10/8 18:06:16.340  [N][AccountData] LoadAccountDataFromServer type="1" bufSize="982" pendingBefore="false" hasCallback="true" param="65568"
+10/8 18:06:16.340  [N][AccountData] LoadGameCVarsCallback received callbackInitCounter="1" currentInitCounter="1" mask="32" buffsize="982" pendingMaskBefore="32"
+10/8 18:06:16.340  [N][AccountData] LoadGameCVarsCallback applied response mask="32" pendingMaskAfter="0"
+10/8 18:06:16.340  [N][AccountData] LoadGameCVarsCheckDone areCVarsLoaded="true" pendingMask="0"
+10/8 18:06:16.518  [N][AccountData] LoadGameCVarsCheckDone signaled variables loaded pendingMask="0"
+10/8 18:06:16.518  [N][AccountData] OnUpdateAccountData completed type="1" allowServerSave="true"
+10/8 18:06:16.870  [N][Connection] Connecting to sourceRealmAddress="70-1-2" connection="000001f3de4b9410" serial="43" protocol="(enum)0"
+10/8 18:06:16.870  [N][Connection] Opening network connection connectionIndex="(enum)3" connection="000001f3de4b9410" protocol="(enum)0" directAddressCount="1" bleepProxyCount="0"
+10/8 18:06:16.916  [D][Connection] Reliable transport connected connection="000001f3de4b9410" newConnection="0000000000000000" protocol="(enum)0" peerAddr="66.40.176.250"
+10/8 18:06:16.916  [D][Connection] Non-primary connection connected connectionIndex="(enum)3"
+10/8 18:06:17.182  [N][Connection] Resuming communications connectionIndex="(enum)3"
+10/8 18:06:17.182  [N][Connection] Killing connection connection="000001f404d57840" state="(enum)6"
+10/8 18:06:17.199  [D][Connection] Reliable transport disconnected connection="000001f404d57840" peerAddr="66.40.177.76" reasonErrorCode="0" reasonStatus="0"
+10/8 18:06:17.324  [N][Console] Weather changed to 0, intensity 0.000000
+
+10/8 18:16:43.424  [N][AccountData] GameUI::Shutdown invalidated load generation initCounter="2" isClosingClient="false"
+10/8 18:16:43.461  [N][Lua] LimitedLuaResources: Reset Timer
+10/8 18:16:43.572  [N][AccountData] AccountData_CancelRequestLoad type="0" pending="false" hasCallback="true" param="0"
+10/8 18:16:43.572  [N][AccountData] AccountData_CancelRequestLoad type="1" pending="false" hasCallback="true" param="65568"
+10/8 18:16:43.572  [N][AccountData] GameUI::Shutdown canceled CVar account-data loads initCounter="2" pendingMask="0"
+10/8 18:16:43.572  [N][Lua] LimitedLuaResources: Reset All
+10/8 18:16:43.964  [N][AccountData] PreLoadGameCVars initialized pending mask pendingMask="32" initCounter="2" characterlessLogin="false"
+10/8 18:16:46.677  [N][AccountData] AccountData_RequestLoad type="2" fromAuth="false" pending="false" existingHasCallback="true" newHasCallback="true" existingParam="196609" newParam="327681" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:16:46.677  [N][AccountData] AccountData_RequestLoad updated callback state type="2" pending="false" hasCallback="true" param="327681"
+10/8 18:16:46.677  [N][AccountData] AccountData_RequestLoad forcing local file load type="2" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:16:46.677  [N][AccountData] LoadAccountDataFromFile type="2" pendingBefore="false" hasCallback="true" param="327681"
+10/8 18:16:46.681  [N][AccountData] AccountData_RequestLoad type="3" fromAuth="false" pending="false" existingHasCallback="true" newHasCallback="true" existingParam="196610" newParam="327682" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:16:46.681  [N][AccountData] AccountData_RequestLoad updated callback state type="3" pending="false" hasCallback="true" param="327682"
+10/8 18:16:46.681  [N][AccountData] AccountData_RequestLoad forcing local file load type="3" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:16:46.681  [N][AccountData] LoadAccountDataFromFile type="3" pendingBefore="false" hasCallback="true" param="327682"
+10/8 18:16:46.681  [N][AccountData] AccountData_RequestLoad type="6" fromAuth="false" pending="false" existingHasCallback="true" newHasCallback="true" existingParam="0" newParam="0" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:16:46.681  [N][AccountData] AccountData_RequestLoad updated callback state type="6" pending="false" hasCallback="true" param="0"
+10/8 18:16:46.681  [N][AccountData] AccountData_RequestLoad forcing local file load type="6" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:16:46.681  [N][AccountData] LoadAccountDataFromFile type="6" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:16:46.681  [N][AccountData] AccountData_RequestLoad type="11" fromAuth="false" pending="false" existingHasCallback="true" newHasCallback="true" existingParam="0" newParam="0" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:16:46.681  [N][AccountData] AccountData_RequestLoad updated callback state type="11" pending="false" hasCallback="true" param="0"
+10/8 18:16:46.681  [N][AccountData] AccountData_RequestLoad forcing local file load type="11" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:16:46.681  [N][AccountData] LoadAccountDataFromFile type="11" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:16:46.681  [N][AccountData] LoadGameCVars request dispatch initCounter="2" pendingMask="32" characterlessLogin="false"
+10/8 18:16:46.681  [N][AccountData] AccountData_RequestLoad type="1" fromAuth="false" pending="false" existingHasCallback="true" newHasCallback="true" existingParam="65568" newParam="131104" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:16:46.681  [N][AccountData] AccountData_RequestLoad updated callback state type="1" pending="false" hasCallback="true" param="131104"
+10/8 18:16:46.681  [N][AccountData] AccountData_RequestLoad forcing local file load type="1" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:16:46.681  [N][AccountData] LoadAccountDataFromFile type="1" pendingBefore="false" hasCallback="true" param="131104"
+10/8 18:16:46.681  [N][AccountData] LoadGameCVarsCallback received callbackInitCounter="2" currentInitCounter="2" mask="32" buffsize="1018" pendingMaskBefore="32"
+10/8 18:16:46.681  [N][AccountData] LoadGameCVarsCallback applied response mask="32" pendingMaskAfter="0"
+10/8 18:16:46.681  [N][AccountData] LoadGameCVarsCheckDone areCVarsLoaded="true" pendingMask="0"
+10/8 18:16:46.729  [N][AccountData] LoadGameCVarsCheckDone signaled variables loaded pendingMask="0"
+10/8 18:16:46.729  [N][AccountData] AccountData_RequestLoad type="4" fromAuth="false" pending="false" existingHasCallback="true" newHasCallback="true" existingParam="65537" newParam="65539" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:16:46.729  [N][AccountData] AccountData_RequestLoad updated callback state type="4" pending="false" hasCallback="true" param="65539"
+10/8 18:16:46.729  [N][AccountData] AccountData_RequestLoad forcing local file load type="4" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:16:46.729  [N][AccountData] LoadAccountDataFromFile type="4" pendingBefore="false" hasCallback="true" param="65539"
+10/8 18:16:46.729  [N][AccountData] AccountData_RequestLoad type="5" fromAuth="false" pending="false" existingHasCallback="true" newHasCallback="true" existingParam="131073" newParam="131075" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:16:46.729  [N][AccountData] AccountData_RequestLoad updated callback state type="5" pending="false" hasCallback="true" param="131075"
+10/8 18:16:46.729  [N][AccountData] AccountData_RequestLoad forcing local file load type="5" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:16:46.729  [N][AccountData] LoadAccountDataFromFile type="5" pendingBefore="false" hasCallback="true" param="131075"
+10/8 18:16:46.729  [N][AccountData] AccountData_RequestLoad type="7" fromAuth="false" pending="false" existingHasCallback="true" newHasCallback="true" existingParam="0" newParam="0" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:16:46.729  [N][AccountData] AccountData_RequestLoad updated callback state type="7" pending="false" hasCallback="true" param="0"
+10/8 18:16:46.729  [N][AccountData] AccountData_RequestLoad forcing local file load type="7" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:16:46.729  [N][AccountData] LoadAccountDataFromFile type="7" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:16:47.465  [N][Connection] Logout abort acknowledged
+10/8 18:30:32.960  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'LayoutContents'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua]:147: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.lua]:82: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua]:70: in function <...zzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua:62>
+[tail call]: ?
+[Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua]:341: in function <Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua:340>
+
+10/8 18:30:48.475  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'LayoutContents'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua]:147: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.lua]:82: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua]:70: in function <...zzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua:62>
+[tail call]: ?
+[Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua]:341: in function <Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua:340>
+
+10/8 18:30:48.518  [E][Lua] Lua Error: Interface/AddOns/ForeverDump/DamageMeter.lua:51: attempt to perform boolean test on local 'v' (a secret boolean value, while execution tainted by 'ForeverDump')
+[C]: ?
+[Interface/AddOns/ForeverDump/DamageMeter.lua]:51: in function <Interface/AddOns/ForeverDump/DamageMeter.lua:48>
+[Interface/AddOns/ForeverDump/DamageMeter.lua]:78: in function <Interface/AddOns/ForeverDump/DamageMeter.lua:77>
+[Interface/AddOns/ForeverDump/DamageMeter.lua]:171: in function 'Classify'
+[Interface/AddOns/ForeverDump/DamageMeter.lua]:425: in function <Interface/AddOns/ForeverDump/DamageMeter.lua:422>
+
+10/8 18:30:48.622  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'LayoutContents'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua]:147: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.lua]:82: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua]:70: in function <...zzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua:62>
+[tail call]: ?
+[Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua]:341: in function <Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua:340>
+
+10/8 18:31:18.146  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'LayoutContents'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua]:147: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.lua]:93: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua]:70: in function <...zzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua:62>
+[tail call]: ?
+[Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua]:341: in function <Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua:340>
+
+10/8 18:31:18.354  [E][Lua] Lua Error: attempt to call a nil value
+[C]: in function 'LayoutContents'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua]:147: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.lua]:93: in function 'Update'
+[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua]:70: in function <...zzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua:62>
+[tail call]: ?
+[Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua]:341: in function <Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua:340>
+
+10/8 18:31:31.898  [N][AccountData] GameUI::Shutdown invalidated load generation initCounter="3" isClosingClient="false"
+10/8 18:31:32.531  [N][Lua] LimitedLuaResources: Reset Timer
+10/8 18:31:32.771  [N][AccountData] AccountData_CancelRequestLoad type="0" pending="false" hasCallback="true" param="0"
+10/8 18:31:32.771  [N][AccountData] AccountData_CancelRequestLoad type="1" pending="false" hasCallback="true" param="131104"
+10/8 18:31:32.771  [N][AccountData] GameUI::Shutdown canceled CVar account-data loads initCounter="3" pendingMask="0"
+10/8 18:31:32.771  [N][Lua] LimitedLuaResources: Reset All
+10/8 18:31:33.166  [N][AccountData] PreLoadGameCVars initialized pending mask pendingMask="32" initCounter="3" characterlessLogin="false"
+10/8 18:31:35.367  [N][AccountData] AccountData_RequestLoad type="2" fromAuth="false" pending="false" existingHasCallback="true" newHasCallback="true" existingParam="327681" newParam="458753" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:31:35.367  [N][AccountData] AccountData_RequestLoad updated callback state type="2" pending="false" hasCallback="true" param="458753"
+10/8 18:31:35.367  [N][AccountData] AccountData_RequestLoad forcing local file load type="2" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:31:35.367  [N][AccountData] LoadAccountDataFromFile type="2" pendingBefore="false" hasCallback="true" param="458753"
+10/8 18:31:35.367  [N][AccountData] AccountData_RequestLoad type="3" fromAuth="false" pending="false" existingHasCallback="true" newHasCallback="true" existingParam="327682" newParam="458754" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:31:35.367  [N][AccountData] AccountData_RequestLoad updated callback state type="3" pending="false" hasCallback="true" param="458754"
+10/8 18:31:35.367  [N][AccountData] AccountData_RequestLoad forcing local file load type="3" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:31:35.367  [N][AccountData] LoadAccountDataFromFile type="3" pendingBefore="false" hasCallback="true" param="458754"
+10/8 18:31:35.367  [N][AccountData] AccountData_RequestLoad type="6" fromAuth="false" pending="false" existingHasCallback="true" newHasCallback="true" existingParam="0" newParam="0" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:31:35.367  [N][AccountData] AccountData_RequestLoad updated callback state type="6" pending="false" hasCallback="true" param="0"
+10/8 18:31:35.367  [N][AccountData] AccountData_RequestLoad forcing local file load type="6" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:31:35.367  [N][AccountData] LoadAccountDataFromFile type="6" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:31:35.367  [N][AccountData] AccountData_RequestLoad type="11" fromAuth="false" pending="false" existingHasCallback="true" newHasCallback="true" existingParam="0" newParam="0" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:31:35.367  [N][AccountData] AccountData_RequestLoad updated callback state type="11" pending="false" hasCallback="true" param="0"
+10/8 18:31:35.367  [N][AccountData] AccountData_RequestLoad forcing local file load type="11" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:31:35.367  [N][AccountData] LoadAccountDataFromFile type="11" pendingBefore="false" hasCallback="true" param="0"
+10/8 18:31:35.367  [N][AccountData] LoadGameCVars request dispatch initCounter="3" pendingMask="32" characterlessLogin="false"
+10/8 18:31:35.367  [N][AccountData] AccountData_RequestLoad type="1" fromAuth="false" pending="false" existingHasCallback="true" newHasCallback="true" existingParam="131104" newParam="196640" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:31:35.367  [N][AccountData] AccountData_RequestLoad updated callback state type="1" pending="false" hasCallback="true" param="196640"
+10/8 18:31:35.367  [N][AccountData] AccountData_RequestLoad forcing local file load type="1" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:31:35.367  [N][AccountData] LoadAccountDataFromFile type="1" pendingBefore="false" hasCallback="true" param="196640"
+10/8 18:31:35.367  [N][AccountData] LoadGameCVarsCallback received callbackInitCounter="3" currentInitCounter="3" mask="32" buffsize="1018" pendingMaskBefore="32"
+10/8 18:31:35.367  [N][AccountData] LoadGameCVarsCallback applied response mask="32" pendingMaskAfter="0"
+10/8 18:31:35.367  [N][AccountData] LoadGameCVarsCheckDone areCVarsLoaded="true" pendingMask="0"
+10/8 18:31:35.418  [N][AccountData] LoadGameCVarsCheckDone signaled variables loaded pendingMask="0"
+10/8 18:31:35.418  [N][AccountData] AccountData_RequestLoad type="4" fromAuth="false" pending="false" existingHasCallback="true" newHasCallback="true" existingParam="65539" newParam="65541" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:31:35.418  [N][AccountData] AccountData_RequestLoad updated callback state type="4" pending="false" hasCallback="true" param="65541"
+10/8 18:31:35.418  [N][AccountData] AccountData_RequestLoad forcing local file load type="4" isReloadingUI="true" loadOnDemandOnly="false"
+10/8 18:31:35.418  [N][AccountData] LoadAccountDataFromFile type="4" pendingBefore="false" hasCallback="true" param="65541"
