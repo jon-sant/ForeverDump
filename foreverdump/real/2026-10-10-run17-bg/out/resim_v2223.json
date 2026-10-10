@@ -1,0 +1,165 @@
+{
+ "2026-10-07": {
+  "skip": "world run (0 hostile players): no scoreboard"
+ },
+ "2026-10-07-run2": {
+  "skip": "world run (1 hostile players): no scoreboard"
+ },
+ "2026-10-07-run3": {
+  "skip": "world run (1 hostile players): no scoreboard"
+ },
+ "2026-10-07-run4": {
+  "skip": "world run (1 hostile players): no scoreboard"
+ },
+ "2026-10-08-run5": {
+  "skip": "world run (1 hostile players): no scoreboard"
+ },
+ "2026-10-08-run6": {
+  "skip": "world run (0 hostile players): no scoreboard"
+ },
+ "2026-10-08-run6b": {
+  "skip": "world run (1 hostile players): no scoreboard"
+ },
+ "2026-10-08-run7": {
+  "skip": "world run (1 hostile players): no scoreboard"
+ },
+ "2026-10-09-run10-bg": {
+  "enemies": 50,
+  "enemyEp": 845,
+  "join": {
+   "unique": 50
+  },
+  "joinRatePct": 100.0,
+  "classAtFirst": {
+   "live2221": 0.0,
+   "score2222": 100.0
+  },
+  "tti": {
+   "live2221": {
+    "median": 9.8,
+    "mean": 13.6
+   },
+   "score2222": {
+    "median": 0.0,
+    "mean": 0.0
+   }
+  },
+  "false": 0
+ },
+ "2026-10-09-run11-bg": {
+  "enemies": 16,
+  "enemyEp": 160,
+  "join": {
+   "unique": 16
+  },
+  "joinRatePct": 100.0,
+  "classAtFirst": {
+   "live2221": 5.6,
+   "score2222": 100.0
+  },
+  "tti": {
+   "live2221": {
+    "median": 10.6,
+    "mean": 14.0
+   },
+   "score2222": {
+    "median": 0.0,
+    "mean": 0.0
+   }
+  },
+  "false": 0
+ },
+ "2026-10-09-run12-bg": {
+  "enemies": 15,
+  "enemyEp": 109,
+  "join": {
+   "unique": 15
+  },
+  "joinRatePct": 100.0,
+  "classAtFirst": {
+   "live2221": 0.0,
+   "score2222": 100.0
+  },
+  "tti": {
+   "live2221": {
+    "median": 9.6,
+    "mean": 13.9
+   },
+   "score2222": {
+    "median": 0.0,
+    "mean": 0.0
+   }
+  },
+  "false": 0
+ },
+ "2026-10-09-run13-bg": {
+  "enemies": 30,
+  "enemyEp": 367,
+  "join": {
+   "unique": 30
+  },
+  "joinRatePct": 100.0,
+  "classAtFirst": {
+   "live2221": 0.0,
+   "score2222": 100.0
+  },
+  "tti": {
+   "live2221": {
+    "median": 8.2,
+    "mean": 11.0
+   },
+   "score2222": {
+    "median": 0.0,
+    "mean": 0.0
+   }
+  },
+  "false": 0
+ },
+ "2026-10-09-run16-bg": {
+  "enemies": 15,
+  "enemyEp": 343,
+  "join": {
+   "unique": 14,
+   "crossFac": 1
+  },
+  "joinRatePct": 100.0,
+  "classAtFirst": {
+   "live2221": 0.0,
+   "score2222": 100.0
+  },
+  "tti": {
+   "live2221": {
+    "median": 11.5,
+    "mean": 16.4
+   },
+   "score2222": {
+    "median": 0.0,
+    "mean": 0.0
+   }
+  },
+  "false": 0
+ },
+ "2026-10-10-run17-bg": {
+  "enemies": 15,
+  "enemyEp": 247,
+  "join": {
+   "unique": 15
+  },
+  "joinRatePct": 100.0,
+  "classAtFirst": {
+   "live2221": 8.1,
+   "score2222": 100.0
+  },
+  "tti": {
+   "live2221": {
+    "median": 12.5,
+    "mean": 16.4
+   },
+   "score2222": {
+    "median": 0.0,
+    "mean": 0.0
+   }
+  },
+  "false": 0
+ }
+}

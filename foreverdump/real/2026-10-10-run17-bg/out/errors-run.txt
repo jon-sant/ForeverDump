@@ -1,0 +1,3 @@
+usage: fdump.py [-h]
+                {info,json,luals,luacheck,mocks,check,diff,all,combatlog,cl-compare,taint,errors,ketho,secrets,migrate,perfcheck,unhash,fixtures,migrate-db,verify,xref,perf,restrictions,clientlog,size,ops,lab,combat,tokens,knowledge,verify-live,replay,correlate,analyze,containers,inference,coverage,drift,baseline,guide,master-guide} ...
+fdump.py: error: unrecognized arguments: --out real/2026-10-10-run17-bg/out

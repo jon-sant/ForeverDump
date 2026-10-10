@@ -1,0 +1,1 @@
+perf: perf, 1 capture(s), 5 flag(s): impact 2.47% of wall time >= 2%; WorldCapture.Slice: mean 0.1302 ms per slice > budget 0.10 ms (real client, 6084 slices); size hsm.inferences still growing at the end (6 -> 10924) -> real/2026-10-10-run17-bg/out/perf/PERF.md

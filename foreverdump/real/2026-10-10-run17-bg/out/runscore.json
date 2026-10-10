@@ -1,0 +1,1346 @@
+{
+ "live": [
+  {
+   "key": "name:Vale Devil",
+   "class": "DRUID",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID"
+   ],
+   "guids": [
+    "Player-4618-0151BB4D"
+   ],
+   "truth": "DRUID",
+   "ok": true
+  },
+  {
+   "key": "name:Dregzz Qt",
+   "class": "WARLOCK",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK"
+   ],
+   "guids": [
+    "Player-4619-005F5CAE"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Uglaz Doomaxe",
+   "class": "SHAMAN",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN"
+   ],
+   "guids": [
+    "Player-4618-00EB40D8"
+   ],
+   "truth": "SHAMAN",
+   "ok": true
+  },
+  {
+   "key": "name:Abu Abeed",
+   "class": "WARLOCK",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK"
+   ],
+   "guids": [
+    "Player-4620-01424554"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Peeky Poker",
+   "class": "ROGUE",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE"
+   ],
+   "guids": [
+    "Player-4619-008DE091"
+   ],
+   "truth": "ROGUE",
+   "ok": true
+  },
+  {
+   "key": "name:\uae30\ub3db",
+   "class": "ROGUE",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=ROGUE"
+   ],
+   "guids": [
+    "Player-4619-010AE945"
+   ],
+   "truth": "ROGUE",
+   "ok": true
+  },
+  {
+   "key": "name:Just Kill",
+   "class": "PALADIN",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN"
+   ],
+   "guids": [
+    "Player-4619-008D0FAA"
+   ],
+   "truth": "PALADIN",
+   "ok": true
+  },
+  {
+   "key": "name:Failorne",
+   "class": "DRUID",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=DRUID"
+   ],
+   "guids": [
+    "Player-4619-00D89B5D"
+   ],
+   "truth": "DRUID",
+   "ok": true
+  },
+  {
+   "key": "name:Touchthe",
+   "class": "WARLOCK",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=WARLOCK"
+   ],
+   "guids": [
+    "Player-4620-00AA6E34"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Gorrotar",
+   "class": null,
+   "via": null,
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0"
+   ],
+   "guids": [
+    "Player-4613-00AC722F"
+   ],
+   "truth": "PALADIN",
+   "ok": null
+  },
+  {
+   "key": "name:Failorne Rayborn",
+   "class": "DRUID",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID"
+   ],
+   "guids": [
+    "Player-4619-00D89B5D"
+   ],
+   "truth": "DRUID",
+   "ok": true
+  },
+  {
+   "key": "name:Bobby Mash",
+   "class": "PALADIN",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN"
+   ],
+   "guids": [
+    "Player-4619-0068FB40"
+   ],
+   "truth": "PALADIN",
+   "ok": true
+  },
+  {
+   "key": "name:Vendetta Skyfury",
+   "class": "HUNTER",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER"
+   ],
+   "guids": [
+    "Player-4613-010DE6B8"
+   ],
+   "truth": "HUNTER",
+   "ok": true
+  },
+  {
+   "key": "name:Brick",
+   "class": null,
+   "via": null,
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0"
+   ],
+   "guids": [
+    "Player-4619-0051E6C9"
+   ],
+   "truth": "HUNTER",
+   "ok": null
+  },
+  {
+   "key": "name:Welfareguy",
+   "class": null,
+   "via": null,
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0"
+   ],
+   "guids": [
+    "Player-4619-00D2AE4E"
+   ],
+   "truth": "WARLOCK",
+   "ok": null
+  },
+  {
+   "key": "name:Bobby",
+   "class": "PALADIN",
+   "via": "cache:raidNtarget",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidNtarget=PALADIN"
+   ],
+   "guids": [
+    "Player-4619-0068FB40"
+   ],
+   "truth": "PALADIN",
+   "ok": true
+  },
+  {
+   "key": "name:Brick Head",
+   "class": "HUNTER",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER"
+   ],
+   "guids": [
+    "Player-4619-0051E6C9"
+   ],
+   "truth": "HUNTER",
+   "ok": true
+  },
+  {
+   "key": "name:Just",
+   "class": null,
+   "via": null,
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0"
+   ],
+   "guids": [
+    "Player-4619-008D0FAA"
+   ],
+   "truth": "PALADIN",
+   "ok": null
+  },
+  {
+   "key": "name:Jrgamefreak Nelf",
+   "class": "ROGUE",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE"
+   ],
+   "guids": [
+    "Player-4619-00F43023"
+   ],
+   "truth": "ROGUE",
+   "ok": true
+  },
+  {
+   "key": "name:Atilla Thebum",
+   "class": "WARRIOR",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR"
+   ],
+   "guids": [
+    "Player-4618-005B6829"
+   ],
+   "truth": "WARRIOR",
+   "ok": true
+  },
+  {
+   "key": "name:Ego Lock",
+   "class": "WARLOCK",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK"
+   ],
+   "guids": [
+    "Player-4613-00613C59"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Brackfriday",
+   "class": "WARLOCK",
+   "via": "cache:raidNtarget",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidNtarget=WARLOCK"
+   ],
+   "guids": [
+    "Player-4620-007F00BA"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Soulless",
+   "class": null,
+   "via": null,
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0"
+   ],
+   "guids": [
+    "Player-4619-005126B0"
+   ],
+   "truth": "SHAMAN",
+   "ok": null
+  },
+  {
+   "key": "name:Lock",
+   "class": null,
+   "via": null,
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0"
+   ],
+   "guids": [
+    "Player-4619-00B5D7AC"
+   ],
+   "truth": "WARLOCK",
+   "ok": null
+  },
+  {
+   "key": "name:Uglaz",
+   "class": "SHAMAN",
+   "via": "cache:raidNtarget",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidNtarget=SHAMAN"
+   ],
+   "guids": [
+    "Player-4618-00EB40D8"
+   ],
+   "truth": "SHAMAN",
+   "ok": true
+  },
+  {
+   "key": "name:Jrgamefreak",
+   "class": null,
+   "via": null,
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "power=3",
+    "comp=ROGUE",
+    "power=3",
+    "power=3",
+    "power=3",
+    "power=3",
+    "power=3",
+    "power=3",
+    "power=3",
+    "power=3",
+    "power=3",
+    "power=3"
+   ],
+   "guids": [
+    "Player-4619-00F43023"
+   ],
+   "truth": "ROGUE",
+   "ok": null
+  },
+  {
+   "key": "name:Lock List",
+   "class": "WARLOCK",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK"
+   ],
+   "guids": [
+    "Player-4619-00B5D7AC"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Brocky Zx",
+   "class": "PRIEST",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST"
+   ],
+   "guids": [
+    "Player-4620-00DB9618"
+   ],
+   "truth": "PRIEST",
+   "ok": true
+  },
+  {
+   "key": "name:Abu",
+   "class": null,
+   "via": null,
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0"
+   ],
+   "guids": [
+    "Player-4620-01424554"
+   ],
+   "truth": "WARLOCK",
+   "ok": null
+  },
+  {
+   "key": "name:Scoop",
+   "class": "PALADIN",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=PALADIN"
+   ],
+   "guids": []
+  },
+  {
+   "key": "name:Vendetta",
+   "class": null,
+   "via": null,
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0"
+   ],
+   "guids": [
+    "Player-4613-010DE6B8"
+   ],
+   "truth": "HUNTER",
+   "ok": null
+  },
+  {
+   "key": "name:Scumbo Athus",
+   "class": "ROGUE",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE"
+   ],
+   "guids": [
+    "Player-4613-011B73CF"
+   ],
+   "truth": "ROGUE",
+   "ok": true
+  },
+  {
+   "key": "name:Remus",
+   "class": "DRUID",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=DRUID"
+   ],
+   "guids": [
+    "Player-4619-0120A661"
+   ],
+   "truth": "DRUID",
+   "ok": true
+  },
+  {
+   "key": "name:Brocky",
+   "class": null,
+   "via": null,
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0"
+   ],
+   "guids": [
+    "Player-4620-00DB9618"
+   ],
+   "truth": "PRIEST",
+   "ok": null
+  },
+  {
+   "key": "name:Vale",
+   "class": "DRUID",
+   "via": "cache:raidNtarget",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidNtarget=DRUID"
+   ],
+   "guids": [
+    "Player-4618-0151BB4D"
+   ],
+   "truth": "DRUID",
+   "ok": true
+  },
+  {
+   "key": "name:Scoop Doop",
+   "class": "PALADIN",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN"
+   ],
+   "guids": []
+  },
+  {
+   "key": "name:Gorrotar Stonelight",
+   "class": "PALADIN",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN"
+   ],
+   "guids": [
+    "Player-4613-00AC722F"
+   ],
+   "truth": "PALADIN",
+   "ok": true
+  },
+  {
+   "key": "name:Peeky",
+   "class": "ROGUE",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=ROGUE"
+   ],
+   "guids": [
+    "Player-4619-008DE091"
+   ],
+   "truth": "ROGUE",
+   "ok": true
+  },
+  {
+   "key": "name:Kajean",
+   "class": null,
+   "via": null,
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0"
+   ],
+   "guids": [
+    "Player-4618-00BCB5C5"
+   ],
+   "truth": "SHAMAN",
+   "ok": null
+  },
+  {
+   "key": "name:Brackfriday Bundaru",
+   "class": "WARLOCK",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK"
+   ],
+   "guids": [
+    "Player-4620-007F00BA"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Eruneic Reborn",
+   "class": "DRUID",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID"
+   ],
+   "guids": [
+    "Player-4619-00D88794"
+   ],
+   "truth": "DRUID",
+   "ok": true
+  },
+  {
+   "key": "name:Tristan Stonefield",
+   "class": "PALADIN",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN"
+   ],
+   "guids": [
+    "Player-4613-00E2D64C"
+   ],
+   "truth": "PALADIN",
+   "ok": true
+  },
+  {
+   "key": "name:Ganon",
+   "class": "SHAMAN",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=SHAMAN"
+   ],
+   "guids": [
+    "Player-4613-00BEF119"
+   ],
+   "truth": "SHAMAN",
+   "ok": true
+  },
+  {
+   "key": "name:Atilla",
+   "class": null,
+   "via": null,
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "power=1",
+    "comp=WARRIOR",
+    "power=1",
+    "power=1",
+    "power=1",
+    "power=1",
+    "power=1",
+    "power=1",
+    "power=1",
+    "power=1",
+    "power=1",
+    "power=1"
+   ],
+   "guids": [
+    "Player-4618-005B6829"
+   ],
+   "truth": "WARRIOR",
+   "ok": null
+  },
+  {
+   "key": "name:Tristan",
+   "class": null,
+   "via": null,
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0"
+   ],
+   "guids": [
+    "Player-4613-00E2D64C"
+   ],
+   "truth": "PALADIN",
+   "ok": null
+  },
+  {
+   "key": "name:\uae30\ub3db \uadf8\ub9bc\uc790\uce7c\ub0a0",
+   "class": "ROGUE",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE"
+   ],
+   "guids": [
+    "Player-4619-010AE945"
+   ],
+   "truth": "ROGUE",
+   "ok": true
+  },
+  {
+   "key": "name:Aerie",
+   "class": null,
+   "via": null,
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0",
+    "power=0"
+   ],
+   "guids": [
+    "Player-4619-0129D6F9"
+   ],
+   "truth": "PRIEST",
+   "ok": null
+  },
+  {
+   "key": "name:Touchthe Grass",
+   "class": "WARLOCK",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK"
+   ],
+   "guids": [
+    "Player-4620-00AA6E34"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Remus Lupine",
+   "class": "DRUID",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID"
+   ],
+   "guids": [
+    "Player-4619-0120A661"
+   ],
+   "truth": "DRUID",
+   "ok": true
+  },
+  {
+   "key": "name:Ganon Evil",
+   "class": "SHAMAN",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN"
+   ],
+   "guids": [
+    "Player-4613-00BEF119"
+   ],
+   "truth": "SHAMAN",
+   "ok": true
+  },
+  {
+   "key": "name:Aerie Dunleary",
+   "class": "PRIEST",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST"
+   ],
+   "guids": [
+    "Player-4619-0129D6F9"
+   ],
+   "truth": "PRIEST",
+   "ok": true
+  },
+  {
+   "key": "name:Welfareguy Indahood",
+   "class": "WARLOCK",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK"
+   ],
+   "guids": [
+    "Player-4619-00D2AE4E"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Kajean Short",
+   "class": "SHAMAN",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN"
+   ],
+   "guids": [
+    "Player-4618-00BCB5C5"
+   ],
+   "truth": "SHAMAN",
+   "ok": true
+  },
+  {
+   "key": "name:Soulless Shammy",
+   "class": "SHAMAN",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN"
+   ],
+   "guids": [
+    "Player-4619-005126B0"
+   ],
+   "truth": "SHAMAN",
+   "ok": true
+  },
+  {
+   "key": "name:Romsly Roo",
+   "class": "DRUID",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID"
+   ],
+   "guids": [
+    "Player-4613-010D8E22"
+   ],
+   "truth": "DRUID",
+   "ok": true
+  },
+  {
+   "key": "name:Ophunter Class",
+   "class": "HUNTER",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER"
+   ],
+   "guids": [
+    "Player-4619-00E109B4"
+   ],
+   "truth": "HUNTER",
+   "ok": true
+  }
+ ],
+ "bfjoin": {
+  "unique": 30,
+  "metPlate": 24,
+  "assigned": 30,
+  "checked": 30,
+  "false": 0
+ },
+ "bfjoinFalse": [],
+ "bfjoinEnemy": {
+  "unique": 15,
+  "metPlate": 14,
+  "assigned": 15,
+  "checked": 15,
+  "false": 0
+ }
+}

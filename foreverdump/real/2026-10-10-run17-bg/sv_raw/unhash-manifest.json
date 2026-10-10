@@ -1,0 +1,13 @@
+{
+ "run": "2026-10-10-run17-bg",
+ "ok": true,
+ "salt": null,
+ "note": "v2.2.21 raw identity \u2014 no hashed IdKeys (run labelled v2.2.22 but SV reports addon 2.2.21; v2.2.22 per-phase probes absent)",
+ "hashedDistinct": 0,
+ "resolved": 0,
+ "resolvedPct": 100.0,
+ "unresolved": 0,
+ "unresolvedSample": [],
+ "newestCap": "",
+ "addonVersion": "2.2.21"
+}
