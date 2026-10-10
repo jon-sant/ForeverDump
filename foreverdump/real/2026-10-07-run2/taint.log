@@ -1,0 +1,8 @@
+10/7 19:57:40.890  Execution tainted by TweaksForever while reading field info (<table: 0000017466943510>) - Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.lua:226 MoneyFrame_Update()
+10/7 19:57:40.890      Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.lua:226 MoneyFrame_Update()
+10/7 19:57:40.890      Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua:652 SetTooltipMoney()
+10/7 19:57:40.890      Interface/AddOns/TweaksForever/UI/Spellbook.lua:402
+10/7 19:57:40.890  An attempt to perform arithmetic on a secret value was blocked because of taint from TweaksForever - Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.lua:340 MoneyFrame_Update()
+10/7 19:57:40.890      Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.lua:340 MoneyFrame_Update()
+10/7 19:57:40.890      Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua:652 SetTooltipMoney()
+10/7 19:57:40.890      Interface/AddOns/TweaksForever/UI/Spellbook.lua:402

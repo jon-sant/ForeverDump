@@ -1,0 +1,79 @@
+{
+ "apisAdded": [
+  "MacroEditButton_OnClick",
+  "MacroFrameCancelButton_OnClick",
+  "MacroFrameSaveButton_OnClick",
+  "MacroFrame_SaveMacro",
+  "MacroFrame_Show",
+  "MacroNewButton_OnClick",
+  "PlayerChoiceGetTextureKitInfo",
+  "PlayerChoiceToggle_GetActiveToggle",
+  "PlayerChoiceToggle_ShouldShow",
+  "PlayerChoice_SetupWidgets",
+  "PlayerChoice_WidgetInit",
+  "PlayerChoice_WidgetsLayout"
+ ],
+ "apisRemoved": [],
+ "buildBump": false,
+ "coverage": {
+  "combat": [
+   false,
+   false
+  ],
+  "knowledge": [
+   false,
+   false
+  ],
+  "lab": [
+   false,
+   false
+  ],
+  "ops": [
+   false,
+   false
+  ],
+  "restrictions": [
+   false,
+   false
+  ],
+  "secrecy": [
+   false,
+   true
+  ],
+  "tokens": [
+   false,
+   false
+  ]
+ },
+ "docsAdded": [],
+ "docsHashChange": false,
+ "docsRemoved": [],
+ "eventsAdded": [],
+ "eventsRemoved": [],
+ "frameTypesAdded": [],
+ "frameTypesChanged": [],
+ "frameTypesRemoved": [],
+ "interfaceChange": false,
+ "labChanges": [],
+ "new": {
+  "addon": "2.1.0",
+  "build": "70245",
+  "interface": 16001,
+  "projectID": 18,
+  "source": "ForeverDump.lua",
+  "version": "1.60.1"
+ },
+ "newlyClear": [],
+ "newlySecret": [],
+ "old": {
+  "addon": "2.0.0",
+  "build": "70245",
+  "interface": 16001,
+  "projectID": 18,
+  "source": "ForeverDump.lua",
+  "version": "1.60.1"
+ },
+ "opsChanges": [],
+ "restrictionTiming": [],
+ "signatureChanges": []
+}

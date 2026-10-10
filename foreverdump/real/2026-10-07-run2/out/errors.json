@@ -1,0 +1,334 @@
+{
+ "blocked": [
+  {
+   "args": {
+    "warningText": "Unable to create frame type: MapScene"
+   },
+   "epoch": 1791417071,
+   "event": "LUA_WARNING",
+   "gameTime": 1045044.187,
+   "inCombat": false,
+   "server": 1791417072,
+   "sid": "login-20261007195111-1",
+   "t": 1045044.187,
+   "time": 1791417071
+  },
+  {
+   "args": {
+    "warningText": "Unknown frame type: VectorGraphics"
+   },
+   "epoch": 1791417071,
+   "event": "LUA_WARNING",
+   "gameTime": 1045044.187,
+   "inCombat": false,
+   "server": 1791417072,
+   "sid": "login-20261007195111-1",
+   "t": 1045044.187,
+   "time": 1791417071
+  },
+  {
+   "args": {
+    "warningText": "Unable to create frame type: ModelFFX"
+   },
+   "epoch": 1791417071,
+   "event": "LUA_WARNING",
+   "gameTime": 1045044.187,
+   "inCombat": false,
+   "server": 1791417072,
+   "sid": "login-20261007195111-1",
+   "t": 1045044.187,
+   "time": 1791417071
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "epoch": 1791417335,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045308.925,
+   "inCombat": false,
+   "server": 1791417336,
+   "sid": "cap-20261007195248-2",
+   "t": 1045308.925,
+   "time": 1791417335
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "epoch": 1791417415,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045388.871,
+   "inCombat": false,
+   "server": 1791417416,
+   "sid": "cap-20261007195248-2",
+   "t": 1045388.871,
+   "time": 1791417415
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "epoch": 1791417426,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045399.183,
+   "inCombat": false,
+   "server": 1791417427,
+   "sid": "cap-20261007195248-2",
+   "t": 1045399.183,
+   "time": 1791417426
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "epoch": 1791417429,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045402.594,
+   "inCombat": false,
+   "server": 1791417430,
+   "sid": "cap-20261007195248-2",
+   "t": 1045402.594,
+   "time": 1791417429
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "epoch": 1791417439,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045412.177,
+   "inCombat": false,
+   "server": 1791417440,
+   "sid": "cap-20261007195248-2",
+   "t": 1045412.177,
+   "time": 1791417439
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "epoch": 1791417439,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045413.094,
+   "inCombat": false,
+   "server": 1791417440,
+   "sid": "cap-20261007195248-2",
+   "t": 1045413.094,
+   "time": 1791417439
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "epoch": 1791417474,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045447.342,
+   "inCombat": false,
+   "server": 1791417475,
+   "sid": "cap-20261007195248-2",
+   "t": 1045447.342,
+   "time": 1791417474
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "epoch": 1791417477,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045451.155,
+   "inCombat": false,
+   "server": 1791417478,
+   "sid": "cap-20261007195248-2",
+   "t": 1045451.155,
+   "time": 1791417477
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "epoch": 1791417480,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045453.405,
+   "inCombat": false,
+   "server": 1791417481,
+   "sid": "cap-20261007195248-2",
+   "t": 1045453.405,
+   "time": 1791417480
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "epoch": 1791417481,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045454.78,
+   "inCombat": false,
+   "server": 1791417482,
+   "sid": "cap-20261007195248-2",
+   "t": 1045454.78,
+   "time": 1791417481
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "epoch": 1791417483,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045456.405,
+   "inCombat": false,
+   "server": 1791417484,
+   "sid": "cap-20261007195248-2",
+   "t": 1045456.405,
+   "time": 1791417483
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "epoch": 1791417486,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045460.051,
+   "inCombat": false,
+   "server": 1791417487,
+   "sid": "cap-20261007195248-2",
+   "t": 1045460.051,
+   "time": 1791417486
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "epoch": 1791417490,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045463.176,
+   "inCombat": false,
+   "server": 1791417491,
+   "sid": "cap-20261007195248-2",
+   "t": 1045463.176,
+   "time": 1791417490
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "epoch": 1791417491,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045464.525,
+   "inCombat": false,
+   "server": 1791417492,
+   "sid": "cap-20261007195248-2",
+   "t": 1045464.525,
+   "time": 1791417491
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "epoch": 1791417493,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045466.316,
+   "inCombat": false,
+   "server": 1791417494,
+   "sid": "cap-20261007195248-2",
+   "t": 1045466.316,
+   "time": 1791417493
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "epoch": 1791417498,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045471.816,
+   "inCombat": false,
+   "server": 1791417499,
+   "sid": "cap-20261007195248-2",
+   "t": 1045471.816,
+   "time": 1791417498
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "epoch": 1791417501,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045474.629,
+   "inCombat": false,
+   "server": 1791417502,
+   "sid": "cap-20261007195248-2",
+   "t": 1045474.629,
+   "time": 1791417501
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "epoch": 1791417506,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1045479.796,
+   "inCombat": false,
+   "server": 1791417507,
+   "sid": "cap-20261007195248-2",
+   "t": 1045479.796,
+   "time": 1791417506
+  }
+ ],
+ "errors": [
+  {
+   "addon": "Blizzard_MicroMenu",
+   "attributedAddon": "Blizzard_MicroMenu",
+   "build": "70245",
+   "count": 479,
+   "date": "2026-10-07 19:52:48",
+   "epoch": 1791417168,
+   "gameTime": 1045141.754,
+   "inCombat": false,
+   "lastSession": 480,
+   "lastTime": 1791417522,
+   "locals": "msg=\"attempt to call a nil value\"\nsessionErrors=1\ninHandler=true\n",
+   "message": "attempt to call a nil value",
+   "server": 1791417169,
+   "sid": "cap-20261007195248-2",
+   "stack": "[Interface/AddOns/ForeverDump/Errors.lua]:74: in function <Interface/AddOns/ForeverDump/Errors.lua:51>\n[C]: in function 'pcall'\n[Interface/AddOns/ForeverDump/Errors.lua]:196: in function <Interface/AddOns/ForeverDump/Errors.lua:192>\n[C]: ?\n[C]: in function 'TriggerEvent'\n[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:1503: in function 'UpdateMicroButton'\n[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:159: in function <...zzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua:126>\n[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:1900: in function 'UpdateMicroButton'\n[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:192: in function 'UpdateMicroButtons'\n[Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua]:1466: in function <...zzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua:1459>\n",
+   "t": 1045141.754,
+   "time": 1791417168
+  },
+  {
+   "addon": "Blizzard_MoneyFrame",
+   "attributedAddon": "Blizzard_MoneyFrame",
+   "build": "70245",
+   "count": 1,
+   "date": "2026-10-07 19:57:40",
+   "epoch": 1791417460,
+   "gameTime": 1045434.045,
+   "inCombat": false,
+   "lastTime": 1791417460,
+   "locals": "msg=\"...e/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.lua:340: attempt to perform arithmetic on local 'silverWidth' (a secret number value, while execution tainted by 'TweaksForever')\"\nsessionErrors=318\ninHandler=true\n",
+   "message": "...e/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.lua:340: attempt to perform arithmetic on local 'silverWidth' (a secret number value, while execution tainted by 'TweaksForever')",
+   "server": 1791417461,
+   "sid": "cap-20261007195248-2",
+   "stack": "[Interface/AddOns/ForeverDump/Errors.lua]:74: in function <Interface/AddOns/ForeverDump/Errors.lua:51>\n[C]: in function 'pcall'\n[Interface/AddOns/ForeverDump/Errors.lua]:196: in function <Interface/AddOns/ForeverDump/Errors.lua:192>\n[C]: ?\n[Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.lua]:340: in function 'MoneyFrame_Update'\n[Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua]:652: in function 'SetTooltipMoney'\n[Interface/AddOns/TweaksForever/UI/Spellbook.lua]:402: in function <Interface/AddOns/TweaksForever/UI/Spellbook.lua:392>\n[C]: ?\n",
+   "t": 1045434.045,
+   "time": 1791417460
+  }
+ ]
+}

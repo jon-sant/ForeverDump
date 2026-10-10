@@ -1,0 +1,220 @@
+{
+ "config": {
+  "cl": {
+   "advanced": true,
+   "damageMeter": true,
+   "maxArgs": 40,
+   "maxEvents": 20000,
+   "maxSessions": 3,
+   "maxString": 200,
+   "redactPlayers": false
+  },
+  "dump": {
+   "full": false
+  },
+  "errors": {
+   "captureLocals": true,
+   "enabled": true,
+   "maxBlocked": 500,
+   "maxErrors": 200,
+   "maxLocals": 4000,
+   "maxStack": 4000
+  },
+  "frameBudgetMs": 12,
+  "logs": {
+   "advanced": true,
+   "autoReload": true,
+   "callLogging": false,
+   "chat": true,
+   "combat": true,
+   "combatProbe": true,
+   "errors": true,
+   "fullDump": true,
+   "probe": true,
+   "profile": true,
+   "recorder": true,
+   "scriptErrors": true,
+   "sweep": true,
+   "taintLog": 1
+  },
+  "probe": {
+   "achievements": [
+    6,
+    7
+   ],
+   "currencies": [
+    1,
+    81,
+    1792
+   ],
+   "items": [
+    6948,
+    2589,
+    118,
+    25,
+    2070,
+    159
+   ],
+   "maxAuras": 40,
+   "quests": [
+    783,
+    7,
+    33
+   ],
+   "redactPlayers": true,
+   "spells": [
+    6603,
+    8690,
+    133,
+    2050,
+    1459,
+    78,
+    465,
+    1752
+   ],
+   "units": [
+    "player",
+    "target",
+    "focus",
+    "pet",
+    "mouseover",
+    "party1"
+   ]
+  },
+  "progressEverySec": 2,
+  "record": {
+   "callbacks": true,
+   "maxArgs": 20,
+   "maxEvents": 5000,
+   "maxSessions": 3,
+   "maxString": 300,
+   "perEventPerSec": 5,
+   "redactChat": true
+  },
+  "secrets": {
+   "maxCtx": 16,
+   "maxKeys": 4000,
+   "maxLive": 200,
+   "observe": true,
+   "sweep": true,
+   "sweepInterval": 5,
+   "sweepPerTick": 25
+  },
+  "uiMaxChars": 120000
+ },
+ "errors": null,
+ "history": [
+  {
+   "build": "70245",
+   "section": "docs",
+   "time": 1791417070,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "api",
+   "time": 1791417070,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "globals",
+   "time": 1791417070,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "strings",
+   "time": 1791417070,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "widgets",
+   "time": 1791417071,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "templates",
+   "time": 1791417071,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "frames",
+   "time": 1791417071,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "addons",
+   "time": 1791417071,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "cvars",
+   "time": 1791417071,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "protected",
+   "time": 1791417071,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "secrets",
+   "time": 1791417071,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "extras",
+   "time": 1791417072,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "secrets",
+   "time": 1791417155,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "profile",
+   "time": 1791417168,
+   "version": "1.60.1"
+  },
+  {
+   "build": "70245",
+   "section": "profile",
+   "time": 1791417522,
+   "version": "1.60.1"
+  }
+ ],
+ "meta": {
+  "addonVersion": "2.1.0",
+  "build": "70245",
+  "buildDate": "Oct  5 2026",
+  "date": "2026-10-07 19:58:42",
+  "inCombat": false,
+  "locale": "enUS",
+  "projectConstants": {
+   "WOW_PROJECT_CAMELOT": 18,
+   "WOW_PROJECT_CLASSIC": 2,
+   "WOW_PROJECT_ID": 18,
+   "WOW_PROJECT_MAINLINE": 1
+  },
+  "projectID": 18,
+  "projectName": "WOW_PROJECT_CAMELOT",
+  "schemaVersion": 2,
+  "scriptsDisallowedForBeta": false,
+  "time": 1791417522,
+  "toc": 16001,
+  "version": "1.60.1"
+ },
+ "schemaVersion": 2
+}

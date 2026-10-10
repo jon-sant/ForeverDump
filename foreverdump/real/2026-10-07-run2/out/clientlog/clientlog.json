@@ -1,0 +1,270 @@
+{
+ "addonLines": [],
+ "cTrampolineNilCalls": {
+  "LayoutContents": 5,
+  "TriggerEvent": 405
+ },
+ "captureWindows": [
+  [
+   1791417168.0,
+   1791417523.0
+  ]
+ ],
+ "errorGroups": [
+  {
+   "addon": "Blizzard_MicroMenu",
+   "cTrampoline": true,
+   "count": 3,
+   "first": "2026-10-07T19:52:48.614",
+   "inCapture": 3,
+   "last": "2026-10-07T19:55:37.030",
+   "message": "attempt to call a nil value",
+   "outsideCapture": 0,
+   "site": "Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua:1503",
+   "top": "[C]: in function 'TriggerEvent'"
+  },
+  {
+   "addon": "Blizzard_ObjectiveTracker",
+   "cTrampoline": true,
+   "count": 5,
+   "first": "2026-10-07T19:52:48.621",
+   "inCapture": 5,
+   "last": "2026-10-07T19:57:52.372",
+   "message": "attempt to call a nil value",
+   "outsideCapture": 0,
+   "site": "Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua:147",
+   "top": "[C]: in function 'LayoutContents'"
+  },
+  {
+   "addon": "Blizzard_SharedXMLBase",
+   "cTrampoline": true,
+   "count": 308,
+   "first": "2026-10-07T19:52:50.954",
+   "inCapture": 308,
+   "last": "2026-10-07T19:58:11.313",
+   "message": "attempt to call a nil value",
+   "outsideCapture": 0,
+   "site": "Blizzard_SharedXMLBase/GlobalCallbackRegistry.lua:11",
+   "top": "[C]: in function 'TriggerEvent'"
+  },
+  {
+   "addon": "Blizzard_Game",
+   "cTrampoline": true,
+   "count": 18,
+   "first": "2026-10-07T19:52:51.621",
+   "inCapture": 18,
+   "last": "2026-10-07T19:54:09.279",
+   "message": "attempt to call a nil value",
+   "outsideCapture": 0,
+   "site": "Blizzard_Game/Mainline/EventImplementation.lua:126",
+   "top": "[C]: in function 'TriggerEvent'"
+  },
+  {
+   "addon": "Blizzard_UIParentPanelManager",
+   "cTrampoline": true,
+   "count": 1,
+   "first": "2026-10-07T19:54:12.100",
+   "inCapture": 1,
+   "last": "2026-10-07T19:54:12.100",
+   "message": "attempt to call a nil value",
+   "outsideCapture": 0,
+   "site": "Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua:908",
+   "top": "[C]: in function 'TriggerEvent'"
+  },
+  {
+   "addon": "Blizzard_SharedXML",
+   "cTrampoline": true,
+   "count": 10,
+   "first": "2026-10-07T19:54:18.038",
+   "inCapture": 10,
+   "last": "2026-10-07T19:58:04.810",
+   "message": "attempt to call a nil value",
+   "outsideCapture": 0,
+   "site": "Blizzard_SharedXML/SharedTooltipTemplates.lua:279",
+   "top": "[C]: in function 'TriggerEvent'"
+  },
+  {
+   "addon": "Blizzard_GamepadActionBars",
+   "cTrampoline": true,
+   "count": 34,
+   "first": "2026-10-07T19:54:24.955",
+   "inCapture": 34,
+   "last": "2026-10-07T19:58:10.043",
+   "message": "attempt to call a nil value",
+   "outsideCapture": 0,
+   "site": "Blizzard_GamepadActionBars/MainActionBarFrame.lua:256",
+   "top": "[C]: in function 'TriggerEvent'"
+  },
+  {
+   "addon": "Blizzard_ActionBar",
+   "cTrampoline": true,
+   "count": 2,
+   "first": "2026-10-07T19:54:42.772",
+   "inCapture": 2,
+   "last": "2026-10-07T19:54:57.768",
+   "message": "attempt to call a nil value",
+   "outsideCapture": 0,
+   "site": "Blizzard_ActionBar/Shared/ActionButton.lua:566",
+   "top": "[C]: in function 'TriggerEvent'"
+  },
+  {
+   "addon": "Blizzard_SharedXML",
+   "cTrampoline": true,
+   "count": 24,
+   "first": "2026-10-07T19:54:57.684",
+   "inCapture": 24,
+   "last": "2026-10-07T19:57:51.123",
+   "message": "attempt to call a nil value",
+   "outsideCapture": 0,
+   "site": "Blizzard_SharedXML/SharedTooltipTemplates.lua:275",
+   "top": "[C]: in function 'TriggerEvent'"
+  },
+  {
+   "addon": "Blizzard_BuffFrame",
+   "cTrampoline": true,
+   "count": 1,
+   "first": "2026-10-07T19:55:17.350",
+   "inCapture": 1,
+   "last": "2026-10-07T19:55:17.350",
+   "message": "attempt to call a nil value",
+   "outsideCapture": 0,
+   "site": "Blizzard_BuffFrame/BuffFrame.lua:1146",
+   "top": "[C]: in function 'TriggerEvent'"
+  },
+  {
+   "addon": "Blizzard_ChatFrameBase",
+   "cTrampoline": true,
+   "count": 1,
+   "first": "2026-10-07T19:55:47.218",
+   "inCapture": 1,
+   "last": "2026-10-07T19:55:47.218",
+   "message": "attempt to call a nil value",
+   "outsideCapture": 0,
+   "site": "Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:398",
+   "top": "[C]: in function 'TriggerEvent'"
+  },
+  {
+   "addon": "Blizzard_ChatFrameBase",
+   "cTrampoline": true,
+   "count": 1,
+   "first": "2026-10-07T19:55:47.718",
+   "inCapture": 1,
+   "last": "2026-10-07T19:55:47.718",
+   "message": "attempt to call a nil value",
+   "outsideCapture": 0,
+   "site": "Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua:406",
+   "top": "[C]: in function 'TriggerEvent'"
+  },
+  {
+   "addon": "Blizzard_ProfessionsBook",
+   "cTrampoline": true,
+   "count": 1,
+   "first": "2026-10-07T19:57:31.475",
+   "inCapture": 1,
+   "last": "2026-10-07T19:57:31.475",
+   "message": "attempt to call a nil value",
+   "outsideCapture": 0,
+   "site": "Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.lua:77",
+   "top": "[C]: in function 'TriggerEvent'"
+  },
+  {
+   "addon": "Blizzard_PlayerSpells",
+   "cTrampoline": true,
+   "count": 1,
+   "first": "2026-10-07T19:57:37.763",
+   "inCapture": 1,
+   "last": "2026-10-07T19:57:37.763",
+   "message": "attempt to call a nil value",
+   "outsideCapture": 0,
+   "site": "Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.lua:91",
+   "top": "[C]: in function 'TriggerEvent'"
+  },
+  {
+   "addon": "Blizzard_MoneyFrame",
+   "cTrampoline": false,
+   "count": 1,
+   "first": "2026-10-07T19:57:40.907",
+   "inCapture": 1,
+   "last": "2026-10-07T19:57:40.907",
+   "message": "...e/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.lua:340: attempt to perform arithmetic on local 'silverWidth' (a secret number value, while execution tainted by 'TweaksForever')",
+   "outsideCapture": 0,
+   "site": "Blizzard_MoneyFrame/Mainline/MoneyFrame.lua:340",
+   "top": "[C]: ?"
+  }
+ ],
+ "first": "2026-10-07T19:48:53.945",
+ "kinds": {
+  "cvar_validation": 12,
+  "limited_lua_resources": 46,
+  "lua_error": 411,
+  "lua_warning": 3,
+  "other": 168,
+  "screen": 4
+ },
+ "last": "2026-10-07T19:58:11.313",
+ "levels": {
+  "D/BleepPinger": 8,
+  "D/Connection": 10,
+  "E/Lua": 414,
+  "N/BleepPinger": 1,
+  "N/BleepTokenManager": 1,
+  "N/Connection": 66,
+  "N/Console": 87,
+  "N/Glues": 3,
+  "N/Lua": 52,
+  "W/BnetOverlay": 1,
+  "W/Console": 1
+ },
+ "limitedLuaResources": [
+  "Addon capacity for AnimGroup changed to 2000",
+  "Addon capacity for Animation changed to 5000",
+  "Addon capacity for Font changed to 300",
+  "Addon capacity for FontString changed to 5000",
+  "Addon capacity for Frame changed to 10000",
+  "Addon capacity for Texture changed to 40000",
+  "Addon capacity for Timer changed to 500",
+  "Enabled = false",
+  "Global capacity for AnimGroup changed to 20000",
+  "Global capacity for Animation changed to 50000",
+  "Global capacity for Font changed to 3000",
+  "Global capacity for FontString changed to 50000",
+  "Global capacity for Frame changed to 100000",
+  "Global capacity for Texture changed to 400000",
+  "Global capacity for Timer changed to 500",
+  "Reset Timer"
+ ],
+ "lines": 644,
+ "luaErrors": 411,
+ "luaWarnings": [
+  {
+   "msg": "Unable to create frame type: MapScene",
+   "time": "2026-10-07T19:51:11.030"
+  },
+  {
+   "msg": "Unknown frame type: VectorGraphics",
+   "time": "2026-10-07T19:51:11.030"
+  },
+  {
+   "msg": "Unable to create frame type: ModelFFX",
+   "time": "2026-10-07T19:51:11.030"
+  }
+ ],
+ "screens": [
+  {
+   "msg": "Screen invalid. Changing from=\"none\" to=\"login\"",
+   "time": "2026-10-07T19:49:02.049"
+  },
+  {
+   "msg": "Switching to screen=\"AccountLogin\" (from \"none\")",
+   "time": "2026-10-07T19:49:02.049"
+  },
+  {
+   "msg": "Screen invalid. Changing from=\"login\" to=\"charselect\"",
+   "time": "2026-10-07T19:49:09.060"
+  },
+  {
+   "msg": "Switching to screen=\"CharacterSelect\" (from \"login\")",
+   "time": "2026-10-07T19:49:09.078"
+  }
+ ]
+}

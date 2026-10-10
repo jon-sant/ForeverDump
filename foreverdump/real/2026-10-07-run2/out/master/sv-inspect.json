@@ -1,0 +1,824 @@
+{
+"addonVersion": "2.1.0",
+"auraPresence": {},
+"build": "70245",
+"containers": {
+"auraMatrix": [],
+"countMatrix": [],
+"errors": [],
+"partial": []
+},
+"probes": {
+"detectability": {},
+"envCtx": {},
+"matrix": {},
+"runCount": {}
+},
+"ring": {
+"sessions": [
+{
+"deaths": {
+"combat": {
+"Creature": 7
+},
+"ooc": {
+"Creature": 3
+}
+},
+"epoch": 1791417168,
+"events": {
+"ADDON_RESTRICTION_STATE_CHANGED": {
+"-": {
+"ooc": {
+"args": {},
+"fields": {},
+"n": 18,
+"present": {
+"1": 18,
+"2": 18
+},
+"secretAny": 0
+}
+}
+},
+"DAMAGE_METER_COMBAT_SESSION_UPDATED": {
+"-": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 236,
+"present": {
+"1": 236,
+"2": 236
+},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 8,
+"present": {
+"1": 8,
+"2": 8
+},
+"secretAny": 0
+}
+}
+},
+"DAMAGE_METER_CURRENT_SESSION_UPDATED": {
+"-": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 4,
+"present": {},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 1,
+"present": {},
+"secretAny": 0
+}
+}
+},
+"PLAYER_REGEN_DISABLED": {
+"-": {
+"ooc": {
+"args": {},
+"fields": {},
+"n": 9,
+"present": {},
+"secretAny": 0
+}
+}
+},
+"PLAYER_REGEN_ENABLED": {
+"-": {
+"ooc": {
+"args": {},
+"fields": {},
+"n": 9,
+"present": {},
+"secretAny": 0
+}
+}
+},
+"PLAYER_SWING": {
+"-": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 5,
+"present": {
+"1": 5,
+"2": 5
+},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 6,
+"present": {
+"1": 6,
+"2": 6
+},
+"secretAny": 0
+}
+}
+},
+"PLAYER_TARGET_CHANGED": {
+"-": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 13,
+"present": {},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 18,
+"present": {},
+"secretAny": 0
+}
+}
+},
+"UNIT_AURA": {
+"chain": {
+"combat": {
+"args": {},
+"fields": {
+"isFullUpdate": 5,
+"removedAuraInstanceIDs": 1,
+"updatedAuraInstanceIDs": 4
+},
+"n": 5,
+"present": {
+"1": 5,
+"2": 5
+},
+"secretAny": 5
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 4,
+"present": {
+"1": 4,
+"2": 4
+},
+"secretAny": 0
+}
+},
+"nameplate": {
+"combat": {
+"args": {},
+"fields": {
+"addedAuras": 1,
+"isFullUpdate": 2,
+"removedAuraInstanceIDs": 1
+},
+"n": 2,
+"present": {
+"1": 2,
+"2": 2
+},
+"secretAny": 2
+}
+},
+"player": {
+"combat": {
+"args": {},
+"fields": {
+"addedAuras": 4,
+"isFullUpdate": 13,
+"removedAuraInstanceIDs": 3,
+"updatedAuraInstanceIDs": 7
+},
+"n": 13,
+"present": {
+"1": 13,
+"2": 13
+},
+"secretAny": 13
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 11,
+"present": {
+"1": 11,
+"2": 11
+},
+"secretAny": 0
+}
+},
+"soft": {
+"combat": {
+"args": {},
+"fields": {
+"addedAuras": 1,
+"isFullUpdate": 2,
+"removedAuraInstanceIDs": 1
+},
+"n": 2,
+"present": {
+"1": 2,
+"2": 2
+},
+"secretAny": 2
+}
+},
+"target": {
+"combat": {
+"args": {},
+"fields": {
+"addedAuras": 1,
+"isFullUpdate": 2,
+"removedAuraInstanceIDs": 1
+},
+"n": 2,
+"present": {
+"1": 2,
+"2": 2
+},
+"secretAny": 2
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 4,
+"present": {
+"1": 4,
+"2": 4
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_COMBAT": {
+"chain": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 50,
+"present": {
+"1": 50,
+"2": 50,
+"3": 50,
+"4": 50,
+"5": 50
+},
+"secretAny": 0
+}
+},
+"nameplate": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 18,
+"present": {
+"1": 18,
+"2": 18,
+"3": 18,
+"4": 18,
+"5": 18
+},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1,
+"5": 1
+},
+"secretAny": 0
+}
+},
+"player": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 52,
+"present": {
+"1": 52,
+"2": 52,
+"3": 52,
+"4": 52,
+"5": 52
+},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 3,
+"present": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 3,
+"5": 3
+},
+"secretAny": 0
+}
+},
+"soft": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 8,
+"present": {
+"1": 8,
+"2": 8,
+"3": 8,
+"4": 8,
+"5": 8
+},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1,
+"5": 1
+},
+"secretAny": 0
+}
+},
+"target": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 19,
+"present": {
+"1": 19,
+"2": 19,
+"3": 19,
+"4": 19,
+"5": 19
+},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1,
+"5": 1
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_DIED": {
+"guid": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 7,
+"present": {
+"1": 7
+},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 3,
+"present": {
+"1": 3
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_HEALTH": {
+"chain": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 50,
+"present": {
+"1": 50
+},
+"secretAny": 0
+}
+},
+"nameplate": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 22,
+"present": {
+"1": 22
+},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1
+},
+"secretAny": 0
+}
+},
+"player": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 50,
+"present": {
+"1": 50
+},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 15,
+"present": {
+"1": 15
+},
+"secretAny": 0
+}
+},
+"soft": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 9,
+"present": {
+"1": 9
+},
+"secretAny": 0
+}
+},
+"target": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 14,
+"present": {
+"1": 14
+},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_SPELLCAST_DELAYED": {
+"chain": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 2,
+"present": {
+"1": 2,
+"2": 2,
+"3": 2,
+"4": 2
+},
+"secretAny": 0
+}
+},
+"player": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 2,
+"present": {
+"1": 2,
+"2": 2,
+"3": 2,
+"4": 2
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_SPELLCAST_FAILED": {
+"chain": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"2": 1,
+"3": 1
+},
+"secretAny": 0
+}
+},
+"player": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 2,
+"present": {
+"1": 2,
+"2": 2,
+"3": 2
+},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"2": 1,
+"3": 1
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_SPELLCAST_FAILED_QUIET": {
+"chain": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"2": 1,
+"3": 1
+},
+"secretAny": 0
+}
+},
+"player": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 3,
+"present": {
+"1": 3,
+"2": 3,
+"3": 3
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_SPELLCAST_INTERRUPTED": {
+"chain": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"2": 1,
+"3": 1,
+"5": 1
+},
+"secretAny": 0
+}
+},
+"player": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 4,
+"present": {
+"1": 4,
+"2": 4,
+"3": 4,
+"5": 1
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_SPELLCAST_SENT": {
+"chain": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 7,
+"present": {
+"1": 7,
+"2": 6,
+"3": 7,
+"4": 7
+},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 2,
+"present": {
+"1": 2,
+"3": 2,
+"4": 2
+},
+"secretAny": 0
+}
+},
+"player": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 8,
+"present": {
+"1": 8,
+"2": 7,
+"3": 8,
+"4": 8
+},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 11,
+"present": {
+"1": 11,
+"2": 2,
+"3": 11,
+"4": 11
+},
+"secretAny": 0
+}
+},
+"target": {
+"ooc": {
+"args": {},
+"fields": {},
+"n": 2,
+"present": {
+"1": 2,
+"3": 2,
+"4": 2
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_SPELLCAST_START": {
+"chain": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 3,
+"present": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 3
+},
+"secretAny": 0
+}
+},
+"player": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 4,
+"present": {
+"1": 4,
+"2": 4,
+"3": 4,
+"4": 4
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_SPELLCAST_STOP": {
+"chain": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 4,
+"present": {
+"1": 4,
+"2": 4,
+"3": 4,
+"4": 4
+},
+"secretAny": 0
+}
+},
+"player": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 4,
+"present": {
+"1": 4,
+"2": 4,
+"3": 4,
+"4": 4
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_SPELLCAST_SUCCEEDED": {
+"chain": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 7,
+"present": {
+"1": 7,
+"2": 7,
+"3": 7,
+"4": 3
+},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 2,
+"present": {
+"1": 2,
+"2": 2,
+"3": 2
+},
+"secretAny": 0
+}
+},
+"player": {
+"combat": {
+"args": {},
+"fields": {},
+"n": 7,
+"present": {
+"1": 7,
+"2": 7,
+"3": 7,
+"4": 3
+},
+"secretAny": 0
+},
+"ooc": {
+"args": {},
+"fields": {},
+"n": 10,
+"present": {
+"1": 10,
+"2": 10,
+"3": 10
+},
+"secretAny": 0
+}
+},
+"target": {
+"ooc": {
+"args": {},
+"fields": {},
+"n": 2,
+"present": {
+"1": 2,
+"2": 2,
+"3": 2
+},
+"secretAny": 0
+}
+}
+}
+},
+"kind": "combat"
+}
+]
+},
+"schema": "foreverdump.svinspect/5",
+"svKey": "12731215:1791417756",
+"tokens": []
+}

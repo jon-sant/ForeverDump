@@ -1,0 +1,874 @@
+{
+ "addon": null,
+ "player": "Player-4618-00EB40D8",
+ "playerNote": "player Player-4618-00EB40D8 via auto:sv-sessions guid",
+ "replay": {
+  "clear": {
+   "contradictions": 3,
+   "counters": {
+    "auraEvents": 19,
+    "casts": 21,
+    "contradictions": 3,
+    "inferences": 26,
+    "predictions": 17,
+    "unreadable": 0
+   },
+   "events": 65,
+   "failures": {
+    "removed-early (dispel/cancel/death)": 1
+   },
+   "predictions": [
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "kind": "amount",
+     "meanAbsErrorSec": null,
+     "n": 2,
+     "ok": 2,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "kind": "aura",
+     "meanAbsErrorSec": 7.88,
+     "n": 1,
+     "ok": 1,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "kind": "cooldown",
+     "meanAbsErrorSec": 19.15,
+     "n": 1,
+     "ok": 1,
+     "pending": 0
+    }
+   ],
+   "recall": {
+    "applications": 9,
+    "caught": 9,
+    "recall": 100.0
+   },
+   "rules": [
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 7,
+     "ok": 7,
+     "rule": "cast-pair",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 80.0,
+     "bad": 1,
+     "ctx": "combat",
+     "n": 5,
+     "ok": 4,
+     "rule": "iid-map",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 4,
+     "ok": 4,
+     "rule": "iid-map",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 6,
+     "ok": 6,
+     "rule": "observed",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 4,
+     "ok": 4,
+     "rule": "observed",
+     "unverifiable": 0
+    }
+   ],
+   "sample": [
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 905,
+     "t": 1791417279.313,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 20572,
+     "t": 1791417282.773,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 8177,
+     "t": 1791417287.914,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 36936,
+     "t": 1791417293.855,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 526,
+     "t": 1791417307.706,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 30.22,
+       "errorSec": -7.88,
+       "expected": true,
+       "predicted": 38.1,
+       "present": true
+      }
+     },
+     "ctx": "ooc",
+     "failures": [
+      "removed-early (dispel/cancel/death)"
+     ],
+     "spell": 905,
+     "t": 1791417318.938,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 1238640,
+     "t": 1791417321.437,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8052,
+     "t": 1791417335.768,
+     "unit": "Creature-0-6782-1-914-3244-000046DB22"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791417362.656,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 19.15
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791417372.301,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791417401.097,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8046,
+     "t": 1791417415.443,
+     "unit": "Creature-0-6782-1-914-3244-000046DB22"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8030,
+     "t": 1791417429.048,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8232,
+     "t": 1791417471.936,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 17364,
+     "t": 1791417480.935,
+     "unit": "Creature-0-6782-1-914-3415-000046D8EC"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 6364,
+     "t": 1791417490.019,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 17364,
+     "t": 1791417498.535,
+     "unit": "Creature-0-6782-1-914-5865-000046D7DE"
+    }
+   ]
+  },
+  "secret": {
+   "contradictions": 1,
+   "counters": {
+    "auraEvents": 19,
+    "casts": 21,
+    "contradictions": 1,
+    "inferences": 17,
+    "predictions": 17,
+    "unreadable": 0
+   },
+   "events": 65,
+   "failures": {
+    "removed-early (dispel/cancel/death)": 1
+   },
+   "predictions": [
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "kind": "amount",
+     "meanAbsErrorSec": null,
+     "n": 2,
+     "ok": 2,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "kind": "aura",
+     "meanAbsErrorSec": 7.88,
+     "n": 1,
+     "ok": 1,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "kind": "cooldown",
+     "meanAbsErrorSec": 19.15,
+     "n": 1,
+     "ok": 1,
+     "pending": 0
+    }
+   ],
+   "recall": {
+    "applications": 9,
+    "caught": 1,
+    "recall": 11.1
+   },
+   "rules": [
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 1,
+     "ok": 1,
+     "rule": "cast-correlation",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 7,
+     "ok": 7,
+     "rule": "cast-pair",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 5,
+     "ok": 1,
+     "rule": "iid-map",
+     "unverifiable": 4
+    },
+    {
+     "accuracy": null,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 4,
+     "ok": 0,
+     "rule": "iid-map",
+     "unverifiable": 4
+    }
+   ],
+   "sample": [
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 905,
+     "t": 1791417279.313,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 20572,
+     "t": 1791417282.773,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 8177,
+     "t": 1791417287.914,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 36936,
+     "t": 1791417293.855,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 526,
+     "t": 1791417307.706,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 30.22,
+       "errorSec": -7.88,
+       "expected": true,
+       "predicted": 38.1,
+       "present": true
+      }
+     },
+     "ctx": "ooc",
+     "failures": [
+      "removed-early (dispel/cancel/death)"
+     ],
+     "spell": 905,
+     "t": 1791417318.938,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 1238640,
+     "t": 1791417321.437,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8052,
+     "t": 1791417335.768,
+     "unit": "Creature-0-6782-1-914-3244-000046DB22"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791417362.656,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 19.15
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791417372.301,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791417401.097,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8046,
+     "t": 1791417415.443,
+     "unit": "Creature-0-6782-1-914-3244-000046DB22"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8030,
+     "t": 1791417429.048,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8232,
+     "t": 1791417471.936,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 17364,
+     "t": 1791417480.935,
+     "unit": "Creature-0-6782-1-914-3415-000046D8EC"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 6364,
+     "t": 1791417490.019,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 17364,
+     "t": 1791417498.535,
+     "unit": "Creature-0-6782-1-914-5865-000046D7DE"
+    }
+   ]
+  },
+  "secret-pretrained": {
+   "contradictions": 1,
+   "counters": {
+    "auraEvents": 19,
+    "casts": 21,
+    "contradictions": 1,
+    "inferences": 21,
+    "predictions": 17,
+    "unreadable": 0
+   },
+   "events": 60,
+   "failures": {
+    "crit": 1,
+    "removed-early (dispel/cancel/death)": 1
+   },
+   "predictions": [
+    {
+     "accuracy": 75.0,
+     "bad": 1,
+     "ctx": "combat",
+     "kind": "amount",
+     "meanAbsErrorSec": null,
+     "n": 4,
+     "ok": 3,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "kind": "aura",
+     "meanAbsErrorSec": 0.01,
+     "n": 1,
+     "ok": 1,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "kind": "aura",
+     "meanAbsErrorSec": 1.99,
+     "n": 4,
+     "ok": 4,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "kind": "cooldown",
+     "meanAbsErrorSec": 6.38,
+     "n": 3,
+     "ok": 3,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "kind": "cooldown",
+     "meanAbsErrorSec": 0.01,
+     "n": 1,
+     "ok": 1,
+     "pending": 0
+    }
+   ],
+   "recall": {
+    "applications": 9,
+    "caught": 5,
+    "recall": 55.6
+   },
+   "rules": [
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 4,
+     "ok": 4,
+     "rule": "cast-correlation",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 7,
+     "ok": 7,
+     "rule": "cast-pair",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 5,
+     "ok": 2,
+     "rule": "iid-map",
+     "unverifiable": 3
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 4,
+     "ok": 3,
+     "rule": "iid-map",
+     "unverifiable": 1
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 1,
+     "ok": 1,
+     "rule": "single-applier",
+     "unverifiable": 0
+    }
+   ],
+   "sample": [
+    {
+     "checks": {
+      "aura": {
+       "actual": 38.15,
+       "errorSec": 0.05,
+       "expected": true,
+       "predicted": 38.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 0.01
+      }
+     },
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 905,
+     "t": 1791417279.313,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 15.0,
+       "errorSec": 0.0,
+       "expected": true,
+       "predicted": 15,
+       "present": true
+      }
+     },
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 20572,
+     "t": 1791417282.773,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 8177,
+     "t": 1791417287.914,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 36936,
+     "t": 1791417293.855,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 526,
+     "t": 1791417307.706,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 30.22,
+       "errorSec": -7.88,
+       "expected": true,
+       "predicted": 38.1,
+       "present": true
+      }
+     },
+     "ctx": "ooc",
+     "failures": [
+      "removed-early (dispel/cancel/death)"
+     ],
+     "spell": 905,
+     "t": 1791417318.938,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 3.65,
+       "errorSec": -0.05,
+       "expected": true,
+       "predicted": 3.7,
+       "present": true
+      }
+     },
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 1238640,
+     "t": 1791417321.437,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 12.01,
+       "errorSec": 0.01,
+       "expected": true,
+       "predicted": 12,
+       "present": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8052,
+     "t": 1791417335.768,
+     "unit": "Creature-0-6782-1-914-3244-000046DB22"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": true,
+       "periodic": false,
+       "within": false
+      },
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": -0.0
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "crit"
+     ],
+     "spell": 8008,
+     "t": 1791417362.656,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 19.15
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791417372.301,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791417401.097,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8046,
+     "t": 1791417415.443,
+     "unit": "Creature-0-6782-1-914-3244-000046DB22"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8030,
+     "t": 1791417429.048,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8232,
+     "t": 1791417471.936,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 0.0
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 17364,
+     "t": 1791417480.935,
+     "unit": "Creature-0-6782-1-914-3415-000046D8EC"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 6364,
+     "t": 1791417490.019,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 17364,
+     "t": 1791417498.535,
+     "unit": "Creature-0-6782-1-914-5865-000046D7DE"
+    }
+   ]
+  }
+ },
+ "truth": {
+  "amounts": 16,
+  "auras": 25,
+  "casts": 17,
+  "misses": 0,
+  "starts": 4
+ }
+}

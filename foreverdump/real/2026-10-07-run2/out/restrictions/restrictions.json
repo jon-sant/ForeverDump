@@ -1,0 +1,42 @@
+{
+ "byType": {
+  "Combat": {
+   "activeSec": {
+    "max": 79.946,
+    "min": 0.917,
+    "n": 9,
+    "total": 105.1
+   },
+   "flips": 18,
+   "inCombatAtActivating": {
+    "InCombatLockdown=False": 9
+   },
+   "intervals": [
+    79.946,
+    3.411,
+    0.917,
+    3.813,
+    1.375,
+    3.646,
+    1.349,
+    5.5,
+    5.167
+   ],
+   "states": {
+    "Activating": 9,
+    "Inactive": 9
+   }
+  }
+ },
+ "contexts": {
+  "Combat/?": 18
+ },
+ "counts": null,
+ "dropped": null,
+ "flips": 18,
+ "markers": {},
+ "origin": "v2.1 (blocked log: type/state/stamp only, no context or probes)",
+ "perFlip": [],
+ "probeDeltas": {},
+ "sessions": []
+}
