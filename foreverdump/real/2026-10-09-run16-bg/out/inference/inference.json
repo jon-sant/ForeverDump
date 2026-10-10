@@ -1,0 +1,3811 @@
+{
+ "addon": {
+  "appliers": {
+   "harmful": {},
+   "helpful": [
+    324,
+    325,
+    546,
+    905,
+    20572,
+    1299026
+   ],
+   "unknown": [
+    8050,
+    8052,
+    8053,
+    8056,
+    17364
+   ]
+  },
+  "counters": {
+   "auraEvents": 2144,
+   "casts": 1134,
+   "contradictions": 2,
+   "fail-dead": 18,
+   "fail-gcd": 214,
+   "fail-inside-cd": 311,
+   "fail-outside-cd": 134,
+   "inferences": 9801,
+   "predictions": 161,
+   "unreadable": 204
+  },
+  "failures": {
+   "crit": 2,
+   "dispel: nothing removed (no dispellable effect / resisted)": 5,
+   "refresh": 1,
+   "removed-early (dispel/cancel/death)": 25,
+   "resist/miss:ABSORB": 3,
+   "resist/miss:MISS": 2
+  },
+  "inputs": {
+   "combat": {
+    "aura.addedAuras": {
+     "r": 0,
+     "u": 600
+    },
+    "aura.count": {
+     "r": 0,
+     "u": 1314
+    },
+    "aura.updateInfo": {
+     "r": 1287,
+     "u": 0
+    },
+    "playerCast.castGUID": {
+     "r": 805,
+     "u": 0
+    },
+    "playerCast.event": {
+     "r": 805,
+     "u": 0
+    },
+    "playerCast.spellID": {
+     "r": 805,
+     "u": 0
+    },
+    "totem.duration": {
+     "r": 0,
+     "u": 40
+    },
+    "totem.haveTotem": {
+     "r": 0,
+     "u": 40
+    },
+    "totem.name": {
+     "r": 0,
+     "u": 40
+    },
+    "totem.slot": {
+     "r": 40,
+     "u": 0
+    },
+    "totem.startTime": {
+     "r": 0,
+     "u": 40
+    },
+    "unitCast.castGUID": {
+     "r": 0,
+     "u": 123
+    },
+    "unitCast.event": {
+     "r": 123,
+     "u": 0
+    },
+    "unitCast.spellID": {
+     "r": 0,
+     "u": 123
+    },
+    "unitCombat.action": {
+     "r": 6589,
+     "u": 0
+    },
+    "unitCombat.amount": {
+     "r": 6589,
+     "u": 0
+    },
+    "unitCombat.school": {
+     "r": 6589,
+     "u": 0
+    }
+   },
+   "restricted": {
+    "aura.addedAuras": {
+     "r": 0,
+     "u": 475
+    },
+    "aura.count": {
+     "r": 6,
+     "u": 880
+    },
+    "aura.removedID": {
+     "r": 4,
+     "u": 0
+    },
+    "aura.updateInfo": {
+     "r": 857,
+     "u": 0
+    },
+    "playerCast.castGUID": {
+     "r": 121,
+     "u": 1
+    },
+    "playerCast.event": {
+     "r": 122,
+     "u": 0
+    },
+    "playerCast.spellID": {
+     "r": 122,
+     "u": 0
+    },
+    "totem.duration": {
+     "r": 0,
+     "u": 28
+    },
+    "totem.haveTotem": {
+     "r": 0,
+     "u": 28
+    },
+    "totem.name": {
+     "r": 0,
+     "u": 28
+    },
+    "totem.slot": {
+     "r": 28,
+     "u": 0
+    },
+    "totem.startTime": {
+     "r": 0,
+     "u": 28
+    },
+    "unitCast.castGUID": {
+     "r": 3,
+     "u": 81
+    },
+    "unitCast.event": {
+     "r": 84,
+     "u": 0
+    },
+    "unitCast.spellID": {
+     "r": 3,
+     "u": 81
+    },
+    "unitCombat.action": {
+     "r": 3687,
+     "u": 0
+    },
+    "unitCombat.amount": {
+     "r": 3687,
+     "u": 0
+    },
+    "unitCombat.school": {
+     "r": 3687,
+     "u": 0
+    }
+   }
+  },
+  "live": [
+   {
+    "dm": 0,
+    "kind": "self-attribution-exceeds-dm-healing",
+    "live": 142,
+    "rule": "dm-reconcile",
+    "t": 1228865.048
+   },
+   {
+    "dm": 30,
+    "kind": "self-attribution-exceeds-dm-healing",
+    "live": 163,
+    "rule": "dm-reconcile",
+    "t": 1229549.483
+   }
+  ],
+  "player": {
+   "guid": "Player-4618-00EB40D8",
+   "info": {
+    "class": "SHAMAN",
+    "classID": 7,
+    "className": "Shaman",
+    "level": 30,
+    "race": "Orc",
+    "role": "DAMAGER",
+    "specID": 1489,
+    "specIndex": 1,
+    "specName": "Shaman"
+   }
+  },
+  "predictions": [
+   {
+    "accuracy": 59.5,
+    "bad": 15,
+    "ctx": "combat",
+    "kind": "amount",
+    "meanAbsErrorSec": null,
+    "n": 43,
+    "ok": 22,
+    "pending": 6
+   },
+   {
+    "accuracy": 80.0,
+    "bad": 1,
+    "ctx": "ooc",
+    "kind": "amount",
+    "meanAbsErrorSec": null,
+    "n": 10,
+    "ok": 4,
+    "pending": 5
+   },
+   {
+    "accuracy": 89.8,
+    "bad": 5,
+    "ctx": "combat",
+    "kind": "aura",
+    "meanAbsErrorSec": 15.81,
+    "n": 49,
+    "ok": 44,
+    "pending": 0
+   },
+   {
+    "accuracy": 100.0,
+    "bad": 0,
+    "ctx": "ooc",
+    "kind": "aura",
+    "meanAbsErrorSec": 533.74,
+    "n": 5,
+    "ok": 5,
+    "pending": 0
+   },
+   {
+    "accuracy": 100.0,
+    "bad": 0,
+    "ctx": "combat",
+    "kind": "cooldown",
+    "meanAbsErrorSec": 3.27,
+    "n": 68,
+    "ok": 10,
+    "pending": 58
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "ooc",
+    "kind": "cooldown",
+    "meanAbsErrorSec": null,
+    "n": 1,
+    "ok": 0,
+    "pending": 1
+   },
+   {
+    "accuracy": 100.0,
+    "bad": 0,
+    "ctx": "combat",
+    "kind": "dispel",
+    "meanAbsErrorSec": null,
+    "n": 19,
+    "ok": 14,
+    "pending": 5
+   },
+   {
+    "accuracy": 100.0,
+    "bad": 0,
+    "ctx": "combat",
+    "kind": "summon",
+    "meanAbsErrorSec": null,
+    "n": 28,
+    "ok": 28,
+    "pending": 0
+   },
+   {
+    "accuracy": 100.0,
+    "bad": 0,
+    "ctx": "ooc",
+    "kind": "summon",
+    "meanAbsErrorSec": null,
+    "n": 10,
+    "ok": 10,
+    "pending": 0
+   }
+  ],
+  "recall": {
+   "applications": 96,
+   "caught": 74,
+   "recall": 77.1
+  },
+  "rules": [
+   {
+    "accuracy": 14.3,
+    "bad": 30,
+    "ctx": "combat",
+    "n": 35,
+    "ok": 5,
+    "rule": "aura-ambiguous",
+    "unverifiable": 0
+   },
+   {
+    "accuracy": 0.0,
+    "bad": 7,
+    "ctx": "ooc",
+    "n": 7,
+    "ok": 0,
+    "rule": "aura-ambiguous",
+    "unverifiable": 0
+   },
+   {
+    "accuracy": 66.7,
+    "bad": 1,
+    "ctx": "combat",
+    "n": 122,
+    "ok": 2,
+    "rule": "aura-me-elim",
+    "unverifiable": 119
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "ooc",
+    "n": 28,
+    "ok": 0,
+    "rule": "aura-me-elim",
+    "unverifiable": 28
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 23,
+    "ok": 0,
+    "rule": "cast-frame",
+    "unverifiable": 23
+   },
+   {
+    "accuracy": 87.9,
+    "bad": 4,
+    "ctx": "combat",
+    "n": 153,
+    "ok": 29,
+    "rule": "cast-pair",
+    "unverifiable": 120
+   },
+   {
+    "accuracy": 86.7,
+    "bad": 2,
+    "ctx": "ooc",
+    "n": 54,
+    "ok": 13,
+    "rule": "cast-pair",
+    "unverifiable": 39
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 13,
+    "ok": 0,
+    "rule": "damage-ambiguous",
+    "unverifiable": 13
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 14,
+    "ok": 0,
+    "rule": "dispel-cast+dm",
+    "unverifiable": 14
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 18,
+    "ok": 0,
+    "rule": "dm-reconcile",
+    "unverifiable": 18
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "ooc",
+    "n": 5,
+    "ok": 0,
+    "rule": "dm-reconcile",
+    "unverifiable": 5
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 4805,
+    "ok": 0,
+    "rule": "elimination",
+    "unverifiable": 4805
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "ooc",
+    "n": 1724,
+    "ok": 0,
+    "rule": "elimination",
+    "unverifiable": 1724
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 18,
+    "ok": 0,
+    "rule": "fail-dead",
+    "unverifiable": 18
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 205,
+    "ok": 0,
+    "rule": "fail-gcd",
+    "unverifiable": 205
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "ooc",
+    "n": 9,
+    "ok": 0,
+    "rule": "fail-gcd",
+    "unverifiable": 9
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 310,
+    "ok": 0,
+    "rule": "fail-inside-cd",
+    "unverifiable": 310
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "ooc",
+    "n": 1,
+    "ok": 0,
+    "rule": "fail-inside-cd",
+    "unverifiable": 1
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 123,
+    "ok": 0,
+    "rule": "fail-outside-cd",
+    "unverifiable": 123
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "ooc",
+    "n": 11,
+    "ok": 0,
+    "rule": "fail-outside-cd",
+    "unverifiable": 11
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 1,
+    "ok": 0,
+    "rule": "heal-ambiguous",
+    "unverifiable": 1
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 37,
+    "ok": 0,
+    "rule": "heal-cadence",
+    "unverifiable": 37
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "ooc",
+    "n": 15,
+    "ok": 0,
+    "rule": "heal-cadence",
+    "unverifiable": 15
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 1088,
+    "ok": 0,
+    "rule": "heal-tgt-frame",
+    "unverifiable": 1088
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "ooc",
+    "n": 440,
+    "ok": 0,
+    "rule": "heal-tgt-frame",
+    "unverifiable": 440
+   },
+   {
+    "accuracy": 62.5,
+    "bad": 18,
+    "ctx": "combat",
+    "n": 48,
+    "ok": 30,
+    "rule": "own-cast-frame",
+    "unverifiable": 0
+   },
+   {
+    "accuracy": 75.0,
+    "bad": 4,
+    "ctx": "ooc",
+    "n": 16,
+    "ok": 12,
+    "rule": "own-cast-frame",
+    "unverifiable": 0
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 49,
+    "ok": 0,
+    "rule": "regen",
+    "unverifiable": 49
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "ooc",
+    "n": 7,
+    "ok": 0,
+    "rule": "regen",
+    "unverifiable": 7
+   },
+   {
+    "accuracy": 100.0,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 44,
+    "ok": 44,
+    "rule": "secret-timing",
+    "unverifiable": 0
+   },
+   {
+    "accuracy": 100.0,
+    "bad": 0,
+    "ctx": "ooc",
+    "n": 4,
+    "ok": 4,
+    "rule": "secret-timing",
+    "unverifiable": 0
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 28,
+    "ok": 0,
+    "rule": "summon-cadence",
+    "unverifiable": 28
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "ooc",
+    "n": 3,
+    "ok": 0,
+    "rule": "summon-cadence",
+    "unverifiable": 3
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 9,
+    "ok": 0,
+    "rule": "swing-frame",
+    "unverifiable": 9
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 19,
+    "ok": 0,
+    "rule": "swing-lag",
+    "unverifiable": 19
+   },
+   {
+    "accuracy": null,
+    "bad": 0,
+    "ctx": "combat",
+    "n": 315,
+    "ok": 0,
+    "rule": "unit-combat",
+    "unverifiable": 315
+   }
+  ],
+  "sample": [
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     },
+     "aura": {
+      "actual": 91.53,
+      "errorSec": -508.47,
+      "expected": true,
+      "predicted": 600,
+      "present": true
+     }
+    },
+    "ctx": "ooc",
+    "failures": [
+     "removed-early (dispel/cancel/death)"
+    ],
+    "spell": 905,
+    "t": 1791600779.145,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "amount": {
+      "missed": "no-hit-seen",
+      "within": null
+     },
+     "aura": {
+      "actual": 65.68,
+      "errorSec": -534.32,
+      "expected": true,
+      "predicted": 600,
+      "present": true
+     }
+    },
+    "ctx": "ooc",
+    "failures": [
+     "refresh",
+     "removed-early (dispel/cancel/death)"
+    ],
+    "spell": 905,
+    "t": 1791600804.994,
+    "unit": "player"
+   },
+   {
+    "checks": {},
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 1238640,
+    "t": 1791600807.577,
+    "unit": "player"
+   },
+   {
+    "checks": {},
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 1316048,
+    "t": 1791600825.748,
+    "unit": "player"
+   },
+   {
+    "checks": {},
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 1301167,
+    "t": 1791600825.748,
+    "unit": "player"
+   },
+   {
+    "checks": {},
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 1301168,
+    "t": 1791600830.748,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     },
+     "summon": {
+      "actual": null,
+      "predicted": 45,
+      "present": true
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 8177,
+    "t": 1791600877.632,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "aura": {
+      "actual": 14.99,
+      "errorSec": -0.01,
+      "expected": true,
+      "predicted": 15,
+      "present": true
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 20572,
+    "t": 1791600879.841,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "aura": {
+      "actual": 1.52,
+      "errorSec": -10.48,
+      "expected": true,
+      "predicted": 12,
+      "present": true
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "combat",
+    "failures": [
+     "removed-early (dispel/cancel/death)"
+    ],
+    "spell": 17364,
+    "t": 1791600881.674,
+    "unit": "target"
+   },
+   {
+    "checks": {
+     "amount": {
+      "crit": false,
+      "periodic": false,
+      "within": false
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 8046,
+    "t": 1791600883.179,
+    "unit": "target"
+   },
+   {
+    "checks": {
+     "amount": {
+      "crit": false,
+      "periodic": false,
+      "within": true
+     }
+    },
+    "ctx": "ooc",
+    "failures": [],
+    "spell": 8008,
+    "t": 1791600898.914,
+    "unit": "Player-4620-00AAC097"
+   },
+   {
+    "checks": {
+     "amount": {
+      "crit": false,
+      "periodic": false,
+      "within": true
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 8008,
+    "t": 1791600900.414,
+    "unit": "Player-4619-00D80E0C"
+   },
+   {
+    "checks": {
+     "amount": {
+      "crit": false,
+      "periodic": false,
+      "within": true
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 8008,
+    "t": 1791600901.935,
+    "unit": "Player-4619-00D80E0C"
+   },
+   {
+    "checks": {
+     "amount": {
+      "crit": true,
+      "periodic": false,
+      "within": false
+     }
+    },
+    "ctx": "combat",
+    "failures": [
+     "crit"
+    ],
+    "spell": 8008,
+    "t": 1791600903.435,
+    "unit": "Player-4619-00D80E0C"
+   },
+   {
+    "checks": {
+     "amount": {
+      "crit": false,
+      "periodic": false,
+      "within": true
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 8008,
+    "t": 1791600904.935,
+    "unit": "Player-4619-00D80E0C"
+   },
+   {
+    "checks": {
+     "amount": {
+      "crit": false,
+      "periodic": false,
+      "within": false
+     },
+     "aura": {
+      "actual": 8.0,
+      "errorSec": -0.0,
+      "expected": true,
+      "predicted": 8,
+      "present": true
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 8056,
+    "t": 1791600906.227,
+    "unit": "target"
+   },
+   {
+    "checks": {
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     },
+     "summon": {
+      "actual": null,
+      "predicted": 45,
+      "present": true
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 8177,
+    "t": 1791600908.269,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "summon": {
+      "actual": null,
+      "predicted": 300,
+      "present": true
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 8143,
+    "t": 1791600911.06,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "summon": {
+      "actual": null,
+      "predicted": 40,
+      "present": true
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 6364,
+    "t": 1791600912.581,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "aura": {
+      "actual": 3.85,
+      "errorSec": -8.15,
+      "expected": true,
+      "predicted": 12,
+      "present": true
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "combat",
+    "failures": [
+     "removed-early (dispel/cancel/death)"
+    ],
+    "spell": 17364,
+    "t": 1791600914.623,
+    "unit": "target"
+   },
+   {
+    "checks": {},
+    "ctx": "combat",
+    "failures": [],
+    "spell": 8232,
+    "t": 1791600918.565,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "amount": {
+      "crit": false,
+      "periodic": false,
+      "within": true
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 8008,
+    "t": 1791600923.378,
+    "unit": "Player-4618-00EB40D8"
+   },
+   {
+    "checks": {
+     "aura": {
+      "actual": 8.0,
+      "errorSec": 0.0,
+      "expected": true,
+      "predicted": 8,
+      "present": true
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 1299026,
+    "t": 1791600928.857,
+    "unit": "player"
+   },
+   {
+    "checks": {},
+    "ctx": "combat",
+    "failures": [],
+    "spell": 1238640,
+    "t": 1791600939.714,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "amount": {
+      "crit": false,
+      "periodic": false,
+      "within": false
+     },
+     "aura": {
+      "actual": 1.04,
+      "errorSec": -6.96,
+      "expected": true,
+      "predicted": 8,
+      "present": true
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "combat",
+    "failures": [
+     "removed-early (dispel/cancel/death)"
+    ],
+    "spell": 8056,
+    "t": 1791600942.216,
+    "unit": "target"
+   },
+   {
+    "checks": {
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     },
+     "summon": {
+      "actual": null,
+      "predicted": 45,
+      "present": true
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 8177,
+    "t": 1791600944.612,
+    "unit": "player"
+   },
+   {
+    "checks": {},
+    "ctx": "combat",
+    "failures": [],
+    "spell": 1238640,
+    "t": 1791600946.8,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "amount": {
+      "crit": false,
+      "periodic": false,
+      "within": false
+     },
+     "aura": {
+      "actual": 3.45,
+      "errorSec": -8.55,
+      "expected": true,
+      "predicted": 12,
+      "present": true
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "combat",
+    "failures": [
+     "removed-early (dispel/cancel/death)"
+    ],
+    "spell": 8052,
+    "t": 1791600949.154,
+    "unit": "target"
+   },
+   {
+    "checks": {
+     "aura": {
+      "actual": 1.1,
+      "errorSec": -10.9,
+      "expected": true,
+      "predicted": 12,
+      "present": true
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "combat",
+    "failures": [
+     "removed-early (dispel/cancel/death)"
+    ],
+    "spell": 17364,
+    "t": 1791600951.509,
+    "unit": "target"
+   },
+   {
+    "checks": {
+     "dispel": {
+      "result": "SPELL_DISPEL"
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 370,
+    "t": 1791600956.842,
+    "unit": "target"
+   },
+   {
+    "checks": {
+     "amount": {
+      "crit": false,
+      "periodic": false,
+      "within": true
+     },
+     "aura": {
+      "actual": 8.01,
+      "errorSec": 0.01,
+      "expected": true,
+      "predicted": 8,
+      "present": true
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 8056,
+    "t": 1791600958.613,
+    "unit": "target"
+   },
+   {
+    "checks": {
+     "summon": {
+      "actual": null,
+      "predicted": 40,
+      "present": true
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 6364,
+    "t": 1791600965.622,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "summon": {
+      "actual": null,
+      "predicted": 300,
+      "present": true
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 6375,
+    "t": 1791600966.83,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "summon": {
+      "actual": null,
+      "predicted": 300,
+      "present": true
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 8143,
+    "t": 1791600970.024,
+    "unit": "player"
+   },
+   {
+    "checks": {},
+    "ctx": "combat",
+    "failures": [],
+    "spell": 1238640,
+    "t": 1791600976.232,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "amount": {
+      "crit": false,
+      "periodic": false,
+      "within": false
+     },
+     "aura": {
+      "actual": 8.0,
+      "errorSec": -0.0,
+      "expected": true,
+      "predicted": 8,
+      "present": true
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 8056,
+    "t": 1791600978.065,
+    "unit": "target"
+   },
+   {
+    "checks": {
+     "aura": {
+      "actual": 12.01,
+      "errorSec": 0.01,
+      "expected": true,
+      "predicted": 12,
+      "present": true
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 17364,
+    "t": 1791600980.732,
+    "unit": "target"
+   },
+   {
+    "checks": {
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     },
+     "summon": {
+      "actual": null,
+      "predicted": 45,
+      "present": true
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 8177,
+    "t": 1791600983.857,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     },
+     "summon": {
+      "actual": null,
+      "predicted": 45,
+      "present": true
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 2484,
+    "t": 1791600986.818,
+    "unit": "player"
+   },
+   {
+    "checks": {
+     "amount": {
+      "crit": false,
+      "periodic": false,
+      "within": false
+     },
+     "aura": {
+      "actual": 12.01,
+      "errorSec": 0.01,
+      "expected": true,
+      "predicted": 12,
+      "present": true
+     },
+     "cooldown": {
+      "contradicted": false,
+      "noRecastInWindow": true,
+      "recastAfterPredictedEnd": null
+     }
+    },
+    "ctx": "combat",
+    "failures": [],
+    "spell": 8052,
+    "t": 1791600988.693,
+    "unit": "target"
+   }
+  ],
+  "sessions": 1
+ },
+ "player": "Player-4618-00EB40D8",
+ "playerNote": "player Player-4618-00EB40D8 via auto:sv-meta guid (Uglaz Doomaxe)",
+ "replay": {
+  "clear": {
+   "contradictions": 68,
+   "counters": {
+    "auraEvents": 194,
+    "casts": 182,
+    "contradictions": 68,
+    "inferences": 239,
+    "predictions": 159,
+    "unreadable": 0
+   },
+   "events": 591,
+   "failures": {
+    "crit": 2,
+    "haste/duration-modifier": 2,
+    "longer-than-predicted": 15,
+    "recast-before-predicted-cooldown-end (cd reset/haste)": 28,
+    "removed-early (dispel/cancel/death)": 31,
+    "resist/miss:ABSORB": 5,
+    "resist/miss:MISS": 3,
+    "resist/miss:PARRY": 1
+   },
+   "predictions": [
+    {
+     "accuracy": 68.1,
+     "bad": 15,
+     "ctx": "combat",
+     "kind": "amount",
+     "meanAbsErrorSec": null,
+     "n": 56,
+     "ok": 32,
+     "pending": 9
+    },
+    {
+     "accuracy": 25.0,
+     "bad": 3,
+     "ctx": "ooc",
+     "kind": "amount",
+     "meanAbsErrorSec": null,
+     "n": 4,
+     "ok": 1,
+     "pending": 0
+    },
+    {
+     "accuracy": 91.4,
+     "bad": 5,
+     "ctx": "combat",
+     "kind": "aura",
+     "meanAbsErrorSec": 19.72,
+     "n": 58,
+     "ok": 53,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "kind": "aura",
+     "meanAbsErrorSec": 38.45,
+     "n": 12,
+     "ok": 12,
+     "pending": 0
+    },
+    {
+     "accuracy": 44.4,
+     "bad": 25,
+     "ctx": "combat",
+     "kind": "cooldown",
+     "meanAbsErrorSec": 13.01,
+     "n": 105,
+     "ok": 20,
+     "pending": 60
+    },
+    {
+     "accuracy": 25.0,
+     "bad": 3,
+     "ctx": "ooc",
+     "kind": "cooldown",
+     "meanAbsErrorSec": 20.42,
+     "n": 27,
+     "ok": 1,
+     "pending": 23
+    }
+   ],
+   "recall": {
+    "applications": 96,
+    "caught": 96,
+    "recall": 100.0
+   },
+   "rules": [
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 33,
+     "ok": 33,
+     "rule": "cast-pair",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 12,
+     "ok": 12,
+     "rule": "cast-pair",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 97.5,
+     "bad": 2,
+     "ctx": "combat",
+     "n": 81,
+     "ok": 79,
+     "rule": "iid-map",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 92.3,
+     "bad": 1,
+     "ctx": "ooc",
+     "n": 13,
+     "ok": 12,
+     "rule": "iid-map",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 79,
+     "ok": 79,
+     "rule": "observed",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 21,
+     "ok": 21,
+     "rule": "observed",
+     "unverifiable": 0
+    }
+   ],
+   "sample": [
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 905,
+     "t": 1791600779.164,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 905,
+     "t": 1791600805.011,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 1238640,
+     "t": 1791600807.595,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 1301167,
+     "t": 1791600825.764,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 1301168,
+     "t": 1791600830.766,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8177,
+     "t": 1791600877.649,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 20572,
+     "t": 1791600879.859,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 17364,
+     "t": 1791600881.691,
+     "unit": "Player-4619-00793AA6"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8046,
+     "t": 1791600883.196,
+     "unit": "Player-4619-00793AA6"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791600898.933,
+     "unit": "Player-4620-00AAC097"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": false
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791600900.432,
+     "unit": "Player-4620-00AAC097"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791600901.952,
+     "unit": "Player-4619-00D80E0C"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": true,
+       "periodic": false,
+       "within": false
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "crit"
+     ],
+     "spell": 8008,
+     "t": 1791600903.452,
+     "unit": "Player-4619-00D80E0C"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": false
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791600904.952,
+     "unit": "Player-4619-00D80E0C"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8056,
+     "t": 1791600906.244,
+     "unit": "Player-4613-0081E39B"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 5.7
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8177,
+     "t": 1791600908.285,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8143,
+     "t": 1791600911.077,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 6364,
+     "t": 1791600912.597,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": false
+      },
+      "aura": {
+       "actual": 3.85,
+       "errorSec": 2.35,
+       "expected": true,
+       "predicted": 1.5,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 3.94
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "longer-than-predicted"
+     ],
+     "spell": 17364,
+     "t": 1791600914.639,
+     "unit": "Player-4613-0081E39B"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8232,
+     "t": 1791600918.582,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791600923.396,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 1299026,
+     "t": 1791600928.875,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 2.5,
+       "errorSec": -66.6,
+       "expected": true,
+       "predicted": 69.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": true,
+       "recastAfterPredictedEnd": -125.06
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "removed-early (dispel/cancel/death)",
+      "recast-before-predicted-cooldown-end (cd reset/haste)"
+     ],
+     "spell": 1238640,
+     "t": 1791600939.733,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": false
+      },
+      "aura": {
+       "actual": 1.04,
+       "errorSec": -6.96,
+       "expected": true,
+       "predicted": 8,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": true,
+       "recastAfterPredictedEnd": -19.59
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "removed-early (dispel/cancel/death)",
+      "recast-before-predicted-cooldown-end (cd reset/haste)"
+     ],
+     "spell": 8056,
+     "t": 1791600942.233,
+     "unit": "Player-4613-00D1CCBD"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 8.6
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8177,
+     "t": 1791600944.629,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 2.36,
+       "errorSec": -66.74,
+       "expected": true,
+       "predicted": 69.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "removed-early (dispel/cancel/death)"
+     ],
+     "spell": 1238640,
+     "t": 1791600946.818,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8052,
+     "t": 1791600949.173,
+     "unit": "Player-4618-0084264A"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": false
+      },
+      "aura": {
+       "actual": 1.1,
+       "errorSec": -0.4,
+       "expected": true,
+       "predicted": 1.5,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": true,
+       "recastAfterPredictedEnd": -3.73
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "recast-before-predicted-cooldown-end (cd reset/haste)"
+     ],
+     "spell": 17364,
+     "t": 1791600951.526,
+     "unit": "Player-4618-0084264A"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 370,
+     "t": 1791600956.859,
+     "unit": "Player-4613-00BB5CBB"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 8.01,
+       "errorSec": 0.01,
+       "expected": true,
+       "predicted": 8,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 3.05
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8056,
+     "t": 1791600958.631,
+     "unit": "Player-4613-00BB5CBB"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 22.16
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 6364,
+     "t": 1791600965.638,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 6375,
+     "t": 1791600966.85,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 25.78
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8143,
+     "t": 1791600970.04,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 1.83,
+       "errorSec": -67.27,
+       "expected": true,
+       "predicted": 69.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "removed-early (dispel/cancel/death)"
+     ],
+     "spell": 1238640,
+     "t": 1791600976.25,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 8.0,
+       "errorSec": -0.0,
+       "expected": true,
+       "predicted": 8,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8056,
+     "t": 1791600978.084,
+     "unit": "Player-4613-00BB5CBB"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": false
+      },
+      "aura": {
+       "actual": 12.01,
+       "errorSec": 10.51,
+       "expected": true,
+       "predicted": 1.5,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "longer-than-predicted"
+     ],
+     "spell": 17364,
+     "t": 1791600980.749,
+     "unit": "Player-4613-00BB5CBB"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 24.83
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8177,
+     "t": 1791600983.873,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 2484,
+     "t": 1791600986.834,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": false
+      },
+      "aura": {
+       "actual": 12.01,
+       "errorSec": 8.51,
+       "expected": true,
+       "predicted": 3.5,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "longer-than-predicted"
+     ],
+     "spell": 8052,
+     "t": 1791600988.71,
+     "unit": "Player-4613-00653AB7"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 90.99,
+       "errorSec": 25.29,
+       "expected": true,
+       "predicted": 65.7,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "longer-than-predicted"
+     ],
+     "spell": 905,
+     "t": 1791600997.322,
+     "unit": "player"
+    }
+   ]
+  },
+  "secret": {
+   "contradictions": 59,
+   "counters": {
+    "auraEvents": 194,
+    "casts": 182,
+    "contradictions": 59,
+    "inferences": 214,
+    "predictions": 159,
+    "unreadable": 0
+   },
+   "events": 591,
+   "failures": {
+    "crit": 2,
+    "haste/duration-modifier": 2,
+    "longer-than-predicted": 15,
+    "recast-before-predicted-cooldown-end (cd reset/haste)": 28,
+    "removed-early (dispel/cancel/death)": 31,
+    "resist/miss:ABSORB": 5,
+    "resist/miss:MISS": 3,
+    "resist/miss:PARRY": 1
+   },
+   "predictions": [
+    {
+     "accuracy": 68.1,
+     "bad": 15,
+     "ctx": "combat",
+     "kind": "amount",
+     "meanAbsErrorSec": null,
+     "n": 56,
+     "ok": 32,
+     "pending": 9
+    },
+    {
+     "accuracy": 25.0,
+     "bad": 3,
+     "ctx": "ooc",
+     "kind": "amount",
+     "meanAbsErrorSec": null,
+     "n": 4,
+     "ok": 1,
+     "pending": 0
+    },
+    {
+     "accuracy": 91.4,
+     "bad": 5,
+     "ctx": "combat",
+     "kind": "aura",
+     "meanAbsErrorSec": 19.72,
+     "n": 58,
+     "ok": 53,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "kind": "aura",
+     "meanAbsErrorSec": 38.45,
+     "n": 12,
+     "ok": 12,
+     "pending": 0
+    },
+    {
+     "accuracy": 44.4,
+     "bad": 25,
+     "ctx": "combat",
+     "kind": "cooldown",
+     "meanAbsErrorSec": 13.01,
+     "n": 105,
+     "ok": 20,
+     "pending": 60
+    },
+    {
+     "accuracy": 25.0,
+     "bad": 3,
+     "ctx": "ooc",
+     "kind": "cooldown",
+     "meanAbsErrorSec": 20.42,
+     "n": 27,
+     "ok": 1,
+     "pending": 23
+    }
+   ],
+   "recall": {
+    "applications": 96,
+    "caught": 65,
+    "recall": 67.7
+   },
+   "rules": [
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 53,
+     "ok": 53,
+     "rule": "cast-correlation",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 12,
+     "ok": 12,
+     "rule": "cast-correlation",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 33,
+     "ok": 33,
+     "rule": "cast-pair",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 12,
+     "ok": 12,
+     "rule": "cast-pair",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 81,
+     "ok": 54,
+     "rule": "iid-map",
+     "unverifiable": 27
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 13,
+     "ok": 5,
+     "rule": "iid-map",
+     "unverifiable": 8
+    },
+    {
+     "accuracy": 20.0,
+     "bad": 8,
+     "ctx": "combat",
+     "n": 10,
+     "ok": 2,
+     "rule": "predicted-expiry",
+     "unverifiable": 0
+    }
+   ],
+   "sample": [
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 905,
+     "t": 1791600779.164,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 905,
+     "t": 1791600805.011,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 1238640,
+     "t": 1791600807.595,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 1301167,
+     "t": 1791600825.764,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 1301168,
+     "t": 1791600830.766,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8177,
+     "t": 1791600877.649,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 20572,
+     "t": 1791600879.859,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 17364,
+     "t": 1791600881.691,
+     "unit": "Player-4619-00793AA6"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8046,
+     "t": 1791600883.196,
+     "unit": "Player-4619-00793AA6"
+    },
+    {
+     "checks": {},
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791600898.933,
+     "unit": "Player-4620-00AAC097"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": false
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791600900.432,
+     "unit": "Player-4620-00AAC097"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791600901.952,
+     "unit": "Player-4619-00D80E0C"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": true,
+       "periodic": false,
+       "within": false
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "crit"
+     ],
+     "spell": 8008,
+     "t": 1791600903.452,
+     "unit": "Player-4619-00D80E0C"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": false
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791600904.952,
+     "unit": "Player-4619-00D80E0C"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8056,
+     "t": 1791600906.244,
+     "unit": "Player-4613-0081E39B"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 5.7
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8177,
+     "t": 1791600908.285,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8143,
+     "t": 1791600911.077,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 6364,
+     "t": 1791600912.597,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": false
+      },
+      "aura": {
+       "actual": 3.85,
+       "errorSec": 2.35,
+       "expected": true,
+       "predicted": 1.5,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 3.94
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "longer-than-predicted"
+     ],
+     "spell": 17364,
+     "t": 1791600914.639,
+     "unit": "Player-4613-0081E39B"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8232,
+     "t": 1791600918.582,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791600923.396,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 1299026,
+     "t": 1791600928.875,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 2.5,
+       "errorSec": -66.6,
+       "expected": true,
+       "predicted": 69.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": true,
+       "recastAfterPredictedEnd": -125.06
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "removed-early (dispel/cancel/death)",
+      "recast-before-predicted-cooldown-end (cd reset/haste)"
+     ],
+     "spell": 1238640,
+     "t": 1791600939.733,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": false
+      },
+      "aura": {
+       "actual": 1.04,
+       "errorSec": -6.96,
+       "expected": true,
+       "predicted": 8,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": true,
+       "recastAfterPredictedEnd": -19.59
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "removed-early (dispel/cancel/death)",
+      "recast-before-predicted-cooldown-end (cd reset/haste)"
+     ],
+     "spell": 8056,
+     "t": 1791600942.233,
+     "unit": "Player-4613-00D1CCBD"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 8.6
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8177,
+     "t": 1791600944.629,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 2.36,
+       "errorSec": -66.74,
+       "expected": true,
+       "predicted": 69.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "removed-early (dispel/cancel/death)"
+     ],
+     "spell": 1238640,
+     "t": 1791600946.818,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8052,
+     "t": 1791600949.173,
+     "unit": "Player-4618-0084264A"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": false
+      },
+      "aura": {
+       "actual": 1.1,
+       "errorSec": -0.4,
+       "expected": true,
+       "predicted": 1.5,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": true,
+       "recastAfterPredictedEnd": -3.73
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "recast-before-predicted-cooldown-end (cd reset/haste)"
+     ],
+     "spell": 17364,
+     "t": 1791600951.526,
+     "unit": "Player-4618-0084264A"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 370,
+     "t": 1791600956.859,
+     "unit": "Player-4613-00BB5CBB"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 8.01,
+       "errorSec": 0.01,
+       "expected": true,
+       "predicted": 8,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 3.05
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8056,
+     "t": 1791600958.631,
+     "unit": "Player-4613-00BB5CBB"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 22.16
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 6364,
+     "t": 1791600965.638,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 6375,
+     "t": 1791600966.85,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 25.78
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8143,
+     "t": 1791600970.04,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 1.83,
+       "errorSec": -67.27,
+       "expected": true,
+       "predicted": 69.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "removed-early (dispel/cancel/death)"
+     ],
+     "spell": 1238640,
+     "t": 1791600976.25,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 8.0,
+       "errorSec": -0.0,
+       "expected": true,
+       "predicted": 8,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8056,
+     "t": 1791600978.084,
+     "unit": "Player-4613-00BB5CBB"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": false
+      },
+      "aura": {
+       "actual": 12.01,
+       "errorSec": 10.51,
+       "expected": true,
+       "predicted": 1.5,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "longer-than-predicted"
+     ],
+     "spell": 17364,
+     "t": 1791600980.749,
+     "unit": "Player-4613-00BB5CBB"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 24.83
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8177,
+     "t": 1791600983.873,
+     "unit": "player"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 2484,
+     "t": 1791600986.834,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": false
+      },
+      "aura": {
+       "actual": 12.01,
+       "errorSec": 8.51,
+       "expected": true,
+       "predicted": 3.5,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "longer-than-predicted"
+     ],
+     "spell": 8052,
+     "t": 1791600988.71,
+     "unit": "Player-4613-00653AB7"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 90.99,
+       "errorSec": 25.29,
+       "expected": true,
+       "predicted": 65.7,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "longer-than-predicted"
+     ],
+     "spell": 905,
+     "t": 1791600997.322,
+     "unit": "player"
+    }
+   ]
+  },
+  "secret-pretrained": {
+   "contradictions": 48,
+   "counters": {
+    "auraEvents": 194,
+    "casts": 182,
+    "contradictions": 48,
+    "inferences": 225,
+    "predictions": 159,
+    "unreadable": 0
+   },
+   "events": 493,
+   "failures": {
+    "crit": 2,
+    "haste/duration-modifier": 2,
+    "longer-than-predicted": 16,
+    "recast-before-predicted-cooldown-end (cd reset/haste)": 16,
+    "refresh": 1,
+    "removed-early (dispel/cancel/death)": 31,
+    "resist/miss:ABSORB": 5,
+    "resist/miss:MISS": 3,
+    "resist/miss:PARRY": 1
+   },
+   "predictions": [
+    {
+     "accuracy": 98.0,
+     "bad": 1,
+     "ctx": "combat",
+     "kind": "amount",
+     "meanAbsErrorSec": null,
+     "n": 60,
+     "ok": 50,
+     "pending": 9
+    },
+    {
+     "accuracy": 80.0,
+     "bad": 1,
+     "ctx": "ooc",
+     "kind": "amount",
+     "meanAbsErrorSec": null,
+     "n": 5,
+     "ok": 4,
+     "pending": 0
+    },
+    {
+     "accuracy": 92.1,
+     "bad": 5,
+     "ctx": "combat",
+     "kind": "aura",
+     "meanAbsErrorSec": 17.9,
+     "n": 63,
+     "ok": 58,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "kind": "aura",
+     "meanAbsErrorSec": 28.05,
+     "n": 17,
+     "ok": 17,
+     "pending": 0
+    },
+    {
+     "accuracy": 71.1,
+     "bad": 13,
+     "ctx": "combat",
+     "kind": "cooldown",
+     "meanAbsErrorSec": 6.35,
+     "n": 120,
+     "ok": 32,
+     "pending": 75
+    },
+    {
+     "accuracy": 40.0,
+     "bad": 3,
+     "ctx": "ooc",
+     "kind": "cooldown",
+     "meanAbsErrorSec": 1.79,
+     "n": 30,
+     "ok": 2,
+     "pending": 25
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "kind": "summon",
+     "meanAbsErrorSec": null,
+     "n": 28,
+     "ok": 28,
+     "pending": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "kind": "summon",
+     "meanAbsErrorSec": null,
+     "n": 10,
+     "ok": 10,
+     "pending": 0
+    }
+   ],
+   "recall": {
+    "applications": 96,
+    "caught": 74,
+    "recall": 77.1
+   },
+   "rules": [
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 58,
+     "ok": 58,
+     "rule": "cast-correlation",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 18,
+     "ok": 18,
+     "rule": "cast-correlation",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 33,
+     "ok": 33,
+     "rule": "cast-pair",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "ooc",
+     "n": 12,
+     "ok": 12,
+     "rule": "cast-pair",
+     "unverifiable": 0
+    },
+    {
+     "accuracy": 100.0,
+     "bad": 0,
+     "ctx": "combat",
+     "n": 81,
+     "ok": 61,
+     "rule": "iid-map",
+     "unverifiable": 20
+    },
+    {
+     "accuracy": 88.9,
+     "bad": 1,
+     "ctx": "ooc",
+     "n": 13,
+     "ok": 8,
+     "rule": "iid-map",
+     "unverifiable": 4
+    },
+    {
+     "accuracy": 20.0,
+     "bad": 8,
+     "ctx": "combat",
+     "n": 10,
+     "ok": 2,
+     "rule": "predicted-expiry",
+     "unverifiable": 0
+    }
+   ],
+   "sample": [
+    {
+     "checks": {
+      "aura": {
+       "actual": 91.53,
+       "errorSec": 25.83,
+       "expected": true,
+       "predicted": 65.7,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": -0.0
+      }
+     },
+     "ctx": "ooc",
+     "failures": [
+      "longer-than-predicted"
+     ],
+     "spell": 905,
+     "t": 1791600779.164,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 65.68,
+       "errorSec": -0.02,
+       "expected": true,
+       "predicted": 65.7,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "ooc",
+     "failures": [
+      "refresh"
+     ],
+     "spell": 905,
+     "t": 1791600805.011,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 69.08,
+       "errorSec": -0.02,
+       "expected": true,
+       "predicted": 69.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 1238640,
+     "t": 1791600807.595,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 5.0,
+       "errorSec": -0.0,
+       "expected": true,
+       "predicted": 5,
+       "present": true
+      }
+     },
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 1301167,
+     "t": 1791600825.764,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 8.0,
+       "errorSec": -0.0,
+       "expected": true,
+       "predicted": 8,
+       "present": true
+      }
+     },
+     "ctx": "ooc",
+     "failures": [],
+     "spell": 1301168,
+     "t": 1791600830.766,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 13.84
+      },
+      "summon": {
+       "actual": null,
+       "predicted": 45,
+       "present": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8177,
+     "t": 1791600877.649,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 14.99,
+       "errorSec": -0.01,
+       "expected": true,
+       "predicted": 15,
+       "present": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 20572,
+     "t": 1791600879.859,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 1.52,
+       "errorSec": 0.02,
+       "expected": true,
+       "predicted": 1.5,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 17364,
+     "t": 1791600881.691,
+     "unit": "Player-4619-00793AA6"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8046,
+     "t": 1791600883.196,
+     "unit": "Player-4619-00793AA6"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": true,
+       "recastAfterPredictedEnd": -2.98
+      }
+     },
+     "ctx": "ooc",
+     "failures": [
+      "recast-before-predicted-cooldown-end (cd reset/haste)"
+     ],
+     "spell": 8008,
+     "t": 1791600898.933,
+     "unit": "Player-4620-00AAC097"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": true,
+       "recastAfterPredictedEnd": -2.96
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "recast-before-predicted-cooldown-end (cd reset/haste)"
+     ],
+     "spell": 8008,
+     "t": 1791600900.432,
+     "unit": "Player-4620-00AAC097"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": true,
+       "recastAfterPredictedEnd": -2.98
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "recast-before-predicted-cooldown-end (cd reset/haste)"
+     ],
+     "spell": 8008,
+     "t": 1791600901.952,
+     "unit": "Player-4619-00D80E0C"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": true,
+       "periodic": false,
+       "within": false
+      },
+      "cooldown": {
+       "contradicted": true,
+       "recastAfterPredictedEnd": -2.98
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "crit",
+      "recast-before-predicted-cooldown-end (cd reset/haste)"
+     ],
+     "spell": 8008,
+     "t": 1791600903.452,
+     "unit": "Player-4619-00D80E0C"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791600904.952,
+     "unit": "Player-4619-00D80E0C"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 8.0,
+       "errorSec": -0.0,
+       "expected": true,
+       "predicted": 8,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8056,
+     "t": 1791600906.244,
+     "unit": "Player-4613-0081E39B"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      },
+      "summon": {
+       "actual": null,
+       "predicted": 45,
+       "present": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8177,
+     "t": 1791600908.285,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 0.41
+      },
+      "summon": {
+       "actual": null,
+       "predicted": 300,
+       "present": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8143,
+     "t": 1791600911.077,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      },
+      "summon": {
+       "actual": null,
+       "predicted": 40,
+       "present": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 6364,
+     "t": 1791600912.597,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 3.85,
+       "errorSec": 2.35,
+       "expected": true,
+       "predicted": 1.5,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "longer-than-predicted"
+     ],
+     "spell": 17364,
+     "t": 1791600914.639,
+     "unit": "Player-4613-0081E39B"
+    },
+    {
+     "checks": {},
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8232,
+     "t": 1791600918.582,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8008,
+     "t": 1791600923.396,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 8.0,
+       "errorSec": 0.0,
+       "expected": true,
+       "predicted": 8,
+       "present": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 1299026,
+     "t": 1791600928.875,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 2.5,
+       "errorSec": -66.6,
+       "expected": true,
+       "predicted": 69.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 2.62
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "removed-early (dispel/cancel/death)"
+     ],
+     "spell": 1238640,
+     "t": 1791600939.733,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 1.04,
+       "errorSec": -6.96,
+       "expected": true,
+       "predicted": 8,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "removed-early (dispel/cancel/death)"
+     ],
+     "spell": 8056,
+     "t": 1791600942.233,
+     "unit": "Player-4613-00D1CCBD"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      },
+      "summon": {
+       "actual": null,
+       "predicted": 45,
+       "present": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8177,
+     "t": 1791600944.629,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 2.36,
+       "errorSec": -66.74,
+       "expected": true,
+       "predicted": 69.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "removed-early (dispel/cancel/death)"
+     ],
+     "spell": 1238640,
+     "t": 1791600946.818,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 3.45,
+       "errorSec": -0.05,
+       "expected": true,
+       "predicted": 3.5,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 14.18
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8052,
+     "t": 1791600949.173,
+     "unit": "Player-4618-0084264A"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 1.1,
+       "errorSec": -0.4,
+       "expected": true,
+       "predicted": 1.5,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 17364,
+     "t": 1791600951.526,
+     "unit": "Player-4618-0084264A"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 370,
+     "t": 1791600956.859,
+     "unit": "Player-4613-00BB5CBB"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 8.01,
+       "errorSec": 0.01,
+       "expected": true,
+       "predicted": 8,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8056,
+     "t": 1791600958.631,
+     "unit": "Player-4613-00BB5CBB"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      },
+      "summon": {
+       "actual": null,
+       "predicted": 40,
+       "present": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 6364,
+     "t": 1791600965.638,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 37.78
+      },
+      "summon": {
+       "actual": null,
+       "predicted": 300,
+       "present": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 6375,
+     "t": 1791600966.85,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 26.19
+      },
+      "summon": {
+       "actual": null,
+       "predicted": 300,
+       "present": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8143,
+     "t": 1791600970.04,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 1.83,
+       "errorSec": -67.27,
+       "expected": true,
+       "predicted": 69.1,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "removed-early (dispel/cancel/death)"
+     ],
+     "spell": 1238640,
+     "t": 1791600976.25,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 8.0,
+       "errorSec": -0.0,
+       "expected": true,
+       "predicted": 8,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8056,
+     "t": 1791600978.084,
+     "unit": "Player-4613-00BB5CBB"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 12.01,
+       "errorSec": 10.51,
+       "expected": true,
+       "predicted": 1.5,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "longer-than-predicted"
+     ],
+     "spell": 17364,
+     "t": 1791600980.749,
+     "unit": "Player-4613-00BB5CBB"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      },
+      "summon": {
+       "actual": null,
+       "predicted": 45,
+       "present": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 8177,
+     "t": 1791600983.873,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "cooldown": {
+       "contradicted": false,
+       "recastAfterPredictedEnd": 0.0
+      },
+      "summon": {
+       "actual": null,
+       "predicted": 45,
+       "present": true
+      }
+     },
+     "ctx": "combat",
+     "failures": [],
+     "spell": 2484,
+     "t": 1791600986.834,
+     "unit": "player"
+    },
+    {
+     "checks": {
+      "amount": {
+       "crit": false,
+       "periodic": false,
+       "within": true
+      },
+      "aura": {
+       "actual": 12.01,
+       "errorSec": 8.51,
+       "expected": true,
+       "predicted": 3.5,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "longer-than-predicted"
+     ],
+     "spell": 8052,
+     "t": 1791600988.71,
+     "unit": "Player-4613-00653AB7"
+    },
+    {
+     "checks": {
+      "aura": {
+       "actual": 90.99,
+       "errorSec": 25.29,
+       "expected": true,
+       "predicted": 65.7,
+       "present": true
+      },
+      "cooldown": {
+       "contradicted": false,
+       "noRecastInWindow": true,
+       "recastAfterPredictedEnd": null
+      }
+     },
+     "ctx": "combat",
+     "failures": [
+      "longer-than-predicted"
+     ],
+     "spell": 905,
+     "t": 1791600997.322,
+     "unit": "player"
+    }
+   ]
+  }
+ },
+ "truth": {
+  "amounts": 92,
+  "auras": 205,
+  "casts": 159,
+  "dispels": 14,
+  "misses": 15,
+  "starts": 23,
+  "summons": 38,
+  "summonsWithEnd": 0
+ }
+}

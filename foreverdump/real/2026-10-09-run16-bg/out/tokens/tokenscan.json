@@ -1,0 +1,7832 @@
+{
+ "builds": {
+  "70334": {
+   "alias": {
+    "nameplateN<-target:frame": 2,
+    "softfriend<-partyN:frame": 1,
+    "target<-partyN:frame": 1,
+    "target<-raidN:castGUID": 1,
+    "targettarget<-partyN:frame": 1,
+    "targettarget<-raidN:castGUID": 12,
+    "targettarget<-raidN:frame": 1
+   },
+   "baselineCells": 635,
+   "contexts": [
+    "combat|pvp|raid",
+    "restricted|pvp|raid"
+   ],
+   "cost": [
+    {
+     "aliases": 19,
+     "budgetMs": 0.12,
+     "changes": 0,
+     "contexts": {
+      "combat|pvp|raid": 3,
+      "restricted|pvp|raid": 16
+     },
+     "dups": 492,
+     "existing": 3526,
+     "guardSkips": 1552,
+     "listSize": 303,
+     "maxSliceMs": 0.308,
+     "ms": 885.934,
+     "overBudget": 64,
+     "reads": 77982,
+     "secretGuid": 2333,
+     "slices": 10200,
+     "start": 1791600745,
+     "stop": 1791601810,
+     "sweepS": 6.81,
+     "sweepStart": 1229778.436,
+     "sweeps": 24,
+     "tokens": 12551
+    }
+   ],
+   "dup": {
+    "arenaN=raidN": 3,
+    "mouseover=mouseovertarget": 2,
+    "mouseover=partyN": 3,
+    "mouseover=raidN": 9,
+    "mouseover=raidNtarget": 6,
+    "mouseover=raidNtargettarget": 1,
+    "mouseover=target": 10,
+    "mouseovertarget=partyNtarget": 2,
+    "mouseovertarget=raidNtarget": 4,
+    "mouseovertarget=raidNtargettarget": 1,
+    "mouseovertarget=softfriendtarget": 1,
+    "mouseovertarget=target": 3,
+    "mouseovertarget=targettarget": 2,
+    "partyN=partyNtarget": 7,
+    "partyN=raidN": 31,
+    "partyN=raidNtarget": 4,
+    "partyN=raidNtargettarget": 3,
+    "partyN=target": 1,
+    "partyNtarget=partyNtargettarget": 17,
+    "partyNtarget=raidN": 3,
+    "partyNtarget=raidNtarget": 45,
+    "partyNtarget=raidNtargettarget": 2,
+    "partyNtarget=target": 1,
+    "partyNtarget=targettarget": 1,
+    "partyNtarget=targettargettarget": 2,
+    "partyNtargettarget=raidN": 1,
+    "partyNtargettarget=raidNtarget": 22,
+    "partyNtargettarget=raidNtargettarget": 3,
+    "player=playertarget": 3,
+    "player=raidN": 18,
+    "player=raidNtarget": 3,
+    "player=raidNtargettarget": 1,
+    "playertarget=playertargettarget": 3,
+    "playertarget=raidN": 1,
+    "playertarget=raidNtarget": 15,
+    "playertarget=raidNtargettarget": 2,
+    "playertarget=targettargettarget": 2,
+    "playertargettarget=raidNtarget": 5,
+    "playertargettarget=raidNtargettarget": 1,
+    "playertargettarget=targettargettarget": 1,
+    "raidN=raidN": 2,
+    "raidN=raidNtarget": 107,
+    "raidN=raidNtargettarget": 7,
+    "raidN=target": 2,
+    "raidNtarget=raidNtargettarget": 120,
+    "raidNtarget=softfriendtarget": 1,
+    "raidNtarget=target": 1,
+    "raidNtarget=targettargettarget": 2,
+    "raidNtargettarget=raidNtargettarget": 1,
+    "raidNtargettarget=targettargettarget": 1,
+    "targettarget=targettargettarget": 3
+   },
+   "rows": [
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "arenaNtarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "arenaNtargettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "focus",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "focustarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "focustargettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "mouseover",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "mouseovertarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "nameplateN",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "npc",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "partyNtarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "partyNtargettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "pet",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "pettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "player",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "playertarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "playertargettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 6,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 7,
+       "share": 0.857
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "raidN",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "C": 3,
+        "S": 22
+       },
+       "mixed": true,
+       "n": 25,
+       "share": 0.88
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 36
+       },
+       "mixed": false,
+       "n": 36,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "C": 3,
+        "S": 22
+       },
+       "mixed": true,
+       "n": 25,
+       "share": 0.88
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "C": 4,
+        "S": 21
+       },
+       "mixed": true,
+       "n": 25,
+       "share": 0.84
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "S": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 24,
+        "N": 1
+       },
+       "mixed": true,
+       "n": 25,
+       "share": 0.96
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "raidNtarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 19
+       },
+       "mixed": false,
+       "n": 19,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 18,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 19,
+       "share": 0.947
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 19
+       },
+       "mixed": false,
+       "n": 19,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 19
+       },
+       "mixed": false,
+       "n": 19,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 31
+       },
+       "mixed": false,
+       "n": 31,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 19
+       },
+       "mixed": false,
+       "n": 19,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "S": 19
+       },
+       "mixed": false,
+       "n": 19,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 19
+       },
+       "mixed": false,
+       "n": 19,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "S": 19
+       },
+       "mixed": false,
+       "n": 19,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 19,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 20,
+       "share": 0.95
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 19
+       },
+       "mixed": false,
+       "n": 19,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 19
+       },
+       "mixed": false,
+       "n": 19,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "raidNtargettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "softenemy",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "softenemytargettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "softfriend",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "softinteract",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "target",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "S": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "S": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "targettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "S": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "S": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "targettargettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      }
+     },
+     "ctx": "combat|pvp|raid",
+     "family": "vehicle",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "combat"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 23
+       },
+       "mixed": false,
+       "n": 23,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 23
+       },
+       "mixed": false,
+       "n": 23,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "C": 5,
+        "S": 18
+       },
+       "mixed": true,
+       "n": 23,
+       "share": 0.783
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 23
+       },
+       "mixed": false,
+       "n": 23,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 23
+       },
+       "mixed": false,
+       "n": 23,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 147
+       },
+       "mixed": false,
+       "n": 147,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "C": 5,
+        "S": 18
+       },
+       "mixed": true,
+       "n": 23,
+       "share": 0.783
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 23
+       },
+       "mixed": false,
+       "n": 23,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 23
+       },
+       "mixed": false,
+       "n": 23,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 23
+       },
+       "mixed": false,
+       "n": 23,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 23
+       },
+       "mixed": false,
+       "n": 23,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 23
+       },
+       "mixed": false,
+       "n": 23,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 23
+       },
+       "mixed": false,
+       "n": 23,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 23
+       },
+       "mixed": false,
+       "n": 23,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 23
+       },
+       "mixed": false,
+       "n": 23,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 23
+       },
+       "mixed": false,
+       "n": 23,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 23
+       },
+       "mixed": false,
+       "n": 23,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 12
+       },
+       "mixed": false,
+       "n": 12,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 23
+       },
+       "mixed": false,
+       "n": 23,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 23
+       },
+       "mixed": false,
+       "n": 23,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "arenaN",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 154
+       },
+       "mixed": false,
+       "n": 154,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "C": 1,
+        "S": 19
+       },
+       "mixed": true,
+       "n": 20,
+       "share": 0.95
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "C": 1,
+        "S": 19
+       },
+       "mixed": true,
+       "n": 20,
+       "share": 0.95
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 16,
+        "S": 4
+       },
+       "mixed": true,
+       "n": 20,
+       "share": 0.8
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 19,
+        "N": 1
+       },
+       "mixed": true,
+       "n": 20,
+       "share": 0.95
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 18,
+        "S": 2
+       },
+       "mixed": true,
+       "n": 20,
+       "share": 0.9
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "arenaNtarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 9
+       },
+       "mixed": false,
+       "n": 9,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 9
+       },
+       "mixed": false,
+       "n": 9,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 9
+       },
+       "mixed": false,
+       "n": 9,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 9
+       },
+       "mixed": false,
+       "n": 9,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 9
+       },
+       "mixed": false,
+       "n": 9,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 31
+       },
+       "mixed": false,
+       "n": 31,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 9
+       },
+       "mixed": false,
+       "n": 9,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 9
+       },
+       "mixed": false,
+       "n": 9,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 9
+       },
+       "mixed": false,
+       "n": 9,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 9
+       },
+       "mixed": false,
+       "n": 9,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "C": 1,
+        "S": 8
+       },
+       "mixed": true,
+       "n": 9,
+       "share": 0.889
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 9
+       },
+       "mixed": false,
+       "n": 9,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "C": 1,
+        "S": 8
+       },
+       "mixed": true,
+       "n": 9,
+       "share": 0.889
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 9
+       },
+       "mixed": false,
+       "n": 9,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 9
+       },
+       "mixed": false,
+       "n": 9,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 9
+       },
+       "mixed": false,
+       "n": 9,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 9
+       },
+       "mixed": false,
+       "n": 9,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 8,
+        "N": 1
+       },
+       "mixed": true,
+       "n": 9,
+       "share": 0.889
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 9
+       },
+       "mixed": false,
+       "n": 9,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "arenaNtargettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 134
+       },
+       "mixed": false,
+       "n": 134,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "arenapetN",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 192
+       },
+       "mixed": false,
+       "n": 192,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "bossN",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 192
+       },
+       "mixed": false,
+       "n": 192,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "bossNtarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 35
+       },
+       "mixed": false,
+       "n": 35,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "focus",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 34
+       },
+       "mixed": false,
+       "n": 34,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "focustarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 34
+       },
+       "mixed": false,
+       "n": 34,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "focustargettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 50
+       },
+       "mixed": false,
+       "n": 50,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 50
+       },
+       "mixed": false,
+       "n": 50,
+       "share": 1.0
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 34,
+        "N": 5,
+        "S": 11
+       },
+       "mixed": true,
+       "n": 50,
+       "share": 0.68
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 50
+       },
+       "mixed": false,
+       "n": 50,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 50
+       },
+       "mixed": false,
+       "n": 50,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 189
+       },
+       "mixed": false,
+       "n": 189,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 35,
+        "N": 3,
+        "S": 12
+       },
+       "mixed": true,
+       "n": 50,
+       "share": 0.7
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 50
+       },
+       "mixed": false,
+       "n": 50,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "C": 1,
+        "S": 49
+       },
+       "mixed": true,
+       "n": 50,
+       "share": 0.98
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 50
+       },
+       "mixed": false,
+       "n": 50,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 50
+       },
+       "mixed": false,
+       "n": 50,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 50
+       },
+       "mixed": false,
+       "n": 50,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 50
+       },
+       "mixed": false,
+       "n": 50,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 50
+       },
+       "mixed": false,
+       "n": 50,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 42,
+        "N": 3,
+        "S": 5
+       },
+       "mixed": true,
+       "n": 50,
+       "share": 0.84
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "C": 10,
+        "S": 40
+       },
+       "mixed": true,
+       "n": 50,
+       "share": 0.8
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "C": 12,
+        "S": 38
+       },
+       "mixed": true,
+       "n": 50,
+       "share": 0.76
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 34
+       },
+       "mixed": false,
+       "n": 34,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 38,
+        "N": 12
+       },
+       "mixed": true,
+       "n": 50,
+       "share": 0.76
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 49,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 50,
+       "share": 0.98
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "mouseover",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 21
+       },
+       "mixed": false,
+       "n": 21,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "C": 1,
+        "N": 20
+       },
+       "mixed": true,
+       "n": 21,
+       "share": 0.952
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "C": 7,
+        "N": 3,
+        "S": 11
+       },
+       "mixed": true,
+       "n": 21,
+       "share": 0.524
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 21
+       },
+       "mixed": false,
+       "n": 21,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 21
+       },
+       "mixed": false,
+       "n": 21,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 183
+       },
+       "mixed": false,
+       "n": 183,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "C": 8,
+        "N": 2,
+        "S": 11
+       },
+       "mixed": true,
+       "n": 21,
+       "share": 0.524
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 21
+       },
+       "mixed": false,
+       "n": 21,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "C": 2,
+        "S": 19
+       },
+       "mixed": true,
+       "n": 21,
+       "share": 0.905
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 21
+       },
+       "mixed": false,
+       "n": 21,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 14,
+        "S": 7
+       },
+       "mixed": true,
+       "n": 21,
+       "share": 0.667
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 21
+       },
+       "mixed": false,
+       "n": 21,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 15,
+        "S": 6
+       },
+       "mixed": true,
+       "n": 21,
+       "share": 0.714
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 21
+       },
+       "mixed": false,
+       "n": 21,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 17,
+        "N": 2,
+        "S": 2
+       },
+       "mixed": true,
+       "n": 21,
+       "share": 0.81
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "C": 6,
+        "S": 15
+       },
+       "mixed": true,
+       "n": 21,
+       "share": 0.714
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "C": 8,
+        "S": 13
+       },
+       "mixed": true,
+       "n": 21,
+       "share": 0.619
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 13
+       },
+       "mixed": false,
+       "n": 13,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 13,
+        "N": 8
+       },
+       "mixed": true,
+       "n": 21,
+       "share": 0.619
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 21
+       },
+       "mixed": false,
+       "n": 21,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "mouseovertarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 238
+       },
+       "mixed": false,
+       "n": 238,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 237,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 238,
+       "share": 0.996
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "N": 2,
+        "S": 236
+       },
+       "mixed": true,
+       "n": 238,
+       "share": 0.992
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 238
+       },
+       "mixed": false,
+       "n": 238,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 238
+       },
+       "mixed": false,
+       "n": 238,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 1277
+       },
+       "mixed": false,
+       "n": 1277,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 238
+       },
+       "mixed": false,
+       "n": 238,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 238
+       },
+       "mixed": false,
+       "n": 238,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 238
+       },
+       "mixed": false,
+       "n": 238,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 238
+       },
+       "mixed": false,
+       "n": 238,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 238
+       },
+       "mixed": false,
+       "n": 238,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 238
+       },
+       "mixed": false,
+       "n": 238,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 238
+       },
+       "mixed": false,
+       "n": 238,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 238
+       },
+       "mixed": false,
+       "n": 238,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 225,
+        "N": 1,
+        "S": 12
+       },
+       "mixed": true,
+       "n": 238,
+       "share": 0.945
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "C": 6,
+        "S": 232
+       },
+       "mixed": true,
+       "n": 238,
+       "share": 0.975
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "C": 7,
+        "S": 231
+       },
+       "mixed": true,
+       "n": 238,
+       "share": 0.971
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 82
+       },
+       "mixed": false,
+       "n": 82,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 230,
+        "N": 8
+       },
+       "mixed": true,
+       "n": 238,
+       "share": 0.966
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "C": 18,
+        "N": 220
+       },
+       "mixed": true,
+       "n": 238,
+       "share": 0.924
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "nameplateN",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 68
+       },
+       "mixed": false,
+       "n": 68,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 68
+       },
+       "mixed": false,
+       "n": 68,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "N": 2,
+        "S": 66
+       },
+       "mixed": true,
+       "n": 68,
+       "share": 0.971
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 68
+       },
+       "mixed": false,
+       "n": 68,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 68
+       },
+       "mixed": false,
+       "n": 68,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 1080
+       },
+       "mixed": false,
+       "n": 1080,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "N": 1,
+        "S": 67
+       },
+       "mixed": true,
+       "n": 68,
+       "share": 0.985
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 68
+       },
+       "mixed": false,
+       "n": 68,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 68
+       },
+       "mixed": false,
+       "n": 68,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 68
+       },
+       "mixed": false,
+       "n": 68,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "C": 5,
+        "S": 63
+       },
+       "mixed": true,
+       "n": 68,
+       "share": 0.926
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 68
+       },
+       "mixed": false,
+       "n": 68,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "C": 8,
+        "S": 60
+       },
+       "mixed": true,
+       "n": 68,
+       "share": 0.882
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 68
+       },
+       "mixed": false,
+       "n": 68,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 60,
+        "N": 1,
+        "S": 7
+       },
+       "mixed": true,
+       "n": 68,
+       "share": 0.882
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "C": 2,
+        "S": 66
+       },
+       "mixed": true,
+       "n": 68,
+       "share": 0.971
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "C": 2,
+        "S": 66
+       },
+       "mixed": true,
+       "n": 68,
+       "share": 0.971
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 15
+       },
+       "mixed": false,
+       "n": 15,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 65,
+        "N": 3
+       },
+       "mixed": true,
+       "n": 68,
+       "share": 0.956
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 67,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 68,
+       "share": 0.985
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "nameplateNtarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 34
+       },
+       "mixed": false,
+       "n": 34,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "npc",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 97,
+        "S": 2
+       },
+       "mixed": true,
+       "n": 99,
+       "share": 0.98
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 103
+       },
+       "mixed": false,
+       "n": 103,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 79
+       },
+       "mixed": false,
+       "n": 79,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 99
+       },
+       "mixed": false,
+       "n": 99,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "partyN",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 223
+       },
+       "mixed": false,
+       "n": 223,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 221,
+        "S": 3
+       },
+       "mixed": true,
+       "n": 224,
+       "share": 0.987
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "C": 56,
+        "N": 2,
+        "S": 165
+       },
+       "mixed": true,
+       "n": 223,
+       "share": 0.74
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 224
+       },
+       "mixed": false,
+       "n": 224,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 224
+       },
+       "mixed": false,
+       "n": 224,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 407
+       },
+       "mixed": false,
+       "n": 407,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "C": 56,
+        "S": 167
+       },
+       "mixed": true,
+       "n": 223,
+       "share": 0.749
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 223
+       },
+       "mixed": false,
+       "n": 223,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 223
+       },
+       "mixed": false,
+       "n": 223,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 224
+       },
+       "mixed": false,
+       "n": 224,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "C": 61,
+        "S": 162
+       },
+       "mixed": true,
+       "n": 223,
+       "share": 0.726
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 223
+       },
+       "mixed": false,
+       "n": 223,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "C": 50,
+        "S": 174
+       },
+       "mixed": true,
+       "n": 224,
+       "share": 0.777
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 223
+       },
+       "mixed": false,
+       "n": 223,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 204,
+        "N": 2,
+        "S": 17
+       },
+       "mixed": true,
+       "n": 223,
+       "share": 0.915
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 223
+       },
+       "mixed": false,
+       "n": 223,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 223
+       },
+       "mixed": false,
+       "n": 223,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 134
+       },
+       "mixed": false,
+       "n": 134,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 217,
+        "N": 6
+       },
+       "mixed": true,
+       "n": 223,
+       "share": 0.973
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 213,
+        "S": 11
+       },
+       "mixed": true,
+       "n": 224,
+       "share": 0.951
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "partyNtarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 160
+       },
+       "mixed": false,
+       "n": 160,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 156,
+        "S": 4
+       },
+       "mixed": true,
+       "n": 160,
+       "share": 0.975
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "C": 18,
+        "N": 3,
+        "S": 139
+       },
+       "mixed": true,
+       "n": 160,
+       "share": 0.869
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 160
+       },
+       "mixed": false,
+       "n": 160,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 160
+       },
+       "mixed": false,
+       "n": 160,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 394
+       },
+       "mixed": false,
+       "n": 394,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "C": 19,
+        "S": 141
+       },
+       "mixed": true,
+       "n": 160,
+       "share": 0.881
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 160
+       },
+       "mixed": false,
+       "n": 160,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 160
+       },
+       "mixed": false,
+       "n": 160,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 160
+       },
+       "mixed": false,
+       "n": 160,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "C": 22,
+        "S": 138
+       },
+       "mixed": true,
+       "n": 160,
+       "share": 0.863
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 160
+       },
+       "mixed": false,
+       "n": 160,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "C": 21,
+        "S": 139
+       },
+       "mixed": true,
+       "n": 160,
+       "share": 0.869
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 160
+       },
+       "mixed": false,
+       "n": 160,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 154,
+        "N": 3,
+        "S": 3
+       },
+       "mixed": true,
+       "n": 160,
+       "share": 0.963
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 160
+       },
+       "mixed": false,
+       "n": 160,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 160
+       },
+       "mixed": false,
+       "n": 160,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 90
+       },
+       "mixed": false,
+       "n": 90,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 155,
+        "N": 5
+       },
+       "mixed": true,
+       "n": 160,
+       "share": 0.969
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 159,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 160,
+       "share": 0.994
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "partyNtargettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 102
+       },
+       "mixed": false,
+       "n": 102,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "partypetN",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 35
+       },
+       "mixed": false,
+       "n": 35,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "pet",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 34
+       },
+       "mixed": false,
+       "n": 34,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "pettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "C": 1,
+        "N": 36
+       },
+       "mixed": true,
+       "n": 37,
+       "share": 0.973
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "C",
+       "counts": {
+        "C": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "C",
+       "counts": {
+        "C": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 34
+       },
+       "mixed": false,
+       "n": 34,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 37
+       },
+       "mixed": false,
+       "n": 37,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "player",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 72
+       },
+       "mixed": false,
+       "n": 72,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "C": 6,
+        "N": 66
+       },
+       "mixed": true,
+       "n": 72,
+       "share": 0.917
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "C": 20,
+        "N": 1,
+        "S": 51
+       },
+       "mixed": true,
+       "n": 72,
+       "share": 0.708
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 72
+       },
+       "mixed": false,
+       "n": 72,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 72
+       },
+       "mixed": false,
+       "n": 72,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 95
+       },
+       "mixed": false,
+       "n": 95,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "C": 20,
+        "S": 52
+       },
+       "mixed": true,
+       "n": 72,
+       "share": 0.722
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 72
+       },
+       "mixed": false,
+       "n": 72,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "C": 20,
+        "S": 52
+       },
+       "mixed": true,
+       "n": 72,
+       "share": 0.722
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 72
+       },
+       "mixed": false,
+       "n": 72,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "C": 21,
+        "S": 51
+       },
+       "mixed": true,
+       "n": 72,
+       "share": 0.708
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 72
+       },
+       "mixed": false,
+       "n": 72,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "C": 22,
+        "S": 50
+       },
+       "mixed": true,
+       "n": 72,
+       "share": 0.694
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 72
+       },
+       "mixed": false,
+       "n": 72,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 70,
+        "N": 1,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 72,
+       "share": 0.972
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 72
+       },
+       "mixed": false,
+       "n": 72,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "C": 20,
+        "S": 52
+       },
+       "mixed": true,
+       "n": 72,
+       "share": 0.722
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 30
+       },
+       "mixed": false,
+       "n": 30,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 71,
+        "N": 1
+       },
+       "mixed": true,
+       "n": 72,
+       "share": 0.986
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 69,
+        "S": 3
+       },
+       "mixed": true,
+       "n": 72,
+       "share": 0.958
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "playertarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 46
+       },
+       "mixed": false,
+       "n": 46,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "C": 2,
+        "N": 44
+       },
+       "mixed": true,
+       "n": 46,
+       "share": 0.957
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "C": 5,
+        "N": 1,
+        "S": 40
+       },
+       "mixed": true,
+       "n": 46,
+       "share": 0.87
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 46
+       },
+       "mixed": false,
+       "n": 46,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 46
+       },
+       "mixed": false,
+       "n": 46,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 90
+       },
+       "mixed": false,
+       "n": 90,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "C": 5,
+        "S": 41
+       },
+       "mixed": true,
+       "n": 46,
+       "share": 0.891
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 46
+       },
+       "mixed": false,
+       "n": 46,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "C": 5,
+        "S": 41
+       },
+       "mixed": true,
+       "n": 46,
+       "share": 0.891
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 46
+       },
+       "mixed": false,
+       "n": 46,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "C": 5,
+        "S": 41
+       },
+       "mixed": true,
+       "n": 46,
+       "share": 0.891
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 46
+       },
+       "mixed": false,
+       "n": 46,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "C": 5,
+        "S": 41
+       },
+       "mixed": true,
+       "n": 46,
+       "share": 0.891
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 46
+       },
+       "mixed": false,
+       "n": 46,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 43,
+        "N": 1,
+        "S": 2
+       },
+       "mixed": true,
+       "n": 46,
+       "share": 0.935
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 46
+       },
+       "mixed": false,
+       "n": 46,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "C": 5,
+        "S": 41
+       },
+       "mixed": true,
+       "n": 46,
+       "share": 0.891
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 11
+       },
+       "mixed": false,
+       "n": 11,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 45,
+        "N": 1
+       },
+       "mixed": true,
+       "n": 46,
+       "share": 0.978
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 45,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 46,
+       "share": 0.978
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "playertargettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 412
+       },
+       "mixed": false,
+       "n": 412,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "C": 1,
+        "N": 401,
+        "S": 10
+       },
+       "mixed": true,
+       "n": 412,
+       "share": 0.973
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 413
+       },
+       "mixed": false,
+       "n": 413,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 412
+       },
+       "mixed": false,
+       "n": 412,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 412
+       },
+       "mixed": false,
+       "n": 412,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 1076
+       },
+       "mixed": false,
+       "n": 1076,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 413
+       },
+       "mixed": false,
+       "n": 413,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 413
+       },
+       "mixed": false,
+       "n": 413,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "C": 27,
+        "S": 386
+       },
+       "mixed": true,
+       "n": 413,
+       "share": 0.935
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 412
+       },
+       "mixed": false,
+       "n": 412,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 412
+       },
+       "mixed": false,
+       "n": 412,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 412
+       },
+       "mixed": false,
+       "n": 412,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 412
+       },
+       "mixed": false,
+       "n": 412,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 413
+       },
+       "mixed": false,
+       "n": 413,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 413
+       },
+       "mixed": false,
+       "n": 413,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 413
+       },
+       "mixed": false,
+       "n": 413,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "C": 27,
+        "S": 385
+       },
+       "mixed": true,
+       "n": 412,
+       "share": 0.934
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 372
+       },
+       "mixed": false,
+       "n": 372,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 412
+       },
+       "mixed": false,
+       "n": 412,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 412
+       },
+       "mixed": false,
+       "n": 412,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "raidN",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 985
+       },
+       "mixed": false,
+       "n": 985,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "C": 6,
+        "N": 930,
+        "S": 49
+       },
+       "mixed": true,
+       "n": 985,
+       "share": 0.944
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "C": 339,
+        "N": 5,
+        "S": 641
+       },
+       "mixed": true,
+       "n": 985,
+       "share": 0.651
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 985
+       },
+       "mixed": false,
+       "n": 985,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 985
+       },
+       "mixed": false,
+       "n": 985,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 2337
+       },
+       "mixed": false,
+       "n": 2337,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "C": 339,
+        "S": 646
+       },
+       "mixed": true,
+       "n": 985,
+       "share": 0.656
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 985
+       },
+       "mixed": false,
+       "n": 985,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "C": 19,
+        "S": 966
+       },
+       "mixed": true,
+       "n": 985,
+       "share": 0.981
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 985
+       },
+       "mixed": false,
+       "n": 985,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "C": 349,
+        "S": 636
+       },
+       "mixed": true,
+       "n": 985,
+       "share": 0.646
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 985
+       },
+       "mixed": false,
+       "n": 985,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "C": 253,
+        "S": 732
+       },
+       "mixed": true,
+       "n": 985,
+       "share": 0.743
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 985
+       },
+       "mixed": false,
+       "n": 985,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 935,
+        "N": 2,
+        "S": 48
+       },
+       "mixed": true,
+       "n": 985,
+       "share": 0.949
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "C": 1,
+        "S": 984
+       },
+       "mixed": true,
+       "n": 985,
+       "share": 0.999
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "C": 20,
+        "S": 965
+       },
+       "mixed": true,
+       "n": 985,
+       "share": 0.98
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 580
+       },
+       "mixed": false,
+       "n": 580,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 975,
+        "N": 10
+       },
+       "mixed": true,
+       "n": 985,
+       "share": 0.99
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 944,
+        "S": 41
+       },
+       "mixed": true,
+       "n": 985,
+       "share": 0.958
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "raidNtarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 706
+       },
+       "mixed": false,
+       "n": 706,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "C": 3,
+        "N": 664,
+        "S": 39
+       },
+       "mixed": true,
+       "n": 706,
+       "share": 0.941
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "C": 107,
+        "N": 4,
+        "S": 594
+       },
+       "mixed": true,
+       "n": 705,
+       "share": 0.843
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 706
+       },
+       "mixed": false,
+       "n": 706,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 706
+       },
+       "mixed": false,
+       "n": 706,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 2276
+       },
+       "mixed": false,
+       "n": 2276,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "C": 107,
+        "S": 598
+       },
+       "mixed": true,
+       "n": 705,
+       "share": 0.848
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 705
+       },
+       "mixed": false,
+       "n": 705,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "C": 4,
+        "S": 701
+       },
+       "mixed": true,
+       "n": 705,
+       "share": 0.994
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 706
+       },
+       "mixed": false,
+       "n": 706,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "C": 125,
+        "S": 581
+       },
+       "mixed": true,
+       "n": 706,
+       "share": 0.823
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 706
+       },
+       "mixed": false,
+       "n": 706,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "C": 93,
+        "S": 613
+       },
+       "mixed": true,
+       "n": 706,
+       "share": 0.868
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 705
+       },
+       "mixed": false,
+       "n": 705,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 690,
+        "N": 3,
+        "S": 12
+       },
+       "mixed": true,
+       "n": 705,
+       "share": 0.979
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 705
+       },
+       "mixed": false,
+       "n": 705,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "C": 4,
+        "S": 701
+       },
+       "mixed": true,
+       "n": 705,
+       "share": 0.994
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 380
+       },
+       "mixed": false,
+       "n": 380,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 690,
+        "N": 16
+       },
+       "mixed": true,
+       "n": 706,
+       "share": 0.977
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 695,
+        "S": 11
+       },
+       "mixed": true,
+       "n": 706,
+       "share": 0.984
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "raidNtargettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 1040
+       },
+       "mixed": false,
+       "n": 1040,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "raidpetN",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 35
+       },
+       "mixed": false,
+       "n": 35,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 2,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 3,
+       "share": 0.667
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 1
+       },
+       "mixed": false,
+       "n": 1,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 3
+       },
+       "mixed": false,
+       "n": 3,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "softenemy",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "softenemytarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 20
+       },
+       "mixed": false,
+       "n": 20,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 6
+       },
+       "mixed": false,
+       "n": 6,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 7
+       },
+       "mixed": false,
+       "n": 7,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 5,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 6,
+       "share": 0.833
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "softenemytargettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 34
+       },
+       "mixed": false,
+       "n": 34,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "softfriend",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 2,
+        "S": 2
+       },
+       "mixed": true,
+       "n": 4,
+       "share": 0.5
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 5
+       },
+       "mixed": false,
+       "n": 5,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 2,
+        "S": 2
+       },
+       "mixed": true,
+       "n": 4,
+       "share": 0.5
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 2,
+        "S": 2
+       },
+       "mixed": true,
+       "n": 4,
+       "share": 0.5
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 2,
+        "S": 2
+       },
+       "mixed": true,
+       "n": 4,
+       "share": 0.5
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 3,
+        "N": 1
+       },
+       "mixed": true,
+       "n": 4,
+       "share": 0.75
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "softfriendtarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 34
+       },
+       "mixed": false,
+       "n": 34,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "softinteract",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 76
+       },
+       "mixed": false,
+       "n": 76,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "C": 1,
+        "N": 74,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 76,
+       "share": 0.974
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "C": 23,
+        "S": 53
+       },
+       "mixed": true,
+       "n": 76,
+       "share": 0.697
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 76
+       },
+       "mixed": false,
+       "n": 76,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 76
+       },
+       "mixed": false,
+       "n": 76,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 131
+       },
+       "mixed": false,
+       "n": 131,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "C": 23,
+        "S": 53
+       },
+       "mixed": true,
+       "n": 76,
+       "share": 0.697
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 76
+       },
+       "mixed": false,
+       "n": 76,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "C": 2,
+        "S": 74
+       },
+       "mixed": true,
+       "n": 76,
+       "share": 0.974
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 76
+       },
+       "mixed": false,
+       "n": 76,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 76
+       },
+       "mixed": false,
+       "n": 76,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 76
+       },
+       "mixed": false,
+       "n": 76,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 76
+       },
+       "mixed": false,
+       "n": 76,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 76
+       },
+       "mixed": false,
+       "n": 76,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 75,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 76,
+       "share": 0.987
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 76
+       },
+       "mixed": false,
+       "n": 76,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "C": 2,
+        "S": 74
+       },
+       "mixed": true,
+       "n": 76,
+       "share": 0.974
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 39
+       },
+       "mixed": false,
+       "n": 39,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 76
+       },
+       "mixed": false,
+       "n": 76,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "C": 2,
+        "N": 74
+       },
+       "mixed": true,
+       "n": 76,
+       "share": 0.974
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "target",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 87
+       },
+       "mixed": false,
+       "n": 87,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "C": 2,
+        "N": 84,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 87,
+       "share": 0.966
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "C": 8,
+        "N": 2,
+        "S": 77
+       },
+       "mixed": true,
+       "n": 87,
+       "share": 0.885
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 87
+       },
+       "mixed": false,
+       "n": 87,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 87
+       },
+       "mixed": false,
+       "n": 87,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 168
+       },
+       "mixed": false,
+       "n": 168,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "C": 8,
+        "N": 1,
+        "S": 78
+       },
+       "mixed": true,
+       "n": 87,
+       "share": 0.897
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 87
+       },
+       "mixed": false,
+       "n": 87,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "C": 2,
+        "S": 85
+       },
+       "mixed": true,
+       "n": 87,
+       "share": 0.977
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 87
+       },
+       "mixed": false,
+       "n": 87,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "C": 10,
+        "S": 77
+       },
+       "mixed": true,
+       "n": 87,
+       "share": 0.885
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 87
+       },
+       "mixed": false,
+       "n": 87,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "C": 8,
+        "S": 79
+       },
+       "mixed": true,
+       "n": 87,
+       "share": 0.908
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 87
+       },
+       "mixed": false,
+       "n": 87,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 81,
+        "N": 1,
+        "S": 5
+       },
+       "mixed": true,
+       "n": 87,
+       "share": 0.931
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "C": 2,
+        "S": 85
+       },
+       "mixed": true,
+       "n": 87,
+       "share": 0.977
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "C": 4,
+        "S": 83
+       },
+       "mixed": true,
+       "n": 87,
+       "share": 0.954
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 24
+       },
+       "mixed": false,
+       "n": 24,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 85,
+        "N": 2
+       },
+       "mixed": true,
+       "n": 87,
+       "share": 0.977
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 85,
+        "S": 2
+       },
+       "mixed": true,
+       "n": 87,
+       "share": 0.977
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "targettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 86
+       },
+       "mixed": false,
+       "n": 86,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "C": 3,
+        "N": 81,
+        "S": 2
+       },
+       "mixed": true,
+       "n": 86,
+       "share": 0.942
+      },
+      "class": {
+       "code": "S",
+       "counts": {
+        "C": 4,
+        "S": 83
+       },
+       "mixed": true,
+       "n": 87,
+       "share": 0.954
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 86
+       },
+       "mixed": false,
+       "n": 86,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 86
+       },
+       "mixed": false,
+       "n": 86,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 182
+       },
+       "mixed": false,
+       "n": 182,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "S",
+       "counts": {
+        "C": 4,
+        "S": 83
+       },
+       "mixed": true,
+       "n": 87,
+       "share": 0.954
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 86
+       },
+       "mixed": false,
+       "n": 86,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "C": 1,
+        "S": 85
+       },
+       "mixed": true,
+       "n": 86,
+       "share": 0.988
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 86
+       },
+       "mixed": false,
+       "n": 86,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "S",
+       "counts": {
+        "C": 6,
+        "S": 80
+       },
+       "mixed": true,
+       "n": 86,
+       "share": 0.93
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 86
+       },
+       "mixed": false,
+       "n": 86,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "S",
+       "counts": {
+        "C": 5,
+        "S": 81
+       },
+       "mixed": true,
+       "n": 86,
+       "share": 0.942
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 87
+       },
+       "mixed": false,
+       "n": 87,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 85,
+        "S": 2
+       },
+       "mixed": true,
+       "n": 87,
+       "share": 0.977
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "C": 1,
+        "S": 85
+       },
+       "mixed": true,
+       "n": 86,
+       "share": 0.988
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "C": 2,
+        "S": 84
+       },
+       "mixed": true,
+       "n": 86,
+       "share": 0.977
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 22
+       },
+       "mixed": false,
+       "n": 22,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 83,
+        "N": 3
+       },
+       "mixed": true,
+       "n": 86,
+       "share": 0.965
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 79,
+        "S": 7
+       },
+       "mixed": true,
+       "n": 86,
+       "share": 0.919
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "targettargettarget",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 34
+       },
+       "mixed": false,
+       "n": 34,
+       "share": 1.0
+      }
+     },
+     "ctx": "restricted|pvp|raid",
+     "family": "vehicle",
+     "group": "raid",
+     "instance": "pvp",
+     "state": "restricted"
+    }
+   ]
+  }
+ },
+ "changes": []
+}

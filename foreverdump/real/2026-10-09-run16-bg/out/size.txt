@@ -1,0 +1,35 @@
+SV file 34.14 MB (sizes estimated from re-serialization, scaled to the file size; factor 0.74)
+    13.95 MB   40.9%  ForeverDumpLogDB
+    11.44 MB   33.5%  ForeverDumpRecordDB
+    11.44 MB   33.5%  ForeverDumpRecordDB > sessions
+     9.24 MB   27.1%  ForeverDumpLogDB > replay
+     9.24 MB   27.1%  ForeverDumpLogDB > replay > sessions
+     6.15 MB   18.0%  ForeverDumpCombatLogDB
+     6.15 MB   18.0%  ForeverDumpCombatLogDB > sessions
+     3.01 MB    8.8%  ForeverDumpLogDB > inference
+     2.60 MB    7.6%  ForeverDumpDB
+     1.22 MB    3.6%  ForeverDumpLogDB > inference > inferences
+     0.93 MB    2.7%  ForeverDumpLogDB > inference > fights
+     0.82 MB    2.4%  ForeverDumpLogDB > inference > signals
+     0.78 MB    2.3%  ForeverDumpDB > verify
+     0.78 MB    2.3%  ForeverDumpDB > verify > 70334
+     0.54 MB    1.6%  ForeverDumpLogDB > damageMeter
+     0.53 MB    1.6%  ForeverDumpLogDB > damageMeter > fights
+     0.36 MB    1.1%  ForeverDumpDB > enums
+     0.30 MB    0.9%  ForeverDumpDB > cvars
+     0.30 MB    0.9%  ForeverDumpLogDB > labProbes
+     0.25 MB    0.7%  ForeverDumpDB > apis
+     0.24 MB    0.7%  ForeverDumpLogDB > labProbes > dmSnaps
+     0.23 MB    0.7%  ForeverDumpDB > knowledge
+     0.22 MB    0.6%  ForeverDumpDB > sections
+     0.21 MB    0.6%  ForeverDumpDB > sections > probe
+     0.20 MB    0.6%  ForeverDumpDB > cvars > Game
+     0.18 MB    0.5%  ForeverDumpLogDB > perf
+     0.18 MB    0.5%  ForeverDumpLogDB > perf > sessions
+     0.17 MB    0.5%  ForeverDumpDB > baselines
+     0.16 MB    0.5%  ForeverDumpLogDB > restrictions
+     0.14 MB    0.4%  ForeverDumpLogDB > restrictions > flips
+     0.12 MB    0.4%  ForeverDumpLogDB > combatProbe
+     0.11 MB    0.3%  ForeverDumpDB > knowledge > 70291
+     0.11 MB    0.3%  ForeverDumpDB > knowledge > 70334
+     0.00 MB    0.0%  _static

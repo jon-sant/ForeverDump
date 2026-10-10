@@ -1,0 +1,1 @@
+perf: perf, 1 capture(s), 7 flag(s): impact 2.11% of wall time >= 2%; WorldCapture.Slice: mean 0.1271 ms per slice > budget 0.10 ms (real client, 5102 slices); Containers.Run: cost per call grows 0.1216 -> 0.2568 ms (x2.11) over the session -> real/2026-10-09-run16-bg/out/perf/PERF.md
