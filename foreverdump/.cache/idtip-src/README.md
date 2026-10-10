@@ -1,0 +1,11 @@
+# idTip
+
+Adds various IDs to the WoW ingame tooltips.
+
+![Screenshot](screenshot.png)
+
+## Installation
+
+- From [GitHub](https://github.com/silverwind/idTip) with [WowUp](https://github.com/WowUp/WowUp)
+- From [WoWInterface](https://www.wowinterface.com/downloads/fileinfo.php?id=17033)
+- From [Curse](https://www.curseforge.com/wow/addons/idtip)
