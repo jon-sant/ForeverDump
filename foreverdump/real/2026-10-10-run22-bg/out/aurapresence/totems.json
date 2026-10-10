@@ -1,0 +1,140 @@
+{
+ "bySlot": {
+  "1": 6,
+  "2": 8,
+  "3": 6,
+  "4": 14
+ },
+ "byTag": {
+  "bg/combat/combat": {
+   "empty|icon=N": 636,
+   "totem(capped)|icon=N": 148,
+   "totem(capped)|icon=S": 261,
+   "totem|icon=N": 25,
+   "totem|icon=S": 744
+  },
+  "bg/ooc/gates": {
+   "empty|icon=N": 3294,
+   "totem|icon=N": 165,
+   "totem|icon=S": 1736
+  },
+  "bg/ooc/prep": {
+   "empty|icon=N": 1146
+  }
+ },
+ "codes": {
+  "bg/combat/combat": {
+   "event:1": {
+    "SSSSNSS": 1,
+    "SSSSSSS": 2
+   },
+   "event:2": {
+    "SSSSNSS": 1,
+    "SSSSSSS": 4
+   },
+   "event:3": {
+    "SSSSSSS": 2
+   },
+   "event:4": {
+    "SSSSNSS": 2,
+    "SSSSSSS": 12
+   },
+   "tick:1": {
+    "SSSSNSS": 110,
+    "SSSSSSS": 204
+   },
+   "tick:2": {
+    "SSSSNSS": 139,
+    "SSSSSSS": 175
+   },
+   "tick:3": {
+    "SSSSNSS": 109,
+    "SSSSSSS": 205
+   },
+   "tick:4": {
+    "SSSSNSS": 102,
+    "SSSSSSS": 212
+   }
+  },
+  "bg/ooc/gates": {
+   "event:1": {
+    "SSSSNSS": 4,
+    "SSSSSSS": 4
+   },
+   "event:2": {
+    "SSSSNSS": 5,
+    "SSSSSSS": 4
+   },
+   "event:3": {
+    "SSSSNSS": 5,
+    "SSSSSSS": 4
+   },
+   "event:4": {
+    "SSSSNSS": 6,
+    "SSSSSSS": 2
+   },
+   "tick:1": {
+    "SSSSNSS": 437,
+    "SSSSSSS": 178
+   },
+   "tick:2": {
+    "SSSSNSS": 488,
+    "SSSSSSS": 127
+   },
+   "tick:3": {
+    "SSSSNSS": 437,
+    "SSSSSSS": 178
+   },
+   "tick:4": {
+    "SSSSNSS": 483,
+    "SSSSSSS": 132
+   }
+  },
+  "bg/ooc/post": {
+   "tick:1": {
+    "CCCCNCC": 11
+   },
+   "tick:2": {
+    "CCCCNCC": 11
+   },
+   "tick:3": {
+    "CCCCNCC": 11
+   },
+   "tick:4": {
+    "CCCCNCC": 11
+   }
+  },
+  "bg/ooc/prep": {
+   "tick:1": {
+    "SSSSNSS": 106
+   },
+   "tick:2": {
+    "SSSSNSS": 106
+   },
+   "tick:3": {
+    "SSSSNSS": 106
+   },
+   "tick:4": {
+    "SSSSNSS": 106
+   }
+  }
+ },
+ "fields": [
+  "haveTotem",
+  "name",
+  "startTime",
+  "duration",
+  "icon",
+  "modRate",
+  "spellID"
+ ],
+ "samples": {
+  "empty|icon=N": 5076,
+  "totem(capped)|icon=N": 148,
+  "totem(capped)|icon=S": 261,
+  "totem|icon=N": 190,
+  "totem|icon=S": 2480
+ },
+ "summons": 34,
+ "unslotted": 0
+}
