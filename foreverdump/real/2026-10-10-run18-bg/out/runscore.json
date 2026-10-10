@@ -1,0 +1,1170 @@
+{
+ "live": [
+  {
+   "key": "name:Hyllina",
+   "class": "PRIEST",
+   "via": "score",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST"
+   ],
+   "guids": [
+    "Player-4620-012213F8"
+   ],
+   "truth": "PRIEST",
+   "ok": true
+  },
+  {
+   "key": "name:N\u00f6",
+   "class": "WARLOCK",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK"
+   ],
+   "guids": [
+    "Player-4619-010E343F"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Od",
+   "class": "MAGE",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE"
+   ],
+   "guids": [
+    "Player-4613-0065D019"
+   ],
+   "truth": "MAGE",
+   "ok": true
+  },
+  {
+   "key": "name:Marksman",
+   "class": "HUNTER",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER"
+   ],
+   "guids": [
+    "Player-4613-00DC8DBE"
+   ],
+   "truth": "HUNTER",
+   "ok": true
+  },
+  {
+   "key": "name:N\u00f6 Body",
+   "class": "WARLOCK",
+   "via": "meter",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK"
+   ],
+   "guids": [
+    "Player-4619-010E343F"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Luvgames Nocsyvnn",
+   "class": "WARLOCK",
+   "via": "meter",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK"
+   ],
+   "guids": [
+    "Player-4619-00678510"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Hyllina Deadheart",
+   "class": "PRIEST",
+   "via": "meter",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "meter=PRIEST",
+    "meter=PRIEST",
+    "meter=PRIEST",
+    "meter=PRIEST",
+    "meter=PRIEST",
+    "meter=PRIEST",
+    "meter=PRIEST",
+    "meter=PRIEST",
+    "meter=PRIEST",
+    "meter=PRIEST",
+    "meter=PRIEST",
+    "meter=PRIEST"
+   ],
+   "guids": [
+    "Player-4620-012213F8"
+   ],
+   "truth": "PRIEST",
+   "ok": true
+  },
+  {
+   "key": "name:Creepn Onya",
+   "class": "ROGUE",
+   "via": "meter",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "meter=ROGUE",
+    "meter=ROGUE",
+    "meter=ROGUE",
+    "meter=ROGUE",
+    "meter=ROGUE",
+    "meter=ROGUE",
+    "meter=ROGUE",
+    "meter=ROGUE",
+    "meter=ROGUE",
+    "meter=ROGUE",
+    "meter=ROGUE",
+    "meter=ROGUE"
+   ],
+   "guids": [
+    "Player-4619-008D85A7"
+   ],
+   "truth": "ROGUE",
+   "ok": true
+  },
+  {
+   "key": "name:Tatusera",
+   "class": "DRUID",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID"
+   ],
+   "guids": [
+    "Player-4619-008C253D"
+   ],
+   "truth": "DRUID",
+   "ok": true
+  },
+  {
+   "key": "name:\uc544\ud504\uba74\ub9d0\ud574 \uc6d0\uc0f7\uc6d0\ud0ac",
+   "class": "PALADIN",
+   "via": "meter",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN"
+   ],
+   "guids": [
+    "Player-4613-00CBE981"
+   ],
+   "truth": "PALADIN",
+   "ok": true
+  },
+  {
+   "key": "name:Barch",
+   "class": "HUNTER",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER"
+   ],
+   "guids": [
+    "Player-4619-01151997"
+   ],
+   "truth": "HUNTER",
+   "ok": true
+  },
+  {
+   "key": "name:Willie",
+   "class": "PALADIN",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN"
+   ],
+   "guids": [
+    "Player-4620-00EA7AB6"
+   ],
+   "truth": "PALADIN",
+   "ok": true
+  },
+  {
+   "key": "name:Randess",
+   "class": "PRIEST",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST"
+   ],
+   "guids": [
+    "Player-4619-00CFDD2F"
+   ],
+   "truth": "PRIEST",
+   "ok": true
+  },
+  {
+   "key": "name:Pierre",
+   "class": "ROGUE",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE"
+   ],
+   "guids": [
+    "Player-4613-00590DDC"
+   ],
+   "truth": "ROGUE",
+   "ok": true
+  },
+  {
+   "key": "name:Ninurta Marduk",
+   "class": "WARRIOR",
+   "via": "meter",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR"
+   ],
+   "guids": [
+    "Player-4619-011D81A9"
+   ],
+   "truth": "WARRIOR",
+   "ok": true
+  },
+  {
+   "key": "name:Uglaz",
+   "class": "SHAMAN",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN"
+   ],
+   "guids": [
+    "Player-4618-00EB40D8"
+   ],
+   "truth": "SHAMAN",
+   "ok": true
+  },
+  {
+   "key": "name:Zug",
+   "class": "MAGE",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE",
+    "score=MAGE"
+   ],
+   "guids": [
+    "Player-4620-00FE6517"
+   ],
+   "truth": "MAGE",
+   "ok": true
+  },
+  {
+   "key": "name:Creepn",
+   "class": "ROGUE",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE"
+   ],
+   "guids": [
+    "Player-4619-008D85A7"
+   ],
+   "truth": "ROGUE",
+   "ok": true
+  },
+  {
+   "key": "name:Ninurta",
+   "class": "WARRIOR",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR"
+   ],
+   "guids": [
+    "Player-4619-011D81A9"
+   ],
+   "truth": "WARRIOR",
+   "ok": true
+  },
+  {
+   "key": "name:Rdubb",
+   "class": "WARLOCK",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK"
+   ],
+   "guids": [
+    "Player-4619-00B71C42"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Kiteologist",
+   "class": "HUNTER",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER"
+   ],
+   "guids": [
+    "Player-4619-00B7F90E"
+   ],
+   "truth": "HUNTER",
+   "ok": true
+  },
+  {
+   "key": "name:Ong",
+   "class": "SHAMAN",
+   "via": "cache:raidNtarget",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidNtarget=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN"
+   ],
+   "guids": [
+    "Player-4619-00CE3BAF"
+   ],
+   "truth": "SHAMAN",
+   "ok": true
+  },
+  {
+   "key": "name:Zug Zaugh",
+   "class": "MAGE",
+   "via": "meter",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "meter=MAGE",
+    "meter=MAGE",
+    "meter=MAGE",
+    "meter=MAGE",
+    "meter=MAGE",
+    "meter=MAGE",
+    "meter=MAGE",
+    "meter=MAGE",
+    "meter=MAGE",
+    "meter=MAGE",
+    "meter=MAGE",
+    "meter=MAGE"
+   ],
+   "guids": [
+    "Player-4620-00FE6517"
+   ],
+   "truth": "MAGE",
+   "ok": true
+  },
+  {
+   "key": "name:Shadow Synth",
+   "class": "WARRIOR",
+   "via": "meter",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR",
+    "meter=WARRIOR"
+   ],
+   "guids": [
+    "Player-4619-00720C89"
+   ],
+   "truth": "WARRIOR",
+   "ok": true
+  },
+  {
+   "key": "name:Clam Slap",
+   "class": "DRUID",
+   "via": "meter",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "meter=DRUID",
+    "meter=DRUID",
+    "meter=DRUID",
+    "meter=DRUID",
+    "meter=DRUID",
+    "meter=DRUID",
+    "meter=DRUID",
+    "meter=DRUID",
+    "meter=DRUID",
+    "meter=DRUID",
+    "meter=DRUID",
+    "meter=DRUID"
+   ],
+   "guids": [
+    "Player-4613-007275F1"
+   ],
+   "truth": "DRUID",
+   "ok": true
+  },
+  {
+   "key": "name:Krangus",
+   "class": "ROGUE",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE",
+    "score=ROGUE"
+   ],
+   "guids": [
+    "Player-4619-00D08575"
+   ],
+   "truth": "ROGUE",
+   "ok": true
+  },
+  {
+   "key": "name:Shadow",
+   "class": "WARRIOR",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR",
+    "score=WARRIOR"
+   ],
+   "guids": [
+    "Player-4619-00720C89"
+   ],
+   "truth": "WARRIOR",
+   "ok": true
+  },
+  {
+   "key": "name:Ong Sheesh",
+   "class": "SHAMAN",
+   "via": "meter",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN"
+   ],
+   "guids": [
+    "Player-4619-00CE3BAF"
+   ],
+   "truth": "SHAMAN",
+   "ok": true
+  },
+  {
+   "key": "name:Ank",
+   "class": "PRIEST",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST"
+   ],
+   "guids": [
+    "Player-4613-010908A8"
+   ],
+   "truth": "PRIEST",
+   "ok": true
+  },
+  {
+   "key": "name:Punkture Wound",
+   "class": "SHAMAN",
+   "via": "meter",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN"
+   ],
+   "guids": [
+    "Player-4620-01258E1A"
+   ],
+   "truth": "SHAMAN",
+   "ok": true
+  },
+  {
+   "key": "name:Punkture",
+   "class": "SHAMAN",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN"
+   ],
+   "guids": [
+    "Player-4620-01258E1A"
+   ],
+   "truth": "SHAMAN",
+   "ok": true
+  },
+  {
+   "key": "name:\ub77c\uba74",
+   "class": "SHAMAN",
+   "via": "cache:raidNtarget",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidNtarget=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN",
+    "score=SHAMAN"
+   ],
+   "guids": [
+    "Player-4620-00D2392E"
+   ],
+   "truth": "SHAMAN",
+   "ok": true
+  },
+  {
+   "key": "name:Uglaz Doomaxe",
+   "class": "SHAMAN",
+   "via": "meter",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN"
+   ],
+   "guids": [
+    "Player-4618-00EB40D8"
+   ],
+   "truth": "SHAMAN",
+   "ok": true
+  },
+  {
+   "key": "name:Datninja",
+   "class": "HUNTER",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER",
+    "score=HUNTER"
+   ],
+   "guids": [
+    "Player-4613-00C28606"
+   ],
+   "truth": "HUNTER",
+   "ok": true
+  },
+  {
+   "key": "name:Luvgames",
+   "class": "WARLOCK",
+   "via": "cache:raidNtarget",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidNtarget=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK"
+   ],
+   "guids": [
+    "Player-4619-00678510"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Willie Burns",
+   "class": "PALADIN",
+   "via": "meter",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN",
+    "meter=PALADIN"
+   ],
+   "guids": [
+    "Player-4620-00EA7AB6"
+   ],
+   "truth": "PALADIN",
+   "ok": true
+  },
+  {
+   "key": "name:Pacers",
+   "class": "WARLOCK",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK"
+   ],
+   "guids": [
+    "Player-4619-00D84BD5"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Karen",
+   "class": "PRIEST",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST",
+    "score=PRIEST"
+   ],
+   "guids": [
+    "Player-4619-00C8BEA4"
+   ],
+   "truth": "PRIEST",
+   "ok": true
+  },
+  {
+   "key": "name:\uc544\ud504\uba74\ub9d0\ud574",
+   "class": "PALADIN",
+   "via": "cache:raidN",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "cache:raidN=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN"
+   ],
+   "guids": [
+    "Player-4613-00CBE981"
+   ],
+   "truth": "PALADIN",
+   "ok": true
+  },
+  {
+   "key": "name:\ub77c\uba74 \uc0ac\ub9ac",
+   "class": "SHAMAN",
+   "via": "meter",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN",
+    "meter=SHAMAN"
+   ],
+   "guids": [
+    "Player-4620-00D2392E"
+   ],
+   "truth": "SHAMAN",
+   "ok": true
+  },
+  {
+   "key": "name:Rdubb Dalok",
+   "class": "WARLOCK",
+   "via": "meter",
+   "enemy": null,
+   "prov": null,
+   "chain": [
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK",
+    "meter=WARLOCK"
+   ],
+   "guids": [
+    "Player-4619-00B71C42"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Sofy",
+   "class": "WARLOCK",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK",
+    "score=WARLOCK"
+   ],
+   "guids": [
+    "Player-4613-006AE45A"
+   ],
+   "truth": "WARLOCK",
+   "ok": true
+  },
+  {
+   "key": "name:Joff",
+   "class": "DRUID",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID"
+   ],
+   "guids": [
+    "Player-4619-003FED0D"
+   ],
+   "truth": "DRUID",
+   "ok": true
+  },
+  {
+   "key": "name:Torvian",
+   "class": "PALADIN",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN",
+    "score=PALADIN"
+   ],
+   "guids": [
+    "Player-4619-0073A8E3"
+   ],
+   "truth": "PALADIN",
+   "ok": true
+  },
+  {
+   "key": "name:Clam",
+   "class": "DRUID",
+   "via": "score",
+   "enemy": true,
+   "prov": null,
+   "chain": [
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID",
+    "score=DRUID"
+   ],
+   "guids": []
+  }
+ ]
+}
