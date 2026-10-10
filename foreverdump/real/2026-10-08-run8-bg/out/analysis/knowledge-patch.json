@@ -1,0 +1,29 @@
+{
+ "build": "70291",
+ "npcCasts": {},
+ "rules": {},
+ "schema": "foreverdump.knowledgepatch/1",
+ "spells": {
+  "8042": {
+   "interrupt": true,
+   "lockout": 2
+  },
+  "8044": {
+   "interrupt": true,
+   "lockout": 2
+  },
+  "8045": {
+   "interrupt": true,
+   "lockout": 2
+  },
+  "8046": {
+   "interrupt": true,
+   "lockout": 2,
+   "minRecast": 6.689
+  },
+  "8052": {
+   "auraId": 8052,
+   "minRecast": 18.804
+  }
+ }
+}

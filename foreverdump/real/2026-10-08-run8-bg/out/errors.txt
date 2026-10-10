@@ -1,0 +1,197 @@
+[2661x] Interface/AddOns/TweaksForever/UI/Tooltips.lua:201: attempt to perform arithmetic on upvalue 'r' (a secret number value, while execution tainted by 'TweaksForever')  (addon TweaksForever)
+    during capture: 2661, taintLog=1
+    origins (1):
+        43x [C]: in function 'pcall' < TweaksForever/UI/Tooltips.lua]:201: in function <Interface/AddOns/TweaksForever/UI/Tooltips.lua:196>
+    [Interface/AddOns/ForeverDump/Errors.lua]:119: in function <Interface/AddOns/ForeverDump/Errors.lua:78>
+    [C]: in function 'pcall'
+    [Interface/AddOns/ForeverDump/Errors.lua]:251: in function <Interface/AddOns/ForeverDump/Errors.lua:247>
+    [C]: ?
+    [Interface/AddOns/TweaksForever/UI/Tooltips.lua]:201: in function <Interface/AddOns/TweaksForever/UI/Tooltips.lua:196>
+    [Interface/AddOns/TweaksForever/UI/Tooltips.lua]:254: in function <Interface/AddOns/TweaksForever/UI/Tooltips.lua:239>
+    [Interface/AddOns/TweaksForever/UI/Tooltips.lua]:259: in function <Interface/AddOns/TweaksForever/UI/Tooltips.lua:258>
+    [Interface/AddOns/TweaksForever/Core/Core.lua]:90: in function <Interface/AddOns/TweaksForever/Core/Core.lua:83>
+    [tail call]: ?
+    [C]: in function 'securecallfunction'
+    [Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua]:67: in function <...lizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua:62>
+    [Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua]:87: in function <...lizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua:83>
+    [Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua]:123: in function <...lizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua:113>
+    [C]: in function 'SetAttribute'
+    [Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua]:148: in function <...lizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua:141>
+    [Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua]:298: in function <...lizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua:245>
+    [C]: in function 'securecallfunction'
+    [Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua]:242: in function 'ProcessInfo'
+    [Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:1020: in function 'SetWorldCursor'
+    [Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:890: in function 'HandleWorldCursorTooltipUpdate'
+    [Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:117: in function 'handler'
+    [Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+    
+[526x] Interface/AddOns/TweaksForever/UI/Tooltips.lua:313: attempt to index local 'text' (a secret string value, while execution tainted by 'TweaksForever')  (addon TweaksForever)
+    during capture: 526, taintLog=1
+    origins (1):
+       300x [C]: in function 'pcall' < TweaksForever/UI/Tooltips.lua]:313: in function <Interface/AddOns/TweaksForever/UI/Tooltips.lua:300>
+    [Interface/AddOns/ForeverDump/Errors.lua]:119: in function <Interface/AddOns/ForeverDump/Errors.lua:78>
+    [C]: in function 'pcall'
+    [Interface/AddOns/ForeverDump/Errors.lua]:251: in function <Interface/AddOns/ForeverDump/Errors.lua:247>
+    [C]: ?
+    [Interface/AddOns/TweaksForever/UI/Tooltips.lua]:313: in function <Interface/AddOns/TweaksForever/UI/Tooltips.lua:300>
+    [tail call]: ?
+    [C]: in function 'securecallfunction'
+    [Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua]:67: in function <...lizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua:62>
+    [Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua]:84: in function <...lizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua:83>
+    [Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua]:123: in function <...lizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua:113>
+    [C]: in function 'SetAttribute'
+    [Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua]:160: in function <...lizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua:153>
+    [Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua]:325: in function 'ProcessLineData'
+    [Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua]:315: in function 'ProcessLines'
+    [Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua]:292: in function <...lizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua:245>
+    [C]: in function 'securecallfunction'
+    [Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua]:242: in function 'ProcessInfo'
+    [Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua]:1020: in function 'SetWorldCursor'
+    [Interface/AddOns/Blizzard_Game/Mainline/EventImplementation.lua]:890: in function 'HandleWorldCursorTooltipUpdate'
+    [Interface/AddOns/Blizzard_Game/Mainline/EventRouting.lua]:117: in function 'handler'
+    [Interface/AddOns/Blizzard_Game/Shared/EventRouting.lua]:7: in function <...terface/AddOns/Blizzard_Game/Shared/EventRouting.lua:4>
+    
+[115x] attempt to call a nil value  (addon Blizzard_ObjectiveTracker)
+    class: nil call raised inside the C function LayoutContents (hooksecurefunc trampoline; see CHANGES 2.2)
+    during capture: 115, taintLog=1
+    origins (1):
+       115x [C]: in function 'pcall' < [C]: in function 'LayoutContents'
+    [Interface/AddOns/ForeverDump/Errors.lua]:119: in function <Interface/AddOns/ForeverDump/Errors.lua:78>
+    [C]: in function 'pcall'
+    [Interface/AddOns/ForeverDump/Errors.lua]:251: in function <Interface/AddOns/ForeverDump/Errors.lua:247>
+    [C]: ?
+    [C]: in function 'LayoutContents'
+    [Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua]:147: in function 'Update'
+    [Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.lua]:93: in function 'Update'
+    [Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua]:70: in function <...zzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua:62>
+    [tail call]: ?
+    [Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua]:341: in function <Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua:340>
+    
+[42x] attempt to perform string conversion on a secret string value (execution tainted by 'Questie')  (addon Questie)
+    during capture: 24, taintLog=0
+    origins (1):
+        42x [C]: in function 'pcall' < [C]: in function 'find'
+    [Interface/AddOns/ForeverDump/Errors.lua]:119: in function <Interface/AddOns/ForeverDump/Errors.lua:78>
+    [C]: in function 'pcall'
+    [Interface/AddOns/ForeverDump/Errors.lua]:251: in function <Interface/AddOns/ForeverDump/Errors.lua:247>
+    [C]: ?
+    [C]: in function 'find'
+    [Interface/AddOns/Questie/Modules/EventHandler/EventHandler.lua]:404: in function <...AddOns/Questie/Modules/EventHandler/EventHandler.lua:402>
+    [C]: ?
+    [Interface/AddOns/Questie/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua]:19: in function <...tie/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:15>
+    [Interface/AddOns/Questie/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua]:54: in function 'Fire'
+    [Interface/AddOns/Questie/Libs/AceEvent-3.0/AceEvent-3.0.lua]:120: in function <...ce/AddOns/Questie/Libs/AceEvent-3.0/AceEvent-3.0.lua:119>
+    
+[6x] ...ard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.lua:208: attempt to compare local 'text' (a secret string value, while execution tainted by 'TweaksForever')  (addon Blizzard_ScriptErrorsFrame)
+    during capture: 6, taintLog=1
+    origins (1):
+         6x [C]: in function 'pcall' < [C]: in function 'SetDisplayedIndex'
+    [Interface/AddOns/ForeverDump/Errors.lua]:119: in function <Interface/AddOns/ForeverDump/Errors.lua:78>
+    [C]: in function 'pcall'
+    [Interface/AddOns/ForeverDump/Errors.lua]:251: in function <Interface/AddOns/ForeverDump/Errors.lua:247>
+    [C]: ?
+    [C]: in function 'SetDisplayedIndex'
+    [Interface/AddOns/Blizzard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.lua]:260: in function 'ChangeDisplayedIndex'
+    [Interface/AddOns/Blizzard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.lua]:268: in function 'ShowNext'
+    [Interface/AddOns/Blizzard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.lua]:67: in function <...ard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.lua:66>
+    
+[4x] ...ard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.lua:208: attempt to compare local 'prevText' (a secret string value, while execution tainted by 'TweaksForever')  (addon Blizzard_ScriptErrorsFrame)
+    during capture: 4, taintLog=1
+    origins (1):
+         4x [C]: in function 'pcall' < [C]: in function 'SetDisplayedIndex'
+    [Interface/AddOns/ForeverDump/Errors.lua]:119: in function <Interface/AddOns/ForeverDump/Errors.lua:78>
+    [C]: in function 'pcall'
+    [Interface/AddOns/ForeverDump/Errors.lua]:251: in function <Interface/AddOns/ForeverDump/Errors.lua:247>
+    [C]: ?
+    [C]: in function 'SetDisplayedIndex'
+    [Interface/AddOns/Blizzard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.lua]:260: in function 'ChangeDisplayedIndex'
+    [Interface/AddOns/Blizzard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.lua]:268: in function 'ShowNext'
+    [Interface/AddOns/Blizzard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.lua]:67: in function <...ard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.lua:66>
+    
+2026-10-08 19:40:18 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 4}
+2026-10-08 19:40:19 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 3}
+2026-10-08 19:40:19 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 5}
+2026-10-08 19:42:55 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:43:55 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:44:15 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:44:24 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:44:32 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:44:44 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:45:00 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:45:08 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:45:11 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:45:55 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:45:58 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:46:03 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:46:08 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:46:13 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:46:49 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:46:58 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:47:05 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:47:12 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:47:17 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:47:26 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:47:33 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:47:40 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:47:54 LUA_WARNING {'warningText': "...ard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.lua:208: attempt to compare local 'prevText' (a secret string value, while execution tainted by 'QuestLevelPatch')"}
+2026-10-08 19:48:00 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:48:15 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:49:21 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:49:28 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:49:28 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:49:48 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:49:56 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:50:04 LUA_WARNING {'warningText': "...ard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.lua:208: attempt to compare local 'prevText' (a secret string value, while execution tainted by 'QuestLevelPatch')"} (in combat)
+2026-10-08 19:50:10 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:50:11 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:50:35 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:50:35 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:50:41 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:51:30 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:51:37 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:51:42 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:51:49 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:52:06 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:52:12 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:52:12 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:52:20 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:52:26 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:52:32 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:54:14 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:54:21 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:55:01 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:55:10 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:55:12 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:55:18 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:55:19 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:55:34 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:55:51 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:55:56 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:56:45 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:57:10 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:57:39 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:58:00 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:58:34 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:59:05 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:59:07 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:59:13 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:59:14 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:59:21 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:59:29 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:59:35 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 19:59:36 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 19:59:49 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 20:00:06 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 20:00:11 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 20:00:15 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 20:00:44 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 20:00:44 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 20:00:58 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 20:01:59 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 20:02:05 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 20:02:24 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 3}
+2026-10-08 20:02:24 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 5}
+learned combat-blocked path [70291] secretwrap(1): 1x, units {}
+learned combat-blocked path [70291] C_DamageMeter.IsDamageMeterAvailable: 1x, units {'nameplate2': 1}
+per addon (errors, blocked actions): Blizzard_ObjectiveTracker 115/0, Blizzard_ScriptErrorsFrame 10/0, Questie 42/0, TweaksForever 3187/0
+6 unique errors, 83 blocked/forbidden/warning events
