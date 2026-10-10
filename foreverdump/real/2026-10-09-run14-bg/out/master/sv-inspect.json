@@ -1,0 +1,17013 @@
+{
+"addonVersion": "2.2.16",
+"build": "70291",
+"containers": {
+"auraMatrix": [
+{
+"ctx": "combat",
+"event": {
+"(payload)": {
+"T": 31
+},
+"addedAuras": {
+"S": 16
+},
+"isFullUpdate": {
+"S": 31
+},
+"removedAuraInstanceIDs": {
+"S": 11
+},
+"updatedAuraInstanceIDs": {
+"S": 5
+}
+},
+"fields": {},
+"group": "other player",
+"sources": [],
+"table": {},
+"units": [
+"target:friendly-player",
+"target:hostile-player"
+]
+},
+{
+"ctx": "combat",
+"event": {
+"(payload)": {
+"T": 25
+},
+"addedAuras": {
+"S": 6
+},
+"isFullUpdate": {
+"S": 25
+},
+"removedAuraInstanceIDs": {
+"S": 9
+},
+"updatedAuraInstanceIDs": {
+"S": 12
+}
+},
+"fields": {},
+"group": "party/raid",
+"sources": [
+"C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL)"
+],
+"table": {
+"E": 2
+},
+"units": [
+"party:friendly-player",
+"raid:friendly-player"
+]
+},
+{
+"ctx": "combat",
+"event": {
+"(payload)": {
+"T": 25
+},
+"addedAuras": {
+"S": 10
+},
+"isFullUpdate": {
+"S": 25
+},
+"removedAuraInstanceIDs": {
+"S": 13
+},
+"updatedAuraInstanceIDs": {
+"S": 5
+}
+},
+"fields": {},
+"group": "player",
+"sources": [
+"C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL)"
+],
+"table": {
+"E": 1
+},
+"units": [
+"player"
+]
+},
+{
+"ctx": "combat",
+"event": {
+"(payload)": {
+"T": 1
+},
+"addedAuras": {
+"S": 1
+},
+"isFullUpdate": {
+"S": 1
+}
+},
+"fields": {},
+"group": "target NPC",
+"sources": [
+"C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL)"
+],
+"table": {
+"E": 1
+},
+"units": [
+"target:hostile-npc"
+]
+},
+{
+"ctx": "restricted",
+"event": {
+"(payload)": {
+"T": 29
+},
+"addedAuras": {
+"S": 15
+},
+"isFullUpdate": {
+"S": 29
+},
+"removedAuraInstanceIDs": {
+"S": 10
+},
+"updatedAuraInstanceIDs": {
+"S": 5
+}
+},
+"fields": {},
+"group": "other player",
+"sources": [],
+"table": {},
+"units": [
+"target:friendly-player",
+"target:hostile-player"
+]
+},
+{
+"ctx": "restricted",
+"event": {
+"(payload)": {
+"K": 1,
+"T": 25
+},
+"addedAuras": {
+"S": 23
+},
+"isFullUpdate": {
+"C": 1,
+"S": 25
+},
+"removedAuraInstanceIDs": {
+"K": 1,
+"S": 21
+}
+},
+"fields": {},
+"group": "party/raid",
+"sources": [
+"C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL)"
+],
+"table": {
+"E": 2,
+"N": 2
+},
+"units": [
+"party:friendly-player",
+"raid:friendly-player"
+]
+},
+{
+"ctx": "restricted",
+"event": {
+"(payload)": {
+"T": 25
+},
+"addedAuras": {
+"S": 18
+},
+"isFullUpdate": {
+"S": 25
+},
+"removedAuraInstanceIDs": {
+"S": 13
+}
+},
+"fields": {},
+"group": "player",
+"sources": [
+"C_UnitAuras.GetAuraDataByIndex(u,1,HELPFUL)"
+],
+"table": {
+"E": 1,
+"N": 1
+},
+"units": [
+"player"
+]
+},
+{
+"ctx": "restricted",
+"event": {
+"(payload)": {
+"T": 1
+},
+"isFullUpdate": {
+"S": 1
+},
+"removedAuraInstanceIDs": {
+"S": 1
+}
+},
+"fields": {},
+"group": "target NPC",
+"sources": [],
+"table": {},
+"units": [
+"target:hostile-npc"
+]
+}
+],
+"countMatrix": [
+{
+"codes": {
+"S": 16
+},
+"ctx": "combat",
+"group": "other player",
+"method": "UNIT_AURA payload .addedAuras"
+},
+{
+"codes": {
+"S": 31
+},
+"ctx": "combat",
+"group": "other player",
+"method": "UNIT_AURA payload .isFullUpdate"
+},
+{
+"codes": {
+"S": 11
+},
+"ctx": "combat",
+"group": "other player",
+"method": "UNIT_AURA payload .removedAuraInstanceIDs"
+},
+{
+"codes": {
+"S": 5
+},
+"ctx": "combat",
+"group": "other player",
+"method": "UNIT_AURA payload .updatedAuraInstanceIDs"
+},
+{
+"codes": {
+"E": 2
+},
+"ctx": "combat",
+"group": "party/raid",
+"method": "GetAuraDataByIndex-iterate(HARMFUL)"
+},
+{
+"codes": {
+"E": 2
+},
+"ctx": "combat",
+"group": "party/raid",
+"method": "GetAuraDataByIndex-iterate(HARMFUL|PLAYER)"
+},
+{
+"codes": {
+"E": 2
+},
+"ctx": "combat",
+"group": "party/raid",
+"method": "GetAuraDataByIndex-iterate(HELPFUL)"
+},
+{
+"codes": {
+"E": 2
+},
+"ctx": "combat",
+"group": "party/raid",
+"method": "GetAuraDataByIndex-iterate(HELPFUL|PLAYER)"
+},
+{
+"codes": {
+"E": 2
+},
+"ctx": "combat",
+"group": "party/raid",
+"method": "GetAuraSlots returns u,HARMFUL"
+},
+{
+"codes": {
+"E": 2
+},
+"ctx": "combat",
+"group": "party/raid",
+"method": "GetAuraSlots returns u,HARMFUL|PLAYER"
+},
+{
+"codes": {
+"E": 2
+},
+"ctx": "combat",
+"group": "party/raid",
+"method": "GetAuraSlots returns u,HELPFUL"
+},
+{
+"codes": {
+"E": 2
+},
+"ctx": "combat",
+"group": "party/raid",
+"method": "GetAuraSlots returns u,HELPFUL|PLAYER"
+},
+{
+"codes": {
+"E": 2
+},
+"ctx": "combat",
+"group": "party/raid",
+"method": "GetUnitAuras HARMFUL"
+},
+{
+"codes": {
+"E": 2
+},
+"ctx": "combat",
+"group": "party/raid",
+"method": "GetUnitAuras HARMFUL|PLAYER"
+},
+{
+"codes": {
+"E": 2
+},
+"ctx": "combat",
+"group": "party/raid",
+"method": "GetUnitAuras HELPFUL"
+},
+{
+"codes": {
+"E": 2
+},
+"ctx": "combat",
+"group": "party/raid",
+"method": "GetUnitAuras HELPFUL|PLAYER"
+},
+{
+"codes": {
+"S": 6
+},
+"ctx": "combat",
+"group": "party/raid",
+"method": "UNIT_AURA payload .addedAuras"
+},
+{
+"codes": {
+"S": 25
+},
+"ctx": "combat",
+"group": "party/raid",
+"method": "UNIT_AURA payload .isFullUpdate"
+},
+{
+"codes": {
+"S": 9
+},
+"ctx": "combat",
+"group": "party/raid",
+"method": "UNIT_AURA payload .removedAuraInstanceIDs"
+},
+{
+"codes": {
+"S": 12
+},
+"ctx": "combat",
+"group": "party/raid",
+"method": "UNIT_AURA payload .updatedAuraInstanceIDs"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "player",
+"method": "GetAuraDataByIndex-iterate(HARMFUL)"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "player",
+"method": "GetAuraDataByIndex-iterate(HARMFUL|PLAYER)"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "player",
+"method": "GetAuraDataByIndex-iterate(HELPFUL)"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "player",
+"method": "GetAuraDataByIndex-iterate(HELPFUL|PLAYER)"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "player",
+"method": "GetAuraSlots returns u,HARMFUL"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "player",
+"method": "GetAuraSlots returns u,HARMFUL|PLAYER"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "player",
+"method": "GetAuraSlots returns u,HELPFUL"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "player",
+"method": "GetAuraSlots returns u,HELPFUL|PLAYER"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "player",
+"method": "GetUnitAuras HARMFUL"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "player",
+"method": "GetUnitAuras HARMFUL|PLAYER"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "player",
+"method": "GetUnitAuras HELPFUL"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "player",
+"method": "GetUnitAuras HELPFUL|PLAYER"
+},
+{
+"codes": {
+"S": 10
+},
+"ctx": "combat",
+"group": "player",
+"method": "UNIT_AURA payload .addedAuras"
+},
+{
+"codes": {
+"S": 25
+},
+"ctx": "combat",
+"group": "player",
+"method": "UNIT_AURA payload .isFullUpdate"
+},
+{
+"codes": {
+"S": 13
+},
+"ctx": "combat",
+"group": "player",
+"method": "UNIT_AURA payload .removedAuraInstanceIDs"
+},
+{
+"codes": {
+"S": 5
+},
+"ctx": "combat",
+"group": "player",
+"method": "UNIT_AURA payload .updatedAuraInstanceIDs"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "target NPC",
+"method": "GetAuraDataByIndex-iterate(HARMFUL)"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "target NPC",
+"method": "GetAuraDataByIndex-iterate(HARMFUL|PLAYER)"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "target NPC",
+"method": "GetAuraDataByIndex-iterate(HELPFUL)"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "target NPC",
+"method": "GetAuraDataByIndex-iterate(HELPFUL|PLAYER)"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "target NPC",
+"method": "GetAuraSlots returns u,HARMFUL"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "target NPC",
+"method": "GetAuraSlots returns u,HARMFUL|PLAYER"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "target NPC",
+"method": "GetAuraSlots returns u,HELPFUL"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "target NPC",
+"method": "GetAuraSlots returns u,HELPFUL|PLAYER"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "target NPC",
+"method": "GetUnitAuras HARMFUL"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "target NPC",
+"method": "GetUnitAuras HARMFUL|PLAYER"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "target NPC",
+"method": "GetUnitAuras HELPFUL"
+},
+{
+"codes": {
+"E": 1
+},
+"ctx": "combat",
+"group": "target NPC",
+"method": "GetUnitAuras HELPFUL|PLAYER"
+},
+{
+"codes": {
+"S": 1
+},
+"ctx": "combat",
+"group": "target NPC",
+"method": "UNIT_AURA payload .addedAuras"
+},
+{
+"codes": {
+"S": 1
+},
+"ctx": "combat",
+"group": "target NPC",
+"method": "UNIT_AURA payload .isFullUpdate"
+},
+{
+"codes": {
+"S": 15
+},
+"ctx": "restricted",
+"group": "other player",
+"method": "UNIT_AURA payload .addedAuras"
+},
+{
+"codes": {
+"S": 29
+},
+"ctx": "restricted",
+"group": "other player",
+"method": "UNIT_AURA payload .isFullUpdate"
+},
+{
+"codes": {
+"S": 10
+},
+"ctx": "restricted",
+"group": "other player",
+"method": "UNIT_AURA payload .removedAuraInstanceIDs"
+},
+{
+"codes": {
+"S": 5
+},
+"ctx": "restricted",
+"group": "other player",
+"method": "UNIT_AURA payload .updatedAuraInstanceIDs"
+},
+{
+"codes": {
+"C": 2,
+"E": 2
+},
+"ctx": "restricted",
+"group": "party/raid",
+"method": "GetAuraDataByIndex-iterate(HARMFUL)"
+},
+{
+"codes": {
+"C": 2,
+"E": 2
+},
+"ctx": "restricted",
+"group": "party/raid",
+"method": "GetAuraDataByIndex-iterate(HARMFUL|PLAYER)"
+},
+{
+"codes": {
+"C": 2,
+"E": 2
+},
+"ctx": "restricted",
+"group": "party/raid",
+"method": "GetAuraDataByIndex-iterate(HELPFUL)"
+},
+{
+"codes": {
+"C": 2,
+"E": 2
+},
+"ctx": "restricted",
+"group": "party/raid",
+"method": "GetAuraDataByIndex-iterate(HELPFUL|PLAYER)"
+},
+{
+"codes": {
+"E": 2,
+"N": 2
+},
+"ctx": "restricted",
+"group": "party/raid",
+"method": "GetAuraSlots returns u,HARMFUL"
+},
+{
+"codes": {
+"E": 2,
+"N": 2
+},
+"ctx": "restricted",
+"group": "party/raid",
+"method": "GetAuraSlots returns u,HARMFUL|PLAYER"
+},
+{
+"codes": {
+"E": 2,
+"N": 2
+},
+"ctx": "restricted",
+"group": "party/raid",
+"method": "GetAuraSlots returns u,HELPFUL"
+},
+{
+"codes": {
+"E": 2,
+"N": 2
+},
+"ctx": "restricted",
+"group": "party/raid",
+"method": "GetAuraSlots returns u,HELPFUL|PLAYER"
+},
+{
+"codes": {
+"E": 2,
+"K": 2
+},
+"ctx": "restricted",
+"group": "party/raid",
+"method": "GetUnitAuras HARMFUL"
+},
+{
+"codes": {
+"E": 2,
+"K": 2
+},
+"ctx": "restricted",
+"group": "party/raid",
+"method": "GetUnitAuras HARMFUL|PLAYER"
+},
+{
+"codes": {
+"E": 2,
+"K": 2
+},
+"ctx": "restricted",
+"group": "party/raid",
+"method": "GetUnitAuras HELPFUL"
+},
+{
+"codes": {
+"E": 2,
+"K": 2
+},
+"ctx": "restricted",
+"group": "party/raid",
+"method": "GetUnitAuras HELPFUL|PLAYER"
+},
+{
+"codes": {
+"S": 23
+},
+"ctx": "restricted",
+"group": "party/raid",
+"method": "UNIT_AURA payload .addedAuras"
+},
+{
+"codes": {
+"C": 1,
+"S": 25
+},
+"ctx": "restricted",
+"group": "party/raid",
+"method": "UNIT_AURA payload .isFullUpdate"
+},
+{
+"codes": {
+"K": 1,
+"S": 21
+},
+"ctx": "restricted",
+"group": "party/raid",
+"method": "UNIT_AURA payload .removedAuraInstanceIDs"
+},
+{
+"codes": {
+"C": 1,
+"E": 1
+},
+"ctx": "restricted",
+"group": "player",
+"method": "GetAuraDataByIndex-iterate(HARMFUL)"
+},
+{
+"codes": {
+"C": 1,
+"E": 1
+},
+"ctx": "restricted",
+"group": "player",
+"method": "GetAuraDataByIndex-iterate(HARMFUL|PLAYER)"
+},
+{
+"codes": {
+"C": 1,
+"E": 1
+},
+"ctx": "restricted",
+"group": "player",
+"method": "GetAuraDataByIndex-iterate(HELPFUL)"
+},
+{
+"codes": {
+"C": 1,
+"E": 1
+},
+"ctx": "restricted",
+"group": "player",
+"method": "GetAuraDataByIndex-iterate(HELPFUL|PLAYER)"
+},
+{
+"codes": {
+"E": 1,
+"N": 1
+},
+"ctx": "restricted",
+"group": "player",
+"method": "GetAuraSlots returns u,HARMFUL"
+},
+{
+"codes": {
+"E": 1,
+"N": 1
+},
+"ctx": "restricted",
+"group": "player",
+"method": "GetAuraSlots returns u,HARMFUL|PLAYER"
+},
+{
+"codes": {
+"E": 1,
+"N": 1
+},
+"ctx": "restricted",
+"group": "player",
+"method": "GetAuraSlots returns u,HELPFUL"
+},
+{
+"codes": {
+"E": 1,
+"N": 1
+},
+"ctx": "restricted",
+"group": "player",
+"method": "GetAuraSlots returns u,HELPFUL|PLAYER"
+},
+{
+"codes": {
+"E": 1,
+"K": 1
+},
+"ctx": "restricted",
+"group": "player",
+"method": "GetUnitAuras HARMFUL"
+},
+{
+"codes": {
+"E": 1,
+"K": 1
+},
+"ctx": "restricted",
+"group": "player",
+"method": "GetUnitAuras HARMFUL|PLAYER"
+},
+{
+"codes": {
+"E": 1,
+"K": 1
+},
+"ctx": "restricted",
+"group": "player",
+"method": "GetUnitAuras HELPFUL"
+},
+{
+"codes": {
+"E": 1,
+"K": 1
+},
+"ctx": "restricted",
+"group": "player",
+"method": "GetUnitAuras HELPFUL|PLAYER"
+},
+{
+"codes": {
+"S": 18
+},
+"ctx": "restricted",
+"group": "player",
+"method": "UNIT_AURA payload .addedAuras"
+},
+{
+"codes": {
+"S": 25
+},
+"ctx": "restricted",
+"group": "player",
+"method": "UNIT_AURA payload .isFullUpdate"
+},
+{
+"codes": {
+"S": 13
+},
+"ctx": "restricted",
+"group": "player",
+"method": "UNIT_AURA payload .removedAuraInstanceIDs"
+},
+{
+"codes": {
+"S": 1
+},
+"ctx": "restricted",
+"group": "target NPC",
+"method": "UNIT_AURA payload .isFullUpdate"
+},
+{
+"codes": {
+"S": 1
+},
+"ctx": "restricted",
+"group": "target NPC",
+"method": "UNIT_AURA payload .removedAuraInstanceIDs"
+}
+],
+"errors": [
+"C_UnitAuras.GetAuraDataByIndex",
+"C_UnitAuras.GetAuraSlots",
+"C_UnitAuras.GetUnitAuras"
+],
+"partial": [
+{
+"clearFields": [],
+"container": "T",
+"ctx": "combat|r0,3,4,5",
+"probe": "event:UNIT_AURA",
+"secretFields": [
+"addedAuras",
+"isFullUpdate",
+"removedAuraInstanceIDs",
+"updatedAuraInstanceIDs"
+],
+"unit": "party:friendly-player"
+},
+{
+"clearFields": [
+"isActive",
+"isEnabled"
+],
+"container": "T",
+"ctx": "combat|r0,3,4,5",
+"probe": "C_Spell.GetSpellCooldown(spell)",
+"secretFields": [
+"duration",
+"modRate",
+"startTime"
+],
+"unit": "player"
+},
+{
+"clearFields": [
+"HasSecretValues()"
+],
+"container": "T",
+"ctx": "combat|r0,3,4,5",
+"probe": "C_Spell.GetSpellCooldownDuration(spell)",
+"secretFields": [
+"GetElapsedDuration()",
+"GetElapsedPercent()",
+"GetEndTime()",
+"GetModRate()",
+"GetRemainingDuration()",
+"GetRemainingPercent()",
+"GetStartTime()",
+"GetTotalDuration()",
+"IsZero()"
+],
+"unit": "player"
+},
+{
+"clearFields": [],
+"container": "T",
+"ctx": "combat|r0,3,4,5",
+"probe": "event:UNIT_AURA",
+"secretFields": [
+"addedAuras",
+"isFullUpdate",
+"removedAuraInstanceIDs",
+"updatedAuraInstanceIDs"
+],
+"unit": "player"
+},
+{
+"clearFields": [],
+"container": "T",
+"ctx": "combat|r0,3,4,5",
+"probe": "event:UNIT_AURA",
+"secretFields": [
+"addedAuras",
+"isFullUpdate",
+"removedAuraInstanceIDs"
+],
+"unit": "target:friendly-player"
+},
+{
+"clearFields": [],
+"container": "T",
+"ctx": "combat|r0,3,4,5",
+"probe": "event:UNIT_AURA",
+"secretFields": [
+"addedAuras",
+"isFullUpdate"
+],
+"unit": "target:hostile-npc"
+},
+{
+"clearFields": [],
+"container": "T",
+"ctx": "combat|r0,3,4,5",
+"probe": "event:UNIT_AURA",
+"secretFields": [
+"addedAuras",
+"isFullUpdate",
+"removedAuraInstanceIDs",
+"updatedAuraInstanceIDs"
+],
+"unit": "target:hostile-player"
+},
+{
+"clearFields": [],
+"container": "T",
+"ctx": "restricted|r3,4,5",
+"probe": "event:UNIT_AURA",
+"secretFields": [
+"addedAuras",
+"isFullUpdate",
+"removedAuraInstanceIDs"
+],
+"unit": "party:friendly-player"
+},
+{
+"clearFields": [
+"isActive",
+"isEnabled"
+],
+"container": "T",
+"ctx": "restricted|r3,4,5",
+"probe": "C_Spell.GetSpellCooldown(spell)",
+"secretFields": [
+"duration",
+"modRate",
+"startTime"
+],
+"unit": "player"
+},
+{
+"clearFields": [
+"HasSecretValues()"
+],
+"container": "T",
+"ctx": "restricted|r3,4,5",
+"probe": "C_Spell.GetSpellCooldownDuration(spell)",
+"secretFields": [
+"GetElapsedDuration()",
+"GetElapsedPercent()",
+"GetEndTime()",
+"GetModRate()",
+"GetRemainingDuration()",
+"GetRemainingPercent()",
+"GetStartTime()",
+"GetTotalDuration()",
+"IsZero()"
+],
+"unit": "player"
+},
+{
+"clearFields": [],
+"container": "T",
+"ctx": "restricted|r3,4,5",
+"probe": "event:UNIT_AURA",
+"secretFields": [
+"addedAuras",
+"isFullUpdate",
+"removedAuraInstanceIDs"
+],
+"unit": "player"
+},
+{
+"clearFields": [],
+"container": "T",
+"ctx": "restricted|r3,4,5",
+"probe": "event:UNIT_AURA",
+"secretFields": [
+"addedAuras",
+"isFullUpdate",
+"removedAuraInstanceIDs",
+"updatedAuraInstanceIDs"
+],
+"unit": "target:friendly-player"
+},
+{
+"clearFields": [],
+"container": "T",
+"ctx": "restricted|r3,4,5",
+"probe": "event:UNIT_AURA",
+"secretFields": [
+"isFullUpdate",
+"removedAuraInstanceIDs"
+],
+"unit": "target:hostile-npc"
+},
+{
+"clearFields": [],
+"container": "T",
+"ctx": "restricted|r3,4,5",
+"probe": "event:UNIT_AURA",
+"secretFields": [
+"addedAuras",
+"isFullUpdate",
+"removedAuraInstanceIDs",
+"updatedAuraInstanceIDs"
+],
+"unit": "target:hostile-player"
+}
+]
+},
+"probes": {
+"detectability": {
+"combat": {
+"mouseover:friendly-player": {
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 2
+},
+"whichSpell": {
+"n/a": 2
+}
+},
+"mouseover:hostile-player": {
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 1
+},
+"whichSpell": {
+"n/a": 1
+}
+},
+"nameplate:hostile-player": {
+"anyAura": {
+"ev": "aura APIs error",
+"no": 20
+},
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 29
+},
+"dispellable": {
+"n/a": 20
+},
+"myAura": {
+"ev": "aura APIs error",
+"no": 20
+},
+"stacksDuration": {
+"n/a": 20
+},
+"whatAura": {
+"n/a": 20
+},
+"whichSpell": {
+"ev": "spellID=S name=S texture=S notInterruptible=S",
+"n/a": 20,
+"no": 9
+}
+},
+"party:friendly-player": {
+"anyAura": {
+"ev": "aura APIs error",
+"no": 24
+},
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 24
+},
+"dispellable": {
+"n/a": 24
+},
+"myAura": {
+"ev": "aura APIs error",
+"no": 24
+},
+"stacksDuration": {
+"n/a": 24
+},
+"whatAura": {
+"n/a": 24
+},
+"whichSpell": {
+"n/a": 24
+}
+},
+"player": {
+"anyAura": {
+"ev": "aura APIs error",
+"no": 24
+},
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 24
+},
+"dispellable": {
+"n/a": 24
+},
+"myAura": {
+"ev": "aura APIs error",
+"no": 24
+},
+"stacksDuration": {
+"n/a": 24
+},
+"whatAura": {
+"n/a": 24
+},
+"whichSpell": {
+"n/a": 24
+}
+},
+"raid:friendly-player": {
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 24
+},
+"whichSpell": {
+"n/a": 24
+}
+},
+"target:friendly-player": {
+"anyAura": {
+"ev": "aura APIs error",
+"no": 2
+},
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 2
+},
+"dispellable": {
+"n/a": 2
+},
+"myAura": {
+"ev": "aura APIs error",
+"no": 2
+},
+"stacksDuration": {
+"n/a": 2
+},
+"whatAura": {
+"n/a": 2
+},
+"whichSpell": {
+"n/a": 2
+}
+},
+"target:hostile-player": {
+"anyAura": {
+"ev": "aura APIs error",
+"no": 11
+},
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 11
+},
+"dispellable": {
+"n/a": 11
+},
+"myAura": {
+"ev": "aura APIs error",
+"no": 11
+},
+"stacksDuration": {
+"n/a": 11
+},
+"whatAura": {
+"n/a": 11
+},
+"whichSpell": {
+"n/a": 11
+}
+},
+"targettarget:friendly-npc": {
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 1
+},
+"whichSpell": {
+"n/a": 1
+}
+},
+"targettarget:friendly-player": {
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 8
+},
+"whichSpell": {
+"n/a": 8
+}
+},
+"targettarget:hostile-player": {
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 2
+},
+"whichSpell": {
+"n/a": 2
+}
+}
+},
+"restricted": {
+"mouseover:friendly-player": {
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 4
+},
+"whichSpell": {
+"n/a": 4
+}
+},
+"mouseover:hostile-player": {
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 3
+},
+"whichSpell": {
+"n/a": 3
+}
+},
+"nameplate:hostile-player": {
+"anyAura": {
+"ev": "aura APIs error",
+"no": 12
+},
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 13
+},
+"dispellable": {
+"n/a": 12
+},
+"myAura": {
+"ev": "aura APIs error",
+"no": 12
+},
+"stacksDuration": {
+"n/a": 12
+},
+"whatAura": {
+"n/a": 12
+},
+"whichSpell": {
+"ev": "spellID=S name=S texture=S notInterruptible=S",
+"n/a": 12,
+"no": 1
+}
+},
+"party:friendly-player": {
+"anyAura": {
+"ev": "GetAuraSlots counts readable",
+"no": 25,
+"yes": 1
+},
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 26
+},
+"dispellable": {
+"n/a": 26
+},
+"myAura": {
+"ev": "GetAuraSlots counts readable",
+"no": 25,
+"yes": 1
+},
+"stacksDuration": {
+"n/a": 26
+},
+"whatAura": {
+"n/a": 26
+},
+"whichSpell": {
+"ev": "spellID=S name=S texture=S notInterruptible=S",
+"n/a": 25,
+"no": 1
+}
+},
+"player": {
+"anyAura": {
+"ev": "GetAuraSlots counts readable",
+"no": 25,
+"yes": 1
+},
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 26
+},
+"dispellable": {
+"n/a": 26
+},
+"myAura": {
+"ev": "GetAuraSlots counts readable",
+"no": 25,
+"yes": 1
+},
+"stacksDuration": {
+"n/a": 26
+},
+"whatAura": {
+"n/a": 26
+},
+"whichSpell": {
+"ev": "spellID=C name=C texture=C notInterruptible=C",
+"n/a": 25,
+"yes": 1
+}
+},
+"raid:friendly-player": {
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 26
+},
+"whichSpell": {
+"n/a": 26
+}
+},
+"target:friendly-player": {
+"anyAura": {
+"ev": "aura APIs error",
+"no": 3
+},
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 3
+},
+"dispellable": {
+"n/a": 3
+},
+"myAura": {
+"ev": "aura APIs error",
+"no": 3
+},
+"stacksDuration": {
+"n/a": 3
+},
+"whatAura": {
+"n/a": 3
+},
+"whichSpell": {
+"n/a": 3
+}
+},
+"target:hostile-npc": {
+"anyAura": {
+"ev": "aura APIs error",
+"no": 2
+},
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 2
+},
+"dispellable": {
+"n/a": 2
+},
+"myAura": {
+"ev": "aura APIs error",
+"no": 2
+},
+"stacksDuration": {
+"n/a": 2
+},
+"whatAura": {
+"n/a": 2
+},
+"whichSpell": {
+"n/a": 2
+}
+},
+"target:hostile-player": {
+"anyAura": {
+"ev": "aura APIs error",
+"no": 9
+},
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 9
+},
+"dispellable": {
+"n/a": 9
+},
+"myAura": {
+"ev": "aura APIs error",
+"no": 9
+},
+"stacksDuration": {
+"n/a": 9
+},
+"whatAura": {
+"n/a": 9
+},
+"whichSpell": {
+"ev": "spellID=S name=S texture=S notInterruptible=S",
+"n/a": 8,
+"no": 1
+}
+},
+"targettarget:friendly-npc": {
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 1
+},
+"whichSpell": {
+"n/a": 1
+}
+},
+"targettarget:friendly-player": {
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 6
+},
+"whichSpell": {
+"ev": "spellID=S name=S texture=S notInterruptible=S",
+"n/a": 5,
+"no": 1
+}
+},
+"targettarget:hostile-player": {
+"casting": {
+"ev": "idle (nil return is readable)",
+"yes": 3
+},
+"whichSpell": {
+"n/a": 3
+}
+}
+}
+},
+"matrix": {
+"C_DamageMeter.GetCombatSessionFromType": {
+".combatSources": {
+"global": {
+"combat": {
+"code": "K",
+"counts": {
+"K": 24
+}
+},
+"restricted": {
+"code": "K",
+"counts": {
+"K": 26
+}
+}
+}
+},
+".durationSeconds": {
+"global": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 25
+}
+}
+}
+},
+".maxAmount": {
+"global": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+}
+},
+".totalAmount": {
+"global": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+}
+},
+"1": {
+"global": {
+"combat": {
+"code": "T",
+"counts": {
+"T": 24
+}
+},
+"restricted": {
+"code": "K",
+"counts": {
+"K": 26
+}
+}
+}
+}
+},
+"C_DamageMeter.IsDamageMeterAvailable": {
+"1": {
+"global": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+}
+},
+"2": {
+"global": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+}
+}
+},
+"C_Map.GetPlayerMapPosition": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 20
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 11
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 8
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+}
+}
+},
+"C_Spell.IsSpellInRange": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 20
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 11
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 8
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+}
+}
+},
+"CanCompareUnitTokens": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 8
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+}
+},
+"CheckInteractDistance": {
+"1": {
+"mouseover:friendly-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+}
+},
+"GetPlayerFacing": {
+"1": {
+"player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+}
+}
+},
+"GetRaidTargetIndex": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 20
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 11
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 8
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+}
+}
+},
+"GetUnitSpeed": {
+"current": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 25
+}
+}
+},
+"player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 25
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 25
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+},
+"flight": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 25
+}
+}
+},
+"player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 25
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 25
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+},
+"run": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 25
+}
+}
+},
+"player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 25
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 25
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+},
+"swim": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 25
+}
+}
+},
+"player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 25
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 25
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+}
+},
+"IsFalling": {
+"1": {
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+}
+}
+},
+"IsFlying": {
+"1": {
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+}
+}
+},
+"IsSwimming": {
+"1": {
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+}
+}
+},
+"ShouldUnitIdentityBeSecret": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 8
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+}
+},
+"UnitAffectingCombat": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 8
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+}
+},
+"UnitCanAttack": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 8
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+}
+},
+"UnitCastingDuration": {
+"1": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "T",
+"counts": {
+"T": 7
+}
+},
+"restricted": {
+"code": "T",
+"counts": {
+"T": 1
+}
+}
+},
+"party:friendly-player": {
+"restricted": {
+"code": "T",
+"counts": {
+"T": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "K",
+"counts": {
+"K": 1
+}
+}
+},
+"target:hostile-player": {
+"restricted": {
+"code": "T",
+"counts": {
+"T": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"restricted": {
+"code": "T",
+"counts": {
+"T": 1
+}
+}
+}
+}
+},
+"UnitCastingInfo": {
+"10": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 7
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"party:friendly-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"target:hostile-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+}
+},
+"11": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 7
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"party:friendly-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"target:hostile-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+}
+},
+"castID": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 7
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"party:friendly-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"target:hostile-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+}
+},
+"endTimeMS": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 7
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"party:friendly-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"target:hostile-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+}
+},
+"isTradeSkill": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 7
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"party:friendly-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"target:hostile-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+}
+},
+"name": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "N*",
+"counts": {
+"N": 22,
+"S": 7
+}
+},
+"restricted": {
+"code": "N*",
+"counts": {
+"N": 12,
+"S": 1
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N*",
+"counts": {
+"N": 25,
+"S": 1
+}
+}
+},
+"player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N*",
+"counts": {
+"C": 1,
+"N": 25
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 11
+}
+},
+"restricted": {
+"code": "N*",
+"counts": {
+"N": 8,
+"S": 1
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 8
+}
+},
+"restricted": {
+"code": "N*",
+"counts": {
+"N": 5,
+"S": 1
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+}
+},
+"notInterruptible": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 7
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"party:friendly-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"target:hostile-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+}
+},
+"spellID": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 7
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"party:friendly-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"target:hostile-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+}
+},
+"startTimeMS": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 7
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"party:friendly-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"target:hostile-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+}
+},
+"text": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 7
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"party:friendly-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"target:hostile-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+}
+},
+"texture": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 7
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"party:friendly-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"target:hostile-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+}
+}
+},
+"UnitChannelDuration": {
+"1": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "T",
+"counts": {
+"T": 2
+}
+}
+}
+}
+},
+"UnitChannelInfo": {
+"10": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+}
+},
+"11": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+}
+},
+"9": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+}
+},
+"endTimeMS": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+}
+},
+"isTradeSkill": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+}
+},
+"name": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "N*",
+"counts": {
+"N": 27,
+"S": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 13
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 11
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 8
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+}
+},
+"notInterruptible": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+}
+},
+"spellID": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+}
+},
+"startTimeMS": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+}
+},
+"text": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+}
+},
+"texture": {
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+}
+}
+},
+"UnitClass": {
+"classFile": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 5
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+},
+"classID": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 5
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+},
+"className": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 5
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+}
+},
+"UnitDetailedThreatSituation": {
+"isTanking": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 20
+}
+},
+"restricted": {
+"code": "N*",
+"counts": {
+"N": 11,
+"S": 1
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 11
+}
+},
+"restricted": {
+"code": "N*",
+"counts": {
+"C": 1,
+"N": 8
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 8
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+}
+},
+"rawPct": {
+"nameplate:hostile-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"target:hostile-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+}
+},
+"rawThreat": {
+"nameplate:hostile-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"target:hostile-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+}
+},
+"scaledPct": {
+"nameplate:hostile-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"target:hostile-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+}
+},
+"status": {
+"nameplate:hostile-player": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"target:hostile-player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+}
+}
+},
+"UnitExists": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 8
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+}
+},
+"UnitFullName": {
+"name": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 5
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+},
+"realm": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 5
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+}
+},
+"UnitGUID": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 5
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+}
+},
+"UnitGetIncomingHeals": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 20
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 11
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+}
+}
+},
+"UnitGetTotalAbsorbs": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+}
+},
+"UnitGetTotalHealAbsorbs": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+}
+},
+"UnitHealth": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+}
+},
+"UnitHealthMax": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+}
+},
+"UnitHealthPercent": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+}
+},
+"UnitInRange": {
+"checked": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+},
+"inRange": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+}
+},
+"UnitIsDeadOrGhost": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 8
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+}
+},
+"UnitIsEnemy": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 8
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+}
+},
+"UnitIsFriend": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 8
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+}
+},
+"UnitIsPlayer": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 8
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+}
+},
+"UnitIsUnit(u,player)": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 5
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+}
+},
+"UnitLevel": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 8
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+}
+},
+"UnitName": {
+"name": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 8
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+},
+"realm": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 8
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+}
+},
+"UnitPosition": {
+"mapID": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 8
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+},
+"x": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 20
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 11
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 8
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+}
+},
+"y": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 20
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 11
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 8
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+}
+},
+"z": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 20
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 11
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 8
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+}
+}
+},
+"UnitPower": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+}
+},
+"UnitPowerMax": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 24
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "S",
+"counts": {
+"S": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+}
+},
+"UnitPowerType": {
+"3": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 20
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 11
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 8
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+}
+},
+"4": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 20
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 11
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 8
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+}
+},
+"5": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 20
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 11
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 8
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+}
+},
+"powerToken": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 8
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+},
+"powerType": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 8
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+}
+},
+"UnitRace": {
+"raceFile": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 5
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+},
+"raceID": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 5
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+},
+"raceName": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 1
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 20
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 11
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 8
+}
+},
+"restricted": {
+"code": "S*",
+"counts": {
+"C": 1,
+"S": 5
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "S",
+"counts": {
+"S": 2
+}
+},
+"restricted": {
+"code": "S",
+"counts": {
+"S": 3
+}
+}
+}
+}
+},
+"UnitReaction": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 20
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 12
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 24
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 11
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 9
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 1
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 8
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "C",
+"counts": {
+"C": 2
+}
+},
+"restricted": {
+"code": "C",
+"counts": {
+"C": 3
+}
+}
+}
+}
+},
+"UnitThreatSituation": {
+"1": {
+"mouseover:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 4
+}
+}
+},
+"mouseover:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"nameplate:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 20
+}
+},
+"restricted": {
+"code": "N*",
+"counts": {
+"C": 1,
+"N": 11
+}
+}
+},
+"party:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"raid:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 24
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 26
+}
+}
+},
+"target:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+},
+"target:hostile-npc": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 2
+}
+}
+},
+"target:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 11
+}
+},
+"restricted": {
+"code": "N*",
+"counts": {
+"C": 1,
+"N": 8
+}
+}
+},
+"targettarget:friendly-npc": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 1
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"targettarget:friendly-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 8
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 6
+}
+}
+},
+"targettarget:hostile-player": {
+"combat": {
+"code": "N",
+"counts": {
+"N": 2
+}
+},
+"restricted": {
+"code": "N",
+"counts": {
+"N": 3
+}
+}
+}
+}
+},
+"aura:GetAuraDataByIndex[HARMFUL]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+}
+}
+},
+"aura:GetAuraDataByIndex[HARMFUL|PLAYER]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+}
+}
+},
+"aura:GetAuraDataByIndex[HARMFUL|RAID]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+}
+}
+},
+"aura:GetAuraDataByIndex[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+}
+}
+},
+"aura:GetAuraDataByIndex[HELPFUL]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+}
+}
+},
+"aura:GetAuraDataByIndex[HELPFUL|PLAYER]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+}
+}
+},
+"aura:GetAuraSlots[HARMFUL]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+}
+}
+},
+"aura:GetAuraSlots[HARMFUL|PLAYER]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+}
+}
+},
+"aura:GetAuraSlots[HARMFUL|RAID]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+}
+}
+},
+"aura:GetAuraSlots[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+}
+}
+},
+"aura:GetAuraSlots[HELPFUL]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+}
+}
+},
+"aura:GetAuraSlots[HELPFUL|PLAYER]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "N",
+"counts": {
+"N": 1
+}
+}
+}
+}
+},
+"aura:GetUnitAuras[HARMFUL]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "K",
+"counts": {
+"K": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "K",
+"counts": {
+"K": 1
+}
+}
+}
+}
+},
+"aura:GetUnitAuras[HARMFUL|PLAYER]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "K",
+"counts": {
+"K": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "K",
+"counts": {
+"K": 1
+}
+}
+}
+}
+},
+"aura:GetUnitAuras[HARMFUL|RAID]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "K",
+"counts": {
+"K": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "K",
+"counts": {
+"K": 1
+}
+}
+}
+}
+},
+"aura:GetUnitAuras[HARMFUL|RAID_PLAYER_DISPELLABLE]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "K",
+"counts": {
+"K": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "K",
+"counts": {
+"K": 1
+}
+}
+}
+}
+},
+"aura:GetUnitAuras[HELPFUL]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "K",
+"counts": {
+"K": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "K",
+"counts": {
+"K": 1
+}
+}
+}
+}
+},
+"aura:GetUnitAuras[HELPFUL|PLAYER]": {
+"1": {
+"party:friendly-player": {
+"restricted": {
+"code": "K",
+"counts": {
+"K": 1
+}
+}
+},
+"player": {
+"restricted": {
+"code": "K",
+"counts": {
+"K": 1
+}
+}
+}
+}
+},
+"casting:GetSpellCastSecrecy": {
+"1": {
+"player": {
+"restricted": {
+"code": "C",
+"counts": {
+"C": 1
+}
+}
+}
+}
+}
+},
+"runCount": {
+"combat": 24,
+"restricted": 26
+}
+},
+"ring": {
+"sessions": [
+{
+"deaths": {
+"pvp": {
+"Player": 29,
+"secret": 46
+}
+},
+"epoch": 1791580516,
+"events": {
+"ADDON_RESTRICTION_STATE_CHANGED": {
+"-": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 32,
+"present": {
+"1": 32,
+"2": 32
+},
+"secretAny": 0
+}
+}
+},
+"COMBAT_TEXT_UPDATE": {
+"-": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 25,
+"present": {
+"1": 25
+},
+"secretAny": 0
+}
+}
+},
+"DAMAGE_METER_COMBAT_SESSION_UPDATED": {
+"-": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 24610,
+"present": {
+"1": 24610,
+"2": 24610
+},
+"secretAny": 0
+}
+}
+},
+"DAMAGE_METER_CURRENT_SESSION_UPDATED": {
+"-": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 2,
+"present": {},
+"secretAny": 0
+}
+}
+},
+"PLAYER_DEAD": {
+"-": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 1,
+"present": {},
+"secretAny": 0
+}
+}
+},
+"PLAYER_REGEN_DISABLED": {
+"-": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 15,
+"present": {},
+"secretAny": 0
+}
+}
+},
+"PLAYER_REGEN_ENABLED": {
+"-": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 15,
+"present": {},
+"secretAny": 0
+}
+}
+},
+"PLAYER_SWING": {
+"-": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 18,
+"present": {
+"1": 18,
+"2": 18
+},
+"secretAny": 0
+}
+}
+},
+"PLAYER_TARGET_CHANGED": {
+"-": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 59,
+"present": {},
+"secretAny": 0
+}
+}
+},
+"UNIT_ABSORB_AMOUNT_CHANGED": {
+"chain": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 11,
+"present": {
+"1": 11
+},
+"secretAny": 0
+}
+},
+"enemy-player": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 2,
+"present": {
+"1": 2
+},
+"secretAny": 0
+}
+},
+"friendly": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 21,
+"present": {
+"1": 21
+},
+"secretAny": 0
+}
+},
+"nameplate": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 57,
+"present": {
+"1": 57
+},
+"secretAny": 0
+}
+},
+"player": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 2,
+"present": {
+"1": 2
+},
+"secretAny": 0
+}
+},
+"soft": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1
+},
+"secretAny": 0
+}
+},
+"target": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 24,
+"present": {
+"1": 24
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_AURA": {
+"chain": {
+"pvp": {
+"args": {},
+"fields": {
+"addedAuras": 49,
+"isFullUpdate": 134,
+"removedAuraInstanceIDs": 61,
+"updatedAuraInstanceIDs": 36
+},
+"n": 134,
+"present": {
+"1": 134,
+"2": 134
+},
+"secretAny": 134
+}
+},
+"enemy-player": {
+"pvp": {
+"args": {},
+"fields": {
+"addedAuras": 9,
+"isFullUpdate": 16,
+"removedAuraInstanceIDs": 7,
+"updatedAuraInstanceIDs": 1
+},
+"n": 16,
+"present": {
+"1": 16,
+"2": 16
+},
+"secretAny": 16
+}
+},
+"friendly": {
+"pvp": {
+"args": {},
+"fields": {
+"addedAuras": 1166,
+"isFullUpdate": 2325,
+"removedAuraInstanceIDs": 995,
+"updatedAuraInstanceIDs": 466
+},
+"n": 2348,
+"present": {
+"1": 2348,
+"2": 2348
+},
+"secretAny": 2325
+}
+},
+"nameplate": {
+"pvp": {
+"args": {},
+"fields": {
+"addedAuras": 256,
+"isFullUpdate": 542,
+"removedAuraInstanceIDs": 171,
+"updatedAuraInstanceIDs": 156
+},
+"n": 542,
+"present": {
+"1": 542,
+"2": 542
+},
+"secretAny": 542
+}
+},
+"pet": {
+"pvp": {
+"args": {},
+"fields": {
+"addedAuras": 122,
+"isFullUpdate": 273,
+"removedAuraInstanceIDs": 113,
+"updatedAuraInstanceIDs": 42
+},
+"n": 280,
+"present": {
+"1": 280,
+"2": 280
+},
+"secretAny": 273
+}
+},
+"player": {
+"pvp": {
+"args": {},
+"fields": {
+"addedAuras": 65,
+"isFullUpdate": 121,
+"removedAuraInstanceIDs": 57,
+"updatedAuraInstanceIDs": 11
+},
+"n": 123,
+"present": {
+"1": 123,
+"2": 123
+},
+"secretAny": 121
+}
+},
+"soft": {
+"pvp": {
+"args": {},
+"fields": {
+"addedAuras": 52,
+"isFullUpdate": 110,
+"removedAuraInstanceIDs": 45,
+"updatedAuraInstanceIDs": 19
+},
+"n": 110,
+"present": {
+"1": 110,
+"2": 110
+},
+"secretAny": 110
+}
+},
+"target": {
+"pvp": {
+"args": {},
+"fields": {
+"addedAuras": 163,
+"isFullUpdate": 346,
+"removedAuraInstanceIDs": 114,
+"updatedAuraInstanceIDs": 93
+},
+"n": 346,
+"present": {
+"1": 346,
+"2": 346
+},
+"secretAny": 346
+}
+}
+},
+"UNIT_COMBAT": {
+"chain": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 184,
+"present": {
+"1": 184,
+"2": 184,
+"3": 184,
+"4": 184,
+"5": 184
+},
+"secretAny": 0
+}
+},
+"enemy-player": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 9,
+"present": {
+"1": 9,
+"2": 9,
+"3": 9,
+"4": 9,
+"5": 9
+},
+"secretAny": 0
+}
+},
+"friendly": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 2161,
+"present": {
+"1": 2161,
+"2": 2161,
+"3": 2161,
+"4": 2161,
+"5": 2161
+},
+"secretAny": 0
+}
+},
+"nameplate": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 737,
+"present": {
+"1": 737,
+"2": 737,
+"3": 737,
+"4": 737,
+"5": 737
+},
+"secretAny": 0
+}
+},
+"pet": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 426,
+"present": {
+"1": 426,
+"2": 426,
+"3": 426,
+"4": 426,
+"5": 426
+},
+"secretAny": 0
+}
+},
+"player": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 141,
+"present": {
+"1": 141,
+"2": 141,
+"3": 141,
+"4": 141,
+"5": 141
+},
+"secretAny": 0
+}
+},
+"soft": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 117,
+"present": {
+"1": 117,
+"2": 117,
+"3": 117,
+"4": 117,
+"5": 117
+},
+"secretAny": 0
+}
+},
+"target": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 498,
+"present": {
+"1": 498,
+"2": 498,
+"3": 498,
+"4": 498,
+"5": 498
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_DIED": {
+"guid": {
+"pvp": {
+"args": {
+"1": 46
+},
+"fields": {},
+"n": 75,
+"present": {
+"1": 75
+},
+"secretAny": 46
+}
+}
+},
+"UNIT_HEALTH": {
+"chain": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 158,
+"present": {
+"1": 158
+},
+"secretAny": 0
+}
+},
+"enemy-player": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 20,
+"present": {
+"1": 20
+},
+"secretAny": 0
+}
+},
+"friendly": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 2603,
+"present": {
+"1": 2603
+},
+"secretAny": 0
+}
+},
+"nameplate": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 701,
+"present": {
+"1": 701
+},
+"secretAny": 0
+}
+},
+"pet": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 332,
+"present": {
+"1": 332
+},
+"secretAny": 0
+}
+},
+"player": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 182,
+"present": {
+"1": 182
+},
+"secretAny": 0
+}
+},
+"soft": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 136,
+"present": {
+"1": 136
+},
+"secretAny": 0
+}
+},
+"target": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 485,
+"present": {
+"1": 485
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_MAXHEALTH": {
+"chain": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 6,
+"present": {
+"1": 6
+},
+"secretAny": 0
+}
+},
+"friendly": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 143,
+"present": {
+"1": 143
+},
+"secretAny": 0
+}
+},
+"nameplate": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 58,
+"present": {
+"1": 58
+},
+"secretAny": 0
+}
+},
+"pet": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 14,
+"present": {
+"1": 14
+},
+"secretAny": 0
+}
+},
+"player": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 4,
+"present": {
+"1": 4
+},
+"secretAny": 0
+}
+},
+"soft": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 6,
+"present": {
+"1": 6
+},
+"secretAny": 0
+}
+},
+"target": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 26,
+"present": {
+"1": 26
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_SPELLCAST_CHANNEL_START": {
+"chain": {
+"pvp": {
+"args": {
+"3": 1
+},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"3": 1,
+"4": 1
+},
+"secretAny": 1
+}
+},
+"friendly": {
+"pvp": {
+"args": {
+"3": 25
+},
+"fields": {},
+"n": 25,
+"present": {
+"1": 25,
+"3": 25,
+"4": 25
+},
+"secretAny": 25
+}
+},
+"nameplate": {
+"pvp": {
+"args": {
+"3": 2
+},
+"fields": {},
+"n": 2,
+"present": {
+"1": 2,
+"3": 2,
+"4": 2
+},
+"secretAny": 2
+}
+},
+"pet": {
+"pvp": {
+"args": {
+"3": 1
+},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"3": 1,
+"4": 1
+},
+"secretAny": 1
+}
+}
+},
+"UNIT_SPELLCAST_CHANNEL_STOP": {
+"chain": {
+"pvp": {
+"args": {
+"3": 1
+},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"3": 1,
+"5": 1
+},
+"secretAny": 1
+}
+},
+"friendly": {
+"pvp": {
+"args": {
+"3": 25,
+"4": 1
+},
+"fields": {},
+"n": 25,
+"present": {
+"1": 25,
+"3": 25,
+"4": 1,
+"5": 25
+},
+"secretAny": 25
+}
+},
+"nameplate": {
+"pvp": {
+"args": {
+"3": 1
+},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"3": 1,
+"5": 1
+},
+"secretAny": 1
+}
+},
+"pet": {
+"pvp": {
+"args": {
+"3": 1
+},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"3": 1,
+"5": 1
+},
+"secretAny": 1
+}
+}
+},
+"UNIT_SPELLCAST_CHANNEL_UPDATE": {
+"friendly": {
+"pvp": {
+"args": {
+"3": 3
+},
+"fields": {},
+"n": 3,
+"present": {
+"1": 3,
+"3": 3,
+"4": 3
+},
+"secretAny": 3
+}
+}
+},
+"UNIT_SPELLCAST_DELAYED": {
+"friendly": {
+"pvp": {
+"args": {
+"2": 46,
+"3": 46
+},
+"fields": {},
+"n": 46,
+"present": {
+"1": 46,
+"2": 46,
+"3": 46,
+"4": 46
+},
+"secretAny": 46
+}
+},
+"nameplate": {
+"pvp": {
+"args": {
+"2": 4,
+"3": 4
+},
+"fields": {},
+"n": 4,
+"present": {
+"1": 4,
+"2": 4,
+"3": 4,
+"4": 4
+},
+"secretAny": 4
+}
+},
+"soft": {
+"pvp": {
+"args": {
+"2": 1,
+"3": 1
+},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1
+},
+"secretAny": 1
+}
+},
+"target": {
+"pvp": {
+"args": {
+"2": 2,
+"3": 2
+},
+"fields": {},
+"n": 2,
+"present": {
+"1": 2,
+"2": 2,
+"3": 2,
+"4": 2
+},
+"secretAny": 2
+}
+}
+},
+"UNIT_SPELLCAST_FAILED": {
+"chain": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 20,
+"present": {
+"1": 20,
+"2": 20,
+"3": 20
+},
+"secretAny": 0
+}
+},
+"friendly": {
+"pvp": {
+"args": {
+"2": 8,
+"3": 8
+},
+"fields": {},
+"n": 187,
+"present": {
+"1": 187,
+"2": 187,
+"3": 187,
+"4": 8
+},
+"secretAny": 8
+}
+},
+"player": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 179,
+"present": {
+"1": 179,
+"2": 179,
+"3": 179
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_SPELLCAST_FAILED_QUIET": {
+"chain": {
+"pvp": {
+"args": {
+"2": 1,
+"3": 1
+},
+"fields": {},
+"n": 2,
+"present": {
+"1": 2,
+"2": 2,
+"3": 2,
+"4": 1
+},
+"secretAny": 1
+}
+},
+"friendly": {
+"pvp": {
+"args": {
+"2": 3,
+"3": 3
+},
+"fields": {},
+"n": 30,
+"present": {
+"1": 30,
+"2": 30,
+"3": 30,
+"4": 3
+},
+"secretAny": 3
+}
+},
+"player": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 27,
+"present": {
+"1": 27,
+"2": 27,
+"3": 27
+},
+"secretAny": 0
+}
+}
+},
+"UNIT_SPELLCAST_INTERRUPTED": {
+"chain": {
+"pvp": {
+"args": {
+"2": 1,
+"3": 1
+},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"2": 1,
+"3": 1,
+"5": 1
+},
+"secretAny": 1
+}
+},
+"friendly": {
+"pvp": {
+"args": {
+"2": 41,
+"3": 41,
+"4": 5
+},
+"fields": {},
+"n": 45,
+"present": {
+"1": 45,
+"2": 45,
+"3": 45,
+"4": 5,
+"5": 42
+},
+"secretAny": 41
+}
+},
+"nameplate": {
+"pvp": {
+"args": {
+"2": 3,
+"3": 3,
+"4": 1
+},
+"fields": {},
+"n": 3,
+"present": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 1,
+"5": 3
+},
+"secretAny": 3
+}
+},
+"player": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 4,
+"present": {
+"1": 4,
+"2": 4,
+"3": 4,
+"5": 1
+},
+"secretAny": 0
+}
+},
+"soft": {
+"pvp": {
+"args": {
+"2": 1,
+"3": 1
+},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"2": 1,
+"3": 1,
+"5": 1
+},
+"secretAny": 1
+}
+},
+"target": {
+"pvp": {
+"args": {
+"2": 3,
+"3": 3,
+"4": 1
+},
+"fields": {},
+"n": 3,
+"present": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 1,
+"5": 3
+},
+"secretAny": 3
+}
+}
+},
+"UNIT_SPELLCAST_SENT": {
+"chain": {
+"pvp": {
+"args": {
+"2": 7
+},
+"fields": {},
+"n": 9,
+"present": {
+"1": 9,
+"2": 7,
+"3": 9,
+"4": 9
+},
+"secretAny": 7
+}
+},
+"enemy-player": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"3": 1,
+"4": 1
+},
+"secretAny": 0
+}
+},
+"friendly": {
+"pvp": {
+"args": {
+"2": 44
+},
+"fields": {},
+"n": 68,
+"present": {
+"1": 68,
+"2": 47,
+"3": 68,
+"4": 68
+},
+"secretAny": 44
+}
+},
+"player": {
+"pvp": {
+"args": {
+"2": 44
+},
+"fields": {},
+"n": 68,
+"present": {
+"1": 68,
+"2": 47,
+"3": 68,
+"4": 68
+},
+"secretAny": 44
+}
+}
+},
+"UNIT_SPELLCAST_START": {
+"enemy-player": {
+"pvp": {
+"args": {
+"2": 1,
+"3": 1
+},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1
+},
+"secretAny": 1
+}
+},
+"friendly": {
+"pvp": {
+"args": {
+"2": 165,
+"3": 168
+},
+"fields": {},
+"n": 173,
+"present": {
+"1": 173,
+"2": 170,
+"3": 173,
+"4": 173
+},
+"secretAny": 168
+}
+},
+"nameplate": {
+"pvp": {
+"args": {
+"2": 9,
+"3": 9
+},
+"fields": {},
+"n": 9,
+"present": {
+"1": 9,
+"2": 9,
+"3": 9,
+"4": 9
+},
+"secretAny": 9
+}
+},
+"pet": {
+"pvp": {
+"args": {
+"2": 1,
+"3": 1
+},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1
+},
+"secretAny": 1
+}
+},
+"player": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 5,
+"present": {
+"1": 5,
+"2": 5,
+"3": 5,
+"4": 5
+},
+"secretAny": 0
+}
+},
+"target": {
+"pvp": {
+"args": {
+"2": 2,
+"3": 2
+},
+"fields": {},
+"n": 2,
+"present": {
+"1": 2,
+"2": 2,
+"3": 2,
+"4": 2
+},
+"secretAny": 2
+}
+}
+},
+"UNIT_SPELLCAST_STOP": {
+"chain": {
+"pvp": {
+"args": {
+"2": 3,
+"3": 3
+},
+"fields": {},
+"n": 3,
+"present": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 3
+},
+"secretAny": 3
+}
+},
+"enemy-player": {
+"pvp": {
+"args": {
+"2": 1,
+"3": 1
+},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1
+},
+"secretAny": 1
+}
+},
+"friendly": {
+"pvp": {
+"args": {
+"2": 165,
+"3": 165
+},
+"fields": {},
+"n": 170,
+"present": {
+"1": 170,
+"2": 170,
+"3": 170,
+"4": 170
+},
+"secretAny": 165
+}
+},
+"nameplate": {
+"pvp": {
+"args": {
+"2": 13,
+"3": 13
+},
+"fields": {},
+"n": 13,
+"present": {
+"1": 13,
+"2": 13,
+"3": 13,
+"4": 13
+},
+"secretAny": 13
+}
+},
+"player": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 5,
+"present": {
+"1": 5,
+"2": 5,
+"3": 5,
+"4": 5
+},
+"secretAny": 0
+}
+},
+"soft": {
+"pvp": {
+"args": {
+"2": 1,
+"3": 1
+},
+"fields": {},
+"n": 1,
+"present": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1
+},
+"secretAny": 1
+}
+},
+"target": {
+"pvp": {
+"args": {
+"2": 3,
+"3": 3
+},
+"fields": {},
+"n": 3,
+"present": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 3
+},
+"secretAny": 3
+}
+}
+},
+"UNIT_SPELLCAST_SUCCEEDED": {
+"chain": {
+"pvp": {
+"args": {
+"2": 1,
+"3": 1
+},
+"fields": {},
+"n": 9,
+"present": {
+"1": 9,
+"2": 9,
+"3": 9,
+"4": 1
+},
+"secretAny": 1
+}
+},
+"enemy-player": {
+"pvp": {
+"args": {
+"2": 1,
+"3": 1
+},
+"fields": {},
+"n": 2,
+"present": {
+"1": 2,
+"2": 2,
+"3": 2,
+"4": 1
+},
+"secretAny": 1
+}
+},
+"friendly": {
+"pvp": {
+"args": {
+"2": 113,
+"3": 113
+},
+"fields": {},
+"n": 181,
+"present": {
+"1": 181,
+"2": 181,
+"3": 181,
+"4": 117
+},
+"secretAny": 113
+}
+},
+"nameplate": {
+"pvp": {
+"args": {
+"2": 10,
+"3": 10
+},
+"fields": {},
+"n": 10,
+"present": {
+"1": 10,
+"2": 10,
+"3": 10,
+"4": 10
+},
+"secretAny": 10
+}
+},
+"player": {
+"pvp": {
+"args": {},
+"fields": {},
+"n": 68,
+"present": {
+"1": 68,
+"2": 68,
+"3": 68,
+"4": 4
+},
+"secretAny": 0
+}
+}
+}
+},
+"kind": "combat"
+}
+]
+},
+"schema": "foreverdump.svinspect/4",
+"svKey": "16690126:1791581167",
+"tokens": [
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "focus",
+"gfamily": "focus",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "focustarget",
+"gfamily": "chain",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "focustargettarget",
+"gfamily": "chain",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 2,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "mouseover",
+"gfamily": "chain",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 2,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "mouseovertarget",
+"gfamily": "chain",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "npc",
+"gfamily": "npc",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 1,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "partyNtarget",
+"gfamily": "chain",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 1,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "partyNtargettarget",
+"gfamily": "chain",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "pet",
+"gfamily": "pet",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "pettarget",
+"gfamily": "chain",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 1,
+"share": 1.0
+},
+"class": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"guid": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"healthMax": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"isMe": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"isTarget": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"powerMax": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "player",
+"gfamily": "player",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 5,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 5,
+"share": 1.0
+},
+"class": {
+"code": "C",
+"n": 5,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 5,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 5,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 5,
+"share": 1.0
+},
+"guid": {
+"code": "C",
+"n": 5,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 5,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 5,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 5,
+"share": 1.0
+},
+"isMe": {
+"code": "C",
+"n": 5,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 5,
+"share": 1.0
+},
+"isTarget": {
+"code": "C",
+"n": 5,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 5,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 5,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 5,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 5,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 5,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 5,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "raidN",
+"gfamily": "friendly",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 2,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 2,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 7,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 2,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 2,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 2,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 2,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 2,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 2,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 2,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 2,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "raidNtarget",
+"gfamily": "chain",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 2,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 2,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 2,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 2,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 2,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 2,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 2,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 2,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "raidNtargettarget",
+"gfamily": "chain",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "softenemy",
+"gfamily": "soft",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "softfriend",
+"gfamily": "soft",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "softinteract",
+"gfamily": "soft",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "target",
+"gfamily": "target",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "targettarget",
+"gfamily": "chain",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "targettargettarget",
+"gfamily": "chain",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "vehicle",
+"gfamily": "pet",
+"state": "combat"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 4,
+"share": 1.0
+},
+"class": {
+"code": "C",
+"n": 4,
+"share": 0.5
+},
+"combat": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 71,
+"share": 1.0
+},
+"guid": {
+"code": "C",
+"n": 4,
+"share": 0.5
+},
+"health": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"healthMax": {
+"code": "C",
+"n": 4,
+"share": 0.5
+},
+"idSecret": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"isMe": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"isTarget": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"powerMax": {
+"code": "C",
+"n": 4,
+"share": 0.5
+},
+"range28": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 4,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "arenaN",
+"gfamily": "enemy-player",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 65,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "arenaNtarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 68,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "arenapetN",
+"gfamily": "pet",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 104,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "bossN",
+"gfamily": "npc",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 104,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "bossNtarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 28,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "focus",
+"gfamily": "focus",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 28,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "focustarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 28,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "focustargettarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 21,
+"share": 0.952
+},
+"class": {
+"code": "C",
+"n": 21,
+"share": 0.667
+},
+"combat": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 100,
+"share": 1.0
+},
+"guid": {
+"code": "C",
+"n": 21,
+"share": 0.762
+},
+"health": {
+"code": "S",
+"n": 21,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 21,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"isMe": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"isTarget": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 21,
+"share": 0.762
+},
+"power": {
+"code": "S",
+"n": 21,
+"share": 0.81
+},
+"powerMax": {
+"code": "S",
+"n": 21,
+"share": 0.81
+},
+"range28": {
+"code": "C",
+"n": 17,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 21,
+"share": 0.81
+},
+"threat": {
+"code": "N",
+"n": 21,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "mouseover",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 3,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 3,
+"share": 1.0
+},
+"class": {
+"code": "C",
+"n": 3,
+"share": 0.667
+},
+"combat": {
+"code": "C",
+"n": 3,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 3,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 95,
+"share": 1.0
+},
+"guid": {
+"code": "C",
+"n": 3,
+"share": 0.667
+},
+"health": {
+"code": "S",
+"n": 3,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 3,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 3,
+"share": 1.0
+},
+"isMe": {
+"code": "C",
+"n": 3,
+"share": 0.667
+},
+"isPlayer": {
+"code": "C",
+"n": 3,
+"share": 1.0
+},
+"isTarget": {
+"code": "C",
+"n": 3,
+"share": 0.667
+},
+"level": {
+"code": "C",
+"n": 3,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 3,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 3,
+"share": 0.667
+},
+"powerMax": {
+"code": "S",
+"n": 3,
+"share": 0.667
+},
+"range28": {
+"code": "C",
+"n": 3,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 3,
+"share": 0.667
+},
+"threat": {
+"code": "N",
+"n": 3,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "mouseovertarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 40,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 40,
+"share": 0.975
+},
+"class": {
+"code": "S",
+"n": 40,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 40,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 40,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 563,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 40,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 40,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 40,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 40,
+"share": 1.0
+},
+"isMe": {
+"code": "C",
+"n": 40,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 40,
+"share": 1.0
+},
+"isTarget": {
+"code": "C",
+"n": 40,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 40,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 40,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 40,
+"share": 0.975
+},
+"powerMax": {
+"code": "S",
+"n": 40,
+"share": 0.975
+},
+"range28": {
+"code": "C",
+"n": 10,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 40,
+"share": 0.975
+},
+"threat": {
+"code": "N",
+"n": 40,
+"share": 0.975
+}
+},
+"ctx": "pvp",
+"family": "nameplateN",
+"gfamily": "nameplate",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 18,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 527,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 18,
+"share": 0.944
+},
+"level": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 18,
+"share": 0.944
+},
+"power": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"range28": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 18,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "nameplateNtarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 28,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "npc",
+"gfamily": "npc",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 43,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 43,
+"share": 0.977
+},
+"class": {
+"code": "C",
+"n": 43,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 43,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 43,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 54,
+"share": 1.0
+},
+"guid": {
+"code": "C",
+"n": 43,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 43,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 43,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 43,
+"share": 1.0
+},
+"isMe": {
+"code": "C",
+"n": 43,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 43,
+"share": 1.0
+},
+"isTarget": {
+"code": "C",
+"n": 43,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 43,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 43,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 43,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 43,
+"share": 1.0
+},
+"range28": {
+"code": "C",
+"n": 41,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 43,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 43,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "partyN",
+"gfamily": "friendly",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 147,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 147,
+"share": 0.986
+},
+"class": {
+"code": "S",
+"n": 147,
+"share": 0.707
+},
+"combat": {
+"code": "C",
+"n": 147,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 147,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 234,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 147,
+"share": 0.714
+},
+"health": {
+"code": "S",
+"n": 147,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 147,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 147,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 147,
+"share": 0.694
+},
+"isPlayer": {
+"code": "C",
+"n": 147,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 147,
+"share": 0.701
+},
+"level": {
+"code": "C",
+"n": 147,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 147,
+"share": 0.932
+},
+"power": {
+"code": "S",
+"n": 147,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 147,
+"share": 1.0
+},
+"range28": {
+"code": "C",
+"n": 73,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 147,
+"share": 0.986
+},
+"threat": {
+"code": "N",
+"n": 147,
+"share": 0.986
+}
+},
+"ctx": "pvp",
+"family": "partyNtarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 109,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 109,
+"share": 0.982
+},
+"class": {
+"code": "S",
+"n": 109,
+"share": 0.798
+},
+"combat": {
+"code": "C",
+"n": 109,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 109,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 231,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 109,
+"share": 0.798
+},
+"health": {
+"code": "S",
+"n": 109,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 109,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 109,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 109,
+"share": 0.771
+},
+"isPlayer": {
+"code": "C",
+"n": 109,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 109,
+"share": 0.771
+},
+"level": {
+"code": "C",
+"n": 109,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 109,
+"share": 0.963
+},
+"power": {
+"code": "S",
+"n": 109,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 109,
+"share": 1.0
+},
+"range28": {
+"code": "C",
+"n": 45,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 109,
+"share": 0.982
+},
+"threat": {
+"code": "N",
+"n": 109,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "partyNtargettarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 18,
+"share": 1.0
+},
+"class": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 53,
+"share": 1.0
+},
+"guid": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"isMe": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"isTarget": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"range28": {
+"code": "C",
+"n": 17,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 18,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "partypetN",
+"gfamily": "pet",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 9,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 9,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 9,
+"share": 0.889
+},
+"combat": {
+"code": "C",
+"n": 9,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 9,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 9,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 9,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 9,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 9,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 9,
+"share": 0.889
+},
+"isPlayer": {
+"code": "C",
+"n": 9,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 9,
+"share": 0.889
+},
+"level": {
+"code": "C",
+"n": 9,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 9,
+"share": 0.889
+},
+"power": {
+"code": "S",
+"n": 9,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 9,
+"share": 1.0
+},
+"range28": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 9,
+"share": 0.889
+},
+"threat": {
+"code": "N",
+"n": 9,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "partypetNtarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 6,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 6,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 6,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 6,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 6,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 16,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 6,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 6,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 6,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 6,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 6,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 6,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 6,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 6,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 6,
+"share": 0.667
+},
+"power": {
+"code": "S",
+"n": 6,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 6,
+"share": 1.0
+},
+"range28": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 6,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 6,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "partypetNtargettarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 29,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "pet",
+"gfamily": "pet",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 28,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "pettarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 30,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 30,
+"share": 1.0
+},
+"class": {
+"code": "C",
+"n": 30,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 30,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 30,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 30,
+"share": 1.0
+},
+"guid": {
+"code": "C",
+"n": 30,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 30,
+"share": 1.0
+},
+"healthMax": {
+"code": "C",
+"n": 30,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 30,
+"share": 1.0
+},
+"isMe": {
+"code": "C",
+"n": 30,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 30,
+"share": 1.0
+},
+"isTarget": {
+"code": "C",
+"n": 30,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 30,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 30,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 30,
+"share": 1.0
+},
+"powerMax": {
+"code": "C",
+"n": 30,
+"share": 1.0
+},
+"range28": {
+"code": "C",
+"n": 30,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 30,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 30,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "player",
+"gfamily": "player",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 24,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 24,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 24,
+"share": 0.833
+},
+"combat": {
+"code": "C",
+"n": 24,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 24,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 35,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 24,
+"share": 0.833
+},
+"health": {
+"code": "S",
+"n": 24,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 24,
+"share": 0.833
+},
+"idSecret": {
+"code": "C",
+"n": 24,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 24,
+"share": 0.833
+},
+"isPlayer": {
+"code": "C",
+"n": 24,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 24,
+"share": 0.833
+},
+"level": {
+"code": "C",
+"n": 24,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 24,
+"share": 0.958
+},
+"power": {
+"code": "S",
+"n": 24,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 24,
+"share": 0.833
+},
+"range28": {
+"code": "C",
+"n": 7,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 24,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 24,
+"share": 0.917
+}
+},
+"ctx": "pvp",
+"family": "playertarget",
+"gfamily": "target",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 21,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 21,
+"share": 0.952
+},
+"combat": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 35,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 21,
+"share": 0.952
+},
+"health": {
+"code": "S",
+"n": 21,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 21,
+"share": 0.952
+},
+"idSecret": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 21,
+"share": 0.952
+},
+"isPlayer": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 21,
+"share": 0.952
+},
+"level": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 21,
+"share": 0.857
+},
+"power": {
+"code": "S",
+"n": 21,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 21,
+"share": 0.952
+},
+"range28": {
+"code": "C",
+"n": 6,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 21,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "playertargettarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 250,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 250,
+"share": 0.996
+},
+"class": {
+"code": "C",
+"n": 250,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 250,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 250,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 762,
+"share": 1.0
+},
+"guid": {
+"code": "C",
+"n": 250,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 250,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 250,
+"share": 0.92
+},
+"idSecret": {
+"code": "C",
+"n": 250,
+"share": 1.0
+},
+"isMe": {
+"code": "C",
+"n": 250,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 250,
+"share": 1.0
+},
+"isTarget": {
+"code": "C",
+"n": 250,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 250,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 250,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 250,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 250,
+"share": 0.92
+},
+"range28": {
+"code": "C",
+"n": 226,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 250,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 250,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "raidN",
+"gfamily": "friendly",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 495,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 495,
+"share": 0.97
+},
+"class": {
+"code": "S",
+"n": 495,
+"share": 0.646
+},
+"combat": {
+"code": "C",
+"n": 495,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 495,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 1344,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 495,
+"share": 0.655
+},
+"health": {
+"code": "S",
+"n": 495,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 495,
+"share": 0.99
+},
+"idSecret": {
+"code": "C",
+"n": 495,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 495,
+"share": 0.64
+},
+"isPlayer": {
+"code": "C",
+"n": 495,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 495,
+"share": 0.665
+},
+"level": {
+"code": "C",
+"n": 495,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 495,
+"share": 0.903
+},
+"power": {
+"code": "S",
+"n": 495,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 495,
+"share": 0.99
+},
+"range28": {
+"code": "C",
+"n": 281,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 495,
+"share": 0.986
+},
+"threat": {
+"code": "N",
+"n": 495,
+"share": 0.98
+}
+},
+"ctx": "pvp",
+"family": "raidNtarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 328,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 328,
+"share": 0.957
+},
+"class": {
+"code": "S",
+"n": 329,
+"share": 0.799
+},
+"combat": {
+"code": "C",
+"n": 328,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 328,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 1167,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 329,
+"share": 0.805
+},
+"health": {
+"code": "S",
+"n": 328,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 328,
+"share": 0.997
+},
+"idSecret": {
+"code": "C",
+"n": 328,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 328,
+"share": 0.777
+},
+"isPlayer": {
+"code": "C",
+"n": 328,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 328,
+"share": 0.79
+},
+"level": {
+"code": "C",
+"n": 328,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 329,
+"share": 0.954
+},
+"power": {
+"code": "S",
+"n": 328,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 328,
+"share": 0.997
+},
+"range28": {
+"code": "C",
+"n": 160,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 328,
+"share": 0.979
+},
+"threat": {
+"code": "N",
+"n": 328,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "raidNtargettarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 53,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 53,
+"share": 1.0
+},
+"class": {
+"code": "C",
+"n": 53,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 53,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 53,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 588,
+"share": 1.0
+},
+"guid": {
+"code": "C",
+"n": 53,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 53,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 53,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 53,
+"share": 1.0
+},
+"isMe": {
+"code": "C",
+"n": 53,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 53,
+"share": 1.0
+},
+"isTarget": {
+"code": "C",
+"n": 53,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 53,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 53,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 53,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 53,
+"share": 1.0
+},
+"range28": {
+"code": "C",
+"n": 50,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 53,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 53,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "raidpetN",
+"gfamily": "pet",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 21,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 21,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 48,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 21,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 21,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 21,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 21,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 21,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 21,
+"share": 0.905
+},
+"power": {
+"code": "S",
+"n": 21,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 21,
+"share": 1.0
+},
+"range28": {
+"code": "C",
+"n": 8,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 21,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 21,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "raidpetNtarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 18,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 48,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 18,
+"share": 0.889
+},
+"power": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 18,
+"share": 1.0
+},
+"range28": {
+"code": "C",
+"n": 7,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 18,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 18,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "raidpetNtargettarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 28,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "softenemy",
+"gfamily": "soft",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 4,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 11,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 4,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "softenemytarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 4,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 11,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 4,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 4,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 4,
+"share": 0.5
+}
+},
+"ctx": "pvp",
+"family": "softenemytargettarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 28,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "softfriend",
+"gfamily": "soft",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 1,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 2,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"isMe": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"isTarget": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 1,
+"share": 1.0
+},
+"range28": {
+"code": "C",
+"n": 1,
+"share": 1.0
+},
+"reaction": {
+"code": "N",
+"n": 1,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 1,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "softfriendtarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 28,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "softinteract",
+"gfamily": "soft",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 22,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 22,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 22,
+"share": 0.818
+},
+"combat": {
+"code": "C",
+"n": 22,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 22,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 62,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 22,
+"share": 0.818
+},
+"health": {
+"code": "S",
+"n": 22,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 22,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 22,
+"share": 1.0
+},
+"isMe": {
+"code": "C",
+"n": 22,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 22,
+"share": 1.0
+},
+"isTarget": {
+"code": "C",
+"n": 22,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 22,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 22,
+"share": 0.955
+},
+"power": {
+"code": "S",
+"n": 22,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 22,
+"share": 1.0
+},
+"range28": {
+"code": "C",
+"n": 9,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 22,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 22,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "target",
+"gfamily": "target",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 27,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 27,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 27,
+"share": 0.963
+},
+"combat": {
+"code": "C",
+"n": 27,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 27,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 73,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 27,
+"share": 0.963
+},
+"health": {
+"code": "S",
+"n": 27,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 27,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 27,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 27,
+"share": 0.963
+},
+"isPlayer": {
+"code": "C",
+"n": 27,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 27,
+"share": 0.963
+},
+"level": {
+"code": "C",
+"n": 27,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 27,
+"share": 0.889
+},
+"power": {
+"code": "S",
+"n": 27,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 27,
+"share": 1.0
+},
+"range28": {
+"code": "C",
+"n": 6,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 27,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 27,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "targettarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"canAttack": {
+"code": "C",
+"n": 25,
+"share": 1.0
+},
+"casting": {
+"code": "N",
+"n": 25,
+"share": 1.0
+},
+"class": {
+"code": "S",
+"n": 25,
+"share": 1.0
+},
+"combat": {
+"code": "C",
+"n": 25,
+"share": 1.0
+},
+"dead": {
+"code": "C",
+"n": 25,
+"share": 1.0
+},
+"exists": {
+"code": "C",
+"n": 76,
+"share": 1.0
+},
+"guid": {
+"code": "S",
+"n": 25,
+"share": 1.0
+},
+"health": {
+"code": "S",
+"n": 25,
+"share": 1.0
+},
+"healthMax": {
+"code": "S",
+"n": 25,
+"share": 1.0
+},
+"idSecret": {
+"code": "C",
+"n": 25,
+"share": 1.0
+},
+"isMe": {
+"code": "S",
+"n": 25,
+"share": 1.0
+},
+"isPlayer": {
+"code": "C",
+"n": 25,
+"share": 1.0
+},
+"isTarget": {
+"code": "S",
+"n": 25,
+"share": 1.0
+},
+"level": {
+"code": "C",
+"n": 25,
+"share": 1.0
+},
+"name": {
+"code": "C",
+"n": 25,
+"share": 1.0
+},
+"power": {
+"code": "S",
+"n": 25,
+"share": 1.0
+},
+"powerMax": {
+"code": "S",
+"n": 25,
+"share": 1.0
+},
+"range28": {
+"code": "C",
+"n": 6,
+"share": 1.0
+},
+"reaction": {
+"code": "C",
+"n": 25,
+"share": 1.0
+},
+"threat": {
+"code": "N",
+"n": 25,
+"share": 0.88
+}
+},
+"ctx": "pvp",
+"family": "targettargettarget",
+"gfamily": "chain",
+"state": "restricted"
+},
+{
+"build": "70291",
+"cells": {
+"exists": {
+"code": "C",
+"n": 28,
+"share": 1.0
+}
+},
+"ctx": "pvp",
+"family": "vehicle",
+"gfamily": "pet",
+"state": "restricted"
+}
+]
+}

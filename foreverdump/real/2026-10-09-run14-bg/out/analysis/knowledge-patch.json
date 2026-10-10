@@ -1,0 +1,41 @@
+{
+ "build": "70291",
+ "npcCasts": {},
+ "rules": {
+  "swingLag": [
+   0.0,
+   1.209
+  ]
+ },
+ "schema": "foreverdump.knowledgepatch/1",
+ "spells": {
+  "17364": {
+   "auraId": 17364,
+   "minRecast": 8.855
+  },
+  "8042": {
+   "interrupt": true,
+   "lockout": 2
+  },
+  "8044": {
+   "interrupt": true,
+   "lockout": 2
+  },
+  "8045": {
+   "interrupt": true,
+   "lockout": 2
+  },
+  "8046": {
+   "interrupt": true,
+   "lockout": 2,
+   "minRecast": 89.634
+  },
+  "8056": {
+   "auraId": 8056,
+   "minRecast": 6.021
+  },
+  "8177": {
+   "minRecast": 253.673
+  }
+ }
+}
