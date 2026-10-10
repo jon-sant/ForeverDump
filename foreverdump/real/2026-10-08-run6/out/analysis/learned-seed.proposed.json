@@ -1,0 +1,7556 @@
+{
+ "classes": {},
+ "conflicts": [],
+ "generated": "2026-10-08",
+ "merged": [
+  "log:run3",
+  "log:run4",
+  "log:run5",
+  "log:run6",
+  "sv:run6:70291:2026-10-08"
+ ],
+ "npcs": {
+  "12296": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Sickly Gazelle",
+   "spells": {},
+   "tgt": {}
+  },
+  "2523": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Searing Totem",
+   "spells": {},
+   "tgt": {}
+  },
+  "2630": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Earthbind Totem",
+   "spells": {
+    "3600": 1
+   },
+   "tgt": {
+    "none": 1
+   }
+  },
+  "264850": {
+   "castT": {},
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "interrupted": {},
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Hawk",
+   "spells": {},
+   "tgt": {}
+  },
+  "3243": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Savannah Highmane",
+   "spells": {},
+   "tgt": {}
+  },
+  "3244": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Greater Plainstrider",
+   "spells": {},
+   "tgt": {}
+  },
+  "3254": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Sunscale Lashtail",
+   "spells": {},
+   "tgt": {}
+  },
+  "3268": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Razormane Thornweaver",
+   "spells": {},
+   "tgt": {}
+  },
+  "3415": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Savannah Huntress",
+   "spells": {},
+   "tgt": {}
+  },
+  "3430": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Mangletooth",
+   "spells": {},
+   "tgt": {}
+  },
+  "3573": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "interrupted": {},
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Mana Spring Totem",
+   "spells": {},
+   "tgt": {}
+  },
+  "3678": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Disciple of Naralex",
+   "spells": {},
+   "tgt": {}
+  },
+  "3902": {
+   "castT": {
+    "6350": {
+     "max": 2.253,
+     "med": 2.208,
+     "min": 2.155,
+     "n": 5
+    }
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "interrupted": {},
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Searing Totem II",
+   "spells": {
+    "6350": 6
+   },
+   "tgt": {
+    "npc": 5
+   }
+  },
+  "3903": {
+   "castT": {
+    "6351": {
+     "max": 2.285,
+     "med": 2.262,
+     "min": 2.239,
+     "n": 2
+    }
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Searing Totem III",
+   "spells": {
+    "6351": 4
+   },
+   "tgt": {
+    "npc": 2
+   }
+  },
+  "3906": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Healing Stream Totem II",
+   "spells": {},
+   "tgt": {}
+  },
+  "3912": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Stoneclaw Totem III",
+   "spells": {},
+   "tgt": {}
+  },
+  "4007": {
+   "castT": {
+    "7951": {
+     "max": 2.517,
+     "med": 2.477,
+     "min": 2.433,
+     "n": 8
+    }
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Deepmoss Venomspitter",
+   "spells": {
+    "7951": 8
+   },
+   "tgt": {
+    "me": 8
+   }
+  },
+  "4012": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Pridewing Wyvern",
+   "spells": {
+    "744": 1
+   },
+   "tgt": {
+    "pc": 1
+   }
+  },
+  "4014": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Pridewing Consort",
+   "spells": {},
+   "tgt": {}
+  },
+  "4093": {
+   "castT": {},
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "interrupted": {},
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Galak Wrangler",
+   "spells": {
+    "6660": 2
+   },
+   "tgt": {
+    "pc": 2
+   }
+  },
+  "4094": {
+   "castT": {
+    "6660": {
+     "max": 0.001,
+     "med": 0.001,
+     "min": 0.001,
+     "n": 1
+    }
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "interrupted": {},
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Galak Scout",
+   "spells": {
+    "6660": 10
+   },
+   "tgt": {
+    "pc": 10
+   }
+  },
+  "4095": {
+   "castT": {},
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "interrupted": {},
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Galak Mauler",
+   "spells": {},
+   "tgt": {}
+  },
+  "4096": {
+   "castT": {
+    "939": {
+     "max": 3.062,
+     "med": 3.021,
+     "min": 2.979,
+     "n": 2
+    },
+    "secret": {
+     "max": 3.062,
+     "med": 3.062,
+     "min": 3.062,
+     "n": 1
+    }
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "interrupted": {
+    "939": 1,
+    "?": 1
+   },
+   "interruptible": true,
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Galak Windchaser",
+   "spells": {
+    "939": 3,
+    "secret": 2
+   },
+   "tgt": {
+    "me": 2,
+    "npc": 2
+   }
+  },
+  "4097": {
+   "castT": {},
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "interrupted": {},
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Galak Stormer",
+   "spells": {},
+   "tgt": {}
+  },
+  "4119": {
+   "castT": {
+    "8246": {
+     "max": 3.562,
+     "med": 3.539,
+     "min": 3.438,
+     "n": 5
+    }
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "interrupted": {
+    "8246": 1
+   },
+   "interruptible": true,
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Elder Cloud Serpent",
+   "spells": {
+    "8246": 7
+   },
+   "tgt": {
+    "me": 4,
+    "pc": 1
+   }
+  },
+  "4124": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Needles Cougar",
+   "spells": {},
+   "tgt": {}
+  },
+  "4126": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Crag Stalker",
+   "spells": {},
+   "tgt": {}
+  },
+  "4249": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Pesterhide Snarler",
+   "spells": {},
+   "tgt": {}
+  },
+  "5865": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Dishu",
+   "spells": {},
+   "tgt": {}
+  },
+  "5920": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Stoneskin Totem III",
+   "spells": {},
+   "tgt": {}
+  },
+  "5921": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Strength of Earth Totem II",
+   "spells": {},
+   "tgt": {}
+  },
+  "5925": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Grounding Totem",
+   "spells": {},
+   "tgt": {}
+  },
+  "9525": {
+   "castT": {},
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "interrupted": {},
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Freewind Brave",
+   "spells": {},
+   "tgt": {}
+  }
+ },
+ "proposals": [],
+ "schema": "foreverdump.learned/1",
+ "spells": {
+  "0": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "10": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "100": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1014": {
+   "aura": {
+    "1014": {
+     "dur": {
+      "max": 8.812,
+      "med": 8.812,
+      "min": 8.812,
+      "n": 1
+     },
+     "kind": "DEBUFF",
+     "n": 2
+    }
+   },
+   "auraDur": {
+    "max": 8.812,
+    "med": 8.812,
+    "min": 8.812,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "pc": 4
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 11,
+    "med": 10.5,
+    "min": 10,
+    "n": 8
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Bane of Agony",
+   "samples": 4,
+   "school": 32,
+   "tgt": {
+    "unit": 4
+   }
+  },
+  "102": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "10290": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Devotion Aura",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "10298": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Retribution Aura",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "10444": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "dmg": {
+    "max": 27,
+    "med": 27,
+    "min": 27,
+    "n": 1
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Flametongue Attack",
+   "samples": 0,
+   "school": 4,
+   "tgt": {}
+  },
+  "105": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "107": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1075": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Thorns",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "1079": {
+   "aura": {
+    "1079": {
+     "kind": "DEBUFF",
+     "n": 2
+    }
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "pc": 5
+   },
+   "confidence": "medium",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Rip",
+   "samples": 5,
+   "school": 1,
+   "tgt": {
+    "unit": 5
+   }
+  },
+  "108": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1082": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 13
+   },
+   "confidence": "high",
+   "dmg": {
+    "max": 74,
+    "med": 72,
+    "min": 65,
+    "n": 3
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Claw",
+   "samples": 13,
+   "school": 1,
+   "tgt": {
+    "unit": 13
+   }
+  },
+  "1086": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Demon Armor",
+   "samples": 0,
+   "school": 32,
+   "tgt": {}
+  },
+  "1094": {
+   "aura": {
+    "1094": {
+     "dur": {
+      "max": 5.292,
+      "med": 5.292,
+      "min": 5.292,
+      "n": 1
+     },
+     "kind": "DEBUFF",
+     "n": 2
+    }
+   },
+   "auraDur": {
+    "max": 5.292,
+    "med": 5.292,
+    "min": 5.292,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {
+    "pc": {
+     "max": 2.041,
+     "med": 2.021,
+     "min": 1.972,
+     "n": 4,
+     "promoted": 2.021
+    }
+   },
+   "casts": {
+    "pc": 4
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 46,
+    "med": 16.0,
+    "min": 15,
+    "n": 6
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Immolate",
+   "samples": 4,
+   "school": 4,
+   "tgt": {
+    "unit": 4
+   }
+  },
+  "11": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "111": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "112": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1126": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Mark of the Wild",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "1130": {
+   "aura": {
+    "1130": {
+     "dur": {
+      "max": 12.258,
+      "med": 12.258,
+      "min": 12.258,
+      "n": 1
+     },
+     "kind": "DEBUFF",
+     "n": 1
+    }
+   },
+   "auraDur": {
+    "max": 12.258,
+    "med": 12.258,
+    "min": 12.258,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Hunter's Mark",
+   "samples": 1,
+   "school": 64,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "114": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "115": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "116": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "117": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "119": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "12": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "120": {
+   "aura": {
+    "400670": {
+     "dur": {
+      "max": 1.083,
+      "med": 1.03,
+      "min": 0.978,
+      "n": 2
+     },
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Cone of Cold",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "121": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1229451": {
+   "aura": {},
+   "auraDur": {
+    "max": 24.719,
+    "med": 24.719,
+    "min": 24.719,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Boosted Rest",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1229741": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Camp Benefits",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "123": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1230171": {
+   "aura": {},
+   "castT": {
+    "pc": {
+     "max": 10.02,
+     "med": 10.02,
+     "min": 10.02,
+     "n": 1
+    }
+   },
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Sharpening Wheel",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "1238640": {
+   "aura": {
+    "1238640": {
+     "dur": {
+      "max": 7.202,
+      "med": 4.52,
+      "min": 2.289,
+      "n": 4
+     },
+     "kind": "BUFF",
+     "n": 5
+    }
+   },
+   "auraDur": {
+    "max": 7.202,
+    "med": 4.52,
+    "min": 2.289,
+    "n": 4
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 3,
+    "player": 2
+   },
+   "confidence": "medium",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Ghost Wolf",
+   "samples": 5,
+   "school": 8,
+   "tgt": {
+    "self": 5
+   }
+  },
+  "1238931": {
+   "aura": {},
+   "auraDur": {
+    "max": 15.036,
+    "med": 14.992,
+    "min": 14.948,
+    "n": 2
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Improved Stormstrike",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "124": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1243": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Power Word: Fortitude",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "1244": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Power Word: Fortitude",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "1245": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Power Word: Fortitude",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "12494": {
+   "aura": {},
+   "auraDur": {
+    "max": 3.582,
+    "med": 2.331,
+    "min": 1.08,
+    "n": 2
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Frostbite",
+   "samples": 0,
+   "school": 16,
+   "tgt": {}
+  },
+  "125": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1259416": {
+   "aura": {
+    "1259416": {
+     "dur": {
+      "max": 9.5,
+      "med": 9.5,
+      "min": 9.5,
+      "n": 1
+     },
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraDur": {
+    "max": 9.5,
+    "med": 4.864,
+    "min": 0.229,
+    "n": 2
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Walk on Air",
+   "samples": 1,
+   "school": 8,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "126": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1260198": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "heal": {
+    "max": 51,
+    "med": 51,
+    "min": 51,
+    "n": 1
+   },
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Touch of the Grave",
+   "samples": 0,
+   "school": 32,
+   "tgt": {}
+  },
+  "1261483": {
+   "aura": {},
+   "auraDur": {
+    "max": 15.5,
+    "med": 12.738,
+    "min": 9.975,
+    "n": 2
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "heal": {
+    "max": 11,
+    "med": 7.812,
+    "min": 2,
+    "n": 16
+   },
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Thrill of Adventure",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "127": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1270893": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Elemental Blessing",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "128": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1280345": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "dmg": {
+    "max": 11,
+    "med": 11,
+    "min": 11,
+    "n": 17
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Consecration",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "1280353": {
+   "aura": {},
+   "auraDur": {
+    "max": 8.666,
+    "med": 8.625,
+    "min": 8.584,
+    "n": 2
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Consecration",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "1289681": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Bloodthrill",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "129": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1293241": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 4
+   },
+   "confidence": "medium",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Summon Hawk",
+   "samples": 4,
+   "school": 1,
+   "tgt": {
+    "unit": 4
+   }
+  },
+  "1293248": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Summon Hawk",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1299038": {
+   "aura": {},
+   "auraDur": {
+    "max": 44.982,
+    "med": 3.272,
+    "min": 0.125,
+    "n": 24
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Plainsrunning",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1299346": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Trueshot Aura",
+   "samples": 0,
+   "school": 64,
+   "tgt": {}
+  },
+  "13": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "130": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1310925": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Shield Specialization",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1310927": {
+   "aura": {},
+   "auraDur": {
+    "max": 3.458,
+    "med": 2.719,
+    "min": 1.98,
+    "n": 2
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Light's Fury",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "1310994": {
+   "aura": {
+    "1310994": {
+     "dur": {
+      "max": 1.626,
+      "med": 1.626,
+      "min": 1.626,
+      "n": 1
+     },
+     "kind": "BUFF",
+     "n": 1
+    },
+    "20128": {
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraDur": {
+    "max": 1.626,
+    "med": 1.626,
+    "min": 1.626,
+    "n": 1
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Swift Judgement",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "1311654": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "dmg": {
+    "max": 14,
+    "med": 14.0,
+    "min": 14,
+    "n": 2
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Seal of Fury",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "1311655": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "dmg": {
+    "max": 77,
+    "med": 77,
+    "min": 77,
+    "n": 1
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Judgement of Fury",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "1311656": {
+   "aura": {
+    "1311656": {
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Seal of Fury",
+   "samples": 1,
+   "school": 2,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "1312637": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Summon Hawk",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1314102": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Relentless Strikes Effect",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1314104": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Improved Seal of Fury",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "13165": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Aspect of the Hawk",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "132": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1322605": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 4
+   },
+   "confidence": "medium",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Shifting Power",
+   "samples": 4,
+   "school": 1,
+   "tgt": {
+    "self": 4
+   }
+  },
+  "1323420": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Totemic Recall",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "133": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "135": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "13550": {
+   "aura": {
+    "13550": {
+     "dur": {
+      "max": 11.369,
+      "med": 10.703,
+      "min": 10.036,
+      "n": 2
+     },
+     "kind": "DEBUFF",
+     "n": 1
+    }
+   },
+   "auraDur": {
+    "max": 11.369,
+    "med": 10.703,
+    "min": 10.036,
+    "n": 2
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "pc": 2
+   },
+   "confidence": "low",
+   "dmg": {
+    "max": 18,
+    "med": 17.5,
+    "min": 17,
+    "n": 6
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Serpent Sting",
+   "samples": 2,
+   "school": 8,
+   "tgt": {
+    "unit": 2
+   }
+  },
+  "13551": {
+   "aura": {
+    "13551": {
+     "dur": {
+      "max": 12.083,
+      "med": 12.083,
+      "min": 12.083,
+      "n": 1
+     },
+     "kind": "DEBUFF",
+     "n": 1
+    }
+   },
+   "auraDur": {
+    "max": 12.083,
+    "med": 12.083,
+    "min": 12.083,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "pc": 3
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 32,
+    "med": 32.0,
+    "min": 31,
+    "n": 4
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Serpent Sting",
+   "samples": 3,
+   "school": 8,
+   "tgt": {
+    "unit": 3
+   }
+  },
+  "137": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "13795": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Immolation Trap",
+   "samples": 2,
+   "school": 4,
+   "tgt": {
+    "self": 2
+   }
+  },
+  "13797": {
+   "aura": {},
+   "auraDur": {
+    "max": 14.989,
+    "med": 8.508,
+    "min": 2.027,
+    "n": 2
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "dmg": {
+    "max": 21,
+    "med": 21,
+    "min": 21,
+    "n": 5
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Immolation Trap Effect",
+   "samples": 0,
+   "school": 4,
+   "tgt": {}
+  },
+  "138": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "139": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "14": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "140": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "14157": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Ruthlessness",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "142": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "14261": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 6
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 111,
+    "med": 89.0,
+    "min": 66,
+    "n": 4
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Raptor Strike",
+   "samples": 6,
+   "school": 1,
+   "tgt": {
+    "unit": 6
+   }
+  },
+  "14262": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Raptor Strike",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "14282": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 4
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 74,
+    "med": 64.75,
+    "min": 58,
+    "n": 4
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Arcane Shot",
+   "samples": 4,
+   "school": 64,
+   "tgt": {
+    "unit": 4
+   }
+  },
+  "14283": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 3
+   },
+   "confidence": "medium",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Arcane Shot",
+   "samples": 3,
+   "school": 64,
+   "tgt": {
+    "unit": 3
+   }
+  },
+  "143": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "14302": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Immolation Trap",
+   "samples": 1,
+   "school": 4,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "14318": {
+   "aura": {
+    "14318": {
+     "dur": {
+      "max": 19.321,
+      "med": 19.321,
+      "min": 19.321,
+      "n": 1
+     },
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraDur": {
+    "max": 19.321,
+    "med": 19.321,
+    "min": 19.321,
+    "n": 1
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Aspect of the Hawk",
+   "samples": 1,
+   "school": 8,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "14319": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Aspect of the Hawk",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "14323": {
+   "aura": {
+    "14323": {
+     "dur": {
+      "max": 8.416,
+      "med": 8.416,
+      "min": 8.416,
+      "n": 1
+     },
+     "kind": "DEBUFF",
+     "n": 2
+    }
+   },
+   "auraDur": {
+    "max": 8.416,
+    "med": 8.416,
+    "min": 8.416,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "pc": 3
+   },
+   "confidence": "medium",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Hunter's Mark",
+   "samples": 3,
+   "school": 64,
+   "tgt": {
+    "unit": 3
+   }
+  },
+  "1456": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 3
+   },
+   "confidence": "medium",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Life Tap",
+   "samples": 3,
+   "school": 32,
+   "tgt": {
+    "self": 3
+   }
+  },
+  "1459": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Arcane Intellect",
+   "samples": 0,
+   "school": 64,
+   "tgt": {}
+  },
+  "146": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1460": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Arcane Intellect",
+   "samples": 0,
+   "school": 64,
+   "tgt": {}
+  },
+  "1461": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Arcane Intellect",
+   "samples": 0,
+   "school": 64,
+   "tgt": {}
+  },
+  "147": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "14752": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Divine Spirit",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "14916": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pet": 3
+   },
+   "confidence": "medium",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Growl",
+   "samples": 3,
+   "school": 1,
+   "tgt": {
+    "unit": 3
+   }
+  },
+  "14917": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pet": 18
+   },
+   "confidence": "high",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Growl",
+   "samples": 18,
+   "school": 1,
+   "tgt": {
+    "unit": 18
+   }
+  },
+  "1494": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Track Beasts",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "15": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "151": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "15271": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Spirit Tap",
+   "samples": 0,
+   "school": 32,
+   "tgt": {}
+  },
+  "15407": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Mind Flay",
+   "samples": 1,
+   "school": 32,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "15571": {
+   "aura": {},
+   "auraDur": {
+    "max": 5.972,
+    "med": 4.992,
+    "min": 4.011,
+    "n": 2
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Dazed",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "157": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "16": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "16257": {
+   "aura": {},
+   "auraDur": {
+    "max": 17.856,
+    "med": 15.442,
+    "min": 12.528,
+    "n": 7
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Flurry",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "16829": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pet": 4
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 21,
+    "med": 18,
+    "min": 18,
+    "n": 3
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Claw",
+   "samples": 4,
+   "school": 1,
+   "tgt": {
+    "unit": 4
+   }
+  },
+  "16830": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pet": 7
+   },
+   "confidence": "medium",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Claw",
+   "samples": 7,
+   "school": 1,
+   "tgt": {
+    "unit": 7
+   }
+  },
+  "16870": {
+   "aura": {},
+   "auraDur": {
+    "max": 3.125,
+    "med": 2.176,
+    "min": 1.228,
+    "n": 2
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Clearcasting",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "16953": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Blood Frenzy",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "17": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "17013": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Agamaggan's Agility",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "171": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "17255": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pet": 5
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 22,
+    "med": 22.0,
+    "min": 22,
+    "n": 2
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Bite",
+   "samples": 5,
+   "school": 1,
+   "tgt": {
+    "unit": 5
+   }
+  },
+  "17256": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pet": 3
+   },
+   "confidence": "medium",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Bite",
+   "samples": 3,
+   "school": 1,
+   "tgt": {
+    "unit": 3
+   }
+  },
+  "17257": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pet": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Bite",
+   "samples": 2,
+   "school": 1,
+   "tgt": {
+    "unit": 2
+   }
+  },
+  "17364": {
+   "apiCast": 0,
+   "aura": {
+    "17364": {
+     "dur": {
+      "max": 11.292,
+      "med": 4.527,
+      "min": 1.083,
+      "n": 3
+     },
+     "kind": "DEBUFF",
+     "n": 3
+    }
+   },
+   "auraDur": {
+    "max": 11.292,
+    "med": 4.527,
+    "min": 1.083,
+    "n": 3
+   },
+   "auraKind": "DEBUFF",
+   "baseCooldown": 8,
+   "baseGCD": 1.5,
+   "castT": {},
+   "casts": {
+    "pc": 4,
+    "player": 6
+   },
+   "confidence": "high",
+   "dmg": {
+    "max": 182,
+    "med": 172.857,
+    "min": 114,
+    "n": 7
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "harmful": true,
+   "helpful": false,
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Stormstrike",
+   "samples": 10,
+   "school": 1,
+   "tgt": {
+    "enemy": 6,
+    "unit": 4
+   }
+  },
+  "1758": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 13
+   },
+   "confidence": "high",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Sinister Strike",
+   "samples": 13,
+   "school": 1,
+   "tgt": {
+    "unit": 13
+   }
+  },
+  "1759": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 7
+   },
+   "confidence": "medium",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Sinister Strike",
+   "samples": 7,
+   "school": 1,
+   "tgt": {
+    "unit": 7
+   }
+  },
+  "1785": {
+   "aura": {
+    "1785": {
+     "kind": "BUFF",
+     "n": 2
+    }
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Stealth",
+   "samples": 2,
+   "school": 1,
+   "tgt": {
+    "self": 2
+   }
+  },
+  "18": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "1822": {
+   "aura": {
+    "1822": {
+     "dur": {
+      "max": 6.479,
+      "med": 6.479,
+      "min": 6.479,
+      "n": 1
+     },
+     "kind": "DEBUFF",
+     "n": 3
+    }
+   },
+   "auraDur": {
+    "max": 6.479,
+    "med": 6.479,
+    "min": 6.479,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "pc": 8
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 45,
+    "med": 36.0,
+    "min": 27,
+    "n": 10
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Rake",
+   "samples": 8,
+   "school": 1,
+   "tgt": {
+    "unit": 8
+   }
+  },
+  "18265": {
+   "aura": {
+    "18265": {
+     "kind": "DEBUFF",
+     "n": 1
+    }
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "pc": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "heal": {
+    "max": 20,
+    "med": 19.0,
+    "min": 19,
+    "n": 6
+   },
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Siphon Life",
+   "samples": 2,
+   "school": 32,
+   "tgt": {
+    "unit": 2
+   }
+  },
+  "1866": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 2
+   },
+   "confidence": "low",
+   "dmg": {
+    "max": 34,
+    "med": 34,
+    "min": 34,
+    "n": 1
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Holy Strike",
+   "samples": 2,
+   "school": 2,
+   "tgt": {
+    "unit": 2
+   }
+  },
+  "19": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "19434": {
+   "aura": {},
+   "castT": {
+    "pc": {
+     "max": 1.994,
+     "med": 1.851,
+     "min": 1.77,
+     "n": 7,
+     "promoted": 1.812
+    }
+   },
+   "casts": {
+    "pc": 7
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 89,
+    "med": 81.0,
+    "min": 73,
+    "n": 2
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Aimed Shot",
+   "samples": 7,
+   "school": 1,
+   "tgt": {
+    "unit": 7
+   }
+  },
+  "1953": {
+   "aura": {},
+   "auraDur": {
+    "max": 0.185,
+    "med": 0.185,
+    "min": 0.185,
+    "n": 1
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Blink",
+   "samples": 0,
+   "school": 64,
+   "tgt": {}
+  },
+  "196": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "19740": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Blessing of Might",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "19742": {
+   "aura": {
+    "19742": {
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Blessing of Wisdom",
+   "samples": 1,
+   "school": 2,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "19834": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Blessing of Might",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "19835": {
+   "aura": {
+    "19835": {
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Blessing of Might",
+   "samples": 1,
+   "school": 2,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "19850": {
+   "aura": {
+    "19850": {
+     "dur": {
+      "max": 3.757,
+      "med": 3.757,
+      "min": 3.757,
+      "n": 1
+     },
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraDur": {
+    "max": 3.757,
+    "med": 3.757,
+    "min": 3.757,
+    "n": 1
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Blessing of Wisdom",
+   "samples": 1,
+   "school": 2,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "19883": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Track Humanoids",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "20": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "20128": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Redoubt",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "20163": {
+   "aura": {
+    "20163": {
+     "dur": {
+      "max": 4.271,
+      "med": 4.271,
+      "min": 4.271,
+      "n": 1
+     },
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraDur": {
+    "max": 4.271,
+    "med": 4.271,
+    "min": 4.271,
+    "n": 1
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Seal of Fury",
+   "samples": 1,
+   "school": 2,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "20217": {
+   "aura": {
+    "20217": {
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Blessing of Kings",
+   "samples": 1,
+   "school": 2,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "20232": {
+   "aura": {},
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Judgement of Fury",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "20271": {
+   "aura": {
+    "20232": {
+     "kind": "DEBUFF",
+     "n": 1
+    }
+   },
+   "castT": {},
+   "casts": {
+    "pc": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Judgement",
+   "samples": 2,
+   "school": 2,
+   "tgt": {
+    "unit": 2
+   }
+  },
+  "20287": {
+   "aura": {},
+   "auraDur": {
+    "max": 1.123,
+    "med": 1.123,
+    "min": 1.123,
+    "n": 1
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Seal of Righteousness",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "20572": {
+   "aura": {
+    "20572": {
+     "dur": {
+      "max": 15.001,
+      "med": 15.001,
+      "min": 15.001,
+      "n": 1
+     },
+     "kind": "BUFF",
+     "n": 3
+    },
+    "3045": {
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraDur": {
+    "max": 15.001,
+    "med": 15.001,
+    "min": 15.001,
+    "n": 1
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1,
+    "player": 2
+   },
+   "confidence": "medium",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Blood Fury",
+   "samples": 3,
+   "school": 1,
+   "tgt": {
+    "self": 3
+   }
+  },
+  "20577": {
+   "aura": {
+    "20578": {
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Cannibalize",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "20578": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "heal": {
+    "max": 71,
+    "med": 71,
+    "min": 70,
+    "n": 3
+   },
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Cannibalize",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "207": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "208": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "20900": {
+   "aura": {},
+   "castT": {
+    "pc": {
+     "max": 2.167,
+     "med": 2.031,
+     "min": 1.896,
+     "n": 2
+    }
+   },
+   "casts": {
+    "pc": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Aimed Shot",
+   "samples": 2,
+   "school": 1,
+   "tgt": {
+    "unit": 2
+   }
+  },
+  "21": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "22": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "23": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "2367": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Lesser Strength",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "2374": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Lesser Agility",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "2378": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Health",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "24": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "2457": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Battle Stance",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "24604": {
+   "aura": {
+    "24604": {
+     "kind": "BUFF",
+     "n": 4
+    }
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pet": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Furious Howl",
+   "samples": 2,
+   "school": 1,
+   "tgt": {
+    "self": 2
+   }
+  },
+  "2484": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "player": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Earthbind Totem",
+   "samples": 1,
+   "school": 8,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "24932": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Leader of the Pack",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "25": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "251": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "256": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "25780": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Righteous Fury",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "259": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "26": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "261": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "26366": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "dmg": {
+    "max": 42,
+    "med": 40.0,
+    "min": 40,
+    "n": 18
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Lightning Shield",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "2645": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Ghost Wolf",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "2652": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Touch of Weakness",
+   "samples": 0,
+   "school": 32,
+   "tgt": {}
+  },
+  "2657": {
+   "aura": {},
+   "castT": {
+    "pc": {
+     "max": 3.124,
+     "med": 3.02,
+     "min": 2.917,
+     "n": 39,
+     "promoted": 3.02
+    }
+   },
+   "casts": {
+    "pc": 39
+   },
+   "confidence": "high",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Smelt Copper",
+   "samples": 39,
+   "school": 1,
+   "tgt": {
+    "self": 39
+   }
+  },
+  "26573": {
+   "aura": {
+    "1310927": {
+     "dur": {
+      "max": 3.458,
+      "med": 2.719,
+      "min": 1.98,
+      "n": 2
+     },
+     "kind": "BUFF",
+     "n": 1
+    },
+    "26573": {
+     "dur": {
+      "max": 8.062,
+      "med": 8.021,
+      "min": 7.582,
+      "n": 3
+     },
+     "kind": "BUFF",
+     "n": 3
+    }
+   },
+   "auraDur": {
+    "max": 8.062,
+    "med": 8.021,
+    "min": 7.582,
+    "n": 3
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 3
+   },
+   "confidence": "medium",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Consecration",
+   "samples": 3,
+   "school": 2,
+   "tgt": {
+    "self": 3
+   }
+  },
+  "2659": {
+   "aura": {},
+   "castT": {
+    "pc": {
+     "max": 3.104,
+     "med": 3.022,
+     "min": 2.937,
+     "n": 18,
+     "promoted": 3.022
+    }
+   },
+   "casts": {
+    "pc": 18
+   },
+   "confidence": "high",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Smelt Bronze",
+   "samples": 18,
+   "school": 1,
+   "tgt": {
+    "self": 18
+   }
+  },
+  "268": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "2687": {
+   "aura": {
+    "29131": {
+     "kind": "BUFF",
+     "n": 1
+    },
+    "6192": {
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Bloodrage",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "27": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "28": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "2870": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "player": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Cure Disease",
+   "samples": 1,
+   "school": 8,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "29": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "29131": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Bloodrage",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "29469": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Flametongue Attack",
+   "samples": 0,
+   "school": 4,
+   "tgt": {}
+  },
+  "298": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "3": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "30": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "3029": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 3
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 112,
+    "med": 108,
+    "min": 106,
+    "n": 3
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Claw",
+   "samples": 3,
+   "school": 1,
+   "tgt": {
+    "unit": 3
+   }
+  },
+  "3045": {
+   "aura": {
+    "3045": {
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Rapid Fire",
+   "samples": 1,
+   "school": 64,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "31": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "3166": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Lesser Intellect",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "31818": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Life Tap",
+   "samples": 0,
+   "school": 32,
+   "tgt": {}
+  },
+  "32": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "3219": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Minor Troll's Blood Elixir",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "324": {
+   "aura": {
+    "324": {
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Lightning Shield",
+   "samples": 1,
+   "school": 8,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "325": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Lightning Shield",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "33": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "3304": {
+   "aura": {},
+   "castT": {
+    "pc": {
+     "max": 21.424,
+     "med": 3.0,
+     "min": 0.003,
+     "n": 20
+    }
+   },
+   "casts": {
+    "pc": 20
+   },
+   "confidence": "high",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Smelt Tin",
+   "samples": 20,
+   "school": 1,
+   "tgt": {
+    "self": 20
+   }
+  },
+  "34": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "35": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "3599": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 3
+   },
+   "confidence": "medium",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Searing Totem",
+   "samples": 3,
+   "school": 4,
+   "tgt": {
+    "self": 3
+   }
+  },
+  "36": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "3600": {
+   "aura": {
+    "3600": {
+     "dur": {
+      "max": 6.104,
+      "med": 6.104,
+      "min": 6.104,
+      "n": 1
+     },
+     "kind": "DEBUFF",
+     "n": 1
+    }
+   },
+   "auraDur": {
+    "max": 6.104,
+    "med": 6.104,
+    "min": 6.104,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "npc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Earthbind",
+   "samples": 1,
+   "school": 8,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "3606": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "dmg": {
+    "max": 10,
+    "med": 9,
+    "min": 9,
+    "n": 3
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Attack",
+   "samples": 0,
+   "school": 4,
+   "tgt": {}
+  },
+  "36936": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "player": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Totemic Recall",
+   "samples": 2,
+   "school": 8,
+   "tgt": {
+    "self": 2
+   }
+  },
+  "37": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "370": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "player": 5
+   },
+   "confidence": "medium",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Purge",
+   "samples": 5,
+   "school": 8,
+   "tgt": {
+    "enemy": 5
+   }
+  },
+  "3747": {
+   "aura": {
+    "3747": {
+     "kind": "BUFF",
+     "n": 1
+    },
+    "6788": {
+     "kind": "DEBUFF",
+     "n": 1
+    }
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Power Word: Shield",
+   "samples": 1,
+   "school": 2,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "38": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "39": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "40": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "400640": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 3
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 196,
+    "med": 188,
+    "min": 188,
+    "n": 3
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Ice Lance",
+   "samples": 3,
+   "school": 16,
+   "tgt": {
+    "unit": 3
+   }
+  },
+  "400670": {
+   "aura": {},
+   "auraDur": {
+    "max": 1.083,
+    "med": 1.03,
+    "min": 0.978,
+    "n": 2
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Fingers of Frost",
+   "samples": 0,
+   "school": 16,
+   "tgt": {}
+  },
+  "402927": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "heal": {
+    "max": 157,
+    "med": 157,
+    "min": 157,
+    "n": 1
+   },
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Victory Rush",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "402975": {
+   "aura": {},
+   "auraDur": {
+    "max": 5.499,
+    "med": 5.499,
+    "min": 5.499,
+    "n": 1
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Victorious",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "403": {
+   "aura": {},
+   "castT": {
+    "pc": {
+     "max": 2.04,
+     "med": 1.741,
+     "min": 1.479,
+     "n": 18
+    }
+   },
+   "casts": {
+    "pc": 18
+   },
+   "confidence": "high",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Lightning Bolt",
+   "samples": 18,
+   "school": 8,
+   "tgt": {
+    "unit": 18
+   }
+  },
+  "408341": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Fire Nova",
+   "samples": 1,
+   "school": 4,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "408342": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "player": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Fire Nova",
+   "samples": 1,
+   "school": 4,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "408423": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "dmg": {
+    "max": 54,
+    "med": 54,
+    "min": 54,
+    "n": 1
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Fire Nova",
+   "samples": 0,
+   "school": 4,
+   "tgt": {}
+  },
+  "408424": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "dmg": {
+    "max": 107,
+    "med": 107,
+    "min": 107,
+    "n": 1
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Fire Nova",
+   "samples": 0,
+   "school": 4,
+   "tgt": {}
+  },
+  "41": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "42": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "429959": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Well-Rested",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "43": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "439440": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "dmg": {
+    "max": 196,
+    "med": 177.0,
+    "min": 129,
+    "n": 10
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Windfury Weapon",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "44": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "441": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Healing Potion",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "45": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "4511": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Phase Shift",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "46": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "467": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Thorns",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "47": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "48": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "49": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "50": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "5019": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 21
+   },
+   "confidence": "high",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Shoot",
+   "samples": 21,
+   "school": 1,
+   "tgt": {
+    "unit": 21
+   }
+  },
+  "51": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "5118": {
+   "aura": {
+    "5118": {
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Aspect of the Cheetah",
+   "samples": 1,
+   "school": 8,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "5171": {
+   "aura": {
+    "5171": {
+     "dur": {
+      "max": 19.793,
+      "med": 10.573,
+      "min": 1.539,
+      "n": 4
+     },
+     "kind": "BUFF",
+     "n": 5
+    }
+   },
+   "auraDur": {
+    "max": 19.793,
+    "med": 10.573,
+    "min": 1.539,
+    "n": 4
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 5
+   },
+   "confidence": "medium",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Slice and Dice",
+   "samples": 5,
+   "school": 1,
+   "tgt": {
+    "unit": 5
+   }
+  },
+  "5189": {
+   "aura": {
+    "24932": {
+     "kind": "BUFF",
+     "n": 1
+    },
+    "768": {
+     "dur": {
+      "max": 17.352,
+      "med": 17.352,
+      "min": 17.352,
+      "n": 1
+     },
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "castT": {
+    "pc": {
+     "max": 3.568,
+     "med": 3.568,
+     "min": 3.568,
+     "n": 1
+    }
+   },
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "heal": {
+    "max": 576,
+    "med": 576,
+    "min": 576,
+    "n": 1
+   },
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Healing Touch",
+   "samples": 1,
+   "school": 8,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "52": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "5215": {
+   "aura": {
+    "5215": {
+     "kind": "BUFF",
+     "n": 2
+    }
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Prowl",
+   "samples": 2,
+   "school": 1,
+   "tgt": {
+    "self": 2
+   }
+  },
+  "5221": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "dmg": {
+    "max": 88,
+    "med": 88,
+    "min": 88,
+    "n": 1
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Shred",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "5232": {
+   "aura": {
+    "5232": {
+     "dur": {
+      "max": 20.464,
+      "med": 20.464,
+      "min": 20.464,
+      "n": 1
+     },
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraDur": {
+    "max": 20.464,
+    "med": 20.464,
+    "min": 20.464,
+    "n": 1
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Mark of the Wild",
+   "samples": 1,
+   "school": 8,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "5234": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Mark of the Wild",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "5242": {
+   "aura": {},
+   "auraDur": {
+    "max": 85.52,
+    "med": 85.52,
+    "min": 85.52,
+    "n": 1
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Battle Shout",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "526": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "player": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Cure Poison",
+   "samples": 2,
+   "school": 8,
+   "tgt": {
+    "self": 2
+   }
+  },
+  "529": {
+   "aura": {},
+   "castT": {
+    "pc": {
+     "max": 2.041,
+     "med": 1.99,
+     "min": 1.958,
+     "n": 3,
+     "promoted": 1.99
+    }
+   },
+   "casts": {
+    "pc": 3
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 38,
+    "med": 37.5,
+    "min": 37,
+    "n": 2
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Lightning Bolt",
+   "samples": 3,
+   "school": 8,
+   "tgt": {
+    "unit": 3
+   }
+  },
+  "53": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "54": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "55": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "56": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "5675": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1,
+    "player": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Mana Spring Totem",
+   "samples": 2,
+   "school": 16,
+   "tgt": {
+    "self": 2
+   }
+  },
+  "5677": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Mana Spring",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "5697": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Unending Breath",
+   "samples": 0,
+   "school": 32,
+   "tgt": {}
+  },
+  "57": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "58": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "588": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Inner Fire",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "59": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "6": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "60": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "61": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "6114": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Raptor Punch",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "6136": {
+   "aura": {},
+   "auraDur": {
+    "max": 5.062,
+    "med": 3.78,
+    "min": 2.499,
+    "n": 2
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Chilled",
+   "samples": 0,
+   "school": 16,
+   "tgt": {}
+  },
+  "6150": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Quick Shots",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "6178": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Charge",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "6192": {
+   "aura": {
+    "6192": {
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Battle Shout",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "62": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "6217": {
+   "aura": {
+    "6217": {
+     "kind": "DEBUFF",
+     "n": 1
+    }
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "pc": 2
+   },
+   "confidence": "low",
+   "dmg": {
+    "max": 31,
+    "med": 31,
+    "min": 31,
+    "n": 1
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Bane of Agony",
+   "samples": 2,
+   "school": 32,
+   "tgt": {
+    "unit": 2
+   }
+  },
+  "6222": {
+   "aura": {
+    "6222": {
+     "kind": "DEBUFF",
+     "n": 1
+    }
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "pc": 2
+   },
+   "confidence": "low",
+   "dmg": {
+    "max": 22,
+    "med": 22,
+    "min": 22,
+    "n": 3
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Corruption",
+   "samples": 2,
+   "school": 32,
+   "tgt": {
+    "unit": 2
+   }
+  },
+  "6223": {
+   "aura": {
+    "6223": {
+     "dur": {
+      "max": 9.54,
+      "med": 9.54,
+      "min": 9.54,
+      "n": 1
+     },
+     "kind": "DEBUFF",
+     "n": 2
+    }
+   },
+   "auraDur": {
+    "max": 9.54,
+    "med": 9.54,
+    "min": 9.54,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "pc": 5
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 33,
+    "med": 33,
+    "min": 33,
+    "n": 3
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Corruption",
+   "samples": 5,
+   "school": 32,
+   "tgt": {
+    "unit": 5
+   }
+  },
+  "63": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "6350": {
+   "aura": {},
+   "castT": {
+    "npc": {
+     "max": 2.253,
+     "med": 2.208,
+     "min": 2.155,
+     "n": 5,
+     "promoted": 2.208
+    }
+   },
+   "casts": {
+    "npc": 5
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 17,
+    "med": 15,
+    "min": 13,
+    "n": 5
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Attack",
+   "samples": 5,
+   "school": 4,
+   "tgt": {
+    "unit": 5
+   }
+  },
+  "6351": {
+   "aura": {},
+   "castT": {
+    "npc": {
+     "max": 2.285,
+     "med": 2.262,
+     "min": 2.239,
+     "n": 2
+    }
+   },
+   "casts": {
+    "npc": 2
+   },
+   "confidence": "low",
+   "dmg": {
+    "max": 22,
+    "med": 22.0,
+    "min": 22,
+    "n": 2
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Attack",
+   "samples": 2,
+   "school": 4,
+   "tgt": {
+    "unit": 2
+   }
+  },
+  "6363": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Searing Totem",
+   "samples": 1,
+   "school": 4,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "6364": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "player": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Searing Totem",
+   "samples": 2,
+   "school": 4,
+   "tgt": {
+    "self": 2
+   }
+  },
+  "6371": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "heal": {
+    "max": 9,
+    "med": 6.0,
+    "min": 6,
+    "n": 212
+   },
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Healing Stream",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "6375": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "player": 4
+   },
+   "confidence": "medium",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Healing Stream Totem",
+   "samples": 4,
+   "school": 16,
+   "tgt": {
+    "self": 4
+   }
+  },
+  "6391": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "player": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Stoneclaw Totem",
+   "samples": 1,
+   "school": 8,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "64": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "643": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Devotion Aura",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "647": {
+   "aura": {},
+   "castT": {
+    "pc": {
+     "max": 2.548,
+     "med": 2.548,
+     "min": 2.548,
+     "n": 1
+    }
+   },
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "heal": {
+    "max": 219,
+    "med": 219,
+    "min": 219,
+    "n": 1
+   },
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Holy Light",
+   "samples": 1,
+   "school": 2,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "65": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "6533": {
+   "aura": {},
+   "auraDur": {
+    "max": 10.008,
+    "med": 6.212,
+    "min": 2.416,
+    "n": 2
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Net",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "6547": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Rend",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "6607": {
+   "aura": {},
+   "auraDur": {
+    "max": 2.083,
+    "med": 2.033,
+    "min": 1.961,
+    "n": 3
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Lash",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "6660": {
+   "aura": {},
+   "castT": {
+    "npc": {
+     "max": 0.001,
+     "med": 0.001,
+     "min": 0.001,
+     "n": 1
+    }
+   },
+   "casts": {
+    "npc": 12
+   },
+   "confidence": "high",
+   "dmg": {
+    "max": 59,
+    "med": 51.0,
+    "min": 45,
+    "n": 24
+   },
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Shoot",
+   "samples": 12,
+   "school": 1,
+   "tgt": {
+    "unit": 12
+   }
+  },
+  "67": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "6728": {
+   "aura": {},
+   "auraDur": {
+    "max": 9.916,
+    "med": 9.916,
+    "min": 9.916,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Enveloping Winds",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "673": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Elixir of Minor Defense",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "6756": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Mark of the Wild",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "6760": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Eviscerate",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "6762": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Eviscerate",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "6788": {
+   "aura": {},
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Weakened Soul",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "6795": {
+   "aura": {
+    "6795": {
+     "dur": {
+      "max": 3.0,
+      "med": 2.932,
+      "min": 2.864,
+      "n": 2
+     },
+     "kind": "DEBUFF",
+     "n": 2
+    }
+   },
+   "auraDur": {
+    "max": 3.0,
+    "med": 2.932,
+    "min": 2.864,
+    "n": 2
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "pc": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Growl",
+   "samples": 2,
+   "school": 1,
+   "tgt": {
+    "unit": 2
+   }
+  },
+  "68": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "6807": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 8
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 47,
+    "med": 46.0,
+    "min": 45,
+    "n": 2
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Maul",
+   "samples": 8,
+   "school": 1,
+   "tgt": {
+    "unit": 8
+   }
+  },
+  "687": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Demon Skin",
+   "samples": 0,
+   "school": 32,
+   "tgt": {}
+  },
+  "69": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "6950": {
+   "aura": {},
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Faerie Fire",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "696": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Demon Skin",
+   "samples": 0,
+   "school": 32,
+   "tgt": {}
+  },
+  "7": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "706": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Demon Armor",
+   "samples": 0,
+   "school": 32,
+   "tgt": {}
+  },
+  "709": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "heal": {
+    "max": 63,
+    "med": 62.0,
+    "min": 11,
+    "n": 6
+   },
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Drain Life",
+   "samples": 2,
+   "school": 32,
+   "tgt": {
+    "unit": 2
+   }
+  },
+  "71": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Defensive Stance",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "7128": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Inner Fire",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "72": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "7294": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Retribution Aura",
+   "samples": 0,
+   "school": 2,
+   "tgt": {}
+  },
+  "7300": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Frost Armor",
+   "samples": 0,
+   "school": 16,
+   "tgt": {}
+  },
+  "7301": {
+   "aura": {
+    "7301": {
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Frost Armor",
+   "samples": 1,
+   "school": 16,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "74": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "744": {
+   "aura": {
+    "744": {
+     "dur": {
+      "max": 29.994,
+      "med": 29.994,
+      "min": 29.994,
+      "n": 1
+     },
+     "kind": "DEBUFF",
+     "n": 1
+    }
+   },
+   "auraDur": {
+    "max": 29.994,
+    "med": 29.994,
+    "min": 29.994,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "npc": 1
+   },
+   "confidence": "low",
+   "dmg": {
+    "max": 13,
+    "med": 13.0,
+    "min": 13,
+    "n": 10
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Poison",
+   "samples": 1,
+   "school": 8,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "75": {
+   "aura": {
+    "13550": {
+     "dur": {
+      "max": 11.369,
+      "med": 10.703,
+      "min": 10.036,
+      "n": 2
+     },
+     "kind": "DEBUFF",
+     "n": 1
+    },
+    "13551": {
+     "dur": {
+      "max": 12.083,
+      "med": 12.083,
+      "min": 12.083,
+      "n": 1
+     },
+     "kind": "DEBUFF",
+     "n": 1
+    }
+   },
+   "castT": {},
+   "casts": {
+    "pc": 35
+   },
+   "confidence": "high",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Auto Shot",
+   "samples": 35,
+   "school": 1,
+   "tgt": {
+    "unit": 35
+   }
+  },
+  "768": {
+   "aura": {
+    "24932": {
+     "kind": "BUFF",
+     "n": 1
+    },
+    "768": {
+     "dur": {
+      "max": 17.352,
+      "med": 17.352,
+      "min": 17.352,
+      "n": 1
+     },
+     "kind": "BUFF",
+     "n": 3
+    }
+   },
+   "auraDur": {
+    "max": 17.352,
+    "med": 17.352,
+    "min": 17.352,
+    "n": 1
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 3
+   },
+   "confidence": "medium",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Cat Form",
+   "samples": 3,
+   "school": 1,
+   "tgt": {
+    "self": 3
+   }
+  },
+  "77": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "770": {
+   "aura": {
+    "770": {
+     "dur": {
+      "max": 12.284,
+      "med": 12.284,
+      "min": 12.284,
+      "n": 1
+     },
+     "kind": "DEBUFF",
+     "n": 2
+    }
+   },
+   "auraDur": {
+    "max": 12.284,
+    "med": 12.284,
+    "min": 12.284,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "pc": 5
+   },
+   "confidence": "medium",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Faerie Fire",
+   "samples": 5,
+   "school": 8,
+   "tgt": {
+    "unit": 5
+   }
+  },
+  "7764": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Wisdom of Agamaggan",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "7804": {
+   "aura": {},
+   "auraDur": {
+    "max": 0.727,
+    "med": 0.727,
+    "min": 0.727,
+    "n": 1
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Blood Pact",
+   "samples": 0,
+   "school": 32,
+   "tgt": {}
+  },
+  "7809": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pet": 8
+   },
+   "confidence": "medium",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Torment",
+   "samples": 8,
+   "school": 32,
+   "tgt": {
+    "unit": 8
+   }
+  },
+  "7815": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pet": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Lash of Pain",
+   "samples": 2,
+   "school": 32,
+   "tgt": {
+    "unit": 2
+   }
+  },
+  "782": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Thorns",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "783": {
+   "aura": {
+    "783": {
+     "dur": {
+      "max": 40.586,
+      "med": 22.011,
+      "min": 3.437,
+      "n": 2
+     },
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraDur": {
+    "max": 40.586,
+    "med": 22.011,
+    "min": 3.437,
+    "n": 2
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Travel Form",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "7887": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Overpower",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "7951": {
+   "aura": {},
+   "castT": {
+    "npc": {
+     "max": 2.517,
+     "med": 2.477,
+     "min": 2.433,
+     "n": 8,
+     "promoted": 2.477
+    }
+   },
+   "casts": {
+    "npc": 8
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 52,
+    "med": 43.5,
+    "min": 34,
+    "n": 8
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Toxic Spit",
+   "samples": 8,
+   "school": 8,
+   "tgt": {
+    "unit": 8
+   }
+  },
+  "8": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "8008": {
+   "apiCast": 1.5,
+   "aura": {},
+   "baseCooldown": 0,
+   "baseGCD": 1.5,
+   "castT": {
+    "player": {
+     "max": 2.636,
+     "med": 1.991,
+     "min": 1.418,
+     "n": 13
+    }
+   },
+   "casts": {
+    "player": 13
+   },
+   "confidence": "high",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "harmful": false,
+   "heal": {
+    "max": 356,
+    "med": 234.583,
+    "min": 214,
+    "n": 12
+   },
+   "helpful": true,
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Lesser Healing Wave",
+   "rank": 2,
+   "samples": 13,
+   "school": 8,
+   "tgt": {
+    "enemy": 1,
+    "self": 12
+   }
+  },
+  "8030": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "player": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Flametongue Weapon",
+   "samples": 1,
+   "school": 4,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "8046": {
+   "apiCast": 0,
+   "aura": {},
+   "baseCooldown": 6,
+   "baseGCD": 1.5,
+   "castT": {},
+   "casts": {
+    "pc": 5,
+    "player": 6
+   },
+   "confidence": "high",
+   "dmg": {
+    "max": 96,
+    "med": 91.5,
+    "min": 82,
+    "n": 8
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "harmful": true,
+   "helpful": false,
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Earth Shock",
+   "rank": 4,
+   "samples": 11,
+   "school": 8,
+   "tgt": {
+    "enemy": 5,
+    "neutral": 1,
+    "unit": 5
+   }
+  },
+  "8050": {
+   "aura": {
+    "8050": {
+     "dur": {
+      "max": 11.967,
+      "med": 11.967,
+      "min": 11.967,
+      "n": 1
+     },
+     "kind": "DEBUFF",
+     "n": 2
+    }
+   },
+   "auraDur": {
+    "max": 11.967,
+    "med": 11.967,
+    "min": 11.967,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "pc": 6
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 25,
+    "med": 8,
+    "min": 8,
+    "n": 7
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Flame Shock",
+   "samples": 6,
+   "school": 4,
+   "tgt": {
+    "unit": 6
+   }
+  },
+  "8052": {
+   "apiCast": 0,
+   "aura": {
+    "8052": {
+     "dur": {
+      "max": 12.116,
+      "med": 11.805,
+      "min": 5.407,
+      "n": 9
+     },
+     "kind": "DEBUFF",
+     "n": 9
+    }
+   },
+   "auraDur": {
+    "max": 12.116,
+    "med": 11.805,
+    "min": 5.407,
+    "n": 9
+   },
+   "auraKind": "DEBUFF",
+   "baseCooldown": 6,
+   "baseGCD": 1.5,
+   "castT": {},
+   "casts": {
+    "player": 12
+   },
+   "confidence": "high",
+   "dmg": {
+    "max": 41,
+    "med": 8.225,
+    "min": 8,
+    "n": 40
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "harmful": true,
+   "helpful": false,
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Flame Shock",
+   "rank": 2,
+   "samples": 12,
+   "school": 4,
+   "tgt": {
+    "enemy": 11,
+    "neutral": 1
+   }
+  },
+  "8056": {
+   "aura": {
+    "8056": {
+     "dur": {
+      "max": 7.146,
+      "med": 7.146,
+      "min": 7.146,
+      "n": 1
+     },
+     "kind": "DEBUFF",
+     "n": 1
+    }
+   },
+   "auraDur": {
+    "max": 7.146,
+    "med": 7.146,
+    "min": 7.146,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1,
+    "player": 1
+   },
+   "confidence": "low",
+   "dmg": {
+    "max": 69,
+    "med": 69,
+    "min": 69,
+    "n": 1
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Frost Shock",
+   "samples": 2,
+   "school": 16,
+   "tgt": {
+    "enemy": 1,
+    "unit": 1
+   }
+  },
+  "8091": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Armor",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "8094": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Armor",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "8099": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Stamina",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "81": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "8103": {
+   "aura": {},
+   "castT": {
+    "pc": {
+     "max": 1.562,
+     "med": 1.562,
+     "min": 1.562,
+     "n": 1
+    }
+   },
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Mind Blast",
+   "samples": 1,
+   "school": 32,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "8112": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Spirit",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "8115": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Agility",
+   "samples": 0,
+   "school": 8,
+   "tgt": {}
+  },
+  "8124": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Psychic Scream",
+   "samples": 1,
+   "school": 32,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "8151": {
+   "aura": {},
+   "auraDur": {
+    "max": 2.5,
+    "med": 2.5,
+    "min": 2.5,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "dmg": {
+    "max": 124,
+    "med": 124,
+    "min": 124,
+    "n": 1
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Surprise Attack",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "8155": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "player": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Stoneskin Totem",
+   "samples": 2,
+   "school": 8,
+   "tgt": {
+    "self": 2
+   }
+  },
+  "8160": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1,
+    "player": 3
+   },
+   "confidence": "medium",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Strength of Earth Totem",
+   "samples": 4,
+   "school": 8,
+   "tgt": {
+    "self": 4
+   }
+  },
+  "8177": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "player": 5
+   },
+   "confidence": "medium",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Grounding Totem",
+   "samples": 5,
+   "school": 8,
+   "tgt": {
+    "self": 5
+   }
+  },
+  "82": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "8232": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "player": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Windfury Weapon",
+   "samples": 1,
+   "school": 8,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "8246": {
+   "aura": {},
+   "castT": {
+    "npc": {
+     "max": 3.562,
+     "med": 3.539,
+     "min": 3.438,
+     "n": 5,
+     "promoted": 3.539
+    }
+   },
+   "casts": {
+    "npc": 5
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 191,
+    "med": 187,
+    "min": 184,
+    "n": 5
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Lightning Bolt",
+   "samples": 5,
+   "school": 8,
+   "tgt": {
+    "unit": 5
+   }
+  },
+  "83": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "84": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "8406": {
+   "aura": {
+    "8406": {
+     "dur": {
+      "max": 9.271,
+      "med": 9.271,
+      "min": 9.271,
+      "n": 1
+     },
+     "kind": "DEBUFF",
+     "n": 2
+    }
+   },
+   "auraDur": {
+    "max": 9.271,
+    "med": 9.271,
+    "min": 9.271,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {
+    "pc": {
+     "max": 2.584,
+     "med": 2.51,
+     "min": 2.461,
+     "n": 4,
+     "promoted": 2.51
+    }
+   },
+   "casts": {
+    "pc": 4
+   },
+   "confidence": "medium",
+   "dmg": {
+    "max": 182,
+    "med": 181.0,
+    "min": 176,
+    "n": 4
+   },
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Frostbolt",
+   "samples": 4,
+   "school": 16,
+   "tgt": {
+    "unit": 4
+   }
+  },
+  "8617": {
+   "aura": {},
+   "castT": {
+    "pc": {
+     "max": 2.625,
+     "med": 2.521,
+     "min": 2.417,
+     "n": 2
+    }
+   },
+   "casts": {
+    "pc": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Skinning",
+   "samples": 2,
+   "school": 1,
+   "tgt": {
+    "unit": 2
+   }
+  },
+  "8618": {
+   "aura": {},
+   "castT": {
+    "pc": {
+     "max": 3.212,
+     "med": 3.053,
+     "min": 2.988,
+     "n": 10,
+     "promoted": 3.039
+    }
+   },
+   "casts": {
+    "pc": 10
+   },
+   "confidence": "high",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Skinning",
+   "samples": 10,
+   "school": 1,
+   "tgt": {
+    "unit": 10
+   }
+  },
+  "8631": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Garrote",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "8690": {
+   "aura": {},
+   "castT": {
+    "pc": {
+     "max": 9.87,
+     "med": 9.87,
+     "min": 9.87,
+     "n": 1
+    }
+   },
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Hearthstone",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "8925": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Moonfire",
+   "samples": 1,
+   "school": 64,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "8939": {
+   "aura": {
+    "8939": {
+     "dur": {
+      "max": 20.929,
+      "med": 20.929,
+      "min": 20.929,
+      "n": 1
+     },
+     "kind": "BUFF",
+     "n": 1
+    }
+   },
+   "auraDur": {
+    "max": 20.929,
+    "med": 20.929,
+    "min": 20.929,
+    "n": 1
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "heal": {
+    "max": 252,
+    "med": 32.5,
+    "min": 32,
+    "n": 8
+   },
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Regrowth",
+   "samples": 1,
+   "school": 8,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "9": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "905": {
+   "aura": {
+    "905": {
+     "dur": {
+      "max": 52.355,
+      "med": 22.653,
+      "min": 1.937,
+      "n": 8
+     },
+     "kind": "BUFF",
+     "n": 9
+    }
+   },
+   "auraDur": {
+    "max": 52.355,
+    "med": 22.653,
+    "min": 1.937,
+    "n": 8
+   },
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {
+    "player": 9
+   },
+   "confidence": "medium",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "name": "Lightning Shield",
+   "samples": 9,
+   "school": 8,
+   "tgt": {
+    "self": 9
+   }
+  },
+  "92": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "93": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "939": {
+   "aura": {},
+   "castT": {
+    "npc": {
+     "max": 3.062,
+     "med": 3.021,
+     "min": 2.979,
+     "n": 2
+    }
+   },
+   "casts": {
+    "npc": 2
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "heal": {
+    "max": 339,
+    "med": 331.5,
+    "min": 324,
+    "n": 2
+   },
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Healing Wave",
+   "samples": 2,
+   "school": 8,
+   "tgt": {
+    "self": 2
+   }
+  },
+  "9492": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Rip",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "unit": 1
+   }
+  },
+  "95": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "97": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "9784": {
+   "aura": {},
+   "auraKind": "BUFF",
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Iron Shield Spike",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "98": {
+   "aura": {},
+   "castT": {},
+   "casts": {},
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "samples": 0,
+   "school": 1,
+   "tgt": {}
+  },
+  "99": {
+   "aura": {
+    "99": {
+     "dur": {
+      "max": 30.139,
+      "med": 30.139,
+      "min": 30.139,
+      "n": 1
+     },
+     "kind": "DEBUFF",
+     "n": 1
+    }
+   },
+   "auraDur": {
+    "max": 30.139,
+    "med": 30.139,
+    "min": 30.139,
+    "n": 1
+   },
+   "auraKind": "DEBUFF",
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70245",
+   "firstSeen": "2026-10-07",
+   "lastBuild": "70245",
+   "lastSeen": "2026-10-07",
+   "name": "Demoralizing Roar",
+   "samples": 1,
+   "school": 1,
+   "tgt": {
+    "self": 1
+   }
+  },
+  "992": {
+   "aura": {},
+   "castT": {},
+   "casts": {
+    "pc": 1
+   },
+   "confidence": "low",
+   "firstBuild": "70291",
+   "firstSeen": "2026-10-08",
+   "lastBuild": "70291",
+   "lastSeen": "2026-10-08",
+   "name": "Shadow Word: Pain",
+   "samples": 1,
+   "school": 32,
+   "tgt": {
+    "unit": 1
+   }
+  }
+ }
+}

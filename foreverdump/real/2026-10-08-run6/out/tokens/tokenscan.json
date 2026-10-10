@@ -1,0 +1,2392 @@
+{
+ "builds": {
+  "70291": {
+   "alias": {},
+   "baselineCells": 204,
+   "contexts": [
+    "ooc|world|solo"
+   ],
+   "cost": [
+    {
+     "aliases": 0,
+     "budgetMs": 0.12,
+     "changes": 0,
+     "contexts": {
+      "ooc|world|solo": 1
+     },
+     "dups": 109,
+     "existing": 131,
+     "listSize": 303,
+     "maxSliceMs": 9.1276,
+     "ms": 66.235,
+     "overBudget": 44,
+     "reads": 10084,
+     "secretGuid": 0,
+     "slices": 546,
+     "start": 1791498632,
+     "stop": 1791498691,
+     "sweepS": 1.86,
+     "sweepStart": 1126661.215,
+     "sweeps": 24,
+     "tokens": 7595
+    }
+   ],
+   "dup": {
+    "mouseover=nameplateN": 11,
+    "mouseover=nameplateNtarget": 3,
+    "mouseover=target": 3,
+    "mouseovertarget=nameplateN": 1,
+    "mouseovertarget=nameplateNtarget": 12,
+    "mouseovertarget=player": 10,
+    "mouseovertarget=playertargettarget": 2,
+    "mouseovertarget=targettarget": 6,
+    "nameplateN=nameplateNtarget": 6,
+    "nameplateN=playertarget": 2,
+    "nameplateN=target": 13,
+    "nameplateN=targettargettarget": 11,
+    "nameplateNtarget=player": 8,
+    "nameplateNtarget=target": 3,
+    "nameplateNtarget=targettarget": 7,
+    "nameplateNtarget=targettargettarget": 5,
+    "player=targettarget": 3,
+    "playertarget=target": 3
+   },
+   "rows": [
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 125
+       },
+       "mixed": false,
+       "n": 125,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "arenaN",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 125
+       },
+       "mixed": false,
+       "n": 125,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "arenaNtarget",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 125
+       },
+       "mixed": false,
+       "n": 125,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "arenapetN",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 200
+       },
+       "mixed": false,
+       "n": 200,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "bossN",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 200
+       },
+       "mixed": false,
+       "n": 200,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "bossNtarget",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "focus",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "focustarget",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "focustargettarget",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 12,
+        "S": 2
+       },
+       "mixed": true,
+       "n": 14,
+       "share": 0.857
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 13,
+        "N": 1
+       },
+       "mixed": true,
+       "n": 14,
+       "share": 0.929
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 34
+       },
+       "mixed": false,
+       "n": 34,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 13,
+        "N": 1
+       },
+       "mixed": true,
+       "n": 14,
+       "share": 0.929
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "C": 1,
+        "S": 13
+       },
+       "mixed": true,
+       "n": 14,
+       "share": 0.929
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "C": 1,
+        "S": 13
+       },
+       "mixed": true,
+       "n": 14,
+       "share": 0.929
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 13,
+        "N": 1
+       },
+       "mixed": true,
+       "n": 14,
+       "share": 0.929
+      },
+      "threat": {
+       "code": "S",
+       "counts": {
+        "N": 4,
+        "S": 10
+       },
+       "mixed": true,
+       "n": 14,
+       "share": 0.714
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "mouseover",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "C": 1,
+        "N": 8,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 10,
+       "share": 0.8
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 34
+       },
+       "mixed": false,
+       "n": 34,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "C",
+       "counts": {
+        "C": 9,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 10,
+       "share": 0.9
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "C",
+       "counts": {
+        "C": 9,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 10,
+       "share": 0.9
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 10
+       },
+       "mixed": false,
+       "n": 10,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 9,
+        "S": 1
+       },
+       "mixed": true,
+       "n": 10,
+       "share": 0.9
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "mouseovertarget",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 14,
+        "S": 2
+       },
+       "mixed": true,
+       "n": 16,
+       "share": 0.875
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 971
+       },
+       "mixed": false,
+       "n": 971,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "C",
+       "counts": {
+        "C": 9,
+        "N": 7
+       },
+       "mixed": true,
+       "n": 16,
+       "share": 0.562
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "nameplateN",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "C": 1,
+        "N": 9,
+        "S": 4
+       },
+       "mixed": true,
+       "n": 14,
+       "share": 0.643
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 977
+       },
+       "mixed": false,
+       "n": 977,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "C",
+       "counts": {
+        "C": 9,
+        "S": 5
+       },
+       "mixed": true,
+       "n": 14,
+       "share": 0.643
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "C",
+       "counts": {
+        "C": 9,
+        "S": 5
+       },
+       "mixed": true,
+       "n": 14,
+       "share": 0.643
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 9,
+        "S": 5
+       },
+       "mixed": true,
+       "n": 14,
+       "share": 0.643
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "nameplateNtarget",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "npc",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 100
+       },
+       "mixed": false,
+       "n": 100,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "partyN",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 100
+       },
+       "mixed": false,
+       "n": 100,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "partyNtarget",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 100
+       },
+       "mixed": false,
+       "n": 100,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "partyNtargettarget",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 100
+       },
+       "mixed": false,
+       "n": 100,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "partypetN",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "pet",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "pettarget",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "C": 1,
+        "N": 24
+       },
+       "mixed": true,
+       "n": 25,
+       "share": 0.96
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "player",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 8
+       },
+       "mixed": false,
+       "n": 8,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 4
+       },
+       "mixed": false,
+       "n": 4,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 2,
+        "S": 2
+       },
+       "mixed": true,
+       "n": 4,
+       "share": 0.5
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "playertarget",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 8
+       },
+       "mixed": false,
+       "n": 8,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 2
+       },
+       "mixed": false,
+       "n": 2,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "playertargettarget",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 1000
+       },
+       "mixed": false,
+       "n": 1000,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "raidN",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 1000
+       },
+       "mixed": false,
+       "n": 1000,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "raidNtarget",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 1000
+       },
+       "mixed": false,
+       "n": 1000,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "raidNtargettarget",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 1000
+       },
+       "mixed": false,
+       "n": 1000,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "raidpetN",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "softenemy",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "softfriend",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "softinteract",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 12,
+        "S": 2
+       },
+       "mixed": true,
+       "n": 14,
+       "share": 0.857
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 35
+       },
+       "mixed": false,
+       "n": 35,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 14
+       },
+       "mixed": false,
+       "n": 14,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "C",
+       "counts": {
+        "C": 12,
+        "N": 2
+       },
+       "mixed": true,
+       "n": 14,
+       "share": 0.857
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "target",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "C": 1,
+        "N": 11,
+        "S": 4
+       },
+       "mixed": true,
+       "n": 16,
+       "share": 0.688
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 39
+       },
+       "mixed": false,
+       "n": 39,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "C",
+       "counts": {
+        "C": 11,
+        "S": 5
+       },
+       "mixed": true,
+       "n": 16,
+       "share": 0.688
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "C",
+       "counts": {
+        "C": 11,
+        "S": 5
+       },
+       "mixed": true,
+       "n": 16,
+       "share": 0.688
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "N",
+       "counts": {
+        "N": 11,
+        "S": 5
+       },
+       "mixed": true,
+       "n": 16,
+       "share": 0.688
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "targettarget",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "canAttack": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "casting": {
+       "code": "N",
+       "counts": {
+        "N": 12,
+        "S": 4
+       },
+       "mixed": true,
+       "n": 16,
+       "share": 0.75
+      },
+      "class": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "combat": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "dead": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 39
+       },
+       "mixed": false,
+       "n": 39,
+       "share": 1.0
+      },
+      "guid": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "health": {
+       "code": "S",
+       "counts": {
+        "S": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "healthMax": {
+       "code": "S",
+       "counts": {
+        "S": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "idSecret": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "isMe": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "isPlayer": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "isTarget": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "level": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "name": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "power": {
+       "code": "S",
+       "counts": {
+        "S": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "powerMax": {
+       "code": "S",
+       "counts": {
+        "S": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "range28": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "reaction": {
+       "code": "C",
+       "counts": {
+        "C": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      },
+      "threat": {
+       "code": "S",
+       "counts": {
+        "S": 16
+       },
+       "mixed": false,
+       "n": 16,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "targettargettarget",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    },
+    {
+     "cells": {
+      "exists": {
+       "code": "C",
+       "counts": {
+        "C": 25
+       },
+       "mixed": false,
+       "n": 25,
+       "share": 1.0
+      }
+     },
+     "ctx": "ooc|world|solo",
+     "family": "vehicle",
+     "group": "solo",
+     "instance": "world",
+     "state": "ooc"
+    }
+   ]
+  }
+ },
+ "changes": []
+}

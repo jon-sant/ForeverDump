@@ -1,0 +1,1208 @@
+{
+ "blocked": [
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791432123,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1060096.218,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Combat",
+   "server": 1791432124,
+   "sid": "cap-20261008000120-1",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1060096.218,
+   "taintLog": "1",
+   "time": 1791432123
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791432151,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1060124.679,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "none",
+   "server": 1791432152,
+   "sid": "cap-20261008000120-1",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1060124.679,
+   "taintLog": "1",
+   "time": 1791432151
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791432162,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1060135.991,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Combat",
+   "server": 1791432163,
+   "sid": "cap-20261008000120-1",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1060135.991,
+   "taintLog": "1",
+   "time": 1791432162
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791432200,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1060173.345,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "none",
+   "server": 1791432201,
+   "sid": "cap-20261008000120-1",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1060173.345,
+   "taintLog": "1",
+   "time": 1791432200
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791432211,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1060184.449,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Combat",
+   "server": 1791432212,
+   "sid": "cap-20261008000120-1",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1060184.449,
+   "taintLog": "1",
+   "time": 1791432211
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791432225,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1060198.805,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "none",
+   "server": 1791432226,
+   "sid": "cap-20261008000120-1",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1060198.805,
+   "taintLog": "1",
+   "time": 1791432225
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "epoch": 1791432307,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1060280.842,
+   "inCombat": false,
+   "restrictions": "Combat",
+   "server": 1791432308,
+   "sid": "login-20261008000356-4",
+   "t": 1060280.842,
+   "taintLog": "0",
+   "time": 1791432307
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "epoch": 1791432346,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1060319.626,
+   "inCombat": false,
+   "restrictions": "none",
+   "server": 1791432347,
+   "sid": "login-20261008000356-4",
+   "t": 1060319.626,
+   "taintLog": "0",
+   "time": 1791432346
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "epoch": 1791437386,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1065358.218,
+   "inCombat": false,
+   "restrictions": "Combat",
+   "server": 1791437386,
+   "sid": "login-20261008011651-5",
+   "t": 1065358.218,
+   "taintLog": "0",
+   "time": 1791437386
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "epoch": 1791437397,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1065369.135,
+   "inCombat": false,
+   "restrictions": "none",
+   "server": 1791437397,
+   "sid": "login-20261008011651-5",
+   "t": 1065369.135,
+   "taintLog": "0",
+   "time": 1791437397
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "epoch": 1791498513,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1126484.563,
+   "inCombat": false,
+   "restrictions": "Combat",
+   "server": 1791498512,
+   "sid": "login-20261008181647-8",
+   "t": 1126484.563,
+   "taintLog": "0",
+   "time": 1791498513
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "epoch": 1791498533,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1126505.254,
+   "inCombat": false,
+   "restrictions": "none",
+   "server": 1791498532,
+   "sid": "login-20261008181647-8",
+   "t": 1126505.254,
+   "taintLog": "0",
+   "time": 1791498533
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791498647,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1126618.853,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "Combat",
+   "server": 1791498646,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1126618.853,
+   "taintLog": "1",
+   "time": 1791498647
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498647,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126619.127,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498646,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126619.127,
+   "taintLog": "1",
+   "time": 1791498647
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498647,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126619.335,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498646,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126619.335,
+   "taintLog": "1",
+   "time": 1791498647
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498648,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126619.752,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498647,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126619.752,
+   "taintLog": "1",
+   "time": 1791498648
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498648,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126620.074,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498647,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126620.074,
+   "taintLog": "1",
+   "time": 1791498648
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498649,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126621.22,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498648,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126621.22,
+   "taintLog": "1",
+   "time": 1791498649
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498651,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126622.678,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498650,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126622.678,
+   "taintLog": "1",
+   "time": 1791498651
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498653,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126624.97,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498652,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126624.97,
+   "taintLog": "1",
+   "time": 1791498653
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498653,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126625.282,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498652,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126625.282,
+   "taintLog": "1",
+   "time": 1791498653
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498654,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126625.595,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:141: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:77>\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:287: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:272>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:336: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:335>",
+   "restrictions": "Combat",
+   "server": 1791498653,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126625.595,
+   "taintLog": "1",
+   "time": 1791498654
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498654,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126626.22,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498653,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126626.22,
+   "taintLog": "1",
+   "time": 1791498654
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498655,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126626.636,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498654,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126626.636,
+   "taintLog": "1",
+   "time": 1791498655
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498655,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126627.053,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498654,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126627.053,
+   "taintLog": "1",
+   "time": 1791498655
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498656,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126627.886,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498655,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126627.886,
+   "taintLog": "1",
+   "time": 1791498656
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498656,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126628.407,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498655,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126628.407,
+   "taintLog": "1",
+   "time": 1791498656
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498657,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126628.72,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:141: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:77>\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:287: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:272>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:336: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:335>",
+   "restrictions": "Combat",
+   "server": 1791498656,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126628.72,
+   "taintLog": "1",
+   "time": 1791498657
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498657,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126628.928,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498656,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126628.928,
+   "taintLog": "1",
+   "time": 1791498657
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498657,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126629.24,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498656,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126629.24,
+   "taintLog": "1",
+   "time": 1791498657
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498658,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126629.761,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:141: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:77>\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:287: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:272>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:336: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:335>",
+   "restrictions": "Combat",
+   "server": 1791498657,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126629.761,
+   "taintLog": "1",
+   "time": 1791498658
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498659,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126630.595,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498658,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126630.595,
+   "taintLog": "1",
+   "time": 1791498659
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498659,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126631.115,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498658,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126631.115,
+   "taintLog": "1",
+   "time": 1791498659
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498660,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126631.532,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498659,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126631.532,
+   "taintLog": "1",
+   "time": 1791498660
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498660,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126631.845,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498659,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126631.845,
+   "taintLog": "1",
+   "time": 1791498660
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498661,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126633.199,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498660,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126633.199,
+   "taintLog": "1",
+   "time": 1791498661
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498662,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126633.824,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498661,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126633.824,
+   "taintLog": "1",
+   "time": 1791498662
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498662,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126634.24,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498661,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126634.24,
+   "taintLog": "1",
+   "time": 1791498662
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498663,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126634.553,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498662,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126634.553,
+   "taintLog": "1",
+   "time": 1791498663
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498664,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126636.115,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498663,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126636.115,
+   "taintLog": "1",
+   "time": 1791498664
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498665,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126636.636,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498664,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126636.636,
+   "taintLog": "1",
+   "time": 1791498665
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498665,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126636.949,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498664,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126636.949,
+   "taintLog": "1",
+   "time": 1791498665
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498667,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126638.511,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498666,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126638.511,
+   "taintLog": "1",
+   "time": 1791498667
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498667,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126638.928,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:141: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:77>\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:287: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:272>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:336: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:335>",
+   "restrictions": "Combat",
+   "server": 1791498666,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126638.928,
+   "taintLog": "1",
+   "time": 1791498667
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498667,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126639.136,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498666,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126639.136,
+   "taintLog": "1",
+   "time": 1791498667
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498667,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126639.449,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498666,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126639.449,
+   "taintLog": "1",
+   "time": 1791498667
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498668,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126639.865,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498667,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126639.865,
+   "taintLog": "1",
+   "time": 1791498668
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498668,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126640.178,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498667,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126640.178,
+   "taintLog": "1",
+   "time": 1791498668
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498669,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126640.699,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498668,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126640.699,
+   "taintLog": "1",
+   "time": 1791498669
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498670,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126642.053,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:141: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:77>\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:287: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:272>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:336: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:335>",
+   "restrictions": "Combat",
+   "server": 1791498669,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126642.053,
+   "taintLog": "1",
+   "time": 1791498670
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498670,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126642.053,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498669,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126642.053,
+   "taintLog": "1",
+   "time": 1791498670
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498671,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126642.574,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498670,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126642.574,
+   "taintLog": "1",
+   "time": 1791498671
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498671,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126642.99,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498670,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126642.99,
+   "taintLog": "1",
+   "time": 1791498671
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498671,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126643.095,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:141: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:77>\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:287: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:272>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/WorldCapture.lua]:336: in function <Interface/AddOns/ForeverDump/WorldCapture.lua:335>",
+   "restrictions": "Combat",
+   "server": 1791498670,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126643.095,
+   "taintLog": "1",
+   "time": 1791498671
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498671,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126643.303,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498670,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126643.303,
+   "taintLog": "1",
+   "time": 1791498671
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498674,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126645.595,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498673,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126645.595,
+   "taintLog": "1",
+   "time": 1791498674
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498674,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126646.327,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498673,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126646.327,
+   "taintLog": "1",
+   "time": 1791498674
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498676,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126647.577,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498675,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126647.577,
+   "taintLog": "1",
+   "time": 1791498676
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498676,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126647.785,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498675,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126647.785,
+   "taintLog": "1",
+   "time": 1791498676
+  },
+  {
+   "args": {
+    "addon": "ForeverDump",
+    "function": "UNKNOWN()"
+   },
+   "duringCapture": true,
+   "epoch": 1791498676,
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1126647.993,
+   "inCombat": true,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:296: in function <Interface/AddOns/ForeverDump/Tokens.lua:267>\n[Interface/AddOns/ForeverDump/Tokens.lua]:373: in function <Interface/AddOns/ForeverDump/Tokens.lua:342>\n[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'\n[Interface/AddOns/ForeverDump/Tokens.lua]:502: in function <Interface/AddOns/ForeverDump/Tokens.lua:501>",
+   "restrictions": "Combat",
+   "server": 1791498675,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'\n[C]: in function 'pcall'\n[C]: in function 'pcall'",
+   "t": 1126647.993,
+   "taintLog": "1",
+   "time": 1791498676
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "duringCapture": true,
+   "epoch": 1791498676,
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1126648.16,
+   "inCombat": false,
+   "ownStack": "[Interface/AddOns/ForeverDump/Perf.lua]:56: in function 'Run'",
+   "restrictions": "none",
+   "server": 1791498675,
+   "sid": "cap-20261008183032-9",
+   "stack": "[C]: in function 'pcall'",
+   "t": 1126648.16,
+   "taintLog": "1",
+   "time": 1791498676
+  }
+ ],
+ "errors": [
+  {
+   "addon": "Blizzard_ObjectiveTracker",
+   "attributedAddon": "Blizzard_ObjectiveTracker",
+   "build": "70291",
+   "class": "c-trampoline-nil-call",
+   "count": 5,
+   "date": "2026-10-08 18:30:32",
+   "duringCapture": 5,
+   "epoch": 1791498632,
+   "gameTime": 1126604.434,
+   "inCombat": false,
+   "lastSession": 6,
+   "lastTime": 1791498678,
+   "locals": "msg=\"attempt to call a nil value\"\nsessionErrors=1\ninHandler=true\n",
+   "message": "attempt to call a nil value",
+   "origins": {
+    "[C]: in function 'pcall' < [C]: in function 'LayoutContents'": 5
+   },
+   "server": 1791498631,
+   "sid": "cap-20261008183032-9",
+   "stack": "[Interface/AddOns/ForeverDump/Errors.lua]:119: in function <Interface/AddOns/ForeverDump/Errors.lua:78>\n[C]: in function 'pcall'\n[Interface/AddOns/ForeverDump/Errors.lua]:250: in function <Interface/AddOns/ForeverDump/Errors.lua:246>\n[C]: ?\n[C]: in function 'LayoutContents'\n[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua]:147: in function 'Update'\n[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.lua]:82: in function 'Update'\n[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua]:70: in function <...zzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua:62>\n[tail call]: ?\n[Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua]:341: in function <Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua:340>\n",
+   "t": 1126604.434,
+   "taintLog": "1",
+   "time": 1791498632
+  },
+  {
+   "attributedAddon": null,
+   "build": "70291",
+   "count": 1,
+   "date": "2026-10-08 18:30:48",
+   "duringCapture": 1,
+   "epoch": 1791498648,
+   "gameTime": 1126619.991,
+   "inCombat": true,
+   "lastTime": 1791498648,
+   "locals": "msg=\"Interface/AddOns/ForeverDump/DamageMeter.lua:51: attempt to perform boolean test on local 'v' (a secret boolean value, while execution tainted by 'ForeverDump')\"\nsessionErrors=3\ninHandler=true\n",
+   "message": "Interface/AddOns/ForeverDump/DamageMeter.lua:51: attempt to perform boolean test on local 'v' (a secret boolean value, while execution tainted by 'ForeverDump')",
+   "origins": {
+    "[C]: in function 'pcall'": 1
+   },
+   "server": 1791498647,
+   "sid": "cap-20261008183032-9",
+   "stack": "[Interface/AddOns/ForeverDump/Errors.lua]:119: in function <Interface/AddOns/ForeverDump/Errors.lua:78>\n[C]: in function 'pcall'\n[Interface/AddOns/ForeverDump/Errors.lua]:250: in function <Interface/AddOns/ForeverDump/Errors.lua:246>\n[C]: ?\n[Interface/AddOns/ForeverDump/DamageMeter.lua]:51: in function <Interface/AddOns/ForeverDump/DamageMeter.lua:48>\n[Interface/AddOns/ForeverDump/DamageMeter.lua]:78: in function <Interface/AddOns/ForeverDump/DamageMeter.lua:77>\n[Interface/AddOns/ForeverDump/DamageMeter.lua]:171: in function 'Classify'\n[Interface/AddOns/ForeverDump/DamageMeter.lua]:425: in function <Interface/AddOns/ForeverDump/DamageMeter.lua:422>\n",
+   "t": 1126619.991,
+   "taintLog": "1",
+   "time": 1791498648
+  }
+ ],
+ "perAddon": {
+  "?": [
+   1,
+   0
+  ],
+  "Blizzard_ObjectiveTracker": [
+   5,
+   0
+  ],
+  "ForeverDump": [
+   0,
+   47
+  ]
+ }
+}

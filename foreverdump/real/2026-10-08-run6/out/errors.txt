@@ -1,0 +1,92 @@
+[5x] attempt to call a nil value  (addon Blizzard_ObjectiveTracker)
+    class: nil call raised inside the C function LayoutContents (hooksecurefunc trampoline; see CHANGES 2.2)
+    during capture: 5, taintLog=1
+    origins (1):
+         5x [C]: in function 'pcall' < [C]: in function 'LayoutContents'
+    [Interface/AddOns/ForeverDump/Errors.lua]:119: in function <Interface/AddOns/ForeverDump/Errors.lua:78>
+    [C]: in function 'pcall'
+    [Interface/AddOns/ForeverDump/Errors.lua]:250: in function <Interface/AddOns/ForeverDump/Errors.lua:246>
+    [C]: ?
+    [C]: in function 'LayoutContents'
+    [Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua]:147: in function 'Update'
+    [Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.lua]:82: in function 'Update'
+    [Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua]:70: in function <...zzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua:62>
+    [tail call]: ?
+    [Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua]:341: in function <Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua:340>
+    
+[1x] Interface/AddOns/ForeverDump/DamageMeter.lua:51: attempt to perform boolean test on local 'v' (a secret boolean value, while execution tainted by 'ForeverDump')
+    during capture: 1, taintLog=1
+    origins (1):
+         1x [C]: in function 'pcall'
+    [Interface/AddOns/ForeverDump/Errors.lua]:119: in function <Interface/AddOns/ForeverDump/Errors.lua:78>
+    [C]: in function 'pcall'
+    [Interface/AddOns/ForeverDump/Errors.lua]:250: in function <Interface/AddOns/ForeverDump/Errors.lua:246>
+    [C]: ?
+    [Interface/AddOns/ForeverDump/DamageMeter.lua]:51: in function <Interface/AddOns/ForeverDump/DamageMeter.lua:48>
+    [Interface/AddOns/ForeverDump/DamageMeter.lua]:78: in function <Interface/AddOns/ForeverDump/DamageMeter.lua:77>
+    [Interface/AddOns/ForeverDump/DamageMeter.lua]:171: in function 'Classify'
+    [Interface/AddOns/ForeverDump/DamageMeter.lua]:425: in function <Interface/AddOns/ForeverDump/DamageMeter.lua:422>
+    
+2026-10-08 00:02:03 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 00:02:31 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 00:02:42 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 00:03:20 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 00:03:31 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 00:03:45 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 00:05:07 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 00:05:46 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 01:29:46 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 01:29:57 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 18:28:33 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 18:28:53 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+2026-10-08 18:30:47 ADDON_RESTRICTION_STATE_CHANGED {'state': 1, 'type': 0}
+2026-10-08 18:30:47 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:47 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:48 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:48 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:49 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:51 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:53 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:53 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:54 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site WorldCapture.lua:141 -> WorldCapture range10: CheckInteractDistance in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:54 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:55 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:55 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:56 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:56 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:57 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site WorldCapture.lua:141 -> WorldCapture range10: CheckInteractDistance in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:57 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:57 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:58 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site WorldCapture.lua:141 -> WorldCapture range10: CheckInteractDistance in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:59 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:30:59 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:00 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:00 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:01 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:02 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:02 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:03 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:04 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:05 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:05 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:07 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:07 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site WorldCapture.lua:141 -> WorldCapture range10: CheckInteractDistance in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:07 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:07 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:08 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:08 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:09 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:10 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site WorldCapture.lua:141 -> WorldCapture range10: CheckInteractDistance in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:10 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:11 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:11 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:11 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site WorldCapture.lua:141 -> WorldCapture range10: CheckInteractDistance in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:11 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:14 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:14 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:16 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:16 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:16 ADDON_ACTION_BLOCKED {'addon': 'ForeverDump', 'function': 'UNKNOWN()'} (in combat) = site Tokens.lua:296 -> TokenScan readToken: CheckInteractDistance(range28) in combat (fixed 2.2.7: ns.CombatGuard)
+2026-10-08 18:31:16 ADDON_RESTRICTION_STATE_CHANGED {'state': 0, 'type': 0}
+per addon (errors, blocked actions): ? 1/0, Blizzard_ObjectiveTracker 5/0, ForeverDump 0/47
+2 unique errors, 61 blocked/forbidden/warning events

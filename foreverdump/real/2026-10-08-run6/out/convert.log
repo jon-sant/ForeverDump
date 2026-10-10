@@ -1,0 +1,23 @@
+taint.log: 149 entries
+  execution_tainted        59
+  other                    47
+  attempt_blocked          28
+  secret_blocked           15
+classification: blizzard-frame=47, unexpected=47, expected=43, contained=7, benign-chat=5
+by addon:
+  ForeverDump                    attempt_blocked=28, execution_tainted=59, other=47, secret_blocked=15
+secret-value operations blocked by taint (the addon made Blizzard code run tainted; that code then touched a secret):
+     6x ForeverDump: arithmetic at Interface/AddOns/ForeverDump/Controls.lua:154 (entered via ForeverDump/Controls.lua:154)
+     6x ForeverDump: arithmetic at Interface/AddOns/ForeverDump/Controls.lua:227 (entered via ForeverDump/Controls.lua:227)
+     2x ForeverDump: string conversion at len() (entered via ForeverDump/Lab.lua:241)
+     1x ForeverDump: boolean test at Interface/AddOns/ForeverDump/DamageMeter.lua:51 field() (entered via ForeverDump/DamageMeter.lua:51)
+wrote real/2026-10-08-run6/out/taint
+replay: 1 session(s), 1814 records; privacy=0 conflicts=0; wrote REPLAY.md + replay.json to real/2026-10-08-run6/out/replay
+coverage: 80 matrix row(s), 1 fight(s); damage-on-target attribution after 100.0% (falseSelf 0); wrote coverage.json, coverage-guide.json (guide --coverage), COVERAGE.md to real/2026-10-08-run6/out/coverage
+player Player-4618-00EB40D8 via auto:sv-meta guid (Uglaz Doomaxe)
+inference: addon data True, replay modes clear,secret,secret-pretrained, 17 guide rule row(s); wrote inference.json, INFERENCE.md, hsm.json (guide --hsm), HSM.md to real/2026-10-08-run6/out/inference
+tokens: 26 famil(ies), scanner matrix 33 row(s), 0 change alert(s); wrote tokens.json, UNIT-TOKENS.md, tokenscan.json, TOKENS.md to real/2026-10-08-run6/out/tokens
+perf: perf, 2 capture(s), 2 flag(s): application frame time rose x2.9 during the capture (20.5 -> 59.0 ms/frame); ForeverDump memory +64.8 MB during the capture -> real/2026-10-08-run6/out/perf/PERF.md
+player Player-4618-00EB40D8 via auto:sv-meta guid (Uglaz Doomaxe)
+analyze: 120 lead(s) (high 20, medium 7, low 32, info 61); wrote ANALYSIS.md, analysis.json, VERIFY.md, TOKENS.md, knowledge-patch.json, KnowledgePatch.lua, spell-timing/learned-seed .proposed.json to real/2026-10-08-run6/out/analysis
+CONVERT_EXIT:0

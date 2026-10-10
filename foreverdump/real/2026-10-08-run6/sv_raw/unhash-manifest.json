@@ -1,0 +1,51 @@
+{
+ "run": "2026-10-08-run6",
+ "ok": true,
+ "salt": 1126713479,
+ "matches": 2,
+ "method": "t0+counter",
+ "counter": 11,
+ "t0_off": 0,
+ "hashedDistinct": 15,
+ "resolved": 15,
+ "resolvedPct": 100.0,
+ "unresolved": 0,
+ "unresolvedSample": [],
+ "collisions": 0,
+ "collisionSample": [],
+ "rewrite": {
+  "resolved_keys": 15,
+  "unresolved_keys": 0
+ },
+ "sessions": [
+  {
+   "session": 0,
+   "sid": "cap-20261008183032-9",
+   "t0": 1126603.776,
+   "version": "2.2.6",
+   "recovered": {
+    "salt": 1126713479,
+    "matches": 2,
+    "counter": 11,
+    "t0_off": 0,
+    "sample": [
+     [
+      "player",
+      "Player-4618-00EB40D8",
+      "fd994260"
+     ],
+     [
+      "session",
+      "Galak Windchaser",
+      "540165e4"
+     ]
+    ],
+    "method": "t0+counter"
+   }
+  }
+ ],
+ "ownGuidResolved": true,
+ "log": "/workspace/foreverdump/real/2026-10-08-run6/WoWCombatLog.txt",
+ "out": "/workspace/foreverdump/real/2026-10-08-run6/sv_raw",
+ "luaSubstitutions": 29
+}
