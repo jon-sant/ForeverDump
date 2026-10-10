@@ -1,0 +1,95 @@
+{
+ "blocked": [
+  {
+   "args": {
+    "warningText": "Unable to create frame type: MapScene"
+   },
+   "event": "LUA_WARNING",
+   "gameTime": 1040691.563,
+   "inCombat": false,
+   "stack": "[Interface/AddOns/ForeverDump/Errors.lua]:133: in function <Interface/AddOns/ForeverDump/Errors.lua:118>\n[Interface/AddOns/ForeverDump/Errors.lua]:145: in function <Interface/AddOns/ForeverDump/Errors.lua:143>\n[C]: ?\n[Interface/AddOns/ForeverDump/Core.lua]:529: in function <Interface/AddOns/ForeverDump/Core.lua:518>\n",
+   "time": 1791412718
+  },
+  {
+   "args": {
+    "warningText": "Unknown frame type: VectorGraphics"
+   },
+   "event": "LUA_WARNING",
+   "gameTime": 1040691.563,
+   "inCombat": false,
+   "stack": "[Interface/AddOns/ForeverDump/Errors.lua]:133: in function <Interface/AddOns/ForeverDump/Errors.lua:118>\n[Interface/AddOns/ForeverDump/Errors.lua]:145: in function <Interface/AddOns/ForeverDump/Errors.lua:143>\n[C]: ?\n[Interface/AddOns/ForeverDump/Core.lua]:529: in function <Interface/AddOns/ForeverDump/Core.lua:518>\n",
+   "time": 1791412718
+  },
+  {
+   "args": {
+    "warningText": "Unable to create frame type: ModelFFX"
+   },
+   "event": "LUA_WARNING",
+   "gameTime": 1040691.563,
+   "inCombat": false,
+   "stack": "[Interface/AddOns/ForeverDump/Errors.lua]:133: in function <Interface/AddOns/ForeverDump/Errors.lua:118>\n[Interface/AddOns/ForeverDump/Errors.lua]:145: in function <Interface/AddOns/ForeverDump/Errors.lua:143>\n[C]: ?\n[Interface/AddOns/ForeverDump/Core.lua]:529: in function <Interface/AddOns/ForeverDump/Core.lua:518>\n",
+   "time": 1791412718
+  },
+  {
+   "args": {
+    "state": 1,
+    "type": 0
+   },
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1040863.941,
+   "inCombat": false,
+   "stack": "[Interface/AddOns/ForeverDump/Errors.lua]:133: in function <Interface/AddOns/ForeverDump/Errors.lua:118>\n[Interface/AddOns/ForeverDump/Errors.lua]:145: in function <Interface/AddOns/ForeverDump/Errors.lua:143>\n[C]: ?\n[Interface/AddOns/ForeverDump/Core.lua]:529: in function <Interface/AddOns/ForeverDump/Core.lua:518>\n",
+   "time": 1791412890
+  },
+  {
+   "args": {
+    "addon": "ClassicFishingCompanion",
+    "function": "CFCHUDFrame:SetHeight()"
+   },
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1040864.129,
+   "inCombat": true,
+   "stack": "[Interface/AddOns/ForeverDump/Errors.lua]:133: in function <Interface/AddOns/ForeverDump/Errors.lua:118>\n[Interface/AddOns/ForeverDump/Errors.lua]:145: in function <Interface/AddOns/ForeverDump/Errors.lua:143>\n[C]: ?\n[Interface/AddOns/ForeverDump/Core.lua]:529: in function <Interface/AddOns/ForeverDump/Core.lua:518>\n[C]: in function 'SetHeight'\n[Interface/AddOns/ClassicFishingCompanion/Forever/HUD.lua]:617: in function 'Update'\n[Interface/AddOns/ClassicFishingCompanion/Forever/HUD.lua]:418: in function <...rface/AddOns/ClassicFishingCompanion/Forever/HUD.lua:415>\n",
+   "time": 1791412890
+  },
+  {
+   "args": {
+    "addon": "ClassicFishingCompanion",
+    "function": "CFCHUDFrame:SetWidth()"
+   },
+   "event": "ADDON_ACTION_BLOCKED",
+   "gameTime": 1040864.129,
+   "inCombat": true,
+   "stack": "[Interface/AddOns/ForeverDump/Errors.lua]:133: in function <Interface/AddOns/ForeverDump/Errors.lua:118>\n[Interface/AddOns/ForeverDump/Errors.lua]:145: in function <Interface/AddOns/ForeverDump/Errors.lua:143>\n[C]: ?\n[Interface/AddOns/ForeverDump/Core.lua]:529: in function <Interface/AddOns/ForeverDump/Core.lua:518>\n[C]: in function 'SetWidth'\n[Interface/AddOns/ClassicFishingCompanion/Forever/HUD.lua]:618: in function 'Update'\n[Interface/AddOns/ClassicFishingCompanion/Forever/HUD.lua]:418: in function <...rface/AddOns/ClassicFishingCompanion/Forever/HUD.lua:415>\n",
+   "time": 1791412890
+  },
+  {
+   "args": {
+    "state": 0,
+    "type": 0
+   },
+   "event": "ADDON_RESTRICTION_STATE_CHANGED",
+   "gameTime": 1040865.004,
+   "inCombat": false,
+   "stack": "[Interface/AddOns/ForeverDump/Errors.lua]:133: in function <Interface/AddOns/ForeverDump/Errors.lua:118>\n[Interface/AddOns/ForeverDump/Errors.lua]:145: in function <Interface/AddOns/ForeverDump/Errors.lua:143>\n[C]: ?\n[Interface/AddOns/ForeverDump/Core.lua]:529: in function <Interface/AddOns/ForeverDump/Core.lua:518>\n",
+   "time": 1791412891
+  }
+ ],
+ "errors": [
+  {
+   "addon": "ForeverDump",
+   "attributedAddon": "Blizzard_ObjectiveTracker",
+   "build": "70245",
+   "count": 3,
+   "date": "2026-10-07 18:41:06",
+   "gameTime": 1040840.039,
+   "inCombat": false,
+   "lastSession": 3,
+   "lastTime": 1791412882,
+   "locals": "msg=\"attempt to call a nil value\"\nsessionErrors=1\ninHandler=true\n",
+   "message": "attempt to call a nil value",
+   "stack": "[Interface/AddOns/ForeverDump/Errors.lua]:64: in function <Interface/AddOns/ForeverDump/Errors.lua:41>\n[C]: in function 'pcall'\n[Interface/AddOns/ForeverDump/Errors.lua]:82: in function <Interface/AddOns/ForeverDump/Errors.lua:78>\n[C]: ?\n[C]: in function 'LayoutContents'\n[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua]:147: in function 'Update'\n[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.lua]:82: in function 'Update'\n[Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua]:70: in function <...zzard_ObjectiveTracker/Blizzard_ObjectiveTracker.lua:62>\n[tail call]: ?\n[Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua]:341: in function <Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua:340>\n",
+   "time": 1791412866
+  }
+ ]
+}

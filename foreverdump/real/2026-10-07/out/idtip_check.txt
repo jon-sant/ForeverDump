@@ -1,0 +1,22 @@
+apicheck /workspace/idtip-wowforever/build/idTip against 1.60.1.70245 (toc 16001) (1 files)
+idTip.lua:581: error [widget-type] CreateFrame("frame"): type not creatable in this client
+idTip.lua:424: warn [unknown-global] global 'WorldMapTooltip' not in dump and not defined by the addon
+idTip.lua:531: warn [unknown-global] global 'LE_BATTLE_PET_ALLY' not in dump and not defined by the addon
+idTip.lua:613: warn [unknown-global] global 'AchievementTemplateMixin' not in dump and not defined by the addon (x5)
+idTip.lua:625: warn [unknown-global] global 'AchievementFrameAchievementsContainer' not in dump and not defined by the addon (x3)
+idTip.lua:4: note [restricted] C_Spell.GetSpellTexture: SecretArguments=AllowedWhenTainted
+idTip.lua:5: note [restricted] C_Item.GetItemIconByID: SecretArguments=AllowedWhenUntainted
+idTip.lua:6: note [restricted] C_Item.GetItemInfo: SecretArguments=AllowedWhenUntainted
+idTip.lua:7: note [restricted] C_Item.GetItemGem: SecretArguments=AllowedWhenUntainted
+idTip.lua:8: note [restricted] C_Item.GetItemSpell: SecretArguments=AllowedWhenUntainted
+idTip.lua:9: note [restricted] C_Item.GetItemLinkByGUID: SecretArguments=AllowedWhenUntainted
+idTip.lua:112: note [restricted] issecretvalue: SecretArguments=AllowedWhenUntainted
+idTip.lua:112: note [restricted] issecrettable: SecretArguments=AllowedWhenUntainted
+idTip.lua:318: note [restricted] UnitGUID: SecretArguments=AllowedWhenUntainted
+idTip.lua:324: note [restricted] C_UnitAuras.GetAuraDataByAuraInstanceID: SecretArguments=AllowedWhenUntainted
+idTip.lua:325: note [restricted] C_UnitAuras.GetAuraDataByIndex: SecretArguments=AllowedWhenUntainted
+idTip.lua:326: note [restricted] C_UnitAuras.GetBuffDataByIndex: SecretArguments=AllowedWhenUntainted
+idTip.lua:326: note [restricted] C_UnitAuras.GetDebuffDataByIndex: SecretArguments=AllowedWhenUntainted
+idTip.lua:351: note [restricted] C_CurrencyInfo.GetCurrencyListLink: SecretArguments=AllowedWhenUntainted (x2)
+idTip.lua:413: note [restricted] C_QuestLog.GetQuestIDForLogIndex: SecretArguments=AllowedWhenUntainted (x2)
+1 error(s), 4 warning(s), 15 note(s)

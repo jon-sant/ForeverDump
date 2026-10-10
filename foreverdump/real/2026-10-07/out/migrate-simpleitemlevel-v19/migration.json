@@ -1,0 +1,270 @@
+{
+ "apiCounts": {
+  "ok": 6,
+  "removed": 2,
+  "renamed": 5,
+  "signature-changed": 1
+ },
+ "apis": [
+  {
+   "call": true,
+   "file": "addon.lua",
+   "line": 243,
+   "name": "GetVoidItemHyperlinkString",
+   "notes": "not present in this client and no known replacement",
+   "present": false,
+   "sites": [
+    "addon.lua:243"
+   ],
+   "status": "removed"
+  },
+  {
+   "call": true,
+   "file": "addon.lua",
+   "line": 239,
+   "name": "GetVoidItemInfo",
+   "notes": "not present in this client and no known replacement",
+   "present": false,
+   "sites": [
+    "addon.lua:239"
+   ],
+   "status": "removed"
+  },
+  {
+   "call": true,
+   "example": null,
+   "file": "addon.lua",
+   "line": 15,
+   "name": "IsAddOnLoaded",
+   "notes": "loadedOrLoading, loaded",
+   "present": false,
+   "replacement": "C_AddOns.IsAddOnLoaded",
+   "secrecy": null,
+   "sites": [
+    "addon.lua:15"
+   ],
+   "source": "curated",
+   "status": "signature-changed"
+  },
+  {
+   "call": true,
+   "example": null,
+   "file": "addon.lua",
+   "line": 2,
+   "name": "GetAddOnMetadata",
+   "notes": "same arguments",
+   "present": false,
+   "replacement": "C_AddOns.GetAddOnMetadata",
+   "secrecy": null,
+   "sites": [
+    "addon.lua:2"
+   ],
+   "source": "curated",
+   "status": "renamed"
+  },
+  {
+   "call": true,
+   "example": null,
+   "file": "addon.lua",
+   "line": 131,
+   "name": "GetDetailedItemLevelInfo",
+   "notes": "same arguments",
+   "present": false,
+   "replacement": "C_Item.GetDetailedItemLevelInfo",
+   "secrecy": null,
+   "sites": [
+    "addon.lua:131"
+   ],
+   "source": "curated",
+   "status": "renamed"
+  },
+  {
+   "call": true,
+   "example": null,
+   "file": "addon.lua",
+   "line": 104,
+   "name": "GetItemInfo",
+   "notes": "same tuple (itemName, itemLink, quality, itemLevel, minLevel, type, subType, stackCount, equipLoc, texture, sellPrice, classID, subclassID, bindType, expansionID, setID, isCraftingReagent); nil until GET_ITEM_INFO_RECEIVED / ITEM_DATA_LOAD_RESULT",
+   "present": false,
+   "replacement": "C_Item.GetItemInfo",
+   "secrecy": null,
+   "sites": [
+    "addon.lua:104"
+   ],
+   "source": "curated",
+   "status": "renamed"
+  },
+  {
+   "call": true,
+   "example": null,
+   "file": "addon.lua",
+   "line": 105,
+   "name": "GetItemInfoInstant",
+   "notes": "same arguments",
+   "present": false,
+   "replacement": "C_Item.GetItemInfoInstant",
+   "secrecy": null,
+   "sites": [
+    "addon.lua:105"
+   ],
+   "source": "curated",
+   "status": "renamed"
+  },
+  {
+   "call": true,
+   "example": null,
+   "file": "addon.lua",
+   "line": 76,
+   "name": "GetItemQualityColor",
+   "notes": "same arguments",
+   "present": false,
+   "replacement": "C_Item.GetItemQualityColor",
+   "secrecy": null,
+   "sites": [
+    "addon.lua:76"
+   ],
+   "source": "curated",
+   "status": "renamed"
+  },
+  {
+   "call": true,
+   "file": "addon.lua",
+   "line": 10,
+   "name": "CreateFrame",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "addon.lua:10",
+    "addon.lua:53"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "addon.lua",
+   "line": 127,
+   "name": "GetInventoryItemLink",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "addon.lua:127"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "addon.lua",
+   "line": 130,
+   "name": "GetInventoryItemQuality",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "addon.lua:130"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "addon.lua",
+   "line": 22,
+   "name": "LibStub",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "addon.lua:22",
+    "addon.lua:255"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "addon.lua",
+   "line": 88,
+   "name": "UnitLevel",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "addon.lua:88"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "addon.lua",
+   "line": 162,
+   "name": "hooksecurefunc",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "addon.lua:162",
+    "addon.lua:169",
+    "addon.lua:186",
+    "addon.lua:201",
+    "addon.lua:203",
+    "addon.lua:207",
+    "addon.lua:236",
+    "addon.lua:256",
+    "addon.lua:263",
+    "addon.lua:270",
+    "addon.lua:278"
+   ],
+   "status": "ok"
+  }
+ ],
+ "callSiteCounts": {
+  "ok": 18,
+  "removed": 2,
+  "renamed": 5,
+  "signature-changed": 1
+ },
+ "clientToc": 16001,
+ "db": {
+  "curated": 109,
+  "shims": 360
+ },
+ "dump": "1.60.1.70245 (toc 16001)",
+ "eventCounts": {
+  "ok": 1
+ },
+ "events": [
+  {
+   "event": "ADDON_LOADED",
+   "file": "addon.lua",
+   "how": "handler",
+   "line": 24,
+   "sites": [
+    "addon.lua:24",
+    "addon.lua:45"
+   ],
+   "status": "ok"
+  }
+ ],
+ "files": [
+  "addon.lua"
+ ],
+ "folder": ".cache/sil-v19",
+ "secretFlow": [],
+ "taint": [],
+ "toc": [
+  {
+   "level": "error",
+   "message": "## Interface: 100000 does not include this client's 16001: the addon is listed as out of date. Set ## Interface: 16001 (a comma list like '16001, 120001' is accepted by current clients; verify on Forever)",
+   "toc": "SimpleItemLevel.toc"
+  },
+  {
+   "level": "warn",
+   "message": "## Interface-Wrath: 30400 is a legacy per-flavor key (BigWigs packager era); clients ignore it. Use per-flavor TOC files or a comma list in ## Interface",
+   "toc": "SimpleItemLevel.toc"
+  },
+  {
+   "level": "warn",
+   "message": "## Interface-BCC: 20503 is a legacy per-flavor key (BigWigs packager era); clients ignore it. Use per-flavor TOC files or a comma list in ## Interface",
+   "toc": "SimpleItemLevel.toc"
+  },
+  {
+   "level": "warn",
+   "message": "## Interface-Classic: 11403 is a legacy per-flavor key (BigWigs packager era); clients ignore it. Use per-flavor TOC files or a comma list in ## Interface",
+   "toc": "SimpleItemLevel.toc"
+  }
+ ]
+}

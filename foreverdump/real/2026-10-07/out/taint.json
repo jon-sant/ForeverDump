@@ -1,0 +1,50 @@
+{
+ "count": 2,
+ "entries": [
+  {
+   "addon": "ClassicFishingCompanion",
+   "addonFromStack": "ClassicFishingCompanion",
+   "combat": true,
+   "function": "CFCHUDFrame:SetHeight()",
+   "kind": "action_blocked",
+   "line": 1,
+   "message": "An action was blocked in combat because of taint from ClassicFishingCompanion - CFCHUDFrame:SetHeight()",
+   "stack": [
+    "CFCHUDFrame:SetHeight()",
+    "Interface/AddOns/ClassicFishingCompanion/Forever/HUD.lua:617 Update()",
+    "Interface/AddOns/ClassicFishingCompanion/Forever/HUD.lua:418"
+   ],
+   "time": "10/7 18:41:30.976"
+  },
+  {
+   "addon": "ClassicFishingCompanion",
+   "addonFromStack": "ClassicFishingCompanion",
+   "combat": true,
+   "function": "CFCHUDFrame:SetWidth()",
+   "kind": "action_blocked",
+   "line": 5,
+   "message": "An action was blocked in combat because of taint from ClassicFishingCompanion - CFCHUDFrame:SetWidth()",
+   "stack": [
+    "CFCHUDFrame:SetWidth()",
+    "Interface/AddOns/ClassicFishingCompanion/Forever/HUD.lua:618 Update()",
+    "Interface/AddOns/ClassicFishingCompanion/Forever/HUD.lua:418"
+   ],
+   "time": "10/7 18:41:30.977"
+  }
+ ],
+ "file": "taint.log",
+ "summary": {
+  "blocked": {
+   "ClassicFishingCompanion -> CFCHUDFrame:SetHeight()": 1,
+   "ClassicFishingCompanion -> CFCHUDFrame:SetWidth()": 1
+  },
+  "byAddon": {
+   "ClassicFishingCompanion": {
+    "action_blocked": 2
+   }
+  },
+  "byKind": {
+   "action_blocked": 2
+  }
+ }
+}

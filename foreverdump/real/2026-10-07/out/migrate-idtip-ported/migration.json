@@ -1,0 +1,293 @@
+{
+ "apiCounts": {
+  "now-secret": 5,
+  "ok": 16
+ },
+ "apis": [
+  {
+   "call": false,
+   "file": "idTip.lua",
+   "line": 324,
+   "name": "C_UnitAuras.GetAuraDataByAuraInstanceID",
+   "present": true,
+   "secrecy": "returns #1 secret (conditional); when SecretWhenUnitAuraRestricted",
+   "sites": [
+    "idTip.lua:324"
+   ],
+   "status": "now-secret"
+  },
+  {
+   "call": false,
+   "file": "idTip.lua",
+   "line": 325,
+   "name": "C_UnitAuras.GetAuraDataByIndex",
+   "present": true,
+   "secrecy": "returns #1 secret (conditional); when SecretWhenUnitAuraRestricted",
+   "sites": [
+    "idTip.lua:325"
+   ],
+   "status": "now-secret"
+  },
+  {
+   "call": false,
+   "file": "idTip.lua",
+   "line": 326,
+   "name": "C_UnitAuras.GetBuffDataByIndex",
+   "present": true,
+   "secrecy": "returns #1 secret (conditional); when SecretWhenUnitAuraRestricted",
+   "sites": [
+    "idTip.lua:326"
+   ],
+   "status": "now-secret"
+  },
+  {
+   "call": false,
+   "file": "idTip.lua",
+   "line": 326,
+   "name": "C_UnitAuras.GetDebuffDataByIndex",
+   "present": true,
+   "secrecy": "returns #1 secret (conditional); when SecretWhenUnitAuraRestricted",
+   "sites": [
+    "idTip.lua:326"
+   ],
+   "status": "now-secret"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 318,
+   "name": "UnitGUID",
+   "present": true,
+   "secrecy": "returns #1 secret (conditional); when SecretWhenUnitIdentityRestricted",
+   "sites": [
+    "idTip.lua:318"
+   ],
+   "status": "now-secret"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 353,
+   "name": "C_CurrencyInfo.GetCurrencyListLink",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:353"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 536,
+   "name": "C_PetBattles.GetAbilityInfo",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:536"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 536,
+   "name": "C_PetBattles.GetActivePet",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:536"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 544,
+   "name": "C_PetBattles.GetAuraInfo",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:544"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 103,
+   "name": "C_PetBattles.IsInBattle",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:103"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 395,
+   "name": "C_PetJournal.GetPetInfoByPetID",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:395"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 390,
+   "name": "C_PetJournal.GetPetInfoBySpeciesID",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:390"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 415,
+   "name": "C_QuestLog.GetQuestIDForLogIndex",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:415"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 581,
+   "name": "CreateFrame",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:581"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 562,
+   "name": "CreateSettingsListSectionHeaderInitializer",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:562"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 474,
+   "name": "GetAchievementCriteriaInfo",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:474",
+    "idTip.lua:492"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 473,
+   "name": "GetAchievementNumCriteria",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:473"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 346,
+   "name": "GetActionInfo",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:346"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 93,
+   "name": "hooksecurefunc",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:93"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 112,
+   "name": "issecrettable",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:112"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 112,
+   "name": "issecretvalue",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:112"
+   ],
+   "status": "ok"
+  }
+ ],
+ "callSiteCounts": {
+  "now-secret": 5,
+  "ok": 17
+ },
+ "clientToc": 16001,
+ "db": {
+  "curated": 109,
+  "shims": 360
+ },
+ "dump": "1.60.1.70245 (toc 16001)",
+ "eventCounts": {
+  "ok": 1
+ },
+ "events": [
+  {
+   "event": "ADDON_LOADED",
+   "file": "idTip.lua",
+   "how": "register",
+   "line": 582,
+   "sites": [
+    "idTip.lua:582"
+   ],
+   "status": "ok"
+  }
+ ],
+ "files": [
+  "idTip.lua"
+ ],
+ "folder": "/workspace/idtip-wowforever/build/idTip",
+ "secretFlow": [],
+ "taint": [],
+ "toc": []
+}

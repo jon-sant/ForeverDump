@@ -1,0 +1,44 @@
+SV file 17.14 MB (sizes estimated from re-serialization, scaled to the file size; factor 1.16)
+  10.98 MB  64.0%  ForeverDumpDB
+   9.34 MB  54.5%  ForeverDumpDB > sections
+   4.06 MB  23.7%  ForeverDumpDocsDB
+   3.28 MB  19.1%  ForeverDumpDB > sections > globals
+   3.13 MB  18.2%  ForeverDumpDB > sections > frames
+   3.13 MB  18.2%  ForeverDumpDB > sections > frames > frames
+   3.10 MB  18.1%  ForeverDumpDocsDB > systems
+   2.65 MB  15.4%  ForeverDumpDB > sections > globals > tables
+   2.10 MB  12.2%  ForeverDumpStringsDB
+   2.09 MB  12.2%  ForeverDumpStringsDB > strings
+   1.28 MB   7.5%  ForeverDumpDB > sections > protected
+   1.27 MB   7.4%  ForeverDumpDB > sections > protected > functions
+   0.88 MB   5.1%  ForeverDumpDB > sections > templates
+   0.88 MB   5.1%  ForeverDumpDB > sections > templates > templates
+   0.75 MB   4.4%  ForeverDumpDocsDB > sharedTables
+   0.58 MB   3.4%  ForeverDumpDB > enums
+   0.51 MB   3.0%  ForeverDumpDB > cvars
+   0.41 MB   2.4%  ForeverDumpDB > apis
+   0.29 MB   1.7%  ForeverDumpDB > sections > globals > enum
+   0.24 MB   1.4%  ForeverDumpDB > sections > widgets
+   0.23 MB   1.4%  ForeverDumpDB > sections > extras
+   0.20 MB   1.1%  ForeverDumpDB > sections > globals > functions
+   0.19 MB   1.1%  ForeverDumpDB > sections > widgets > types
+   0.18 MB   1.0%  ForeverDumpDocsDB > undocumentedGlobals
+   0.15 MB   0.9%  ForeverDumpDB > sections > api
+   0.14 MB   0.8%  ForeverDumpDB > sections > addons
+   0.02 MB   0.1%  ForeverDumpDB > sections > cvars
+   0.01 MB   0.0%  ForeverDumpLogDB
+   0.00 MB   0.0%  ForeverDumpDB > sections > docs
+   0.00 MB   0.0%  ForeverDumpDB > sections > strings
+   0.00 MB   0.0%  ForeverDumpCombatLogDB
+   0.00 MB   0.0%  ForeverDumpRecordDB
+
+v2.1 compact estimate on the same data (sizes re-serialized and scaled to the real file):
+  frames      3.13 MB ->  0.65 MB
+  globals     3.28 MB ->  2.34 MB
+  protected   1.28 MB ->  0.64 MB
+  strings     2.10 MB ->  0.97 MB
+  named frames listed: 6385 of 13711 (regions only counted)
+  addon (insecure) global tables reduced to name+shape: 158
+  protected rows kept: 3470 of 11036
+  TOTAL     17.14 MB -> ~12.0 MB compact (/fdump all full keeps the v2.0 layout)
+  remaining big items: DocsDB 4.06 MB (core), globals mixin/function lists, templates 0.88 MB, v1 legacy keys (from plain /fdump) 1.62 MB

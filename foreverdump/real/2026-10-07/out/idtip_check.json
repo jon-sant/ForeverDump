@@ -1,0 +1,174 @@
+{
+ "counts": {
+  "error": 1,
+  "note": 15,
+  "warn": 4
+ },
+ "dump": "1.60.1.70245 (toc 16001)",
+ "files": [
+  "idTip.lua"
+ ],
+ "findings": [
+  {
+   "code": "widget-type",
+   "count": 1,
+   "file": "idTip.lua",
+   "level": "error",
+   "line": 581,
+   "message": "CreateFrame(\"frame\"): type not creatable in this client"
+  },
+  {
+   "code": "unknown-global",
+   "count": 1,
+   "file": "idTip.lua",
+   "level": "warn",
+   "line": 424,
+   "message": "global 'WorldMapTooltip' not in dump and not defined by the addon"
+  },
+  {
+   "code": "unknown-global",
+   "count": 1,
+   "file": "idTip.lua",
+   "level": "warn",
+   "line": 531,
+   "message": "global 'LE_BATTLE_PET_ALLY' not in dump and not defined by the addon"
+  },
+  {
+   "code": "unknown-global",
+   "count": 5,
+   "file": "idTip.lua",
+   "level": "warn",
+   "line": 613,
+   "message": "global 'AchievementTemplateMixin' not in dump and not defined by the addon"
+  },
+  {
+   "code": "unknown-global",
+   "count": 3,
+   "file": "idTip.lua",
+   "level": "warn",
+   "line": 625,
+   "message": "global 'AchievementFrameAchievementsContainer' not in dump and not defined by the addon"
+  },
+  {
+   "code": "restricted",
+   "count": 1,
+   "file": "idTip.lua",
+   "level": "note",
+   "line": 4,
+   "message": "C_Spell.GetSpellTexture: SecretArguments=AllowedWhenTainted"
+  },
+  {
+   "code": "restricted",
+   "count": 1,
+   "file": "idTip.lua",
+   "level": "note",
+   "line": 5,
+   "message": "C_Item.GetItemIconByID: SecretArguments=AllowedWhenUntainted"
+  },
+  {
+   "code": "restricted",
+   "count": 1,
+   "file": "idTip.lua",
+   "level": "note",
+   "line": 6,
+   "message": "C_Item.GetItemInfo: SecretArguments=AllowedWhenUntainted"
+  },
+  {
+   "code": "restricted",
+   "count": 1,
+   "file": "idTip.lua",
+   "level": "note",
+   "line": 7,
+   "message": "C_Item.GetItemGem: SecretArguments=AllowedWhenUntainted"
+  },
+  {
+   "code": "restricted",
+   "count": 1,
+   "file": "idTip.lua",
+   "level": "note",
+   "line": 8,
+   "message": "C_Item.GetItemSpell: SecretArguments=AllowedWhenUntainted"
+  },
+  {
+   "code": "restricted",
+   "count": 1,
+   "file": "idTip.lua",
+   "level": "note",
+   "line": 9,
+   "message": "C_Item.GetItemLinkByGUID: SecretArguments=AllowedWhenUntainted"
+  },
+  {
+   "code": "restricted",
+   "count": 1,
+   "file": "idTip.lua",
+   "level": "note",
+   "line": 112,
+   "message": "issecretvalue: SecretArguments=AllowedWhenUntainted"
+  },
+  {
+   "code": "restricted",
+   "count": 1,
+   "file": "idTip.lua",
+   "level": "note",
+   "line": 112,
+   "message": "issecrettable: SecretArguments=AllowedWhenUntainted"
+  },
+  {
+   "code": "restricted",
+   "count": 1,
+   "file": "idTip.lua",
+   "level": "note",
+   "line": 318,
+   "message": "UnitGUID: SecretArguments=AllowedWhenUntainted"
+  },
+  {
+   "code": "restricted",
+   "count": 1,
+   "file": "idTip.lua",
+   "level": "note",
+   "line": 324,
+   "message": "C_UnitAuras.GetAuraDataByAuraInstanceID: SecretArguments=AllowedWhenUntainted"
+  },
+  {
+   "code": "restricted",
+   "count": 1,
+   "file": "idTip.lua",
+   "level": "note",
+   "line": 325,
+   "message": "C_UnitAuras.GetAuraDataByIndex: SecretArguments=AllowedWhenUntainted"
+  },
+  {
+   "code": "restricted",
+   "count": 1,
+   "file": "idTip.lua",
+   "level": "note",
+   "line": 326,
+   "message": "C_UnitAuras.GetBuffDataByIndex: SecretArguments=AllowedWhenUntainted"
+  },
+  {
+   "code": "restricted",
+   "count": 1,
+   "file": "idTip.lua",
+   "level": "note",
+   "line": 326,
+   "message": "C_UnitAuras.GetDebuffDataByIndex: SecretArguments=AllowedWhenUntainted"
+  },
+  {
+   "code": "restricted",
+   "count": 2,
+   "file": "idTip.lua",
+   "level": "note",
+   "line": 351,
+   "message": "C_CurrencyInfo.GetCurrencyListLink: SecretArguments=AllowedWhenUntainted"
+  },
+  {
+   "code": "restricted",
+   "count": 2,
+   "file": "idTip.lua",
+   "level": "note",
+   "line": 413,
+   "message": "C_QuestLog.GetQuestIDForLogIndex: SecretArguments=AllowedWhenUntainted"
+  }
+ ],
+ "folder": "/workspace/idtip-wowforever/build/idTip"
+}

@@ -1,0 +1,412 @@
+{
+ "apiCounts": {
+  "deprecated-shim": 1,
+  "now-secret": 1,
+  "ok": 3,
+  "protected": 1,
+  "removed": 1,
+  "renamed": 1,
+  "replacement-missing": 1,
+  "signature-changed": 8
+ },
+ "apis": [
+  {
+   "call": true,
+   "file": "LegacyAddon.lua",
+   "line": 10,
+   "name": "CombatLogGetCurrentEventInfo",
+   "notes": "Forever restricts COMBAT_LOG_EVENT(_UNFILTERED) and has no C_CombatLog.GetCurrentEventInfo. Use UNIT_COMBAT, UNIT_SPELLCAST_*, COMBAT_TEXT_UPDATE + C_CombatText.GetCurrentEventInfo and C_DamageMeter (amounts secret in combat); offline analysis: Logs/WoWCombatLog.txt",
+   "present": false,
+   "replacement": null,
+   "sites": [
+    "LegacyAddon.lua:10"
+   ],
+   "source": "curated",
+   "status": "removed"
+  },
+  {
+   "call": true,
+   "file": "LegacyAddon.lua",
+   "line": 47,
+   "name": "CombatLogGetNumEntries",
+   "notes": "mapped to C_CombatLog.GetEntryCount, which is NOT present in this client. ",
+   "present": false,
+   "replacement": "C_CombatLog.GetEntryCount",
+   "sites": [
+    "LegacyAddon.lua:47"
+   ],
+   "source": "shim:Blizzard_DeprecatedCombatLog/Deprecated_CombatLog.lua",
+   "status": "replacement-missing"
+  },
+  {
+   "call": true,
+   "example": "local info = C_Container.GetContainerItemInfo(bag, slot); if info then local count = info.stackCount end",
+   "file": "LegacyAddon.lua",
+   "line": 19,
+   "name": "GetContainerItemInfo",
+   "notes": "ContainerItemInfo {iconFileID, stackCount, isLocked, quality, isReadable, hasLoot, hyperlink, isFiltered, hasNoValue, itemID, isBound}; old: texture, count, locked, quality, readable, lootable, link, isFiltered, noValue, itemID, isBound",
+   "present": false,
+   "replacement": "C_Container.GetContainerItemInfo",
+   "secrecy": null,
+   "sites": [
+    "LegacyAddon.lua:19"
+   ],
+   "source": "curated",
+   "status": "signature-changed"
+  },
+  {
+   "call": true,
+   "example": "local focus = GetMouseFoci()[1]",
+   "file": "LegacyAddon.lua",
+   "line": 20,
+   "name": "GetMouseFocus",
+   "notes": "GetMouseFoci() returns a table of regions under the cursor (top first)",
+   "present": false,
+   "replacement": "GetMouseFoci",
+   "secrecy": null,
+   "sites": [
+    "LegacyAddon.lua:20"
+   ],
+   "source": "curated",
+   "status": "signature-changed"
+  },
+  {
+   "call": true,
+   "example": "local cd = C_Spell.GetSpellCooldown(id); if cd and cd.duration > 0 then ... end",
+   "file": "LegacyAddon.lua",
+   "line": 22,
+   "name": "GetSpellCooldown",
+   "notes": "SpellCooldownInfo {startTime, duration, isEnabled (boolean), modRate}; old: start, duration, enabled (1/0), modRate",
+   "present": false,
+   "replacement": "C_Spell.GetSpellCooldown",
+   "secrecy": "returns #1 secret (conditional); when SecretWhenCooldownsRestricted; struct fields secret: SpellCooldownInfo.startTime, SpellCooldownInfo.duration, SpellCooldownInfo.modRate, SpellCooldownInfo.activeCategory, SpellCooldownInfo.timeUntilEndOfStartRecovery",
+   "sites": [
+    "LegacyAddon.lua:22"
+   ],
+   "source": "curated",
+   "status": "signature-changed"
+  },
+  {
+   "call": true,
+   "example": "local info = C_Spell.GetSpellInfo(id); local name, icon = info and info.name, info and info.iconID",
+   "file": "LegacyAddon.lua",
+   "line": 18,
+   "name": "GetSpellInfo",
+   "notes": "SpellInfo {name, iconID, originalIconID, castTime, minRange, maxRange, spellID}; old: name, rank, icon, castTime, minRange, maxRange, spellID, originalIcon. rank is gone. Returns nil for unknown spells.",
+   "present": false,
+   "replacement": "C_Spell.GetSpellInfo",
+   "secrecy": null,
+   "sites": [
+    "LegacyAddon.lua:18"
+   ],
+   "source": "curated",
+   "status": "signature-changed"
+  },
+  {
+   "call": true,
+   "example": null,
+   "file": "LegacyAddon.lua",
+   "line": 30,
+   "name": "InterfaceOptions_AddCategory",
+   "notes": "local category = Settings.RegisterCanvasLayoutCategory(panel, panel.name); Settings.RegisterAddOnCategory(category)",
+   "present": false,
+   "replacement": "Settings.RegisterCanvasLayoutCategory",
+   "secrecy": null,
+   "sites": [
+    "LegacyAddon.lua:30"
+   ],
+   "source": "curated",
+   "status": "signature-changed"
+  },
+  {
+   "call": true,
+   "example": null,
+   "file": "LegacyAddon.lua",
+   "line": 21,
+   "name": "IsAddOnLoaded",
+   "notes": "loadedOrLoading, loaded",
+   "present": false,
+   "replacement": "C_AddOns.IsAddOnLoaded",
+   "secrecy": null,
+   "sites": [
+    "LegacyAddon.lua:21"
+   ],
+   "source": "curated",
+   "status": "signature-changed"
+  },
+  {
+   "call": true,
+   "example": null,
+   "file": "LegacyAddon.lua",
+   "line": 21,
+   "name": "SendAddonMessage",
+   "notes": "returns Enum.SendAddonMessageResult; outgoing addon messages can be restricted (C_ChatInfo.AreOutgoingAddonChatMessagesRestricted)",
+   "present": false,
+   "replacement": "C_ChatInfo.SendAddonMessage",
+   "secrecy": "rejects secret arguments",
+   "sites": [
+    "LegacyAddon.lua:21"
+   ],
+   "source": "curated",
+   "status": "signature-changed"
+  },
+  {
+   "call": true,
+   "example": "local aura = C_UnitAuras.GetAuraDataByIndex(unit, i, filter); if not aura then break end",
+   "file": "LegacyAddon.lua",
+   "line": 24,
+   "name": "UnitAura",
+   "notes": "AuraData {name, icon, applications, dispelName, duration, expirationTime, sourceUnit, isStealable, spellId, auraInstanceID, isHelpful, isHarmful, ...}; AuraUtil.UnpackAuraData(aura) rebuilds the old tuple. Prefer UNIT_AURA updateInfo + C_UnitAuras.GetAuraDataByAuraInstanceID.",
+   "present": false,
+   "replacement": "C_UnitAuras.GetAuraDataByIndex",
+   "secrecy": "returns #1 secret (conditional); when SecretWhenUnitAuraRestricted",
+   "sites": [
+    "LegacyAddon.lua:24"
+   ],
+   "source": "curated",
+   "status": "signature-changed"
+  },
+  {
+   "call": true,
+   "example": null,
+   "file": "LegacyAddon.lua",
+   "line": 45,
+   "name": "GetItemGem",
+   "notes": "same arguments",
+   "present": false,
+   "replacement": "C_Item.GetItemGem",
+   "secrecy": null,
+   "sites": [
+    "LegacyAddon.lua:45"
+   ],
+   "source": "shim:Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "status": "renamed"
+  },
+  {
+   "call": true,
+   "file": "LegacyAddon.lua",
+   "line": 46,
+   "name": "ActionHasRange",
+   "notes": "provided by Blizzard_DeprecatedActionBar/Deprecated_ActionBar.lua (forever; loads only while CVar loadDeprecationFallbacks=1)",
+   "present": true,
+   "replacement": "C_ActionBar.HasRangeRequirements",
+   "secrecy": null,
+   "sites": [
+    "LegacyAddon.lua:46"
+   ],
+   "source": "shim",
+   "status": "deprecated-shim"
+  },
+  {
+   "call": true,
+   "file": "LegacyAddon.lua",
+   "line": 42,
+   "name": "CastSpellByName",
+   "notes": "protected/restricted: callable only from secure code (or out of combat)",
+   "present": true,
+   "sites": [
+    "LegacyAddon.lua:42"
+   ],
+   "status": "protected"
+  },
+  {
+   "call": true,
+   "file": "LegacyAddon.lua",
+   "line": 13,
+   "name": "UnitHealth",
+   "present": true,
+   "secrecy": "returns #1 secret (always)",
+   "sites": [
+    "LegacyAddon.lua:13"
+   ],
+   "status": "now-secret"
+  },
+  {
+   "call": true,
+   "file": "LegacyAddon.lua",
+   "line": 3,
+   "name": "CreateFrame",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "LegacyAddon.lua:3",
+    "LegacyAddon.lua:28",
+    "LegacyAddon.lua:36"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "LegacyAddon.lua",
+   "line": 32,
+   "name": "PlaySound",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "LegacyAddon.lua:32"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "LegacyAddon.lua",
+   "line": 31,
+   "name": "UIDropDownMenu_Initialize",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "LegacyAddon.lua:31"
+   ],
+   "status": "ok"
+  }
+ ],
+ "callSiteCounts": {
+  "deprecated-shim": 1,
+  "now-secret": 1,
+  "ok": 5,
+  "protected": 1,
+  "removed": 1,
+  "renamed": 1,
+  "replacement-missing": 1,
+  "signature-changed": 8
+ },
+ "clientToc": 16001,
+ "db": {
+  "curated": 109,
+  "shims": 360
+ },
+ "dump": "1.60.1.70245 (toc 16001)",
+ "eventCounts": {
+  "ok": 1,
+  "removed-event": 1,
+  "renamed-event": 1,
+  "restricted-event": 1
+ },
+ "events": [
+  {
+   "event": "COMBAT_LOG_EVENT_UNFILTERED",
+   "file": "LegacyAddon.lua",
+   "how": "register",
+   "line": 4,
+   "notes": "registering it on Forever fires ADDON_ACTION_FORBIDDEN and offers to disable the addon (pcall does not help). Use UNIT_COMBAT / UNIT_SPELLCAST_* / COMBAT_TEXT_UPDATE / C_DamageMeter.",
+   "sites": [
+    "LegacyAddon.lua:4",
+    "LegacyAddon.lua:9"
+   ],
+   "status": "restricted-event"
+  },
+  {
+   "event": "UNIT_HEALTH_FREQUENT",
+   "file": "LegacyAddon.lua",
+   "how": "register",
+   "line": 5,
+   "notes": "merged into UNIT_HEALTH (9.0); health values are secret for many units",
+   "replacement": "UNIT_HEALTH",
+   "sites": [
+    "LegacyAddon.lua:5",
+    "LegacyAddon.lua:12"
+   ],
+   "status": "renamed-event"
+  },
+  {
+   "event": "PLAYER_LOGIN",
+   "file": "LegacyAddon.lua",
+   "how": "register",
+   "line": 6,
+   "sites": [
+    "LegacyAddon.lua:6"
+   ],
+   "status": "ok"
+  },
+  {
+   "event": "TOTALLY_FAKE_OLD_EVENT",
+   "file": "LegacyAddon.lua",
+   "how": "register",
+   "line": 7,
+   "notes": "event not known to this client",
+   "sites": [
+    "LegacyAddon.lua:7"
+   ],
+   "status": "removed-event"
+  }
+ ],
+ "files": [
+  "LegacyAddon.lua"
+ ],
+ "folder": "tests/legacy_addon",
+ "secretFlow": [
+  {
+   "code": "secret-op",
+   "file": "LegacyAddon.lua",
+   "level": "error",
+   "line": 14,
+   "message": "comparison on a documented secret value from UnitHealth return #1 (in 'hp'): errors when the value is secret; guard with issecretvalue(v) / canaccessvalue(v)"
+  }
+ ],
+ "taint": [
+  {
+   "file": "LegacyAddon.lua",
+   "line": 40,
+   "message": "redefines Blizzard global GameTooltip_ShowHyperlink: taints every Blizzard caller; use hooksecurefunc('GameTooltip_ShowHyperlink', fn)",
+   "pattern": "overwrites-global"
+  },
+  {
+   "file": "LegacyAddon.lua",
+   "line": 31,
+   "message": "UIDropDownMenu_Initialize: legacy dropdowns taint the shared menu frames; use the Blizzard_Menu API (MenuUtil)",
+   "pattern": "UIDropDownMenu"
+  },
+  {
+   "file": "LegacyAddon.lua",
+   "line": 32,
+   "message": "PlaySound(\"igMainMenuOpen\"): sound names were replaced by SOUNDKIT IDs (7.3)",
+   "pattern": "PlaySound-string"
+  },
+  {
+   "file": "LegacyAddon.lua",
+   "line": 33,
+   "message": "SetBackdrop needs frames created with \"BackdropTemplate\" (9.0+)",
+   "pattern": "SetBackdrop"
+  },
+  {
+   "file": "LegacyAddon.lua",
+   "line": 34,
+   "message": "RegisterAllEvents also registers restricted events (COMBAT_LOG_EVENT*) -> ADDON_ACTION_FORBIDDEN on Forever",
+   "pattern": "RegisterAllEvents"
+  },
+  {
+   "file": "LegacyAddon.lua",
+   "line": 37,
+   "message": "SetAttribute on a secure template without any InCombatLockdown() check in this file (blocked in combat)",
+   "pattern": "secure-attribute-unguarded"
+  },
+  {
+   "file": "LegacyAddon.lua",
+   "line": 38,
+   "message": "SetPoint in a file using secure templates without InCombatLockdown(): blocked in combat (ADDON_ACTION_BLOCKED, like ClassicFishingCompanion's CFCHUDFrame:SetHeight)",
+   "pattern": "secure-layout-unguarded"
+  }
+ ],
+ "toc": [
+  {
+   "level": "error",
+   "message": "## Interface: 30400 does not include this client's 16001: the addon is listed as out of date. Set ## Interface: 16001 (a comma list like '16001, 120001' is accepted by current clients; verify on Forever)",
+   "toc": "LegacyAddon.toc"
+  },
+  {
+   "level": "warn",
+   "message": "## Interface-Classic: 11403 is a legacy per-flavor key (BigWigs packager era); clients ignore it. Use per-flavor TOC files or a comma list in ## Interface",
+   "toc": "LegacyAddon.toc"
+  },
+  {
+   "level": "error",
+   "message": "depends on Blizzard_CombatLog_DoesNotExist, which does not exist on Forever",
+   "toc": "LegacyAddon.toc"
+  },
+  {
+   "level": "note",
+   "message": "no SavedVariables (fine if the addon keeps no state)",
+   "toc": "LegacyAddon.toc"
+  }
+ ]
+}

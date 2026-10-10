@@ -1,0 +1,459 @@
+{
+ "apiCounts": {
+  "now-secret": 1,
+  "ok": 16,
+  "removed": 3,
+  "renamed": 1,
+  "signature-changed": 6
+ },
+ "apis": [
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 308,
+   "name": "C_TradeSkillUI.GetRecipeReagentItemLink",
+   "notes": "not present in this client and no known replacement",
+   "present": false,
+   "sites": [
+    "idTip.lua:308"
+   ],
+   "status": "removed"
+  },
+  {
+   "call": false,
+   "file": "idTip.lua",
+   "line": 4,
+   "name": "GetGlyphSocketInfo",
+   "notes": "not present in this client and no known replacement",
+   "present": false,
+   "ref": "local alias",
+   "sites": [
+    "idTip.lua:4"
+   ],
+   "status": "removed"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 202,
+   "name": "SpellBook_GetSpellBookSlot",
+   "notes": "not present in this client and no known replacement",
+   "present": false,
+   "sites": [
+    "idTip.lua:202"
+   ],
+   "status": "removed"
+  },
+  {
+   "call": true,
+   "example": "local focus = GetMouseFoci()[1]",
+   "file": "idTip.lua",
+   "line": 304,
+   "name": "GetMouseFocus",
+   "notes": "GetMouseFoci() returns a table of regions under the cursor (top first)",
+   "present": false,
+   "replacement": "GetMouseFoci",
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:304",
+    "idTip.lua:307"
+   ],
+   "source": "curated",
+   "status": "signature-changed"
+  },
+  {
+   "call": true,
+   "example": null,
+   "file": "idTip.lua",
+   "line": 203,
+   "name": "GetSpellBookItemInfo",
+   "notes": "SpellBookItemInfo {actionID, spellID, itemType (Enum.SpellBookItemType), name, subName, iconID, isPassive, isOffSpec, skillLineIndex}; bookType string -> Enum.SpellBookSpellBank",
+   "present": false,
+   "replacement": "C_SpellBook.GetSpellBookItemInfo",
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:203"
+   ],
+   "source": "curated",
+   "status": "signature-changed"
+  },
+  {
+   "call": true,
+   "example": "local info = C_Spell.GetSpellInfo(id); local name, icon = info and info.name, info and info.iconID",
+   "file": "idTip.lua",
+   "line": 75,
+   "name": "GetSpellInfo",
+   "notes": "SpellInfo {name, iconID, originalIconID, castTime, minRange, maxRange, spellID}; old: name, rank, icon, castTime, minRange, maxRange, spellID, originalIcon. rank is gone. Returns nil for unknown spells.",
+   "present": false,
+   "replacement": "C_Spell.GetSpellInfo",
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:75"
+   ],
+   "source": "curated",
+   "status": "signature-changed"
+  },
+  {
+   "call": false,
+   "example": "local aura = C_UnitAuras.GetAuraDataByIndex(unit, i, filter); if not aura then break end",
+   "file": "idTip.lua",
+   "line": 3,
+   "name": "UnitAura",
+   "notes": "AuraData {name, icon, applications, dispelName, duration, expirationTime, sourceUnit, isStealable, spellId, auraInstanceID, isHelpful, isHarmful, ...}; AuraUtil.UnpackAuraData(aura) rebuilds the old tuple. Prefer UNIT_AURA updateInfo + C_UnitAuras.GetAuraDataByAuraInstanceID.",
+   "present": false,
+   "ref": "local alias",
+   "replacement": "C_UnitAuras.GetAuraDataByIndex",
+   "secrecy": "returns #1 secret (conditional); when SecretWhenUnitAuraRestricted",
+   "sites": [
+    "idTip.lua:3",
+    "idTip.lua:182"
+   ],
+   "source": "curated",
+   "status": "signature-changed"
+  },
+  {
+   "call": false,
+   "example": null,
+   "file": "idTip.lua",
+   "line": 3,
+   "name": "UnitBuff",
+   "notes": "AuraData (see UnitAura)",
+   "present": false,
+   "ref": "local alias",
+   "replacement": "C_UnitAuras.GetBuffDataByIndex",
+   "secrecy": "returns #1 secret (conditional); when SecretWhenUnitAuraRestricted",
+   "sites": [
+    "idTip.lua:3",
+    "idTip.lua:170"
+   ],
+   "source": "curated",
+   "status": "signature-changed"
+  },
+  {
+   "call": false,
+   "example": null,
+   "file": "idTip.lua",
+   "line": 3,
+   "name": "UnitDebuff",
+   "notes": "AuraData (see UnitAura)",
+   "present": false,
+   "ref": "local alias",
+   "replacement": "C_UnitAuras.GetDebuffDataByIndex",
+   "secrecy": "returns #1 secret (conditional); when SecretWhenUnitAuraRestricted",
+   "sites": [
+    "idTip.lua:3",
+    "idTip.lua:176"
+   ],
+   "source": "curated",
+   "status": "signature-changed"
+  },
+  {
+   "call": false,
+   "example": null,
+   "file": "idTip.lua",
+   "line": 292,
+   "name": "GetItemGem",
+   "notes": "same arguments",
+   "present": false,
+   "replacement": "C_Item.GetItemGem",
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:292",
+    "idTip.lua:294"
+   ],
+   "source": "shim:Blizzard_DeprecatedItemScript/Deprecated_ItemScript.lua",
+   "status": "renamed"
+  },
+  {
+   "call": false,
+   "file": "idTip.lua",
+   "line": 3,
+   "name": "UnitGUID",
+   "present": true,
+   "ref": "local alias",
+   "secrecy": "returns #1 secret (conditional); when SecretWhenUnitIdentityRestricted",
+   "sites": [
+    "idTip.lua:3",
+    "idTip.lua:252"
+   ],
+   "status": "now-secret"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 217,
+   "name": "C_ArtifactUI.GetPowerInfo",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:217"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 434,
+   "name": "C_CurrencyInfo.GetCurrencyListLink",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:434"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 78,
+   "name": "C_Item.GetItemIconByID",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:78"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 414,
+   "name": "C_PetBattles.GetAbilityInfo",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:414"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 412,
+   "name": "C_PetBattles.GetActivePet",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:412"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 425,
+   "name": "C_PetBattles.GetAuraInfo",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:425"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 249,
+   "name": "C_PetBattles.IsInBattle",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:249"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 239,
+   "name": "C_PetJournal.GetPetInfoByPetID",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:239"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 241,
+   "name": "C_PetJournal.GetPetInfoBySpeciesID",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:241",
+    "idTip.lua:394"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 447,
+   "name": "C_QuestLog.GetQuestIDForLogIndex",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:447"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 333,
+   "name": "CreateFrame",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:333"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 356,
+   "name": "GetAchievementCriteriaInfo",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:356"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 162,
+   "name": "GetActionInfo",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:162"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 231,
+   "name": "GetPvpTalentInfoByID",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:231"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 224,
+   "name": "GetTalentInfoByID",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:224"
+   ],
+   "status": "ok"
+  },
+  {
+   "call": true,
+   "file": "idTip.lua",
+   "line": 39,
+   "name": "hooksecurefunc",
+   "present": true,
+   "secrecy": null,
+   "sites": [
+    "idTip.lua:39"
+   ],
+   "status": "ok",
+   "via": "hooksecurefunc"
+  }
+ ],
+ "callSiteCounts": {
+  "now-secret": 2,
+  "ok": 17,
+  "removed": 3,
+  "renamed": 2,
+  "signature-changed": 10
+ },
+ "clientToc": 16001,
+ "db": {
+  "curated": 109,
+  "shims": 360
+ },
+ "dump": "1.60.1.70245 (toc 16001)",
+ "eventCounts": {
+  "ok": 1
+ },
+ "events": [
+  {
+   "event": "ADDON_LOADED",
+   "file": "idTip.lua",
+   "how": "register",
+   "line": 334,
+   "sites": [
+    "idTip.lua:334"
+   ],
+   "status": "ok"
+  }
+ ],
+ "files": [
+  "idTip.lua"
+ ],
+ "folder": ".cache/idtip-10.5.1",
+ "secretFlow": [
+  {
+   "code": "secret-op",
+   "file": "idTip.lua",
+   "level": "warn",
+   "line": 252,
+   "message": "boolean test on a conditionally secret value from UnitGUID return #1: errors when the value is secret; guard with issecretvalue(v) / canaccessvalue(v)"
+  },
+  {
+   "code": "secret-op",
+   "file": "idTip.lua",
+   "level": "note",
+   "line": 253,
+   "message": "string method on a possibly secret value from UnitGUID return #1 (in 'guid'): allowed, but the result is a secret string (no compare/length/parse); guard with issecretvalue(v) / canaccessvalue(v)"
+  },
+  {
+   "code": "secret-op",
+   "file": "idTip.lua",
+   "level": "warn",
+   "line": 254,
+   "message": "boolean test on a conditionally secret value from UnitGUID return #1 (in 'guid'): errors when the value is secret; guard with issecretvalue(v) / canaccessvalue(v)"
+  }
+ ],
+ "taint": [],
+ "toc": [
+  {
+   "level": "error",
+   "message": "## Interface: 100100 does not include this client's 16001: the addon is listed as out of date. Set ## Interface: 16001 (a comma list like '16001, 120001' is accepted by current clients; verify on Forever)",
+   "toc": "idTip.toc"
+  },
+  {
+   "level": "warn",
+   "message": "## Interface-Classic: 11403 is a legacy per-flavor key (BigWigs packager era); clients ignore it. Use per-flavor TOC files or a comma list in ## Interface",
+   "toc": "idTip.toc"
+  },
+  {
+   "level": "warn",
+   "message": "## Interface-BCC: 20504 is a legacy per-flavor key (BigWigs packager era); clients ignore it. Use per-flavor TOC files or a comma list in ## Interface",
+   "toc": "idTip.toc"
+  },
+  {
+   "level": "warn",
+   "message": "## Interface-Wrath: 30400 is a legacy per-flavor key (BigWigs packager era); clients ignore it. Use per-flavor TOC files or a comma list in ## Interface",
+   "toc": "idTip.toc"
+  },
+  {
+   "level": "note",
+   "message": "no SavedVariables (fine if the addon keeps no state)",
+   "toc": "idTip.toc"
+  }
+ ]
+}

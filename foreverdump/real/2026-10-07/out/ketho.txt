@@ -1,0 +1,44 @@
+Compared with Ketho/BlizzardInterfaceResources (forever)
+Ketho data build: GetBuildInfo() => "1.60.1", "70205", "Oct  2 2026", 16001
+dump functions defined in Lua (FrameXML.lua, excluded from 'only in dump'): 3546
+also defined/aliased in the --ui-source Lua (excluded): 399
+globalAPI: ketho 6883, dump 10920, only in ketho 0, only in dump 2
+  + dump only:  C_Seasons.GetActiveSeason
+  + dump only:  C_Seasons.HasActiveSeason
+events: ketho 1806, dump 1797, only in ketho 9, only in dump 0
+  - ketho only: CLASS_TALENTS_SWITCH_TO_LOADOUT_BY_INDEX
+  - ketho only: CLASS_TALENTS_SWITCH_TO_LOADOUT_BY_NAME
+  - ketho only: CLASS_TALENTS_SWITCH_TO_SPECIALIZATION_BY_INDEX
+  - ketho only: CLASS_TALENTS_SWITCH_TO_SPECIALIZATION_BY_NAME
+  - ketho only: COMBAT_LOG_APPLY_FILTER_SETTINGS
+  - ketho only: COMBAT_LOG_EVENT_INTERNAL_UNFILTERED
+  - ketho only: COMBAT_LOG_REFILTER_ENTRIES
+  - ketho only: MINIMAP_PING
+  - ketho only: TOOLTIP_SHOW_ITEM_COMPARISON
+cvars: ketho 1784, dump 1810, only in ketho 0, only in dump 26
+  + dump only:  Aftermath
+  + dump only:  AftermathCallstacks
+  + dump only:  AftermathShaderDebug
+  + dump only:  CACHE-WGOB-GameObjectsHotfixCount
+  + dump only:  CACHE-WGOB-GameObjectsRecordCount
+  + dump only:  CACHE-WQST-QuestObjectiveHotfixCount
+  + dump only:  CACHE-WQST-QuestObjectiveRecordCount
+  + dump only:  CACHE-WQST-QuestObjectiveXEffectHotfixCount
+  + dump only:  CACHE-WQST-QuestObjectiveXEffectRecordCount
+  + dump only:  CACHE-WQST-QuestV2HotfixCount
+  + dump only:  CACHE-WQST-QuestV2RecordCount
+  + dump only:  ErrorFileLog
+  + dump only:  agentLogLevel
+  + dump only:  debugAllocSingleBlade
+  + dump only:  debugAllocTrackStacktrace
+  + dump only:  enableMemoryTrap
+  + dump only:  enableRefHistory
+  + dump only:  nameplateCastBarDisplay
+  + dump only:  nameplateEnemyNpcAuraDisplay
+  + dump only:  nameplateEnemyPlayerAuraDisplay
+  + dump only:  nameplateFriendlyPlayerAuraDisplay
+  + dump only:  nameplateInfoDisplay
+  + dump only:  nameplateSimplifiedTypes
+  + dump only:  nameplateStackingTypes
+  + dump only:  nameplateThreatDisplay
+  + dump only:  useDebugAllocators

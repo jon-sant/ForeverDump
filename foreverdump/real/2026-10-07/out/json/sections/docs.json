@@ -1,0 +1,34 @@
+{
+ "counts": {
+  "events": 1806,
+  "functions": 6598,
+  "missing": 75,
+  "sharedTables": 946,
+  "systems": 410,
+  "tables": 1743,
+  "undocumented": 626,
+  "undocumentedGlobals": 5277
+ },
+ "meta": {
+  "addonVersion": "2.0.0",
+  "build": "70245",
+  "buildDate": "Oct  5 2026",
+  "date": "2026-10-07 18:38:37",
+  "inCombat": false,
+  "locale": "enUS",
+  "projectConstants": {
+   "WOW_PROJECT_CAMELOT": 18,
+   "WOW_PROJECT_CLASSIC": 2,
+   "WOW_PROJECT_ID": 18,
+   "WOW_PROJECT_MAINLINE": 1
+  },
+  "projectID": 18,
+  "projectName": "WOW_PROJECT_CAMELOT",
+  "schemaVersion": 2,
+  "scriptsDisallowedForBeta": false,
+  "time": 1791412717,
+  "toc": 16001,
+  "version": "1.60.1"
+ },
+ "storedIn": "ForeverDumpDocsDB"
+}
