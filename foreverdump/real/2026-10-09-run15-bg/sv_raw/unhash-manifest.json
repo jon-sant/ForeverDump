@@ -1,0 +1,182 @@
+{
+ "run": "2026-10-09-run15-bg",
+ "ok": true,
+ "salt": 1216956013,
+ "matches": 162,
+ "method": "t0+counter",
+ "counter": 47,
+ "t0_off": 0,
+ "hashedDistinct": 186,
+ "resolved": 162,
+ "resolvedPct": 87.1,
+ "unresolved": 24,
+ "unresolvedSample": [
+  [
+   "guid",
+   "0a907668"
+  ],
+  [
+   "guid",
+   "15fb9a2c"
+  ],
+  [
+   "guid",
+   "2e76a880"
+  ],
+  [
+   "guild",
+   "2e14f2bc"
+  ],
+  [
+   "guild",
+   "398ecc14"
+  ],
+  [
+   "guild",
+   "3b8d5bf0"
+  ],
+  [
+   "guild",
+   "40a8e740"
+  ],
+  [
+   "guild",
+   "43735e3c"
+  ],
+  [
+   "guild",
+   "4528a550"
+  ],
+  [
+   "guild",
+   "6e945e70"
+  ],
+  [
+   "guild",
+   "70e41fc0"
+  ],
+  [
+   "guild",
+   "8e2130b8"
+  ],
+  [
+   "guild",
+   "a79f6200"
+  ],
+  [
+   "guild",
+   "ac5b4be8"
+  ],
+  [
+   "guild",
+   "b1626c78"
+  ],
+  [
+   "guild",
+   "e93b6524"
+  ],
+  [
+   "guild",
+   "f066ea40"
+  ],
+  [
+   "name",
+   "67801c00"
+  ],
+  [
+   "name",
+   "bfef36bc"
+  ],
+  [
+   "pet",
+   "0bf8800c"
+  ]
+ ],
+ "collisions": 0,
+ "collisionSample": [],
+ "rewrite": {
+  "resolved_keys": 162,
+  "unresolved_keys": 24
+ },
+ "sessions": [
+  {
+   "session": 0,
+   "sid": "cap-20261009192835-45",
+   "t0": 1216487.2820000001,
+   "version": "2.2.19",
+   "recovered": {
+    "salt": 1216956013,
+    "matches": 162,
+    "counter": 47,
+    "t0_off": 0,
+    "sample": [
+     [
+      "player",
+      "Player-4620-00BEC64C",
+      "797e50a0"
+     ],
+     [
+      "player",
+      "Player-4618-00EB40D8",
+      "70392278"
+     ],
+     [
+      "player",
+      "Player-4620-00728DAA",
+      "c4dace36"
+     ],
+     [
+      "player",
+      "Player-4613-007A25EE",
+      "f8f4f9d0"
+     ],
+     [
+      "player",
+      "Player-4619-003DBA62",
+      "66733960"
+     ],
+     [
+      "player",
+      "Player-4619-00D0373A",
+      "d72e18e1"
+     ],
+     [
+      "player",
+      "Player-4620-012A552D",
+      "1df97ce7"
+     ],
+     [
+      "player",
+      "Player-4620-00B13B07",
+      "dddf69d6"
+     ],
+     [
+      "player",
+      "Player-4619-007D967B",
+      "53be9c30"
+     ],
+     [
+      "player",
+      "Player-4618-00AC58EC",
+      "e267e648"
+     ],
+     [
+      "player",
+      "Player-4620-00BCAE4D",
+      "75c8b75f"
+     ],
+     [
+      "player",
+      "Player-4620-00BE9619",
+      "9895276c"
+     ]
+    ],
+    "method": "t0+counter"
+   }
+  }
+ ],
+ "ownGuidResolved": true,
+ "log": "/workspace/foreverdump/real/2026-10-09-run15-bg/WoWCombatLog.txt",
+ "out": "/workspace/foreverdump/real/2026-10-09-run15-bg/sv_raw",
+ "luaSubstitutions": 13998
+}
