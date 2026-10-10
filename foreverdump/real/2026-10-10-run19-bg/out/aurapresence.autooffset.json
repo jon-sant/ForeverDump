@@ -1,0 +1,371 @@
+{
+ "bigDef": {
+  "bg/combat/combat": {
+   "10298": "false",
+   "1238640": "false",
+   "1238931": "false",
+   "139": "false",
+   "1430": "false",
+   "14751": "false",
+   "15271": "false",
+   "15473": "false",
+   "16177": "false",
+   "16188": "false",
+   "16257": "false",
+   "17": "false",
+   "17116": "false",
+   "17364": "false",
+   "19746": "false",
+   "20050": "false",
+   "20216": "false",
+   "20375": "false",
+   "2090": "false",
+   "2091": "false",
+   "20915": "false",
+   "27828": "false",
+   "3747": "false",
+   "408255": "false",
+   "408505": "false",
+   "408510": "false",
+   "422621": "false",
+   "437063": "false",
+   "5487": "false",
+   "6065": "false",
+   "6074": "false",
+   "6076": "false",
+   "6788": "false",
+   "7294": "false",
+   "740": "false",
+   "768": "false",
+   "774": "false",
+   "8052": "false",
+   "8056": "false",
+   "8938": "false",
+   "8939": "false",
+   "8940": "false",
+   "905": "false",
+   "done": true
+  },
+  "bg/ooc/gates": {
+   "10298": "false",
+   "1238640": "false",
+   "1238931": "false",
+   "139": "false",
+   "1430": "false",
+   "14751": "false",
+   "15271": "false",
+   "15473": "false",
+   "16177": "false",
+   "16188": "false",
+   "16257": "false",
+   "17": "false",
+   "17116": "false",
+   "17364": "false",
+   "19746": "false",
+   "20050": "false",
+   "20216": "false",
+   "20375": "false",
+   "2090": "false",
+   "2091": "false",
+   "20915": "false",
+   "27828": "false",
+   "3747": "false",
+   "408255": "false",
+   "408505": "false",
+   "408510": "false",
+   "422621": "false",
+   "437063": "false",
+   "5487": "false",
+   "6065": "false",
+   "6074": "false",
+   "6076": "false",
+   "6788": "false",
+   "7294": "false",
+   "740": "false",
+   "768": "false",
+   "774": "false",
+   "8052": "false",
+   "8056": "false",
+   "8938": "false",
+   "8939": "false",
+   "8940": "false",
+   "905": "false",
+   "done": true
+  },
+  "bg/ooc/post": {
+   "10298": "false",
+   "1238640": "false",
+   "1238931": "false",
+   "139": "false",
+   "1430": "false",
+   "14751": "false",
+   "15271": "false",
+   "15473": "false",
+   "16177": "false",
+   "16188": "false",
+   "16257": "false",
+   "17": "false",
+   "17116": "false",
+   "17364": "false",
+   "19746": "false",
+   "20050": "false",
+   "20216": "false",
+   "20375": "false",
+   "2090": "false",
+   "2091": "false",
+   "20915": "false",
+   "27828": "false",
+   "3747": "false",
+   "408255": "false",
+   "408505": "false",
+   "408510": "false",
+   "422621": "false",
+   "437063": "false",
+   "5487": "false",
+   "6065": "false",
+   "6074": "false",
+   "6076": "false",
+   "6788": "false",
+   "7294": "false",
+   "740": "false",
+   "768": "false",
+   "774": "false",
+   "8052": "false",
+   "8056": "false",
+   "8938": "false",
+   "8939": "false",
+   "8940": "false",
+   "905": "false",
+   "done": true
+  },
+  "bg/ooc/prep": {
+   "10298": "false",
+   "1238640": "false",
+   "1238931": "false",
+   "139": "false",
+   "1430": "false",
+   "14751": "false",
+   "15271": "false",
+   "15473": "false",
+   "16177": "false",
+   "16188": "false",
+   "16257": "false",
+   "17": "false",
+   "17116": "false",
+   "17364": "false",
+   "19746": "false",
+   "20050": "false",
+   "20216": "false",
+   "20375": "false",
+   "2090": "false",
+   "2091": "false",
+   "20915": "false",
+   "27828": "false",
+   "3747": "false",
+   "408255": "false",
+   "408505": "false",
+   "408510": "false",
+   "422621": "false",
+   "437063": "false",
+   "5487": "false",
+   "6065": "false",
+   "6074": "false",
+   "6076": "false",
+   "6788": "false",
+   "7294": "false",
+   "740": "false",
+   "768": "false",
+   "774": "false",
+   "8052": "false",
+   "8056": "false",
+   "8938": "false",
+   "8939": "false",
+   "8940": "false",
+   "905": "false",
+   "done": true
+  }
+ },
+ "caster": {
+  "bg/ooc/post": {
+   "C": 80
+  }
+ },
+ "codes": {
+  "bg/combat/combat": {
+   "N": 49751
+  },
+  "bg/ooc/gates": {
+   "N": 127882
+  },
+  "bg/ooc/post": {
+   "K": 80,
+   "N": 8692
+  },
+  "bg/ooc/prep": {
+   "N": 3655
+  }
+ },
+ "err": {
+  "bg/combat/combat": {
+   "GetAuraSlots": "GetAuraSlots(): Auras cannot be accessed when secret while tainted by 'ForeverDump'\nLua Taint: ForeverDump"
+  },
+  "bg/ooc/gates": {
+   "GetAuraSlots": "GetAuraSlots(): Auras cannot be accessed when secret while tainted by 'ForeverDump'\nLua Taint: ForeverDump"
+  },
+  "bg/ooc/prep": {
+   "GetAuraSlots": "GetAuraSlots(): Auras cannot be accessed when secret while tainted by 'ForeverDump'\nLua Taint: ForeverDump"
+  }
+ },
+ "fields": {
+  "bg/ooc/post": {
+   "applications": {
+    "C": 80
+   },
+   "auraInstanceID": {
+    "C": 80
+   },
+   "duration": {
+    "C": 80
+   },
+   "expirationTime": {
+    "C": 80
+   },
+   "isFromPlayerOrPlayerPet": {
+    "C": 80
+   },
+   "name": {
+    "C": 80
+   },
+   "sourceUnit": {
+    "C": 80
+   },
+   "spellId": {
+    "C": 80
+   }
+  }
+ },
+ "offset": 0.5049972534179688,
+ "offsetPairs": 85,
+ "score": {
+  "bg/combat/combat": {
+   "agree:A": 465,
+   "disagree:A": 6,
+   "edge": 2
+  },
+  "bg/ooc/gates": {
+   "agree:A": 211,
+   "disagree:A": 2,
+   "edge": 2,
+   "unresolved": 43
+  },
+  "bg/ooc/post": {
+   "agree:P": 7,
+   "disagree:A": 4,
+   "unresolved": 86
+  },
+  "bg/ooc/prep": {
+   "agree:A": 644,
+   "disagree:A": 1
+  }
+ },
+ "slots": {
+  "bg/combat/combat": {
+   "arenaN": {
+    "E": 1,
+    "held": 17
+   },
+   "mouseover": {
+    "E": 5,
+    "held": 17
+   },
+   "nameplateN": {
+    "E": 2,
+    "held": 64
+   },
+   "partyN": {
+    "E": 1,
+    "held": 142
+   },
+   "player": {
+    "E": 12,
+    "held": 227
+   },
+   "raidN": {
+    "E": 3,
+    "held": 487
+   },
+   "target": {
+    "E": 5,
+    "held": 174
+   }
+  },
+  "bg/ooc/gates": {
+   "arenaN": {
+    "E": 3,
+    "held": 45
+   },
+   "focus": {
+    "held": 14
+   },
+   "mouseover": {
+    "E": 7,
+    "held": 29
+   },
+   "nameplateN": {
+    "E": 2,
+    "held": 12
+   },
+   "partyN": {
+    "held": 425
+   },
+   "player": {
+    "E": 30,
+    "held": 681
+   },
+   "raidN": {
+    "E": 12,
+    "held": 1634
+   },
+   "target": {
+    "E": 9,
+    "held": 71
+   }
+  },
+  "bg/ooc/post": {
+   "nameplateN": {
+    "N/N": 6
+   },
+   "partyN": {
+    "N/C": 24,
+    "N/N": 2
+   },
+   "player": {
+    "N/C": 51
+   },
+   "raidN": {
+    "N/C": 46,
+    "N/N": 75
+   }
+  },
+  "bg/ooc/prep": {
+   "mouseover": {
+    "E": 1
+   },
+   "partyN": {
+    "E": 1,
+    "held": 15
+   },
+   "player": {
+    "E": 1,
+    "held": 20
+   },
+   "raidN": {
+    "E": 1,
+    "held": 46
+   }
+  }
+ },
+ "unresolved": {
+  "noname": 129
+ }
+}
