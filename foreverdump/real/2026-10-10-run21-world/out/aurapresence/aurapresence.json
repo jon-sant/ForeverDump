@@ -1,0 +1,177 @@
+{
+ "bigDef": {
+  "world-solo/combat/-": {
+   "10298": "false",
+   "1238640": "false",
+   "1238931": "false",
+   "139": "false",
+   "1430": "false",
+   "14751": "false",
+   "15271": "false",
+   "15473": "false",
+   "16177": "false",
+   "16188": "false",
+   "16257": "false",
+   "17": "false",
+   "17116": "false",
+   "17364": "false",
+   "19746": "false",
+   "20050": "false",
+   "20216": "false",
+   "20375": "false",
+   "2090": "false",
+   "2091": "false",
+   "20915": "false",
+   "27828": "false",
+   "3747": "false",
+   "408255": "false",
+   "408505": "false",
+   "408510": "false",
+   "422621": "false",
+   "437063": "false",
+   "5487": "false",
+   "6065": "false",
+   "6074": "false",
+   "6076": "false",
+   "6788": "false",
+   "7294": "false",
+   "740": "false",
+   "768": "false",
+   "774": "false",
+   "8052": "false",
+   "8056": "false",
+   "8938": "false",
+   "8939": "false",
+   "8940": "false",
+   "905": "false",
+   "done": true
+  },
+  "world-solo/ooc/-": {
+   "10298": "false",
+   "1238640": "false",
+   "1238931": "false",
+   "139": "false",
+   "1430": "false",
+   "14751": "false",
+   "15271": "false",
+   "15473": "false",
+   "16177": "false",
+   "16188": "false",
+   "16257": "false",
+   "17": "false",
+   "17116": "false",
+   "17364": "false",
+   "19746": "false",
+   "20050": "false",
+   "20216": "false",
+   "20375": "false",
+   "2090": "false",
+   "2091": "false",
+   "20915": "false",
+   "27828": "false",
+   "3747": "false",
+   "408255": "false",
+   "408505": "false",
+   "408510": "false",
+   "422621": "false",
+   "437063": "false",
+   "5487": "false",
+   "6065": "false",
+   "6074": "false",
+   "6076": "false",
+   "6788": "false",
+   "7294": "false",
+   "740": "false",
+   "768": "false",
+   "774": "false",
+   "8052": "false",
+   "8056": "false",
+   "8938": "false",
+   "8939": "false",
+   "8940": "false",
+   "905": "false",
+   "done": true
+  }
+ },
+ "caster": {
+  "world-solo/ooc/-": {
+   "C": 110
+  }
+ },
+ "codes": {
+  "world-solo/combat/-": {
+   "N": 10965
+  },
+  "world-solo/ooc/-": {
+   "K": 110,
+   "N": 5996
+  }
+ },
+ "err": {
+  "world-solo/combat/-": {
+   "GetAuraSlots": "GetAuraSlots(): Auras cannot be accessed when secret while tainted by 'ForeverDump'\nLua Taint: ForeverDump"
+  }
+ },
+ "fields": {
+  "world-solo/ooc/-": {
+   "applications": {
+    "C": 110
+   },
+   "auraInstanceID": {
+    "C": 110
+   },
+   "duration": {
+    "C": 110
+   },
+   "expirationTime": {
+    "C": 110
+   },
+   "isFromPlayerOrPlayerPet": {
+    "C": 110
+   },
+   "name": {
+    "C": 110
+   },
+   "sourceUnit": {
+    "C": 110
+   },
+   "spellId": {
+    "C": 110
+   }
+  }
+ },
+ "offset": 0.8199996948242188,
+ "offsetPairs": 29,
+ "score": {
+  "world-solo/combat/-": {
+   "disagree:A": 4
+  },
+  "world-solo/ooc/-": {
+   "agree:A": 214,
+   "agree:P": 6,
+   "disagree:P": 1,
+   "edge": 6
+  }
+ },
+ "slots": {
+  "world-solo/combat/-": {
+   "player": {
+    "E": 6,
+    "held": 126
+   },
+   "target": {
+    "E": 4,
+    "held": 119
+   }
+  },
+  "world-solo/ooc/-": {
+   "player": {
+    "N/C": 95
+   },
+   "target": {
+    "N/N": 47
+   }
+  }
+ },
+ "unresolved": {}
+}

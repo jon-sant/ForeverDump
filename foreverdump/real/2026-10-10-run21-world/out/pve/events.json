@@ -1,0 +1,5085 @@
+{
+ "logUtcOffset": -4.0,
+ "offset": 0.8199996948242188,
+ "offsetPairs": 29,
+ "events": {
+  "1-self-buffs": {
+   "truth": [
+    {
+     "t": 63927317157.547,
+     "time": "12:05:57.547",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238640,
+     "spell": "Ghost Wolf",
+     "auraType": "BUFF",
+     "g": 1276329.058,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_SPELLCAST_SENT player [N C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N]"
+     ],
+     "decide": [
+      "removed player sp=1238640 c=2"
+     ],
+     "presence": [
+      "12:05:57.819 player A world-solo/ooc/-"
+     ]
+    },
+    {
+     "t": 63927317157.548,
+     "time": "12:05:57.548",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 905,
+     "spell": "Lightning Shield",
+     "auraType": "BUFF",
+     "g": 1276329.059,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_SPELLCAST_SENT player [N C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N]"
+     ],
+     "decide": [
+      "applied player sp=905 c=4"
+     ],
+     "presence": [
+      "12:05:57.819 player P world-solo/ooc/-"
+     ]
+    },
+    {
+     "t": 63927317159.508,
+     "time": "12:05:59.508",
+     "ev": "ENCHANT_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 271766,
+     "spell": "Windfury 1",
+     "item": null,
+     "g": 1276331.019,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_SPELLCAST_SENT player [N C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N]",
+      "WEAPON_ENCHANT_CHANGED - []"
+     ],
+     "decide": [],
+     "presence": []
+    },
+    {
+     "t": 63927317176.005,
+     "time": "12:06:16.005",
+     "ev": "SPELL_AURA_REMOVED_DOSE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 905,
+     "spell": "Lightning Shield",
+     "auraType": "BUFF",
+     "stacks": "2",
+     "g": 1276347.516,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": [
+      "12:06:15.819 player A world-solo/combat/-"
+     ]
+    },
+    {
+     "t": 63927317181.447,
+     "time": "12:06:21.447",
+     "ev": "ENCHANT_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 271766,
+     "spell": "Windfury 1",
+     "item": null,
+     "g": 1276352.958,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_SPELLCAST_SENT player [N C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [N C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c",
+      "WEAPON_ENCHANT_CHANGED - [] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317181.945,
+     "time": "12:06:21.945",
+     "ev": "SPELL_AURA_REMOVED_DOSE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 905,
+     "spell": "Lightning Shield",
+     "auraType": "BUFF",
+     "stacks": "1",
+     "g": 1276353.456,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317188.01,
+     "time": "12:06:28.010",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 905,
+     "spell": "Lightning Shield",
+     "auraType": "BUFF",
+     "g": 1276359.521,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "removed player sp=905 c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317191.507,
+     "time": "12:06:31.507",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 905,
+     "spell": "Lightning Shield",
+     "auraType": "BUFF",
+     "g": 1276363.018,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4093-00014A61FB [] c",
+      "UNIT_SPELLCAST_SENT player [N C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [N C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "applied player sp=905 c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317192.008,
+     "time": "12:06:32.008",
+     "ev": "SPELL_AURA_REMOVED_DOSE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 905,
+     "spell": "Lightning Shield",
+     "auraType": "BUFF",
+     "stacks": "2",
+     "g": 1276363.519,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4093-00014A61FB [] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317196.049,
+     "time": "12:06:36.049",
+     "ev": "SPELL_AURA_REMOVED_DOSE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 905,
+     "spell": "Lightning Shield",
+     "auraType": "BUFF",
+     "stacks": "1",
+     "g": 1276367.56,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate3 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317199.988,
+     "time": "12:06:39.988",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 905,
+     "spell": "Lightning Shield",
+     "auraType": "BUFF",
+     "g": 1276371.499,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_START player [C C C] c",
+      "UNIT_SPELLCAST_START targettarget [C C C] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317210.007,
+     "time": "12:06:50.007",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 905,
+     "spell": "Lightning Shield",
+     "auraType": "BUFF",
+     "g": 1276381.518,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c",
+      "UNIT_SPELLCAST_SENT player [N C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [N C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "applied player sp=905 c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA626A sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317212.091,
+     "time": "12:06:52.091",
+     "ev": "SPELL_AURA_REMOVED_DOSE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 905,
+     "spell": "Lightning Shield",
+     "auraType": "BUFF",
+     "stacks": "2",
+     "g": 1276383.602,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA626A sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317216.028,
+     "time": "12:06:56.028",
+     "ev": "SPELL_AURA_REMOVED_DOSE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 905,
+     "spell": "Lightning Shield",
+     "auraType": "BUFF",
+     "stacks": "1",
+     "g": 1276387.539,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA nameplate2 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA softenemy [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4094-0000CA626A [] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA626A sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317220.097,
+     "time": "12:07:00.097",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 905,
+     "spell": "Lightning Shield",
+     "auraType": "BUFF",
+     "g": 1276391.608,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4094-0000CA6257 [] c",
+      "UNIT_HEAL_PREDICTION player [] c"
+     ],
+     "decide": [
+      "applied player sp=None c=1",
+      "combat-end None sp=None c=4",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317220.677,
+     "time": "12:07:00.677",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "auraType": "BUFF",
+     "g": 1276392.188,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4094-0000CA6257 [] c",
+      "UNIT_HEAL_PREDICTION player []",
+      "UNIT_SPELLCAST_STOP player [C C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C C]"
+     ],
+     "decide": [
+      "applied player sp=None c=1",
+      "combat-end None sp=None c=4",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2",
+      "reconcile None sp=None c=3"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317229.03,
+     "time": "12:07:09.030",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238640,
+     "spell": "Ghost Wolf",
+     "auraType": "BUFF",
+     "g": 1276400.541,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT nameplate1 [C C C C]",
+      "UNIT_SPELLCAST_SENT player [N C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N]"
+     ],
+     "decide": [
+      "applied player sp=1238640 c=2",
+      "applied player sp=1238640 c=4",
+      "damage guid:Creature-0-6782-1-1540-4093-00014A628A sp=None c=2"
+     ],
+     "presence": [
+      "12:07:09.819 player P world-solo/ooc/-"
+     ]
+    },
+    {
+     "t": 63927317230.676,
+     "time": "12:07:10.676",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "auraType": "BUFF",
+     "g": 1276402.187,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT player [C C C C]"
+     ],
+     "decide": [
+      "heal player sp=None c=2",
+      "removed player sp=1261483 c=2",
+      "removed player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317251.156,
+     "time": "12:07:31.156",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238640,
+     "spell": "Ghost Wolf",
+     "auraType": "BUFF",
+     "g": 1276422.667,
+     "phase": "combat",
+     "fd": [
+      "PLAYER_TOTEM_UPDATE - [C] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_SPELLCAST_SENT player [N C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c"
+     ],
+     "decide": [
+      "damage-taken player sp=None c=4",
+      "removed player sp=1238640 c=2"
+     ],
+     "presence": [
+      "12:07:29.819 player A world-solo/combat/-"
+     ]
+    },
+    {
+     "t": 63927317298.539,
+     "time": "12:08:18.539",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 16257,
+     "spell": "Flurry",
+     "auraType": "BUFF",
+     "g": 1276470.05,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c"
+     ],
+     "decide": [
+      "applied player sp=None c=1",
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=None c=3",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317301.183,
+     "time": "12:08:21.183",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "auraType": "BUFF",
+     "g": 1276472.694,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_DIED Creature-0-6782-1-1540-4096-00004A62A8 [] c",
+      "UNIT_HEAL_PREDICTION player []"
+     ],
+     "decide": [
+      "applied player sp=None c=1",
+      "combat-end None sp=None c=4",
+      "heal player sp=None c=2",
+      "reconcile None sp=None c=3"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317301.183,
+     "time": "12:08:21.183",
+     "ev": "SPELL_AURA_REMOVED_DOSE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 16257,
+     "spell": "Flurry",
+     "auraType": "BUFF",
+     "stacks": "2",
+     "g": 1276472.694,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_DIED Creature-0-6782-1-1540-4096-00004A62A8 [] c",
+      "UNIT_HEAL_PREDICTION player []"
+     ],
+     "decide": [
+      "applied player sp=None c=1",
+      "combat-end None sp=None c=4",
+      "heal player sp=None c=2",
+      "reconcile None sp=None c=3"
+     ],
+     "presence": [
+      "12:08:21.889 player P world-solo/ooc/-"
+     ]
+    },
+    {
+     "t": 63927317306.496,
+     "time": "12:08:26.496",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238640,
+     "spell": "Ghost Wolf",
+     "auraType": "BUFF",
+     "g": 1276478.007,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{CK}]",
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT nameplate1 [C C C C]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_SPELLCAST_INTERRUPTED player [C C N N]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N]"
+     ],
+     "decide": [
+      "applied player sp=1238640 c=2",
+      "applied player sp=1238640 c=4",
+      "damage guid:Creature-0-6782-1-1540-4093-00004A62D7 sp=None c=2",
+      "heal player sp=None c=2"
+     ],
+     "presence": [
+      "12:08:26.889 player P world-solo/ooc/-"
+     ]
+    },
+    {
+     "t": 63927317308.683,
+     "time": "12:08:28.683",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238640,
+     "spell": "Ghost Wolf",
+     "auraType": "BUFF",
+     "g": 1276480.194,
+     "phase": "ooc",
+     "fd": [
+      "PLAYER_TOTEM_UPDATE - [C]",
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT nameplate1 [C C C C]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_SPELLCAST_SENT player [N C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N]"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4093-00004A62D7 sp=None c=2",
+      "heal player sp=None c=2",
+      "removed player sp=1238640 c=4",
+      "removed player sp=None c=2",
+      "summon-replaced player sp=None c=3",
+      "summoned player sp=None c=1"
+     ],
+     "presence": [
+      "12:08:28.899 player A world-solo/ooc/-"
+     ]
+    },
+    {
+     "t": 63927317310.308,
+     "time": "12:08:30.308",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238640,
+     "spell": "Ghost Wolf",
+     "auraType": "BUFF",
+     "g": 1276481.819,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_SPELLCAST_SENT player [N C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N]"
+     ],
+     "decide": [
+      "applied player sp=1238640 c=4",
+      "heal player sp=None c=2",
+      "removed player sp=None c=2"
+     ],
+     "presence": [
+      "12:08:28.899 player A world-solo/ooc/-",
+      "12:08:30.899 player P world-solo/ooc/-"
+     ]
+    },
+    {
+     "t": 63927317311.205,
+     "time": "12:08:31.205",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "auraType": "BUFF",
+     "g": 1276482.716,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []"
+     ],
+     "decide": [
+      "heal player sp=None c=2",
+      "removed player sp=1261483 c=2",
+      "removed player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317313.621,
+     "time": "12:08:33.621",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 16257,
+     "spell": "Flurry",
+     "auraType": "BUFF",
+     "g": 1276485.132,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA nameplate3 [K{CK}]",
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT nameplate3 [C C C C]",
+      "UNIT_DIED Creature-0-6782-1-1540-4096-00004A62EE []"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62EE sp=None c=2",
+      "removed player sp=16257 c=1",
+      "removed player sp=None c=2"
+     ],
+     "presence": [
+      "12:08:33.899 player A world-solo/ooc/-"
+     ]
+    },
+    {
+     "t": 63927317320.163,
+     "time": "12:08:40.163",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238640,
+     "spell": "Ghost Wolf",
+     "auraType": "BUFF",
+     "g": 1276491.674,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_SPELLCAST_FAILED player [C C N] c",
+      "UNIT_SPELLCAST_FAILED targettarget [C C N] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4093-00004A62EE sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A62EE sp=None c=2",
+      "removed player sp=1238640 c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317320.163,
+     "time": "12:08:40.163",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238931,
+     "spell": "Improved Stormstrike",
+     "auraType": "BUFF",
+     "g": 1276491.674,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_SPELLCAST_FAILED player [C C N] c",
+      "UNIT_SPELLCAST_FAILED targettarget [C C N] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4093-00004A62EE sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A62EE sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317325.684,
+     "time": "12:08:45.684",
+     "ev": "SPELL_AURA_REFRESH",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238931,
+     "spell": "Improved Stormstrike",
+     "auraType": "BUFF",
+     "g": 1276497.195,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA nameplate2 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4094-0000CA62EE [] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4093-00004A62EE sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A62EE sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317331.502,
+     "time": "12:08:51.502",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "auraType": "BUFF",
+     "g": 1276503.013,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4093-00004A62EE [] c"
+     ],
+     "decide": [
+      "applied player sp=None c=1"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317336.664,
+     "time": "12:08:56.664",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238640,
+     "spell": "Ghost Wolf",
+     "auraType": "BUFF",
+     "g": 1276508.175,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT nameplate1 [C C C C]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_SPELLCAST_SENT player [N C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N]"
+     ],
+     "decide": [
+      "applied player sp=1238640 c=2",
+      "applied player sp=1238640 c=4",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A6301 sp=None c=2",
+      "heal player sp=None c=2"
+     ],
+     "presence": [
+      "12:08:56.899 player P world-solo/ooc/-"
+     ]
+    },
+    {
+     "t": 63927317340.644,
+     "time": "12:09:00.644",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238931,
+     "spell": "Improved Stormstrike",
+     "auraType": "BUFF",
+     "g": 1276512.155,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT player [C C C C]"
+     ],
+     "decide": [
+      "heal player sp=None c=2",
+      "removed player sp=1238931 c=2",
+      "removed player sp=None c=2"
+     ],
+     "presence": [
+      "12:09:00.899 player A world-solo/ooc/-"
+     ]
+    },
+    {
+     "t": 63927317341.519,
+     "time": "12:09:01.519",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "auraType": "BUFF",
+     "g": 1276513.03,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT player [C C C C]"
+     ],
+     "decide": [
+      "heal player sp=None c=2",
+      "removed player sp=1261483 c=2",
+      "removed player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317360.811,
+     "time": "12:09:20.811",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238640,
+     "spell": "Ghost Wolf",
+     "auraType": "BUFF",
+     "g": 1276532.322,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4096-0000CA6311 sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "removed player sp=1238640 c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317366.623,
+     "time": "12:09:26.623",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238931,
+     "spell": "Improved Stormstrike",
+     "auraType": "BUFF",
+     "g": 1276538.134,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4096-0000CA6311 [] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c"
+     ],
+     "decide": [
+      "combat-end None sp=None c=4",
+      "damage guid:Creature-0-6782-1-1540-4096-0000CA6311 sp=None c=2"
+     ],
+     "presence": [
+      "12:09:27.899 player P world-solo/ooc/-"
+     ]
+    },
+    {
+     "t": 63927317366.935,
+     "time": "12:09:26.935",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "auraType": "BUFF",
+     "g": 1276538.446,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4096-0000CA6311 [] c"
+     ],
+     "decide": [
+      "combat-end None sp=None c=4",
+      "reconcile None sp=None c=3"
+     ],
+     "presence": []
+    }
+   ],
+   "fdAgg": [
+    {
+     "phase": "combat",
+     "event": "PLAYER_TOTEM_UPDATE",
+     "token": "-",
+     "codes": "C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "nameplate1",
+     "codes": "K{ST}",
+     "n": 10
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "nameplate2",
+     "codes": "K{ST}",
+     "n": 4
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "nameplate3",
+     "codes": "K{ST}",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "player",
+     "codes": "K{ST}",
+     "n": 27
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "softenemy",
+     "codes": "K{ST}",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "target",
+     "codes": "K{ST}",
+     "n": 5
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "targettarget",
+     "codes": "K{ST}",
+     "n": 17
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "nameplate1",
+     "codes": "C C C C",
+     "n": 24
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "nameplate2",
+     "codes": "C C C C",
+     "n": 27
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "nameplate3",
+     "codes": "C C C C",
+     "n": 9
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "player",
+     "codes": "C C C C",
+     "n": 23
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "softenemy",
+     "codes": "C C C C",
+     "n": 12
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "target",
+     "codes": "C C C C",
+     "n": 23
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "targettarget",
+     "codes": "C C C C",
+     "n": 21
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4093-00004A62EE",
+     "codes": "",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4093-00014A61FB",
+     "codes": "",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4094-0000CA6257",
+     "codes": "",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4094-0000CA626A",
+     "codes": "",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4094-0000CA62EE",
+     "codes": "",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4096-00004A62A8",
+     "codes": "",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4096-0000CA6311",
+     "codes": "",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_HEAL_PREDICTION",
+     "token": "player",
+     "codes": "",
+     "n": 6
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_HEAL_PREDICTION",
+     "token": "targettarget",
+     "codes": "",
+     "n": 5
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_FAILED",
+     "token": "player",
+     "codes": "C C N",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_FAILED",
+     "token": "targettarget",
+     "codes": "C C N",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "player",
+     "codes": "C C C",
+     "n": 5
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "player",
+     "codes": "N C C",
+     "n": 4
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "targettarget",
+     "codes": "C C C",
+     "n": 4
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "targettarget",
+     "codes": "N C C",
+     "n": 3
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_START",
+     "token": "player",
+     "codes": "C C C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_START",
+     "token": "targettarget",
+     "codes": "C C C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "player",
+     "codes": "C C N",
+     "n": 8
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "targettarget",
+     "codes": "C C N",
+     "n": 6
+    },
+    {
+     "phase": "combat",
+     "event": "WEAPON_ENCHANT_CHANGED",
+     "token": "-",
+     "codes": "",
+     "n": 1
+    },
+    {
+     "phase": "ooc",
+     "event": "PLAYER_TOTEM_UPDATE",
+     "token": "-",
+     "codes": "C",
+     "n": 1
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_AURA",
+     "token": "nameplate1",
+     "codes": "K{CK}",
+     "n": 1
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_AURA",
+     "token": "nameplate3",
+     "codes": "K{CK}",
+     "n": 1
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_AURA",
+     "token": "player",
+     "codes": "K{CK}",
+     "n": 15
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_COMBAT",
+     "token": "nameplate1",
+     "codes": "C C C C",
+     "n": 13
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_COMBAT",
+     "token": "nameplate3",
+     "codes": "C C C C",
+     "n": 1
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_COMBAT",
+     "token": "player",
+     "codes": "C C C C",
+     "n": 13
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4096-00004A62EE",
+     "codes": "",
+     "n": 1
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_HEAL_PREDICTION",
+     "token": "player",
+     "codes": "",
+     "n": 5
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_SPELLCAST_INTERRUPTED",
+     "token": "player",
+     "codes": "C C N N",
+     "n": 1
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "player",
+     "codes": "N C C",
+     "n": 7
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_SPELLCAST_STOP",
+     "token": "player",
+     "codes": "C C C",
+     "n": 1
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "player",
+     "codes": "C C C",
+     "n": 1
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "player",
+     "codes": "C C N",
+     "n": 8
+    },
+    {
+     "phase": "ooc",
+     "event": "WEAPON_ENCHANT_CHANGED",
+     "token": "-",
+     "codes": "",
+     "n": 1
+    }
+   ]
+  },
+  "2-flame-shock": {
+   "truth": [
+    {
+     "t": 63927317204.57,
+     "time": "12:06:44.570",
+     "ev": "SPELL_CAST_SUCCESS",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Scout",
+     "sid": 8052,
+     "spell": "Flame Shock",
+     "g": 1276376.081,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA softenemy [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "applied guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=8052 c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=3",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317204.571,
+     "time": "12:06:44.571",
+     "ev": "SPELL_DAMAGE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Scout",
+     "sid": 8052,
+     "spell": "Flame Shock",
+     "g": 1276376.082,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA softenemy [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "applied guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=8052 c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=3",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317204.572,
+     "time": "12:06:44.572",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Scout",
+     "sid": 8052,
+     "spell": "Flame Shock",
+     "auraType": "DEBUFF",
+     "g": 1276376.083,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA softenemy [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "applied guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=8052 c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=3",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317207.57,
+     "time": "12:06:47.570",
+     "ev": "SPELL_PERIODIC_DAMAGE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Scout",
+     "sid": 8052,
+     "spell": "Flame Shock",
+     "g": 1276379.081,
+     "phase": "combat",
+     "fd": [
+      "PLAYER_TOTEM_UPDATE - [C] c",
+      "UNIT_AURA nameplate2 [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c",
+      "UNIT_SPELLCAST_SENT player [N C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [N C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA626A sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317210.57,
+     "time": "12:06:50.570",
+     "ev": "SPELL_PERIODIC_DAMAGE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Scout",
+     "sid": 8052,
+     "spell": "Flame Shock",
+     "g": 1276382.081,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA626A sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317213.57,
+     "time": "12:06:53.570",
+     "ev": "SPELL_PERIODIC_DAMAGE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Scout",
+     "sid": 8052,
+     "spell": "Flame Shock",
+     "g": 1276385.081,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA626A sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317216.528,
+     "time": "12:06:56.528",
+     "ev": "SPELL_PERIODIC_DAMAGE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Scout",
+     "sid": 8052,
+     "spell": "Flame Shock",
+     "g": 1276388.039,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA nameplate2 [K{ST}] c",
+      "UNIT_AURA softenemy [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4094-0000CA626A [] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA626A sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317216.528,
+     "time": "12:06:56.528",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Scout",
+     "sid": 8052,
+     "spell": "Flame Shock",
+     "auraType": "DEBUFF",
+     "g": 1276388.039,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA nameplate2 [K{ST}] c",
+      "UNIT_AURA softenemy [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4094-0000CA626A [] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA626A sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317285.517,
+     "time": "12:08:05.517",
+     "ev": "SPELL_CAST_SUCCESS",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Windchaser",
+     "sid": 8052,
+     "spell": "Flame Shock",
+     "g": 1276457.028,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA softenemy [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "applied guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=8052 c=2",
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=None c=3",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317285.518,
+     "time": "12:08:05.518",
+     "ev": "SPELL_DAMAGE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Windchaser",
+     "sid": 8052,
+     "spell": "Flame Shock",
+     "g": 1276457.029,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA softenemy [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "applied guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=8052 c=2",
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=None c=3",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317285.518,
+     "time": "12:08:05.518",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Windchaser",
+     "sid": 8052,
+     "spell": "Flame Shock",
+     "auraType": "DEBUFF",
+     "g": 1276457.029,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA softenemy [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "applied guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=8052 c=2",
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=None c=3",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317288.496,
+     "time": "12:08:08.496",
+     "ev": "SPELL_PERIODIC_DAMAGE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Windchaser",
+     "sid": 8052,
+     "spell": "Flame Shock",
+     "g": 1276460.007,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317291.537,
+     "time": "12:08:11.537",
+     "ev": "SPELL_PERIODIC_DAMAGE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Windchaser",
+     "sid": 8052,
+     "spell": "Flame Shock",
+     "g": 1276463.048,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317294.475,
+     "time": "12:08:14.475",
+     "ev": "SPELL_PERIODIC_DAMAGE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Windchaser",
+     "sid": 8052,
+     "spell": "Flame Shock",
+     "g": 1276465.986,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c",
+      "UNIT_SPELLCAST_STOP player [C C C] c",
+      "UNIT_SPELLCAST_STOP targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C C] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317297.537,
+     "time": "12:08:17.537",
+     "ev": "SPELL_PERIODIC_DAMAGE",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Windchaser",
+     "sid": 8052,
+     "spell": "Flame Shock",
+     "g": 1276469.048,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "applied player sp=None c=1",
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=None c=3",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317297.537,
+     "time": "12:08:17.537",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Windchaser",
+     "sid": 8052,
+     "spell": "Flame Shock",
+     "auraType": "DEBUFF",
+     "g": 1276469.048,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "applied player sp=None c=1",
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=None c=3",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    }
+   ],
+   "fdAgg": [
+    {
+     "phase": "combat",
+     "event": "PLAYER_TOTEM_UPDATE",
+     "token": "-",
+     "codes": "C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "nameplate1",
+     "codes": "K{ST}",
+     "n": 10
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "nameplate2",
+     "codes": "K{ST}",
+     "n": 7
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "player",
+     "codes": "K{ST}",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "softenemy",
+     "codes": "K{ST}",
+     "n": 8
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "target",
+     "codes": "K{ST}",
+     "n": 10
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "targettarget",
+     "codes": "K{ST}",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "nameplate1",
+     "codes": "C C C C",
+     "n": 25
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "nameplate2",
+     "codes": "C C C C",
+     "n": 18
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "nameplate3",
+     "codes": "C C C C",
+     "n": 7
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "player",
+     "codes": "C C C C",
+     "n": 25
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "softenemy",
+     "codes": "C C C C",
+     "n": 17
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "target",
+     "codes": "C C C C",
+     "n": 25
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "targettarget",
+     "codes": "C C C C",
+     "n": 25
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4094-0000CA626A",
+     "codes": "",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_HEAL_PREDICTION",
+     "token": "player",
+     "codes": "",
+     "n": 9
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_HEAL_PREDICTION",
+     "token": "targettarget",
+     "codes": "",
+     "n": 9
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "player",
+     "codes": "C C C",
+     "n": 6
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "player",
+     "codes": "N C C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "targettarget",
+     "codes": "C C C",
+     "n": 6
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "targettarget",
+     "codes": "N C C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_STOP",
+     "token": "player",
+     "codes": "C C C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_STOP",
+     "token": "targettarget",
+     "codes": "C C C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "player",
+     "codes": "C C C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "player",
+     "codes": "C C N",
+     "n": 7
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "targettarget",
+     "codes": "C C C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "targettarget",
+     "codes": "C C N",
+     "n": 7
+    }
+   ]
+  },
+  "4-stormstrike": {
+   "truth": [
+    {
+     "t": 63927317320.163,
+     "time": "12:08:40.163",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238931,
+     "spell": "Improved Stormstrike",
+     "auraType": "BUFF",
+     "g": 1276491.674,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_SPELLCAST_FAILED player [C C N] c",
+      "UNIT_SPELLCAST_FAILED targettarget [C C N] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4093-00004A62EE sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A62EE sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317320.164,
+     "time": "12:08:40.164",
+     "ev": "SPELL_CAST_SUCCESS",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Wrangler",
+     "sid": 17364,
+     "spell": "Stormstrike",
+     "g": 1276491.675,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_SPELLCAST_FAILED player [C C N] c",
+      "UNIT_SPELLCAST_FAILED targettarget [C C N] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "applied guid:Creature-0-6782-1-1540-4093-00004A62EE sp=17364 c=2",
+      "applied player sp=17364 c=2",
+      "cast-failed None sp=17364 c=2",
+      "damage guid:Creature-0-6782-1-1540-4093-00004A62EE sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A62EE sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317320.165,
+     "time": "12:08:40.165",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Wrangler",
+     "sid": 17364,
+     "spell": "Stormstrike",
+     "auraType": "DEBUFF",
+     "g": 1276491.676,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_SPELLCAST_FAILED player [C C N] c",
+      "UNIT_SPELLCAST_FAILED targettarget [C C N] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "applied guid:Creature-0-6782-1-1540-4093-00004A62EE sp=17364 c=2",
+      "applied player sp=17364 c=2",
+      "cast-failed None sp=17364 c=2",
+      "damage guid:Creature-0-6782-1-1540-4093-00004A62EE sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A62EE sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317325.684,
+     "time": "12:08:45.684",
+     "ev": "SPELL_AURA_REFRESH",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238931,
+     "spell": "Improved Stormstrike",
+     "auraType": "BUFF",
+     "g": 1276497.195,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA nameplate2 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4094-0000CA62EE [] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4093-00004A62EE sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A62EE sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317325.686,
+     "time": "12:08:45.686",
+     "ev": "SPELL_CAST_SUCCESS",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Wrangler",
+     "sid": 17364,
+     "spell": "Stormstrike",
+     "g": 1276497.197,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA nameplate2 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4094-0000CA62EE [] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4093-00004A62EE sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A62EE sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317325.687,
+     "time": "12:08:45.687",
+     "ev": "SPELL_AURA_REFRESH",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Wrangler",
+     "sid": 17364,
+     "spell": "Stormstrike",
+     "auraType": "DEBUFF",
+     "g": 1276497.198,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA nameplate2 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4094-0000CA62EE [] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4093-00004A62EE sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A62EE sp=None c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317331.499,
+     "time": "12:08:51.499",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Wrangler",
+     "sid": 17364,
+     "spell": "Stormstrike",
+     "auraType": "DEBUFF",
+     "g": 1276503.01,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4093-00004A62EE [] c"
+     ],
+     "decide": [
+      "applied player sp=None c=1"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317340.644,
+     "time": "12:09:00.644",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238931,
+     "spell": "Improved Stormstrike",
+     "auraType": "BUFF",
+     "g": 1276512.155,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT player [C C C C]"
+     ],
+     "decide": [
+      "heal player sp=None c=2",
+      "removed player sp=1238931 c=2",
+      "removed player sp=None c=2"
+     ],
+     "presence": [
+      "12:09:00.899 player A world-solo/ooc/-"
+     ]
+    },
+    {
+     "t": 63927317366.623,
+     "time": "12:09:26.623",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1238931,
+     "spell": "Improved Stormstrike",
+     "auraType": "BUFF",
+     "g": 1276538.134,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4096-0000CA6311 [] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c"
+     ],
+     "decide": [
+      "combat-end None sp=None c=4",
+      "damage guid:Creature-0-6782-1-1540-4096-0000CA6311 sp=None c=2"
+     ],
+     "presence": [
+      "12:09:27.899 player P world-solo/ooc/-"
+     ]
+    },
+    {
+     "t": 63927317366.623,
+     "time": "12:09:26.623",
+     "ev": "SPELL_CAST_SUCCESS",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Windchaser",
+     "sid": 17364,
+     "spell": "Stormstrike",
+     "g": 1276538.134,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4096-0000CA6311 [] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c"
+     ],
+     "decide": [
+      "applied guid:Creature-0-6782-1-1540-4096-0000CA6311 sp=17364 c=2",
+      "applied player sp=17364 c=2",
+      "combat-end None sp=None c=4",
+      "damage guid:Creature-0-6782-1-1540-4096-0000CA6311 sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317366.624,
+     "time": "12:09:26.624",
+     "ev": "SPELL_AURA_APPLIED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Windchaser",
+     "sid": 17364,
+     "spell": "Stormstrike",
+     "auraType": "DEBUFF",
+     "g": 1276538.135,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4096-0000CA6311 [] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c"
+     ],
+     "decide": [
+      "applied guid:Creature-0-6782-1-1540-4096-0000CA6311 sp=17364 c=2",
+      "applied player sp=17364 c=2",
+      "combat-end None sp=None c=4",
+      "damage guid:Creature-0-6782-1-1540-4096-0000CA6311 sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317366.935,
+     "time": "12:09:26.935",
+     "ev": "SPELL_AURA_REMOVED",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Windchaser",
+     "sid": 17364,
+     "spell": "Stormstrike",
+     "auraType": "DEBUFF",
+     "g": 1276538.446,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4096-0000CA6311 [] c"
+     ],
+     "decide": [
+      "applied player sp=17364 c=2",
+      "combat-end None sp=None c=4",
+      "reconcile None sp=None c=3"
+     ],
+     "presence": []
+    }
+   ],
+   "fdAgg": [
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "nameplate1",
+     "codes": "K{ST}",
+     "n": 14
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "nameplate2",
+     "codes": "K{ST}",
+     "n": 3
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "player",
+     "codes": "K{ST}",
+     "n": 14
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "target",
+     "codes": "K{ST}",
+     "n": 9
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "targettarget",
+     "codes": "K{ST}",
+     "n": 6
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "nameplate1",
+     "codes": "C C C C",
+     "n": 15
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "nameplate2",
+     "codes": "C C C C",
+     "n": 15
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "player",
+     "codes": "C C C C",
+     "n": 6
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "target",
+     "codes": "C C C C",
+     "n": 15
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "targettarget",
+     "codes": "C C C C",
+     "n": 6
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4093-00004A62EE",
+     "codes": "",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4094-0000CA62EE",
+     "codes": "",
+     "n": 3
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4096-0000CA6311",
+     "codes": "",
+     "n": 4
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_FAILED",
+     "token": "player",
+     "codes": "C C N",
+     "n": 3
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_FAILED",
+     "token": "targettarget",
+     "codes": "C C N",
+     "n": 3
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "player",
+     "codes": "C C C",
+     "n": 9
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "targettarget",
+     "codes": "C C C",
+     "n": 6
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "player",
+     "codes": "C C N",
+     "n": 9
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "targettarget",
+     "codes": "C C N",
+     "n": 6
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_AURA",
+     "token": "player",
+     "codes": "K{CK}",
+     "n": 2
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_COMBAT",
+     "token": "player",
+     "codes": "C C C C",
+     "n": 1
+    }
+   ]
+  },
+  "6-self-heal": {
+   "truth": [
+    {
+     "t": 63927317167.214,
+     "time": "12:06:07.214",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276338.725,
+     "phase": "ooc",
+     "fd": [
+      "PLAYER_TOTEM_UPDATE - [C]",
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []",
+      "UNIT_SPELLCAST_SENT player [N C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N]"
+     ],
+     "decide": [
+      "heal player sp=None c=2",
+      "removed player sp=6371 c=4",
+      "removed player sp=None c=2",
+      "summon-replaced player sp=None c=3",
+      "summoned player sp=None c=1"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317199.844,
+     "time": "12:06:39.844",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276371.355,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_START player [C C C] c",
+      "UNIT_SPELLCAST_START targettarget [C C C] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317201.528,
+     "time": "12:06:41.528",
+     "ev": "SPELL_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 8008,
+     "spell": "Lesser Healing Wave",
+     "g": 1276373.039,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c",
+      "UNIT_SPELLCAST_STOP player [C C C] c",
+      "UNIT_SPELLCAST_STOP targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C C] c"
+     ],
+     "decide": [
+      "cast-end player sp=8008 c=4",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317201.882,
+     "time": "12:06:41.882",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276373.393,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate3 [K{ST}] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317203.863,
+     "time": "12:06:43.863",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276375.374,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA softenemy [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=3",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317205.924,
+     "time": "12:06:45.924",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276377.435,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4124-00004A6255 [] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA626A sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317207.862,
+     "time": "12:06:47.862",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276379.373,
+     "phase": "combat",
+     "fd": [
+      "PLAYER_TOTEM_UPDATE - [C] c",
+      "UNIT_AURA nameplate2 [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c",
+      "UNIT_SPELLCAST_SENT player [N C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [N C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA626A sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317209.903,
+     "time": "12:06:49.903",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276381.414,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c",
+      "UNIT_SPELLCAST_SENT player [N C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [N C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C N] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA626A sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317211.821,
+     "time": "12:06:51.821",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276383.332,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA626A sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317213.821,
+     "time": "12:06:53.821",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276385.332,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT nameplate3 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA626A sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-00014A626A sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317215.82,
+     "time": "12:06:55.820",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276387.331,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA nameplate2 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA softenemy [K{ST}] c",
+      "UNIT_AURA target [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT nameplate2 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4094-0000CA626A [] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA626A sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317217.903,
+     "time": "12:06:57.903",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276389.414,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317219.882,
+     "time": "12:06:59.882",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276391.393,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{ST}] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4094-0000CA6257 [] c",
+      "UNIT_HEAL_PREDICTION player [] c"
+     ],
+     "decide": [
+      "applied player sp=None c=1",
+      "damage guid:Creature-0-6782-1-1540-4094-0000CA6257 sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317221.572,
+     "time": "12:07:01.572",
+     "ev": "SPELL_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 8008,
+     "spell": "Lesser Healing Wave",
+     "g": 1276393.083,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []",
+      "UNIT_SPELLCAST_STOP player [C C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C C]"
+     ],
+     "decide": [
+      "cast-end player sp=8008 c=4",
+      "heal player sp=None c=2",
+      "reconcile None sp=None c=3"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317221.863,
+     "time": "12:07:01.863",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276393.374,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []",
+      "UNIT_SPELLCAST_STOP player [C C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C C]"
+     ],
+     "decide": [
+      "heal player sp=None c=2",
+      "reconcile None sp=None c=3"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317222.614,
+     "time": "12:07:02.614",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "g": 1276394.125,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_COMBAT player [C C C C]"
+     ],
+     "decide": [
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317223.885,
+     "time": "12:07:03.885",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276395.396,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []"
+     ],
+     "decide": [
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317224.676,
+     "time": "12:07:04.676",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "g": 1276396.187,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []"
+     ],
+     "decide": [
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317225.822,
+     "time": "12:07:05.822",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276397.333,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []"
+     ],
+     "decide": [
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317226.676,
+     "time": "12:07:06.676",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "g": 1276398.187,
+     "phase": "ooc",
+     "fd": [
+      "PLAYER_TOTEM_UPDATE - [C]",
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_SPELLCAST_SENT player [N C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N]"
+     ],
+     "decide": [
+      "heal player sp=None c=2",
+      "summon-replaced player sp=None c=3",
+      "summoned player sp=None c=1"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317228.614,
+     "time": "12:07:08.614",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "g": 1276400.125,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT nameplate1 [C C C C]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_SPELLCAST_SENT player [N C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N]"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4093-00014A628A sp=None c=2",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317230.676,
+     "time": "12:07:10.676",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "g": 1276402.187,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT player [C C C C]"
+     ],
+     "decide": [
+      "heal player sp=None c=2",
+      "removed player sp=1261483 c=2",
+      "removed player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317266.013,
+     "time": "12:07:46.013",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276437.524,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317267.951,
+     "time": "12:07:47.951",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276439.462,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317269.992,
+     "time": "12:07:49.992",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276441.503,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4093-00024A62A8 [] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "applied player sp=None c=1",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317272.006,
+     "time": "12:07:52.006",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276443.517,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317274.016,
+     "time": "12:07:54.016",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276445.527,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317275.954,
+     "time": "12:07:55.954",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276447.465,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317277.975,
+     "time": "12:07:57.975",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276449.486,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317279.954,
+     "time": "12:07:59.954",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276451.465,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317281.954,
+     "time": "12:08:01.954",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276453.465,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317283.954,
+     "time": "12:08:03.954",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276455.465,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4093-00004A6299 [] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317286.017,
+     "time": "12:08:06.017",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276457.528,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317287.935,
+     "time": "12:08:07.935",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276459.446,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317290.016,
+     "time": "12:08:10.016",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276461.527,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "applied player sp=None c=1",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317292.016,
+     "time": "12:08:12.016",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276463.527,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_SENT targettarget [C C C] c",
+      "UNIT_SPELLCAST_START player [C C C] c",
+      "UNIT_SPELLCAST_START targettarget [C C C] c"
+     ],
+     "decide": [
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317293.933,
+     "time": "12:08:13.933",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276465.444,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT softenemy [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=None c=2",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317295.162,
+     "time": "12:08:15.162",
+     "ev": "SPELL_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 8008,
+     "spell": "Lesser Healing Wave",
+     "g": 1276466.673,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c",
+      "UNIT_SPELLCAST_STOP player [C C C] c",
+      "UNIT_SPELLCAST_STOP targettarget [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED targettarget [C C C] c"
+     ],
+     "decide": [
+      "cast-end player sp=8008 c=4",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317296.017,
+     "time": "12:08:16.017",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276467.528,
+     "phase": "combat",
+     "fd": [
+      "PLAYER_TOTEM_UPDATE - [C] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317297.975,
+     "time": "12:08:17.975",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276469.486,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_AURA targettarget [K{ST}] c",
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_HEAL_PREDICTION player [] c",
+      "UNIT_HEAL_PREDICTION targettarget [] c"
+     ],
+     "decide": [
+      "applied player sp=None c=1",
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=None c=2",
+      "damage guid:Creature-0-6782-1-1540-4096-00004A62A8 sp=None c=3",
+      "damage-taken player sp=None c=4",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317299.996,
+     "time": "12:08:19.996",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276471.507,
+     "phase": "combat",
+     "fd": [
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_DIED Creature-0-6782-1-1540-4096-00004A62A8 [] c",
+      "UNIT_HEAL_PREDICTION player [] c"
+     ],
+     "decide": [
+      "applied player sp=None c=1",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317301.954,
+     "time": "12:08:21.954",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276473.465,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []"
+     ],
+     "decide": [
+      "combat-end None sp=None c=4",
+      "heal player sp=None c=2",
+      "reconcile None sp=None c=3"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317303.245,
+     "time": "12:08:23.245",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "g": 1276474.756,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []"
+     ],
+     "decide": [
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317304.016,
+     "time": "12:08:24.016",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276475.527,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_COMBAT nameplate1 [C C C C]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4093-00004A62D7 sp=None c=2",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317305.225,
+     "time": "12:08:25.225",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "g": 1276476.736,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_COMBAT nameplate1 [C C C C]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []",
+      "UNIT_SPELLCAST_INTERRUPTED player [C C N N]"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4093-00004A62D7 sp=None c=2",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317306.016,
+     "time": "12:08:26.016",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276477.527,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{CK}]",
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT nameplate1 [C C C C]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []",
+      "UNIT_SPELLCAST_INTERRUPTED player [C C N N]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N]"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4093-00004A62D7 sp=None c=2",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317307.163,
+     "time": "12:08:27.163",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "g": 1276478.674,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_COMBAT nameplate1 [C C C C]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4093-00004A62D7 sp=None c=2",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317308.016,
+     "time": "12:08:28.016",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276479.527,
+     "phase": "ooc",
+     "fd": [
+      "PLAYER_TOTEM_UPDATE - [C]",
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []",
+      "UNIT_SPELLCAST_SENT player [N C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N]"
+     ],
+     "decide": [
+      "heal player sp=None c=2",
+      "removed player sp=None c=2",
+      "summon-replaced player sp=None c=3",
+      "summoned player sp=None c=1"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317309.144,
+     "time": "12:08:29.144",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "g": 1276480.655,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT nameplate1 [C C C C]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []",
+      "UNIT_SPELLCAST_SENT player [N C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N]"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4093-00004A62D7 sp=None c=2",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317309.954,
+     "time": "12:08:29.954",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276481.465,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []",
+      "UNIT_SPELLCAST_SENT player [N C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N]"
+     ],
+     "decide": [
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317311.204,
+     "time": "12:08:31.204",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "g": 1276482.715,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []"
+     ],
+     "decide": [
+      "heal player sp=None c=2",
+      "removed player sp=1261483 c=2",
+      "removed player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317311.997,
+     "time": "12:08:31.997",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Healing Stream Totem II",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 6371,
+     "spell": "Healing Stream",
+     "g": 1276483.508,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT nameplate3 [C C C C]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_HEAL_PREDICTION player []",
+      "UNIT_SPELLCAST_STOP nameplate3 [S S C]",
+      "UNIT_SPELLCAST_SUCCEEDED nameplate3 [S S C]"
+     ],
+     "decide": [
+      "heal guid:Creature-0-6782-1-1540-4096-00004A62EE sp=None c=1",
+      "heal player sp=None c=2",
+      "removed player sp=6371 c=1"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317333.56,
+     "time": "12:08:53.560",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "g": 1276505.071,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT player [C C C C] c"
+     ],
+     "decide": [
+      "combat-end None sp=None c=4",
+      "heal player sp=None c=2",
+      "reconcile None sp=None c=3"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317335.519,
+     "time": "12:08:55.519",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "g": 1276507.03,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_SPELLCAST_SENT player [N C C]",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N]"
+     ],
+     "decide": [
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317337.539,
+     "time": "12:08:57.539",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "g": 1276509.05,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_COMBAT nameplate1 [C C C C]",
+      "UNIT_COMBAT player [C C C C]"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-00014A6301 sp=None c=2",
+      "heal player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317339.54,
+     "time": "12:08:59.540",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "g": 1276511.051,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA nameplate1 [K{CK}]",
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT nameplate1 [C C C C]",
+      "UNIT_COMBAT player [C C C C]",
+      "UNIT_DIED Creature-0-6782-1-1540-4094-00014A6301 []",
+      "UNIT_DIED Creature-0-6782-1-1540-4094-00024A62EE []"
+     ],
+     "decide": [
+      "damage guid:Creature-0-6782-1-1540-4094-00014A6301 sp=None c=2",
+      "heal player sp=None c=2",
+      "removed player sp=None c=2"
+     ],
+     "presence": []
+    },
+    {
+     "t": 63927317341.518,
+     "time": "12:09:01.518",
+     "ev": "SPELL_PERIODIC_HEAL",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Uglaz-ClassicBetaPvE-",
+     "sid": 1261483,
+     "spell": "Thrill of Adventure",
+     "g": 1276513.029,
+     "phase": "ooc",
+     "fd": [
+      "UNIT_AURA player [K{CK}]",
+      "UNIT_COMBAT player [C C C C]"
+     ],
+     "decide": [
+      "heal player sp=None c=2",
+      "removed player sp=1261483 c=2",
+      "removed player sp=None c=2"
+     ],
+     "presence": []
+    }
+   ],
+   "fdAgg": [
+    {
+     "phase": "combat",
+     "event": "PLAYER_TOTEM_UPDATE",
+     "token": "-",
+     "codes": "C",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "nameplate1",
+     "codes": "K{ST}",
+     "n": 3
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "nameplate2",
+     "codes": "K{ST}",
+     "n": 4
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "nameplate3",
+     "codes": "K{ST}",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "player",
+     "codes": "K{ST}",
+     "n": 11
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "softenemy",
+     "codes": "K{ST}",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "target",
+     "codes": "K{ST}",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "targettarget",
+     "codes": "K{ST}",
+     "n": 9
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "nameplate1",
+     "codes": "C C C C",
+     "n": 19
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "nameplate2",
+     "codes": "C C C C",
+     "n": 31
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "nameplate3",
+     "codes": "C C C C",
+     "n": 19
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "player",
+     "codes": "C C C C",
+     "n": 64
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "softenemy",
+     "codes": "C C C C",
+     "n": 11
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "target",
+     "codes": "C C C C",
+     "n": 19
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "targettarget",
+     "codes": "C C C C",
+     "n": 61
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4093-00004A6299",
+     "codes": "",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4093-00024A62A8",
+     "codes": "",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4094-0000CA6257",
+     "codes": "",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4094-0000CA626A",
+     "codes": "",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4096-00004A62A8",
+     "codes": "",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4124-00004A6255",
+     "codes": "",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_HEAL_PREDICTION",
+     "token": "player",
+     "codes": "",
+     "n": 35
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_HEAL_PREDICTION",
+     "token": "targettarget",
+     "codes": "",
+     "n": 33
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "player",
+     "codes": "C C C",
+     "n": 3
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "player",
+     "codes": "N C C",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "targettarget",
+     "codes": "C C C",
+     "n": 3
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "targettarget",
+     "codes": "N C C",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_START",
+     "token": "player",
+     "codes": "C C C",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_START",
+     "token": "targettarget",
+     "codes": "C C C",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_STOP",
+     "token": "player",
+     "codes": "C C C",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_STOP",
+     "token": "targettarget",
+     "codes": "C C C",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "player",
+     "codes": "C C C",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "player",
+     "codes": "C C N",
+     "n": 3
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "targettarget",
+     "codes": "C C C",
+     "n": 2
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "targettarget",
+     "codes": "C C N",
+     "n": 3
+    },
+    {
+     "phase": "ooc",
+     "event": "PLAYER_TOTEM_UPDATE",
+     "token": "-",
+     "codes": "C",
+     "n": 6
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_AURA",
+     "token": "nameplate1",
+     "codes": "K{CK}",
+     "n": 2
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_AURA",
+     "token": "player",
+     "codes": "K{CK}",
+     "n": 14
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_COMBAT",
+     "token": "nameplate1",
+     "codes": "C C C C",
+     "n": 18
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_COMBAT",
+     "token": "nameplate3",
+     "codes": "C C C C",
+     "n": 1
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_COMBAT",
+     "token": "player",
+     "codes": "C C C C",
+     "n": 39
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4094-00014A6301",
+     "codes": "",
+     "n": 1
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_DIED",
+     "token": "Creature-0-6782-1-1540-4094-00024A62EE",
+     "codes": "",
+     "n": 1
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_HEAL_PREDICTION",
+     "token": "player",
+     "codes": "",
+     "n": 19
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_SPELLCAST_INTERRUPTED",
+     "token": "player",
+     "codes": "C C N N",
+     "n": 2
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "player",
+     "codes": "N C C",
+     "n": 7
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_SPELLCAST_STOP",
+     "token": "nameplate3",
+     "codes": "S S C",
+     "n": 1
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_SPELLCAST_STOP",
+     "token": "player",
+     "codes": "C C C",
+     "n": 2
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "nameplate3",
+     "codes": "S S C",
+     "n": 1
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "player",
+     "codes": "C C C",
+     "n": 2
+    },
+    {
+     "phase": "ooc",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "player",
+     "codes": "C C N",
+     "n": 8
+    }
+   ]
+  },
+  "7-grounding": {
+   "truth": [
+    {
+     "t": 63927317251.157,
+     "time": "12:07:31.157",
+     "ev": "SPELL_SUMMON",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Grounding Totem",
+     "sid": 8177,
+     "spell": "Grounding Totem",
+     "g": 1276422.668,
+     "phase": "combat",
+     "fd": [
+      "PLAYER_TOTEM_UPDATE - [C] c",
+      "UNIT_AURA player [K{ST}] c",
+      "UNIT_COMBAT player [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_SPELLCAST_SENT player [N C C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c"
+     ],
+     "decide": [
+      "applied player sp=8177 c=2",
+      "damage-taken player sp=None c=4"
+     ],
+     "presence": []
+    }
+   ],
+   "fdAgg": [
+    {
+     "phase": "combat",
+     "event": "PLAYER_TOTEM_UPDATE",
+     "token": "-",
+     "codes": "C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_AURA",
+     "token": "player",
+     "codes": "K{ST}",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "player",
+     "codes": "C C C C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "targettarget",
+     "codes": "C C C C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "player",
+     "codes": "N C C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "player",
+     "codes": "C C N",
+     "n": 1
+    }
+   ]
+  },
+  "8-interrupt": {
+   "truth": [
+    {
+     "t": 63927317364.625,
+     "time": "12:09:24.625",
+     "ev": "SPELL_INTERRUPT",
+     "src": "Uglaz-ClassicBetaPvE-",
+     "dst": "Galak Windchaser",
+     "sid": 8046,
+     "spell": "Earth Shock",
+     "interrupted": "939 Healing Wave",
+     "g": 1276536.136,
+     "phase": "combat",
+     "fd": [
+      "UNIT_COMBAT nameplate1 [C C C C] c",
+      "UNIT_COMBAT target [C C C C] c",
+      "UNIT_COMBAT targettarget [C C C C] c",
+      "UNIT_SPELLCAST_INTERRUPTED nameplate1 [S S S C] c",
+      "UNIT_SPELLCAST_INTERRUPTED target [S S S C] c",
+      "UNIT_SPELLCAST_INTERRUPTED targettarget [S S S C] c",
+      "UNIT_SPELLCAST_SENT player [C C C] c",
+      "UNIT_SPELLCAST_STOP nameplate1 [S S C] c",
+      "UNIT_SPELLCAST_STOP target [S S C] c",
+      "UNIT_SPELLCAST_STOP targettarget [S S C] c",
+      "UNIT_SPELLCAST_SUCCEEDED player [C C N] c"
+     ],
+     "decide": [
+      "cast-end guid:Creature-0-6782-1-1540-4096-0000CA6311 sp=None c=4",
+      "damage guid:Creature-0-6782-1-1540-4096-0000CA6311 sp=None c=3",
+      "interrupt guid:Creature-0-6782-1-1540-4096-0000CA6311 sp=8046 c=3"
+     ],
+     "presence": []
+    }
+   ],
+   "fdAgg": [
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "nameplate1",
+     "codes": "C C C C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "target",
+     "codes": "C C C C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_COMBAT",
+     "token": "targettarget",
+     "codes": "C C C C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_INTERRUPTED",
+     "token": "nameplate1",
+     "codes": "S S S C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_INTERRUPTED",
+     "token": "target",
+     "codes": "S S S C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_INTERRUPTED",
+     "token": "targettarget",
+     "codes": "S S S C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SENT",
+     "token": "player",
+     "codes": "C C C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_STOP",
+     "token": "nameplate1",
+     "codes": "S S C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_STOP",
+     "token": "target",
+     "codes": "S S C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_STOP",
+     "token": "targettarget",
+     "codes": "S S C",
+     "n": 1
+    },
+    {
+     "phase": "combat",
+     "event": "UNIT_SPELLCAST_SUCCEEDED",
+     "token": "player",
+     "codes": "C C N",
+     "n": 1
+    }
+   ]
+  }
+ },
+ "codes": {
+  "world-solo/ooc/-": {
+   "target": {
+    "14751": {
+     "N": 47
+    },
+    "5487": {
+     "N": 47
+    },
+    "437063": {
+     "N": 47
+    },
+    "2091": {
+     "N": 47
+    },
+    "905": {
+     "N": 47
+    },
+    "408510": {
+     "K": 14,
+     "N": 33
+    },
+    "20375": {
+     "N": 47
+    },
+    "19746": {
+     "N": 47
+    },
+    "16177": {
+     "N": 47
+    },
+    "6074": {
+     "N": 47
+    },
+    "740": {
+     "N": 47
+    },
+    "3747": {
+     "N": 47
+    },
+    "6076": {
+     "N": 47
+    },
+    "17116": {
+     "N": 47
+    },
+    "8939": {
+     "N": 47
+    },
+    "15271": {
+     "N": 47
+    },
+    "8940": {
+     "N": 47
+    },
+    "768": {
+     "N": 47
+    },
+    "774": {
+     "N": 47
+    },
+    "16188": {
+     "N": 47
+    },
+    "6788": {
+     "N": 47
+    },
+    "20216": {
+     "N": 47
+    },
+    "422621": {
+     "N": 47
+    },
+    "1430": {
+     "N": 47
+    },
+    "10298": {
+     "N": 47
+    },
+    "6065": {
+     "N": 47
+    },
+    "139": {
+     "N": 47
+    },
+    "7294": {
+     "N": 47
+    },
+    "17364": {
+     "N": 47
+    },
+    "8056": {
+     "N": 47
+    },
+    "16257": {
+     "N": 47
+    },
+    "1238640": {
+     "N": 47
+    },
+    "20050": {
+     "N": 47
+    },
+    "408505": {
+     "N": 47
+    },
+    "20915": {
+     "N": 47
+    },
+    "8052": {
+     "N": 47
+    },
+    "2090": {
+     "N": 47
+    },
+    "15473": {
+     "N": 47
+    },
+    "1238931": {
+     "N": 47
+    },
+    "17": {
+     "N": 47
+    },
+    "8938": {
+     "N": 47
+    },
+    "408255": {
+     "N": 47
+    },
+    "27828": {
+     "N": 47
+    }
+   },
+   "player": {
+    "14751": {
+     "N": 95
+    },
+    "5487": {
+     "N": 95
+    },
+    "437063": {
+     "N": 95
+    },
+    "2091": {
+     "N": 95
+    },
+    "905": {
+     "K": 18,
+     "N": 77
+    },
+    "408510": {
+     "N": 95
+    },
+    "20375": {
+     "N": 95
+    },
+    "19746": {
+     "N": 95
+    },
+    "16177": {
+     "N": 95
+    },
+    "6074": {
+     "N": 95
+    },
+    "740": {
+     "N": 95
+    },
+    "3747": {
+     "N": 95
+    },
+    "6076": {
+     "N": 95
+    },
+    "17116": {
+     "N": 95
+    },
+    "8939": {
+     "N": 95
+    },
+    "15271": {
+     "N": 95
+    },
+    "8940": {
+     "N": 95
+    },
+    "768": {
+     "N": 95
+    },
+    "774": {
+     "N": 95
+    },
+    "16188": {
+     "N": 95
+    },
+    "6788": {
+     "N": 95
+    },
+    "20216": {
+     "N": 95
+    },
+    "422621": {
+     "N": 95
+    },
+    "1430": {
+     "N": 95
+    },
+    "10298": {
+     "N": 95
+    },
+    "6065": {
+     "N": 95
+    },
+    "139": {
+     "N": 95
+    },
+    "7294": {
+     "N": 95
+    },
+    "17364": {
+     "N": 95
+    },
+    "8056": {
+     "N": 95
+    },
+    "16257": {
+     "K": 12,
+     "N": 83
+    },
+    "1238640": {
+     "K": 50,
+     "N": 45
+    },
+    "20050": {
+     "N": 95
+    },
+    "408505": {
+     "N": 95
+    },
+    "20915": {
+     "N": 95
+    },
+    "8052": {
+     "N": 95
+    },
+    "2090": {
+     "N": 95
+    },
+    "15473": {
+     "N": 95
+    },
+    "1238931": {
+     "K": 16,
+     "N": 79
+    },
+    "17": {
+     "N": 95
+    },
+    "8938": {
+     "N": 95
+    },
+    "408255": {
+     "N": 95
+    },
+    "27828": {
+     "N": 95
+    }
+   }
+  },
+  "world-solo/combat/-": {
+   "target": {
+    "14751": {
+     "N": 123
+    },
+    "5487": {
+     "N": 123
+    },
+    "437063": {
+     "N": 123
+    },
+    "2091": {
+     "N": 123
+    },
+    "905": {
+     "N": 123
+    },
+    "408510": {
+     "N": 123
+    },
+    "20375": {
+     "N": 123
+    },
+    "19746": {
+     "N": 123
+    },
+    "16177": {
+     "N": 123
+    },
+    "6074": {
+     "N": 123
+    },
+    "740": {
+     "N": 123
+    },
+    "3747": {
+     "N": 123
+    },
+    "6076": {
+     "N": 123
+    },
+    "17116": {
+     "N": 123
+    },
+    "8939": {
+     "N": 123
+    },
+    "15271": {
+     "N": 123
+    },
+    "8940": {
+     "N": 123
+    },
+    "768": {
+     "N": 123
+    },
+    "774": {
+     "N": 123
+    },
+    "16188": {
+     "N": 123
+    },
+    "6788": {
+     "N": 123
+    },
+    "20216": {
+     "N": 123
+    },
+    "422621": {
+     "N": 123
+    },
+    "1430": {
+     "N": 123
+    },
+    "10298": {
+     "N": 123
+    },
+    "6065": {
+     "N": 123
+    },
+    "139": {
+     "N": 123
+    },
+    "7294": {
+     "N": 123
+    },
+    "17364": {
+     "N": 123
+    },
+    "8056": {
+     "N": 123
+    },
+    "16257": {
+     "N": 123
+    },
+    "1238640": {
+     "N": 123
+    },
+    "20050": {
+     "N": 123
+    },
+    "408505": {
+     "N": 123
+    },
+    "20915": {
+     "N": 123
+    },
+    "8052": {
+     "N": 123
+    },
+    "2090": {
+     "N": 123
+    },
+    "15473": {
+     "N": 123
+    },
+    "1238931": {
+     "N": 123
+    },
+    "17": {
+     "N": 123
+    },
+    "8938": {
+     "N": 123
+    },
+    "408255": {
+     "N": 123
+    },
+    "27828": {
+     "N": 123
+    }
+   },
+   "player": {
+    "14751": {
+     "N": 132
+    },
+    "5487": {
+     "N": 132
+    },
+    "437063": {
+     "N": 132
+    },
+    "2091": {
+     "N": 132
+    },
+    "905": {
+     "N": 132
+    },
+    "408510": {
+     "N": 132
+    },
+    "20375": {
+     "N": 132
+    },
+    "19746": {
+     "N": 132
+    },
+    "16177": {
+     "N": 132
+    },
+    "6074": {
+     "N": 132
+    },
+    "740": {
+     "N": 132
+    },
+    "3747": {
+     "N": 132
+    },
+    "6076": {
+     "N": 132
+    },
+    "17116": {
+     "N": 132
+    },
+    "8939": {
+     "N": 132
+    },
+    "15271": {
+     "N": 132
+    },
+    "8940": {
+     "N": 132
+    },
+    "768": {
+     "N": 132
+    },
+    "774": {
+     "N": 132
+    },
+    "16188": {
+     "N": 132
+    },
+    "6788": {
+     "N": 132
+    },
+    "20216": {
+     "N": 132
+    },
+    "422621": {
+     "N": 132
+    },
+    "1430": {
+     "N": 132
+    },
+    "10298": {
+     "N": 132
+    },
+    "6065": {
+     "N": 132
+    },
+    "139": {
+     "N": 132
+    },
+    "7294": {
+     "N": 132
+    },
+    "17364": {
+     "N": 132
+    },
+    "8056": {
+     "N": 132
+    },
+    "16257": {
+     "N": 132
+    },
+    "1238640": {
+     "N": 132
+    },
+    "20050": {
+     "N": 132
+    },
+    "408505": {
+     "N": 132
+    },
+    "20915": {
+     "N": 132
+    },
+    "8052": {
+     "N": 132
+    },
+    "2090": {
+     "N": 132
+    },
+    "15473": {
+     "N": 132
+    },
+    "1238931": {
+     "N": 132
+    },
+    "17": {
+     "N": 132
+    },
+    "8938": {
+     "N": 132
+    },
+    "408255": {
+     "N": 132
+    },
+    "27828": {
+     "N": 132
+    }
+   }
+  }
+ }
+}
