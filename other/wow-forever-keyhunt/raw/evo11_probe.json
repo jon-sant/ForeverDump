@@ -1,0 +1,478 @@
+{
+  "ts_et": "2026-09-18 21:42 ET",
+  "fresh_lt_10m": [],
+  "arctic_keys": [
+    {
+      "key": "4GVPQQ4HCX6CLQ9PXPXXX",
+      "sub": "wowclassic",
+      "kind": "posts",
+      "age_min": 52.6,
+      "author": "notyetimpooping",
+      "id": "1wk7qla",
+      "fresh": false,
+      "fmt": "cont21"
+    }
+  ],
+  "url_probes": [
+    {
+      "url": "https://news.blizzard.com/en-us/article/24304160/the-world-of-warcraft-forever-beta-now-live",
+      "ok": true,
+      "ms": 359,
+      "err": null,
+      "status": 200,
+      "len": 18195,
+      "keys": [],
+      "cont21": [],
+      "forever_hit": true,
+      "snippet": "<!DOCTYPE html><html lang=\"en-US\"><head><title>The World of Warcraft: Forever Beta Now Live \u2014 World of Warcraft \u2014 Blizzard News</title><meta name=\"viewport\" content=\"width=device-w"
+    },
+    {
+      "url": "https://us.forums.blizzard.com/en/wow/t/the-world-of-warcraft-forever-beta-now-live/2352596.json",
+      "ok": true,
+      "ms": 582,
+      "err": null,
+      "status": 200,
+      "len": 94130,
+      "keys": [],
+      "cont21": [
+        "BLIZZARDENTERTAINMENT",
+        "BLIZZARDENTERTAINMENT",
+        "BLIZZARDENTERTAINMENT"
+      ],
+      "forever_hit": true,
+      "snippet": "{\"post_stream\":{\"posts\":[{\"id\":30096303,\"name\":\"Blizzard Entertainment\",\"username\":\"BlizzardEntertainment\",\"avatar_template\":\"/en/wow/plugins/discourse-blizzard-plugin/images/avata"
+    },
+    {
+      "url": "https://www.mmo-champion.com/content/14536-Warcraft-Forever-Collection-Giveaway",
+      "ok": true,
+      "ms": 186,
+      "err": null,
+      "status": 200,
+      "len": 127176,
+      "keys": [],
+      "cont21": [
+        "GETBOUNDINGCLIENTRECT"
+      ],
+      "forever_hit": true,
+      "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\" dir=\"ltr\" lang="
+    },
+    {
+      "url": "https://www.icy-veins.com/wow-forever/news/wow-forever-beta-keys-are-now-a-mcdonalds-reward-in-australia/",
+      "ok": true,
+      "ms": 51,
+      "err": null,
+      "status": 200,
+      "len": 76760,
+      "keys": [],
+      "cont21": [
+        "OPENGRAPHMODIFIEDTIME"
+      ],
+      "forever_hit": true,
+      "snippet": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" href=\"https://secure"
+    },
+    {
+      "url": "https://www.icy-veins.com/wow-forever/news/players-are-earning-wow-forever-beta-codes-by-buying-australians-mcdonalds/",
+      "ok": true,
+      "ms": 51,
+      "err": null,
+      "status": 200,
+      "len": 81271,
+      "keys": [],
+      "cont21": [
+        "OPENGRAPHMODIFIEDTIME"
+      ],
+      "forever_hit": true,
+      "snippet": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" href=\"https://secure"
+    },
+    {
+      "url": "https://www.frugalfeeds.com.au/2026/mcdonalds-australia-offers-world-of-warcraft-forever-beta-key-for-1000-mymaccas-points/",
+      "ok": true,
+      "ms": 67,
+      "err": null,
+      "status": 200,
+      "len": 700597,
+      "keys": [
+        "SIDE-WITH-EVERY-MAIN-ITEM",
+        "FREE-CORN-CHIPS-GUAC-WITH",
+        "FREE-CORN-CHIPS-GUAC-WITH"
+      ],
+      "cont21": [
+        "WEBKITMATCHESSELECTOR",
+        "EWWWNGGPARSEGALLERIES",
+        "EWWWNGGPARSEGALLERIES",
+        "EWWWNGGPARSEGALLERIES",
+        "EWWWNGGPARSEIMAGELIST"
+      ],
+      "forever_hit": true,
+      "snippet": "<!DOCTYPE html> <html class=\"no-js\" lang=\"en-AU\" prefix=\"og: https://ogp.me/ns#\"> <head> <meta name=\"commission-factory-verification\" content=\"bde2d5e771014f9e8088cc241bafe744\" /> "
+    },
+    {
+      "url": "https://mcdonalds.com.au/mymaccas/rewards",
+      "ok": false,
+      "ms": 15368,
+      "err": "The read operation timed out",
+      "status": null,
+      "len": 0,
+      "keys": [],
+      "cont21": [],
+      "forever_hit": false,
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mcdonalds.com/us/en-us/mymcdonalds.html",
+      "ok": false,
+      "ms": 15149,
+      "err": "The read operation timed out",
+      "status": null,
+      "len": 0,
+      "keys": [],
+      "cont21": [],
+      "forever_hit": false,
+      "snippet": ""
+    },
+    {
+      "url": "https://www.amazon.com/primegaming",
+      "ok": true,
+      "ms": 930,
+      "err": null,
+      "status": 200,
+      "len": 321268,
+      "keys": [],
+      "cont21": [
+        "SECURECONNECTIONSTART",
+        "RESPONSIVEGRIDENABLED",
+        "REQUESTANIMATIONFRAME",
+        "IMPRESSIONMINIMUMTIME",
+        "ISLOCALEDIVIDERHIDDEN"
+      ],
+      "forever_hit": false,
+      "snippet": "<!doctype html><html lang=\"en-us\" class=\"a-no-js\" data-19ax5a9jf=\"dingo\"><!-- sp:feature:head-start --> <head><script>var aPageStart = (new Date()).getTime();</script><meta charset"
+    },
+    {
+      "url": "https://gaming.amazon.com/",
+      "ok": true,
+      "ms": 483,
+      "err": null,
+      "status": 200,
+      "len": 10336,
+      "keys": [],
+      "cont21": [],
+      "forever_hit": false,
+      "snippet": " <!doctype html> <html dir=\"ltr\"> <head> <title>Amazon Luna Cloud Gaming</title> <link rel=\"manifest\" id=\"manifest-id\"> <link rel=\"apple-touch-icon\" href=\"https://m.media-amazon.co"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/rewards",
+      "ok": true,
+      "ms": 3894,
+      "err": null,
+      "status": 200,
+      "len": 277808,
+      "keys": [],
+      "cont21": [
+        "CUXVLEQBA9RPSD4GDHEFJ",
+        "3QXTDDPPE34PZYMWF7LKE",
+        "HASACTIONANNOUNCEMENT",
+        "DRAGSELECTEDLONGPRESS",
+        "FGCTRLACTIVEBRANDREST"
+      ],
+      "forever_hit": false,
+      "snippet": "<!DOCTYPE html><html data-dpl-id=\"20260917-2\" lang=\"en\" dir=\"ltr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"style"
+    },
+    {
+      "url": "https://rewards.bing.com/",
+      "ok": true,
+      "ms": 448,
+      "err": null,
+      "status": 200,
+      "len": 277862,
+      "keys": [],
+      "cont21": [
+        "CUXVLEQBA9RPSD4GDHEFJ",
+        "3QXTDDPPE34PZYMWF7LKE",
+        "HASACTIONANNOUNCEMENT",
+        "DRAGSELECTEDLONGPRESS",
+        "FGCTRLACTIVEBRANDREST"
+      ],
+      "forever_hit": false,
+      "snippet": "<!DOCTYPE html><html data-dpl-id=\"20260917-2\" lang=\"en\" dir=\"ltr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"style"
+    },
+    {
+      "url": "https://www.xbox.com/en-US/xbox-game-pass",
+      "ok": true,
+      "ms": 324,
+      "err": null,
+      "status": 200,
+      "len": 542042,
+      "keys": [],
+      "cont21": [
+        "ENABLEBUYNOWXBOXUIEXP",
+        "ENABLECELESTIAXBOXCOM",
+        "ENABLECHATIMAGEUPLOAD",
+        "ENABLEGUIDEPROFILETAB",
+        "ENABLEPRIVACYCONTROLS"
+      ],
+      "forever_hit": false,
+      "snippet": "<!doctype html> <html lang=\"en\" dir=\"ltr\" data-platform=\"\"> <head> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" /> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"w"
+    },
+    {
+      "url": "https://news.xbox.com/en-us/",
+      "ok": true,
+      "ms": 149,
+      "err": null,
+      "status": 200,
+      "len": 95401,
+      "keys": [],
+      "cont21": [],
+      "forever_hit": true,
+      "snippet": "<!doctype html> <html lang=\"en-US\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <script type=\"text/javascript\" src=\"https://n"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/geforce/rewards/",
+      "ok": true,
+      "ms": 391,
+      "err": null,
+      "status": 200,
+      "len": 488969,
+      "keys": [],
+      "cont21": [
+        "GETVIEWPORTDIMENSIONS",
+        "GETVIEWPORTDIMENSIONS",
+        "GETVIEWPORTDIMENSIONS",
+        "GETVIEWPORTDIMENSIONS",
+        "RESIZEOBSERVERSCONFIG"
+      ],
+      "forever_hit": true,
+      "snippet": " <!DOCTYPE HTML> <html class=\"html-page no-js\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en-us\" xml:lang=\"en-us\"> <head> <link rel=\"preconnect\" href=\"https://images.nvidia.com\" cr"
+    },
+    {
+      "url": "https://www.amd.com/en/gaming/rewards.html",
+      "ok": false,
+      "ms": 457,
+      "err": "HTTP Error 404: Not Found",
+      "status": null,
+      "len": 0,
+      "keys": [],
+      "cont21": [],
+      "forever_hit": false,
+      "snippet": ""
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/gaming/intel-game-deals.html",
+      "ok": false,
+      "ms": 201,
+      "err": "HTTP Error 403: Forbidden",
+      "status": null,
+      "len": 0,
+      "keys": [],
+      "cont21": [],
+      "forever_hit": false,
+      "snippet": ""
+    },
+    {
+      "url": "https://www.logitechg.com/en-us/promo.html",
+      "ok": true,
+      "ms": 954,
+      "err": null,
+      "status": 200,
+      "len": 284213,
+      "keys": [],
+      "cont21": [
+        "INTERACTIVEHEROBANNER",
+        "USEALTPRIMARYNAVTHEME",
+        "ENABLEHEADERFAVORITES",
+        "ENABLEPLPIPADSELECTOR",
+        "ENABLEPDPIPADSELECTOR"
+      ],
+      "forever_hit": false,
+      "snippet": "<!doctype html> <html lang=\"en-us\"> <head> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <!--1coqsgx--><link rel=\"preconnect\" href"
+    },
+    {
+      "url": "https://www.corsair.com/us/en/s/icue-rewards",
+      "ok": false,
+      "ms": 61,
+      "err": "HTTP Error 403: Forbidden",
+      "status": null,
+      "len": 0,
+      "keys": [],
+      "cont21": [],
+      "forever_hit": false,
+      "snippet": ""
+    },
+    {
+      "url": "https://www.alienwarearena.com/ucf/listings/giveaways",
+      "ok": false,
+      "ms": 542,
+      "err": "HTTP Error 404: Not Found",
+      "status": null,
+      "len": 0,
+      "keys": [],
+      "cont21": [],
+      "forever_hit": false,
+      "snippet": ""
+    },
+    {
+      "url": "https://www.alienwarearena.com/",
+      "ok": true,
+      "ms": 762,
+      "err": null,
+      "status": 200,
+      "len": 121915,
+      "keys": [],
+      "cont21": [
+        "SIMPLEWEBAUTHNBROWSER",
+        "ACHIEVEMENTMODALSHOWN",
+        "ACHIEVEMENTMODALSHOWN",
+        "ACHIEVEMENTMODALSHOWN",
+        "ACHIEVEMENTMODALSHOWN"
+      ],
+      "forever_hit": false,
+      "snippet": "<!DOCTYPE html> <html lang=\"en\" class=\"h-100 layout-redesign\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <meta http-equiv"
+    },
+    {
+      "url": "https://www.bestbuy.com/site/gaming/pc-gaming/pcmcat287600050002.c",
+      "ok": false,
+      "ms": 15134,
+      "err": "The read operation timed out",
+      "status": null,
+      "len": 0,
+      "keys": [],
+      "cont21": [],
+      "forever_hit": false,
+      "snippet": ""
+    },
+    {
+      "url": "https://www.gamestop.com/collection/pc-gaming",
+      "ok": false,
+      "ms": 220,
+      "err": "HTTP Error 410: Gone",
+      "status": null,
+      "len": 0,
+      "keys": [],
+      "cont21": [],
+      "forever_hit": false,
+      "snippet": ""
+    },
+    {
+      "url": "https://www.twitch.tv/directory/category/world-of-warcraft",
+      "ok": true,
+      "ms": 274,
+      "err": null,
+      "status": 200,
+      "len": 203762,
+      "keys": [],
+      "cont21": [
+        "OPENSEARCHDESCRIPTION"
+      ],
+      "forever_hit": true,
+      "snippet": "<!DOCTYPE html><html class=\"tw-root--hover\"><head><script>performance.mark(\"html:head\")</script><meta charset=\"utf-8\"><title>World of Warcraft - Twitch</title><meta name=\"twitter:a"
+    },
+    {
+      "url": "https://blizzardwatch.com/2026/09/04/twitch-drops-blizzcon-2026/",
+      "ok": true,
+      "ms": 153,
+      "err": null,
+      "status": 200,
+      "len": 92372,
+      "keys": [],
+      "cont21": [
+        "DIRECTRENDERDOSESPLIT",
+        "DURATIONBANDITV2SPLIT",
+        "ESCALATIONS2SLOWFLOOR",
+        "ESCALATIONS2SMIDFLOOR",
+        "POOLAUCTIONLOCKDOMAIN"
+      ],
+      "forever_hit": true,
+      "snippet": "<!DOCTYPE html><html lang=\"en\"><head><script>var __ezHttpConsent={setByCat:function(src,tagType,attributes,category,force,customSetScriptFn=null){var setScript=function(){if(force|"
+    },
+    {
+      "url": "https://discord.com/servers/wow-forever-na-1528511731523915907",
+      "ok": true,
+      "ms": 165,
+      "err": null,
+      "status": 200,
+      "len": 77135,
+      "keys": [],
+      "cont21": [
+        "EXPERIMENTASSIGNMENTS"
+      ],
+      "forever_hit": true,
+      "snippet": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"UTF-8\" nonce=\"csp-nonce-template-placeholder\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" nonce=\"csp-"
+    },
+    {
+      "url": "https://discord.com/invite/blizzard",
+      "ok": true,
+      "ms": 191,
+      "err": null,
+      "status": 200,
+      "len": 18379,
+      "keys": [],
+      "cont21": [],
+      "forever_hit": false,
+      "snippet": "<!DOCTYPE html> <html> <head> <meta charset=\"utf-8\"> <meta content=\"width=device-width, initial-scale=1.0, maximum-scale=3.0\" name=\"viewport\"> <!-- section:seometa --> <meta proper"
+    },
+    {
+      "url": "https://discord.com/invite/warcraft",
+      "ok": true,
+      "ms": 305,
+      "err": null,
+      "status": 200,
+      "len": 24485,
+      "keys": [],
+      "cont21": [],
+      "forever_hit": true,
+      "snippet": "<!DOCTYPE html> <html> <head> <meta charset=\"utf-8\"> <meta content=\"width=device-width, initial-scale=1.0, maximum-scale=3.0\" name=\"viewport\"> <meta name=\"description\" content=\"Wel"
+    },
+    {
+      "url": "https://www.gamerpower.com/api/giveaways",
+      "ok": true,
+      "ms": 54,
+      "err": null,
+      "status": 200,
+      "len": 107179,
+      "keys": [
+        "BOMB-BOTS-ARENA-GIFT-PACK",
+        "BOMB-BOTS-ARENA-GIFT-PACK",
+        "BOMB-BOTS-ARENA-GIFT-PACK"
+      ],
+      "cont21": [],
+      "forever_hit": false,
+      "snippet": "[{\"id\":3784,\"title\":\"Deadshot (Steam) Giveaway\",\"worth\":\"$4.99\",\"thumbnail\":\"https:\\/\\/www.gamerpower.com\\/offers\\/1\\/1234.jpg\",\"image\":\"https:\\/\\/www.gamerpower.com\\/offers\\/1b\\/b"
+    },
+    {
+      "url": "https://www.gamerpower.com/api/giveaways?type=beta",
+      "ok": true,
+      "ms": 43,
+      "err": null,
+      "status": 200,
+      "len": 4676,
+      "keys": [],
+      "cont21": [],
+      "forever_hit": false,
+      "snippet": "[{\"id\":3486,\"title\":\"Chop Shop Playtest (Steam) Key Giveaway\",\"worth\":\"N\\/A\",\"thumbnail\":\"https:\\/\\/www.gamerpower.com\\/offers\\/1\\/698625be7e6bf.jpg\",\"image\":\"https:\\/\\/www.gamerpo"
+    },
+    {
+      "url": "https://www.gamerpower.com/rss/giveaways",
+      "ok": true,
+      "ms": 48,
+      "err": null,
+      "status": 200,
+      "len": 9916,
+      "keys": [],
+      "cont21": [],
+      "forever_hit": false,
+      "snippet": " <rss version='2.0' xmlns:media='http://search.yahoo.com/mrss/' xmlns:atom='http://www.w3.org/2005/Atom'> <channel> <title>GamerPower Giveaways</title> <atom:link href='https://www"
+    },
+    {
+      "url": "https://gleam.io/discover?q=warcraft",
+      "ok": false,
+      "ms": 255,
+      "err": "HTTP Error 404: Not Found",
+      "status": null,
+      "len": 0,
+      "keys": [],
+      "cont21": [],
+      "forever_hit": false,
+      "snippet": ""
+    }
+  ]
+}

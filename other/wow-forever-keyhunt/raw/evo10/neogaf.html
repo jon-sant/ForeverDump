@@ -1,0 +1,1643 @@
+
+
+<!DOCTYPE html>
+<html id="XF" lang="en-US" dir="LTR"
+	data-xf="2.3"
+	data-app="public"
+	
+	
+	data-template="login"
+	data-container-key=""
+	data-content-key=""
+	data-logged-in="false"
+	data-cookie-prefix="xf_"
+	data-csrf="1789781746,70c094d50fdb9c7f2c5020f03c74a7ae"
+	class="has-no-js template-login"
+	>
+<head>
+	
+	
+	
+
+	<meta charset="utf-8" />
+	<title>Log in | NeoGAF</title>
+	<link rel="manifest" href="/webmanifest.php">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+
+	
+		
+			
+				<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ff9900" />
+				<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#ff9900" />
+			
+		
+	
+
+	<meta name="apple-mobile-web-app-title" content="NeoGAF">
+	
+		<link rel="apple-touch-icon" href="/styles/neogaf/icons/icon.png">
+		
+
+	
+		<meta name="robots" content="noindex" />
+	
+
+	
+		
+	
+	
+	<meta property="og:site_name" content="NeoGAF" />
+
+
+	
+	
+		
+	
+	
+	<meta property="og:type" content="website" />
+
+
+	
+	
+		
+	
+	
+	
+		<meta property="og:title" content="Log in" />
+		<meta property="twitter:title" content="Log in" />
+	
+
+
+	
+	
+	
+		
+	
+	
+	<meta property="og:url" content="https://www.neogaf.com/search/36500000/?q=WoW+Forever+beta&amp;o=date" />
+
+
+	
+	
+		
+	
+	
+	
+		<meta property="og:image" content="https://www.neogaf.com/styles/neogaf/icons/icon.png" />
+		<meta property="twitter:image" content="https://www.neogaf.com/styles/neogaf/icons/icon.png" />
+		<meta property="twitter:card" content="summary" />
+	
+
+
+	
+
+	
+	
+		<script async src="/jc/gtm.js?_v=00d194ad"></script>
+	
+	<script>
+		window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date);gtag('config','G-WVL4J200TK',{'style_id':29,'user_properties': {
+		
+		'pwa':navigator.standalone||window.matchMedia('(display-mode: standalone), (display-mode: minimal-ui)').matches?1:0,
+		},});
+!function(b,c){"object"==typeof console&&"function"==typeof console.error&&(console.error_old=console.error,console.error=function(){console.error_old.apply(this,arguments);b.gtag("event","exception",{error_type:"console",error_message:arguments[0],fatal:!1})});b.onerror=function(a,d,e){b.gtag("event","exception",{error_type:"javascript",error_message:a,error_location:d,error_line_number:e,fatal:!1})};b.onload=function(){c.querySelectorAll("img").forEach(a=>{a.complete&&0===a.naturalWidth&&b.gtag("event",
+"exception",{error_type:"image",error_message:"not_loaded",error_location:a.src,fatal:!1})})}}(window,document);
+	</script>
+
+
+	
+	
+		
+	
+	
+
+	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=29&amp;l=1&amp;d=1786570508&amp;k=6596e7f5dfb208c9a0b2b298625e9f1b6441e86d" />
+
+	<link rel="stylesheet" href="/css.php?css=public%3Aalnb_navigation.less%2Cpublic%3Anotices.less%2Cpublic%3Aextra.less&amp;s=29&amp;l=1&amp;d=1786570508&amp;k=f57a4334de2e795c852fa476a1701569b0b9e8be" />
+
+
+	
+		<script src="/js/xf/preamble.min.js?_v=00d194ad"></script>
+	
+
+	
+	<script src="/js/vendor/vendor-compiled.js?_v=00d194ad" defer></script>
+	<script src="/js/xf/core-compiled.js?_v=00d194ad" defer></script>
+
+	<script>
+	XF.samViewCountMethod = "view";
+	XF.samServerTime = 1789781746;
+	XF.samItem = ".samItem";
+	XF.samCodeUnit = ".samCodeUnit";
+	XF.samBannerUnit = ".samBannerUnit";
+</script>
+
+
+<script>
+	window.addEventListener('DOMContentLoaded', () => {
+		var bkp = document.querySelectorAll('div[data-ba]');
+		if (bkp) {
+			bkp.forEach(item => {
+				var ad = item;
+				if (ad.querySelector('ins.adsbygoogle').style.display == 'none') {
+					 XF.ajax('GET', XF.canonicalizeUrl('index.php?sam-item/' + ad.dataset.ba + '/get-backup'), {}, data => {
+						 if (data.backup) {
+							 ad.html(data.backup);
+						 }
+					 }, { skipDefault: true, global: false});
+				}
+			});
+		}
+		const advHere = document.querySelectorAll('.samAdvertiseHereLink');
+		if (advHere) {
+			advHere.forEach(item => {
+				var unit = item.parentNode;
+				if (unit.classList.contains('samCustomSize')) {
+					unit.style.marginBottom = 20;
+				}
+			});
+		}
+		const ff = document.querySelectorAll('div[data-position="footer_fixed"] > div[data-cv="true"]');
+		if (ff) {
+			ff.forEach(item => {
+				XF.trigger(item, 'adView');
+			});
+		}
+	});
+</script>
+	
+	
+
+		
+			
+		
+
+		
+	
+
+
+
+	<script>
+		XF.ready(() =>
+		{
+			XF.extendObject(true, XF.config, {
+				// 
+				userId: 0,
+				enablePush: true,
+				pushAppServerKey: 'BAx8rzlNwokoLKIPJY6s/u/9/a0/XAyoOXvukjyQSBC4VMfKgYMEXZBd7fKY4ZkpC9GrIIL2UXObvwirAgff8IQ=',
+				url: {
+					fullBase: 'https://www.neogaf.com/',
+					basePath: '/',
+					css: '/css.php?css=__SENTINEL__&s=29&l=1&d=1786570508',
+					js: '/js/__SENTINEL__?_v=00d194ad',
+					icon: '/data/local/icons/__VARIANT__.svg?v=1786570508#__NAME__',
+					iconInline: '/styles/fa/__VARIANT__/__NAME__.svg?v=5.15.3',
+					keepAlive: '/login/keep-alive'
+				},
+				cookie: {
+					path: '/',
+					domain: '',
+					prefix: 'xf_',
+					secure: true,
+					consentMode: 'disabled',
+					consented: ["optional","_third_party"]
+				},
+				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
+				csrf: '1789781746,70c094d50fdb9c7f2c5020f03c74a7ae',
+				js: {"\/js\/xf\/login_signup.min.js?_v=00d194ad":true,"\/js\/xf\/webauthn.min.js?_v=00d194ad":true,"\/js\/giveaways\/reveal.js?_v=00d194ad":true},
+				fullJs: false,
+				css: {"public:alnb_navigation.less":true,"public:notices.less":true,"public:extra.less":true},
+				time: {
+					now: 1789781746,
+					today: 1789772400,
+					todayDow: 6,
+					tomorrow: 1789858800,
+					yesterday: 1789686000,
+					week: 1789254000,
+					month: 1788217200,
+					year: 1767225600
+				},
+				style: {
+					light: 'default',
+					dark: 'alternate',
+					defaultColorScheme: 'light'
+				},
+				borderSizeFeature: '3px',
+				fontAwesomeWeight: 'r',
+				enableRtnProtect: true,
+				
+				enableFormSubmitSticky: true,
+				imageOptimization: '0',
+				imageOptimizationQuality: 0.85,
+				uploadMaxFilesize: 20971520,
+				uploadMaxWidth: 0,
+				uploadMaxHeight: 0,
+				allowedVideoExtensions: ["m4v","mov","mp4","mp4v","mpeg","mpg","ogv","webm"],
+				allowedAudioExtensions: ["mp3","opus","ogg","wav"],
+				shortcodeToEmoji: true,
+				visitorCounts: {
+					conversations_unread: '0',
+					alerts_unviewed: '0',
+					total_unread: '0',
+					title_count: true,
+					icon_indicator: true
+				},
+				jsMt: {"xf\/action.js":"fb974d24","xf\/embed.js":"d8374336","xf\/form.js":"d8374336","xf\/structure.js":"fb974d24","xf\/tooltip.js":"438de60b"},
+				jsState: {},
+				publicMetadataLogoUrl: 'https://www.neogaf.com/styles/neogaf/icons/icon.png',
+				publicPushBadgeUrl: 'https://www.neogaf.com/styles/default/xenforo/bell.png'
+			})
+
+			XF.extendObject(XF.phrases, {
+				// 
+"svStandardLib_time.day": "{count} day",
+"svStandardLib_time.days": "{count} days",
+"svStandardLib_time.hour": "{count} hour",
+"svStandardLib_time.hours": "{count} hours",
+"svStandardLib_time.minute": "{count} minutes",
+"svStandardLib_time.minutes": "{count} minutes",
+"svStandardLib_time.month": "{count} month",
+"svStandardLib_time.months": "{count} months",
+"svStandardLib_time.second": "{count} second",
+"svStandardLib_time.seconds": "{count} seconds",
+"svStandardLib_time.week": "time.week",
+"svStandardLib_time.weeks": "{count} weeks",
+"svStandardLib_time.year": "{count} year",
+"svStandardLib_time.years": "{count} years",
+				date_x_at_time_y:     "{date} at {time}",
+				day_x_at_time_y:      "{day} at {time}",
+				yesterday_at_x:       "Yesterday at {time}",
+				x_minutes_ago:        "{minutes} minutes ago",
+				one_minute_ago:       "1 minute ago",
+				a_moment_ago:         "A moment ago",
+				today_at_x:           "Today at {time}",
+				in_a_moment:          "In a moment",
+				in_a_minute:          "In a minute",
+				in_x_minutes:         "In {minutes} minutes",
+				later_today_at_x:     "Later today at {time}",
+				tomorrow_at_x:        "Tomorrow at {time}",
+				short_date_x_minutes: "{minutes}m",
+				short_date_x_hours:   "{hours}h",
+				short_date_x_days:    "{days}d",
+
+				day0: "Sunday",
+				day1: "Monday",
+				day2: "Tuesday",
+				day3: "Wednesday",
+				day4: "Thursday",
+				day5: "Friday",
+				day6: "Saturday",
+
+				dayShort0: "Sun",
+				dayShort1: "Mon",
+				dayShort2: "Tue",
+				dayShort3: "Wed",
+				dayShort4: "Thu",
+				dayShort5: "Fri",
+				dayShort6: "Sat",
+
+				month0: "January",
+				month1: "February",
+				month2: "March",
+				month3: "April",
+				month4: "May",
+				month5: "June",
+				month6: "July",
+				month7: "August",
+				month8: "September",
+				month9: "October",
+				month10: "November",
+				month11: "December",
+
+				active_user_changed_reload_page: "The active user has changed. Reload the page for the latest version.",
+				server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+				oops_we_ran_into_some_problems: "Oops! We ran into some problems.",
+				oops_we_ran_into_some_problems_more_details_console: "Oops! We ran into some problems. Please try again later. More error details may be in the browser console.",
+				file_too_large_to_upload: "The file is too large to be uploaded.",
+				uploaded_file_is_too_large_for_server_to_process: "The uploaded file is too large for the server to process.",
+				files_being_uploaded_are_you_sure: "Files are still being uploaded. Are you sure you want to submit this form?",
+				attach: "Attach files",
+				rich_text_box: "Rich text box",
+				close: "Close",
+				link_copied_to_clipboard: "Link copied to clipboard.",
+				text_copied_to_clipboard: "Text copied to clipboard.",
+				loading: "Loading…",
+				you_have_exceeded_maximum_number_of_selectable_items: "You have exceeded the maximum number of selectable items.",
+
+				processing: "Processing",
+				'processing...': "Processing…",
+
+				showing_x_of_y_items: "Showing {count} of {total} items",
+				showing_all_items: "Showing all items",
+				no_items_to_display: "No items to display",
+
+				number_button_up: "Increase",
+				number_button_down: "Decrease",
+
+				push_enable_notification_title: "Push notifications enabled successfully at NeoGAF",
+				push_enable_notification_body: "Thank you for enabling push notifications!",
+
+				pull_down_to_refresh: "Pull down to refresh",
+				release_to_refresh: "Release to refresh",
+				refreshing: "Refreshing…"
+			})
+		})
+	
+document.querySelectorAll(".file-preview").forEach(filePreview=>{filePreview.addEventListener("click",()=>{gtag('event','file_download',{link_url:(new URL(filePreview.getAttribute("href"),window.location.origin)).href, file_name:filePreview.parentNode.querySelector('.file-name').textContent});});});document.querySelectorAll('.shareButtons-button').forEach(shareButton=>{shareButton.addEventListener('click',()=>{gtag('event','share',{method:shareButton.getAttribute('class').match(/.*shareButtons-button--(.*?)$|\s/)[1]});});});document.querySelectorAll('.bookmarkLink:not(.is-bookmarked)').forEach(bookmarkLink=>{bookmarkLink.addEventListener('click',()=>{gtag('event','bookmark');});});document.querySelectorAll(".js-installPromptButton").forEach(a=>{a.addEventListener("click",()=>{gtag("event","app_install_prompt")})});window.addEventListener("appinstalled",()=>{gtag("event","app_install")});XF.PWA&&XF.PWA.isRunning()&&document.addEventListener("visibilitychange",()=>{"visible"===document.visibilityState&&gtag("event","app_open")});setTimeout(()=>{document.querySelectorAll(".adsbygoogle").forEach(a=>{a.addEventListener("mouseenter",()=>{XF.aH=!0});a.addEventListener("mouseleave",()=>{XF.aH=!1});gtag("event","ads_impression",{ad_platform:"adsense"})});["pagehide","blur"].forEach(function(a){window.addEventListener(a,()=>{XF.aH&&gtag("event","ad_click",{ad_platform:"adsense"})},!1)})},3E3);
+</script>
+
+	<script src="/js/xf/login_signup.min.js?_v=00d194ad" defer></script>
+<script src="/js/xf/webauthn.min.js?_v=00d194ad" defer></script>
+<script src="/js/giveaways/reveal.js?_v=00d194ad" defer></script>
+<script>
+XF.ready(() =>
+{
+
+var SV = window.SV || {};
+SV.extendObject = SV.extendObject || XF.extendObject || jQuery.extend;
+SV.extendObject(XF.config, {
+	contentrating : {
+		tooltipDelay: 400,
+		menuDelay: 100,
+	}
+});
+
+})
+</script>
+
+
+	
+
+
+
+
+	
+		<link rel="icon" type="image/png" href="https://www.neogaf.com/styles/neogaf/icons/favicon.ico" sizes="32x32" />
+	
+
+	
+	<link rel="stylesheet" href="https://www.neogaf.com/styles/neogaf/icons/materialdesignicons.min.css">
+	
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1474499314731723" crossorigin="anonymous"></script>
+	
+	
+		<style>
+			.avatar
+			{
+				border-radius: 4px;
+			}
+		</style>
+	
+	
+	<script type="text/javascript">
+		function GAFsetCookie(name,value,days) {
+			var expires = "";
+			if (days) {
+				var date = new Date();
+				date.setTime(date.getTime() + (days*24*60*60*1000));
+				expires = "; expires=" + date.toUTCString();
+			}
+			document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+		}
+		function GAFgetCookie(name) {
+			var nameEQ = name + "=";
+			var ca = document.cookie.split(';');
+			for(var i=0;i < ca.length;i++) {
+				var c = ca[i];
+				while (c.charAt(0)==' ') c = c.substring(1,c.length);
+				if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+			}
+			return null;
+		}
+		function toggle_layout() {
+			var x = GAFgetCookie('xf_layout_mode');
+			const element = document.querySelector('.p-body-inner');
+			if (x == 'skinny') {
+				GAFsetCookie('xf_layout_mode', 'wide', 3650);
+				element.style.width = '96%';
+			} else {
+				GAFsetCookie('xf_layout_mode', 'skinny', 3650);
+				element.style.width = '1200px';
+			}
+		}
+		function neogaf_style_change(variation) {
+			const divElement = document.getElementById("style_name");
+			switch (variation) {
+				case "":
+					divElement.textContent = "System";
+					break;
+				case "default":
+					divElement.textContent = "Light";
+					break;
+				case "alternate":
+					divElement.textContent = "Dark";
+					break;
+			}
+		}
+	</script>
+	
+
+	
+
+		
+			
+		
+
+		
+	
+
+
+</head>
+<body data-template="login">
+
+	
+
+		
+			
+		
+
+		
+	
+
+
+	
+
+		
+			
+		
+
+		
+	
+
+
+<div class="p-pageWrapper" id="top">
+
+	
+
+	<header class="p-header" id="header">
+		<div class="p-header-inner">
+			<div class="p-header-content">
+				<div class="p-header-logo p-header-logo--image">
+					<a href="https://www.neogaf.com">
+						
+
+	
+
+	
+		
+		
+
+		
+	
+		
+		
+
+		
+	
+
+	
+
+	<picture data-variations="{&quot;default&quot;:{&quot;1&quot;:&quot;\/styles\/neogaf\/neogaf\/logo.png&quot;,&quot;2&quot;:&quot;\/styles\/neogaf\/neogaf\/logo-2x.png&quot;},&quot;alternate&quot;:{&quot;1&quot;:&quot;\/styles\/neogaf\/neogaf\/logo.png&quot;,&quot;2&quot;:&quot;\/styles\/neogaf\/neogaf\/logo-2x.png&quot;}}">
+		
+		
+		
+
+		
+			
+			
+			
+
+			
+		
+
+		<img src="/styles/neogaf/neogaf/logo.png" srcset="/styles/neogaf/neogaf/logo-2x.png 2x" width="100" height="36" alt="NeoGAF"  />
+	</picture>
+
+
+					</a>
+				</div>
+
+				
+	
+
+		
+			
+		
+
+		
+	
+
+
+			</div>
+		</div>
+	</header>
+
+	
+	
+
+	
+		<div class="p-navSticky p-navSticky--primary" data-xf-init="sticky-header">
+			
+		<nav class="p-nav">
+			<div class="p-nav-inner">
+				<button type="button" class="button button--plain p-nav-menuTrigger" data-xf-click="off-canvas" data-menu=".js-headerOffCanvasMenu" tabindex="0" aria-label="Menu" style="color: white;"><span class="button-text">
+					<i aria-hidden="true"></i>
+				</span></button>
+
+				<div class="p-nav-smallLogo">
+					<a href="https://www.neogaf.com">
+						
+							
+
+	
+
+	
+		
+		
+
+		
+	
+		
+		
+
+		
+	
+
+	
+
+	<picture data-variations="{&quot;default&quot;:{&quot;1&quot;:&quot;\/styles\/neogaf\/neogaf\/logo.png&quot;,&quot;2&quot;:null},&quot;alternate&quot;:{&quot;1&quot;:&quot;\/styles\/neogaf\/neogaf\/logo.png&quot;,&quot;2&quot;:null}}">
+		
+		
+		
+
+		
+			
+			
+			
+
+			
+		
+
+		<img src="/styles/neogaf/neogaf/logo.png"  width="100" height="36" alt="NeoGAF"  />
+	</picture>
+
+
+						
+					</a>
+				</div>
+
+				<div class="p-nav-smallerLogo" style="align-self:center; margin-top: 8px; min-width:32px;">
+					<a href="https://www.neogaf.com">
+						
+							<img src="https://www.neogaf.com/styles/neogaf/icons/iconclean.png" alt="NeoGAF" width="32" height="32"/>
+						
+					</a>
+				</div>
+
+				<div class="p-nav-scroller hScroller" data-xf-init="h-scroller" data-auto-scroll=".p-navEl.is-selected">
+					<div class="hScroller-scroll">
+						<ul class="p-nav-list js-offCanvasNavSource">
+						
+							<li>
+								
+	<div class="p-navEl " data-has-children="true">
+		
+
+			
+	
+	<a href="/"
+		class="p-navEl-link p-navEl-link--splitMenu mdi mdi-forum"
+		
+		
+		data-nav-id="forums">Forums</a>
+
+
+			<a data-xf-key="1"
+				data-xf-click="menu"
+				data-menu-pos-ref="< .p-navEl"
+				class="p-navEl-splitTrigger"
+				role="button"
+				tabindex="0"
+				aria-label="Toggle expanded"
+				aria-expanded="false"
+				aria-haspopup="true"></a>
+
+		
+		
+			<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					
+						
+	
+	
+	<a href="/forums/gaming-discussion.2/"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		
+		
+		data-nav-id="1"><span class='sidebar_gaming'>Gaming</span></a>
+
+	
+
+					
+						
+	
+	
+	<a href="/forums/communities.49/"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		
+		
+		data-nav-id="2"><span class='sidebar_communities'>Communities</span></a>
+
+	
+
+					
+						
+	
+	
+	<a href="/forums/off-topic-discussion.22/"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		
+		
+		data-nav-id="3"><span class='sidebar_offtopic'>Off-Topic</span></a>
+
+	
+
+					
+						
+	
+	
+	<a href="/featured/"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		
+		
+		data-nav-id="forum_featured">Featured threads</a>
+
+	
+
+					
+						
+	
+	
+	<a href="/whats-new/"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		 rel="nofollow"
+		
+		data-nav-id="new_threads">Latest threads</a>
+
+	
+
+					
+				</div>
+			</div>
+		
+	</div>
+
+							</li>
+						
+							<li>
+								
+	<div class="p-navEl " >
+		
+
+			
+	
+	<a href="https://www.neogaf.com/marketplace/"
+		class="p-navEl-link mdi mdi-shopping"
+		
+		data-xf-key="2"
+		data-nav-id="marketplace">Marketplace</a>
+
+
+			
+
+		
+		
+	</div>
+
+							</li>
+						
+							<li>
+								
+	<div class="p-navEl " >
+		
+
+			
+	
+	<a href="https://www.neogaf.com/gold/"
+		class="p-navEl-link mdi mdi-creation"
+		 style="color: goldenrod;"
+		data-xf-key="3"
+		data-nav-id="gold">NeoGAF Gold</a>
+
+
+			
+
+		
+		
+	</div>
+
+							</li>
+						
+							<li>
+								
+	<div class="p-navEl " >
+		
+
+			
+	
+	<a href="https://www.patreon.com/neogaf"
+		class="p-navEl-link mdi mdi-patreon"
+		 target="_blank" style="color: #cbd5f5;"
+		data-xf-key="4"
+		data-nav-id="patreon">Support on Patreon</a>
+
+
+			
+
+		
+		
+	</div>
+
+							</li>
+						
+							<li>
+								
+	<div class="p-navEl " >
+		
+
+			
+	
+	<a href="https://neogaf.threadless.com"
+		class="p-navEl-link mdi mdi-tag-heart"
+		 target="_blank" style="color: #cbd5f5;"
+		data-xf-key="5"
+		data-nav-id="shop">Merch</a>
+
+
+			
+
+		
+		
+	</div>
+
+							</li>
+						
+							<li>
+								
+	<div class="p-navEl " >
+		
+
+			
+	
+	<a href="https://www.neogaf.com/forums/faq.15/"
+		class="p-navEl-link mdi mdi-information"
+		
+		data-xf-key="6"
+		data-nav-id="faq">FAQ</a>
+
+
+			
+
+		
+		
+	</div>
+
+							</li>
+						
+						</ul>
+					</div>
+				</div>
+
+				<div class="p-nav-opposite neogaf-quick-small" style="margin-left: 5px;">
+					
+						<a href="/forums/gaming-discussion.2" class="p-navgroup-link p-navgroup-link--iconic neogaf-quick-gaming" aria-expanded="false" aria-haspopup="true" title="Gaming">
+						<div class="top-nav-icon" style="float: left; margin-right: 3px;">
+							<i class="fa--xf far fa fa-gamepad "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"  style="font-weight: inherit; color: #f9fafa;"><use href="/data/local/icons/regular.svg?v=1786570508#gamepad"></use></svg></i>
+						</div>
+					
+					</a>
+					
+						<a href="/forums/communities.49/" class="p-navgroup-link p-navgroup-link--iconic neogaf-quick-communities" aria-expanded="false" aria-haspopup="true" title="Communities">
+							<div class="top-nav-icon"  style="float: left; margin-right: 3px;">
+								<i class="fa--xf far fa fa-building "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"  style="font-weight: inherit; color: #f9fafa;"><use href="/data/local/icons/regular.svg?v=1786570508#building"></use></svg></i>
+							</div>
+					
+					</a>
+					
+						<a href="/forums/off-topic-discussion.22" class="p-navgroup-link p-navgroup-link--iconic neogaf-quick-offtopic" aria-expanded="false" aria-haspopup="true" title="Off-Topic">
+							<div class="top-nav-icon"  style="float: left; margin-right: 3px;">
+								<i class="fa--xf far fa fa-comments "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"  style="font-weight: inherit; color: #f9fafa;"><use href="/data/local/icons/regular.svg?v=1786570508#comments"></use></svg></i>
+							</div>
+					
+					</a>
+					<span class="neogaf-quick-sub-small">
+						
+							<a href="/featured" class="p-navgroup-link p-navgroup-link--iconic" aria-expanded="false" aria-haspopup="true" title="Featured Threads">
+								<div class="top-nav-icon"  style="float: left; margin-right: 3px;">
+									<i class="fa--xf far fa fa-medal "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"  style="font-weight: inherit; color: #darkgray;"><use href="/data/local/icons/regular.svg?v=1786570508#medal"></use></svg></i>
+								</div>
+						
+						</a>
+						
+							<a href="/watched/threads" class="p-navgroup-link p-navgroup-link--iconic" aria-expanded="false" aria-haspopup="true" title="Watched Threads">
+								<div class="top-nav-icon"  style="float: left; margin-right: 3px;">
+									<i class="fa--xf far fa fa-bookmark "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"  style="font-weight: inherit; color: #darkgray;"><use href="/data/local/icons/regular.svg?v=1786570508#bookmark"></use></svg></i>
+								</div>
+						
+						</a>
+						
+							<a href="/whats-new" class="p-navgroup-link p-navgroup-link--iconic" aria-expanded="false" aria-haspopup="true" title="New Threads">
+								<div class="top-nav-icon"  style="float: left; margin-right: 3px;">
+									<i class="fa--xf far fa fa-badge "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"  style="font-weight: inherit; color: #darkgray;"><use href="/data/local/icons/regular.svg?v=1786570508#badge"></use></svg></i>
+								</div>	
+						
+						</a>
+					</span>
+				</div>
+
+				<div class="p-nav-opposite neogaf-quick" style="margin-left: 5px;">				
+					
+						<a href="/forums/gaming-discussion.2" class="p-navgroup-link p-navgroup-link--iconic neogaf-quick-gaming" aria-expanded="false" aria-haspopup="true" title="Gaming">
+						<div class="top-nav-icon" style="float: left; margin-right: 7px;">
+							<i class="fa--xf far fa fa-gamepad "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"  style="font-weight: inherit; color: #f9fafa;"><use href="/data/local/icons/regular.svg?v=1786570508#gamepad"></use></svg></i>
+						</div>
+					
+						Gaming
+					</a>
+					
+						<a href="/forums/communities.49/" class="p-navgroup-link p-navgroup-link--iconic neogaf-quick-communities" aria-expanded="false" aria-haspopup="true" title="Communities">
+							<div class="top-nav-icon"  style="float: left; margin-right: 7px;">
+								<i class="fa--xf far fa fa-building "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"  style="font-weight: inherit; color: #f9fafa;"><use href="/data/local/icons/regular.svg?v=1786570508#building"></use></svg></i>
+							</div>
+					
+						Communities
+					</a>
+					
+						<a href="/forums/off-topic-discussion.22" class="p-navgroup-link p-navgroup-link--iconic neogaf-quick-offtopic" aria-expanded="false" aria-haspopup="true" title="Off-Topic">
+							<div class="top-nav-icon"  style="float: left; margin-right: 7px;">
+								<i class="fa--xf far fa fa-comments "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"  style="font-weight: inherit; color: #f9fafa;"><use href="/data/local/icons/regular.svg?v=1786570508#comments"></use></svg></i>
+							</div>
+					
+						Off-Topic
+					</a>
+					<span class="neogaf-quick-sub">
+						
+							<a href="/featured" class="p-navgroup-link p-navgroup-link--iconic" aria-expanded="false" aria-haspopup="true" title="Featured Threads">
+								<div class="top-nav-icon"  style="float: left; margin-right: 7px;">
+									<i class="fa--xf far fa fa-medal "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"  style="font-weight: inherit; color: darkgray;"><use href="/data/local/icons/regular.svg?v=1786570508#medal"></use></svg></i>
+								</div>
+						
+							Featured
+						</a>
+						
+							<a href="/watched/threads" class="p-navgroup-link p-navgroup-link--iconic" aria-expanded="false" aria-haspopup="true" title="Watched Threads">
+								<div class="top-nav-icon"  style="float: left; margin-right: 7px;">
+									<i class="fa--xf far fa fa-bookmark "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"  style="font-weight: inherit; color: darkgray;"><use href="/data/local/icons/regular.svg?v=1786570508#bookmark"></use></svg></i>
+								</div>
+						
+							Watched
+						</a>
+						
+							<a href="/whats-new" class="p-navgroup-link p-navgroup-link--iconic" aria-expanded="false" aria-haspopup="true" title="New Threads">
+								<div class="top-nav-icon"  style="float: left; margin-right: 7px;">
+									<i class="fa--xf far fa fa-badge "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"  style="font-weight: inherit; color: darkgray;"><use href="/data/local/icons/regular.svg?v=1786570508#badge"></use></svg></i>
+								</div>	
+						
+							New
+						</a>
+					</span>
+				</div>
+
+				<div class="p-nav-opposite">
+					<div class="p-navgroup p-account p-navgroup--guest">
+						
+							<a href="/login/" class="p-navgroup-link p-navgroup-link--textual p-navgroup-link--logIn"
+								data-xf-click="overlay" data-follow-redirects="on">
+								<span class="p-navgroup-linkText">Log in</span>
+							</a>
+							
+								<a href="/login/register" class="p-navgroup-link p-navgroup-link--textual p-navgroup-link--register"
+									data-follow-redirects="on">
+									<span class="p-navgroup-linkText">Register</span>
+								</a>
+							
+						
+					</div>
+
+					<div class="p-navgroup p-discovery p-discovery--noSearch">
+						
+					</div>
+				</div>
+			</div>
+		</nav>
+	
+		</div>
+		
+		
+			<div class="p-sectionLinks">
+				<div class="p-sectionLinks-inner hScroller" data-xf-init="h-scroller">
+					<div class="hScroller-scroll">
+						<ul class="p-sectionLinks-list">
+							
+								<li>
+									
+	<div class="p-navEl " >
+		
+
+			
+	
+	<a href="/login/register"
+		class="p-navEl-link "
+		
+		data-xf-key="alt+1"
+		data-nav-id="defaultRegister">Register</a>
+
+
+			
+
+		
+		
+	</div>
+
+								</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+	
+		
+
+	<div class="offCanvasMenu offCanvasMenu--nav js-headerOffCanvasMenu" data-menu="menu" aria-hidden="true" data-ocm-builder="navigation">
+		<div class="offCanvasMenu-backdrop" data-menu-close="true"></div>
+		<div class="offCanvasMenu-content">
+			<div class="offCanvasMenu-header">
+				<img src="https://www.neogaf.com/styles/neogaf/neogaf/logo.png" srcset="https://www.neogaf.com/styles/neogaf/neogaf/logo-2x.png 2x" alt="NeoGAF" width="200" height="34">
+				<a class="offCanvasMenu-closer" data-menu-close="true" role="button" tabindex="0" aria-label="Close"></a>
+			</div>
+			
+				<div class="p-offCanvasRegisterLink">
+					<div class="offCanvasMenu-linkHolder">
+						<a href="/login/" class="offCanvasMenu-link" data-xf-click="overlay" data-menu-close="true">
+							Log in
+						</a>
+					</div>
+					<hr class="offCanvasMenu-separator" />
+					
+						<div class="offCanvasMenu-linkHolder">
+							<a href="/login/register" class="offCanvasMenu-link" data-xf-click="overlay" data-menu-close="true">
+								Register
+							</a>
+						</div>
+						<hr class="offCanvasMenu-separator" />
+					
+				</div>
+			
+			<div class="js-offCanvasNavTarget"></div>
+			<div class="offCanvasMenu-installBanner js-installPromptContainer" style="display: none;" data-xf-init="install-prompt">
+				<div class="offCanvasMenu-installBanner-header">Install the app</div>
+				<button type="button" class="button js-installPromptButton"><span class="button-text">Install</span></button>
+				<template class="js-installTemplateIOS">
+<script>gtag('event','tutorial_begin');</script>
+					<div class="js-installTemplateContent">
+						<div class="overlay-title">How to install the app on iOS</div>
+						<div class="block-body">
+							<div class="block-row">
+								<p>
+									Follow along with the video below to see how to install our site as a web app on your home screen.
+								</p>
+								<p style="text-align: center">
+									<video src="/styles/default/xenforo/add_to_home.mp4"
+										width="280" height="480" autoplay loop muted playsinline></video>
+								</p>
+								<p>
+									<small><strong>Note:</strong> This feature may not be available in some browsers.</small>
+								</p>
+							</div>
+						</div>
+					</div>
+				</template>
+			</div>
+		</div>
+	</div>
+
+	<div class="p-body">
+
+		
+			<div class="p-body-inner" style="transition: width 0.5s ease-in-out;">
+		
+		<!--XF:EXTRA_OUTPUT-->
+
+
+		
+		
+			<div id="adblock_message" style="display: none;">
+				<ul class="notices notices--block js-notices" data-xf-init="notices" data-type="block" data-scroll-interval="6">
+					<li class="notice js-notice notice--primary" data-notice-id="5" data-delay-duration="0" data-display-duration="0" data-auto-dismiss="" data-visibility="">
+						<div class="notice-content">
+							<a href="#" class="notice-dismiss js-noticeDismiss" data-xf-init="tooltip" data-original-title="Dismiss notice" aria-label="Dismiss notice" id=""></a>
+							<div class="p-body-header " style=" ">
+								<div class="p-title ">
+									<h1 class="p-title-value" style="font-weight: bolder">Support NeoGAF</h1>
+								</div>
+							</div>
+							We keep the lights on by showing you unobtrusive ads.  If you enjoy our community, please consider whitelisting or becoming a contributor:
+							<p style="margin-bottom: 0px;">
+								<a href="/help/whitelist-neogaf" class="button" rel="nofollow" style="margin-bottom: 3px;">
+									<span class="button-text">
+										<svg style="width:13px;height:13px;padding-top:2px;" viewBox="0 0 24 24">
+											<path fill="currentColor" d="M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1Z" />
+										</svg>
+										Whitelist Ads
+									</span>
+								</a>
+								<a href="/gold/" class="button" rel="nofollow" style="margin-bottom: 3px;">
+									<span class="button-text">
+										<svg style="width:13px;height:13px;padding-top:2px;" viewBox="0 0 24 24">
+											<path fill="currentColor" d="M10.6 9.6L9 15L7.4 9.6L2 8L7.4 6.4L9 1L10.6 6.4L16 8L10.6 9.6M17 14.2L21 12L18.8 16L21 20L17 17.8L13 20L15.2 16L13 12L17 14.2M10 16L8.3 19L10 22L7 20.3L4 22L5.7 19L4 16L7 17.7L10 16" />
+										</svg>
+										Gold Membership
+									</span>
+								</a>
+								<a href="https://www.patreon.com/neogaf" target="_blank" class="button" rel="nofollow" style="margin-bottom: 3px;">
+									<span class="button-text">
+										<svg style="width:13px;height:13px;padding-top:2px;" viewBox="0 0 24 24">
+											<path fill="currentColor" d="M14.82 2.41C18.78 2.41 22 5.65 22 9.62C22 13.58 18.78 16.8 14.82 16.8C10.85 16.8 7.61 13.58 7.61 9.62C7.61 5.65 10.85 2.41 14.82 2.41M2 21.6H5.5V2.41H2V21.6Z" />
+										</svg>
+										Patreon
+									</span>
+								</a>
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		
+		
+			
+
+			<script src="/js/neogaf/dfp_delivery.js"></script>
+
+			<script>
+				if(!document.getElementById('kpK9STgdwhRv')) { 
+					document.getElementById('adblock_message').style.display = "block";
+				}
+			</script>
+		
+
+		
+			
+	
+		
+		
+
+		<ul class="notices notices--block  js-notices"
+			data-xf-init="notices"
+			data-type="block"
+			data-scroll-interval="6">
+
+			
+				
+	<li class="notice js-notice notice--primary"
+		data-notice-id="46"
+		data-delay-duration="0"
+		data-display-duration="0"
+		data-auto-dismiss=""
+		data-visibility="">
+
+		
+		<div class="notice-content">
+			
+				<a href="/account/dismiss-notice?notice_id=46" class="notice-dismiss js-noticeDismiss" data-xf-init="tooltip" title="Dismiss notice"></a>
+			
+			Hey Guest. Check out your NeoGAF Wrapped 2025 results <a href="https://www.neogaf.com/threads/neogaf-wrapped-2025.1691556/">here</a>!
+		</div>
+	</li>
+
+			
+		</ul>
+	
+
+		
+
+		
+
+		
+	<noscript class="js-jsWarning"><div class="blockMessage blockMessage--important blockMessage--iconic u-noJsOnly">JavaScript is disabled. For a better experience, please enable JavaScript in your browser before proceeding.</div></noscript>
+
+		
+	<div class="blockMessage blockMessage--important blockMessage--iconic js-browserWarning" style="display: none">You are using an out of date browser. It  may not display this or other websites correctly.<br />You should upgrade or use an <a href="https://www.google.com/chrome/" target="_blank" rel="noopener">alternative browser</a>.</div>
+
+		
+		
+			
+				
+					
+					<!-- Forum Header Code -->
+						
+							
+
+						
+					
+				
+			
+		
+
+		
+			<div class="p-body-header">
+			
+				
+					<div class="p-title ">
+					
+						
+							
+								
+									<h1 class="p-title-value">Log in</h1>			
+								
+							
+						
+						
+					
+					</div>
+				
+
+				
+			
+			</div>
+		
+		
+		
+	
+
+		
+			
+		
+
+		
+	
+
+
+		
+	
+
+		
+	
+
+		
+			
+		
+
+		
+	
+
+
+
+		<div class="p-body-main  ">
+			
+			<div class="p-body-contentCol"></div>
+			
+
+			
+
+			<div class="p-body-content">
+				
+	
+
+		
+			
+		
+
+		
+	
+
+
+				<div class="p-body-pageContent">
+
+
+
+
+
+
+
+
+
+	<div class="blockMessage blockMessage--error blockMessage--iconic">
+		You must be logged-in to do that.
+	</div>
+
+
+<div class="blocks">
+	
+			<form action="/login/login" method="post" class="block"
+				
+			>
+				<input type="hidden" name="_xfToken" value="1789781746,70c094d50fdb9c7f2c5020f03c74a7ae" />
+				
+		<div class="block-container">
+			<div class="block-body">
+				
+			<dl class="formRow formRow--input">
+				<dt>
+					<div class="formRow-labelWrapper">
+					<label class="formRow-label" for="_xfUid-1-1789781746">Your name or email address</label></div>
+				</dt>
+				<dd>
+					<input type="text" class="input" name="login" autofocus="autofocus" autocomplete="username" id="_xfUid-1-1789781746" />
+				</dd>
+			</dl>
+		
+
+				
+			<dl class="formRow formRow--input">
+				<dt>
+					<div class="formRow-labelWrapper">
+					<label class="formRow-label" for="_xfUid-2-1789781746">Password</label></div>
+				</dt>
+				<dd>
+					
+
+
+
+<div data-xf-init=" password-hide-show"
+	data-show-text="Show" data-hide-text="Hide">
+	
+		<div class="inputGroup inputGroup--joined">
+			
+	<input type="password" name="password" value=""
+		class="input js-password input--passwordHideShow"  autocomplete="current-password" id="_xfUid-2-1789781746" />
+
+			
+			<div class="inputGroup-text">
+				<label class="iconic iconic--hideShow js-hideShowContainer"><input type="checkbox"  value="1" /><i aria-hidden="true"></i><span class="iconic-label">Show</span></label>
+
+			</div>
+		</div>
+	
+
+	
+</div>
+					<a href="/lost-password/" data-xf-click="overlay">Forgot your password?</a>
+				</dd>
+			</dl>
+		
+
+				
+
+				
+			<dl class="formRow">
+				<dt>
+					<div class="formRow-labelWrapper"></div>
+				</dt>
+				<dd>
+					
+			<ul class="inputChoices">
+				<li class="inputChoices-choice"><label class="iconic"><input type="checkbox"  name="remember" value="1" checked="checked" /><i aria-hidden="true"></i><span class="iconic-label">Stay logged in</span></label></li>
+
+			</ul>
+		
+				</dd>
+			</dl>
+		
+
+				<input type="hidden" name="_xfRedirect" value="" />
+			</div>
+			
+			<dl class="formRow formSubmitRow">
+				<dt></dt>
+				<dd>
+					<div class="formSubmitRow-main">
+						<div class="formSubmitRow-bar"></div>
+						<div class="formSubmitRow-controls"><button type="submit" class="button button--icon button--icon--login button--primary"><i class="fa--xf far fa-lock "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/regular.svg?v=1786570508#lock"></use></svg></i><span class="button-text">Log in</span></button></div>
+					</div>
+				</dd>
+			</dl>
+		
+		</div>
+		
+			<div class="block-outer block-outer--after">
+				<div class="block-outer-middle">
+					Don't have an account? <a href="/login/register" class="button "><span class="button-text">Register now</span></a>
+				</div>
+			</div>
+		
+	
+				
+			</form>
+		
+
+	<div class="blocks-textJoiner"><span></span><em>or</em><span></span></div>
+
+	<div class="block">
+		<div class="block-container">
+			<div class="block-body">
+				
+			<dl class="formRow formRow--button">
+				<dt>
+					<div class="formRow-labelWrapper">
+					<label class="formRow-label">Log in using</label></div>
+				</dt>
+				<dd>
+					
+
+					<ul class="listHeap">
+						<li>
+							
+			<form action="/login/login" method="post" class=""
+				 data-xf-init="webauthn" data-type="get" data-autotrigger="false" data-autosubmit="true" data-verifying="Verifying…"
+			>
+				<input type="hidden" name="_xfToken" value="1789781746,70c094d50fdb9c7f2c5020f03c74a7ae" />
+				
+
+									<button type="button" class="button button--icon button--provider button--provider--passkey js-webauthnStart"><span class="button-text">
+										Passkey
+									</span></button>
+
+								<input type="hidden" name="webauthn_payload" value="" />
+								<input type="hidden" name="webauthn_challenge" value="" />
+							
+				
+			</form>
+		
+						</li>
+
+						
+							<li>
+								
+	<a href="/login/register/connected-accounts/x/?setup=1" class="button button--icon button--provider button--provider--x" data-xf-click="overlay"><i class="fa--xf fab fa-x "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-hidden="true" ><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></i><span class="button-text">
+
+		
+		X
+	</span></a>
+
+							</li>
+						
+							<li>
+								
+	<a href="/login/register/connected-accounts/google/?setup=1" class="button button--provider button--provider--google" data-xf-click="overlay"><span class="button-text">
+
+		
+			<img class="button-icon" alt="" src="data:image/svg+xml;base64,CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCI+PHBhdGggZD0iTTIyLjU2IDEyLjI1YzAtLjc4LS4wNy0xLjUzLS4yLTIuMjVIMTJ2NC4yNmg1LjkyYy0uMjYgMS4zNy0xLjA0IDIuNTMtMi4yMSAzLjMxdjIuNzdoMy41N2MyLjA4LTEuOTIgMy4yOC00Ljc0IDMuMjgtOC4wOXoiIGZpbGw9IiM0Mjg1RjQiLz48cGF0aCBkPSJNMTIgMjNjMi45NyAwIDUuNDYtLjk4IDcuMjgtMi42NmwtMy41Ny0yLjc3Yy0uOTguNjYtMi4yMyAxLjA2LTMuNzEgMS4wNi0yLjg2IDAtNS4yOS0xLjkzLTYuMTYtNC41M0gyLjE4djIuODRDMy45OSAyMC41MyA3LjcgMjMgMTIgMjN6IiBmaWxsPSIjMzRBODUzIi8+PHBhdGggZD0iTTUuODQgMTQuMDljLS4yMi0uNjYtLjM1LTEuMzYtLjM1LTIuMDlzLjEzLTEuNDMuMzUtMi4wOVY3LjA3SDIuMThDMS40MyA4LjU1IDEgMTAuMjIgMSAxMnMuNDMgMy40NSAxLjE4IDQuOTNsMi44NS0yLjIyLjgxLS42MnoiIGZpbGw9IiNGQkJDMDUiLz48cGF0aCBkPSJNMTIgNS4zOGMxLjYyIDAgMy4wNi41NiA0LjIxIDEuNjRsMy4xNS0zLjE1QzE3LjQ1IDIuMDkgMTQuOTcgMSAxMiAxIDcuNyAxIDMuOTkgMy40NyAyLjE4IDcuMDdsMy42NiAyLjg0Yy44Ny0yLjYgMy4zLTQuNTMgNi4xNi00LjUzeiIgZmlsbD0iI0VBNDMzNSIvPjxwYXRoIGQ9Ik0xIDFoMjJ2MjJIMXoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=" />
+		
+		Google
+	</span></a>
+
+							</li>
+						
+							<li>
+								
+	<a href="/login/register/connected-accounts/github/?setup=1" class="button button--icon button--provider button--provider--github" data-xf-click="overlay"><i class="fa--xf fab fa-github "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1786570508#github"></use></svg></i><span class="button-text">
+
+		
+		GitHub
+	</span></a>
+
+							</li>
+						
+							<li>
+								
+	<a href="/login/register/connected-accounts/ewr_discord/?setup=1" class="button button--provider button--provider--ewr_discord" data-xf-click="overlay"><span class="button-text">
+
+		
+		Discord
+	</span></a>
+
+							</li>
+						
+					</ul>
+				
+				</dd>
+			</dl>
+		
+			</div>
+		</div>
+	</div>
+</div></div>
+				
+	
+
+		
+			
+		
+
+		
+	
+
+
+			</div>
+
+			
+		</div>
+
+		
+	
+
+		
+			
+		
+
+		
+	
+
+
+		
+	
+
+		
+	
+
+		
+			
+		
+
+		
+	
+
+
+	</div>
+</div>
+	
+
+	
+		<!-- NeoGAF Desktop Footer -->
+		
+			
+				<div id="neogaf_desktop-footer" style="text-align: center; display: flex; justify-content:center; overflow: auto; max-width: 100%; flex-direction: column;">
+
+				</div>
+			
+		
+		<!-- // NeoGAF Desktop Footer -->
+
+		<!-- NeoGAF Mobile Footer -->
+		<div class="ng-footer-mobile-ad">
+			<div id='div-gpt-ad-mobile-footer' style='max-height:270px; max-width:320px; margin: 0 auto; overflow: hidden;'>
+
+			</div>
+		</div>
+		<!-- // NeoGAF Mobile Footer -->
+	
+
+
+<footer class="p-footer" id="footer">
+
+	<div class="p-footer-inner">
+
+		<div class="p-footer-row">
+			
+				<div class="p-footer-row-main">
+					<ul class="p-footer-linkList">
+						<li class="change_layout">
+							<a data-xf-init="tooltip" title="Change layout" style="cursor:pointer;" onClick="toggle_layout();">
+								<svg style="width:16px;height:16px" viewBox="0 0 24 24">
+									<path fill="currentColor" d="M10,21V19H6.41L10.91,14.5L9.5,13.09L5,17.59V14H3V21H10M14.5,10.91L19,6.41V10H21V3H14V5H17.59L13.09,9.5L14.5,10.91Z" />
+								</svg>
+							</a>
+						</li>
+					
+						
+						
+							<li><a href="/misc/style" data-xf-click="overlay"
+								data-xf-init="tooltip" title="Style chooser" rel="nofollow">
+								<i class="fa--xf far fa-paint-brush "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/regular.svg?v=1786570508#paint-brush"></use></svg></i> NeoGAF
+							</a></li>
+						
+						
+						
+					
+					</ul>
+				</div>
+			
+			<div class="p-footer-row-opposite">
+				<ul class="p-footer-linkList">
+					
+						
+							<li><a href="/misc/contact" data-xf-click="overlay">Contact Us</a></li>
+						
+					
+
+					
+						<li><a href="/help/terms/">Terms of Service</a></li>
+					
+
+					
+						<li><a href="https://www.neogaf.com/index.php?threads/privacy-policy.390709/">Privacy Policy</a></li>
+					
+					
+					<li><a href="https://www.neogaf.com/staff/">Staff</a></li>
+			
+					<li><a href="https://www.neogaf.com/bans/">Bans</a></li>
+
+					
+						<li><a href="/help/">Help</a></li>
+					
+
+					
+						<li><a href="https://www.neogaf.com">Home</a></li>
+					
+
+					<li><a href="/forums/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa--xf far fa-rss "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/regular.svg?v=1786570508#rss"></use></svg></i><span class="u-srOnly">RSS</span></span></a></li>
+				</ul>
+			</div>
+		</div>
+
+		
+	</div>
+</footer>
+
+	
+
+		
+			
+		
+
+		
+	
+
+
+</div> <!-- closing p-pageWrapper -->
+
+
+
+<div class="u-bottomFixer js-bottomFixTarget">
+	
+	
+</div>
+
+
+	<div class="u-scrollButtons js-scrollButtons" data-trigger-type="both">
+		<a href="#top" class="button button--scroll" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf far fa-arrow-up "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/regular.svg?v=1786570508#arrow-up"></use></svg></i><span class="u-srOnly">Top</span></span></a>
+		
+			<a href="#footer" class="button button--scroll" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf far fa-arrow-down "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/regular.svg?v=1786570508#arrow-down"></use></svg></i><span class="u-srOnly">Bottom</span></span></a>
+		
+	</div>
+
+
+
+	<form style="display:none" hidden="hidden">
+		<input type="text" name="_xfClientLoadTime" value="" id="_xfClientLoadTime" title="_xfClientLoadTime" tabindex="-1" />
+	</form>
+
+	
+
+
+
+
+
+
+
+	
+
+		
+			
+		
+
+		
+	
+
+
+	
+
+		
+			
+		
+
+		
+	
+
+
+
+    <script>
+        window.ZeeBotGuardConfig = {
+            collectUrl: "/bot-guard/collect",
+            csrf: "1789781746,70c094d50fdb9c7f2c5020f03c74a7ae",
+            collectorToken: "eyJ2IjoxLCJpYXQiOjE3ODk3ODE3NDYsImV4cCI6MTc4OTc4MjA0Niwibm9uY2UiOiJmYjM0YTc0M2NmMjMzMWYwZjBjOTFiMmRjYWM1NjA1YSIsInNpZCI6IjgyZGQzMmNlZDRjM2RmZGM0MDBkMGI0YWJhZTg5NmM0NzdlNjg5OTBhYjI3Yjc5OTYxMTM3N2E3ZDdmN2RmNjUiLCJwYWdlIjoiYzQyNjQ0MDRlNTdlNTkxY2E5ZmQ4YWZkZjM2OTJkY2U2NGZhZmE3ZjNkNjA4YWFmZGQ3N2ViMzVkNDJhNjgzNSJ9.b3eec26be2365df537639ff7fbf9aeb34ec5263e9789e2ee4b510a7a757f4394",
+            collectorTokenExpires: 1789782046,
+            forceCollect: false,
+            recollectionReason: "",
+            privacyAssuredMode: false,
+            persistentBrowserStorage: true,
+            collectIntervalSeconds: 21600,
+            scriptBaseUrl: "https://www.neogaf.com/js/zee/botguard",
+            fingerprintJsUrl: "https://www.neogaf.com/js/zee/botguard/fingerprintjs/fp.min.js?v=1040170",
+            debug: false
+        };
+    </script>
+    <script src="https://www.neogaf.com/js/zee/botguard/botguard.js?v=1040170"></script>
+
+
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3d4db0d4d8a20ba',t:'MTc4OTc4MTc0Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+=== EVOLUTION 4 POLLER start 2026-09-19T01:20:24.479614+00:00 ===
+max_age_min=10.0 interval=40.0s sources=10 db_codes=29 (PARALLEL fetch)
+NO paid X API. Age on every alert. Older than gate = ignored.
+-- cycle 1/5 --
+  wall=2678ms alive=7/10 lat=63.2-2671.3ms tip_age_min=675.6 codes=1 ignored_old=1 alerts=0
+    [ALIVE] arctic_shift                 http=200     673ms hits=  1 
+    [ALIVE] arctic_shift_alt             http=200     667ms hits=  0 
+    [ALIVE] blizzard_wow_news            http=200     542ms hits=  0 
+    [ALIVE] icyveins_maccas              http=200      63ms hits=  0 
+    [ALIVE] libreddit_projectsegfau      http=200    2671ms hits=  0 
+    [dead ] oldreddit_json               http=200     473ms hits=  0 html_login_wall_or_empty
+    [dead ] oldreddit_short_json         http=200     481ms hits=  0 html_login_wall_or_empty
+    [ALIVE] ozbargain_front              http=200     537ms hits=  0 
+    [dead ] pullpush                     http=429    2668ms hits=  0 rate_limited
+    [ALIVE] redlib_privacyredirect       http=200     666ms hits=  0 
+-- cycle 2/5 --
+  wall=2690ms alive=7/10 lat=72.6-2685.9ms tip_age_min=676.3 codes=1 ignored_old=1 alerts=0
+    [ALIVE] arctic_shift                 http=200    1223ms hits=  1 
+    [ALIVE] arctic_shift_alt             http=200    1197ms hits=  0 
+    [ALIVE] blizzard_wow_news            http=200     524ms hits=  0 
+    [ALIVE] icyveins_maccas              http=200      73ms hits=  0 
+    [ALIVE] libreddit_projectsegfau      http=200    2658ms hits=  0 
+    [dead ] oldreddit_json               http=200     485ms hits=  0 html_login_wall_or_empty
+    [dead ] oldreddit_short_json         http=200     483ms hits=  0 html_login_wall_or_empty
+    [ALIVE] ozbargain_front              http=200     500ms hits=  0 
+    [dead ] pullpush                     http=429    2686ms hits=  0 rate_limited
+    [ALIVE] redlib_privacyredirect       http=200     728ms hits=  0 
+-- cycle 3/5 --
+  wall=2691ms alive=7/10 lat=56.3-2685.4ms tip_age_min=677.1 codes=1 ignored_old=1 alerts=0
+    [ALIVE] arctic_shift                 http=200     790ms hits=  1 
+    [ALIVE] arctic_shift_alt             http=200     769ms hits=  0 
+    [ALIVE] blizzard_wow_news            http=200     558ms hits=  0 
+    [ALIVE] icyveins_maccas              http=200      56ms hits=  0 
+    [ALIVE] libreddit_projectsegfau      http=200    2685ms hits=  0 
+    [dead ] oldreddit_json               http=200     471ms hits=  0 html_login_wall_or_empty
+    [dead ] oldreddit_short_json         http=200     509ms hits=  0 html_login_wall_or_empty
+    [ALIVE] ozbargain_front              http=200     518ms hits=  0 
+    [dead ] pullpush                     http=429    2650ms hits=  0 rate_limited
+    [ALIVE] redlib_privacyredirect       http=200     639ms hits=  0 
+-- cycle 4/5 --
+  wall=3120ms alive=7/10 lat=50.9-3114.6ms tip_age_min=677.8 codes=1 ignored_old=1 alerts=0
+    [ALIVE] arctic_shift                 http=200    1185ms hits=  1 
+    [ALIVE] arctic_shift_alt             http=200    1181ms hits=  0 
+    [ALIVE] blizzard_wow_news            http=200     607ms hits=  0 
+    [ALIVE] icyveins_maccas              http=200      51ms hits=  0 
+    [ALIVE] libreddit_projectsegfau      http=200    3115ms hits=  0 
+    [dead ] oldreddit_json               http=200     462ms hits=  0 html_login_wall_or_empty
+    [dead ] oldreddit_short_json         http=200     471ms hits=  0 html_login_wall_or_empty
+    [ALIVE] ozbargain_front              http=200     466ms hits=  0 
+    [dead ] pullpush                     http=429    2656ms hits=  0 rate_limited
+    [ALIVE] redlib_privacyredirect       http=200     713ms hits=  0 
+-- cycle 5/5 --
+  wall=4075ms alive=7/10 lat=54.7-4070.3ms tip_age_min=678.5 codes=1 ignored_old=1 alerts=0
+    [ALIVE] arctic_shift                 http=200     841ms hits=  1 
+    [ALIVE] arctic_shift_alt             http=200     834ms hits=  0 
+    [ALIVE] blizzard_wow_news            http=200     529ms hits=  0 
+    [ALIVE] icyveins_maccas              http=200      55ms hits=  0 
+    [ALIVE] libreddit_projectsegfau      http=200    4070ms hits=  0 
+    [dead ] oldreddit_json               http=200     500ms hits=  0 html_login_wall_or_empty
+    [dead ] oldreddit_short_json         http=200     481ms hits=  0 html_login_wall_or_empty
+    [ALIVE] ozbargain_front              http=200     423ms hits=  0 
+    [dead ] pullpush                     http=429    2665ms hits=  0 rate_limited
+    [ALIVE] redlib_privacyredirect       http=200     678ms hits=  0 
+=== EVO4 DONE cycles=5 ===
+NO FRESH CODES (nothing with age < 10.0 min).
+Last successful poll times (alive sources):
+  arctic_shift: 2026-09-19T01:23:19.737437+00:00
+  arctic_shift_alt: 2026-09-19T01:23:19.737437+00:00
+  blizzard_wow_news: 2026-09-19T01:23:19.737437+00:00
+  icyveins_maccas: 2026-09-19T01:23:19.737437+00:00
+  libreddit_projectsegfau: 2026-09-19T01:23:19.737437+00:00
+  ozbargain_front: 2026-09-19T01:23:19.737437+00:00
+  redlib_privacyredirect: 2026-09-19T01:23:19.737437+00:00
+Index tip_age_min=678.5 (comments older than gate ignored as taken)

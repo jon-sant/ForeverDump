@@ -1,0 +1,3 @@
+{"id": "A2", "name": "Reddit JSON retry+api.reddit", "latency_ms": 1339, "notes": "see race-log"}
+{"id": "B2", "name": "old.reddit .json endpoints", "latency_ms": 1104}
+{"id": "B3", "name": "Pullpush API", "latency_ms": 8097}

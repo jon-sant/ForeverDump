@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ControlC Pastebin - The easiest way to host your text</title>
+<meta name="description" content="The ControlC pastebin is the easiest way to host your text. Formerly known as Pasted and Tinypaste.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ControlC Pastebin - The easiest way to host your text">
+<meta property="og:description" content="The ControlC pastebin is the easiest way to host your text. Formerly known as Pasted and Tinypaste.">
+<meta property="og:image" content="https://controlc.com/images/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ControlC Pastebin - The easiest way to host your text">
+<meta name="twitter:description" content="The ControlC pastebin is the easiest way to host your text. Formerly known as Pasted and Tinypaste.">
+<meta name="twitter:image" content="https://controlc.com/images/og.jpg">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css?v=41">
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</head>
+<body>
+<header class="top-header">
+  <div class="top-header-inner">
+    <a href="/" class="brand">
+      <img class="mark" src="/images/squarelogopng.png" alt="ControlC">
+      <span class="name">ControlC.com</span>
+    </a>
+    <div class="util"><a href="/login">Login</a> <span class="sep"></span> <a href="/login">Register</a></div>
+  </div>
+</header>
+<div class="app">
+  <main class="main" style="grid-column: 1 / -1">
+
+<div class="home-grid">
+  
+  <section class="sp-panel home-upload">
+    <div class="sp-panel-head">
+      <h2>Upload media</h2>
+      <p>Images: 50 MB; GIFs: 200 MB/15s</p>
+    </div>
+    <div class="sp-panel-body">
+      <div class="media-clipboard-hint">
+    <div class="media-clipboard-label">Quick upload</div>
+    <div class="media-clipboard-row">
+      <svg width="18" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M9 5H6a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-3"/><rect x="9" y="2" width="6" height="5" rx="1"/></svg>
+      <span>Paste an image with</span>
+      <span class="media-clipboard-keys"><kbd data-clipboard-modifier>Ctrl</kbd><span>+</span><kbd>V</kbd></span>
+    </div>
+  </div>
+      <div id="dropzone" class="sp-drop" tabindex="0" data-guest="1">
+        <div class="sp-drop-content">
+          <div class="sp-drop-icon" aria-hidden="true">&uarr;</div>
+          <div class="sp-drop-title">Drop something worth sharing.</div>
+          <div class="sp-drop-sub">Drag images or Animated GIFs here</div>
+          <button type="button" class="sp-drop-choose">Choose files <span aria-hidden="true">&#8599;</span></button>
+          <div class="sp-drop-formats" aria-label="Supported file formats"><span>JPG / JPEG</span><span>PNG</span><span>WebP</span><span>AVIF</span><span>GIF</span></div>
+        </div>
+        <div class="sp-drop-footer"><span>Set expiry below</span><span>No NSFW content</span></div>
+      </div>
+      <input type="file" id="media-file-input" multiple accept="image/jpeg,image/png,image/webp,image/avif,image/gif" class="hide">
+      <div id="upload-list"></div>
+    </div>
+    <div class="sp-panel-foot paste-foot media-footer"><div class="foot-field foot-field-pw media-password-field"><label for="media-password">Password optional</label><input id="media-password" type="text" class="input password-masked" maxlength="50" autocomplete="off" placeholder="Leave blank for public" title="Set before choosing files. Applies to the whole album."></div><div class="media-expiry-option foot-field foot-field-sd"><label for="media-expires">Self Destruct</label>
+    <select id="media-expires" class="select">
+      <option value="300">5 minutes</option><option value="3600">1 hour</option>
+      <option value="10800">3 hours</option><option value="21600">6 hours</option>
+      <option value="43200">12 hours</option><option value="86400">24 hours</option>
+      <option value="172800" selected>48 hours</option>
+    </select></div></div>
+  </section>
+    <section class="sp-panel paste-panel">
+      <div class="sp-panel-head paste-head">
+        <div class="paste-head-main">
+          <h2>Pastebin</h2>
+          <p>Up to 100 KB of text. BBCode formatting is supported.</p>
+        </div>
+
+      </div>
+      <form action="/create" method="POST" enctype="multipart/form-data" id="paste-form">
+        
+        
+        <div class="sp-panel-body">
+        <div class="paste-title-field">
+          <label for="paste_title">Title <span class="label-optional">optional</span></label>
+          <input type="text" id="paste_title" name="title" form="paste-form" class="input" maxlength="255" placeholder="Untitled paste">
+        </div>
+          <div class="field field-content">
+            <div id="homeToolbar" class="toolbar">
+          <button type="button" class="tb-btn" data-bb-wrap="b" title="Bold"><b>B</b></button>
+          <button type="button" class="tb-btn" data-bb-wrap="i" title="Italic"><i>I</i></button>
+          <button type="button" class="tb-btn" data-bb-wrap="u" title="Underline"><u>U</u></button>
+          <button type="button" class="tb-btn" data-bb-wrap="strike" title="Strikethrough"><s>S</s></button>
+          <span class="div"></span>
+          <button type="button" class="tb-btn" data-bb-wrap="code" title="Code">&lt;/&gt;</button>
+          <div class="rte-menu" data-menu-target="rte-menu-colors" title="Change Color">Colors &darr;
+            <div class="rte-menu-span" id="rte-menu-colors">
+              <table cellspacing="0" cellpadding="0" border="0"><tbody>
+              <tr>
+                <td class="rte-menu-color" data-bb-color="#000000"><div style="background:#000000">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#A0522D"><div style="background:#A0522D">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#556B2F"><div style="background:#556B2F">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#006400"><div style="background:#006400">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#483D8B"><div style="background:#483D8B">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#000080"><div style="background:#000080">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#4B0082"><div style="background:#4B0082">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#2F4F4F"><div style="background:#2F4F4F">&nbsp;</div></td>
+              </tr><tr>
+                <td class="rte-menu-color" data-bb-color="#8B0000"><div style="background:#8B0000">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#FF8C00"><div style="background:#FF8C00">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#808000"><div style="background:#808000">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#008000"><div style="background:#008000">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#008080"><div style="background:#008080">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#0000FF"><div style="background:#0000FF">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#708090"><div style="background:#708090">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#696969"><div style="background:#696969">&nbsp;</div></td>
+              </tr><tr>
+                <td class="rte-menu-color" data-bb-color="#FF0000"><div style="background:#FF0000">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#F4A460"><div style="background:#F4A460">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#9ACD32"><div style="background:#9ACD32">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#2E8B57"><div style="background:#2E8B57">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#48D1CC"><div style="background:#48D1CC">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#4169E1"><div style="background:#4169E1">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#800080"><div style="background:#800080">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#808080"><div style="background:#808080">&nbsp;</div></td>
+              </tr><tr>
+                <td class="rte-menu-color" data-bb-color="#FF00FF"><div style="background:#FF00FF">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#FFA500"><div style="background:#FFA500">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#FFFF00"><div style="background:#FFFF00">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#00FF00"><div style="background:#00FF00">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#00FFFF"><div style="background:#00FFFF">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#00BFFF"><div style="background:#00BFFF">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#9932CC"><div style="background:#9932CC">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#C0C0C0"><div style="background:#C0C0C0">&nbsp;</div></td>
+              </tr><tr>
+                <td class="rte-menu-color" data-bb-color="#FFC0CB"><div style="background:#FFC0CB">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#F5DEB3"><div style="background:#F5DEB3">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#FFFACD"><div style="background:#FFFACD">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#98FB98"><div style="background:#98FB98">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#AFEEEE"><div style="background:#AFEEEE">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#ADD8E6"><div style="background:#ADD8E6">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#DDA0DD"><div style="background:#DDA0DD">&nbsp;</div></td>
+                <td class="rte-menu-color" data-bb-color="#FFFFFF"><div style="background:#FFFFFF">&nbsp;</div></td>
+              </tr>
+              </tbody></table>
+            </div>
+          </div>
+          <div class="rte-menu" data-menu-target="rte-menu-sizes" title="Change Font Size">Sizes &darr;
+            <div class="rte-menu-span" id="rte-menu-sizes">
+              <div class="rte-menu-item" data-bb-size="1"><span style="font-size:10px">Size 1</span></div>
+              <div class="rte-menu-item" data-bb-size="2"><span style="font-size:13px">Size 2</span></div>
+              <div class="rte-menu-item" data-bb-size="3"><span style="font-size:16px">Size 3</span></div>
+              <div class="rte-menu-item" data-bb-size="4"><span style="font-size:18px">Size 4</span></div>
+              <div class="rte-menu-item" data-bb-size="5"><span style="font-size:24px">Size 5</span></div>
+              <div class="rte-menu-item" data-bb-size="6"><span style="font-size:32px">Size 6</span></div>
+              <div class="rte-menu-item" data-bb-size="7"><span style="font-size:48px">Size 7</span></div>
+            </div>
+          </div>
+        </div>
+            <textarea id="input_text" name="content" class="code-area" rows="15" maxlength="102400" required aria-describedby="paste-limits" placeholder="Paste your text here...">
+</textarea>
+            <div class="paste-editor-status">
+              <span id="paste-current-size">0 chars, 0 words, 0 lines</span>
+              <span id="paste-limits" title="100 KB = 102,400 UTF-8 bytes">Limits: 100 KB, UTF-8</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="sp-panel-foot paste-foot">
+          <div class="foot-field foot-field-pw">
+            <label for="paste_password">Password <span class="label-optional">optional</span></label>
+            <input id="paste_password" type="password" class="input" name="password" value="" maxlength="50" autocomplete="new-password" placeholder="Leave blank for public" title="Anyone with the link will still need this password to view.">
+          </div>
+          <div class="foot-field foot-field-sd">
+            <label for="paste_expires">Self Destruct</label>
+            <select id="paste_expires" name="expires" class="select">
+    
+    
+    <option value="300">5 minutes</option>
+    <option value="3600">1 hour</option>
+    <option value="10800">3 hours</option>
+    <option value="21600">6 hours</option>
+    <option value="43200">12 hours</option>
+    <option value="86400">24 hours</option>
+    <option value="172800" selected>48 hours</option></select>
+          </div>
+          <span class="foot-spacer"></span>
+          
+          <button type="submit" class="sp-submit sp-submit-blue">Create paste</button>
+        </div>
+      </form>
+  </section>
+</div>
+
+<div id="drag-overlay" class="sp-overlay hide">
+  <div class="sp-overlay-card">
+    <div class="sp-drop-icon">&uarr;</div>
+    <div class="sp-overlay-title">Drop to upload</div>
+    <div class="sp-overlay-sub">We'll upload it right away.</div>
+  </div>
+</div>
+
+<div id="turnstile-overlay">
+  <div class="turnstile-backdrop"></div>
+  <div class="turnstile-modal">
+    <p>Please verify you are human</p>
+    <div id="turnstile-widget"></div>
+    <button type="button" data-action="close-turnstile" class="turnstile-cancel">Cancel</button>
+  </div>
+</div>
+<input type="hidden" id="turnstile-site-key" value="0x4AAAAAAC54iJeI2je-bKzk">
+  </main>
+</div>
+<footer class="app-footer">
+  <div class="app-footer-inner">
+    <span>&copy; ControlC.com</span>
+    <span class="spacer"></span>
+    
+    <a href="/faq">FAQ</a>
+    <a href="/contact">DMCA policy</a>
+    <a href="/terms">Terms of service</a>
+    <a href="/terms#privacy">Privacy policy</a>
+  </div>
+</footer>
+<script src="/js/guest-media.js?v=41"></script>
+<script src="/js/app.js?v=41"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3d4e8fe7f5420ba',t:'MTc4OTc4MjMxNw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+    <html lang="en-US" dir="ltr">
+    <head>
+        <script type="text/javascript">
+            let author = "";
+            let page_type = "";
+            if (page_type == "News") {
+              dataLayer = [{
+                'directory': 'forums',
+                'author': author.toLowerCase(),
+                'page_type': 'news'
+              }];
+            } else {
+              dataLayer = [{
+                'directory': 'forums',
+                'author': '-',
+                'page_type': 'forums'
+              }];
+            }
+        </script>
+    
+        
+    
+        
+        <!-- Google Tag Manager Analytics -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-NF9Q7DV');</script>
+        <!-- End Google Tag Manager Analytics -->
+        
+    
+        <!-- Playwire Header -->
+        <script>
+            window.ramp = window.ramp || {};
+            window.ramp.que = window.ramp.que || [];
+        </script>
+        <script>
+            var rampConfig = document.createElement('script');
+            rampConfig.src = "//cdn.intergient.com/1025267/74951/ramp_config.js";
+            rampConfig.async = true;
+            document.head.insertBefore(rampConfig, document.head.getElementsByTagName('script')[0]);
+        </script>
+        <script>
+            window._pwGA4PageviewId = ''.concat(Date.now());
+            window.dataLayer = window.dataLayer || [];
+            window.gtag = window.gtag || function () {
+              dataLayer.push(arguments);
+            };
+            gtag('js', new Date());
+            gtag('config', 'G-Z4NF5J0QZK', { 'send_page_view': false });
+            gtag(
+              'event',
+              'ramp_js',
+              {
+                'send_to': 'G-Z4NF5J0QZK',
+                'pageview_id': window._pwGA4PageviewId
+              }
+            );
+        </script>
+        <!-- End Playwire Header -->
+        
+        
+    
+        <script>
+    
+    
+            function getCookie (name) {
+                var key = name + '='
+                var cookie = decodeURIComponent(document.cookie)
+                var arr = cookie.split(';')
+    
+                for (var i = 0; i < arr.length; i++) {
+    
+                    var c = arr[i]
+    
+                    while (c.charAt(0) == ' ') {
+                        c = c.substring(1)
+                    }
+    
+                    if (c.indexOf(key) == 0) {
+                        return c.substring(key.length, c.length)
+                    }
+                }
+    
+                return null
+            }
+    
+            function writeToLocalStorage(key, content) {
+                try {
+                    window.localStorage.setItem(key, content);
+                } catch(e) {
+                    for (var i = 0; i < window.localStorage.length; i++) {
+                        current_key = window.localStorage.key(i);
+                        if (current_key != 'premium_tracking' && current_key != 'premium_origin') {
+                            window.localStorage.removeItem(current_key);
+                        }
+                    }
+                    window.localStorage.setItem(key, content);
+                }
+            }
+    
+        </script>
+    
+        <title>Sorry, we could not find that!</title>
+        <link rel="icon" type="image/png" href="//static.icy-veins.com/images/common/favicon-high-resolution.png">
+        <link rel="apple-touch-icon-precomposed" href="//static.icy-veins.com/images/common/favicon-high-resolution.png">
+        
+        <!--[if lt IE 9]>
+        <link rel="stylesheet" type="text/css" href="https://www.icy-veins.com/forums/uploads/css_built_2/5e61784858ad3c11f00b5706d12afe52_ie8.css">
+        <script src="//www.icy-veins.com/forums/applications/core/interface/html5shiv/html5shiv.js"></script>
+        <![endif]-->
+    
+    
+        
+<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	
+	
+		<meta property="og:image" content="https://www.icy-veins.com/forums/uploads/monthly_2024_05/icy-veins-icon-social.png.60ab1e9e9b6d7b836f205d497121552b.png.f4df2d1e13ef3dc15d246a134cebd4f8.png">
+	
+
+
+	<meta name="twitter:card" content="summary_large_image" />
+
+
+
+
+
+
+
+<link rel="manifest" href="https://www.icy-veins.com/forums/manifest.webmanifest/">
+<meta name="msapplication-config" content="https://www.icy-veins.com/forums/browserconfig.xml/">
+<meta name="msapplication-starturl" content="/">
+<meta name="application-name" content="Icy Veins">
+<meta name="apple-mobile-web-app-title" content="Icy Veins">
+
+	<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+<meta  name="twitter:widgets:theme"   content="dark">
+        
+
+	
+		<link href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i" rel="stylesheet" referrerpolicy="origin">
+	
+
+
+
+	<link rel="stylesheet" href="https://www.icy-veins.com/forums/uploads/css_built_2/341e4a57816af3ba440d891ca87450ff_framework.css?v=0ebb3c9e5d" media="all">
+
+	<link rel="stylesheet" href="https://www.icy-veins.com/forums/uploads/css_built_2/05e81b71abe4f22d6eb8d1a929494829_responsive.css?v=0ebb3c9e5d" media="all">
+
+	<link rel="stylesheet" href="https://www.icy-veins.com/forums/uploads/css_built_2/90eb5adf50a8c640f633d47fd7eb1778_core.css?v=0ebb3c9e5d" media="all">
+
+	<link rel="stylesheet" href="https://www.icy-veins.com/forums/uploads/css_built_2/5a0da001ccc2200dc5625c3f3934497d_core_responsive.css?v=0ebb3c9e5d" media="all">
+
+	<link rel="stylesheet" href="https://www.icy-veins.com/forums/uploads/css_built_2/62e269ced0fdab7e30e026f1d30ae516_forums.css?v=0ebb3c9e5d" media="all">
+
+	<link rel="stylesheet" href="https://www.icy-veins.com/forums/uploads/css_built_2/76e62c573090645fb99a15a363d8620e_forums_responsive.css?v=0ebb3c9e5d" media="all">
+
+	<link rel="stylesheet" href="https://www.icy-veins.com/forums/uploads/css_built_2/046e14a7d0a24afbe332ca4f2f603d81_awards.css?v=0ebb3c9e5d" media="all">
+
+
+
+
+<link rel="stylesheet" href="https://www.icy-veins.com/forums/uploads/css_built_2/258adbb6e4f3e83cd3b355f84e3fa002_custom.css?v=18" media="all">
+
+
+
+<script>
+if (window.innerWidth >= 1070) {
+  document.addEventListener("DOMContentLoaded", function(event) {
+    f = document.getElementsByTagName("script")[0];
+    if (document.querySelectorAll("*[data-d3-tooltip]").length > 0) {
+      e = document.createElement("link");
+      e.rel = "stylesheet";
+      e.type = "text/css";
+      e.href = '//us.diablo3.com/static/css/tooltips.css';
+      f.parentNode.insertBefore(e, f);
+    }
+  });
+}
+</script>
+        
+        
+
+    </head>
+    <body class='ipsApp ipsApp_front ipsJS_none ipsClearfix' data-controller='core.front.core.app' data-message="" data-pageApp='forums' data-pageLocation='front' data-pageModule='forums' data-pageController='forums' data-pageID='201'>
+    
+    <script>
+        var icy_veins_blocked = false;
+        var ad = document.createElement('ins');
+        ad.className = 'AdSense';
+        ad.style.display = 'block';
+        ad.style.position = 'absolute';
+        ad.style.top = '-1px';
+        ad.style.height = '1px';
+        document.body.appendChild(ad);
+        clientHeight = ad.clientHeight;
+        document.body.removeChild(ad);
+        if (clientHeight) {
+            var testURL = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+            var opts = { method: 'HEAD', mode: 'no-cors' };
+            var myRequest = new Request(testURL, opts);
+            fetch(myRequest).then(function(response) {
+                return response;
+            }).then(function(response) {
+                dataLayer.push({ 'adblock': "Unblocked" });
+            }).catch(function(e){
+                dataLayer.push({ 'adblock': "Blocked" });
+                icy_veins_blocked = true;
+            });
+        } else {
+            dataLayer.push({ 'adblock': "Blocked" });
+            icy_veins_blocked = true;
+        }
+    </script>
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9Q7DV"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    
+    
+    
+    
+    
+    <a href='#elContent' class='ipsHide' title='Go to main content on this page' accesskey='m'>Jump to content</a>
+    <div id='ipsLayout_header' class='ipsClearfix'>
+        
+
+
+
+
+
+        
+<ul id='elMobileNav' class='ipsList_inline ipsResponsive_hideDesktop ipsResponsive_block' data-controller='core.front.core.mobileNav'>
+	<li id="icy_veins_mobile_logo"><img src="//static.icy-veins.com/images/common/icy-veins-logo-60x60.png" alt="Icy Veins Logo" /></li>
+	
+	
+	
+	<li >
+		<a data-action="defaultStream" class='ipsType_light'  href='https://www.icy-veins.com/forums/discover/'><i class='icon-newspaper'></i></a>
+	</li>
+
+	
+
+	
+		<li class='ipsJS_show'>
+			<a href='https://www.icy-veins.com/forums/search/'><i class='fa fa-search'></i></a>
+		</li>
+	
+	<li data-ipsDrawer data-ipsDrawer-drawerElem='#elMobileDrawer'>
+		<a href='#'>
+			
+			
+				
+			
+			
+			
+			<i class='fa fa-navicon'></i>
+		</a>
+	</li>
+</ul>
+        <header>
+            <div class='ipsLayout_container'>
+                <div id="icy_veins_logo">
+                    <a href="https://www.icy-veins.com/"><span></span></a>
+                </div>
+                <span id="tagline" class="shadowed_header">FORUMS</span>
+                <div id="games" class="shadowed_header">
+                  <div id="game_wow" class="not_selected"><a href="//www.icy-veins.com/wow/" title="Icy Veins - World of Warcraft guides"><span class="sprite_games sprite_games_wow"></span><span class="game_name">WoW</span></a>
+                  </div><div id="game_cataclysm_classic" class="not_selected"><a href="//www.icy-veins.com/cataclysm-classic/" title="Icy Veins - Cataclysm Classic guides"><span class="sprite_games sprite_games_cataclysm_classic"></span><span class="game_name">Cata Classic</span></a>
+                  </div><div id="game_ffxiv" class="not_selected"><a href="//www.icy-veins.com/ffxiv/" title="Icy Veins - Final Fantasy XIV guides"><span class="sprite_games sprite_games_ffxiv"></span><span class="game_name">FFXIV</span></a>
+                  </div><div id="game_zzz" class="not_selected"><a href="//www.icy-veins.com/zenless-zone-zero/" title="Icy Veins - Zenless Zone Zero guides"><span class="sprite_games sprite_games_zzz"></span><span class="game_name">ZZZ</span></a>
+                  </div><div id="game_genshin" class="not_selected"><a href="//www.icy-veins.com/genshin-impact/"  title="Icy Veins - Genshin Impact guides"><span class="sprite_games sprite_games_genshin"></span><span class="game_name">Genshin Impact</span></a>
+                  </div><div id="game_d4" class="not_selected"><a href="//www.icy-veins.com/d4/" title="Icy Veins - Diablo IV guides"><span class="sprite_games sprite_games_d4"></span><span class="game_name">Diablo IV</span></a>
+                  </div><div id="game_last_epoch" class="not_selected"><a href="//www.icy-veins.com/last-epoch/"  title="Icy Veins - Last Epoch guides"><span class="sprite_games sprite_games_last_epoch"></span><span class="game_name">Last Epoch</span></a>
+                  </div><div id="game_plus"><span class="sprite_games sprite_games_plus"></span><span class="game_name">More Games</span>
+                    <div>
+                      <div id="game_d3" class="not_selected"><a href="//www.icy-veins.com/d3/" title="Icy Veins - Diablo 3 guides"><span class="sprite_games sprite_games_d3"></span><span class="game_name">Diablo III</span></a></div>
+                      <div id="game_d2" class="not_selected"><a href="//www.icy-veins.com/d2/" title="Icy Veins - Diablo 2 guides"><span class="sprite_games sprite_games_d2"></span><span class="game_name">Diablo II</span></a></div>
+                      <div id="game_poe" class="not_selected"><a href="https://www.poe-vault.com/" title="PoE Vault - Path of Exile guides"><span class="sprite_games sprite_games_poe"></span><span class="game_name">Path of Exile</span></a></div>
+                      <div id="game_wow_classic" class="not_selected"><a href="//www.icy-veins.com/wow-classic/" title="Icy Veins - WoW Classic guides"><span class="sprite_games sprite_games_wow_classic"></span><span class="game_name">WoW Classic</span></a></div>
+                      <div id="game_tbc_classic" class="not_selected"><a href="//www.icy-veins.com/tbc-classic/" title="Icy Veins - TBC Classic guides"><span class="sprite_games sprite_games_tbc_classic"></span><span class="game_name">TBC Classic</span></a></div>
+                      <div id="game_wotlk_classic" class="not_selected"><a href="//www.icy-veins.com/wotlk-classic/" title="Icy Veins - WotLK Classic guides"><span class="sprite_games sprite_games_wotlk_classic"></span><span class="game_name">WotLK Classic</span></a></div>
+                      <div id="game_heroes" class="not_selected"><a href="//www.icy-veins.com/heroes/" title="Icy Veins - Heroes of the Storm guides"><span class="sprite_games sprite_games_heroes"></span><span class="game_name">Heroes</span></a></div>
+                    </div>
+                  </div>
+                </div>
+                
+<!--    
+
+    <ul id='elUserNav' class='ipsList_inline cSignedOut ipsClearfix ipsResponsive_hidePhone ipsResponsive_block'>
+        
+    <li id="social_media">
+        <div>
+            <a title="Twitch" href="https://www.twitch.tv/icyveinscom"><span class="sprite_social sprite_social_twitch"></span></a>
+            <a title="Discord" href="https://discord.gg/ZaufvyM"><span class="sprite_social sprite_social_discord"></span></a>
+            <a title="Facebook" href="https://www.facebook.com/icyveinscom"><span class="sprite_social sprite_social_facebook"></span></a>
+            <a title="Twitter" href="https://twitter.com/icyveins"><span class="sprite_social sprite_social_twitter"></span></a>
+            <a id="ivYoutubeLink" title="Youtube" href="https://www.youtube.com/user/icyveinscom"><span class="sprite_social sprite_social_youtube"></span></a>
+            <a title="News Feed" href="//www.icy-veins.com/feed.atom"><span class="sprite_social sprite_social_feed"></span></a>
+            <a title="E-mail Us" href="mailto:contact@icy-veins.com"><span class="sprite_social sprite_social_email"></span></a>
+          	<a title="TikTok" href="https://www.tiktok.com/@icy.veins"><span class="sprite_social sprite_social_tiktok"></span></a>
+        </div>
+    </li>
+    
+    
+    <li class="elUserNav_sep"></li>
+    <li id="go_premium">
+        <div>
+            <a title="Go premium" href="https://www.icy-veins.com/forums/premium"><span></span></a>
+        </div>
+    </li>
+    
+    
+    <li class="elUserNav_sep"></li>
+    <li id="forums_link" class="header">
+        <div>
+            <a href="//www.icy-veins.com/forums/">
+                <span class="user_bar_img"></span><span>FORUMS</span>
+            </a>
+        </div>
+    </li>
+    <li class="elUserNav_sep"></li>
+    <li id="masterclass_link" class="header">
+        <div>
+            <a href="//www.icy-veins.com/wow/masterclass">
+                <span class="user_bar_img"></span><span>MASTERCLASS</span>
+            </a>
+        </div>
+    </li>
+    <li class="elUserNav_sep"></li>
+    <li id="search_link" class="header">
+        <div>
+            <a href="//www.icy-veins.com/search" class="header">
+                <span class="user_bar_img"></span><span>SEARCH</span>
+            </a>
+        </div>
+    </li>
+    <li class="elUserNav_sep"></li>
+
+<script>
+    var pathname = window.location.pathname;
+    if(pathname.includes('/ffxiv')) {
+        jQuery('#ivYoutubeLink').attr('href','https://www.youtube.com/channel/UCTs3du1OXMl0tTXiABbLbdA');
+    }
+</script>
+        <li id='elSignInLink'>
+            <div>
+                <a href='https://www.icy-veins.com/forums/login/' data-ipsMenu-closeOnClick="false" data-ipsMenu id='elUserSignIn'>
+                    <span></span>
+                </a>
+                
+<div id='elUserSignIn_menu' class='ipsMenu ipsMenu_auto ipsHide'>
+	<form accept-charset='utf-8' method='post' action='https://www.icy-veins.com/forums/login/' data-controller="core.global.core.login">
+		<input type="hidden" name="csrfKey" value="5ab6d5f5b72d7f2b5089db2288de70b6">
+		<input type="hidden" name="ref" value="aHR0cHM6Ly93d3cuaWN5LXZlaW5zLmNvbS9mb3J1bXMvZm9ydW0vMjAxLXdvcmxkLW9mLXdhcmNyYWZ0Lw==">
+		<div data-role="loginForm">
+			
+			
+			
+				<div class='ipsColumns ipsColumns_noSpacing'>
+					<div class='ipsColumn ipsColumn_wide' id='elUserSignIn_internal'>
+						
+<div class="ipsPad ipsForm ipsForm_vertical">
+	<h4 class="ipsType_sectionHead">Sign In</h4>
+	<br><br>
+	<ul class='ipsList_reset'>
+		<li class="ipsFieldRow ipsFieldRow_noLabel ipsFieldRow_fullWidth">
+			
+			
+				<input type="text" placeholder="Display Name or Email Address" name="auth">
+			
+		</li>
+		<li class="ipsFieldRow ipsFieldRow_noLabel ipsFieldRow_fullWidth">
+			<input type="password" placeholder="Password" name="password">
+		</li>
+		<li class="ipsFieldRow ipsFieldRow_checkbox ipsClearfix">
+			<span class="ipsCustomInput">
+				<input type="checkbox" name="remember_me" id="remember_me_checkbox" value="1" checked aria-checked="true">
+				<span></span>
+			</span>
+			<div class="ipsFieldRow_content">
+				<label class="ipsFieldRow_label" for="remember_me_checkbox">Remember me</label>
+				<span class="ipsFieldRow_desc">Not recommended on shared computers</span>
+			</div>
+		</li>
+		
+			<li class="ipsFieldRow ipsFieldRow_checkbox ipsClearfix">
+				<span class="ipsCustomInput">
+					<input type="checkbox" name="anonymous" id="anonymous_checkbox" value="1" aria-checked="false">
+					<span></span>
+				</span>
+				<div class="ipsFieldRow_content">
+					<label class="ipsFieldRow_label" for="anonymous_checkbox">Sign in anonymously</label>
+                    
+				</div>
+			</li>
+		
+		<li class="ipsFieldRow ipsFieldRow_fullWidth">
+			<br>
+			<button type="submit" name="_processLogin" value="usernamepassword" class="ipsButton ipsButton_primary ipsButton_small" id="elSignIn_submit">Sign In</button>
+			
+				<br>
+				<p class="ipsType_right ipsType_small">
+					
+						<a href='https://www.icy-veins.com/forums/lostpassword/' data-ipsDialog data-ipsDialog-title='Forgot your password?'>
+					
+					Forgot your password?</a>
+				</p>
+			
+		</li>
+	</ul>
+</div>
+					</div>
+					<div class='ipsColumn ipsColumn_wide'>
+						<div class='ipsPad' id='elUserSignIn_external'>
+							<div class='ipsAreaBackground_light ipsPad_half'>
+								
+									<p class='ipsType_reset ipsType_small ipsType_center'><strong>Or sign in with one of these services</strong></p>
+								
+								
+									<div class='ipsPad_half ipsType_center'>
+										
+
+<button type="submit" name="_processLogin" value="2" class='ipsButton ipsButton_verySmall ipsButton_fullWidth ipsSocial ipsSocial_facebook' style="background-color: #3a579a">
+	
+		<span class='ipsSocial_icon'>
+			
+				<i class='fa fa-facebook-official'></i>
+			
+		</span>
+		<span class='ipsSocial_text'>Sign in with Facebook</span>
+	
+</button>
+									</div>
+								
+									<div class='ipsPad_half ipsType_center'>
+										
+
+<button type="submit" name="_processLogin" value="3" class='ipsButton ipsButton_verySmall ipsButton_fullWidth ipsSocial ipsSocial_google' style="background-color: #4285F4">
+	
+		<span class='ipsSocial_icon'>
+			
+				<i class='fa fa-google'></i>
+			
+		</span>
+		<span class='ipsSocial_text'>Sign in with Google</span>
+	
+</button>
+									</div>
+								
+									<div class='ipsPad_half ipsType_center'>
+										
+
+<button type="submit" name="_processLogin" value="10" class='ipsButton ipsButton_verySmall ipsButton_fullWidth ipsSocial ' style="background-color: #0e86ca">
+	
+		<span class='ipsSocial_icon'>
+			
+				<img src="https://www.icy-veins.com/forums/uploads/monthly_2019_08/battlenet-logo.png.336acae9a2049bdb43136006132f2e5d.png">
+			
+		</span>
+		<span class='ipsSocial_text'>Sign In with Battle.net</span>
+	
+</button>
+									</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			
+		</div>
+	</form>
+</div>
+            </div>
+        </li>
+        
+        <li id="elRegisterLink">
+            <div>
+                <span id="new_to_icy_veins"></span>
+                
+                <a href='https://www.icy-veins.com/forums/register/' data-ipsDialog data-ipsDialog-size='narrow' data-ipsDialog-title='Sign Up' id='elRegisterButton' class='ipsButton ipsButton_normal ipsButton_primary'><span></span></a>
+                
+            </div>
+        </li>
+        
+    
+    </ul>
+    
+--!>
+
+            </div>
+        </header>
+    </div>
+    <main id='ipsLayout_body' class='ipsLayout_container'>
+        <div id='ipsLayout_contentArea'>
+            
+            
+            
+            <div id='ipsLayout_contentWrapper'>
+                
+<nav class='ipsBreadcrumb ipsBreadcrumb_top ipsFaded_withHover'>
+	
+
+	<ul class='ipsList_inline ipsPos_right'>
+		
+		<li >
+			<a data-action="defaultStream" class='ipsType_light '  href='https://www.icy-veins.com/forums/discover/'><i class='icon-newspaper'></i> <span>All Activity</span></a>
+		</li>
+		
+	</ul>
+                  
+    			<div id='elSearch' class='ipsPos_right' data-controller='core.front.core.quickSearch' data-default="forums_topic">
+					<form accept-charset='utf-8' action='https://www.icy-veins.com/forums/search/' method='get'>
+						<input type="hidden" name="type" value="forums_topic" data-role="searchFilter">
+						<a href='#' id='elSearchFilter' data-ipsMenu data-ipsMenu-selectable='radio' data-ipsMenu-appendTo='#elSearch' class="ipsHide">
+							<span data-role='searchingIn'>
+								Topics
+							</span>
+							<i class='fa fa-caret-down'></i>
+						</a>
+						<ul id='elSearchFilter_menu' class='ipsMenu ipsMenu_selectable ipsMenu_narrow ipsHide'>
+							<li class='ipsMenu_item ' data-ipsMenuValue='all'>
+								<a href='https://www.icy-veins.com/forums/index.php?app=core&amp;module=search&amp;controller=search&amp;csrfKey=5ab6d5f5b72d7f2b5089db2288de70b6' title='All Content'>All Content</a>
+							</li>
+							<li class='ipsMenu_sep'><hr></li>
+							
+							<li data-role='globalSearchMenuOptions'></li>
+							<li class='ipsMenu_item ipsMenu_itemNonSelect'>
+								<a href='https://www.icy-veins.com/forums/search/' accesskey='4'><i class='fa fa-cog'></i> Advanced Search</a>
+							</li>
+						</ul>
+						<input type='search' id='elSearchField' placeholder='Search...' name='q' itemprop="query-input">
+						<button class="cSearchSubmit" type='submit'><i class='fa fa-search'></i></button>
+					</form>
+				</div>
+    
+
+	<ul data-role="breadcrumbList">
+        <li>
+			<a href='https://www.icy-veins.com'>
+              Home
+              <span class="page_breadcrumbs_separator">/</span>
+			</a>
+		</li>
+      	<li>
+			<a href='https://www.icy-veins.com/forums/'>
+              Forums
+              
+			</a>
+		</li>
+		
+		
+	</ul>
+</nav>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@id": "https://www.icy-veins.com/",
+        "name": "Home"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@id": "https://www.icy-veins.com/forums/",
+        "name": "Forums"
+      }
+    },
+
+
+  ]
+}
+</script>
+
+
+                
+                <div id='ipsLayout_mainArea'>
+                    <a id='elContent'></a>
+                    
+                    						
+
+	
+
+
+
+
+                    
+<section id='elError' class='ipsType_center'>
+	<div class='ipsBox ipsPad'>
+		<i class='fa fa-exclamation-circle ipsType_huge'></i>
+		<p class='ipsType_reset ipsType_light ipsType_large'>
+			Sorry, there is a problem
+		</p>
+		<div id='elErrorMessage' class='ipsPos_center'>
+			We could not locate the item you are trying to view.
+		</div>
+		<p class='ipsType_light ipsType_reset ipsType_normal'>
+			Error code: <strong>2F176/1</strong>
+		</p>
+		
+		
+		
+	</div>
+</section>
+                    
+
+
+                </div>
+                
+
+
+                
+<nav class='ipsBreadcrumb ipsBreadcrumb_top ipsFaded_withHover'>
+	
+
+	<ul class='ipsList_inline ipsPos_right'>
+		
+		<li >
+			<a data-action="defaultStream" class='ipsType_light '  href='https://www.icy-veins.com/forums/discover/'><i class='icon-newspaper'></i> <span>All Activity</span></a>
+		</li>
+		
+	</ul>
+                  
+    			<div id='elSearch' class='ipsPos_right' data-controller='core.front.core.quickSearch' data-default="forums_topic">
+					<form accept-charset='utf-8' action='https://www.icy-veins.com/forums/search/' method='get'>
+						<input type="hidden" name="type" value="forums_topic" data-role="searchFilter">
+						<a href='#' id='elSearchFilter' data-ipsMenu data-ipsMenu-selectable='radio' data-ipsMenu-appendTo='#elSearch' class="ipsHide">
+							<span data-role='searchingIn'>
+								Topics
+							</span>
+							<i class='fa fa-caret-down'></i>
+						</a>
+						<ul id='elSearchFilter_menu' class='ipsMenu ipsMenu_selectable ipsMenu_narrow ipsHide'>
+							<li class='ipsMenu_item ' data-ipsMenuValue='all'>
+								<a href='https://www.icy-veins.com/forums/index.php?app=core&amp;module=search&amp;controller=search&amp;csrfKey=5ab6d5f5b72d7f2b5089db2288de70b6' title='All Content'>All Content</a>
+							</li>
+							<li class='ipsMenu_sep'><hr></li>
+							
+							<li data-role='globalSearchMenuOptions'></li>
+							<li class='ipsMenu_item ipsMenu_itemNonSelect'>
+								<a href='https://www.icy-veins.com/forums/search/' accesskey='4'><i class='fa fa-cog'></i> Advanced Search</a>
+							</li>
+						</ul>
+						<input type='search' id='elSearchField' placeholder='Search...' name='q' itemprop="query-input">
+						<button class="cSearchSubmit" type='submit'><i class='fa fa-search'></i></button>
+					</form>
+				</div>
+    
+
+	<ul data-role="breadcrumbList">
+        <li>
+			<a href='https://www.icy-veins.com'>
+              Home
+              <span class="page_breadcrumbs_separator">/</span>
+			</a>
+		</li>
+      	<li>
+			<a href='https://www.icy-veins.com/forums/'>
+              Forums
+              
+			</a>
+		</li>
+		
+		
+	</ul>
+</nav>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@id": "https://www.icy-veins.com/",
+        "name": "Home"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@id": "https://www.icy-veins.com/forums/",
+        "name": "Forums"
+      }
+    },
+
+
+  ]
+}
+</script>
+
+
+            </div>
+        </div>
+        
+    </main>
+    <footer id='ipsLayout_footer' class='ipsClearfix'>
+        <div class='ipsLayout_container'>
+            
+            
+            
+            
+<div id="footer">
+        <div id="footer_content_links">
+          <div>
+            <span class="header"><a href="https://www.poe-vault.com">PATH OF EXILE</a></span>
+            <ul>
+              <li><a href="https://www.poe-vault.com/guides">Path of Exile guides</a></li>
+              <li><a href="https://www.poe-vault.com/guides/builds">Path of Exile builds</a></li>
+              <li><a href="https://www.poe-vault.com/news">Path of Exile news</a></li>
+              <li><a href="https://www.poe-vault.com/items">Path of Exile item database</a></li>
+              <li><a href="https://www.poe-vault.com/forums">Path of Exile forums</a></li>
+            </ul>
+          </div><div>
+            <span class="header">WOW GUIDES</span>
+            <ul>
+              <li><a href="//www.icy-veins.com/wow/class-guides">Class guides</a></li>
+              <li><a href="//www.icy-veins.com/wow/mythic-overview-and-class-guides-updated-for-bfa-season-4">Mythic+ guides</a></li>
+              <li><a href="//www.icy-veins.com/wow/pvp-class-guides">PvP guides</a></li>
+              <li><a href="//www.icy-veins.com/wow/dragonflight-expansion">Dragonflight guides</a></li>
+              <li><a href="//www.icy-veins.com/wow/shadowlands-dungeons-and-raids-hub">Dungeon &amp; Raid guides</a></li>
+              <li><a href="//www.icy-veins.com/wow/a-guide-to-leveling-in-world-of-warcraft">Leveling guides</a></li>
+            </ul>
+          </div><div>
+            <span class="header">HEARTHSTONE GUIDES</span>
+            <ul>
+              <li><a href="//www.icy-veins.com/hearthstone/decks">Hearthstone Decks</a></li>
+              <li><a href="//www.icy-veins.com/hearthstone/meta-decks">Meta Decks</a></li>
+              <li><a href="//www.icy-veins.com/hearthstone/budget-and-cheap-decks">Budget Decks</a></li>
+              <li><a href="//www.icy-veins.com/hearthstone/arena-guides">Arena Spreadsheets</a></li>
+              <li><a href="//www.icy-veins.com/hearthstone/guides-to-get-started-with-hearthstone">Hearthstone Guides</a></li>
+              <li><a href="//www.icy-veins.com/hearthstone/solo-hearthstone-guides">Solo Guides</a></li>
+              <li><a href="//www.icy-veins.com/hearthstone/card-descriptions">Cards</a></li>
+            </ul>
+          </div><div>
+            <span class="header">DIABLO III GUIDES</span>
+            <ul>
+              <li><a href="https://www.icy-veins.com/d3/barbarian-builds">Barbarian builds</a></li>
+              <li><a href="https://www.icy-veins.com/d3/crusader-builds">Crusader builds</a></li>
+              <li><a href="https://www.icy-veins.com/d3/demon-hunter-builds">Demon Hunter builds</a></li>
+              <li><a href="https://www.icy-veins.com/d3/monk-builds">Monk builds</a></li>
+              <li><a href="https://www.icy-veins.com/d3/necromancer-builds">Necromancer builds</a></li>
+              <li><a href="https://www.icy-veins.com/d3/witch-doctor-builds">Witch Doctor builds</a></li>
+              <li><a href="https://www.icy-veins.com/d3/wizard-builds">Wizard builds</a></li>
+              <li><a href="https://www.icy-veins.com/d3/farming-guides">Farming/crafting guides</a></li>
+            </ul>
+          </div><div>
+            <span class="header">HEROES GUIDES</span>
+            <ul>
+              <li><a href="//www.icy-veins.com/heroes/tank-hero-guides">Tank builds</a></li>
+              <li><a href="//www.icy-veins.com/heroes/bruiser-hero-guides">Bruiser builds</a></li>
+              <li><a href="//www.icy-veins.com/heroes/ranged-assassin-hero-guides">Ranged Assassin builds</a></li>
+              <li><a href="//www.icy-veins.com/heroes/melee-assassin-hero-guides">Melee Assassin builds</a></li>
+              <li><a href="//www.icy-veins.com/heroes/healer-hero-guides">Healer builds</a></li>
+              <li><a href="//www.icy-veins.com/heroes/support-hero-guides">Support builds</a></li>
+            </ul>  
+          </div><div>
+            <span class="header">WOW CLASSIC GUIDES</span>
+            <ul>
+              <li><a href="//www.icy-veins.com/wow-classic/class-guides">Class guides</a></li>
+              <li><a href="//www.icy-veins.com/wow-classic/dungeon-guides">Dungeon guides</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="footer_divider"><img src="//static.icy-veins.com/images/common/footer-divider.png" alt="Footer Divider"></div>
+        <div class="header" id="footer_static_links_social_media">
+          <span><a href="https://www.icy-veins.com/about">ABOUT</a></span>
+          <span><a href="https://www.icy-veins.com/contact">CONTACT</a></span>
+          <span><a href="https://www.icy-veins.com/advertise">ADVERTISE</a></span>
+          <span><a href="https://www.icy-veins.com/faq">FAQ</a></span>
+          <span><a href="https://www.icy-veins.com/privacy">PRIVACY</a></span>
+          <span><a href="https://www.icy-veins.com/terms">TERMS OF USE</a></span>
+          <span><a href="https://www.icy-veins.com/acknowledgements">ACKNOWLEDGEMENTS</a></span>
+          <div id="footer_social_media">
+            <a title="Facebook" href="https://www.facebook.com/icyveinscom"><span class="sprite_social sprite_social_facebook"></span></a>
+            <a title="Twitter" href="https://twitter.com/icyveins"><span class="sprite_social sprite_social_twitter"></span></a>
+            <a title="Youtube" href="https://www.youtube.com/user/icyveinscom"><span class="sprite_social sprite_social_youtube"></span></a>
+            <a title="News Feed" href="https://www.icy-veins.com/feed.atom"><span class="sprite_social sprite_social_feed"></span></a>
+            <a title="E-mail Us" href="/cdn-cgi/l/email-protection#8eede1e0faefedfacee7edf7a3f8ebe7e0fda0ede1e3"><span class="sprite_social sprite_social_email"></span></a>
+          </div>
+        </div>
+        <span class="text_color" id="copyright">© 2011-2024 VEDATIS S.A.S.</span>
+	
+	
+
+      </div>
+
+<p id='elCopyright'>
+	<span id='elCopyright_userLine'></span>
+	<a rel='nofollow' title='Invision Community' href='https://www.invisioncommunity.com/'>Powered by Invision Community</a>
+</p>
+        </div>
+    </footer>
+    
+<div id='elMobileDrawer' class='ipsDrawer ipsHide'>
+	<a href='#' class='ipsDrawer_close' data-action='close'><span>&times;</span></a>
+	<div class='ipsDrawer_menu'>
+		<div class='ipsDrawer_content'>
+			
+
+			<div class='ipsSpacer_bottom ipsPad'>
+				<ul class='ipsToolList ipsToolList_vertical'>
+					
+						<li>
+							<a href='https://www.icy-veins.com/forums/login/' class='ipsButton ipsButton_light ipsButton_small ipsButton_fullWidth'>Existing user? Sign In</a>
+						</li>
+						
+							<li>
+								
+									<a href='https://www.icy-veins.com/forums/register/' data-ipsDialog data-ipsDialog-size='narrow' data-ipsDialog-title='Sign Up' data-ipsDialog-fixed='true' id='elRegisterButton_mobile' class='ipsButton ipsButton_small ipsButton_fullWidth ipsButton_important'>Sign Up</a>
+								
+							</li>
+						
+					
+
+					
+				</ul>
+			</div>
+
+			<ul class='ipsDrawer_list'>
+				<li class='ipsDrawer_itemParent minified'>
+					<h4 class='ipsDrawer_title'><a href='#'>Games
+						<span style="top:4px;left:60px;" class="sprite_games sprite_games_wow"></span>
+						<span style="top:4px;left:90px;" class="sprite_games sprite_games_wow_classic"></span>
+						<span style="top:4px;left:120px;" class="sprite_games sprite_games_d3"></span>
+						<span style="top:11px;left:150px;">...</span>
+					</a></h4>
+					<ul class='ipsDrawer_list game_list'>
+						<li data-action="back"><a href='#'>Back</a></li>
+						<li><a href="https://www.icy-veins.com/wow/"><span class="sprite_games sprite_games_wow"></span> World of Warcraft</a></li>
+						<li><a href="https://www.icy-veins.com/wow-classic/"><span class="sprite_games sprite_games_wow_classic"></span> World of Warcraft: Classic</a></li>
+						<li><a href="https://www.icy-veins.com/d3/"><span class="sprite_games sprite_games_d3"></span> Diablo III</a></li>
+						<li><a href="https://www.icy-veins.com/d4/"><span class="sprite_games sprite_games_d4"></span> Diablo IV</a></li>
+						<li><a href="https://www.icy-veins.com/heroes/"><span class="sprite_games sprite_games_heroes"></span> Heroes of the Storm</a></li>
+						<li><a href="https://www.icy-veins.com/hearthstone/"><span class="sprite_games sprite_games_hearthstone"></span> Hearthstone</a></li>
+						<li><a href="https://www.icy-veins.com/borderlands-3/"><span class="sprite_games sprite_games_bl3"></span> Borderlands 3</a></li>
+						<li><a href="https://www.icy-veins.com/overwatch-2/"><span class="sprite_games sprite_games_ow2"></span> Overwatch 2</a></li>
+					</ul>
+				</li>
+				
+
+				
+				
+				
+				
+					
+						
+						
+							<li class='ipsDrawer_itemParent'>
+								<h4 class='ipsDrawer_title'><a href='#'>Browse</a></h4>
+								<ul class='ipsDrawer_list'>
+									<li data-action="back"><a href='#'>Back</a></li>
+									
+										<li><a href='https://www.icy-veins.com/forums/'>Browse</a></li>
+									
+									
+									
+										
+
+
+	
+		
+			<li>
+				<a href='https://www.icy-veins.com/forums/' >
+					Forums
+				</a>
+			</li>
+		
+	
+
+	
+
+	
+		
+			<li>
+				<a href='https://www.icy-veins.com/forums/staff/' >
+					Staff
+				</a>
+			</li>
+		
+	
+
+	
+		
+			<li>
+				<a href='https://www.icy-veins.com/forums/online/' >
+					Online Users
+				</a>
+			</li>
+		
+	
+
+										
+								</ul>
+							</li>
+						
+					
+				
+					
+						
+						
+							<li class='ipsDrawer_itemParent'>
+								<h4 class='ipsDrawer_title'><a href='#'>Activity</a></h4>
+								<ul class='ipsDrawer_list'>
+									<li data-action="back"><a href='#'>Back</a></li>
+									
+										<li><a href='https://www.icy-veins.com/forums/discover/'>Activity</a></li>
+									
+									
+									
+										
+
+
+	
+		
+			<li>
+				<a href='https://www.icy-veins.com/forums/discover/' >
+					All Activity
+				</a>
+			</li>
+		
+	
+
+	
+		
+			<li>
+				<a href='' >
+					My Activity Streams
+				</a>
+			</li>
+		
+	
+
+	
+		
+			<li>
+				<a href='https://www.icy-veins.com/forums/discover/unread/' >
+					Unread Content
+				</a>
+			</li>
+		
+	
+
+	
+		
+			<li>
+				<a href='https://www.icy-veins.com/forums/discover/content-started/' >
+					Content I Started
+				</a>
+			</li>
+		
+	
+
+	
+		
+			<li>
+				<a href='https://www.icy-veins.com/forums/search/' >
+					Search
+				</a>
+			</li>
+		
+	
+
+										
+								</ul>
+							</li>
+						
+					
+				
+					
+						
+						
+							<li><a href='https://www.icy-veins.com/forums/index.php?app=awards' >Awards</a></li>
+						
+					
+				
+					
+						
+						
+							<li><a href='https://www.icy-veins.com/forums/leaderboard/' >Leaderboard</a></li>
+						
+					
+				
+					
+				
+					
+				
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id='elMobileCreateMenuDrawer' class='ipsDrawer ipsHide'>
+	<a href='#' class='ipsDrawer_close' data-action='close'><span>&times;</span></a>
+	<div class='ipsDrawer_menu'>
+		<div class='ipsDrawer_content ipsSpacer_bottom ipsPad'>
+			<ul class='ipsDrawer_list'>
+				<li class="ipsDrawer_listTitle ipsType_reset">Create New...</li>
+				
+			</ul>
+		</div>
+	</div>
+</div>
+    
+    
+
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript'>
+		var ipsDebug = false;		
+	
+		var CKEDITOR_BASEPATH = '//www.icy-veins.com/forums/applications/core/interface/ckeditor/ckeditor/';
+	
+		var ipsSettings = {
+			
+			
+			cookie_path: "/",
+			
+			cookie_prefix: "ips4_",
+			
+			
+			cookie_ssl: true,
+			
+			upload_imgURL: "",
+			message_imgURL: "",
+			notification_imgURL: "",
+			baseURL: "//www.icy-veins.com/forums/",
+			jsURL: "//www.icy-veins.com/forums/applications/core/interface/js/js.php",
+			csrfKey: "5ab6d5f5b72d7f2b5089db2288de70b6",
+			antiCache: "0ebb3c9e5d",
+			disableNotificationSounds: false,
+			useCompiledFiles: true,
+			links_external: true,
+			memberID: 0,
+			lazyLoadEnabled: false,
+			blankImg: "//www.icy-veins.com/forums/applications/core/interface/js/spacer.png",
+			analyticsProvider: "none",
+			viewProfiles: true,
+			mapProvider: 'none',
+			mapApiKey: '',
+			
+		};
+	</script>
+
+
+
+
+
+<script type='text/javascript' src='https://www.icy-veins.com/forums/uploads/javascript_global/root_library.js?v=0ebb3c9e5d' data-ips></script>
+
+
+<script type='text/javascript' src='https://www.icy-veins.com/forums/uploads/javascript_global/root_js_lang_1.js?v=0ebb3c9e5d' data-ips></script>
+
+
+<script type='text/javascript' src='https://www.icy-veins.com/forums/uploads/javascript_global/root_framework.js?v=0ebb3c9e5d' data-ips></script>
+
+
+<script type='text/javascript' src='https://www.icy-veins.com/forums/uploads/javascript_core/global_global_core.js?v=0ebb3c9e5d' data-ips></script>
+
+
+<script type='text/javascript' src='https://www.icy-veins.com/forums/uploads/javascript_global/root_front.js?v=0ebb3c9e5d' data-ips></script>
+
+
+<script type='text/javascript' src='https://www.icy-veins.com/forums/uploads/javascript_core/front_front_core.js?v=0ebb3c9e5d' data-ips></script>
+
+
+
+	<script type='text/javascript'>
+		
+			ips.setSetting( 'date_format', jQuery.parseJSON('"mm\/dd\/yy"') );
+		
+			ips.setSetting( 'date_first_day', jQuery.parseJSON('0') );
+		
+			ips.setSetting( 'ipb_url_filter_option', jQuery.parseJSON('"white"') );
+		
+			ips.setSetting( 'url_filter_any_action', jQuery.parseJSON('"allow"') );
+		
+			ips.setSetting( 'bypass_profanity', jQuery.parseJSON('0') );
+		
+			ips.setSetting( 'emoji_style', jQuery.parseJSON('"native"') );
+		
+			ips.setSetting( 'emoji_shortcodes', jQuery.parseJSON('true') );
+		
+			ips.setSetting( 'emoji_ascii', jQuery.parseJSON('true') );
+		
+			ips.setSetting( 'emoji_cache', jQuery.parseJSON('1581343117') );
+		
+			ips.setSetting( 'image_jpg_quality', jQuery.parseJSON('85') );
+		
+			ips.setSetting( 'cloud2', jQuery.parseJSON('false') );
+		
+		
+	</script>
+
+
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function(event) {
+  if (document.querySelectorAll("*[data-tweet-id]").length > 0) {
+    window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+ 
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+ 
+      return t;
+    }(document, "script", "twitter-wjs"));
+    twttr.ready(function(twttr) {
+      jQuery("div.embed_tweet").each(function(index, value) {
+        tweet_id = jQuery(value).attr("data-tweet-id");
+        div_id = "embed_tweet_" + index;
+        jQuery(value).attr("id", div_id);
+        twttr.widgets.createTweet(tweet_id,
+          document.getElementById(div_id),
+          {theme:'dark', align:'center'}).then(function(el) {
+            console.log("Tweet added successfully");
+        });
+      });
+    });
+  }
+});
+</script>
+<script type="text/javascript">
+if (window.innerWidth >= 1070) {
+  f = document.getElementsByTagName("script")[0];
+  e = document.createElement("script");
+  e.async = true;
+  e.src = '//static.icy-veins.com/javascript/icyveins-common-562a2e61e30701da2bdfcb371c4aa3f6.js';
+  f.parentNode.insertBefore(e, f);
+  document.addEventListener("DOMContentLoaded", function(event) {
+    if (document.querySelectorAll("*[data-d3-tooltip]").length > 0) {
+      e = document.createElement("script");
+      e.async = true;
+      e.src = '//static.icy-veins.com/javascript/icyveins-d3-620f4b6eb84e8a63f4335657bb2caf6e.js';
+      f.parentNode.insertBefore(e, f);
+    }
+    if (document.querySelectorAll("*[data-heroes-tooltip]").length > 0) {
+      e = document.createElement("script");
+      e.async = true;
+      e.src = '//static.icy-veins.com/javascript/icyveins-heroes-111d3ed3ae9f36cca906b125a83fc4d0.js';
+      f.parentNode.insertBefore(e, f);
+    }
+    if (document.querySelectorAll("*[data-hearthstone-tooltip]").length > 0) {
+      e = document.createElement("script");
+      e.async = true;
+      e.src = '//static.icy-veins.com/javascript/icyveins-hearthstone-80b674f3f96134e77b89877ba20ed310.js';
+      f.parentNode.insertBefore(e, f);
+    }
+    if (document.querySelectorAll('a[href*="wowdb.com"]').length > 0) {
+      e = document.createElement("script");
+      e.async = true;
+      e.src = '//www.wowdb.com/current/js/syndication/tt.js';
+      f.parentNode.insertBefore(e, f);
+      wowdb_log = [];
+      init_wowdb_tooltips = function(tries) {
+        if (tries < 10) {
+          if (typeof CurseTips === 'undefined') {
+            setTimeout(function() { init_wowdb_tooltips(tries+1) }, 500);
+          } else {
+            CurseTips['wowdb-tooltip'].watchElements(jQuery('a[href*="wowdb.com"]'));
+          }
+        }
+      };
+      init_wowdb_tooltips(0);
+    }
+  });
+}
+</script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+  jQuery(".blue_post_show").click(function() {
+    jQuery(this).next().show();
+    jQuery(this).next().next().show();
+    jQuery(this).hide();
+  });
+  jQuery(".blue_post_hide").click(function() {
+    jQuery(this).prev().show();
+    jQuery(this).next().hide();
+    jQuery(this).hide();
+  });
+
+});
+</script>
+
+    
+    
+    <!--ipsQueryLog-->
+    <!--ipsCachingLog-->
+    
+    
+    <div id="premium_information"></div>
+    <script>
+        if (window.innerWidth >= 1070) {
+            document.addEventListener("DOMContentLoaded", function(event) {
+                f = document.getElementsByTagName("script")[0];
+                e = document.createElement("script");
+                e.async = true;
+                e.src = '//static.icy-veins.com/javascript/premium-3aa3650a2f7f0d9bed65f088cc3a6b83.js';
+                f.parentNode.insertBefore(e, f);
+            });
+        }
+        if (location.pathname.match(/forums\/premium/)) {
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:1381477,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        }
+    
+        document.querySelectorAll("#go_premium a, #go_premium a span").forEach(function(item, index) {
+            item.addEventListener("click", function(event) {
+                writeToLocalStorage('premium_origin', JSON.stringify({'type': 'top-link', 'date': new Date()}));
+            });
+        });
+    
+    </script>
+    <script>
+        var rampCore = document.createElement('script');
+        rampCore.src = "//cdn.intergient.com/ramp_core.js";
+        rampCore.async = true;
+        document.body.appendChild(rampCore);
+    </script>
+    <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3d4eae04e3520ba',t:'MTc4OTc4MjM5NA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+    </html>

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html id="XenForo" lang="en-US" dir="LTR" class="Public NoJs LoggedOut NoSidebar RunDeferred Responsive" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	
+		<base href="https://forums.overclockers.com.au/" />
+		<script>
+			var _b = document.getElementsByTagName('base')[0], _bH = "https://forums.overclockers.com.au/";
+			if (_b && _b.href != _bH) _b.href = _bH;
+		</script>
+	
+
+	<title>Error | OCAU Forums</title>
+	
+	<noscript><style>.JsOnly, .jsOnly { display: none !important; }</style></noscript>
+	<link rel="stylesheet" href="css.php?css=xenforo,form,public&amp;style=2&amp;dir=LTR&amp;d=1771816853" />
+	<link rel="stylesheet" href="css.php?css=notices,panel_scroller&amp;style=2&amp;dir=LTR&amp;d=1771816853" />
+	
+	
+
+	
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1731516-3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+	
+		gtag('config', 'UA-1731516-3', {
+			// <!-- slot: ga_config_start -->
+			
+			
+		});
+	</script>
+
+		<script src="js/jquery/jquery-1.11.0.min.js"></script>	
+		
+	<script src="js/xenforo/xenforo.js?_v=ad8939d4"></script>
+
+	
+	<link rel="apple-touch-icon" href="https://forums.overclockers.com.au/ocaulogo.jpg" />
+	<link rel="alternate" type="application/rss+xml" title="RSS feed for OCAU Forums" href="forums/-/index.rss" />
+	
+	<meta name="robots" content="noindex" />
+
+
+<script async src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+</script>
+<script>
+
+ // GPT slots
+ var gptAdSlots = [];
+ googletag.cmd.push(function() {
+
+   // Define a size mapping object. The first parameter to addSize is
+   // a viewport size, while the second is a list of allowed ad sizes.
+   var mapping = googletag.sizeMapping().
+   
+   addSize([890, 0], [[728,90], [468, 60], [120, 600]]).
+   addSize([600, 0], [468, 60]).
+   addSize([0, 0], [120, 60]).
+   build();
+   
+   // Define the GPT slot - top right banner
+   gptAdSlots[0] = googletag.defineSlot('/1004430/468x60-Forum-Banner', [[468, 60], [120, 60]], 'forumbanner').
+       defineSizeMapping(mapping).
+       addService(googletag.pubads());
+       
+   // Define the GPT slot - footer leaderboard
+   gptAdSlots[1] = googletag.defineSlot('/1004430/mainsitebottomleaderboard', [[468, 60], [728, 90]], 'bottomleader').
+       defineSizeMapping(mapping).
+       addService(googletag.pubads());
+
+   // Define the GPT slot - skyscraper
+   gptAdSlots[2] = googletag.defineSlot('/1004430/Main-Site-Skyscraper', [120, 600], 'skyscraper').
+       defineSizeMapping(mapping).
+       addService(googletag.pubads());
+  
+     // Define the GPT slot - top right banner
+   gptAdSlots[3] = googletag.defineSlot('/1004430/specificforumbanner', [[468, 60], [120, 60]], 'specificforumbanner').
+       defineSizeMapping(mapping).
+       addService(googletag.pubads());
+  
+   // Start ad fetching
+   googletag.enableServices();
+   }); 
+</script>
+
+</head>
+
+<body>
+
+
+
+
+<div id="headerMover">
+	<div id="headerProxy"></div>
+
+<div id="content" class="error_with_login">
+	<div class="pageWidth">
+		<div class="pageContent">
+			<!-- main content area -->
+			
+			
+			
+			
+						
+						
+						
+						
+						<div class="breadBoxTop ">
+							
+							
+
+<nav>
+	
+
+	<fieldset class="breadcrumb">
+		<a href="misc/quick-navigation-menu" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Open quick navigation"><!--Jump to...--></a>
+			
+		<div class="boardTitle"><strong>OCAU Forums</strong></div>
+		
+		<span class="crumbs">
+			
+				<span class="crust homeCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="https://www.overclockers.com.au" class="crumb" rel="up" itemprop="url"><span itemprop="title">Home</span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+			
+			
+			
+			
+		</span>
+	</fieldset>
+</nav>
+						</div>
+						
+						
+						
+					
+						<!--[if lt IE 8]>
+							<p class="importantMessage">You are using an out of date browser. It  may not display this or other websites correctly.<br />You should upgrade or use an <a href="https://www.google.com/chrome/browser/" target="_blank">alternative browser</a>.</p>
+						<![endif]-->
+
+						
+						
+	
+
+		
+		
+		
+
+		<div class="PanelScroller Notices" data-vertical="0" data-speed="400" data-interval="4000">
+			<div class="scrollContainer">
+				<div class="PanelContainer">
+					<ol class="Panels">
+						
+							<li class="panel Notice DismissParent notice_15 " data-notice="15">
+	
+		<div class="blockImage image">
+			<img src="https://www.overclockers.com.au/images/newspics/20thanniversarymug.jpg" alt="" />
+		</div>
+	
+	<div class="baseHtml noticeContent hasImage"><b>OCAU Merchandise is available!  Check out our <a href="https://www.redbubble.com/i/mug/OCAU-Blue-Single-Logo-Mug-Design-by-OCAU/48118087.9Q0AD">20th Anniversary Mugs</a>, <a href="https://www.redbubble.com/i/t-shirt/OCAU-Classic-Logo-Design-by-OCAU/48117155.IJ6L0">Classic Logo Shirts</a> and <a href="https://www.redbubble.com/people/OCAU/shop?asc=u">much more</a>!  Discussion in <a href="https://forums.overclockers.com.au/threads/ocau-merchandise.1316577/">this thread</a>.</b></div>
+	
+	
+		<a href="account/dismiss-notice?notice_id=15"
+			title="Dismiss Notice" class="DismissCtrl Tooltip" data-offsetx="7" data-tipclass="flipped">Dismiss Notice</a>
+</li>
+						
+					</ol>
+				</div>
+			</div>
+
+			
+		</div>
+
+	
+
+	
+						
+						
+						
+						
+												
+							<!-- h1 title, description -->
+							<div class="titleBar">
+								
+								<h1>OCAU Forums - Error</h1>
+								
+								
+							</div>
+						
+						
+						
+						
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 728x90, created 6/30/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-0412884466951956"
+     data-ad-slot="3875409863"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+						
+						<!-- main template -->
+						
+
+
+
+
+
+
+
+
+
+
+<form action="login/login" method="post" class="xenForm" id="pageLogin">
+
+	
+		<div class="errorPanel"><span class="errors">
+			You must be logged in to do that.
+		</span></div>
+	
+	
+	<h2 class="textHeading">Log in or Sign up</h2>
+
+	<dl class="ctrlUnit">
+		<dt><label for="ctrl_pageLogin_login">Your name or email address:</label></dt>
+		<dd><input type="text" name="login" value="" id="ctrl_pageLogin_login" class="textCtrl" tabindex="1" autofocus="autofocus" /></dd>
+	</dl>
+
+
+	<dl class="ctrlUnit">
+		<dt><label for="ctrl_pageLogin_password">Do you already have an account?</label></dt>
+		<dd>
+			<ul>
+				<li><label for="ctrl_pageLogin_not_registered"><input type="radio" name="register" value="1" id="ctrl_pageLogin_not_registered" tabindex="5" />
+					No, create an account now.</label></li>
+				<li><label for="ctrl_pageLogin_registered"><input type="radio" name="register" value="0" id="ctrl_pageLogin_registered" checked="checked" class="Disabler" tabindex="5" />
+					Yes, my password is:</label></li>
+				<li id="ctrl_pageLogin_registered_Disabler">
+					<input type="password" name="password" class="textCtrl" id="ctrl_pageLogin_password" tabindex="2"  />					
+					<div><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="6">Forgot your password?</a></div>
+				</li>
+			</ul>
+		</dd>
+	</dl>
+
+	
+	
+
+	<dl class="ctrlUnit submitUnit">
+		<dt></dt>
+		<dd>
+			<input type="submit" class="button primary" value="Log in" data-loginPhrase="Log in" data-signupPhrase="Sign up" tabindex="4" />
+			<label class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_pageLogin_remember" tabindex="3" /> Stay logged in</label>
+		</dd>
+	</dl>
+
+	
+	
+	
+	
+	
+	
+	<input type="hidden" name="cookie_check" value="1" />
+	<input type="hidden" name="_xfToken" value="" />
+	<input type="hidden" name="redirect" value="/search/1/?q=Forever+maccas&amp;o=date" />
+	
+
+</form>
+
+<script>
+	$(function()
+	{
+		var $button = $('#pageLogin input.button.primary');
+		$('#pageLogin input[name="register"]').click(function()
+		{
+			$button.val(
+				$('#pageLogin input[name="register"]:checked').val() == '1'
+				? $button.data('signupphrase')
+				: $button.data('loginphrase')
+			);
+		});
+	});
+</script>
+
+						
+						
+						
+						
+						
+					
+			
+						
+			<div class="breadBoxBottom">
+
+<nav>
+	
+
+	<fieldset class="breadcrumb">
+		<a href="misc/quick-navigation-menu" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Open quick navigation"><!--Jump to...--></a>
+			
+		<div class="boardTitle"><strong>OCAU Forums</strong></div>
+		
+		<span class="crumbs">
+			
+				<span class="crust homeCrumb">
+					<a href="https://www.overclockers.com.au" class="crumb"><span>Home</span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+			
+			
+			
+			
+		</span>
+	</fieldset>
+</nav></div>
+			
+						
+			
+
+<!-- DFP -->
+<!-- <center>
+<div id="bottomleader" style="display: block; max-width: 100%; height: auto; vertical-align: middle"> 
+   <script>
+     googletag.cmd.push(function() {
+       googletag.display('bottomleader');
+     });
+   </script> 
+</div>
+</center> -->
+
+<!-- adsense -->
+<center>
+<font color="black">Advertisement:</font><br />
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-0412884466951956"
+     data-ad-slot="2041014264"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+						
+		</div>
+	</div>
+</div>
+
+<header>
+	
+
+
+<div id="header">
+	<div id="logoBlock">
+	<div class="pageWidth">
+		<div class="pageContent">
+			
+
+<div id="forumbanner" style="display: block; float: right; max-width: 100%; height: auto; line-height: 96px; *line-height: 100px; height: 100px; vertical-align: middle"> 
+   <script>
+     googletag.cmd.push(function() {
+       googletag.display('forumbanner');
+     });
+   </script> 
+</div>
+
+
+			
+			<div id="logo"><a href="https://forums.overclockers.com.au/">
+				<span></span>
+				<img src="styles/ocau_xenforo_logo_white.jpg" alt="OCAU Forums" />
+			</a></div>
+			
+			<span class="helper"></span>
+		</div>
+	</div>
+</div>
+	
+
+<div id="navigation" class="pageWidth ">
+	<div class="pageContent">
+		<nav>
+
+<div class="navTabs">
+	<ul class="publicTabs">
+	
+		<!-- home -->
+		
+			<li class="navTab home PopupClosed"><a href="https://www.overclockers.com.au" class="navLink">Home</a></li>
+		
+		
+		
+		<!-- extra tabs: home -->
+		
+		
+		
+		<!-- forums -->
+		
+			<li class="navTab forums Popup PopupControl PopupClosed">
+			
+				<a href="https://forums.overclockers.com.au/" class="navLink">Forums</a>
+				<a href="https://forums.overclockers.com.au/" class="SplitCtrl" rel="Menu"></a>
+				
+				<div class="Menu JsOnly tabMenu forumsTabLinks">
+					<div class="primaryContent menuHeader">
+						<h3>Forums</h3>
+						<div class="muted">Quick Links</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+					
+						
+						
+						
+						<li><a href="find-new/posts" rel="nofollow">Recent Posts</a></li>
+					
+					</ul>
+				</div>
+			</li>
+		
+		
+		
+		<!-- extra tabs: middle -->
+		
+		
+		
+		<!-- members -->
+						
+		
+		<!-- extra tabs: end -->
+		
+
+		<!-- responsive popup -->
+		<li class="navTab navigationHiddenTabs Popup PopupControl PopupClosed" style="display:none">	
+						
+			<a rel="Menu" class="navLink NoPopupGadget"><span class="menuIcon">Menu</span></a>
+			
+			<div class="Menu JsOnly blockLinksList primaryContent" id="NavigationHiddenMenu"></div>
+		</li>
+			
+		
+		<!-- no selection -->
+		
+			<li class="navTab selected"><div class="tabLinks"></div></li>
+		
+		
+	</ul>
+	
+	
+</div>
+
+<span class="helper"></span>
+			
+		</nav>	
+	</div>
+</div>
+	
+</div>
+
+	
+	
+</header>
+
+</div>
+
+<footer>
+	
+
+
+<div class="footer">
+	<div class="pageWidth">
+		<div class="pageContent">
+			
+			<dl class="choosers">
+				
+					<dt>Style</dt>
+					<dd><a href="misc/style?redirect=%2Fsearch%2F1%2F%3Fq%3DForever%2Bmaccas%26o%3Ddate" class="OverlayTrigger Tooltip" title="Style Chooser" rel="nofollow">vB 3.x - Fluid</a></dd>
+				
+				
+			</dl>
+			
+			
+			<ul class="footerLinks">
+			
+				
+					<li><a href="misc/contact" class="OverlayTrigger" data-overlayOptions="{&quot;fixed&quot;:false}">Contact Us</a></li>
+				
+				<li><a href="help/">Help</a></li>
+				<li><a href="https://www.overclockers.com.au" class="homeLink">Home</a></li>
+				<li><a href="/search/1/?q=Forever+maccas&amp;o=date#navigation" class="topLink">Top</a></li>
+				<li><a href="forums/-/index.rss" rel="alternate" class="globalFeed" target="_blank"
+					title="RSS feed for OCAU Forums">RSS</a></li>
+			
+			</ul>
+			
+			<span class="helper"></span>
+		</div>
+	</div>
+</div>
+
+<div class="footerLegal">
+	<div class="pageWidth">
+		<div class="pageContent">
+			<ul id="legal">
+			
+				<li><a href="help/terms">Terms and Rules</a></li>
+				<li><a href="">Privacy Policy</a></li>
+			
+			</ul>
+			
+			<div id="copyright"><a href="https://xenforo.com" class="concealed">Forum software by XenForo&trade; <span>&copy; 2010-2018 XenForo Ltd.</span></a> 
+<!-- REMOVE ONLY WITH  PERMISSION! -->
+<div id="WMTBRANDCR"><style>@media (max-width:480px){.Responsive #WMTBRANDCR span{display: none;}}</style><a href="http://wmtech.net/" target="wmtech" class="concealed" title="XenForo Quality Add-Ons by WMTech">Quality Add-Ons by WMTech <span> &copy; 2022 WebMachine Technologies, Inc.</span></a></div>
+<!-- REMOVE ONLY WITH PERMISSION! -->
+ </div>
+			
+			
+			<center><a href="http://www.micron21.com"><img src="https://forums.overclockers.com.au/hostedbymicron21.jpg" alt="OCAU is hosted by Micron21!"></a></center>
+		
+			
+			
+			<span class="helper"></span>
+		</div>
+	</div>	
+</div>
+
+</footer>
+
+<script>
+
+
+jQuery.extend(true, XenForo,
+{
+	visitor: { user_id: 0 },
+	serverTimeInfo:
+	{
+		now: 1789782354,
+		today: 1789740000,
+		todayDow: 6
+	},
+	_lightBoxUniversal: "0",
+	_enableOverlays: "1",
+	_animationSpeedMultiplier: "1",
+	_overlayConfig:
+	{
+		top: "10%",
+		speed: 200,
+		closeSpeed: 100,
+		mask:
+		{
+			color: "rgb(255, 255, 255)",
+			opacity: "0.6",
+			loadSpeed: 200,
+			closeSpeed: 100
+		}
+	},
+	_ignoredUsers: [],
+	_loadedScripts: {"notices":true,"panel_scroller":true},
+	_cookieConfig: { path: "/", domain: "", prefix: "xf_"},
+	_csrfToken: "",
+	_csrfRefreshUrl: "login/csrf-token-refresh",
+	_jsVersion: "ad8939d4",
+	_noRtnProtect: false,
+	_noSocialLogin: false
+});
+jQuery.extend(XenForo.phrases,
+{
+	cancel: "Cancel",
+
+	a_moment_ago:    "A moment ago",
+	one_minute_ago:  "1 minute ago",
+	x_minutes_ago:   "%minutes% minutes ago",
+	today_at_x:      "Today at %time%",
+	yesterday_at_x:  "Yesterday at %time%",
+	day_x_at_time_y: "%day% at %time%",
+
+	day0: "Sunday",
+	day1: "Monday",
+	day2: "Tuesday",
+	day3: "Wednesday",
+	day4: "Thursday",
+	day5: "Friday",
+	day6: "Saturday",
+
+	_months: "January,February,March,April,May,June,July,August,September,October,November,December",
+	_daysShort: "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+
+	following_error_occurred: "The following error occurred",
+	server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+	logging_in: "Logging in",
+	click_image_show_full_size_version: "Click this image to show the full-size version.",
+	show_hidden_content_by_x: "Show hidden content by {names}"
+});
+
+// Facebook Javascript SDK
+XenForo.Facebook.appId = "";
+XenForo.Facebook.forceInit = false;
+
+
+</script>
+
+
+
+
+</body>
+</html>

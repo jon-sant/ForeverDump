@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<!-- compiled: Sat Sep 19 2026 01:46:34 GMT+0000 (Coordinated Universal Time) -->
+<meta charset="utf-8">
+<title>IRCCloud</title>
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-itunes-app" content="app-id=672699103">
+
+<script nonce="eeed27833abf360cccd9c181">
+window.addEventListener('error', function (e) {
+    // Workaround for cached 404s
+    if (e.target.className != 'retried') {
+        if (e.target.nodeName == 'LINK' && e.target.rel == 'stylesheet') {
+            var link = e.target;
+            link.className = 'retried';
+            link.href = e.target.href + '?' + Date.now();
+        } else if (e.target.nodeName == 'SCRIPT' && e.target.src) {
+            var script = document.createElement('script');
+            script.className = 'retried';
+            script.src = e.target.src + '?' + Date.now();
+            document.head.appendChild(script);
+        }
+    }
+}, true);
+</script>
+
+
+
+<link rel="stylesheet" href="/build/vendor-39a478db.css" type="text/css" media="screen">
+<link rel="stylesheet" href="/build/common-002a6024.css" type="text/css" media="screen">
+
+<link rel="stylesheet" href="/build/app-60d22d79.css" type="text/css" media="screen">
+
+
+<style media="print">
+.dontprint { display: none; }
+body { font-family: 'Helvetica',sans-serif ; }
+</style>
+
+
+
+<link rel="manifest" href="/static/webapp.json">
+<link rel="mask-icon" href="/static/favicon/apple-pinned-tab.svg" color="#1E72FF">
+<link rel="apple-touch-icon" href="/static/favicon/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/static/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/static/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/static/favicon/favicon-96x96.png" sizes="96x96">
+<link rel="fluid-icon" type="image/png" href="/static/favicon/apple-touch-icon-180x180.png">
+<meta name="msapplication-config" content="/static/favicon/browserconfig.xml" />
+
+
+
+
+<meta name="description" content="IRCCloud is a modern IRC client that keeps you connected, with none of the baggage. Stay synced and notified wherever you are with our web and mobile apps.">
+
+
+<meta name="twitter:widgets:new-embed-design" content="on">
+<meta name="twitter:widgets:theme" content="" id="twitterMetaTheme">
+<meta name="twitter:widgets:link-color" content="" id="twitterMetaLinkColor">
+<meta name="twitter:widgets:csp" content="on">
+<meta name="twitter:card" content="app">
+<meta name="twitter:site:id" content="171845650">
+<meta name="twitter:description" content="IRCCloud is a modern IRC client that keeps you connected, with none of the baggage. Stay synced and notified wherever you are with our web and mobile apps.">
+<meta name="twitter:dnt" content="on">
+<meta name="twitter:app:name:iphone" content="IRCCloud">
+<meta name="twitter:app:id:iphone" content="672699103">
+<!-- <meta name="twitter:app:url:iphone" content="irccloud://twitter-card/iphone"> -->
+<meta name="twitter:app:name:ipad" content="IRCCloud">
+<meta name="twitter:app:id:ipad" content="672699103">
+<!-- <meta name="twitter:app:url:ipad" content="irccloud://twitter-card/ipad"> -->
+<meta name="twitter:app:name:googleplay" content="IRCCloud">
+<meta name="twitter:app:id:googleplay" content="com.irccloud.android">
+<!-- <meta name="twitter:app:url:googleplay" content="irccloud://twitter-card/android"> -->
+<link rel="me" href="https://mastodon.social/@irccloud">
+
+
+
+<style id="antiClickjack">body{display:none !important;}</style>
+<script nonce="eeed27833abf360cccd9c181">
+// Prevent persistent 3rd party window.open URL control.
+window.opener = null;
+// Prevent framing
+if (self === top) {
+    var antiClickjack = document.getElementById("antiClickjack");
+    antiClickjack.parentNode.removeChild(antiClickjack);
+} else {
+    top.location = self.location;
+}
+</script>
+<noscript><style>body{display:block !important;}</style></noscript>
+
+
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200i,300,300i,600,400i,600i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,greek,greek-ext,vietnamese,latin-ext' rel='stylesheet' type='text/css'>
+<!-- https://github.com/chrissimpkins/hack#user-content-web-font-usage -->
+<link href='https://cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body  class="irccloud landing">
+
+
+
+<div id="landingHeader">
+    <div class="landingContainer">
+        <h1 id="logo">
+            <a href="/">
+                IRC<span class="cloud">Cloud</span>
+            </a>
+        </h1>
+        <div id="landingLogin">
+            
+                <form class="signin" action="" method="post" novalidate>
+                    <p class="form">
+                        <input disabled class="input" name="email" type="email" placeholder="Email" autocomplete="username">
+                        <input disabled class="input" name="password" type="password" placeholder="Password" autocomplete="current-password">
+                        <input disabled type="hidden" name="org_invite">
+                        <input disabled type="hidden" name="invite_url">
+                        <button disabled type="submit"><span>Login</span></button>
+                        <a class="forgotten" href="/?/password-reset">Forgotten your password?</a>
+                        <span class="userError"></span>
+                    </p>
+                </form>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="landingBanner">
+    <div class="landingContainer">
+        <div id="landingZing">
+            <p class="strap">Group chat for teams, friends, and communities.</p>
+            <p>IRCCloud is an IRC client with a future. Stay connected, chat from anywhere, and never miss a message.</p>
+        </div>
+        
+        <p id="accountDeleted" class="userInfo" tabindex="-1">Your account has been deleted</p>
+
+        <div id="landingImage">
+            <img src="/static/landing/imgs/screenshots.png" srcset="/static/landing/imgs/screenshots.png 1x, /static/landing/imgs/screenshots@2x.png 2x" id="landingImageScreenshot">
+        </div>
+
+        <div id="landingSignup">
+        
+            <form action="" method="post" class="signupForm authForm" novalidate>
+                <input type="text" style="display:none;" name="signup_realname">
+                <input type="text" style="display:none;" name="signup_email">
+                <input type="password" style="display:none;" name="signup_password">
+                <p>Sign up for a free account / <b><a href="/pricing" target="_blank">Pricing</a></b></p>
+                <div class="userError"></div>
+                <div id="signupOrgInfo" class="userInfo">You’re signing up to join the <b id="signupOrgName"></b> team.</div>
+                <div class="signupNetworkInfo channel userSuccess">Sign up to join <b class="channel"></b> on <b class="network"></b></div>
+                <div class="signupNetworkInfo network userSuccess">Sign up to join <b class="network"></b></div>
+                <p class="form"><input disabled class="input" name="signup_realname" placeholder="Name"></p>
+                <p class="form"><input disabled class="input" name="signup_email" type="email" placeholder="Email"></p>
+                <p class="form"><input disabled class="input" name="signup_password" type="password" placeholder="Password" autocomplete="new-password"></p>
+                <input disabled type="hidden" name="invite">
+                <input disabled type="hidden" name="org_invite">
+                <input disabled type="hidden" name="invite_url">
+                <p class="form"><button disabled type="submit" class="signup"><span>Sign up</span></button></p>
+                <p><small>By signing up, you agree to our <a href="/terms">Terms of Service</a></small></p>
+            </form>
+        
+        </div>
+    </div>
+</div>
+
+<div id="landingTeams" class="landingSection">
+    <div class="landingContainer">
+        <h2>Start talking as a team</h2>
+        <p>Solve your group communication problems once and for all. Stop scheduling wasteful meetings and getting bogged down in email. Work it out in real time.</p>
+        <img src="/static/landing/imgs/chat.png?v=1" id="landingImageMain">
+    </div>
+</div>
+
+<div id="landingOrganise" class="landingSection">
+    <div class="landingContainer">
+        <div id="landingOrganiseImages">
+            <div id="landingOrganiseImage"></div>
+            <div id="landingOrganiseContainer"></div>
+        </div>
+        <div id="landingOrganiseText">
+            <h2>Be more organised</h2>
+            <p>Talk in public or private channels, or one-to-one. Keep on top of discussions that matter, and stay focused.</p>
+        </div>
+    </div>
+</div>
+
+<div id="landingMobile" class="landingSection">
+    <div class="landingContainer">
+        <p>Make sure you never miss a message with our native apps for iOS and Android.</p>
+        <p>We’ll keep everything in sync and notify you across all your devices.</p>
+    </div>
+</div>
+<div id="landingMobileDevices" class="landingSection">
+    <div class="landingContainer">
+        <img src="/static/landing/imgs/ipad.png" id="landingMobileIpad">
+        <img src="/static/landing/imgs/iphone.png" id="landingMobileIphone">
+        <img src="/static/landing/imgs/android.png" id="landingMobileAndroid">
+    </div>
+</div>
+
+<div id="landingRich" class="landingSection">
+    <div class="landingContainer">
+        <h2>Share files, express yourself and integrate with the web</h2>
+        <p>🎉&nbsp;&nbsp;&nbsp;Yes, we support emoji!</p>
+        <p>🙋🏻‍♀️&nbsp;&nbsp;&nbsp;You can even choose a profile picture.</p>
+        <p>📷&nbsp;&nbsp;&nbsp;Easily drag and drop files to upload and share.</p>
+        <p>📝&nbsp;&nbsp;&nbsp;Share snippets of text and code just by pasting.</p>
+        <p>📺&nbsp;&nbsp;&nbsp;Embed videos, images, gifs and social media links.</p>
+    </div>
+</div>
+
+<div id="landingTeams" class="landingSection">
+    <div class="landingContainer">
+        <h2>Chat with teams and friends, wherever they are, however you choose.</h2>
+        <p>Connect to any IRC server out there, and even <img src="/static/landing/links/slack.png" width="32" height="32" class="slack-logo"> Slack workspaces.</p>
+        <p>We host private servers for teams, with enhanced features like reply threading, message editing, reactions and typing indicators.</p>
+        <p>And if you're happy with your existing IRC client, we provide a bouncer interface to let you keep using it.</p>
+    </div>
+</div>
+
+<div id="landingIRC" class="landingSection">
+    <div class="landingContainer">
+        <h2>Built on IRC <small class="ircSub">— internet relay chat</small></h2>
+        <p>IRC is an <b>open and established platform</b> for real-time discussions – it’s almost as old as email. We're building an IRC platform that's bang up to date, supporting a thriving community and helping teams to collaborate more effectively.</p>
+        <br>
+        <p><img src="/static/landing/links/ircv3.png" width="64" height="64" class="ircv3-logo"> We're active members of the <a href="https://ircv3.net" target="_blank" rel="noreferrer">IRCv3 working group</a>, and contribute all our enhancements back to the community.</p>
+    </div>
+</div>
+
+<div id="landingBottomSignup" class="landingSection">
+    <div class="landingContainer">
+        <h1 id="landingFooterLogo">
+            IRC<span class="cloud">Cloud</span>
+        </h1>
+        <h2>Stay connected, chat from anywhere, and never miss a message.</h2>
+        <form action="" method="post" class="signupForm authForm" novalidate>
+            <input type="text" style="display:none;" name="signup_realname">
+            <input type="text" style="display:none;" name="signup_email">
+            <input type="password" style="display:none;" name="signup_password">
+            <p class="form"><input disabled class="input" name="signup_realname" placeholder="Name"></p>
+            <p class="form"><input disabled class="input" name="signup_email" type="email" placeholder="Email"></p>
+            <p class="form"><input disabled class="input" name="signup_password" type="password" placeholder="Password" autocomplete="new-password"></p>
+            <input disabled type="hidden" name="invite">
+            <input disabled type="hidden" name="org_invite">
+            <input disabled type="hidden" name="invite_url">
+            <p class="form"><button disabled type="submit" class="signup"><span>Sign up</span></button></p>
+            <p><small>By signing up, you agree to our <a href="/terms">Terms of Service</a></small></p>
+            <div class="userError"></div>
+        </form>
+    </div>
+</div>
+
+
+
+<div id="landingFooter">
+    <div class="landingContainer">
+        
+        <p>
+            <a href="/about" target="_blank">About</a>
+            <a href="/pricing" target="_blank">Pricing</a>
+            <a href="https://blog.irccloud.com/" target="_blank" rel="noreferrer">Blog</a>
+            <a href="/changelog" target="_blank">Changelog</a>
+            <a href="/faq" target="_blank">FAQ</a>
+            <a href="/jobs" target="_blank">Jobs</a>
+            <a href="https://github.com/irccloud/irccloud-tools/wiki/API-Overview" target="_blank" rel="noreferrer">API</a>
+        </p>
+        <p>
+            <a href="/terms" target="_blank">Terms of Service</a>
+            <a href="/privacy" target="_blank">Privacy Policy</a>
+            <a href="/networks" target="_blank">IP Addresses</a>
+            <a href="/abuse" target="_blank">Report Abuse</a>
+        </p>
+        <p>
+            <a href="https://x.com/irccloud" target="_blank" rel="noreferrer">@irccloud</a>
+            <a href="https://bsky.app/profile/irccloud.com" target="_blank" rel="noreferrer">Bluesky</a>
+            <a href="https://mastodon.social/@irccloud" target="_blank" rel="noreferrer">Mastodon</a>
+            <a href="mailto:team@irccloud.com">team@irccloud.com</a>
+        </p>
+        
+        <p>
+            <a href="https://itunes.apple.com/app/irccloud/id672699103" target="_blank" rel="noreferrer"><img src="/static/landing/store/apple.svg?v=20190424" width="135" height="45"></a>
+            <a href="https://play.google.com/store/apps/details?id=com.irccloud.android" target="_blank" rel="noreferrer"><img src="/static/landing/store/google.png?v=20190424" width="151" height="45"></a>
+        </p>
+        <p>
+            © 2026 IRCCloud Ltd.
+        </p>
+    </div>
+</div>
+
+<div id="forgotPasswordContainer" class="mainOverlay">
+    <div id="forgotPasswordContent" class="mainOverlayContent">
+        <h2><label for="forgotEmail">Enter your email to request a password reset</label></h2>
+        
+        <form action="" method="post" novalidate>
+            <p class="form">
+                <input id="forgotEmail" type="email" name="email" class="input" placeholder="Email">
+            </p>
+            <p class="form">
+                <button type="submit"><span>Request reset</span></button>
+                <button type="button" class="close"><span>Done</span></button>
+            </p>
+            
+            <p class="userError" tabindex="-1"></p>
+            <p class="userSuccess">We’ve sent you a password reset link. Check your email and follow the instructions to sign in.</p>
+        </form>
+    </div>
+</div>
+
+
+
+
+<!-- pre_js -->
+
+
+
+
+<script nonce="eeed27833abf360cccd9c181">
+if (window.entrypoint === undefined) window.entrypoint = "landing";
+
+window.WS_SOCKET_HOST = null;
+window.WS_SOCKET_PATH = null;
+window.API_HOST = "https:\/\/api-7.irccloud.com";
+window.Enterprise = false;
+window.IRCConfig = {
+    file_upload_domain: "usercontent.irccloud-cdn.com",
+    file_uri_template: "https:\/\/usercontent.irccloud-cdn.com\/file{\/modifiers,id,name}",
+    file_json_uri_template: "https:\/\/www.irccloud.com\/file\/json{\/id}",
+    avatar_uri_template: "https:\/\/usercontent.irccloud-cdn.com\/avatar{\/modifiers,id}",
+    avatar_redirect_uri_template: "https:\/\/www.irccloud.com\/avatar-redirect{\/modifiers,id}",
+    pastebin_uri_template: "https:\/\/www.irccloud.com\/pastebin{\/type,id,name}",
+    nickColors: 27,
+    static_path: "\/static",
+    appName: 'app-813676c8.js',
+    shard: null,
+    max_password_length: 65
+};
+
+window.IRCConfig.postmark_rebound_public_key = "4csaowzzefm2ney9gwz62m";
+
+
+
+
+</script>
+
+
+
+
+<!-- dep PROD -->
+<script src="/dep/jquery-3.7.1.min.js"></script>
+<script src="/dep/underscore-1.13.7-min.js"></script>
+<script src="/dep/backbone-1.6.0-min.js"></script>
+<script src="/dep/ace-src-min-noconflict-1.36.2/ace.js"></script>
+<script src="/dep/ace-src-min-noconflict-1.36.2/ext-modelist.js"></script>
+<script src="/dep/ace-src-min-noconflict-1.36.2/theme-chrome.js"></script>
+<script src="/dep/ace-src-min-noconflict-1.36.2/theme-cobalt.js"></script>
+<script src="/dep/ace-src-min-noconflict-1.36.2/theme-mono_industrial.js"></script>
+<script src="/dep/ace-src-min-noconflict-1.36.2/theme-solarized_dark.js"></script>
+<script src="/dep/ace-src-min-noconflict-1.36.2/theme-vibrant_ink.js"></script>
+<script src="/dep/ace-src-min-noconflict-1.36.2/theme-twilight.js"></script>
+
+
+
+<!-- vendor and webpack runtime bundles -->
+<script src="/build/runtime-0da33378.js"></script>
+<script src="/build/vendor-6aab7835.js"></script>
+
+<!-- libs bundle -->
+<script src="/build/libs-90beb021.js"></script>
+
+
+<!-- conf PROD -->
+<script src="/static/conf.prod.js"></script>
+
+
+<!-- common js bundle -->
+<script src="/build/common-5650bddb.js"></script>
+
+
+<!-- main app entry point bundle -->
+<script src="/build/app-813676c8.js"></script>
+
+
+
+
+<!-- post_js -->
+
+
+
+</body>
+
+</html>

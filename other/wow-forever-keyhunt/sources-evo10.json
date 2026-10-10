@@ -1,0 +1,257 @@
+{
+  "ts": 1789781812.638064,
+  "ts_et": "2026-09-18 21:36 ET",
+  "fresh_keys_lt_10m": [],
+  "stale_notable": [
+    {
+      "key": "4GVP-QQ4H-CX6CL-Q9PX-PVC3",
+      "continuous": "4GVPQQ4HCX6CLQ9PXPVC3",
+      "age_min_at_probe": 47,
+      "source": "https://www.reddit.com/r/wowclassic/comments/1wk7qla/",
+      "author": "notyetimpooping",
+      "note": "Posted as 4GVPQQ4HCX6CLQ9PXPXXX + replace XXX with vee see three \u2192 VC3; comments suggest taken; NOT <10m"
+    }
+  ],
+  "feeds": [
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=wow&limit=40&sort=desc",
+      "ms": 689,
+      "n": 40,
+      "ok": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=australian&limit=40&sort=desc",
+      "ms": 532,
+      "n": 40,
+      "ok": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=classicwow&limit=40&sort=desc",
+      "ms": 633,
+      "n": 40,
+      "ok": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=McdonaldsAustralia&limit=40&sort=desc",
+      "ms": 579,
+      "n": 40,
+      "ok": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=FreeGameFindings&limit=40&sort=desc",
+      "ms": 450,
+      "n": 40,
+      "ok": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=RandomActsOfGaming&limit=40&sort=desc",
+      "ms": 374,
+      "n": 40,
+      "ok": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=wow&limit=40&sort=desc",
+      "ms": 47,
+      "n": 40,
+      "ok": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=australian&limit=40&sort=desc",
+      "ms": 43,
+      "n": 40,
+      "ok": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=australia&limit=40&sort=desc",
+      "ms": 594,
+      "n": 40,
+      "ok": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=McdonaldsAustralia&limit=40&sort=desc",
+      "ms": 384,
+      "n": 40,
+      "ok": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=FreeGameFindings&limit=40&sort=desc",
+      "ms": 314,
+      "n": 40,
+      "ok": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=gamedeals&limit=40&sort=desc",
+      "ms": 878,
+      "n": 40,
+      "ok": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=RandomActsOfGaming&limit=40&sort=desc",
+      "ms": 706,
+      "n": 40,
+      "ok": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=classicwow&limit=40&sort=desc",
+      "ms": 838,
+      "n": 40,
+      "ok": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=wowclassic&limit=40&sort=desc",
+      "ms": 454,
+      "n": 40,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=wowclassic&limit=40&sort=desc",
+      "ms": 395,
+      "n": 40,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=sydney&limit=40&sort=desc",
+      "ms": 525,
+      "n": 40,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=sydney&limit=40&sort=desc",
+      "ms": 406,
+      "n": 40,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=brisbane&limit=40&sort=desc",
+      "ms": 486,
+      "n": 40,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=brisbane&limit=40&sort=desc",
+      "ms": 742,
+      "n": 40,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=perth&limit=40&sort=desc",
+      "ms": 330,
+      "n": 40,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=perth&limit=40&sort=desc",
+      "ms": 944,
+      "n": 40,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=wowservers&limit=40&sort=desc",
+      "ms": 472,
+      "n": 40,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=wowservers&limit=40&sort=desc",
+      "ms": 406,
+      "n": 40,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=melbourne&limit=40&sort=desc",
+      "ms": 300,
+      "n": 40,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=australia&limit=40&sort=desc",
+      "ms": 447,
+      "n": 40,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=AussieGaming&limit=40&sort=desc",
+      "ms": 180,
+      "n": 3,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://www.gamerpower.com/api/giveaways",
+      "ms": 64,
+      "n": 101,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://www.gamerpower.com/api/giveaways?type=beta",
+      "ms": 252,
+      "n": 4,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://www.gamerpower.com/rss/giveaways",
+      "ms": 48,
+      "n": 9920,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://www.gamerpower.com/rss/pc",
+      "ms": 42,
+      "n": 8569,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://us.forums.blizzard.com/en/wow/t/the-world-of-warcraft-forever-beta-now-live/2352596.json",
+      "ms": 644,
+      "n": 0,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://www.mmo-champion.com/content/14536-Warcraft-Forever-Collection-Giveaway",
+      "ms": 183,
+      "n": 126825,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://www.frugalfeeds.com.au/2026/mcdonalds-australia-offers-world-of-warcraft-forever-beta-key-for-1000-mymaccas-points/",
+      "ms": 327,
+      "n": 700439,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://press-start.com.au/news/2026/09/18/wow-forever-mcdonalds-promo/",
+      "ms": 77,
+      "n": 253243,
+      "ok": true,
+      "added_by": "evo10-deep"
+    },
+    {
+      "url": "https://t.me/s/wowforever",
+      "ms": 728,
+      "n": 29329,
+      "ok": true,
+      "added_by": "evo10-deep"
+    }
+  ],
+  "new_feed_count": 22,
+  "report": "/workspace/wow-forever-keyhunt/evolution-10-sources.md"
+}

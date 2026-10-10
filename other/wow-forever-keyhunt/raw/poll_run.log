@@ -1,0 +1,78 @@
+ROUND 1/6 ok_sources=12/19 fresh_lt10m=0 took=3.2s
+  {'label': 'arctic_body:MyMaccas', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_body:enjoy', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_body:freecode', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_thread', 'http': 200, 'n': 100, 'codes': 1, 'errors': 0}
+  {'label': 'redditjson', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:catsarch', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:opnxng', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:perennial', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'sentinel', 'http': 200, 'n': 2, 'codes': 1, 'errors': 1}
+ROUND 2/6 ok_sources=7/19 fresh_lt10m=0 took=2.8s
+  {'label': 'arctic_body:MyMaccas', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_body:enjoy', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_body:freecode', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_sub:australian', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_sub:classicwow', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_sub:wow', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_sub:wowclassic', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_thread', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redditjson', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:catsarch', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:opnxng', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:perennial', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'sentinel', 'http': 200, 'n': 2, 'codes': 1, 'errors': 1}
+ROUND 3/6 ok_sources=6/19 fresh_lt10m=0 took=20.0s
+  {'label': 'arctic_body:MyMaccas', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_body:enjoy', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_body:freecode', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_sub:australian', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_sub:classicwow', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_sub:wow', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_sub:wowclassic', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_thread', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'ozbargain:975129', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redditjson', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:catsarch', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:opnxng', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:perennial', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'sentinel', 'http': 200, 'n': 2, 'codes': 1, 'errors': 1}
+ROUND 4/6 ok_sources=12/19 fresh_lt10m=0 took=12.6s
+  {'label': 'arctic_body:MyMaccas', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_body:enjoy', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_body:freecode', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_thread', 'http': 200, 'n': 100, 'codes': 1, 'errors': 0}
+  {'label': 'redditjson', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:catsarch', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:opnxng', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:perennial', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'sentinel', 'http': 200, 'n': 2, 'codes': 1, 'errors': 1}
+ROUND 5/6 ok_sources=7/19 fresh_lt10m=0 took=2.8s
+  {'label': 'arctic_body:MyMaccas', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_body:enjoy', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_body:freecode', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_sub:australian', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_sub:classicwow', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_sub:wow', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_sub:wowclassic', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_thread', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redditjson', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:catsarch', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:opnxng', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:perennial', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'sentinel', 'http': 200, 'n': 2, 'codes': 1, 'errors': 1}
+ROUND 6/6 ok_sources=7/19 fresh_lt10m=0 took=4.1s
+  {'label': 'arctic_body:MyMaccas', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_body:enjoy', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_body:freecode', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_sub:australian', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_sub:classicwow', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_sub:wow', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_sub:wowclassic', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'arctic_thread', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redditjson', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:catsarch', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:opnxng', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'redlib:perennial', 'http': 0, 'n': 0, 'codes': 0, 'errors': 1}
+  {'label': 'sentinel', 'http': 200, 'n': 2, 'codes': 1, 'errors': 1}
+DONE fresh_total 0

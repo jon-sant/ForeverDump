@@ -1,0 +1,188 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="naver-site-verification" content="3a508505e9bf09f6b8b7abe782e34f3cc895eb65"/>
+<meta name="inven-site" content="common"/>
+<meta name="inven-sitename" content=""/>
+<meta property="og:title" content="페이지를 출력할 수 없습니다." />
+<meta id="inven-verification" name="inven-verification" content="lMv47f7i3so25w7FNI87Iw=="/>
+<title>페이지를 출력할 수 없습니다.</title>
+<link rel="stylesheet" type="text/css" href="https://www.inven.co.kr/common/lib/style/dist/quicklink.css?v=314578578a57f4e7e32a5bc085602849a"/>
+<link rel="stylesheet" type="text/css" href="https://www.inven.co.kr/common/lib/style/ad.css?v=05e79b2ba821212a69e3aaa0f06e48b0a"/>
+<script type="text/javascript"  src="https://www.inven.co.kr/common/lib/js/framework/jquery-1.7.2.min_new.js?v=20130113a"></script>
+<script type="text/javascript"  src="https://www.inven.co.kr/common/lib/js/common_new.js?v=43755b1e6985e963077d57e1d2dac2ac"></script>
+<script type="text/javascript"  src="https://www.inven.co.kr/common/lib/js/html_new.js"></script>
+<script type="text/javascript"  src="https://www.inven.co.kr/common/lib/js/layer.js?v=20220518"></script>
+<script type="text/javascript"  src="https://www.inven.co.kr/common/lib/js/xml_new.js?v=200117a"></script>
+<script type="text/javascript"  src="https://www.inven.co.kr/common/lib/js/booster.js"></script>
+<script type="text/javascript"  src="https://www.inven.co.kr/common/lib/js/browser.js?v=20200615"></script>
+<script type="text/javascript"  src="https://www.inven.co.kr/common/lib/js/quicklink.js?v=20260529"></script>
+<script type="text/javascript"  src="https://www.inven.co.kr/common/lib/js/invenFloatAlarm.js?v=15eb81a4e6c6d537ccb6401861d11895"></script>
+<script type="text/javascript"  src="https://www.inven.co.kr/common/lib/js/zicf.js?v=a349e0607e41fa844ea840f748838055"></script>
+<script type="text/javascript"  src="https://www.inven.co.kr/common/dataninfo/lib/js/tooltip.js?v=20250612a"></script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PXPMBT3V');</script><script type="text/javascript"  src="https://www.inven.co.kr/common/lib/js/popup.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www.inven.co.kr/common/lib/style/layout.css"/>
+<link rel="stylesheet" type="text/css" href="https://www.inven.co.kr/common/error/lib/style/common.css"/>
+<link rel="shortcut icon" type="image/x-icon" href="//static.inven.co.kr/image_2011/favicon_48x48.png?v=2">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-P0BBTC1DR3"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'G-P0BBTC1DR3');
+	</script>
+<script type="text/javascript">
+var linkback = linkback|| {};
+(function() {
+	var d = document, scr = d.createElement('script'), pro = d.location.protocol,
+	tar = d.getElementsByTagName('head')[0];
+	scr.type = 'text/javascript';  scr.async = true;
+	scr.src = ((pro === 'https:') ? 'https' : 'http') + '://linkback.contentsfeed.com/src/lb4iv.min.js?v=170111a';
+	scr.charset='utf-8';
+	if(!linkback.l){linkback.l=true; tar.insertBefore(scr, tar.firstChild);}
+})();
+</script>
+	
+	<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+	<script type="text/javascript">
+	    if(!wcs_add) var wcs_add = {};
+	    wcs_add["wa"] = "105811aa1e895d";
+	    wcs_do();
+	</script>
+
+
+</head>
+
+<body class="bPopup"><script type="text/javascript">
+document.domain = 'inven.co.kr';
+var COMMON = window.COMMON || {};
+COMMON.ErrorPage = window.COMMON.ErrorPage || {};
+COMMON.ErrorPage.retry = function() {
+	location.reload(true);
+}
+COMMON.ErrorPage.invenHome = function() {
+	location.href = 'https://www.inven.co.kr/';
+}
+COMMON.ErrorPage.prevPage = function() {
+	history.go(-1);
+}
+COMMON.ErrorPage.copyPostContent = function() {
+	var text = document.getElementById("comErrorPagePostValue").value;
+	if (window.clipboardData) {
+		window.clipboardData.setData("Text", text);
+	} else if (window.netscape) {
+		try {
+			netscape.security.PrivilegeManager.enablePrivilege('UniversalXPConnect');
+		} catch (e) {
+			alert("브라우저에서 클립보드 저장을 허용하지 않습니다. \n\n위의 내용을 선택하여 수동으로 복사하시기 바랍니다.");
+			return;
+		}
+
+		var clip = Components.classes['@mozilla.org/widget/clipboard;1'].createInstance(Components.interfaces.nsIClipboard);
+		if (!clip) return;
+
+		var trans = Components.classes['@mozilla.org/widget/transferable;1'].createInstance(Components.interfaces.nsITransferable);
+		if (!trans) return;
+
+		trans.addDataFlavor('text/unicode');
+
+		var str = new Object();
+		var len = new Object();
+
+		var str = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);
+
+		var copytext=text;
+
+		str.data=copytext;
+
+		trans.setTransferData("text/unicode",str,copytext.length*2);
+
+		var clipid=Components.interfaces.nsIClipboard;
+
+		if (!clip) return false;
+
+		clip.setData(trans,null,clipid.kGlobalClipboard);
+
+	}
+	//var textRange = document.getElementById("comErrorPagePostValue").createTextRange();
+	//textRange.execCommand("RemoveFormat");
+	//textRange.execCommand("Copy");
+	alert("전체 내용이 복사되었습니다.\n\n메모장 등에 붙여넣어서 글을 보관하실 수 있습니다.");
+}
+</script>
+<div class="centerWrap1">
+	<div class="centerWrap2 comErrorPageWrap">
+		<div id="comErrorPage">
+			<div class="wrap654GN1">
+				<div class="w654T"></div>
+				<div class="w654M errorPageBody">
+					<div class="errorDetail">
+						<h2>서비스 이용에 불편을 드려 대단히 죄송합니다.</h2>
+						<h3 class="cannotdisplay">요청하신 페이지를 표시할 수 없습니다.</h3>
+						<div class="desc wrap466WH1">
+							<div class="w466T"></div>
+							<div class="w466M">
+								<div class="content">
+									<div class="title">잘못된 접근입니다.</div>
+									<div class="message">입력하신 내용이나 주소가 잘못되었거나 일시적으로 처리가 불가능합니다.<br/>이전 페이지에서 다시 확인해 주시기 바랍니다.<br/>(일부 페이지는 이전 페이지로 이동하여도 전과 동일하지 않을 수 있습니다)<br/>궁금하신 사항은 help@inven.co.kr으로 문의해주세요.</div>
+																										</div>
+							</div>
+							<div class="w466B"></div>
+						</div>
+						<div class="buttons">
+							<input class="bttn95SL1" type="button" value="이전페이지" onfocus="this.blur();" onclick="COMMON.ErrorPage.prevPage();"/>							<input class="bttn171SL1" type="button" value="인벤 초기화면으로 가기" onfocus="this.blur();" onclick="COMMON.ErrorPage.invenHome();"/>													</div>
+											</div>
+					                    					<div class="siteList">
+						<h3 class="title643GN1">인벤사이트 바로 가기</h3>
+						<div class="list wrap622WH1">
+							<div class="w622T"></div>
+							<div class="w622M">
+								<div class="listBody">
+									<ul>
+																			<li><a href="https://www.invenglobal.com/" onfocus="this.blur();">InvenGlobal</a></li>
+																			<li><a href="https://www.inven.co.kr/" onfocus="this.blur();">웹진 인벤</a></li>
+																			<li><a href="https://enchantenter.co.kr/" onfocus="this.blur();">인챈트</a></li>
+																			<li><a href="https://it.inven.co.kr/" onfocus="this.blur();">IT 인벤</a></li>
+																			<li><a href="https://imart.inven.co.kr" onfocus="this.blur();">혜택.아이마트</a></li>
+																			<li><a href="https://igc.inven.co.kr/" onfocus="this.blur();">IGC</a></li>
+																			<li><a href="https://pubg.inven.co.kr/" onfocus="this.blur();">배틀그라운드</a></li>
+																			<li><a href="https://lineagem.inven.co.kr/" onfocus="this.blur();">리니지M</a></li>
+																		</ul>
+								</div>
+							</div>
+							<div class="w622B"></div>
+						</div>
+					</div>
+				</div>
+				<div class="w654B"></div>
+				<div style="width: 5px; height: 5px;" onclick="login();"></div>
+			</div>
+		</div>
+	</div>
+</div>
+                                    <script>
+function pageCheck() {
+	var h1 = document.body.clientWidth + 50;
+	var w1 = document.body.clientHeight + 50;
+	var h2 = document.body.scrollWidth;
+	var w2 = document.body.scrollHeight;
+	if ((h1 < h2) || (w1 < w2)) {
+		var obj = getObj('comErrorPage').parentNode.parentNode;
+		obj.style.height = document.body.clientHeight + 'px';
+		obj.style.overflow = 'auto';
+	}
+}
+addEvent(window, 'onload', pageCheck);
+</script>
+</body>
+</html>

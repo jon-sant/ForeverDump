@@ -1,0 +1,26 @@
+=== EVOLUTION 4 POLLER start 2026-09-19T01:20:09.647852+00:00 ===
+max_age_min=10.0 interval=1.0s sources=10 db_codes=29 (PARALLEL fetch)
+NO paid X API. Age on every alert. Older than gate = ignored.
+-- cycle 1/1 --
+  wall=2730ms alive=7/10 lat=101.6-2726.9ms tip_age_min=675.4 codes=1 ignored_old=1 alerts=0
+    [ALIVE] arctic_shift                 http=200    1245ms hits=  1 
+    [ALIVE] arctic_shift_alt             http=200    1233ms hits=  0 
+    [ALIVE] blizzard_wow_news            http=200     588ms hits=  0 
+    [ALIVE] icyveins_maccas              http=200     102ms hits=  0 
+    [ALIVE] libreddit_projectsegfau      http=200    2585ms hits=  0 
+    [dead ] oldreddit_json               http=200     564ms hits=  0 html_login_wall_or_empty
+    [dead ] oldreddit_short_json         http=200     553ms hits=  0 html_login_wall_or_empty
+    [ALIVE] ozbargain_front              http=200     590ms hits=  0 
+    [dead ] pullpush                     http=429    2727ms hits=  0 rate_limited
+    [ALIVE] redlib_privacyredirect       http=200     700ms hits=  0 
+=== EVO4 DONE cycles=1 ===
+NO FRESH CODES (nothing with age < 10.0 min).
+Last successful poll times (alive sources):
+  arctic_shift: 2026-09-19T01:20:12.378214+00:00
+  arctic_shift_alt: 2026-09-19T01:20:12.378214+00:00
+  blizzard_wow_news: 2026-09-19T01:20:12.378214+00:00
+  icyveins_maccas: 2026-09-19T01:20:12.378214+00:00
+  libreddit_projectsegfau: 2026-09-19T01:20:12.378214+00:00
+  ozbargain_front: 2026-09-19T01:20:12.378214+00:00
+  redlib_privacyredirect: 2026-09-19T01:20:12.378214+00:00
+Index tip_age_min=675.4 (comments older than gate ignored as taken)

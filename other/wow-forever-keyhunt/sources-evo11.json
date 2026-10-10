@@ -1,0 +1,421 @@
+{
+  "ts_et": "2026-09-18 21:44 ET",
+  "fresh_keys_lt_10m": [],
+  "skip_keys": [
+    "CVK5-F4DM-NBGJB-FF6H-LWQW"
+  ],
+  "confirmed_partner_mint": [
+    {
+      "name": "MyMacca Australia Partner Rewards \u2014 WoW Forever Beta Key",
+      "region": "AU",
+      "cost": "1000 MyMacca points",
+      "public_key_dump": false,
+      "secondary_dump_surface": "Reddit Arctic (global visibility)",
+      "claim_deadline_aedt": "2026-10-20 23:59",
+      "urls": [
+        "https://www.frugalfeeds.com.au/2026/mcdonalds-australia-offers-world-of-warcraft-forever-beta-key-for-1000-mymaccas-points/",
+        "https://www.icy-veins.com/wow-forever/news/wow-forever-beta-keys-are-now-a-mcdonalds-reward-in-australia/"
+      ]
+    }
+  ],
+  "us_analogs_found": [],
+  "microsoft_windows_xbox": {
+    "forever_key_promo_found": false,
+    "x_windows_scrapeable_without_paid_api": false,
+    "note": "Prior stub claimed @Windows key spam; this pass + evo10 could not verify via free web"
+  },
+  "feeds": [
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=wow&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=wow&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=wowclassic&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=wowclassic&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=classicwow&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=classicwow&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=australian&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=australian&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=australia&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=australia&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=McdonaldsAustralia&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=McdonaldsAustralia&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=FreeGameFindings&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=FreeGameFindings&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=RandomActsOfGaming&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=RandomActsOfGaming&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=GameGiveaway&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=GameGiveaway&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=gamedeals&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=gamedeals&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=pcmasterrace&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=pcmasterrace&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=wowservers&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=wowservers&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=sydney&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=sydney&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=brisbane&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=brisbane&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=perth&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=perth&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=CompetitiveWoW&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=CompetitiveWoW&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=SeasonofDiscovery&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=SeasonofDiscovery&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=woweconomy&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=woweconomy&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=FreeGamesOnSteam&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=FreeGamesOnSteam&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=steam_giveaway&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=steam_giveaway&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=AussieGaming&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?subreddit=AussieGaming&limit=40&sort=desc",
+      "category": "arctic_reddit",
+      "region": "global_dumps",
+      "partner_related": true
+    },
+    {
+      "url": "https://www.frugalfeeds.com.au/2026/mcdonalds-australia-offers-world-of-warcraft-forever-beta-key-for-1000-mymaccas-points/",
+      "category": "news_partner",
+      "note": "mymacca_news_au"
+    },
+    {
+      "url": "https://www.icy-veins.com/wow-forever/news/wow-forever-beta-keys-are-now-a-mcdonalds-reward-in-australia/",
+      "category": "news_partner",
+      "note": "mymacca_icyveins"
+    },
+    {
+      "url": "https://www.icy-veins.com/wow-forever/news/players-are-earning-wow-forever-beta-codes-by-buying-australians-mcdonalds/",
+      "category": "news_partner",
+      "note": "mymacca_trade_news"
+    },
+    {
+      "url": "https://press-start.com.au/news/2026/09/18/wow-forever-mcdonalds-promo/",
+      "category": "news_partner",
+      "note": "mymacca_pressstart"
+    },
+    {
+      "url": "https://www.wowhead.com/forever/guide/beta-content-unlock-overview",
+      "category": "news_partner",
+      "note": "wowhead_beta_access"
+    },
+    {
+      "url": "https://news.blizzard.com/en-us/article/24304160/the-world-of-warcraft-forever-beta-now-live",
+      "category": "news_partner",
+      "note": "blizzard_beta_live"
+    },
+    {
+      "url": "https://us.forums.blizzard.com/en/wow/t/the-world-of-warcraft-forever-beta-now-live/2352596.json",
+      "category": "news_partner",
+      "note": "blizzard_forums_json"
+    },
+    {
+      "url": "https://www.mmo-champion.com/content/14536-Warcraft-Forever-Collection-Giveaway",
+      "category": "news_partner",
+      "note": "mmoc_collection_giveaway_pm"
+    },
+    {
+      "url": "https://www.mmo-champion.com/content/14541-The-World-of-Warcraft-Forever-Beta-Now-Live",
+      "category": "news_partner",
+      "note": "mmoc_beta_news"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/rewards",
+      "category": "corporate_watch_negative",
+      "note": "ms_rewards",
+      "forever_keys_found": false
+    },
+    {
+      "url": "https://rewards.bing.com/",
+      "category": "corporate_watch_negative",
+      "note": "bing_rewards",
+      "forever_keys_found": false
+    },
+    {
+      "url": "https://news.xbox.com/en-us/",
+      "category": "corporate_watch_negative",
+      "note": "xbox_wire",
+      "forever_keys_found": false
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/geforce/rewards/",
+      "category": "corporate_watch_negative",
+      "note": "nvidia_rewards",
+      "forever_keys_found": false
+    },
+    {
+      "url": "https://www.logitechg.com/en-us/promo.html",
+      "category": "corporate_watch_negative",
+      "note": "logitech_promo",
+      "forever_keys_found": false
+    },
+    {
+      "url": "https://www.alienwarearena.com/",
+      "category": "corporate_watch_negative",
+      "note": "alienware_arena",
+      "forever_keys_found": false
+    },
+    {
+      "url": "https://gaming.amazon.com/",
+      "category": "corporate_watch_negative",
+      "note": "prime_gaming",
+      "forever_keys_found": false
+    },
+    {
+      "url": "https://blizzardwatch.com/2026/09/04/twitch-drops-blizzcon-2026/",
+      "category": "corporate_watch_negative",
+      "note": "twitch_drops_blizzcon_not_keys",
+      "forever_keys_found": false
+    },
+    {
+      "url": "https://www.gamerpower.com/api/giveaways",
+      "category": "aggregator"
+    },
+    {
+      "url": "https://www.gamerpower.com/api/giveaways?type=beta",
+      "category": "aggregator"
+    },
+    {
+      "url": "https://www.gamerpower.com/rss/giveaways",
+      "category": "aggregator"
+    },
+    {
+      "url": "https://www.gamerpower.com/rss/pc",
+      "category": "aggregator"
+    },
+    {
+      "url": "https://discord.com/api/v9/invites/wow?with_counts=true",
+      "category": "discord_public_meta_only",
+      "note": "discord_wow_invite_meta",
+      "messages_without_login": false
+    },
+    {
+      "url": "https://discord.com/api/v9/invites/warcraft?with_counts=true",
+      "category": "discord_public_meta_only",
+      "note": "discord_warcraft_invite_meta",
+      "messages_without_login": false
+    },
+    {
+      "url": "https://discord.com/api/v9/invites/classicwow?with_counts=true",
+      "category": "discord_public_meta_only",
+      "note": "discord_classicwow_invite_meta",
+      "messages_without_login": false
+    },
+    {
+      "url": "https://discord.com/servers/wow-forever-na-1528511731523915907",
+      "category": "discord_public_meta_only",
+      "note": "discord_forever_na_directory",
+      "messages_without_login": false
+    },
+    {
+      "url": "https://t.me/s/wowforever",
+      "category": "telegram_preview",
+      "note": "empty_rename_junk"
+    }
+  ],
+  "added_by": "evo11-partner-hunt",
+  "feed_count": 68
+}

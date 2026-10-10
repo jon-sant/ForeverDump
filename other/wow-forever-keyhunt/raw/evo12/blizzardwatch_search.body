@@ -1,0 +1,1041 @@
+<!DOCTYPE html><html lang="en"><head><script>var __ezHttpConsent={setByCat:function(src,tagType,attributes,category,force,customSetScriptFn=null){var setScript=function(){if(force||window.ezTcfConsent[category]){if(typeof customSetScriptFn==='function'){customSetScriptFn();}else{var scriptElement=document.createElement(tagType);scriptElement.src=src;attributes.forEach(function(attr){for(var key in attr){if(attr.hasOwnProperty(key)){scriptElement.setAttribute(key,attr[key]);}}});var firstScript=document.getElementsByTagName(tagType)[0];firstScript.parentNode.insertBefore(scriptElement,firstScript);}}};if(force||(window.ezTcfConsent&&window.ezTcfConsent.loaded)){setScript();}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){setScript();}else{console.error("cannot get ez consent data");force=true;setScript();}});}else{force=true;setScript();console.error("getEzConsentData is not a function");}},};</script>
+<script>var ezTcfConsent=window.ezTcfConsent?window.ezTcfConsent:{loaded:false,store_info:false,develop_and_improve_services:false,measure_ad_performance:false,measure_content_performance:false,select_basic_ads:false,create_ad_profile:false,select_personalized_ads:false,create_content_profile:false,select_personalized_content:false,understand_audiences:false,use_limited_data_to_select_content:false,};function getEzConsentData(){return new Promise(function(resolve){document.addEventListener("ezConsentEvent",function(event){var ezTcfConsent=event.detail.ezTcfConsent;resolve(ezTcfConsent);});});}</script>
+<script>if(typeof _setEzCookies!=='function'){function _setEzCookies(ezConsentData){var cookies=window.ezCookieQueue;for(var i=0;i<cookies.length;i++){var cookie=cookies[i];if(ezConsentData&&ezConsentData.loaded&&ezConsentData[cookie.tcfCategory]){document.cookie=cookie.name+"="+cookie.value;}}}}
+window.ezCookieQueue=window.ezCookieQueue||[];if(typeof addEzCookies!=='function'){function addEzCookies(arr){window.ezCookieQueue=[...window.ezCookieQueue,...arr];}}
+addEzCookies([{name:"ezoab_681776",value:"mod1; Path=/; Domain=blizzardwatch.com; Expires=Sat, 19 Sep 2026 03:47:04 UTC",tcfCategory:"store_info",isEzoic:"true",},{name:"ezoab_681776",value:"mod1; Path=/; Domain=blizzardwatch.com; Max-Age=7200",tcfCategory:"store_info",isEzoic:"true",},{name:"ezoid",value:"eba2c406-c630-4d2e-89a5-d1396933dcd8; Path=/; Domain=ezoic.net; Max-Age=31536000; SameSite=None; Secure; HttpOnly",tcfCategory:"store_info",isEzoic:"true",},{name:"ezoid",value:"eba2c406-c630-4d2e-89a5-d1396933dcd8; Path=/; Max-Age=31536000; SameSite=None; Secure; HttpOnly",tcfCategory:"store_info",isEzoic:"true",}]);if(window.ezTcfConsent&&window.ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else{console.error("cannot get ez consent data");_setEzCookies(window.ezTcfConsent);}});}else{console.error("getEzConsentData is not a function");_setEzCookies(window.ezTcfConsent);}</script><script type="text/javascript" data-ezscrex='false' data-cfasync='false'>window._ezaq = Object.assign({"edge_cache_status":11,"edge_response_time":3445,"url":"https://blizzardwatch.com/?s=forever+beta"}, typeof window._ezaq !== "undefined" ? window._ezaq : {});</script><script type="text/javascript" data-ezscrex='false' data-cfasync='false'>window._ezaq = Object.assign({"ab_test_id":"mod1"}, typeof window._ezaq !== "undefined" ? window._ezaq : {});window.__ez=window.__ez||{};window.__ez.tf={"VideoBidderPolicySerialization":"enabled","vactsv3":"true","vdurbandit2":"true"};window.__ez=window.__ez||{};window.__ez.fs={"ACFloorTSV2Split":"off","ACFloorTSV3Split":"true","ADXHardFloorsSplit":"true","AdaptiveExclusion":"false","AffiliateWidgets":"true","AllowMultipleBigAdsAboveFold":"false","AnchorExpansionBanditSplit":"true","BidderScaleTSSplit":"off","CenteredAds":"false","DirectRenderBanditSplit":"false","DirectRenderDoseSplit":"off","DirectRenderFloormultHoldoutSplit":"off","DirectRenderLowGridSplit":"off","DirectRenderPt4ThresholdSplit":"off","DurationBanditV2Split":"true","EscalationDownround":"true","EscalationEarlyGam":"true","EscalationHighFloorDownround":"true","EscalationMidFloorDownround":"true","EscalationS2sLowFloor":"true","EscalationS2sMidFloor":"true","EscalationUpwalkMap2":"true","FloatingInterstitialBanditSplit":"true","FloorBanditSplit":"true","FloorEscalation":"false","FlyingCarpet":"false","HbFloorBanditSplit":"true","LazyloadBanditSplit":"true","MonopolyReserveFloorSplit":"true","OutstreamAspectBanditV3Split":"control","OutstreamBidderInclusionCurve":"standard","OutstreamBidderInclusionSplit":"false","OutstreamReserveBanditSplit":"true","OutstreamTSV2Split":"true","PoolAuctionLockDomain":"false","RefreshFloorBanditSplit":"true","SizeBanditSplit":"false","SyncFrequencyCap":"true","SyncSpacing":"true","TSDepthScaleSplit":"true","TimeoutBanditSplit":"true","VideoBidderPolicyHoldbackSplit":"off","VideoStackLazy":"true"};window.__ez.fss='209084369';</script><script type="text/javascript" data-ezscrex='false' data-cfasync='false'>window.ezDisableAds = true;</script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={};__ez.script={};__ez.ck=__ez.ck||{};__ez.template={};__ez.template.isOrig=true;__ez.queue=__ez.queue||function(){var e=0,i=0,t=[],n=!1,o=[],r=[],s=!0,a=function(e,i,n,o,r,s,a){var l=arguments.length>7&&void 0!==arguments[7]?arguments[7]:window,d=this;this.name=e,this.funcName=i,this.parameters=null===n?null:w(n)?n:[n],this.isBlock=o,this.blockedBy=r,this.deleteWhenComplete=s,this.isError=!1,this.isComplete=!1,this.isInitialized=!1,this.proceedIfError=a,this.fWindow=l,this.isTimeDelay=!1,this.process=function(){f("... func = "+e),d.isInitialized=!0,d.isComplete=!0,f("... func.apply: "+e);var i=d.funcName.split("."),n=null,o=this.fWindow||window;i.length>3||(n=3===i.length?o[i[0]][i[1]][i[2]]:2===i.length?o[i[0]][i[1]]:o[d.funcName]),null!=n&&n.apply(null,this.parameters),!0===d.deleteWhenComplete&&delete t[e],!0===d.isBlock&&(f("----- F'D: "+d.name),p())}},l=function(e,i,t,n,o,r,s){var a=arguments.length>7&&void 0!==arguments[7]?arguments[7]:window,l=this;this.name=e,this.path=i,this.async=o,this.defer=r,this.isBlock=t,this.blockedBy=n,this.isInitialized=!1,this.isError=!1,this.isComplete=!1,this.proceedIfError=s,this.fWindow=a,this.isTimeDelay=!1,this.isPath=function(e){return"/"===e[0]&&"/"!==e[1]},this.getSrc=function(e){return void 0!==window.__ezScriptHost&&this.isPath(e)?window.__ezScriptHost+e:e},this.process=function(){l.isInitialized=!0,f("... file = "+e);var i=this.fWindow?this.fWindow.document:document,t=i.createElement("script");t.src=this.getSrc(this.path),!0===o?t.async=!0:!0===r&&(t.defer=!0),t.onerror=function(){var e={url:window.location.href,name:l.name,path:l.path,user_agent:window.navigator.userAgent};"undefined"!=typeof _ezaq&&(e.pageview_id=_ezaq.page_view_id);var i=encodeURIComponent(JSON.stringify(e)),t=new XMLHttpRequest;t.open("GET","//g.ezoic.net/ezqlog?d="+i,!0),t.send(),f("----- ERR'D: "+l.name),l.isError=!0,!0===l.isBlock&&p()},t.onreadystatechange=t.onload=function(){var e=t.readyState;f("----- F'D: "+l.name),e&&!/loaded|complete/.test(e)||(l.isComplete=!0,!0===l.isBlock&&p())},i.getElementsByTagName("head")[0].appendChild(t)}},d=function(e,i){this.name=e,this.path="",this.async=!1,this.defer=!1,this.isBlock=!1,this.blockedBy=[],this.isInitialized=!0,this.isError=!1,this.isComplete=i,this.proceedIfError=!1,this.isTimeDelay=!1,this.process=function(){}};function c(e,i,n,s,a,d,c,u,f){var p=new l(e,i,n,s,a,d,c,f);!0===u?o[e]=p:r[e]=p,t[e]=p,h(p)}function h(e){!0!==u(e)&&0!=s&&e.process()}function u(e){if(!0===e.isTimeDelay&&!1===n)return f(e.name+" blocked = TIME DELAY!"),!0;if(w(e.blockedBy))for(var i=0;i<e.blockedBy.length;i++){var o=e.blockedBy[i];if(!1===t.hasOwnProperty(o))return f(e.name+" blocked = "+o),!0;if(!0===e.proceedIfError&&!0===t[o].isError)return!1;if(!1===t[o].isComplete)return f(e.name+" blocked = "+o),!0}return!1}function f(e){var i=window.location.href,t=new RegExp("[?&]ezq=([^&#]*)","i").exec(i);"1"===(t?t[1]:null)&&console.debug(e)}function p(){++e>200||(f("let's go"),m(o),m(r))}function m(e){for(var i in e)if(!1!==e.hasOwnProperty(i)){var t=e[i];!0===t.isComplete||u(t)||!0===t.isInitialized||!0===t.isError?!0===t.isError?f(t.name+": error"):!0===t.isComplete?f(t.name+": complete already"):!0===t.isInitialized&&f(t.name+": initialized already"):t.process()}}function w(e){return"[object Array]"==Object.prototype.toString.call(e)}return window.addEventListener("load",(function(){setTimeout((function(){n=!0,f("TDELAY -----"),p()}),5e3)}),!1),{addFile:c,addFileOnce:function(e,i,n,o,r,s,a,l,d){t[e]||c(e,i,n,o,r,s,a,l,d)},addDelayFile:function(e,i){var n=new l(e,i,!1,[],!1,!1,!0);n.isTimeDelay=!0,f(e+" ...  FILE! TDELAY"),r[e]=n,t[e]=n,h(n)},addFunc:function(e,n,s,l,d,c,u,f,p,m){!0===c&&(e=e+"_"+i++);var w=new a(e,n,s,l,d,u,f,m);!0===p?o[e]=w:r[e]=w,t[e]=w,h(w)},addDelayFunc:function(e,i,n){var o=new a(e,i,n,!1,[],!0,!0);o.isTimeDelay=!0,f(e+" ...  FUNCTION! TDELAY"),r[e]=o,t[e]=o,h(o)},items:t,processAll:p,setallowLoad:function(e){s=e},markLoaded:function(e){if(e&&0!==e.length){if(e in t){var i=t[e];!0===i.isComplete?f(i.name+" "+e+": error loaded duplicate"):(i.isComplete=!0,i.isInitialized=!0)}else t[e]=new d(e,!0);f("markLoaded dummyfile: "+t[e].name)}},logWhatsBlocked:function(){for(var e in t)!1!==t.hasOwnProperty(e)&&u(t[e])}}}();__ez.evt.add=function(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n):delete e["on"+t]};__ez.script.add=function(e){var t=document.createElement("script");t.src=e,t.async=!0,t.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(t)};__ez.dot=__ez.dot||{};__ez.queue.addFileOnce('/detroitchicago/boise.js', '/detroitchicago/boise.js?gcb=195-2&cb=5', true, [], true, false, true, false);__ez.queue.addFileOnce('/parsonsmaize/abilene.js', '/parsonsmaize/abilene.js?gcb=195-2&cb=651274f0d1', true, [], true, false, true, false);__ez.queue.addFileOnce('/parsonsmaize/mulvane.js', '/parsonsmaize/mulvane.js?gcb=195-2&cb=e75e48eec0', true, ['/parsonsmaize/abilene.js'], true, false, true, false);__ez.queue.addFileOnce('/detroitchicago/birmingham.js', '/detroitchicago/birmingham.js?gcb=195-2&cb=c4ed651ab8', true, ['/parsonsmaize/abilene.js'], true, false, true, false);</script>
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">window._ezaq = Object.assign({"ad_cache_level":0,"adpicker_placement_cnt":0,"ai_placeholder_cache_level":0,"ai_placeholder_placement_cnt":-1,"domain":"blizzardwatch.com","domain_id":681776,"ezcache_level":0,"ezcache_skip_code":14,"has_bad_image":0,"has_bad_words":0,"is_sitespeed":0,"lt_cache_level":0,"response_size":76271,"response_size_orig":70534,"response_time_orig":3440,"template_id":5,"url":"https://blizzardwatch.com/?s=forever+beta","word_count":0,"worst_bad_word_level":0}, typeof window._ezaq !== "undefined" ? window._ezaq : {});__ez.queue.markLoaded('ezaqBaseReady');if(window._ezaq&&window._ezaq.page_view_id==="01a0b758-7aab-7bf3-bb5c-6e2a28f34a8f"){window.__ezPvSig=window.__ezPvSig||"tll8yj.466ef205313d933fcf0cac785468df0d";}</script>
+<script type='text/javascript' data-ezscrex='false' data-cfasync='false'>
+window.ezAnalyticsStatic = true;
+
+function analyticsAddScript(script) {
+	var ezDynamic = document.createElement('script');
+	ezDynamic.type = 'text/javascript';
+	ezDynamic.innerHTML = script;
+	document.head.appendChild(ezDynamic);
+}
+function getCookiesWithPrefix() {
+    var allCookies = document.cookie.split(';');
+    var cookiesWithPrefix = {};
+
+    for (var i = 0; i < allCookies.length; i++) {
+        var cookie = allCookies[i].trim();
+
+        for (var j = 0; j < arguments.length; j++) {
+            var prefix = arguments[j];
+            if (cookie.indexOf(prefix) === 0) {
+                var cookieParts = cookie.split('=');
+                var cookieName = cookieParts[0];
+                var cookieValue = cookieParts.slice(1).join('=');
+                cookiesWithPrefix[cookieName] = decodeURIComponent(cookieValue);
+                break; // Once matched, no need to check other prefixes
+            }
+        }
+    }
+
+    return cookiesWithPrefix;
+}
+function getOrMintFss() {
+	var UINT32_MAX = 4294967295;
+	var UINT32_DECIMAL = /^\d{1,10}$/;
+	function ensureEz() {
+		if (!window.__ez || typeof window.__ez !== 'object') {
+			window.__ez = {};
+		}
+		return window.__ez;
+	}
+	function isValidUint32String(value) {
+		if (typeof value !== 'string' || !value) {
+			return false;
+		}
+		if (!UINT32_DECIMAL.test(value)) {
+			return false;
+		}
+		return Number(value) <= UINT32_MAX;
+	}
+	if (window.__ez && isValidUint32String(window.__ez.fss)) {
+		return window.__ez.fss;
+	}
+	var cookieStr = '';
+	try {
+		cookieStr = document.cookie;
+	} catch (err) {
+		cookieStr = '';
+	}
+	if (cookieStr && typeof cookieStr === 'string') {
+		var parts = cookieStr.split(';');
+		for (var i = 0; i < parts.length; i++) {
+			var part = parts[i];
+			var eq = part.indexOf('=');
+			if (eq === -1) {
+				continue;
+			}
+			var name = part.slice(0, eq).trim();
+			if (name.indexOf('ezfs_') !== 0) {
+				continue;
+			}
+			var raw = part.slice(eq + 1).trim();
+			var value;
+			try {
+				value = decodeURIComponent(raw);
+			} catch (err) {
+				continue;
+			}
+			if (!isValidUint32String(value)) {
+				continue;
+			}
+			ensureEz().fss = value;
+			return value;
+		}
+	}
+	var seed;
+	if (
+		typeof crypto !== 'undefined' &&
+		typeof crypto.getRandomValues === 'function' &&
+		typeof Uint32Array === 'function'
+	) {
+		seed = crypto.getRandomValues(new Uint32Array(1))[0];
+	} else {
+		seed = Math.floor(Math.random() * 4294967296);
+	}
+	var minted = String(seed >>> 0);
+	ensureEz().fss = minted;
+	return minted;
+}
+function productAnalytics() {
+	var d = {"pr":[6],"omd5":"f49d7b467c927e16767bb192094b00b7","nar":"risk score","fs_seed":"209084369"};
+	d.u = _ezaq.url;
+	d.p = _ezaq.page_view_id;
+	d.v = _ezaq.visit_uuid;
+	d.ab = _ezaq.ab_test_id;
+	d.e = JSON.stringify(_ezaq);
+	d.ref = document.referrer;
+	d.dw = document.documentElement.clientWidth || window.innerWidth || 0;
+	d.dh = window.screen.height || 0;
+	d.vpw = window.innerWidth || document.documentElement.clientWidth || 0;
+	d.vph = window.innerHeight || document.documentElement.clientHeight || 0;
+	d.doch = Math.max((document.body && document.body.scrollHeight) || 0, (document.documentElement && document.documentElement.scrollHeight) || 0, (document.body && document.body.offsetHeight) || 0, (document.documentElement && document.documentElement.offsetHeight) || 0, (document.body && document.body.clientHeight) || 0, (document.documentElement && document.documentElement.clientHeight) || 0);
+	d.c = getCookiesWithPrefix('active_template', 'ez', 'lp_');
+	if(typeof ez_utmParams !== 'undefined') {
+		d.utm = ez_utmParams;
+	}
+	d.qs = window.location.search;
+	if (typeof d.fs_seed === 'string' && d.fs_seed && (!window.__ez || !window.__ez.fss)) {
+		if (!window.__ez || typeof window.__ez !== 'object') {
+			window.__ez = {};
+		}
+		window.__ez.fss = d.fs_seed;
+	}
+	d.fs_seed = getOrMintFss();
+
+	var dataText = JSON.stringify(d);
+	var xhr = new XMLHttpRequest();
+	xhr.open('POST','/ezais/analytics?cb=1', true);
+	xhr.onload = function () {
+		if (xhr.status!=200) {
+            return;
+		}
+
+        if(document.readyState !== 'loading') {
+            analyticsAddScript(xhr.response);
+            return;
+        }
+
+        var eventFunc = function() {
+            if(document.readyState === 'loading') {
+                return;
+            }
+            document.removeEventListener('readystatechange', eventFunc, false);
+            analyticsAddScript(xhr.response);
+        };
+
+        document.addEventListener('readystatechange', eventFunc, false);
+	};
+	xhr.setRequestHeader('Content-Type','text/plain');
+	xhr.send(dataText);
+}
+__ez.queue.addFunc("productAnalytics", "productAnalytics", null, true, ['ezaqBaseReady'], false, false, false, true);
+</script><base href="https://blizzardwatch.com/?s=forever+beta"/>
+        <title>You searched for forever beta | Blizzard Watch</title>
+	    
+        <meta name="viewport" content="width=device-width"/>
+	    <link rel="icon" type="image/gif" href="/wp-content/themes/blizzardwatch/static/img/blizzard-watch-icon.png"/>
+        <link href="/wp-content/themes/blizzardwatch/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	    <link href="//fonts.googleapis.com/css?family=Lato:300,400,700|Droid+Serif:400,700" rel="stylesheet" type="text/css"/>
+
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="/wp-content/themes/blizzardwatch/static/js/jquery.waypoints.min.js"></script>
+        <script src="/wp-content/themes/blizzardwatch/static/js/bootstrap.min.js"></script>
+        <script src="/wp-content/themes/blizzardwatch/static/js/jquery.hoverIntent.minified.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
+        <script src="https://use.fontawesome.com/7d99be1acd.js"></script>
+
+        <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css"/>
+        <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-flat.css"/>
+        <link href="//cdn.blizzardwatch.com/wp-content/themes/blizzardwatch/static/css/featherlight.min.css" rel="stylesheet" type="text/css"/>
+        <link href="//cdn.blizzardwatch.com/wp-content/themes/blizzardwatch/static/css/ionicons.min.css" rel="stylesheet" type="text/css"/>
+
+       <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-59192487-1', 'auto');
+        ga('send', 'pageview');
+        </script>
+	
+	<script async="" custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
+
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <meta name="twitter:card" content="summary_large_image"/>
+                <meta name="twitter:site" content="@blizzardwatch"/>
+                <meta name="twitter:title" content="How to join the World of Warcraft: Forever beta, which starts on September 17 after the WoW Live Q&amp;A"/>
+                <meta name="twitter:description" content="World of Warcraft: Forever is bringing new and expanded content and gameplay to Classic Azeroth when it launches worldwide on November 4, 2026 as part of your regular World of Warcraft subscription, no additional purchase necessary! If you just can&#39;t wait for November, there&#39;s an opportunity to get in early because the WoW: Forever beta testing begins on September 17, 2026 after the World of Warcraft Live Q&amp;A 10:30 am PDT segment on WoW: Forever, and will run through October 21, 2026.
+
+There are two ways to join the WoW: Forever beta. The first way is to sign up on the WoW: Forever web page under the opt-in button."/>
+                <meta name="twitter:image" content="https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-hyjal-zone.jpg"/>
+            
+		<script>
+        function getCookie( name ) {
+            var dc,
+                prefix,
+                begin,
+                end;
+
+            dc = document.cookie;
+            prefix = name + "=";
+            begin = dc.indexOf("; " + prefix);
+            end = dc.length; // default to end of the string
+
+            // found, and not in first position
+            if (begin !== -1) {
+                // exclude the "; "
+                begin += 2;
+            } else {
+                //see if cookie is in first position
+                begin = dc.indexOf(prefix);
+                // not found at all or found as a portion of another cookie name
+                if (begin === -1 || begin !== 0 ) return null;
+            } 
+
+            // if we find a ";" somewhere after the prefix position then "end" is that position,
+            // otherwise it defaults to the end of the string
+            if (dc.indexOf(";", begin) !== -1) {
+                end = dc.indexOf(";", begin);
+            }
+
+            return decodeURI(dc.substring(begin + prefix.length, end) ).replace(/"/g, ''); 
+        }
+        </script>
+
+        <script src="/wp-content/themes/blizzardwatch/static/js/blizzardwatch.js"></script>
+
+		<script>
+		if( getCookie( 'bw_patron_pledge') == null ) {
+		}
+		</script>
+
+        <style>
+            @media (min-width: 979px) {
+                  #bw_affixed_ad.affix-top {
+                    position: static;
+                    width: 338px;
+                    padding-left: 13px;
+                    -webkit-transition: all .5s ease-in-out;
+                    transition: all .5s ease-in-out;
+                  }
+                  
+                  #bw_affixed_ad.affix {
+                    position: fixed;
+                    top: 100px;
+                    width: 338px;
+                    -webkit-transition: all .5s ease-in-out;
+                    transition: all .5s ease-in-out;
+                  }
+
+                  #bw_affixed_ad.affix-bottom {
+                    position: absolute;
+                    width: 338px;
+                  }
+            }
+
+            .affix,.affix-top {
+               position:static;
+            }
+
+            .bw_login_container {
+                max-width: 1200px;
+                margin: 0 auto 4px;
+                height: 25px;
+            }
+
+            .bw_login_box {
+                color: white;
+                background: #3a7abe;
+                float: right;
+                padding: 3px 5px 3px 7px;
+                font-size: 12px;
+                font-family: 'lato';
+                letter-spacing: 1px;
+                font-weight: bold;
+            }
+
+            .bw_login_box>a {
+                color: white;
+                text-decoration: none;
+            }
+
+            .bw_login_box>a:hover {
+                color: white;
+                text-decoration: underline;
+            }
+
+            .bw_login_box>a:visited {
+                color: white;
+                text-decoration: none;
+            }
+
+            .bw_login_box>a:active {
+                color: white;
+                text-decoration: none;
+            }
+
+            #wp-discord .wpd-info a {
+                background: #3a7abe !important;
+            }
+
+            .bw_standard_border_radius {
+                border-radius: 9px;
+            }
+
+            .bw-button {
+                background: #3a7abe !important;
+                color: white !important;
+            }
+
+            .bw-button>a {
+                background: #3a7abe !important;
+                color: white !important;
+            }
+
+            .bw-button>a:hover {
+                background: #3a7abe !important;
+                color: white !important;
+            }
+
+            .bw-button>a:visited {
+                background: #3a7abe !important;
+                color: white !important;
+            }
+
+            .bw-button>a:active {
+                background: #3a7abe !important;
+                color: white !important;
+            }
+
+            .patreon-sidebar {
+                margin-top: 15px;
+                background: #3a7abe;
+                padding: 5px;
+                font-family: 'lato';
+                color: white;
+            }
+
+            .patreon-sidebar a {
+                color: white;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            .patreon-sidebar a:hover {
+                color: white;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            .patreon-sidebar a:visited {
+                color: white;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            .patreon-sidebar a:active {
+                color: white;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            #wp-discord {
+                -webkit-border-radius: 0 !important;
+                -moz-border-radius: 0 !important;
+                border-radius: 0 !important;
+            }
+        </style>
+
+        <!-- Venatus Ad Manager - Install in <HEAD> of page -->
+        <script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="5bd98af246e0fb0001445bab" data-mode="scan" async=""></script>
+        <script async="" type="text/javascript" src="//c.jsrdn.com/s/cs.js?p=22594"> </script>
+        
+        <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+        <script>
+          var googletag = googletag || {};
+          googletag.cmd = googletag.cmd || [];
+        </script>
+
+        
+        <script>
+        var post_type = 'post';
+        
+        $( document ).ready(function() {
+            if( getCookie( 'bw_patron_pledge') != null ) { 
+                setTimeout(function(){
+                    console.log( "removed" );
+                    $('#top_container').prev().remove();
+                }, 1000);
+            }
+        } );
+
+        </script>
+
+         <!-- Google Tag Manager -->
+         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PNM29CK');</script>
+        <!-- End Google Tag Manager -->
+    	<!-- BEGIN CPMSTAR ANCHOR AD CODE -->
+<script type="text/javascript">
+var cpmstar_anchorad_settings = {
+poolid: 87736, //Pool ID assigned by CPMStar
+dir: 1
+};
+
+(function (d, t, s) { t = d.createElement('script'); t.type = 'text/javascript'; t.src = (d.location.protocol == 'https:'?'//server':'//cdn') + '.cpmstar.com/cached/js/anchorad_v100.pack.js'; t.async = true; s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(t, s); })(document, {}, {});
+</script>
+<!-- END CPMSTAR ANCHOR AD CODE -->
+<!-- ZONETAG - PLACE INTO HEAD SECTION OR RUN CODE AT STARTUP -->
+<script>
+(function(zonefile) { 
+var y="cpmstarx";
+var drutObj = window[y] = window[y] || {};
+function failCpmstarAPI() { var failFn = function(o) { o && typeof(o) === "object" && o.fail && o.fail(); }; drutObj && Array.isArray(drutObj.cmd) && drutObj.cmd.forEach(failFn) && (drutObj.cmd.length = 0);  window.cpmstarAPI = window["_"+zonefile] = failFn; }
+var rnd = Math.round(Math.random()*999999);
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.onerror=failCpmstarAPI;
+var proto = document.location.protocol;
+var host = ( proto == "https:" || proto == "file:")?"https://server":"//cdn";
+if(window.location.hash=="#cpmstarDev") host = "//dev.server";
+if(window.location.hash=="#cpmstarStaging") host = "//staging.server"; 
+s.src = host + ".cpmstar.com/cached/zonefiles/" + zonefile + ".js?rnd="+rnd; 
+var s2=document.getElementsByTagName('script')[0];
+s2.parentNode.insertBefore(s, s2);
+window.cpmstarAPI = function(o) { (drutObj.cmd = drutObj.cmd || []).push(o); }
+}('1002_53795_banners'));
+</script>
+	    <meta name="robots" content="noindex, follow, max-image-preview:large"/>
+
+
+<meta name="robots" content="noindex,follow"/>
+<link rel="canonical" href="https://blizzardwatch.com/search/forever+beta/"/>
+<link rel="next" href="https://blizzardwatch.com/search/forever+beta/page/2/"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:type" content="object"/>
+<meta property="og:title" content="You searched for forever beta | Blizzard Watch"/>
+<meta property="og:url" content="https://blizzardwatch.com/search/forever+beta/"/>
+<meta property="og:site_name" content="Blizzard Watch"/>
+
+
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net"/>
+<link rel="dns-prefetch" href="//www.googletagmanager.com"/>
+<link rel="dns-prefetch" href="//s.w.org"/>
+<link rel="dns-prefetch" href="//pagead2.googlesyndication.com"/>
+<link rel="stylesheet" id="main-style-css" href="https://blizzardwatch.com/wp-content/themes/blizzardwatchv1.1/static/css/main.css?v=2&amp;ver=5.9.17" type="text/css" media="all"/>
+<link rel="stylesheet" id="main-style-new-css" href="https://blizzardwatch.com/wp-content/themes/blizzardwatchv1.1/static/css/new-bw-css.css?v=2&amp;ver=5.9.17" type="text/css" media="all"/>
+<link rel="stylesheet" id="slider_css-css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css?ver=5.9.17" type="text/css" media="all"/>
+<link rel="stylesheet" id="wp-block-library-css" href="https://blizzardwatch.com/wp-includes/css/dist/block-library/style.min.css?ver=5.9.17" type="text/css" media="all"/>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel="stylesheet" id="arve-main-css" href="https://blizzardwatch.com/wp-content/plugins/advanced-responsive-video-embedder/build/main.css?ver=a2e3e8488d9dd3229f145053c8f03dae" type="text/css" media="all"/>
+<link rel="stylesheet" id="blizzard-quotes-custom-css-css" href="https://blizzardwatch.com/wp-content/plugins/blizzard-quotes/css/style.css?ver=5.9.17" type="text/css" media="all"/>
+<link rel="stylesheet" id="wp-discord-css" href="https://blizzardwatch.com/wp-content/plugins/wp-discord/public/css/wp-discord.css?ver=0.4.3" type="text/css" media="all"/>
+<link rel="stylesheet" id="wp-night-mode-css" href="https://blizzardwatch.com/wp-content/plugins/wp-night-mode/public/css/wp-night-mode-public.css?ver=1.0.0" type="text/css" media="all"/>
+<link rel="stylesheet" id="scss-css" href="https://blizzardwatch.com/wp-content/cache/busting/1/sccss.css?ver=1785908391" type="text/css" media="all"/>
+<script type="text/javascript" src="https://blizzardwatch.com/wp-content/themes/BlizzardWatch/static/js/bw-ads.js?ver=5.9.17" id="bw_general-js"></script>
+<script type="text/javascript" src="https://blizzardwatch.com/wp-content/themes/BlizzardWatch/static/js/js.cookie.js?ver=5.9.17" id="bw_cookie-js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js?ver=5.9.17" id="slider_js-js"></script>
+<script async="async" type="text/javascript" src="https://blizzardwatch.com/wp-content/plugins/advanced-responsive-video-embedder/build/main.js?ver=a2e3e8488d9dd3229f145053c8f03dae" id="arve-main-js"></script>
+<script type="text/javascript" src="https://blizzardwatch.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://blizzardwatch.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://blizzardwatch.com/wp-content/plugins/wp-discord/public/js/wp-discord.js?ver=0.4.3" id="wp-discord-js"></script>
+<script type="text/javascript" id="wp-night-mode-js-extra">
+/* <![CDATA[ */
+var wpnmObject = {"button_html":"<div class=\"wpnm-button style-1\">\n                            <div class=\"wpnm-slider round\"><\/div>\n                        <\/div>","default":"","server_time":"1789782427","turn_on_time":"","turn_off_time":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://blizzardwatch.com/wp-content/plugins/wp-night-mode/public/js/wp-night-mode-public.js?ver=1.0.0" id="wp-night-mode-js"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+
+<!-- Google Analytics snippet added by Site Kit -->
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-BXNWQNVTRF" id="google_gtagjs-js" async=""></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["blizzardwatch.com"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "G-BXNWQNVTRF");
+</script>
+
+<!-- End Google tag (gtag.js) snippet added by Site Kit -->
+<link rel="https://api.w.org/" href="https://blizzardwatch.com/wp-json/"/><meta name="generator" content="Site Kit by Google 1.124.0"/>			<style type="text/css">
+				 
+			.wp-night-mode-slider {
+				background-color: ;
+			}
+
+			.wp-night-mode-button.active .wp-night-mode-slider {
+				background-color: ;
+			}
+
+			body.wp-night-mode-on * {
+				background: ;
+			}
+
+			body.wp-night-mode-on .customize-partial-edit-shortcut button,
+			body.wp-night-mode-on .customize-partial-edit-shortcut button svg,
+			body.wp-night-mode-on #adminbarsearch,
+			body.wp-night-mode-on span.display-name,
+			body.wp-night-mode-on span.ab-icon,
+			body.wp-night-mode-on span.ab-label {
+			    background: transparent;
+			}
+
+			body.wp-night-mode-on * {
+				color: ;
+			}
+
+			body.wp-night-mode-on a {
+				color: ;
+			}
+
+			body.wp-night-mode-on a:hover,
+			body.wp-night-mode-on a:visited,
+			body.wp-night-mode-on a:active {
+				color: ;
+			}
+		}				@media (prefers-color-scheme: dark) {
+					 
+			.wp-night-mode-slider {
+				background-color: ;
+			}
+
+			.wp-night-mode-button.active .wp-night-mode-slider {
+				background-color: ;
+			}
+
+			body.wp-night-mode-on * {
+				background: ;
+			}
+
+			body.wp-night-mode-on .customize-partial-edit-shortcut button,
+			body.wp-night-mode-on .customize-partial-edit-shortcut button svg,
+			body.wp-night-mode-on #adminbarsearch,
+			body.wp-night-mode-on span.display-name,
+			body.wp-night-mode-on span.ab-icon,
+			body.wp-night-mode-on span.ab-label {
+			    background: transparent;
+			}
+
+			body.wp-night-mode-on * {
+				color: ;
+			}
+
+			body.wp-night-mode-on a {
+				color: ;
+			}
+
+			body.wp-night-mode-on a:hover,
+			body.wp-night-mode-on a:visited,
+			body.wp-night-mode-on a:active {
+				color: ;
+			}
+		}				}
+			</style>
+		<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Google AdSense meta tags added by Site Kit -->
+<meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236"/>
+<meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com"/>
+<!-- End Google AdSense meta tags added by Site Kit -->
+
+
+<!-- This site is optimized with the Schema plugin v1.7.9.4 - https://schema.press -->
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@id": "https://blizzardwatch.com",
+                "name": "Home"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "@id": "https://blizzardwatch.com/search/forever+beta/",
+                "name": "Search results for forever beta"
+            }
+        }
+    ]
+}</script>
+
+
+<!-- Google AdSense snippet added by Site Kit -->
+<script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1137809532780563&amp;host=ca-host-pub-2644536267352236" crossorigin="anonymous" type="text/javascript"></script>
+
+<!-- End Google AdSense snippet added by Site Kit -->
+<style id="sccss">/* Enter Your Custom CSS Here */
+.lptw-thumbnail-link img {
+	height: auto;
+}
+
+.fyre-editor-field-mobile {
+    height: 200px !important;
+}
+
+.fyre-comment-action-button {
+  height: auto !important;
+}
+
+.fyre a.fyre-comment-flag-mobile-btn {
+  height: 27px !important;
+}
+
+.bw_queue_question_v2 {
+  clear: both;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+article.single {
+        margin: 0 auto;
+    }
+}</style>    <script type='text/javascript'>
+var ezoTemplate = 'orig_site';
+var ezouid = '1';
+var ezoFormfactor = '1';
+</script><script data-ezscrex="false" type='text/javascript'>
+var soc_app_id = '0';
+var did = 681776;
+var ezdomain = 'blizzardwatch.com';
+var ezoicSearchable = 1;
+</script></head>
+    <body class="search search-results" style="padding-top: 80px;"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNM29CK"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- Google Tag Manager (noscript) -->
+        
+        <!-- End Google Tag Manager (noscript) -->        
+        <amp-auto-ads type="adsense" data-ad-client="ca-pub-2714419851433424">
+</amp-auto-ads>
+	        
+        
+                <div class="container-fluid">
+            <div class="row blizzardwatch-row blizzardwatch-row-space">
+	            <div class="col-md-12" style="text-align: center;">
+                    <div class="bw_header_ad"><!-- /314521528/Leaderboard -->
+					<div id="div-gpt-ad-1526530006041-0">
+					<script>
+					googletag.cmd.push(function() { googletag.display('div-gpt-ad-1526530006041-0'); });
+					</script>
+					</div></div>                                            <div id="Blizzardwatch_Horizontal_ATF"></div>
+                    	            </div>
+            </div>
+        </div>
+
+        
+        <nav class="navbar navbar navbar-fixed-top" style="background: #222222; padding: 5px; max-width: 1200px; margin: 0 auto; ">
+            <div class="container-fluid" style="margin: 0 auto; max-width: 1200px;">
+                <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="margin-right: 15px;">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    <a class="navbar-brand" href="/" style="padding: 7px 15px; margin-left: 5px;"><img src="/wp-content/themes/blizzardwatch/static/img/blizzard-watch.png" style="width: 75px;"/></a>
+
+                     <p class="navbar-text" id="next-link" style="display: none; letter-spacing: 1px; font-family: &#39;Lato&#39;;">
+
+                                        </p>
+                </div>
+
+                <div class="collapse navbar-collapse hidden-xs hidden-sm" id="bs-example-navbar-collapse-1" style="text-transform: uppercase; letter-spacing: 1px; font-family: &#39;Lato&#39;; ">
+                     <ul id="menu-top-menu" class="nav navbar-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class=" dropdown"><a title="Warcraft" href="#" data-toggle="dropdown" class="dropdown-toggle" data-hover="dropdown" aria-haspopup="true" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;#&#39;);">Warcraft <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="World of Warcraft" href="https://blizzardwatch.com/category/warcraft/world-of-warcraft/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/category/warcraft/world-of-warcraft/&#39;);">World of Warcraft</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Player Housing" href="https://blizzardwatch.com/category/player-housing/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/category/player-housing/&#39;);">Player Housing</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="WoW Classic" href="https://blizzardwatch.com/category/warcraft/wow-classic/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/category/warcraft/wow-classic/&#39;);">WoW Classic</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Warcraft Rumble" href="https://blizzardwatch.com/category/warcraft/warcraft-rumble/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/category/warcraft/warcraft-rumble/&#39;);">Warcraft Rumble</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class=" dropdown"><a title="Diablo" href="#" data-toggle="dropdown" class="dropdown-toggle" data-hover="dropdown" aria-haspopup="true" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;#&#39;);">Diablo <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Diablo News" href="https://blizzardwatch.com/category/diablo/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/category/diablo/&#39;);">Diablo News</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Diablo 2" href="https://blizzardwatch.com/category/diablo/diablo-2/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/category/diablo/diablo-2/&#39;);">Diablo 2</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Diablo 3" href="https://blizzardwatch.com/category/diablo/diablo-3/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/category/diablo/diablo-3/&#39;);">Diablo 3</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Diablo 4" href="https://blizzardwatch.com/category/diablo/diablo-4/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/category/diablo/diablo-4/&#39;);">Diablo 4</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Diablo Immortal" href="https://blizzardwatch.com/category/diablo/diablo-immortal/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/category/diablo/diablo-immortal/&#39;);">Diablo Immortal</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class=" dropdown"><a title="Hearthstone" href="#" data-toggle="dropdown" class="dropdown-toggle" data-hover="dropdown" aria-haspopup="true" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;#&#39;);">Hearthstone <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Hearthstone News" href="https://blizzardwatch.com/category/hearthstone/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/category/hearthstone/&#39;);">Hearthstone News</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Battlegrounds" href="/tag/hearthstone-battlegrounds" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;/tag/hearthstone-battlegrounds&#39;);">Battlegrounds</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Tavern Brawls" href="/tag/tavern-brawl/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;/tag/tavern-brawl/&#39;);">Tavern Brawls</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Overwatch" href="https://blizzardwatch.com/category/overwatch/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/category/overwatch/&#39;);">Overwatch</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Podcasts" href="https://blizzardwatch.com/podcast" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/podcast&#39;);">Podcasts</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="The Queue" href="https://blizzardwatch.com/category/the-queue/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/category/the-queue/&#39;);">The Queue</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class=" dropdown"><a title="Off Topic" href="#" data-toggle="dropdown" class="dropdown-toggle" data-hover="dropdown" aria-haspopup="true" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;#&#39;);">Off Topic <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Other Video Games" href="https://blizzardwatch.com/category/off-topic/video-games/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/category/off-topic/video-games/&#39;);">Other Video Games</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="D&amp;D" href="https://blizzardwatch.com/category/off-topic/dnd/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/category/off-topic/dnd/&#39;);">D&amp;D</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Tabletop RPG" href="https://blizzardwatch.com/category/off-topic/tabletop/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/category/off-topic/tabletop/&#39;);">Tabletop RPG</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="TV &amp; Movies" href="https://blizzardwatch.com/category/off-topic/tv-movies/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/category/off-topic/tv-movies/&#39;);">TV &amp; Movies</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class=" dropdown"><a title="About" href="#" data-toggle="dropdown" class="dropdown-toggle" data-hover="dropdown" aria-haspopup="true" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;#&#39;);">About <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Community Guidelines" href="https://blizzardwatch.com/comments-community-guidelines/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/comments-community-guidelines/&#39;);">Community Guidelines</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Discord" href="/discord" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;/discord&#39;);">Discord</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Support us on Patreon" href="https://www.patreon.com/blizzardwatch" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://www.patreon.com/blizzardwatch&#39;);">Support us on Patreon</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Supporter Benefits" href="https://blizzardwatch.com/supporter-benefits/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/supporter-benefits/&#39;);">Supporter Benefits</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a title="Who We Are" href="https://blizzardwatch.com/about/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;menu&#39;, &#39;https://blizzardwatch.com/about/&#39;);">Who We Are</a></li>
+</ul>
+</li>
+</ul>                </div>
+            </div>
+        </nav>
+
+        <div class="bw_login_container">
+            <div class="bw_login_box">
+                <a href="/login" onclick="ga( &#39;send&#39;, &#39;event&#39;, &#39;auth&#39;, &#39;login-click&#39;, &#39;patreon&#39; );">Login with Patreon</a>            </div>
+        </div>
+    	<div class="container-fluid">
+		<div class="row blizzardwatch-row blizzardwatch-row-single main-content-area">
+			<div class="row blizzardwatch-row article-content-area">
+				<div class="col-md-8 col-sm-7">
+					<h1>Search Results For: Forever Beta</h1>
+					<br/>
+					<article class="river" style="margin-left: 17px;">
+	<div class="image-container">
+		<a href="https://blizzardwatch.com/2026/09/17/world-warcraft-forever-beta/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;thumbnail-click&#39;);">
+		<div class="image-bottom-bar"></div>
+				<div class="image-bottom-tag">BlizzCon</div>
+		<img width="675" height="380" src="https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-hyjal-zone.jpg" class="header-image img-responsive wp-post-image" alt="" srcset="https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-hyjal-zone.jpg 675w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-hyjal-zone-300x169.jpg 300w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-hyjal-zone-200x113.jpg 200w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-hyjal-zone-80x45.jpg 80w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-hyjal-zone-398x224.jpg 398w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-hyjal-zone-340x191.jpg 340w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-hyjal-zone-620x350.jpg 620w" sizes="(max-width: 675px) 100vw, 675px"/>		</a>
+	</div>
+	<h2><a href="https://blizzardwatch.com/2026/09/17/world-warcraft-forever-beta/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;title-click&#39;);">How to join the World of Warcraft: Forever beta, which starts on September 17 after the WoW Live Q&amp;A</a></h2>
+		<p class="byline">by <a href="https://blizzardwatch.com/author/nmarino/">Nick Marino</a> on September 17, 2026 at 10:45am </p>
+		<div class="content">
+		World of Warcraft: Forever is bringing new and expanded content and gameplay to Classic Azeroth when it launches worldwide on November 4, 2026 as part of your regular World of Warcraft subscription, no additional purchase necessary!	</div>
+	<div style="margin-top: 5px;"><p class="read-more" style=""><a href="https://blizzardwatch.com/2026/09/17/world-warcraft-forever-beta/" style="background: #387BBF; color: white; font-weight: bold; padding: 3px 5px 3px 5px; font-style: normal; letter-spacing: 2px; font-family: lato; border: 1px solid transparent; border-radius: 4px; font-size: 12px;" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;click-to-read-more&#39;);">Click to read more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></p></div>
+	<hr/></article><article class="river" id="waypoint-trigger" style="margin-left: 17px;">
+	<div class="image-container">
+		<a href="https://blizzardwatch.com/2026/09/16/skyborne-classes-factions/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;thumbnail-click&#39;);">
+		<div class="image-bottom-bar"></div>
+				<div class="image-bottom-tag">BlizzCon</div>
+		<img width="675" height="380" src="https://blizzardwatch.com/wp-content/uploads/2026/09/WoW_Forever_Skyborne_Customization_01.png" class="header-image img-responsive wp-post-image" alt="" loading="lazy" srcset="https://blizzardwatch.com/wp-content/uploads/2026/09/WoW_Forever_Skyborne_Customization_01.png 675w, https://blizzardwatch.com/wp-content/uploads/2026/09/WoW_Forever_Skyborne_Customization_01-300x169.png 300w, https://blizzardwatch.com/wp-content/uploads/2026/09/WoW_Forever_Skyborne_Customization_01-200x113.png 200w, https://blizzardwatch.com/wp-content/uploads/2026/09/WoW_Forever_Skyborne_Customization_01-80x45.png 80w, https://blizzardwatch.com/wp-content/uploads/2026/09/WoW_Forever_Skyborne_Customization_01-398x224.png 398w, https://blizzardwatch.com/wp-content/uploads/2026/09/WoW_Forever_Skyborne_Customization_01-340x191.png 340w, https://blizzardwatch.com/wp-content/uploads/2026/09/WoW_Forever_Skyborne_Customization_01-620x350.png 620w" sizes="(max-width: 675px) 100vw, 675px"/>		</a>
+	</div>
+	<h2><a href="https://blizzardwatch.com/2026/09/16/skyborne-classes-factions/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;title-click&#39;);">Who are the Skyborne? Which classes or faction can I choose if I want to play Skyborne in WoW: Forever?</a></h2>
+		<p class="byline">by <a href="https://blizzardwatch.com/author/shanson/">Sara Hanson</a> on September 16, 2026 at 3:00pm </p>
+		<div class="content">
+		With the release of World of Warcraft: Forever we will see a new race called the Skyborne, an elven race who were descended from Highborne elven exiles who made a pact with the Skywall wind elementals generations ago.	</div>
+	<div style="margin-top: 5px;"><p class="read-more" style=""><a href="https://blizzardwatch.com/2026/09/16/skyborne-classes-factions/" style="background: #387BBF; color: white; font-weight: bold; padding: 3px 5px 3px 5px; font-style: normal; letter-spacing: 2px; font-family: lato; border: 1px solid transparent; border-radius: 4px; font-size: 12px;" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;click-to-read-more&#39;);">Click to read more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></p></div>
+	<hr/></article><article class="river" style="margin-left: 17px;">
+	<div class="image-container">
+		<a href="https://blizzardwatch.com/2026/09/15/need-know-wow-forevers-campfire-system-works/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;thumbnail-click&#39;);">
+		<div class="image-bottom-bar"></div>
+				<div class="image-bottom-tag">WoW Forever</div>
+		<img width="675" height="380" src="https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-campfire-header.jpg" class="header-image img-responsive wp-post-image" alt="" loading="lazy" srcset="https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-campfire-header.jpg 675w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-campfire-header-300x169.jpg 300w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-campfire-header-200x113.jpg 200w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-campfire-header-80x45.jpg 80w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-campfire-header-398x224.jpg 398w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-campfire-header-340x191.jpg 340w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-campfire-header-620x350.jpg 620w" sizes="(max-width: 675px) 100vw, 675px"/>		</a>
+	</div>
+	<h2><a href="https://blizzardwatch.com/2026/09/15/need-know-wow-forevers-campfire-system-works/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;title-click&#39;);">What you need to know about WoW Forever’s Campfire system and how it works</a></h2>
+		<p class="byline">by <a href="https://blizzardwatch.com/author/nmarino/">Nick Marino</a> on September 15, 2026 at 11:00am </p>
+		<div class="content">
+		World of Warcraft: Forever&#39;s Campfire system is a new, multi-purpose mechanic that&#39;s part of the reworked and expanded profession system for the game mode.	</div>
+	<div style="margin-top: 5px;"><p class="read-more" style=""><a href="https://blizzardwatch.com/2026/09/15/need-know-wow-forevers-campfire-system-works/" style="background: #387BBF; color: white; font-weight: bold; padding: 3px 5px 3px 5px; font-style: normal; letter-spacing: 2px; font-family: lato; border: 1px solid transparent; border-radius: 4px; font-size: 12px;" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;click-to-read-more&#39;);">Click to read more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></p></div>
+	<hr/></article><article class="river" style="margin-left: 17px;">
+	<div class="image-container">
+		<a href="https://blizzardwatch.com/2026/09/14/raid-bosses-world-warcraft-forever/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;thumbnail-click&#39;);">
+		<div class="image-bottom-bar"></div>
+				<div class="image-bottom-tag">BlizzCon</div>
+		<img width="675" height="380" src="https://blizzardwatch.com/wp-content/uploads/2026/09/wow_forever_barrow_deeps_logo.jpg" class="header-image img-responsive wp-post-image" alt="" loading="lazy" srcset="https://blizzardwatch.com/wp-content/uploads/2026/09/wow_forever_barrow_deeps_logo.jpg 675w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow_forever_barrow_deeps_logo-300x169.jpg 300w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow_forever_barrow_deeps_logo-200x113.jpg 200w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow_forever_barrow_deeps_logo-80x45.jpg 80w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow_forever_barrow_deeps_logo-398x224.jpg 398w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow_forever_barrow_deeps_logo-340x191.jpg 340w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow_forever_barrow_deeps_logo-620x350.jpg 620w" sizes="(max-width: 675px) 100vw, 675px"/>		</a>
+	</div>
+	<h2><a href="https://blizzardwatch.com/2026/09/14/raid-bosses-world-warcraft-forever/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;title-click&#39;);">Who are the raid bosses of World of Warcraft: Forever?</a></h2>
+		<p class="byline">by <a href="https://blizzardwatch.com/author/eodea/">Eric O&#39;Dea</a> on September 14, 2026 at 8:15pm <a href="https://www.twitter.com/Draygonia_42"> @Draygonia_42</a></p>
+		<div class="content">
+		World of Warcraft: Forever is launching on November 4 with a 40-player Onyxia&#39;s Lair raid as well as two brand new raids: Hyjal Summit (20-player) and the Barrow Deeps (10-player).	</div>
+	<div style="margin-top: 5px;"><p class="read-more" style=""><a href="https://blizzardwatch.com/2026/09/14/raid-bosses-world-warcraft-forever/" style="background: #387BBF; color: white; font-weight: bold; padding: 3px 5px 3px 5px; font-style: normal; letter-spacing: 2px; font-family: lato; border: 1px solid transparent; border-radius: 4px; font-size: 12px;" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;click-to-read-more&#39;);">Click to read more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></p></div>
+	<hr/></article><article class="river" style="margin-left: 17px;">
+	<div class="image-container">
+		<a href="https://blizzardwatch.com/2026/09/14/skyborne-starting-zone-wow-forever/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;thumbnail-click&#39;);">
+		<div class="image-bottom-bar"></div>
+				<div class="image-bottom-tag">BlizzCon</div>
+		<img width="675" height="380" src="https://blizzardwatch.com/wp-content/uploads/2026/09/wow_forever_zephas_isle_collage.jpg" class="header-image img-responsive wp-post-image" alt="" loading="lazy" srcset="https://blizzardwatch.com/wp-content/uploads/2026/09/wow_forever_zephas_isle_collage.jpg 675w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow_forever_zephas_isle_collage-300x169.jpg 300w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow_forever_zephas_isle_collage-200x113.jpg 200w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow_forever_zephas_isle_collage-80x45.jpg 80w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow_forever_zephas_isle_collage-398x224.jpg 398w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow_forever_zephas_isle_collage-340x191.jpg 340w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow_forever_zephas_isle_collage-620x350.jpg 620w" sizes="(max-width: 675px) 100vw, 675px"/>		</a>
+	</div>
+	<h2><a href="https://blizzardwatch.com/2026/09/14/skyborne-starting-zone-wow-forever/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;title-click&#39;);">Everything I learned from running as far as I could through the Skyborne starting area in WoW: Forever</a></h2>
+		<p class="byline">by <a href="https://blizzardwatch.com/author/eodea/">Eric O&#39;Dea</a> on September 14, 2026 at 4:00pm <a href="https://www.twitter.com/Draygonia_42"> @Draygonia_42</a></p>
+		<div class="content">
+		After I got my hands on the World of Warcraft: Forever demo in the BlizzCon media village, I knew that a single play-through of the Skyborne starting area wasn&#39;t going to be enough to answer all of your questions about how this unique zone looked and felt.	</div>
+	<div style="margin-top: 5px;"><p class="read-more" style=""><a href="https://blizzardwatch.com/2026/09/14/skyborne-starting-zone-wow-forever/" style="background: #387BBF; color: white; font-weight: bold; padding: 3px 5px 3px 5px; font-style: normal; letter-spacing: 2px; font-family: lato; border: 1px solid transparent; border-radius: 4px; font-size: 12px;" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;click-to-read-more&#39;);">Click to read more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></p></div>
+	<hr/></article><article class="river" style="margin-left: 17px;">
+	<div class="image-container">
+		<a href="https://blizzardwatch.com/2026/09/13/cost-world-warcraft-forever/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;thumbnail-click&#39;);">
+		<div class="image-bottom-bar"></div>
+				<div class="image-bottom-tag">WoW Forever</div>
+		<img width="675" height="380" src="https://blizzardwatch.com/wp-content/uploads/2026/09/wowforever_dwarf-and-bear_header.jpg" class="header-image img-responsive wp-post-image" alt="" loading="lazy" srcset="https://blizzardwatch.com/wp-content/uploads/2026/09/wowforever_dwarf-and-bear_header.jpg 675w, https://blizzardwatch.com/wp-content/uploads/2026/09/wowforever_dwarf-and-bear_header-300x169.jpg 300w, https://blizzardwatch.com/wp-content/uploads/2026/09/wowforever_dwarf-and-bear_header-200x113.jpg 200w, https://blizzardwatch.com/wp-content/uploads/2026/09/wowforever_dwarf-and-bear_header-80x45.jpg 80w, https://blizzardwatch.com/wp-content/uploads/2026/09/wowforever_dwarf-and-bear_header-398x224.jpg 398w, https://blizzardwatch.com/wp-content/uploads/2026/09/wowforever_dwarf-and-bear_header-340x191.jpg 340w, https://blizzardwatch.com/wp-content/uploads/2026/09/wowforever_dwarf-and-bear_header-620x350.jpg 620w" sizes="(max-width: 675px) 100vw, 675px"/>		</a>
+	</div>
+	<h2><a href="https://blizzardwatch.com/2026/09/13/cost-world-warcraft-forever/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;title-click&#39;);">How much does World of Warcraft: Forever cost?</a></h2>
+		<p class="byline">by <a href="https://blizzardwatch.com/author/rflanagan/">Rob Flanagan</a> on September 13, 2026 at 10:24am <a href="https://www.twitter.com/flanageddon"> @flanageddon</a></p>
+		<div class="content">
+		How do you put a price on forever?	</div>
+	<div style="margin-top: 5px;"><p class="read-more" style=""><a href="https://blizzardwatch.com/2026/09/13/cost-world-warcraft-forever/" style="background: #387BBF; color: white; font-weight: bold; padding: 3px 5px 3px 5px; font-style: normal; letter-spacing: 2px; font-family: lato; border: 1px solid transparent; border-radius: 4px; font-size: 12px;" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;click-to-read-more&#39;);">Click to read more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></p></div>
+	<hr/></article><article class="river" style="margin-left: 17px;">
+	<div class="image-container">
+		<a href="https://blizzardwatch.com/2026/09/13/world-warcraft-forevers-roadmap-gives-us-ann-idea-expect-rest-2026-summer-2027/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;thumbnail-click&#39;);">
+		<div class="image-bottom-bar"></div>
+				<div class="image-bottom-tag">BlizzCon</div>
+		<img width="675" height="380" src="https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-roadmap-header.jpg" class="header-image img-responsive wp-post-image" alt="" loading="lazy" srcset="https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-roadmap-header.jpg 675w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-roadmap-header-300x169.jpg 300w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-roadmap-header-200x113.jpg 200w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-roadmap-header-80x45.jpg 80w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-roadmap-header-398x224.jpg 398w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-roadmap-header-340x191.jpg 340w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-roadmap-header-620x350.jpg 620w" sizes="(max-width: 675px) 100vw, 675px"/>		</a>
+	</div>
+	<h2><a href="https://blizzardwatch.com/2026/09/13/world-warcraft-forevers-roadmap-gives-us-ann-idea-expect-rest-2026-summer-2027/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;title-click&#39;);">World of Warcraft: Forever’s roadmap gives us an idea of what to expect for the rest of 2026 and through summer 2027</a></h2>
+		<p class="byline">by <a href="https://blizzardwatch.com/author/nmarino/">Nick Marino</a> on September 13, 2026 at 1:59am </p>
+		<div class="content">
+		World of Warcraft: Forever is the newest WoW Classic variant, and it&#39;s launching on November 4, 2026.	</div>
+	<div style="margin-top: 5px;"><p class="read-more" style=""><a href="https://blizzardwatch.com/2026/09/13/world-warcraft-forevers-roadmap-gives-us-ann-idea-expect-rest-2026-summer-2027/" style="background: #387BBF; color: white; font-weight: bold; padding: 3px 5px 3px 5px; font-style: normal; letter-spacing: 2px; font-family: lato; border: 1px solid transparent; border-radius: 4px; font-size: 12px;" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;click-to-read-more&#39;);">Click to read more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></p></div>
+	<hr/></article><article class="river" style="margin-left: 17px;">
+	<div class="image-container">
+		<a href="https://blizzardwatch.com/2026/09/12/first-look-wow-forevers-legacy-system/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;thumbnail-click&#39;);">
+		<div class="image-bottom-bar"></div>
+				<div class="image-bottom-tag">BlizzCon</div>
+		<img width="675" height="379" src="https://blizzardwatch.com/wp-content/uploads/2026/09/wow-forever-legacy-challenges-2.jpg" class="header-image img-responsive wp-post-image" alt="" loading="lazy" srcset="https://blizzardwatch.com/wp-content/uploads/2026/09/wow-forever-legacy-challenges-2.jpg 676w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow-forever-legacy-challenges-2-300x169.jpg 300w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow-forever-legacy-challenges-2-200x113.jpg 200w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow-forever-legacy-challenges-2-80x45.jpg 80w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow-forever-legacy-challenges-2-398x224.jpg 398w, https://blizzardwatch.com/wp-content/uploads/2026/09/wow-forever-legacy-challenges-2-340x191.jpg 340w" sizes="(max-width: 675px) 100vw, 675px"/>		</a>
+	</div>
+	<h2><a href="https://blizzardwatch.com/2026/09/12/first-look-wow-forevers-legacy-system/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;title-click&#39;);">A first look at World of Warcraft: Forever’s Legacy system from BlizzCon</a></h2>
+		<p class="byline">by <a href="https://blizzardwatch.com/author/dohalloran/">Dan O&#39;Halloran</a> on September 12, 2026 at 11:33pm </p>
+		<div class="content">
+		Legacy is a new system introduced in the upcoming World of Warcraft: Forever title which is kind of a mash up of Achievements, a skill tree, and a seasonal journey.	</div>
+	<div style="margin-top: 5px;"><p class="read-more" style=""><a href="https://blizzardwatch.com/2026/09/12/first-look-wow-forevers-legacy-system/" style="background: #387BBF; color: white; font-weight: bold; padding: 3px 5px 3px 5px; font-style: normal; letter-spacing: 2px; font-family: lato; border: 1px solid transparent; border-radius: 4px; font-size: 12px;" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;click-to-read-more&#39;);">Click to read more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></p></div>
+	<hr/></article><article class="river" style="margin-left: 17px;">
+	<div class="image-container">
+		<a href="https://blizzardwatch.com/2026/09/12/world-warcraft-forever-long-speculated-classic-plus-unveiled-will-launch-worldwide-november-4-2026/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;thumbnail-click&#39;);">
+		<div class="image-bottom-bar"></div>
+				<div class="image-bottom-tag">BlizzCon</div>
+		<img width="675" height="380" src="https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-announcement-header.jpg" class="header-image img-responsive wp-post-image" alt="" loading="lazy" srcset="https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-announcement-header.jpg 675w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-announcement-header-300x169.jpg 300w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-announcement-header-200x113.jpg 200w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-announcement-header-80x45.jpg 80w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-announcement-header-398x224.jpg 398w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-announcement-header-340x191.jpg 340w, https://blizzardwatch.com/wp-content/uploads/2026/09/bw-wow-forever-announcement-header-620x350.jpg 620w" sizes="(max-width: 675px) 100vw, 675px"/>		</a>
+	</div>
+	<h2><a href="https://blizzardwatch.com/2026/09/12/world-warcraft-forever-long-speculated-classic-plus-unveiled-will-launch-worldwide-november-4-2026/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;title-click&#39;);">World of Warcraft: Forever, the long speculated Classic Plus, has been unveiled and will launch worldwide on November 4, 2026</a></h2>
+		<p class="byline">by <a href="https://blizzardwatch.com/author/nmarino/">Nick Marino</a> on September 12, 2026 at 6:10pm </p>
+		<div class="content">
+		At BlizzCon&#39;s main stage, Blizzard unveiled and announced World of Warcraft: Forever, the newest evolution of World of Warcraft Classic. WoW: Forever, referred to memetically for the longest time as Classic Plus, will launch worldwide on November 4, 2026 at 3 pm pacific time.	</div>
+	<div style="margin-top: 5px;"><p class="read-more" style=""><a href="https://blizzardwatch.com/2026/09/12/world-warcraft-forever-long-speculated-classic-plus-unveiled-will-launch-worldwide-november-4-2026/" style="background: #387BBF; color: white; font-weight: bold; padding: 3px 5px 3px 5px; font-style: normal; letter-spacing: 2px; font-family: lato; border: 1px solid transparent; border-radius: 4px; font-size: 12px;" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;click-to-read-more&#39;);">Click to read more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></p></div>
+	<hr/></article><article class="river" style="margin-left: 17px;">
+	<div class="image-container">
+		<a href="https://blizzardwatch.com/2018/06/07/tabards-pretty-wonky-bfa-beta-everywhere-else-matter/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;thumbnail-click&#39;);">
+		<div class="image-bottom-bar"></div>
+				<div class="image-bottom-tag">WoW</div>
+		<img width="675" height="380" src="https://blizzardwatch.com/wp-content/uploads/2018/06/Tabard_live_header.jpg" class="header-image img-responsive wp-post-image" alt="" loading="lazy" srcset="https://blizzardwatch.com/wp-content/uploads/2018/06/Tabard_live_header.jpg 675w, https://blizzardwatch.com/wp-content/uploads/2018/06/Tabard_live_header-300x169.jpg 300w, https://blizzardwatch.com/wp-content/uploads/2018/06/Tabard_live_header-200x113.jpg 200w, https://blizzardwatch.com/wp-content/uploads/2018/06/Tabard_live_header-80x45.jpg 80w, https://blizzardwatch.com/wp-content/uploads/2018/06/Tabard_live_header-398x224.jpg 398w, https://blizzardwatch.com/wp-content/uploads/2018/06/Tabard_live_header-620x350.jpg 620w, https://blizzardwatch.com/wp-content/uploads/2018/06/Tabard_live_header-340x191.jpg 340w" sizes="(max-width: 675px) 100vw, 675px"/>		</a>
+	</div>
+	<h2><a href="https://blizzardwatch.com/2018/06/07/tabards-pretty-wonky-bfa-beta-everywhere-else-matter/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;title-click&#39;);">Tabards are pretty wonky in the BfA beta — and everywhere else, for that matter</a></h2>
+		<p class="byline">by <a href="https://blizzardwatch.com/author/anne/">Anne Stickney</a> on June 7, 2018 at 3:00pm <a href="https://www.twitter.com/Shadesogrey"> @Shadesogrey</a></p>
+		<div class="content">
+		There&#39;s an odd phenomenon happening on the Battle for Azeroth beta currently that may hinder those with a penchant for in-game fashion.	</div>
+	<div style="margin-top: 5px;"><p class="read-more" style=""><a href="https://blizzardwatch.com/2018/06/07/tabards-pretty-wonky-bfa-beta-everywhere-else-matter/" style="background: #387BBF; color: white; font-weight: bold; padding: 3px 5px 3px 5px; font-style: normal; letter-spacing: 2px; font-family: lato; border: 1px solid transparent; border-radius: 4px; font-size: 12px;" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepage&#39;, &#39;click-to-read-more&#39;);">Click to read more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></p></div>
+	<br/></article>				</div>
+				<div class="col-md-4 col-sm-5 sidebar">
+					
+<div class="bw_sidebar_ad_top"><script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2714419851433424" crossorigin="anonymous"></script>
+<!-- Desktop - Sidebar Above Podcast - 300x250 -->
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-2714419851433424" data-ad-slot="2164666374"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div><div id="top_container">
+<div class="bw_sidebar_ad_top"><script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2714419851433424" crossorigin="anonymous"></script>
+<!-- Desktop - Sidebar Above Podcast - 300x250 -->
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-2714419851433424" data-ad-slot="2164666374"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div></div><div id="wp-discord" class="wpd-dark">
+<div class="wpd-head">
+<img src="https://blizzardwatch.com/wp-content/plugins/wp-discord/includes/../public/img/icon.png" class="wpd-icon"/>
+<img src="https://blizzardwatch.com/wp-content/plugins/wp-discord/includes/../public/img/discord.png" class="wpd-name"/>
+<h3>Blizzard Watch</h3>
+</div>
+<div class="wpd-info">
+<span><strong>100</strong> User(s) Online</span>
+<a href="https://discordapp.com/invite/erVC7sM5" target="_blank">Join Server</a>
+</div>
+</div>
+<li id="custom_html-4" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div id="Blizzardwatch_Vertical_ATF"></div></div></li><li id="custom_html-2" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div style="margin-top: 10px;">
+     
+</div>
+<a href="https://blizzardwatch.com/podcast/#blizzardwatchpodcast"><img src="/wp-content/uploads/2022/08/bw-podcast-pinbox-blue-phoenix.jpg" alt="Blizzard Watch Podcast" style="width: 100%;"/></a><br/>
+<a href="https://blizzardwatch.com/podcast/#lorewatch"><img src="/wp-content/uploads/2022/08/lw-podcast-pinbox-purple-phoenix.jpg" alt="Lore Watch Podcast" style="width: 100%;"/></a><br/>
+<a href="https://blizzardwatch.com/podcast/#tavernwatch"><img src="/wp-content/uploads/2022/08/tw-podcast-pinbox-orange-phoenix.jpg" alt="Tavern Watch Podcast" style="width: 100%;"/></a>
+<div style="margin-top: 10px;">
+     
+</div>
+<a href="https://blizzardwatch.com/2024/03/05/how-to-follow-blizzard-watch-on-social-media/"><img src="/wp-content/uploads/2024/03/Blizzard-Watch-Socials-Pinbox-300px.jpg" alt="Blizzard Watch Socials" style="width: 100%;"/></a><br/></div></li><div class="bw_sidebar_ad" id="bw_affixed_ad"></div><li id="text-22" class="widget widget_text">			<div class="textwidget"></div>
+		</li>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<div class="container-fluid">
+    		<div class="row blizzardwatch-row" style="color: #e6e6e6;">
+				<div class="col-md-12 footer-col">
+								<div class="textwidget"><a href="/about/">About Blizzard Watch</a> | 
+<a href="/contact/">Contact Us</a> | 
+<a href="/comments-community-guidelines/">Community Guidelines</a> | 
+<a href="/privacy-policy/">Privacy Policy</a> | 
+<a href="/advertise-with-us/">Advertise With Us</a> <br/><br/>
+<i style="font-size: 8pt;">We are a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for us to earn fees by linking to Amazon.com and affiliated sites.</i></div>
+		<div class="bw_footer_1"></div>				</div>
+			</div>
+		</div>
+		<div style="margin: 0 auto; width: 170px; font-size: 10pt; color: white;">
+		<table><tbody><tr><td><p style="margin-top: 4px; margin-bottom: 0px; margin-right: 10px;">Toggle Dark Mode:</p></td><td> <span class="wp-night-mode"></span></td></tr></tbody></table>
+		</div>
+		<div class="copyright-notice">© 2026 Queuevian Media, LLC. All rights reserved.</div>
+        <script async="" src="//wow.zamimg.com/widgets/power.js"></script><script>var whTooltips  = { "colorlinks": false, "iconizelinks": true, "renamelinks": false }</script>
+
+   		<!-- Quantcast Tag  -->
+		<script type="text/javascript">
+		var _qevents = _qevents || [];
+
+		(function() {
+		var elem = document.createElement('script');
+		elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+		elem.async = true;
+		elem.type = "text/javascript";
+		var scpt = document.getElementsByTagName('script')[0];
+		scpt.parentNode.insertBefore(elem, scpt);
+		})();
+
+		_qevents.push({
+		qacct:"p-g2vj_vShnbqsE"
+		});
+		</script>
+
+		<noscript>
+		<div style="display:none;">
+		<img src="//pixel.quantserve.com/pixel/p-g2vj_vShnbqsE.gif" border="0" height="1" width="1" alt="Quantcast"/>
+		</div>
+		</noscript>
+		<!-- End Quantcast tag -->
+
+<!-- BZ -->
+		<script>
+
+			var _comscore = _comscore || [];
+
+			_comscore.push({ c1: "2", c2: "6036197" });
+
+			(function() {
+
+			var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+
+			s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+
+			el.parentNode.insertBefore(s, el);
+
+			})();
+
+			</script>
+
+			<noscript>
+
+			<img src="https://sb.scorecardresearch.com/p?c1=2&c2=6036197&cv=2.0&cj=1" />
+
+			</noscript>
+
+			<!-- Quantcast Tag -->
+
+			<script type="text/javascript">
+
+			var _qevents = _qevents || [];
+
+
+
+			(function() {
+
+			var elem = document.createElement('script');
+
+			elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+
+			elem.async = true;
+
+			elem.type = "text/javascript";
+
+			var scpt = document.getElementsByTagName('script')[0];
+
+			scpt.parentNode.insertBefore(elem, scpt);
+
+			})();
+
+
+
+			_qevents.push({
+
+			qacct:"p-80xBzMhbKolFI"
+
+			});
+
+			</script>
+
+
+
+			<noscript>
+
+			<div style="display:none;">
+
+			<img src="//pixel.quantserve.com/pixel/p-80xBzMhbKolFI.gif" border="0" height="1" width="1" alt="Quantcast"/>
+
+			</div>
+
+			</noscript>
+
+			<!-- End Quantcast tag -->
+
+<!-- EZ -->
+
+        <script>
+        //$(".dropdown").hoverIntent( dropdown );
+        </script>
+
+		<script>if( !is_backer() ) { 
+			//[].forEach.call(document.querySelectorAll(".adsbygoogle"), function(){
+			    //(adsbygoogle = window.adsbygoogle || []).push({});
+			//});
+		}</script>
+    
+<script data-cfasync="false">function _emitEzConsentEvent(){var customEvent=new CustomEvent("ezConsentEvent",{detail:{ezTcfConsent:window.ezTcfConsent},bubbles:true,cancelable:true,});document.dispatchEvent(customEvent);}
+(function(window,document){function _setAllEzConsentTrue(){window.ezTcfConsent.loaded=true;window.ezTcfConsent.store_info=true;window.ezTcfConsent.develop_and_improve_services=true;window.ezTcfConsent.measure_ad_performance=true;window.ezTcfConsent.measure_content_performance=true;window.ezTcfConsent.select_basic_ads=true;window.ezTcfConsent.create_ad_profile=true;window.ezTcfConsent.select_personalized_ads=true;window.ezTcfConsent.create_content_profile=true;window.ezTcfConsent.select_personalized_content=true;window.ezTcfConsent.understand_audiences=true;window.ezTcfConsent.use_limited_data_to_select_content=true;window.ezTcfConsent.select_personalized_content=true;}
+function _clearEzConsentCookie(){document.cookie="ezCMPCookieConsent=tcf2;Domain=.blizzardwatch.com;Path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";}
+_clearEzConsentCookie();if(typeof window.__tcfapi!=="undefined"){window.ezgconsent=false;var amazonHasRun=false;function _ezAllowed(tcdata,purpose){return(tcdata.purpose.consents[purpose]||tcdata.purpose.legitimateInterests[purpose]);}
+function _handleConsentDecision(tcdata){window.ezTcfConsent.loaded=true;if(!tcdata.vendor.consents["347"]&&!tcdata.vendor.legitimateInterests["347"]){window._emitEzConsentEvent();return;}
+window.ezTcfConsent.store_info=_ezAllowed(tcdata,"1");window.ezTcfConsent.develop_and_improve_services=_ezAllowed(tcdata,"10");window.ezTcfConsent.measure_content_performance=_ezAllowed(tcdata,"8");window.ezTcfConsent.select_basic_ads=_ezAllowed(tcdata,"2");window.ezTcfConsent.create_ad_profile=_ezAllowed(tcdata,"3");window.ezTcfConsent.select_personalized_ads=_ezAllowed(tcdata,"4");window.ezTcfConsent.create_content_profile=_ezAllowed(tcdata,"5");window.ezTcfConsent.measure_ad_performance=_ezAllowed(tcdata,"7");window.ezTcfConsent.use_limited_data_to_select_content=_ezAllowed(tcdata,"11");window.ezTcfConsent.select_personalized_content=_ezAllowed(tcdata,"6");window.ezTcfConsent.understand_audiences=_ezAllowed(tcdata,"9");window._emitEzConsentEvent();}
+function _handleGoogleConsentV2(tcdata){if(!tcdata||!tcdata.purpose||!tcdata.purpose.consents){return;}
+var consents=tcdata.purpose.consents;var googConsentV2={ad_storage:consents[1]?'granted':'denied',analytics_storage:consents[1]?'granted':'denied',ad_personalization:(consents[3]&&consents[4])?'granted':'denied',ad_user_data:(consents[1]&&consents[7])?'granted':'denied'};if(googConsentV2.analytics_storage==='denied'){gtag('set','url_passthrough',true);}
+gtag('consent','update',googConsentV2);}
+__tcfapi("addEventListener",2,function(tcdata,success){if(!success||!tcdata){window._emitEzConsentEvent();return;}
+if(!tcdata.gdprApplies){_setAllEzConsentTrue();window._emitEzConsentEvent();return;}
+if(tcdata.eventStatus==="useractioncomplete"||tcdata.eventStatus==="tcloaded"){if(typeof gtag!='undefined'){_handleGoogleConsentV2(tcdata);}
+_handleConsentDecision(tcdata);if(tcdata.purpose.consents["1"]===true&&tcdata.vendor.consents["755"]!==false){window.ezgconsent=true;(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;}
+if(window.__ezconsent){__ezconsent.setEzoicConsentSettings(ezConsentCategories);}
+__tcfapi("removeEventListener",2,function(success){return null;},tcdata.listenerId);if(!(tcdata.purpose.consents["1"]===true&&_ezAllowed(tcdata,"2")&&_ezAllowed(tcdata,"3")&&_ezAllowed(tcdata,"4"))){if(typeof __ez=="object"&&typeof __ez.bit=="object"&&typeof window["_ezaq"]=="object"&&typeof window["_ezaq"]["page_view_id"]=="string"){__ez.bit.Add(window["_ezaq"]["page_view_id"],[new __ezDotData("non_personalized_ads",true),]);}}}});}else{_setAllEzConsentTrue();window._emitEzConsentEvent();}})(window,document);</script></body></html>

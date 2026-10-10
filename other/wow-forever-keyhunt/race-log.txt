@@ -1,0 +1,12 @@
+=== EVOLUTION 1 RACE START 2026-09-19T01:08:33+00:00 ===
+--- A: Reddit JSON ---
+A done: 1012ms useful=false
+--- B: old.reddit HTML ---
+B done: 1706ms useful=true
+--- C: Nitter ---
+C done: 8016ms useful=false responding=
+--- D: x.com direct ---
+D done: 523ms useful=true http=200/200
+--- E: RSS/Atom ---
+E done: 1041ms useful=false
+=== Core curl race done ===

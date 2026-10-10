@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Too Many Requests</title>
+    <style>
+      body {
+          font: small verdana, arial, helvetica, sans-serif;
+          width: 600px;
+          margin: 0 auto;
+      }
+
+      h1 {
+          height: 40px;
+          background: transparent url(//www.redditstatic.com/reddit.com.header.png) no-repeat scroll top right;
+      }
+
+      textarea.mushroom {
+          display: none
+      }
+    </style>
+  </head>
+  <body>
+    <h1>whoa there, pardner!</h1>
+
+<p>Reddit's awesome and all, but you may have a bit of a
+problem. We've seen far too many requests come from your IP address
+recently.</p>
+
+<p>Please wait a few minutes and try again.</p>
+
+<p>If you're still getting this error after a few minutes and
+think that we've incorrectly blocked you or you would like to discuss
+easier ways to get the data you want, please contact us at <a href=mailto:ratelimit@reddit.com?Subject=Rate%20limiting(B)%20 (Request ID: 01a0b757-a42c-7862-bd4e-0612479ce9e0-IAD)>this email address</a>.</p>
+
+<p>You can read Reddit's Terms of Service <a href=https://www.reddit.com/wiki/api/>here</a>.</p>
+
+<p>When contacting us, please include your Reddit account along with the following code:</p>
+
+<p><strong>01a0b757-a42c-7862-bd4e-0612479ce9e0</strong></p>
+
+</body>
+</html>

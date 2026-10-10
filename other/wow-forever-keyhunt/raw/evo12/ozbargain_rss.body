@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml">
+<head>
+  <meta charset="utf-8"/>
+  <title>New Forum Topics - OzBargain Forums</title>
+      <link rel="shortcut icon" href="/themes/ozbargain/favicon.ico"/>
+  <link rel="icon" type="image/png" sizes="128x128" href="/themes/ozbargain/logo-icon-128.png"/>
+  <link rel="apple-touch-icon" type="image/png" sizes="128x128" href="/themes/ozbargain/logo-icon-128.png"/>
+  <link rel="apple-touch-icon" type="image/png" sizes="256x256" href="/themes/ozbargain/logo-icon-256.png"/>
+    <meta name="application-name" content="OzBargain"/>
+<meta name="msapplication-config" content="none"/>
+<meta property="og:image" content="https://www.ozbargain.com.au/themes/ozbargain/logo-square.png"/>
+<meta property="og:site_name" content="OzBargain"/>
+<meta name="referrer" content="origin"/>
+  <script>OzB_vars={"site_name":"OzBargain","ga_uacct":"G-VTWXKF7VP6","uid":0,"extlink_new":1,"adstype":"FUSE"};</script>
+<script src="/js/plugins/jquery.min.js?ver=3.6.3"></script>
+<script src="/js/plugins/htmx.min.js?ver=2.0.4"></script>
+<script src="/js/ozbapp.js?ver=853"></script>
+<script>OzB.initGA();</script>
+<script>
+jQuery(document).on('ads:filter', function(evt, val) {
+  if (!OzB.vars['uid']) {
+    for (let item of val.slots) {
+      if (item.name == 'OzBargain_Desktop_Sticky') {
+        let targeting = Math.random() >= 0.5 ? 'true' : 'false';
+        if (targeting == 'true') {
+          val.slots = val.slots.filter(item => !item.name.endsWith('_Mrec2_Right'));
+        }
+        val.targeting.push(['experiment', targeting]);
+        break;
+      }
+    }
+  }
+});
+jQuery(document).on('ads:targeting', function() {
+  let _pagetarget = Math.ceil(Math.random()*100);
+  OzB.ads.setTargeting('publift_mv_testing', _pagetarget>10?'optimized':((_pagetarget%10)==0?'benchmark':'exploration'+(_pagetarget%10)));
+});
+</script><script src="/js/ozbads.js?ver=853" defer></script>
+<link rel="stylesheet" media="all" type="text/css" href="/files/css/main.css?ver=853"/>
+<link rel="stylesheet" media="all" type="text/css" href="/files/css/forum.css?ver=853"/>
+<link rel="stylesheet" media="all" type="text/css" href="/themes/ozbargain/style.css?ver=853"/>
+
+<link rel="search" type="application/opensearchdescription+xml" title="OzBargain Search" href="/opensearch.xml" />
+<script src="/api/affmapping.js?ver=853"></script>
+  </head>
+<body class="d a s">
+<div id="visitor-notice"></div><header id="header">
+  <div class="wrap flex">
+    <div id="logo"><a href="/" title="Home"><img src="/themes/ozbargain/logo.png" alt="OzBargain" width="147" height="41"/></a></div>
+    <div id="menuwrap">
+      <form action="/search/node" method="post" class="search">
+        <a href="#"><i class="fa fa-caret-down"></i></a><input id="search-text" type="text" maxlength="128" name="edit[keys]" size="15" value="" class="form-text"/><button type="submit" name="op" value="Search"><i class="fa fa-search"></i></button><input type="hidden" name="edit[form_token]" value="fa99e04f1cd020fe3cfd7c91299b6bcd" /><input type="hidden" name="edit[form_id]" value="search_form" /><input id="search-extra" type="hidden" name="edit[keyspost]"/>
+      </form>
+      <ul id="menu">
+        <li id="menu-deals" data-popupurl="/ozbapi/popup/deals?v=853-0" data-popupwidth="350"><a href="/deals">Deals</a></li>
+        <li id="menu-live"><a href="/live">Live</a></li>
+        <li id="menu-forums" class="active" data-popupurl="/ozbapi/popup/forum?v=853-0" data-popupwidth="350"><a href="/forum">Forums</a></li>
+        <li id="menu-comps" data-popupurl="/ozbapi/popup/comps?v=853-0" data-popupwidth="300"><a href="/competition">Comps</a></li>
+        <li data-popupurl="/ozbapi/popup/pages?v=853-0" data-popupwidth="250"><a href="/wiki/">Pages</a></li>
+                <li id="menu-login"><a href="/user/login?destination=forum/new/feed" onclick="OzB.showLoginDialog('Log in'); return false;">Login</a></li>
+        <li id="menu-join"><a href="/user/register">Join</a></li>
+              </ul>
+    </div>
+  </div>
+</header>
+<script>OzB.onload(OzB.initMenu);</script>
+<header id="header2nd"><div class="wrap"><ul><li><a href="/forum" class="shade3h" title="Listing all the forums">All Forums</a></li><li><a href="/forum/new" class="shade3h" title="New forum discussion topics">New</a></li><li><a href="/forum/hot" class="shade3h" title="Hot forum discussion topics">Hot</a></li><li><a href="/forum/polls" class="shade3h" title="Forum discussion topics with polls">Polls</a></li><li><a href="/forum/unanswered" class="shade3h" title="Forum discussion topics with no replies">Unanswered</a></li></ul></div></header><main>
+    <div class="wrap"> 
+    <div id="main" class="main">
+                        <h1 id="title">New Forum Topics</h1>
+            
+      <div id="forum"><table class="data"><thead><tr><th>Topic</th><th>Replies</th><th class="created">Original Post</th><th class="data">Forum</th></tr>
+</thead><tbody><tr><td class="topic"><span class="title"><a href="/node/975668">What Does This Joke Mean? hair colour joke</a></span></td><td class="replies">2</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/317650" title="View user profile." onclick="return OzB.user_tooltip(this)">asspray</a><div>19/09/2026</div></td><td class="data"><a href="/forum/546">Entertainment</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975659">ATT Handymen: Which Toughbuilt Stacktech Setup Works Best?</a></span></td><td class="replies">5</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/474172" title="View user profile." onclick="return OzB.user_tooltip(this)">Captain Cheapskate</a><div>19/09/2026</div></td><td class="data"><a href="/forum/42">Home &amp; Garden</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975655">Solar Power Battery</a></span></td><td class="replies">3</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/300915" title="View user profile." onclick="return OzB.user_tooltip(this)">pawan</a><div>19/09/2026</div></td><td class="data"><a href="/forum/42">Home &amp; Garden</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975653">Ring Battery Video (2024) Doorbell on Sales at $29 at OfficeWorks</a></span></td><td class="replies">2</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/334881" title="View user profile." onclick="return OzB.user_tooltip(this)">BendBridge</a><div>19/09/2026</div></td><td class="data"><a href="/forum/50999">Internet</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975643">Central Coast Suburb Recommendations</a></span></td><td class="replies">13</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/92584" title="View user profile." onclick="return OzB.user_tooltip(this)">bin555</a><div>19/09/2026</div></td><td class="data"><a href="/forum/42">Home &amp; Garden</a></td></tr>
+<tr><td class="topic"><i class="fa fa-bar-chart fa-fw forum-poll" title="Poll"></i> <span class="title"><a href="/node/975641">Laptop Prices in Future?</a></span></td><td class="replies">12</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/588580" title="View user profile." onclick="return OzB.user_tooltip(this)">waterbotolos</a><div>19/09/2026</div></td><td class="data"><a href="/forum/38181">Computing</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975637">Neighbour Using Shared Fence as Retaining Wall, Soil Is about 1m above Fence Line</a></span></td><td class="replies">21</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/9444" title="View user profile." onclick="return OzB.user_tooltip(this)">TerryTightwad</a><div>18/09/2026</div></td><td class="data"><a href="/forum/42">Home &amp; Garden</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975636">Cheapest demo or new car deals</a></span></td><td class="replies">6</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/565607" title="View user profile." onclick="return OzB.user_tooltip(this)">somethingnone</a><div>18/09/2026</div></td><td class="data"><a href="/forum/30">Automotive</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975628">Looking for Bathroom Renovation Recommendations in Sydney</a></span></td><td class="replies">10</td><td class="created"><img src="https://files.ozbargain.com.au/u/85/7485-20.jpg?h=6ebcf293" alt="" width="20" height="20" class="usericon"/> <a href="/user/7485" title="View user profile." onclick="return OzB.user_tooltip(this)">ronnknee</a><div>18/09/2026</div></td><td class="data"><a href="/forum/42">Home &amp; Garden</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975626">QLD - looking for quality sofa/lounge for apartment</a></span></td><td class="replies">2</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/72790" title="View user profile." onclick="return OzB.user_tooltip(this)">brisneylander</a><div>18/09/2026</div></td><td class="data"><a href="/forum/42">Home &amp; Garden</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975624">iPhone 18 - Apple Invoices &amp; Dates</a></span></td><td class="replies">12</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/489154" title="View user profile." onclick="return OzB.user_tooltip(this)">iphone73818</a><div>18/09/2026</div></td><td class="data"><a href="/forum/38182">Electrical &amp; Electronics</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975597">You Have until 1/10/26 to Get a Free Covid Vaccine (under 65&#039;s)</a></span></td><td class="replies">64</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/137658" title="View user profile." onclick="return OzB.user_tooltip(this)">stimutacs</a><div>18/09/2026</div></td><td class="data"><a href="/forum/505">Health &amp; Beauty</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975559">Decal Printing Service Officeworks?</a></span><br/><span class="domain">Officeworks</span></td><td class="replies">4</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/43558" title="View user profile." onclick="return OzB.user_tooltip(this)">godofpizza</a><div>18/09/2026</div></td><td class="data"><a href="/forum/7">General Discussion</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975534">Can I Hide Personal Details on Cashback Claims?</a></span></td><td class="replies">13</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/68172" title="View user profile." onclick="return OzB.user_tooltip(this)">OnlyOneStar</a><div>18/09/2026</div></td><td class="data"><a href="/forum/7">General Discussion</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975533">Social Media - Time to Rethink</a></span></td><td class="replies">56</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/318266" title="View user profile." onclick="return OzB.user_tooltip(this)">Ashfield</a><div>18/09/2026</div></td><td class="data"><a href="/forum/50999">Internet</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975523">Wise Referral Program Requirements and other Promo</a></span><br/><span class="domain">Wise</span></td><td class="replies">2</td><td class="created"><img src="https://files.ozbargain.com.au/u/61/478561-20.jpg?h=38f87b72" alt="" width="20" height="20" class="usericon"/> <a href="/user/478561" title="View user profile." onclick="return OzB.user_tooltip(this)">Lt Cole</a><div>18/09/2026</div></td><td class="data"><a href="/forum/38183">Financial</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975487">EatClub Card Payment Failed at Merchant POS, but Money Deducted from Bank Account</a></span><br/><span class="domain">EatClub</span></td><td class="replies">30</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/441946" title="View user profile." onclick="return OzB.user_tooltip(this)">pineappleteam</a><div>17/09/2026</div></td><td class="data"><a href="/forum/500">Food &amp; Grocery</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975485">ING vs Macquarie/UP</a></span><br/><span class="domain">ING</span></td><td class="replies">18</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/30014" title="View user profile." onclick="return OzB.user_tooltip(this)">uAware</a><div>17/09/2026</div></td><td class="data"><a href="/forum/38185">Travel</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975481">Tesla Model Y Purchase Now or Wait for AI5</a></span></td><td class="replies">88</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/274268" title="View user profile." onclick="return OzB.user_tooltip(this)">Hans678</a><div>17/09/2026</div></td><td class="data"><a href="/forum/30">Automotive</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975477">Fare Compliance and Public Transport</a></span></td><td class="replies">51</td><td class="created"><img src="https://files.ozbargain.com.au/u/32/34332-20.jpg?h=1e5c8919" alt="" width="20" height="20" class="usericon"/> <a href="/user/34332" title="View user profile." onclick="return OzB.user_tooltip(this)">Windows7forever</a><div>17/09/2026</div></td><td class="data"><a href="/forum/38185">Travel</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975429">Has Anyone Ever Won an Competition from Another Country?</a></span></td><td class="replies">31</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/588108" title="View user profile." onclick="return OzB.user_tooltip(this)">Wingsoar21</a><div>17/09/2026</div></td><td class="data"><a href="/forum/7">General Discussion</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975416">Microsoft Retiring Publisher - What Are You Doing about It?</a></span></td><td class="replies">31</td><td class="created"><img src="https://files.ozbargain.com.au/u/21/158321-20.jpg?h=b3b7ee16" alt="" width="20" height="20" class="usericon"/> <a href="/user/158321" title="View user profile." onclick="return OzB.user_tooltip(this)">Lord Ra</a><div>17/09/2026</div></td><td class="data"><a href="/forum/38181">Computing</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975409">Please Describe Your Ideal Phone.</a></span></td><td class="replies">82</td><td class="created"><img src="https://files.ozbargain.com.au/u/05/309005-20.jpg?h=73419667" alt="" width="20" height="20" class="usericon"/> <a href="/user/309005" title="View user profile." onclick="return OzB.user_tooltip(this)">revheadgl</a><div>17/09/2026</div></td><td class="data"><a href="/forum/38184">Mobile</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975403">Hola Health - Data Breach 17 September 2026</a></span><br/><span class="domain">Hola Health</span></td><td class="replies">13</td><td class="created"><img src="https://files.ozbargain.com.au/u/35/296035-20.jpg?h=2fc686f6" alt="" width="20" height="20" class="usericon"/> <a href="/user/296035" title="View user profile." onclick="return OzB.user_tooltip(this)">Lucille Bluth</a><div>17/09/2026</div></td><td class="data"><a href="/forum/505">Health &amp; Beauty</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975397">2026 National Cheese Burger Day Deals (Friday 18/09/2026)</a></span></td><td class="replies">3</td><td class="created"><img src="https://files.ozbargain.com.au/u/26/65426-20.jpg?h=6c694a3e" alt="" width="20" height="20" class="usericon"/> <a href="/user/65426" title="View user profile." onclick="return OzB.user_tooltip(this)">rompastompa</a><div>17/09/2026</div></td><td class="data"><a href="/forum/500">Food &amp; Grocery</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975394">How to Pick a Real Estate Agent to Be Your Property Manager in Victoria 2026?</a></span></td><td class="replies">18</td><td class="created"><img src="https://files.ozbargain.com.au/u/96/260496-20.jpg?h=8696de54" alt="" width="20" height="20" class="usericon"/> <a href="/user/260496" title="View user profile." onclick="return OzB.user_tooltip(this)">AFOS</a><div>17/09/2026</div></td><td class="data"><a href="/forum/42">Home &amp; Garden</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975381">eBay Message about LEDVANCE Product Recall</a></span><br/><span class="domain">eBay Australia</span></td><td class="replies">2</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/157495" title="View user profile." onclick="return OzB.user_tooltip(this)">banana365</a><div>17/09/2026</div></td><td class="data"><a href="/forum/38182">Electrical &amp; Electronics</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975372">Charger with Recovery</a></span></td><td class="replies">25</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/27221" title="View user profile." onclick="return OzB.user_tooltip(this)">weezlebub</a><div>17/09/2026</div></td><td class="data"><a href="/forum/30">Automotive</a></td></tr>
+<tr><td class="topic"><i class="fa fa-bar-chart fa-fw forum-poll" title="Poll"></i> <span class="title"><a href="/node/975349">How Likely Will RBA Hike after The Meeting in September</a></span></td><td class="replies">89</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/466029" title="View user profile." onclick="return OzB.user_tooltip(this)">nned2say</a><div>17/09/2026</div></td><td class="data"><a href="/forum/38183">Financial</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975331">Insta360 X6 or DJI Osmo 360 2 - Please Help</a></span></td><td class="replies">2</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/358917" title="View user profile." onclick="return OzB.user_tooltip(this)">kerserlilwayne</a><div>16/09/2026</div></td><td class="data"><a href="/forum/1341">Find Me A Bargain</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975330">Normcore Coffee Relabeled?</a></span><br/><span class="domain">Normcore Coffee Roasters</span></td><td class="replies">3</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/407105" title="View user profile." onclick="return OzB.user_tooltip(this)">darkkito</a><div>16/09/2026</div></td><td class="data"><a href="/forum/500">Food &amp; Grocery</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975327">Looking for 0.25kg Weight Plates for Dumbbells</a></span></td><td class="replies">6</td><td class="created"><img src="https://files.ozbargain.com.au/u/92/71892-20.jpg?h=daa90bb3" alt="" width="20" height="20" class="usericon"/> <a href="/user/71892" title="View user profile." onclick="return OzB.user_tooltip(this)">ubor</a><div>16/09/2026</div></td><td class="data"><a href="/forum/533">Sports &amp; Outdoors</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975324">Popcar to Shut Its Doors at The End of The Month</a></span><br/><span class="domain">Popcar</span></td><td class="replies">17</td><td class="created"><img src="https://files.ozbargain.com.au/u/15/498615-20.jpg?h=2a1b76fa" alt="" width="20" height="20" class="usericon"/> <a href="/user/498615" title="View user profile." onclick="return OzB.user_tooltip(this)">BestTechAdvisor</a><div>16/09/2026</div></td><td class="data"><a href="/forum/30">Automotive</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975310">Mutebo, Spjubuto or an Alternative Steam Oven - Any Feedback?</a></span></td><td class="replies">1</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/302209" title="View user profile." onclick="return OzB.user_tooltip(this)">chimmez</a><div>16/09/2026</div></td><td class="data"><a href="/forum/42">Home &amp; Garden</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975290">Starcraft Is Back! but Not as You Expected</a></span></td><td class="replies">21</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/28079" title="View user profile." onclick="return OzB.user_tooltip(this)">edisonAU</a><div>16/09/2026</div></td><td class="data"><a href="/forum/40715">Gaming</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975287">Fetch TV Discontinuing Old Mighty/Mini STBs</a></span><br/><span class="domain">Fetch</span></td><td class="replies">89</td><td class="created"><img src="https://files.ozbargain.com.au/u/73/395173-20.jpg?h=06a5ad8a" alt="" width="20" height="20" class="usericon"/> <a href="/user/395173" title="View user profile." onclick="return OzB.user_tooltip(this)">scaryspace</a><div>16/09/2026</div></td><td class="data"><a href="/forum/546">Entertainment</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975279">The Difference between Mobile Phones and Touch Screens in Cars</a></span></td><td class="replies">24</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/436117" title="View user profile." onclick="return OzB.user_tooltip(this)">Clickbait</a><div>16/09/2026</div></td><td class="data"><a href="/forum/30">Automotive</a></td></tr>
+<tr><td class="topic"><i class="fa fa-bar-chart fa-fw forum-poll" title="Poll"></i> <span class="title"><a href="/node/975276">Which Chocolate Are You Choosing in The Ferrero Collection Rocher Raffaello Rondnoir Chocolate Gift Box 24 Pack | 269g?</a></span></td><td class="replies">22</td><td class="created"><img src="https://files.ozbargain.com.au/u/92/536992-20.jpg?h=0ff9eea8" alt="" width="20" height="20" class="usericon"/> <a href="/user/536992" title="View user profile." onclick="return OzB.user_tooltip(this)">kaybrr</a><div>16/09/2026</div></td><td class="data"><a href="/forum/500">Food &amp; Grocery</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975274">OzBargain.com.au - Unclaimed On BrandFetch</a></span><br/><span class="domain">brandfetch.com</span></td><td class="replies">26</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/200630" title="View user profile." onclick="return OzB.user_tooltip(this)">whyisave</a><div>16/09/2026</div></td><td class="data"><a href="/forum/5">Site Discussion</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975267">Glare Reduction Screen Protectors for iPad?</a></span></td><td class="replies">12</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/618471" title="View user profile." onclick="return OzB.user_tooltip(this)">Bonita737</a><div>16/09/2026</div></td><td class="data"><a href="/forum/38181">Computing</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975266">Cue and Veronika Maine in Voluntary Administration</a></span><br/><span class="domain">Cue</span></td><td class="replies">10</td><td class="created"><img src="https://files.ozbargain.com.au/u/83/183-20.jpg?h=6f7f365c" alt="" width="20" height="20" class="usericon"/> <a href="/user/183" title="View user profile." onclick="return OzB.user_tooltip(this)">neil</a><div>16/09/2026</div></td><td class="data"><a href="/forum/540">Fashion &amp; Apparel</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975260">Where to Buy an Affordable Suit Plus Tailoring in Melbourne?</a></span></td><td class="replies">19</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/618471" title="View user profile." onclick="return OzB.user_tooltip(this)">Bonita737</a><div>16/09/2026</div></td><td class="data"><a href="/forum/540">Fashion &amp; Apparel</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975259">DJI Osmo 360 2 vs Insta360 X6</a></span></td><td class="replies">4</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/358917" title="View user profile." onclick="return OzB.user_tooltip(this)">kerserlilwayne</a><div>16/09/2026</div></td><td class="data"><a href="/forum/38182">Electrical &amp; Electronics</a></td></tr>
+<tr><td class="topic"><i class="fa fa-bar-chart fa-fw forum-poll" title="Poll"></i> <span class="title"><a href="/node/975254">Why do you neg?</a></span></td><td class="replies">215</td><td class="created"><img src="https://files.ozbargain.com.au/u/32/139032-20.jpg?h=a6e4d766" alt="" width="20" height="20" class="usericon"/> <a href="/user/139032" title="View user profile." onclick="return OzB.user_tooltip(this)">QuickToThePointless</a><div>16/09/2026</div></td><td class="data"><a href="/forum/5">Site Discussion</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975245">Samsung Cold Call Marketing? Anyone Experience It before?</a></span><br/><span class="domain">Samsung</span></td><td class="replies">7</td><td class="created"><img src="https://files.ozbargain.com.au/u/22/253622-20.jpg?h=a86dcd9b" alt="" width="20" height="20" class="usericon"/> <a href="/user/253622" title="View user profile." onclick="return OzB.user_tooltip(this)">ilikeblue</a><div>16/09/2026</div></td><td class="data"><a href="/forum/38182">Electrical &amp; Electronics</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975241">Why Does “Lebanese” in The Fruit &amp; Vegetable Section Apparently Mean “Compact”?</a></span></td><td class="replies">27</td><td class="created"><img src="https://files.ozbargain.com.au/u/92/536992-20.jpg?h=0ff9eea8" alt="" width="20" height="20" class="usericon"/> <a href="/user/536992" title="View user profile." onclick="return OzB.user_tooltip(this)">kaybrr</a><div>16/09/2026</div></td><td class="data"><a href="/forum/500">Food &amp; Grocery</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975222">ShopBack App - &quot;We&#039;ve Detected Unusual Activity and Couldn&#039;t Proceed&quot;</a></span><br/><span class="domain">ShopBack AU</span></td><td class="replies">20</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/19495" title="View user profile." onclick="return OzB.user_tooltip(this)">gadgetguy</a><div>16/09/2026</div></td><td class="data"><a href="/forum/7">General Discussion</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975218">Roadside Assistance for Petrol Car in Gold Coast,  Switch from NRMA to RACQ $80 Plan?</a></span></td><td class="replies">18</td><td class="created"><img src="https://files.ozbargain.com.au/u/74/357474-20.jpg?h=0c4a64f3" alt="" width="20" height="20" class="usericon"/> <a href="/user/357474" title="View user profile." onclick="return OzB.user_tooltip(this)">Techefy</a><div>16/09/2026</div></td><td class="data"><a href="/forum/30">Automotive</a></td></tr>
+<tr><td class="topic"><span class="title"><a href="/node/975196">Ex Wants to Screw Me over Car under Finance</a></span></td><td class="replies">69</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/549585" title="View user profile." onclick="return OzB.user_tooltip(this)">Layah11</a><div>16/09/2026</div></td><td class="data"><a href="/forum/30">Automotive</a></td></tr>
+<tr><td class="topic"><i class="fa fa-lock fa-fw forum-close" title="Closed"></i> <span class="title"><a href="/node/975173">Superloop Price Lock Is Such a Scam. Read T&amp;C Carefully</a></span><br/><span class="domain">Superloop</span></td><td class="replies">33</td><td class="created"><img src="https://files.ozbargain.com.au/g/20.jpg" alt="" width="20" height="20" class="usericon"/> <a href="/user/261317" title="View user profile." onclick="return OzB.user_tooltip(this)">n2h</a><div>15/09/2026</div></td><td class="data"><a href="/forum/50999">Internet</a></td></tr>
+<tr><td colspan="4"><div hx-get="/forum/new?load=0&amp;last=1789463740&amp;lastnid=975173" hx-trigger="revealed" hx-swap="outerHTML" hx-target="closest tr"><div class="loading"><i class="fa fa-spinner fa-spin"></i> Loading...</div></div></td></tr>
+</tbody></table></div>    </div>
+        <div id="sidebar" class="sidebar">
+    <div id="ozbads-0" class="ads adstop" style="height:250px" data-fuse="21737089300"></div><div class="block">
+  <h3 class="blocktitle">Most Commented Forum Topics</h3>  <div class="blockcontent"><div hx-get="/ozbapi/block/forum_most_commented" hx-trigger="load" hx-swap="outerHTML"><div class="loading"><i class="fa fa-spinner fa-spin"></i> Loading...</div></div></div>
+  </div>
+<div class="block">
+  <h3 class="blocktitle">New Forum Topics</h3>  <div class="blockcontent"><div hx-get="/ozbapi/block/forum_new" hx-trigger="load" hx-swap="outerHTML"><div class="loading"><i class="fa fa-spinner fa-spin"></i> Loading...</div></div></div>
+  </div>
+<div id="ozbads-1" class="ads adssidebar2" style="min-height:250px;max-height:600px" data-fuse="21737090299"></div>    </div>
+      </div>
+  <div id="sticky">
+    <div class="btns"><div class="btngrp btngrp-tight"><a href="#" class="btn"><i class="fa fa-fw fa-arrow-up"></i></a></div></div>
+    <div id="ozbads-2" class="ads adssticky" style="height:90px" data-fuse="22507635528"></div>  </div>
+</main>
+<footer id="footer">
+  <div class="wrap flex">
+    <div class="main">
+      <section>
+        <h3>OzBargain</h3>
+        <ul class="links">
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="/wiki/help:start">Help</a></li>
+          <li class="nomobile"><a href="/wiki/help:advertise">Advertise</a></li>
+          <li class="nomobile"><a href="/badge">Badges</a></li>
+          <li><a href="/deal-alerts">Deal Alerts</a></li>
+          <li><a href="/wiki/help:terms">Terms of Use</a></li>
+          <li class="nomobile"><a href="/wiki/help:privacy_policy">Privacy Policy</a></li>
+                    <li><a href="/api/mobile/setfullsite?mobile=1" rel="nofollow">Mobile Site</a></li>
+                  </ul>
+      </section>
+      <section>
+        <h3>Statistics</h3>
+        <ul class="links">
+<li><i class="fa fa-users fa-fw"></i> Online <b>1,369</b> users <b>4,321</b> guests</li>
+<li><i class="fa fa-shopping-cart fa-fw"></i> <b>546,342</b> deals <b>77,016</b> comps</li>
+<li><i class="fa fa-comments fa-fw"></i> <b>17,900,782</b> comments</li>
+</ul>
+      </section>
+      <section>
+        <h3>Network</h3>
+        <ul class="links">
+          <li><a href="https://www.ozbargain.com.au/"><img src="/files/flags/au.png?v=1" alt="Au"/> OzBargain</a></li>
+          <li><a href="https://www.cheapies.nz/"><img src="/files/flags/nz.png?v=1" alt="NZ"/> ChoiceCheapies</a></li>
+          <li><a href="https://www.couponese.com/"><i class="fa fa-shopping-cart"></i> Couponese</a></li>
+        </ul>
+      </section>
+      <section>
+        <p>All trademarks are owned by their respective owners.<br/>OzBargain is an independent community website which has no association with nor endorsement by the respective trademark owners.</p>
+        <p>Copyright &copy; 2006-2026 OzBargain ABN: 26 144 073 772</p>
+      </section>
+    </div>
+    <div class="sidebar">
+      <section>
+        <h3>Follow Us</h3>
+        <ul class="links follow">
+          <li><a href="/deals/feed" title="RSS deal feed"><i class="fa fa-fw fa-rss"></i></a></li>
+          <li><a href="https://www.facebook.com/ozbargain" rel="noopener nofollow" title="Follow us on Facebook" target="_blank"><i class="fa fa-fw fa-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/ozbargain/" title="Follow us on Instagram" target="_blank" rel="noopener nofollow"><i class="fa fa-fw fa-instagram"></i></a></li>
+          <li><a href="https://t.me/OzBargain_Deals" title="Follow us on Telegram" target="_blank" rel="noopener nofollow"><i class="fa fa-fw fa-telegram"></i></a></li>
+        </ul>
+      </section>
+      <section>
+        <h3 class="nomobile">Extras</h3>
+        <ul class="nomobile links follow">
+          <li><a href="https://chromewebstore.google.com/detail/ozbargain/dboidbfhpboiifnlbmmcocipjbkdodpg" rel="nofollow"><i class="fa fa-fw fa-chrome"></i></a></li>
+          <li><a href="https://addons.mozilla.org/en-US/firefox/addon/ozbargain/" rel="nofollow"><i class="fa fa-fw fa-firefox"></i></a></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</footer>
+<script>OzB.onload(function(){try{OzB.ads.done({"adsense":[],"slots":[{"name":"OzBargain_Forum_Mrec1_Right","sizes":[[300,250]],"id":"ozbads-0"},{"name":"OzBargain_Forum_Mrec2_Right","sizes":[[300,600],[300,250]],"id":"ozbads-1","sticky":1},{"name":"OzBargain_Desktop_Sticky","sizes":[[728,90]],"id":"ozbads-2"}],"targeting":[["site","OzBargain"]]});}catch(e){console.log('AdB detected.');}});</script>
+</body>
+</html>
+<!-- Timer: 0.120 sec -->
